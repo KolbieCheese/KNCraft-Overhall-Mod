@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betterminecarts"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "pamhc2foodcore:cookingoilitem"
+    },
+    {
+      "item": "pamhc2foodcore:cookingoilitem"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "betterminecarts:bio_diesel_fuel",
+    "count": 1
+  }
+}

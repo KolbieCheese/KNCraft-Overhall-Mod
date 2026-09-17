@@ -22,6 +22,10 @@ import net.minecraftforge.registries.ForgeRegistries;
 /** Version-pinned public registry-event integration. Never writes Cold Sweat TOML or armor NBT. */
 public final class ClimateIntegration {
     private static final Set<String> managedMeals = new HashSet<>();
+    private static final Map<String, Double> mealAmounts = new HashMap<>();
+    public static double mealTemperature(ItemStack stack) {
+        return mealAmounts.getOrDefault(ForgeRegistries.ITEMS.getKey(stack.getItem()).toString(), 0.0);
+    }
     private static final List<String> diagnostics = new ArrayList<>();
     public static List<String> diagnostics() { return List.copyOf(diagnostics); }
     private ItemStack item(String id) {
@@ -31,7 +35,7 @@ public final class ClimateIntegration {
     }
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public void load(LoadRegistriesEvent.Pre event) {
-        managedMeals.clear(); diagnostics.clear();
+        managedMeals.clear(); mealAmounts.clear(); diagnostics.clear();
         Set<String> seen = new HashSet<>();
         for (String row : ArchitectureConfig.INSULATORS.get()) {
             try {
@@ -65,6 +69,7 @@ public final class ClimateIntegration {
                 if (data == null) throw new IllegalArgumentException("Cold Sweat rejected " + setting.item());
                 event.addRegistryEntry(ModRegistries.FOOD_DATA, data);
                 managedMeals.add(setting.item());
+                mealAmounts.put(setting.item(), setting.amount());
             } catch (RuntimeException ex) { diagnostics.add("Rejected meal: " + row + " (" + ex.getMessage() + ")"); }
         }
         diagnostics.add("Managed thermal meals: " + managedMeals.size() + "; one shared effect, newest replaces previous");

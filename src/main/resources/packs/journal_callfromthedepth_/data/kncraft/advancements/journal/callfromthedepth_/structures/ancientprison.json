@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "visit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "callfromthedepth_:ancientprison"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

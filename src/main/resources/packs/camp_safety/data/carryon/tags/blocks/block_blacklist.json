@@ -1,0 +1,137 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nomadictents:tiny_yurt_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:tiny_tepee_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:tiny_bedouin_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:tiny_indlu_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:tiny_shamiyana_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:small_yurt_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:small_tepee_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:small_bedouin_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:small_indlu_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:small_shamiyana_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:medium_yurt_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:medium_tepee_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:medium_bedouin_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:medium_indlu_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:medium_shamiyana_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:large_yurt_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:large_tepee_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:large_bedouin_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:large_indlu_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:large_shamiyana_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:giant_yurt_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:giant_tepee_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:giant_bedouin_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:giant_indlu_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:giant_shamiyana_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:mega_yurt_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:mega_tepee_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:mega_bedouin_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:mega_indlu_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:mega_shamiyana_door",
+      "required": false
+    },
+    {
+      "id": "nomadictents:door_frame",
+      "required": false
+    },
+    {
+      "id": "cold_sweat:hearth_bottom",
+      "required": false
+    },
+    {
+      "id": "cold_sweat:hearth_top",
+      "required": false
+    }
+  ]
+}

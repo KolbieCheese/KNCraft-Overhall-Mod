@@ -1,0 +1,82 @@
+{
+  "id": "4FBFEB0B49A32938",
+  "filename": "kncraft_pamhc2foodcore_supplies",
+  "title": "Cooking",
+  "icon": "minecraft:writable_book",
+  "order_index": 113,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "4627CED1470FCC7D",
+      "title": "Equip a kitchen",
+      "icon": "pamhc2foodcore:potitem",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Have this supply in your ordinary inventory. The item is not consumed.",
+        "",
+        "Field Guide: Pam's HarvestCraft. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "45A691D4CBA840E0",
+          "type": "advancement",
+          "advancement": "kncraft:journal/pamhc2foodcore/supplies/potitem",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4C7D2C72A240929D",
+      "title": "Prepare warming food",
+      "icon": "pamhc2foodcore:stewitem",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Have this supply in your ordinary inventory. The item is not consumed.",
+        "",
+        "Field Guide: Pam's HarvestCraft. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4767D361EB9A8F7C",
+          "type": "advancement",
+          "advancement": "kncraft:journal/pamhc2foodcore/supplies/stewitem",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4BDAC3441302E271",
+      "title": "Prepare cooling food",
+      "icon": "pamhc2foodcore:icecreamitem",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Have this supply in your ordinary inventory. The item is not consumed.",
+        "",
+        "Field Guide: Pam's HarvestCraft. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "41E9BB0636260882",
+          "type": "advancement",
+          "advancement": "kncraft:journal/pamhc2foodcore/supplies/icecreamitem",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

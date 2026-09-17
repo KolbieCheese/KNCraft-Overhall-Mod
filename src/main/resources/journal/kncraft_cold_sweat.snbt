@@ -1,0 +1,289 @@
+{
+  "id": "40586D504A05E8B2",
+  "filename": "kncraft_cold_sweat",
+  "title": "Climate & Shelter",
+  "icon": "minecraft:writable_book",
+  "order_index": 104,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "42B5DB73E12FB80E",
+      "title": "Follow the Leader",
+      "icon": "minecraft:compass",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Follow a chameleon's tail to find a new biome",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "481153B45CF9984F",
+          "type": "advancement",
+          "advancement": "cold_sweat:chameleon_find_biome",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D7AB5BB358EFD97",
+      "title": "Desperate Measures",
+      "icon": "minecraft:flint_and_steel",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Set yourself on fire to prevent freezing to death",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E14113C70F529B5",
+          "type": "advancement",
+          "advancement": "cold_sweat:desperate_measures",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46860DBB50E5DE3A",
+      "title": "Inhospitable",
+      "icon": "minecraft:dead_bush",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Find a place that's too hot or cold to survive",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43C015B0379EF415",
+          "type": "advancement",
+          "advancement": "cold_sweat:extreme_temps",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "466FB565AB86A426",
+      "title": "Borrowed Time",
+      "icon": "cold_sweat:soulspring_lamp",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "Fuel the soulspring lamp by clicking it with fuel in your inventory",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "41200F990042B7A6",
+          "type": "advancement",
+          "advancement": "cold_sweat:fuel_soul_lamp",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F389081868E4F19",
+      "title": "Head to Toe",
+      "icon": "minecraft:leather_chestplate",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Wear a suit of fully insulated armor",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "434983C44E3060A2",
+          "type": "advancement",
+          "advancement": "cold_sweat:full_insulation",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D8044037BE008EA",
+      "title": "Soul of the Sea",
+      "icon": "minecraft:heart_of_the_sea",
+      "x": 10.0,
+      "y": 0.0,
+      "description": [
+        "Using a Heart of the Sea, craft a Soulspring Lamp, a vital tool against the Nether's inferno",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "488B048E73AF91BE",
+          "type": "advancement",
+          "advancement": "cold_sweat:get_soul_lamp",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42948BF8785D4DC8",
+      "title": "Huddle Close",
+      "icon": "minecraft:campfire",
+      "x": 12.0,
+      "y": 0.0,
+      "description": [
+        "Stand next to a block to warm up",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4481075691DCDBA8",
+          "type": "advancement",
+          "advancement": "cold_sweat:huddle_close",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40B3225810C6B599",
+      "title": "Lining Up",
+      "icon": "minecraft:leather",
+      "x": 0.0,
+      "y": 2.0,
+      "description": [
+        "Insulate a piece of armor to protect yourself from the elements",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "45CD1ACB1B9E3D93",
+          "type": "advancement",
+          "advancement": "cold_sweat:insulate_armor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B6C364F453FD202",
+      "title": "The Pit of Fire",
+      "icon": "minecraft:lava_bucket",
+      "x": 2.0,
+      "y": 2.0,
+      "description": [
+        "Stand next to a sea of lava",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C8B272F05B781F9",
+          "type": "advancement",
+          "advancement": "cold_sweat:lava_sea",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4116D6B67256DD50",
+      "title": "The Great Leon",
+      "icon": "cold_sweat:chameleon_molt",
+      "x": 4.0,
+      "y": 2.0,
+      "description": [
+        "Tame a chameleon. They're useful for exploration and double as a hat",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4F51BD6199F47DC8",
+          "type": "advancement",
+          "advancement": "cold_sweat:tame_chameleon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4C9F33FA692919EC",
+      "title": "Home Sweet Home",
+      "icon": "cold_sweat:hearth",
+      "x": 6.0,
+      "y": 2.0,
+      "description": [
+        "Use a hearth to stay safe in your base",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "428A429FD18E1652",
+          "type": "advancement",
+          "advancement": "cold_sweat:use_hearth",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AF5C7A3E3011378",
+      "title": "Getting Cozy",
+      "icon": "cold_sweat:smokestack",
+      "x": 8.0,
+      "y": 2.0,
+      "description": [
+        "Put a smokestack on a boiler or icebox to make an area more livable",
+        "",
+        "Field Guide: Cold Sweat. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "462ACCA18F98C849",
+          "type": "advancement",
+          "advancement": "cold_sweat:use_smokestack",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

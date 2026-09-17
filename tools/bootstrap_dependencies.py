@@ -1,49 +1,53 @@
-"""Copy hash-verified build inputs from a legally installed KNCraft profile.
+"""Prepare checksum-pinned build inputs from a local pack or official download URLs.
 
-Usage: python tools/bootstrap_dependencies.py --instance PATH
-Never downloads, redistributes or edits the supplied profile.
+Only libs/ is written. Third-party JARs are never bundled in our release.
 """
 import argparse
 import hashlib
+import io
 import json
 from pathlib import Path
+import urllib.request
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUTS = {
-    "immersive-portals-3.0.7-all.jar": "immersiveportals-3.0.7.jar",
-    "Nomadic-Tents-20.1.1.jar": "nomadictents-20.1.1.jar",
-    "weather2-1.20.1-2.8.3.jar": "weather2-2.8.3.jar",
-    "ColdSweat-2.4.3.jar": "coldsweat-2.4.3.jar",
-}
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--instance", required=True, type=Path)
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument('--instance', type=Path)
+    mode.add_argument('--download', action='store_true')
+    parser.add_argument('--refresh', action='store_true', help='Verify a fresh download even when the cached input matches')
     args = parser.parse_args()
-    inventory = json.loads((ROOT / "reference/handoff/live-reference/gameplay-mod-inventory.json").read_text())
-    hashes = {m["filename"]: m["sha256"] for m in inventory["mods"]}
-    destination = ROOT / "libs"
+    destination = ROOT / 'libs'
     destination.mkdir(exist_ok=True)
     report = []
-    for name, target in INPUTS.items():
-        data = (args.instance / "mods" / name).read_bytes()
+    for spec in json.loads((ROOT / 'docs/Build-Inputs.json').read_text())['inputs']:
+        target = destination / spec['target']
+        if args.instance:
+            data = (args.instance / 'mods' / spec['source']).read_bytes()
+        elif not args.refresh and target.is_file() and hashlib.sha256(target.read_bytes()).hexdigest() == spec['sha256']:
+            data = target.read_bytes()
+        else:
+            request = urllib.request.Request(spec['url'], headers={'User-Agent':'KNCraftCompatibility-build/1.0'})
+            with urllib.request.urlopen(request, timeout=120) as response:
+                data = response.read()
         digest = hashlib.sha256(data).hexdigest()
-        if digest != hashes[name]:
-            raise SystemExit("Hash mismatch for " + name + "; do not upgrade pinned inputs silently")
-        (destination / target).write_bytes(data)
-        report.append({"source": name, "file": target, "sha256": digest})
-        if name == "Nomadic-Tents-20.1.1.jar":
-            with zipfile.ZipFile(args.instance / "mods" / name) as jar:
-                meta = json.loads(jar.read("META-INF/jarjar/metadata.json"))
-                entries = [j for j in meta["jars"] if "infiniverse" in j["path"].lower()]
-                if len(entries) != 1:
-                    raise SystemExit("Expected exactly one nested Infiniverse")
-                nested = jar.read(entries[0]["path"])
-                (destination / "infiniverse-1.0.0.5.jar").write_bytes(nested)
-                report.append({"source": name + "!/" + entries[0]["path"], "file": "infiniverse-1.0.0.5.jar", "sha256": hashlib.sha256(nested).hexdigest()})
-    (destination / "verified-inputs.json").write_text(json.dumps(report, indent=2) + "\n")
-    print(json.dumps(report, indent=2))
+        if digest != spec['sha256']:
+            raise SystemExit('Hash mismatch for ' + spec['source'] + '; refusing an unreviewed dependency')
+        print('Verified', spec['source'], flush=True)
+        target.write_bytes(data)
+        report.append({'source':spec['source'],'file':spec['target'],'sha256':digest})
+        if spec['source'] == 'Nomadic-Tents-20.1.1.jar':
+            with zipfile.ZipFile(io.BytesIO(data)) as jar:
+                meta = json.loads(jar.read('META-INF/jarjar/metadata.json'))
+                entries = [j for j in meta['jars'] if 'infiniverse' in j['path'].lower()]
+                if len(entries) != 1: raise SystemExit('Expected exactly one nested Infiniverse')
+                nested = jar.read(entries[0]['path'])
+                (destination / 'infiniverse-1.0.0.5.jar').write_bytes(nested)
+                report.append({'source':spec['source']+'!/'+entries[0]['path'], 'file':'infiniverse-1.0.0.5.jar',
+                               'sha256':hashlib.sha256(nested).hexdigest()})
+    (destination / 'verified-inputs.json').write_text(json.dumps(report,indent=2)+'\n')
+    print('Prepared',len(report),'verified build inputs')
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__': main()

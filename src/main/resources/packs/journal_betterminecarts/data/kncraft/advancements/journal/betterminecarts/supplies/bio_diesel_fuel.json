@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterminecarts:bio_diesel_fuel"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

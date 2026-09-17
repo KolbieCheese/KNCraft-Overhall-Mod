@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "visit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "towns_and_towers:pillager_outpost_snowy_taiga"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

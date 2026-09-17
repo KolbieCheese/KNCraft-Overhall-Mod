@@ -12,7 +12,7 @@ public final class ArchitectureConfig {
     public static final ForgeConfigSpec.ConfigValue<java.util.List<? extends String>> FOODS;
     static {
         var b = new ForgeConfigSpec.Builder();
-        b.comment("KNCraft Architecture. Restart after changes. Survival additions are opt-in.");
+        b.comment("KNCraft Compatibility. Restart after changes. Existing administrator settings are preserved.");
         b.push("parity");
         NATIVE_PORTALS = b.define("nativePortalLighting", true);
         TENTS = b.comment("Disabling entrances keeps the tent dimension acknowledgement repair active.").define("immersiveTentEntrances", true);
@@ -23,10 +23,10 @@ public final class ArchitectureConfig {
         ITEM_SELECTION = b.define("itemSelection", true);
         TORNADO_QUERY = b.define("tornadoQuery", true);
         b.pop().push("cohesion");
-        COTTON = b.define("cottonInsulation", false);
-        WILDLIFE = b.define("wildlifeInsulation", false);
-        MEALS = b.define("thermalMeals", false);
-        FIBERS = b.define("fiberRecipes", false);
+        COTTON = b.define("cottonInsulation", true);
+        WILDLIFE = b.define("wildlifeInsulation", true);
+        MEALS = b.define("thermalMeals", true);
+        FIBERS = b.define("fiberRecipes", true);
         INSULATORS = b.comment("group|item_id|item or armor|cold|heat. Invalid rows are rejected in the status report. Existing Cold Sweat entries take precedence.")
             .defineListAllowEmpty(java.util.List.of("insulators"), java.util.List.of(
                 "cotton|pamhc2crops:cottonitem|item|1|0.5",

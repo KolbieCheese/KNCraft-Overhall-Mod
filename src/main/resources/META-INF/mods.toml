@@ -4,8 +4,15 @@ license="MIT (original helper declarations); see NOTICE.md"
 [[mods]]
 modId="kncraft"
 version="${file.jarVersion}"
-displayName="KNCraft Architecture"
-description="Unified KNCraft gameplay integrations and Field Guide. Install the matching build on server and clients."
+displayName="KNCraft Compatibility"
+description="Connects KNCraft's survival, farming, exploration, equipment and travel mods into a cohesive pack, with an integrated Field Guide and accomplishment journal. Install the matching build on server and clients."
+
+[[dependencies.kncraft]]
+modId="carryon"
+mandatory=false
+versionRange="[2.1.2.7]"
+ordering="AFTER"
+side="BOTH"
 
 [[dependencies.kncraft]]
 modId="forge"
@@ -74,5 +81,33 @@ side="BOTH"
 modId="cold_sweat"
 mandatory=false
 versionRange="[2.4.3]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.kncraft]]
+modId="more_enchantments"
+mandatory=false
+versionRange="[1.4.3]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.kncraft]]
+modId="elytraslot"
+mandatory=false
+versionRange="[6.4.4+1.20.1]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.kncraft]]
+modId="bettercombat"
+mandatory=false
+versionRange="[1.9.0+1.20.1]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.kncraft]]
+modId="sophisticatedcore"
+mandatory=false
+versionRange="[1.5.1.2335]"
 ordering="AFTER"
 side="BOTH"

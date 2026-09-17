@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aether"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "aether:skyroot_milk_bucket"
+    }
+  ],
+  "result": {
+    "item": "pamhc2foodcore:freshmilkitem",
+    "count": 8
+  }
+}

@@ -27,6 +27,13 @@
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)"
     },
     {
+      "type": "patchouli:kn_text",
+      "heading": "Safe new arrivals",
+      "body": "The normal igniter can create an immersive Depths route. New destination frames and landing rooms stay between Y=5 and Y=122 and avoid occupied or unsafe space. Existing portals stay where they were built; failed conversion keeps normal travel.",
+      "anchor": "kncraft_portal",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths)Chapter$(/l)"
+    },
+    {
       "type": "patchouli:crafting",
       "recipe": "callfromthedepth_:depthkeycraft",
       "anchor": "recipe_callfromthedepth__depthkeycraft",
@@ -89,13 +96,6 @@
       ],
       "text": "Next chapter first; previous chapter below.",
       "anchor": "depths_end"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Prepare for travel",
-      "body": "$(l:patchouli:chapters/architecture#depth)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
-      "navigation": "$(l:patchouli:guide)Book$(/l)",
-      "anchor": "architecture"
     }
   ],
   "extra_recipe_mappings": {}

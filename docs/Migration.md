@@ -9,7 +9,7 @@ With the server/game stopped, snapshot the world, `config/`, `defaultconfigs/`, 
 `serverconfig/`, external guide declaration, and exact mod/datapack set. Store backups outside
 active `mods/` and `datapacks/` directories.
 
-Replace these three JARs with **one** `KNCraft-Architecture-0.2.0.jar`:
+Replace these three JARs with **one** `KNCraftCompatibilityMod-<version>.jar`:
 
 - `KNCraftNativePortals-1.1.0.jar`
 - `KNCraftTentPortals-1.0.1.jar`
@@ -31,7 +31,7 @@ handoff inventory and `docs/Testing-Mods.json` to compare actual artifacts. Keep
 Retain Waystones' creative-only and generated-stone protection settings; the exact four-key
 fragment is in `pack-overrides/`.
 
-Install the matching Architecture JAR on clients too. Patchouli must remain in the pack for
+Install the matching Compatibility JAR on clients too. Patchouli must remain in the pack for
 the Field Guide; it is an upstream dependency, not embedded in Architecture.
 
 ## Guide migration
@@ -57,10 +57,37 @@ If `config/kncraft-common.toml` does not exist, the four old helper boolean sett
 once. Originals remain untouched and backups go into `config/kncraft-migration-v1/`, with schema
 version 1. If the unified config already exists, it wins. No upstream configuration is rewritten.
 
-Start with cohesion options disabled. Inspect `/kncraft status`, portal lighting/travel, tent
-ownership/content and protected Waystones. Restart and verify persistence. Then enable desired
-cohesion options, restart and test sewing, meals, crafting, JEI and the guide. Module switches
-require restart; changing a config while running is not a supported pack-switching workflow.
+Version 1.0 enables cohesive defaults on fresh installations. An existing 0.2 config is
+preserved: review its cotton, wildlife, meals and fiber switches if those features should
+now be enabled. New switches are in `kncraft-integrations.toml`. Inspect `/kncraft status`
+after restarting; then verify travel, tent contents, equipment and the guide on a test copy.
+Changing a switch while running is not a supported pack-switching workflow.
+
+## Upgrading 0.2 and the accomplishment journal
+
+Replace the single 0.2 Architecture JAR with the matching Compatibility JAR on both sides;
+do not reinstall the three superseded helpers. Internal mod/book/world IDs remain unchanged.
+The guide now puts integration help in its existing chapters and thermal food pages.
+Already resource-backed declarations continue to load bundled content; legacy external
+ones need the migration tool above.
+
+On server start, when FTB Quests is installed, the journal installer adds `kncraft_*.snbt`
+chapters under `config/ftbquests/quests/chapters`. It records owned file hashes in
+`config/kncraft-journal-manifest.json`, preserves edited chapters/root settings, and skips
+conflicting IDs. Player/team progress is never written by the installer. Read its status
+message if a chapter was skipped. Journal files use stable IDs across updates.
+
+`installAccomplishmentJournal=false` stops future installation and the new detection packs.
+It does not delete chapters already installed or erase their progress. To retire a chapter,
+back up the FTB quest folder and remove only the intended `kncraft_*.snbt` while stopped.
+The same applies when removing an optional upstream mod. Existing native advancements can
+count immediately; new structure/kill/inventory detection starts when the update is active.
+FTB's normal team sharing remains in effect.
+
+Tent climate snapshots add only `KNCraftExteriorClimate` to interior door persistent data.
+Unloaded camps keep the last known sample; normal placement updates the entrance source.
+New loot affects unopened/generated loot, and garden coverage applies to newly generated
+chunks. The update does not refill opened chests or regenerate existing terrain.
 
 Serialized fields/IDs and modifier UUIDs are enumerated in `Migration-Manifest.json`. Existing
 portals are never relocated. Existing tent worlds, identities, equipment and inventories are

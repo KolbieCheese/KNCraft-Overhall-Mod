@@ -1,0 +1,31 @@
+{
+  "type": "kncraft:supplies",
+  "profile": "rail",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_enhanced:chests/miners_house"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "structory:mood/miner"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "structory:outcast/generic/miner"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "structory:outcast/mine/loot"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "abridged:chests/badlands_mining"
+        }
+      ]
+    }
+  ]
+}

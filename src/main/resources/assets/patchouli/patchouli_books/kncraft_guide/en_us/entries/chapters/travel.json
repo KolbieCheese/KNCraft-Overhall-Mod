@@ -41,6 +41,27 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Choose the campsite",
+      "body": "Your tent takes its outdoor entrance's ambient temperature. A snowy campsite stays cold inside; a hot campsite still needs cooling. Tent interiors count as enclosed for hearths. Read $(l:patchouli:chapters/cold#kncraft_tent_hearth)tent climate care$(/l) before a long stay.",
+      "anchor": "kncraft_climate",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Entering the tent",
+      "body": "Completed tents support seamless entrances and retain their ownership and contents. If a new entrance stays closed, a connected client may still be loading its dimension. Reconnect a stalled client or use the normal tent door.",
+      "anchor": "kncraft_crossings",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Canvas from cotton",
+      "body": "Surround one wool with eight cotton for tent canvas. This saves crafting steps while retaining the original fiber cost. Plant cotton for a renewable camping supply; find the canvas pattern in JEI.",
+      "anchor": "kncraft_canvas",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Packing and upgrades",
       "body": "Use the Tent Mallet on the door to pack a completed tent. Set it up elsewhere to reach the same interior. Record its Tent ID and keep the item safe. Larger tents use successive size upgrades; later tiers need crossbeams. Tent",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
@@ -51,6 +72,13 @@
       "heading": "Packing and upgrades +...",
       "body": "Shovels add floor layers in order, with higher minimum tent sizes. Read the tooltip for the installed recipe and layer limit before upgrading.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Use the tent door",
+      "body": "Pack and upgrade through the normal Nomadic Tents door. Packing or moving clears the old entrance links; pitching again updates the outside climate source. Keep your route home marked before moving a shared campsite.",
+      "anchor": "kncraft_packing",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -106,6 +134,20 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Food and automatic feeding",
+      "body": "A feeding upgrade avoids KNCraft warming foods while your body is too hot, and cooling foods while too cold. It still honors its food filters and hunger rules. At three hunger icons or fewer, it permits available food to prevent starvation.",
+      "anchor": "kncraft_feeding",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Keep deliberate provisions",
+      "body": "Automatic feeding does not choose the best climate treatment or eat at full hunger. Carry both ordinary food and chosen hot or cold provisions. The default cutoff is body temperature +20 or -20. Check each thermal food in the Cook Book.",
+      "anchor": "kncraft_feeding_limits",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Avoid costly settings",
       "body": "Void upgrades delete matching items. Test a filter with cheap material before carrying valuable loot. Inception allows controlled backpack nesting, not unlimited bags inside bags. Tank and processing upgrades can support a traveling camp, but",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
@@ -116,6 +158,13 @@
       "heading": "Avoid costly settings (cont.)",
       "body": "they need the correct fluids or fuel. Keep a basic hand-carried fallback so one full, misplaced or inaccessible backpack does not stop the entire group.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Keep a totem within reach",
+      "body": "Inventory Totem can consume a totem in your normal player inventory. A totem stored inside a backpack or Curios slot is not part of that search. It prevents a qualifying death; it does not preserve every item after a death that still occurs.",
+      "anchor": "kncraft_totems",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -145,6 +194,13 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Move the whole structure",
+      "body": "Carry On leaves tent doors and both hearth halves in place. Pack tents through their normal door and dismantle hearths normally. Placed Sophisticated Backpacks retain their own pickup rules. Ordinary permitted chests still move with Carry On.",
+      "anchor": "kncraft_safe_carry",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Build a train",
       "body": "Place a locomotive and carts on rails. Set the Crowbar to connection mode by using it on a normal block, then click the carts in sequence without sneaking. The locomotive must be the head. The connecting chain's red marks indicate the tailward",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
@@ -168,6 +224,27 @@
       "heading": "Run the locomotive (cont.)",
       "body": "interface or assigned controls to change speed, reverse, stop, sound the whistle and operate the lamp. Steam idle holds the train while the engine continues working; stopping and shutting down are different tasks.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Farms can fuel the railway",
+      "body": "Two Pam's cooking oil and one glass bottle make one Better Minecarts bio-diesel fuel. The locomotive uses its usual fuel and bottle rules. Grow oil crops, process them in your kitchen, then stock a depot beside the railway.",
+      "anchor": "kncraft_oil_fuel",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A prepared passenger",
+      "body": "Cold Sweat already provides insulated minecarts. Carry climate supplies for the station and the walk beyond the rails. Use freight storage at depots and a backpack for the final part of the trip.",
+      "anchor": "kncraft_rail_climate",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Electric locomotive supply",
+      "body": "This pack's electric locomotive refills on powered rails. Weather2's wind turbine supplies Forge Energy to compatible equipment, but it is not a direct train charger. Plan the track power before starting a long electric route.",
+      "anchor": "kncraft_electric",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_image",
@@ -247,13 +324,6 @@
       ],
       "text": "Next chapter first; previous chapter below.",
       "anchor": "travel_end"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Prepare for travel",
-      "body": "$(l:patchouli:chapters/architecture#canvas)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
-      "navigation": "$(l:patchouli:guide)Book$(/l)",
-      "anchor": "architecture"
     }
   ],
   "extra_recipe_mappings": {}

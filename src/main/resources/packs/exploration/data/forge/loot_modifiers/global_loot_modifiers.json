@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "entries": [
+    "kncraft:pantry",
+    "kncraft:farm",
+    "kncraft:camp",
+    "kncraft:rail"
+  ]
+}

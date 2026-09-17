@@ -1,15 +1,16 @@
 {
   "name": "Honey Muffin",
   "category": "patchouli:cookbook",
-  "icon": "pamhc2foodcore:honeymuffinitem",
+  "icon": "minecraft:wheat",
   "priority": false,
   "sortnum": 0,
   "pages": [
     {
-      "type": "patchouli:crafting",
-      "recipe": "pamhc2foodcore:honeymuffinitem",
-      "anchor": "lookup_recipe_pamhc2foodcore_honeymuffinitem",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "type": "patchouli:kn_text",
+      "heading": "Recipe unavailable",
+      "body": "This Food Core recipe names an item that is absent from the installed version. It has been disabled. Choose another recipe from the Cook Book or JEI; no replacement ingredient or result is required.",
+      "anchor": "kncraft_recipe_note",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)"
     }
   ],
   "extra_recipe_mappings": {}

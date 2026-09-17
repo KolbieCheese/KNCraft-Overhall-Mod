@@ -10,6 +10,13 @@
       "recipe": "pamhc2foodcore:potatosoupitem",
       "anchor": "lookup_recipe_pamhc2foodcore_potatosoupitem",
       "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: +0.2 base temperature for 90 seconds. Warms while the effect lasts. The latest KNCraft thermal meal replaces the previous effect. Normal hunger rules apply. Server settings and tooltips take precedence.",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)"
     }
   ],
   "extra_recipe_mappings": {}

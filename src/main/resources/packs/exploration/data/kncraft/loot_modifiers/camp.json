@@ -1,0 +1,31 @@
+{
+  "type": "kncraft:supplies",
+  "profile": "camp",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_enhanced:chests/pillager_camp/general"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_enhanced:chests/ruined/house"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "structory:mood/taiga"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "structory:mood/snowy"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "structory:outcast/settlement"
+        }
+      ]
+    }
+  ]
+}

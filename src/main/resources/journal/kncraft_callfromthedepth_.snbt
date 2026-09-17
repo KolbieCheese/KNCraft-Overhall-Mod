@@ -1,0 +1,703 @@
+{
+  "id": "4A7972A6F36CA390",
+  "filename": "kncraft_callfromthedepth_",
+  "title": "The Depths",
+  "icon": "minecraft:writable_book",
+  "order_index": 101,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "458316F5CA11FA80",
+      "title": "Anger in the flesh",
+      "icon": "callfromthedepth_:soulofagony",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Get agony soul item",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D549340A88A81DF",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:agony",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "421D06F58D05EEAE",
+      "title": "Stronger than the bedrock!",
+      "icon": "callfromthedepth_:immemorialarmor_helmet",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Collect immemorial armor set",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "459F903D38984106",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:armor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46215976C01C5BC9",
+      "title": "Soul force",
+      "icon": "callfromthedepth_:soulingot",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Get soul ingot",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4958B46FC4AF4E46",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:blade",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "489D6BA0E0899E37",
+      "title": "Interesting stuff",
+      "icon": "callfromthedepth_:depthbrick",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "Get depths stone ingot",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E6E17D07E2B8A32",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:brick",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F01D3068901F23E",
+      "title": "Culinary specialist",
+      "icon": "callfromthedepth_:jawsapplepie",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Cook all the food from the depths",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4BEE0012AE345FEA",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:culinaryspecialist",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49DE5C5930031D9E",
+      "title": "Over the abyss",
+      "icon": "callfromthedepth_:soulofabyss",
+      "x": 10.0,
+      "y": 0.0,
+      "description": [
+        "Get soul of abyss",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49EFE695FFF1D96B",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:deepdarkestspawnfall",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "473D2779811E0D6C",
+      "title": "Exploring the Darkness",
+      "icon": "callfromthedepth_:abyssachieve",
+      "x": 12.0,
+      "y": 0.0,
+      "description": [
+        "Visit all depths biomes",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D3C00214C14E9D6",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:depthsbiomestour",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4442ACA1E858080F",
+      "title": "Ancients world",
+      "icon": "callfromthedepth_:immemorialsword",
+      "x": 0.0,
+      "y": 2.0,
+      "description": [
+        "Depths entrance",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "489E7704244F1840",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:depthsentrance",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44307AC9E546FD58",
+      "title": "Main detail",
+      "icon": "callfromthedepth_:energypowder",
+      "x": 2.0,
+      "y": 2.0,
+      "description": [
+        "Get energy powder",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49BF340E4D85A219",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:flame",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4C86D1CFE461219F",
+      "title": "Flower lover",
+      "icon": "callfromthedepth_:deepflower",
+      "x": 4.0,
+      "y": 2.0,
+      "description": [
+        "Get all depth flowers",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "41F03EBBB62D36B4",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:flowerlover",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FF9FFF3FEF2D964",
+      "title": "Magma mushroom",
+      "icon": "callfromthedepth_:deepmagmamushroom",
+      "x": 6.0,
+      "y": 2.0,
+      "description": [
+        "Get magma mushroom",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4CFF05568AA50CC8",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:getmagmamushroom",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4BD322A93AE0F1BB",
+      "title": "Heated stone",
+      "icon": "callfromthedepth_:heatedstone",
+      "x": 8.0,
+      "y": 2.0,
+      "description": [
+        "Get heated stone",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A421CA0496261CC",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:heatedstonegoal",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4CB26048F2D1D625",
+      "title": "Hymn for the lost souls",
+      "icon": "callfromthedepth_:hymnforthelostsoulsmusicdisc",
+      "x": 10.0,
+      "y": 2.0,
+      "description": [
+        "Get all depths artifacts",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D39F23A7A636434",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:hymnforthelostsoulsgoal",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44B4ED3AF96FD6A5",
+      "title": "Ancient artifact",
+      "icon": "callfromthedepth_:immemorial_debris",
+      "x": 12.0,
+      "y": 2.0,
+      "description": [
+        "Get immemorial debris",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A737EB9D665062E",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:immemorial",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "43B6B0E8858A3A3D",
+      "title": "Dig and forge!",
+      "icon": "callfromthedepth_:immemorialingot",
+      "x": 0.0,
+      "y": 4.0,
+      "description": [
+        "Gei immemorial ingot",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E1AFBBA66B66C62",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:ingot",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44160A327EAC33E1",
+      "title": "Strange biomass",
+      "icon": "minecraft:sculk_catalyst",
+      "x": 2.0,
+      "y": 4.0,
+      "description": [
+        "Get sculk catalyst",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A289859336F34FC",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:key",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40B8F6AFAAE11378",
+      "title": "Lost souls",
+      "icon": "callfromthedepth_:lostsoulitem",
+      "x": 4.0,
+      "y": 4.0,
+      "description": [
+        "Get soul shard",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40615325837FE5E5",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:lostsouls",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "41B063D35371F723",
+      "title": "Marble warrior",
+      "icon": "callfromthedepth_:marblearmor_helmet",
+      "x": 6.0,
+      "y": 4.0,
+      "description": [
+        "Get marble armor set",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4027EB133A50BA5B",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:marblearmorachieve",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "47B77FCC3C9AB164",
+      "title": "Ancient stone",
+      "icon": "callfromthedepth_:marble_gem",
+      "x": 8.0,
+      "y": 4.0,
+      "description": [
+        "Get marble",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4FED2091389D9E20",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:marblegoal",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "420E7D66646F9F6B",
+      "title": "Sorrow memories",
+      "icon": "callfromthedepth_:memoriespain",
+      "x": 10.0,
+      "y": 4.0,
+      "description": [
+        "Collect music disc memories pain",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "44ECC622E1B31953",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:memory",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "460F3CFD6C02FEBC",
+      "title": "Call from the depths",
+      "icon": "callfromthedepth_:depth",
+      "x": 12.0,
+      "y": 4.0,
+      "description": [
+        "Craft Depths key",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "458D2C07353E8909",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:portal_key",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "45F4199E0D5BBA1D",
+      "title": "Alive,but not alive",
+      "icon": "callfromthedepth_:sculkhearth",
+      "x": 0.0,
+      "y": 6.0,
+      "description": [
+        "Get sculk heart",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48D2F7E605BDCA91",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:skulkhearth",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "43B643056CD39636",
+      "title": "Peace of mind",
+      "icon": "callfromthedepth_:soularmor_helmet",
+      "x": 2.0,
+      "y": 6.0,
+      "description": [
+        "Collect soul armor set",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A29D117B87FF82E",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:soularmorchellenge",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A6D07FF6DB42F6A",
+      "title": "Into the darkness",
+      "icon": "callfromthedepth_:soullight",
+      "x": 4.0,
+      "y": 6.0,
+      "description": [
+        "Craft soul lamp",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "47BF72956E7E4AE3",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:soullamp",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49209CA51FBD8470",
+      "title": "Sorrow and corruption",
+      "icon": "callfromthedepth_:soulofsorrow",
+      "x": 6.0,
+      "y": 6.0,
+      "description": [
+        "Get soul of sorrow",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "45DD33723EC32E8E",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:soulofsorrowchallange",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4ACC6E1E38372E5A",
+      "title": "Soul rose",
+      "icon": "callfromthedepth_:soulrose",
+      "x": 8.0,
+      "y": 6.0,
+      "description": [
+        "Get Soul rose",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4EBAAAB889420830",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:soulroseachieve",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "474BEB16FFF92527",
+      "title": "I see the sun again!",
+      "icon": "callfromthedepth_:deepflower",
+      "x": 10.0,
+      "y": 6.0,
+      "description": [
+        "Step out of the depth dimension for the first time",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "47E788DE9CD754D8",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:sunlight",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "48517C9B15E113C2",
+      "title": "Poisonous swamps? I've seen them somewhere...",
+      "icon": "callfromthedepth_:poisonwater_bucket",
+      "x": 12.0,
+      "y": 6.0,
+      "description": [
+        "Visit the acid swamp biome",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40D80C285B6DC46E",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:swampbiome",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42E255F5254F5383",
+      "title": "Toothy ingredient",
+      "icon": "callfromthedepth_:jawsappleeat",
+      "x": 0.0,
+      "y": 8.0,
+      "description": [
+        "Get jaws apple",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "42DDB0C967262C1C",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:toothyingredient",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "491FABF93EDAEAD2",
+      "title": "Soul manipulator",
+      "icon": "callfromthedepth_:transmutationstone",
+      "x": 2.0,
+      "y": 8.0,
+      "description": [
+        "Craft Transmutation stone",
+        "",
+        "Field Guide: Call from the Depths. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4B2B3C8AFA37B487",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:transmutationstonegoal",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

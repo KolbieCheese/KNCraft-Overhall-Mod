@@ -1,0 +1,703 @@
+{
+  "id": "41A724C4F396C834",
+  "filename": "kncraft_aether",
+  "title": "Aether",
+  "icon": "minecraft:writable_book",
+  "order_index": 100,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "479838B3854DE139",
+      "title": "A Well Earned Rest",
+      "icon": "aether:skyroot_bed",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Finally sleep in the Aether",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4EADEE86165AEB01",
+          "type": "advancement",
+          "advancement": "aether:aether_sleep",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49078A49CA9D3B56",
+      "title": "Let's Fly!",
+      "icon": "minecraft:feather",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Ride a Black Moa",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4894A59BC038F96D",
+          "type": "advancement",
+          "advancement": "aether:black_moa",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4581FE8CCA88C17A",
+      "title": "To Infinity and Beyond!",
+      "icon": "aether:blue_aercloud",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Bounce on a Blue Aercloud",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4812C21EDD6ECE8B",
+          "type": "advancement",
+          "advancement": "aether:blue_aercloud",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4DF4845F08BBCC6B",
+      "title": "Like a Bossaru!",
+      "icon": "aether:bronze_dungeon_key",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "Defeat the bronze boss",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4FC8954C4D88DEAF",
+          "type": "advancement",
+          "advancement": "aether:bronze_dungeon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "441022FBE5F54AEF",
+      "title": "Do You Believe in Magic?",
+      "icon": "aether:altar",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Craft an Altar",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4607873318C8FBCA",
+          "type": "advancement",
+          "advancement": "aether:craft_altar",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "478F9197866B3A36",
+      "title": "Pink is the New Blue",
+      "icon": "aether:enchanted_gravitite",
+      "x": 10.0,
+      "y": 0.0,
+      "description": [
+        "Use an Altar to obtain Enchanted Gravitite",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48C439C57AFF4E11",
+          "type": "advancement",
+          "advancement": "aether:enchanted_gravitite",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4BB15BF4BE532020",
+      "title": "Hostile Paradise",
+      "icon": "minecraft:glowstone",
+      "x": 12.0,
+      "y": 0.0,
+      "description": [
+        "Enter the Aether",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D1FB92B8260643A",
+          "type": "advancement",
+          "advancement": "aether:enter_aether",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4681A12226D9294C",
+      "title": "Extinguished",
+      "icon": "aether:gold_dungeon_key",
+      "x": 0.0,
+      "y": 2.0,
+      "description": [
+        "Defeat the gold boss",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4CE3FA238742FF1C",
+          "type": "advancement",
+          "advancement": "aether:gold_dungeon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B2BDEAD28C87ACB",
+      "title": "Defying Gravity",
+      "icon": "aether:gravitite_chestplate",
+      "x": 2.0,
+      "y": 2.0,
+      "description": [
+        "Have a full set of gravitite armor in your inventory",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4BAC21DD7B506B43",
+          "type": "advancement",
+          "advancement": "aether:gravitite_armor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "469466517159567D",
+      "title": "The Power of the Gods",
+      "icon": "aether:hammer_of_kingbdogz",
+      "x": 4.0,
+      "y": 2.0,
+      "description": [
+        "Obtain the Hammer of Kingbdogz from the Bronze Dungeon",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4287FA74EF53F522",
+          "type": "advancement",
+          "advancement": "aether:hammer_loot",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D83EF4B05EC81A6",
+      "title": "Cool Jewelery!",
+      "icon": "aether:ice_pendant",
+      "x": 6.0,
+      "y": 2.0,
+      "description": [
+        "Use a Freezer and Icestone to freeze an accessory",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "42B17781EE05078A",
+          "type": "advancement",
+          "advancement": "aether:ice_accessory",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "45C48C937E89CB5C",
+      "title": "Cold as Ice",
+      "icon": "aether:icestone",
+      "x": 8.0,
+      "y": 2.0,
+      "description": [
+        "Obtain Icestone",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40893B3B876C09B9",
+          "type": "advancement",
+          "advancement": "aether:icestone",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4171901BDCDD3852",
+      "title": "... Until They hatch!",
+      "icon": "aether:incubator",
+      "x": 10.0,
+      "y": 2.0,
+      "description": [
+        "Incubate a Moa",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4B68C874DCEB902F",
+          "type": "advancement",
+          "advancement": "aether:incubate_moa",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "436CE4181F55BEBF",
+      "title": "Challenger to the Throne",
+      "icon": "aether:valkyrie_lance",
+      "x": 12.0,
+      "y": 2.0,
+      "description": [
+        "Obtain the Valkyrie Lance from the Bronze Dungeon. Time to challenge the Silver Dungeon!",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C5EAFCDFFFB4F9E",
+          "type": "advancement",
+          "advancement": "aether:lance_loot",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "401693337D469F2C",
+      "title": "Lore-Ception!",
+      "icon": "aether:book_of_lore",
+      "x": 0.0,
+      "y": 4.0,
+      "description": [
+        "Put a Book of Lore inside a Book of Lore",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4EB4956CBBD8B366",
+          "type": "advancement",
+          "advancement": "aether:loreception",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4CFFF1CD82373526",
+      "title": "When Phygs Fly",
+      "icon": "minecraft:saddle",
+      "x": 2.0,
+      "y": 4.0,
+      "description": [
+        "Fly on a Phyg!",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40EE9FDA2EF815AE",
+          "type": "advancement",
+          "advancement": "aether:mount_phyg",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49670295F2F09BFC",
+      "title": "Ice Bucket Armor",
+      "icon": "aether:obsidian_chestplate",
+      "x": 4.0,
+      "y": 4.0,
+      "description": [
+        "Have a full set of obsidian armor in your inventory",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4AB2E13B6E0C6CDC",
+          "type": "advancement",
+          "advancement": "aether:obsidian_armor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "43408DABD48C2D61",
+      "title": "Don't Count Your Moas...",
+      "icon": "aether:blue_moa_egg",
+      "x": 6.0,
+      "y": 4.0,
+      "description": [
+        "Obtain a Moa Egg",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4475D1AD8B7BE8DD",
+          "type": "advancement",
+          "advancement": "aether:obtain_egg",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "45CC2D7026BF5744",
+      "title": "Baby Food",
+      "icon": "aether:aechor_petal",
+      "x": 8.0,
+      "y": 4.0,
+      "description": [
+        "Harvest an Aechor Petal from an Aechor Plant",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C5F9116AAE12C4E",
+          "type": "advancement",
+          "advancement": "aether:obtain_petal",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4541E0FE717456B0",
+      "title": "Fireproof",
+      "icon": "aether:phoenix_helmet",
+      "x": 10.0,
+      "y": 4.0,
+      "description": [
+        "Obtain a piece of Phoenix armor from the Gold Dungeon",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "430D98E58AD1D1AC",
+          "type": "advancement",
+          "advancement": "aether:phoenix_armor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49245CFE73D05E19",
+      "title": "Tending The Garden",
+      "icon": "aether:purple_flower",
+      "x": 12.0,
+      "y": 4.0,
+      "description": [
+        "Deter Aechor Plants by planting a flower on Enchanted Grass",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4CA4A7DE2E826711",
+          "type": "advancement",
+          "advancement": "aether:prevent_aechor_petal_spawning",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "45AD515576F1A7E6",
+      "title": "Get Off My Lawn!",
+      "icon": "minecraft:black_banner",
+      "x": 0.0,
+      "y": 6.0,
+      "description": [
+        "Deter Swets by placing down a Swet Banner",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "45B9978C0A123254",
+          "type": "advancement",
+          "advancement": "aether:prevent_swet_spawning",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "488CD074E7FB2032",
+      "title": "The More You Know!",
+      "icon": "aether:book_of_lore",
+      "x": 2.0,
+      "y": 6.0,
+      "description": [
+        "Read a Book of Lore",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "41841A425E3521BA",
+          "type": "advancement",
+          "advancement": "aether:read_lore",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46C75465E26393C4",
+      "title": "Battle Hardened",
+      "icon": "aether:regeneration_stone",
+      "x": 4.0,
+      "y": 6.0,
+      "description": [
+        "Obtain a Regeneration Stone from the Silver Dungeon. The final dungeon awaits...",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E25840BAECE62E4",
+          "type": "advancement",
+          "advancement": "aether:regen_stone",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "45FC8ACA2ABA76AB",
+      "title": "Dethroned",
+      "icon": "aether:silver_dungeon_key",
+      "x": 6.0,
+      "y": 6.0,
+      "description": [
+        "Defeat the silver boss",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4BF633D71086CC38",
+          "type": "advancement",
+          "advancement": "aether:silver_dungeon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4617066F419E4289",
+      "title": "The Aether",
+      "icon": "aether:aether_portal_frame",
+      "x": 8.0,
+      "y": 6.0,
+      "description": [
+        "It's not dead!",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E6358E69D626294",
+          "type": "advancement",
+          "advancement": "aether:the_aether",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "458BF6DF54204E79",
+      "title": "Plunderer's Remorse",
+      "icon": "aether:aether_farmland",
+      "x": 10.0,
+      "y": 6.0,
+      "description": [
+        "I defeated the Silver Dungeon and all I got was this stupid Hoe",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4EF2271BBE9A1334",
+          "type": "advancement",
+          "advancement": "aether:valkyrie_hoe",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "463A267A95BEF2B8",
+      "title": "Earning your Wings",
+      "icon": "aether:valkyrie_helmet",
+      "x": 12.0,
+      "y": 6.0,
+      "description": [
+        "Obtain a piece of Valkyrie equipment from the Silver Dungeon",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4DED955D503596F3",
+          "type": "advancement",
+          "advancement": "aether:valkyrie_loot",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "43689FF523A3FF01",
+      "title": "Exotic Hardware",
+      "icon": "aether:zanite_gemstone",
+      "x": 0.0,
+      "y": 8.0,
+      "description": [
+        "Have a Zanite Gemstone in your inventory",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43F200C59E9AF241",
+          "type": "advancement",
+          "advancement": "aether:zanite",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AE1B0EB633BAA9F",
+      "title": "Ultimate Ban Hammer",
+      "icon": "minecraft:snowball",
+      "x": 2.0,
+      "y": 8.0,
+      "description": [
+        "Kill a Zephyr with the Hammer of Kingbdogz. Sweet Revenge!",
+        "",
+        "Field Guide: The Aether. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43F059123DD1D728",
+          "type": "advancement",
+          "advancement": "aether:zephyr_hammer",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

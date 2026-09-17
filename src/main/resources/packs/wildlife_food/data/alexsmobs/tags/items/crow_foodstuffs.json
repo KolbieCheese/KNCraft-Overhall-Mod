@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2crops:blueberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:blackberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:raspberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:strawberryitem",
+      "required": false
+    }
+  ]
+}

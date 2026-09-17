@@ -387,6 +387,34 @@
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
     },
     {
+      "type": "patchouli:kn_text",
+      "heading": "Record the journey",
+      "body": "The FTB journal tracks individual landmarks, bosses and native mod advancements. Structure records update when you enter a landmark after this update. They grant no loot or recipe unlocks. Use them as a travel checklist, at your own pace.",
+      "anchor": "kncraft_journal",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Supplies with a place",
+      "body": "Kitchens and cellars may hold prepared food, farms may hold seeds, camps may hold camping supplies, and mining sites may hold rail supplies. Small additions accompany the normal chest loot. Opened chests are not restocked.",
+      "anchor": "kncraft_loot",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Enchanted travel wings",
+      "body": "More Enchantments flight effects recognize usable wings in Elytra Slot, including Iron and Leaden Wings. If usable wings also occupy your chest slot, those take priority. Each check uses one wing stack; durability stays on the selected wings.",
+      "anchor": "kncraft_wings",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Maintain your equipment",
+      "body": "Easy Anvils removes this pack's Too Expensive limit and softens repeated repair penalties. JRFTL supplies the existing rotten-flesh-to-leather route. Use these workshop options and JEI before discarding useful equipment; no extra salvage recipe is needed.",
+      "anchor": "kncraft_maintenance",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore)Chapter$(/l)"
+    },
+    {
       "type": "patchouli:relations",
       "title": "Continue reading",
       "entries": [

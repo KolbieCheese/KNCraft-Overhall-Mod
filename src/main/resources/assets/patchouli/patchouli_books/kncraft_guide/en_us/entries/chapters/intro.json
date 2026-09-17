@@ -83,6 +83,20 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Your accomplishment journal",
+      "body": "FTB Quests records bosses, discoveries and mod advancements. Choose any entry, in any order. There are no reward chains, recipe locks or item turn-ins. Existing native advancements can count; revisit landmarks to record new discoveries.",
+      "anchor": "kncraft_journal",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Keep this guide",
+      "body": "Craft a book with one paper for this Field Guide. Its chapters explain how the pack works together. Food effects appear beside their Cook Book recipes. Values shown are pack defaults; the server may adjust them. Check item tooltips for active effects.",
+      "anchor": "kncraft_guide",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "When you need help",
       "body": "Use the help form for a server problem and identify KNCraft. Include the location, what happened, and a useful screenshot or error message. Reports are handled by two owners in their spare time; responses can take time. Commands and",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
@@ -115,13 +129,6 @@
       ],
       "text": "Continue with the next chapter.",
       "anchor": "intro_end"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Prepare for travel",
-      "body": "$(l:patchouli:chapters/architecture#contents)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
-      "navigation": "$(l:patchouli:guide)Book$(/l)",
-      "anchor": "architecture"
     }
   ],
   "extra_recipe_mappings": {}

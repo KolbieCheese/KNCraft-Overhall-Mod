@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pamhc2crops:riceitem"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

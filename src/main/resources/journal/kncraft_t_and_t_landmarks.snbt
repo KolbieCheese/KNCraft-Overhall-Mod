@@ -1,0 +1,1370 @@
+{
+  "id": "4A99442DD9D13913",
+  "filename": "kncraft_t_and_t_landmarks",
+  "title": "Towns & Towers Landmarks",
+  "icon": "minecraft:writable_book",
+  "order_index": 108,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "43F13DBD664A1851",
+      "title": "Pillager Outpost Classic",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "469015E90DF01D2B",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_classic",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4C49336A908D8420",
+      "title": "Pillager Outpost Iberian",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "459896A628056258",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_iberian",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49D48D49D0788705",
+      "title": "Pillager Outpost Mediterranean",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "45DB3E14F9F9A7DF",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_mediterranean",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B82F878CE58F463",
+      "title": "Pillager Outpost Oriental",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "42FB30B475A715C7",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_oriental",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42C8F310FD10CA25",
+      "title": "Pillager Outpost Rustic",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4ACA9BAE45A6111F",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_rustic",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A73DB68B397960B",
+      "title": "Pillager Outpost Swedish",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "42843A7800F9692F",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_swedish",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4CE56D89A2F0A496",
+      "title": "Pillager Outpost Tudor",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "458A9B0BB533506C",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_tudor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "497ACA77BCA19DD0",
+      "title": "Village Classic",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4DF903DFC095C9CE",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_classic",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "434F542CF9AB1654",
+      "title": "Village Iberian",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "44133A8D1535B809",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_iberian",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42FEB244E1F757FF",
+      "title": "Village Mediterranean",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4F332CEBCF354874",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_mediterranean",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "45F6B9E55D481F27",
+      "title": "Village Nilotic",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4050F748FC5B6B58",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_nilotic",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4332A97A41776AE7",
+      "title": "Village Piglin",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A90304B46499832",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_piglin",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "473EBC785F079B5E",
+      "title": "Village Rustic",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E12BC7841DE7C4F",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_rustic",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AEB3417199FB72B",
+      "title": "Village Swedish",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "408AE6ACDCB6BEB3",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_swedish",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B81218272DE2F50",
+      "title": "Village Tudor",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49216E15F86D7DB6",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_tudor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4BBA4EC64DBE260D",
+      "title": "Village Wandering Trader Camp",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4B1A4D7A5D052D85",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_wandering_trader_camp",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4ED132968E117CA4",
+      "title": "Mimic Desert",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "475D2315E846D6A0",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/mimic_desert",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49F198EB06684BF0",
+      "title": "Pillager Outpost Badlands",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4ED0A48AE8A4CC38",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_badlands",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4C405D6EB7256ECD",
+      "title": "Pillager Outpost Beach",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "440C71FC14136652",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_beach",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42E2A5FDA42A2A00",
+      "title": "Pillager Outpost Birch Forest",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C40649E2369A353",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_birch_forest",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "442CDBFADE466CEA",
+      "title": "Pillager Outpost Desert",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C784C5A0E5FC98D",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_desert",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49CD1B04E959DD6A",
+      "title": "Pillager Outpost Flower Forest",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4B7CA0D70B7531AD",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_flower_forest",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "408617EDED6E45A3",
+      "title": "Pillager Outpost Forest",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "447A28846F5B53F6",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_forest",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "43F009C9344B5B64",
+      "title": "Pillager Outpost Grove",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4466E4CDC47E8902",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_grove",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FFBB016EBED32A2",
+      "title": "Pillager Outpost Jungle",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4572F08B012553A1",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_jungle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42C8F9F4B039732A",
+      "title": "Pillager Outpost Meadow",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "42BE7C8B75299E90",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_meadow",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "45A9F97ED8D7A18C",
+      "title": "Pillager Outpost Mushroom Fields",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D03B40D9BBD9974",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_mushroom_fields",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F84B46841929A0C",
+      "title": "Pillager Outpost Ocean",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4EE761B16979FED1",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_ocean",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "460D0E7B4A5C15AB",
+      "title": "Pillager Outpost Old Growth Taiga",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 8.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "454C19103398FC2A",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_old_growth_taiga",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4994AAE4E9176111",
+      "title": "Pillager Outpost Savanna",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 8.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "46C23A2F85D805A4",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_savanna",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "475E2E8EBA864878",
+      "title": "Pillager Outpost Savanna Plateau",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 8.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43E8523805339223",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_savanna_plateau",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AC0A70B75E5D83E",
+      "title": "Pillager Outpost Snowy Beach",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 8.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4185FCC0A206C673",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_snowy_beach",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F5AA4D815F85932",
+      "title": "Pillager Outpost Snowy Plains",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 8.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "471FDB87C2BE59D4",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_snowy_plains",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D80F9C15C7E22EB",
+      "title": "Pillager Outpost Snowy Slopes",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 8.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4ADA6961A77F9284",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_snowy_slopes",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46920423EFA6ECD8",
+      "title": "Pillager Outpost Snowy Taiga",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 8.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43E3CD63955CD495",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_snowy_taiga",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "413BD7A456A463D8",
+      "title": "Pillager Outpost Sparse Jungle",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 10.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "41F99EA6416EC762",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_sparse_jungle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B81E11006C1E351",
+      "title": "Pillager Outpost Sunflower Plains",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 10.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4BD3BE5D1C2833D6",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_sunflower_plains",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "409DF28462B89EBC",
+      "title": "Pillager Outpost Swamp",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 10.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4819E5A1132E7C84",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_swamp",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44720BBBCF72678E",
+      "title": "Pillager Outpost Taiga",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 10.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "492963858FC73E93",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_taiga",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F657D543011EAA8",
+      "title": "Pillager Outpost Wooded Badlands",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 10.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A659B20D61D0AE7",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_wooded_badlands",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AA59849D5CF12B9",
+      "title": "Village Badlands",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 10.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "445722B1AD1210F5",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_badlands",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4048560DEAE6EDF1",
+      "title": "Village Beach",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 10.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4ED3E594EA46BFB5",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_beach",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4415A4444FD457D0",
+      "title": "Village Birch Forest",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 12.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C42A844D335A558",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_birch_forest",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4EA14EF9E4B6D6DD",
+      "title": "Village Flower Forest",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 12.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40EA2CA3E7D2C5C0",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_flower_forest",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B26C3FDB2959D52",
+      "title": "Village Forest",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 12.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "406005A9999B6C15",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_forest",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D3F68C7D8219118",
+      "title": "Village Grove",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 12.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "42A14D25A2D80763",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_grove",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A5D1385F613AAB0",
+      "title": "Village Jungle",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 12.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4509AD5B1D288218",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_jungle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40EA726D8E8E4823",
+      "title": "Village Meadow",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 12.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4283B430FB53CC4F",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_meadow",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4520A90E7ADF98AA",
+      "title": "Village Mushroom Fields",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 12.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D34E511AFE1736A",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_mushroom_fields",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44F0E5835FE64720",
+      "title": "Village Ocean",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 14.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "46BD24E8C3F75D10",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_ocean",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44F437C875C2B2B3",
+      "title": "Village Old Growth Taiga",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 14.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4AC955DFB6346506",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_old_growth_taiga",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4EC891A151528CE5",
+      "title": "Village Savanna Plateau",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 14.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4067251B149D3385",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_savanna_plateau",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "45E3CF0FF87B3CE9",
+      "title": "Village Snowy Slopes",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 14.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43333C03FC13A986",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_snowy_slopes",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "41594CE089F791A5",
+      "title": "Village Snowy Taiga",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 14.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4B5E3F96DD662B9E",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_snowy_taiga",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "48D623A7A4A30C43",
+      "title": "Village Sparse Jungle",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 14.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4BD8914A38071C5A",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_sparse_jungle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E4CEA6CC9A95D5C",
+      "title": "Village Sunflower Plains",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 14.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "42A8DFFCE1ABE91B",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_sunflower_plains",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "466FB0A6F5208041",
+      "title": "Village Swamp",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 16.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "461FD3030BFB6967",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_swamp",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "438ABA80CA44F6FA",
+      "title": "Village Wooded Badlands",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 16.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4362C0F2E88E7CFF",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/village_wooded_badlands",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "47FEFB146AD8B0FE",
+      "title": "Wreckage Ocean",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 16.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "447D93A69690316A",
+          "type": "advancement",
+          "advancement": "kncraft:journal/t_and_t/structures/wreckage_ocean",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

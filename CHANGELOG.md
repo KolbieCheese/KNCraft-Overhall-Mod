@@ -1,6 +1,20 @@
 # Changelog
 
-## 0.2.0 — development candidate
+## 1.0.0 â€” cohesion expansion
+
+- Added campsite-derived tent climate and bounded enclosure support for Cold Sweat.
+- Connected cooking ingredients, agricultural rail fuel, prepared juices and Aether freezing,
+  Aether climate equipment, and temperature-aware backpack feeding.
+- Added Elytra Slot flight-enchantment support, a Valkyrie Lance reach profile,
+  absent-owner companion protection, themed exploration supplies, and limited-stock trades.
+- Repaired known Pam's recipes/loot definitions and its missing savanna garden biome tag.
+- Restored merged rail/Depth tags and added Carry On exclusions for tent doors/hearth halves.
+- Added a stable FTB accomplishment journal with no progression gates or rewards.
+- Moved integration help into the existing Field Guide chapters and affected Cook Book pages.
+- Added automatic public-runner builds, sequential release versioning, downloadable JAR/ZIP
+  assets, checksum verification, and expanded isolated test tools.
+
+## 0.2.0 â€” development candidate
 
 - Consolidated three legacy helpers under one Forge identity with version-gated mixins,
   one-time config import, local status diagnostics and duplicate-install/reload protection.
@@ -17,6 +31,6 @@
 - Fixed a config-import temporary filename discovered by a new migration test: NightConfig
   requires the temporary file to retain a `.toml` extension.
 
-Initial parity sources/build were established before survival additions. The current candidate
-starts in parity mode with cohesion switches off. Runtime and physical-client results are
+Initial parity sources/build were established before survival additions. The 0.2 candidate
+started in parity mode with cohesion switches off; 1.0 enables cohesive defaults for fresh installs. Runtime and physical-client results are
 tracked separately in `docs/Validation.md`; this is not a claim of production acceptance.

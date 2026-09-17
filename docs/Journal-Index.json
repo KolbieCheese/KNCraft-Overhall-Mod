@@ -1,0 +1,2040 @@
+{
+  "format": 13,
+  "stable_id_namespace": "kncraft:journal/",
+  "quests": [
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "479838B3854DE139",
+      "title": "A Well Earned Rest",
+      "advancement": "aether:aether_sleep"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "49078A49CA9D3B56",
+      "title": "Let's Fly!",
+      "advancement": "aether:black_moa"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "4581FE8CCA88C17A",
+      "title": "To Infinity and Beyond!",
+      "advancement": "aether:blue_aercloud"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "4DF4845F08BBCC6B",
+      "title": "Like a Bossaru!",
+      "advancement": "aether:bronze_dungeon"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "441022FBE5F54AEF",
+      "title": "Do You Believe in Magic?",
+      "advancement": "aether:craft_altar"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "478F9197866B3A36",
+      "title": "Pink is the New Blue",
+      "advancement": "aether:enchanted_gravitite"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "4BB15BF4BE532020",
+      "title": "Hostile Paradise",
+      "advancement": "aether:enter_aether"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "4681A12226D9294C",
+      "title": "Extinguished",
+      "advancement": "aether:gold_dungeon"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "4B2BDEAD28C87ACB",
+      "title": "Defying Gravity",
+      "advancement": "aether:gravitite_armor"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "469466517159567D",
+      "title": "The Power of the Gods",
+      "advancement": "aether:hammer_loot"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "4D83EF4B05EC81A6",
+      "title": "Cool Jewelery!",
+      "advancement": "aether:ice_accessory"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "45C48C937E89CB5C",
+      "title": "Cold as Ice",
+      "advancement": "aether:icestone"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "4171901BDCDD3852",
+      "title": "... Until They hatch!",
+      "advancement": "aether:incubate_moa"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "436CE4181F55BEBF",
+      "title": "Challenger to the Throne",
+      "advancement": "aether:lance_loot"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "401693337D469F2C",
+      "title": "Lore-Ception!",
+      "advancement": "aether:loreception"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "4CFFF1CD82373526",
+      "title": "When Phygs Fly",
+      "advancement": "aether:mount_phyg"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "49670295F2F09BFC",
+      "title": "Ice Bucket Armor",
+      "advancement": "aether:obsidian_armor"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "43408DABD48C2D61",
+      "title": "Don't Count Your Moas...",
+      "advancement": "aether:obtain_egg"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "45CC2D7026BF5744",
+      "title": "Baby Food",
+      "advancement": "aether:obtain_petal"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "4541E0FE717456B0",
+      "title": "Fireproof",
+      "advancement": "aether:phoenix_armor"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "49245CFE73D05E19",
+      "title": "Tending The Garden",
+      "advancement": "aether:prevent_aechor_petal_spawning"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "45AD515576F1A7E6",
+      "title": "Get Off My Lawn!",
+      "advancement": "aether:prevent_swet_spawning"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "488CD074E7FB2032",
+      "title": "The More You Know!",
+      "advancement": "aether:read_lore"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "46C75465E26393C4",
+      "title": "Battle Hardened",
+      "advancement": "aether:regen_stone"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "45FC8ACA2ABA76AB",
+      "title": "Dethroned",
+      "advancement": "aether:silver_dungeon"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "4617066F419E4289",
+      "title": "The Aether",
+      "advancement": "aether:the_aether"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "458BF6DF54204E79",
+      "title": "Plunderer's Remorse",
+      "advancement": "aether:valkyrie_hoe"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "463A267A95BEF2B8",
+      "title": "Earning your Wings",
+      "advancement": "aether:valkyrie_loot"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "43689FF523A3FF01",
+      "title": "Exotic Hardware",
+      "advancement": "aether:zanite"
+    },
+    {
+      "chapter": "kncraft_aether.snbt",
+      "quest": "4AE1B0EB633BAA9F",
+      "title": "Ultimate Ban Hammer",
+      "advancement": "aether:zephyr_hammer"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "458316F5CA11FA80",
+      "title": "Anger in the flesh",
+      "advancement": "callfromthedepth_:agony"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "421D06F58D05EEAE",
+      "title": "Stronger than the bedrock!",
+      "advancement": "callfromthedepth_:armor"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "46215976C01C5BC9",
+      "title": "Soul force",
+      "advancement": "callfromthedepth_:blade"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "489D6BA0E0899E37",
+      "title": "Interesting stuff",
+      "advancement": "callfromthedepth_:brick"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "4F01D3068901F23E",
+      "title": "Culinary specialist",
+      "advancement": "callfromthedepth_:culinaryspecialist"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "49DE5C5930031D9E",
+      "title": "Over the abyss",
+      "advancement": "callfromthedepth_:deepdarkestspawnfall"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "473D2779811E0D6C",
+      "title": "Exploring the Darkness",
+      "advancement": "callfromthedepth_:depthsbiomestour"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "4442ACA1E858080F",
+      "title": "Ancients world",
+      "advancement": "callfromthedepth_:depthsentrance"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "44307AC9E546FD58",
+      "title": "Main detail",
+      "advancement": "callfromthedepth_:flame"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "4C86D1CFE461219F",
+      "title": "Flower lover",
+      "advancement": "callfromthedepth_:flowerlover"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "4FF9FFF3FEF2D964",
+      "title": "Magma mushroom",
+      "advancement": "callfromthedepth_:getmagmamushroom"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "4BD322A93AE0F1BB",
+      "title": "Heated stone",
+      "advancement": "callfromthedepth_:heatedstonegoal"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "4CB26048F2D1D625",
+      "title": "Hymn for the lost souls",
+      "advancement": "callfromthedepth_:hymnforthelostsoulsgoal"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "44B4ED3AF96FD6A5",
+      "title": "Ancient artifact",
+      "advancement": "callfromthedepth_:immemorial"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "43B6B0E8858A3A3D",
+      "title": "Dig and forge!",
+      "advancement": "callfromthedepth_:ingot"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "44160A327EAC33E1",
+      "title": "Strange biomass",
+      "advancement": "callfromthedepth_:key"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "40B8F6AFAAE11378",
+      "title": "Lost souls",
+      "advancement": "callfromthedepth_:lostsouls"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "41B063D35371F723",
+      "title": "Marble warrior",
+      "advancement": "callfromthedepth_:marblearmorachieve"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "47B77FCC3C9AB164",
+      "title": "Ancient stone",
+      "advancement": "callfromthedepth_:marblegoal"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "420E7D66646F9F6B",
+      "title": "Sorrow memories",
+      "advancement": "callfromthedepth_:memory"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "460F3CFD6C02FEBC",
+      "title": "Call from the depths",
+      "advancement": "callfromthedepth_:portal_key"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "45F4199E0D5BBA1D",
+      "title": "Alive,but not alive",
+      "advancement": "callfromthedepth_:skulkhearth"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "43B643056CD39636",
+      "title": "Peace of mind",
+      "advancement": "callfromthedepth_:soularmorchellenge"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "4A6D07FF6DB42F6A",
+      "title": "Into the darkness",
+      "advancement": "callfromthedepth_:soullamp"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "49209CA51FBD8470",
+      "title": "Sorrow and corruption",
+      "advancement": "callfromthedepth_:soulofsorrowchallange"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "4ACC6E1E38372E5A",
+      "title": "Soul rose",
+      "advancement": "callfromthedepth_:soulroseachieve"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "474BEB16FFF92527",
+      "title": "I see the sun again!",
+      "advancement": "callfromthedepth_:sunlight"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "48517C9B15E113C2",
+      "title": "Poisonous swamps? I've seen them somewhere...",
+      "advancement": "callfromthedepth_:swampbiome"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "42E255F5254F5383",
+      "title": "Toothy ingredient",
+      "advancement": "callfromthedepth_:toothyingredient"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth_.snbt",
+      "quest": "491FABF93EDAEAD2",
+      "title": "Soul manipulator",
+      "advancement": "callfromthedepth_:transmutationstonegoal"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "49330B0D5A2F9AF1",
+      "title": "Beaconator 4000",
+      "advancement": "witherstormmod:main/activate_super_beacon"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "4429F30358267E01",
+      "title": "I Spy With My Little Eye",
+      "advancement": "witherstormmod:main/amulet"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "4A6324586E9AD18C",
+      "title": "The Belly of the Beast",
+      "advancement": "witherstormmod:main/belly_of_the_beast"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "4E89145EE9254946",
+      "title": "Licensed Clinician",
+      "advancement": "witherstormmod:main/cured_sickened_mob"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "4AB253ABAE6297E3",
+      "title": "Brushing Shoulders With Death",
+      "advancement": "witherstormmod:main/escape_wither_storm"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "449BEE1269436394",
+      "title": "F-Bomb",
+      "advancement": "witherstormmod:main/fbomb"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "417B8E3202AF1837",
+      "title": "Order of the Stone",
+      "advancement": "witherstormmod:main/fully_link_amulet"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "4AD47820C03F7E3D",
+      "title": "Harbinger of Cataclysmic Fates",
+      "advancement": "witherstormmod:main/harbinger_of_cataclysmic_fates"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "4C1CF8EC0F8AE5EE",
+      "title": "Infinite Potential",
+      "advancement": "witherstormmod:main/infinite_potential"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "40C2371C71DCF06F",
+      "title": "Insane Dedication",
+      "advancement": "witherstormmod:main/insane_dedication"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "499AF4A40E6285EF",
+      "title": "A Nasty Surprise",
+      "advancement": "witherstormmod:main/nearly_kill_wither_storm"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "44F45A0871C26AE4",
+      "title": "Overly Dedicated",
+      "advancement": "witherstormmod:main/overly_dedicated"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "4575FE3AAB825FCA",
+      "title": "Back to the Beginning Again",
+      "advancement": "witherstormmod:main/resummon_wither_storm"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "41696DF82907C4B6",
+      "title": "Need More Books",
+      "advancement": "witherstormmod:main/resummon_withered_symbiont"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "4F88C73A54F01B41",
+      "title": "The Storm is Coming!",
+      "advancement": "witherstormmod:main/ring_bell_near_storm"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "47D6AE752C60A0C5",
+      "title": "Every Cloud Has a Silver Lining",
+      "advancement": "witherstormmod:main/silver_lining"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "4B824F3258371150",
+      "title": "Is it the end?",
+      "advancement": "witherstormmod:main/spyglass_at_wither_storm"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "40387A0FC7C1247B",
+      "title": "The Strong Grow Weak...",
+      "advancement": "witherstormmod:main/strong_grow_weak"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "49F1DD30159AE551",
+      "title": "Infection Generator",
+      "advancement": "witherstormmod:main/summon_mob_withered_beacon"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "4658C6E941A3FF98",
+      "title": "Nothing Built Can Last Forever",
+      "advancement": "witherstormmod:main/summon_wither_storm"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "49413AED9062EE89",
+      "title": "...The Weakened Arise Stronger",
+      "advancement": "witherstormmod:main/weakened_arise_stronger"
+    },
+    {
+      "chapter": "kncraft_witherstormmod.snbt",
+      "quest": "4E2668C330B27B1B",
+      "title": "One Story Ends, Another Begins",
+      "advancement": "witherstormmod:main/wither_storm_defeated"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "46DB85167505D0F1",
+      "title": "Flowers of the Savanna",
+      "advancement": "alexsmobs:alexsmobs/acacia_blossom"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4563F4C0E6FDE01A",
+      "title": "Alligator In Name Only",
+      "advancement": "alexsmobs:alexsmobs/alligator_snapping_turtle"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4901D25E94458EE2",
+      "title": "Winning Play",
+      "advancement": "alexsmobs:alexsmobs/bald_eagle_challenge"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "41C3B63BEB2B8C77",
+      "title": "Gone Bananas!",
+      "advancement": "alexsmobs:alexsmobs/banana"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4A6962DF9578C4CC",
+      "title": "Convergent Evolution...",
+      "advancement": "alexsmobs:alexsmobs/banana_slug"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4E6193E9DC17F56A",
+      "title": "Perfect View in the Plains",
+      "advancement": "alexsmobs:alexsmobs/bison_spyglass"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4F75379538484F6B",
+      "title": "Spray 'n Pray",
+      "advancement": "alexsmobs:alexsmobs/blood_sprayer"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "449537C2654E30E3",
+      "title": "Aunt Anteater",
+      "advancement": "alexsmobs:alexsmobs/breed_anteater"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "44497D0D87BA82D3",
+      "title": "Crikey!",
+      "advancement": "alexsmobs:alexsmobs/breed_crocodile"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "46A8B5C989654E72",
+      "title": "Undercover Under Covers",
+      "advancement": "alexsmobs:alexsmobs/breed_froststalker"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4AC7237D82737227",
+      "title": "Sugar Rush",
+      "advancement": "alexsmobs:alexsmobs/breed_hummingbird"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4B8E15C56039B45B",
+      "title": "Capsid-19",
+      "advancement": "alexsmobs:alexsmobs/capsid"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4EAD12D734D17323",
+      "title": "Weird Fishes/Arpeggi",
+      "advancement": "alexsmobs:alexsmobs/cosmic_cod"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4FA23B6A715438AA",
+      "title": "Nightmare Fuel",
+      "advancement": "alexsmobs:alexsmobs/crimson_mosquito"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4D32DFAA83867796",
+      "title": "Pest Control",
+      "advancement": "alexsmobs:alexsmobs/crimson_mosquito_larva"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "411BF9063321F3FC",
+      "title": "Down with the Sickness",
+      "advancement": "alexsmobs:alexsmobs/crimson_mosquito_sick"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4B7D561B11E54F93",
+      "title": "Chompy",
+      "advancement": "alexsmobs:alexsmobs/crocodile"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "42C3770C5678FC1D",
+      "title": "Cover me with... scutes?",
+      "advancement": "alexsmobs:alexsmobs/crocodile_chestplate"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4500BBEAE5202E1E",
+      "title": "One Chunk Fish",
+      "advancement": "alexsmobs:alexsmobs/devils_hole_pupfish_bucket"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "43F78289708F524D",
+      "title": "Break On Through...",
+      "advancement": "alexsmobs:alexsmobs/dimensional_carver"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4E2E03D219211C4E",
+      "title": "Echo-muh-cation!",
+      "advancement": "alexsmobs:alexsmobs/echolocator"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4B37483B8658659E",
+      "title": "Dressed to Impress",
+      "advancement": "alexsmobs:alexsmobs/elephant_swag"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4BE16987C425B8F1",
+      "title": "It's an Emu!!!",
+      "advancement": "alexsmobs:alexsmobs/emu"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "408850B17428DD10",
+      "title": "Begun, The Emu War Has",
+      "advancement": "alexsmobs:alexsmobs/emu_dodge"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4CD94C7EDF8A9ADF",
+      "title": "Race Against The Clock",
+      "advancement": "alexsmobs:alexsmobs/ender_flu"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4DF18EB0B8D715F5",
+      "title": "Ender Distancing",
+      "advancement": "alexsmobs:alexsmobs/enderiophage"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4C42AD9D2A8F9393",
+      "title": "Ad End-stra",
+      "advancement": "alexsmobs:alexsmobs/enderiophage_rocket"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4B35F8B6599AC965",
+      "title": "No End In Sight",
+      "advancement": "alexsmobs:alexsmobs/endolocator"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "404CE6A69BD6981A",
+      "title": "Hand In Glove",
+      "advancement": "alexsmobs:alexsmobs/falconry_glove"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4E0CC5F5C56790F1",
+      "title": "Blindsided",
+      "advancement": "alexsmobs:alexsmobs/falconry_hood"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "44BFA7CF8E11002E",
+      "title": "Farland Security",
+      "advancement": "alexsmobs:alexsmobs/farseer"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "465568B34E74285D",
+      "title": "A Bone to Pick",
+      "advancement": "alexsmobs:alexsmobs/fish_bones"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "46E0584D0ECCC8F9",
+      "title": "An Impostor Amoung Us",
+      "advancement": "alexsmobs:alexsmobs/froststalker_helmet"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4C95A72FF1A763DA",
+      "title": "Ice Scream",
+      "advancement": "alexsmobs:alexsmobs/froststalker_kill"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4AC7599E028585DA",
+      "title": "Ghost! Ghost! Toast?",
+      "advancement": "alexsmobs:alexsmobs/ghostly_pickaxe"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "47F3D488EBCAF136",
+      "title": "Like a Truffle, with more Ant",
+      "advancement": "alexsmobs:alexsmobs/gongylidia"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4351B8BA5E79FE43",
+      "title": "Pic-A-Nic Basket?",
+      "advancement": "alexsmobs:alexsmobs/grizzly_bear"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4F1901F172765C03",
+      "title": "Eye of The Storm",
+      "advancement": "alexsmobs:alexsmobs/guster"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "41AFDD39CB912FCE",
+      "title": "I Am Become Guster",
+      "advancement": "alexsmobs:alexsmobs/gustmaker"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4883C752A891BE1F",
+      "title": "Blast from the... Future?",
+      "advancement": "alexsmobs:alexsmobs/hemolymph_blaster"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "41701CAEC68121E5",
+      "title": "Sugar... In Wator...",
+      "advancement": "alexsmobs:alexsmobs/hummingbird_feeder"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4F7E89A2304E7C90",
+      "title": "We do a little trolling...",
+      "advancement": "alexsmobs:alexsmobs/kangaroo"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "411D49A9C87025E9",
+      "title": "Mariachi!",
+      "advancement": "alexsmobs:alexsmobs/la_cucaracha"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4356C0F2BC9A05B0",
+      "title": "Mass Transit",
+      "advancement": "alexsmobs:alexsmobs/laviathan_four_passengers"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "463635A107BD7A88",
+      "title": "Loch-Nether Monster!",
+      "advancement": "alexsmobs:alexsmobs/laviathan_spyglass"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "434162D18B59EACF",
+      "title": "Ant Farm",
+      "advancement": "alexsmobs:alexsmobs/leafcutter_ant_pupa"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4552B6489A9487A1",
+      "title": "A Small Price to Pay...",
+      "advancement": "alexsmobs:alexsmobs/lost_tentacle"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "40C604545614A7A2",
+      "title": "Hungry For Apples?",
+      "advancement": "alexsmobs:alexsmobs/maned_wolf_apple"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "42853F53476EC77D",
+      "title": "A Fistful of Water",
+      "advancement": "alexsmobs:alexsmobs/mantis_shrimp_bucket"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4377E0C24DF1BF99",
+      "title": "Mariachi?",
+      "advancement": "alexsmobs:alexsmobs/maraca"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "439B940A5520E5E6",
+      "title": "Flexible Schedule",
+      "advancement": "alexsmobs:alexsmobs/murmur"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "488E8F86701EFED4",
+      "title": "Destroy The Child",
+      "advancement": "alexsmobs:alexsmobs/mysterious_worm"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4986AF3AC67E9140",
+      "title": "He Was Number One!",
+      "advancement": "alexsmobs:alexsmobs/novelty_hat"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "441770A6ED6716F3",
+      "title": "Free Willy",
+      "advancement": "alexsmobs:alexsmobs/orcas_might"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "40E40CB3872FC98C",
+      "title": "Pocket Sand!",
+      "advancement": "alexsmobs:alexsmobs/pocket_sand"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "454238B1CA07E116",
+      "title": "Rainbow Road",
+      "advancement": "alexsmobs:alexsmobs/rainbow_glass"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "472BE17393588DA4",
+      "title": "Taste the Rainbow",
+      "advancement": "alexsmobs:alexsmobs/rainbow_jelly"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4839D9A9739B73EB",
+      "title": "No Step on Snake",
+      "advancement": "alexsmobs:alexsmobs/rattlesnake"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4B356203FF3BE48E",
+      "title": "You're too Slow!",
+      "advancement": "alexsmobs:alexsmobs/rocky_chestplate"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "44A72F9B5A73E017",
+      "title": "KEEP ROLLIN' ROLLIN' ROLLIN'",
+      "advancement": "alexsmobs:alexsmobs/rocky_roller"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "40EAF2E0495FFE0B",
+      "title": "Rocks Off!",
+      "advancement": "alexsmobs:alexsmobs/rocky_shell"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "48848587E56566FC",
+      "title": "Save the Whales!",
+      "advancement": "alexsmobs:alexsmobs/save_cachalot_whale"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "40F189CD1CC5E067",
+      "title": "Ok Boomer",
+      "advancement": "alexsmobs:alexsmobs/sculk_boomer"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "45BC2523C922431A",
+      "title": "Mine? Mine? Mine?",
+      "advancement": "alexsmobs:alexsmobs/seagull_steal"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4FB73D28E3CF380B",
+      "title": "Ticket to the End of the World",
+      "advancement": "alexsmobs:alexsmobs/shattered_dimensional_carver"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4157063797849793",
+      "title": "We Just Want our Hat Back",
+      "advancement": "alexsmobs:alexsmobs/skelewag"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4B8B2FFEAE814D16",
+      "title": "Smitty WerbenJagerManJensen",
+      "advancement": "alexsmobs:alexsmobs/skelewag_skull"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4BFC28AF62972C3D",
+      "title": "Sculk Cymbal",
+      "advancement": "alexsmobs:alexsmobs/skreecher"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4D8D2EBF5CC983DC",
+      "title": "Hippie Smell",
+      "advancement": "alexsmobs:alexsmobs/skunk"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4EC55F03436146A6",
+      "title": "Uma Delicia",
+      "advancement": "alexsmobs:alexsmobs/sopa_de_macaco"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "40F20E021F6837A1",
+      "title": "The Soul-ly Ghost",
+      "advancement": "alexsmobs:alexsmobs/soul_heart"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4CE0339E75975787",
+      "title": "Fetch Me Their Souls!",
+      "advancement": "alexsmobs:alexsmobs/soul_vulture"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4AE5EC37FD46C235",
+      "title": "The Iron Curtain",
+      "advancement": "alexsmobs:alexsmobs/spectre"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "44FBE21EFF63689E",
+      "title": "Shear the Scute",
+      "advancement": "alexsmobs:alexsmobs/spiked_scute"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "45338C4E3252F9F9",
+      "title": "Turtle-ology Majors Be Like",
+      "advancement": "alexsmobs:alexsmobs/spiked_turtle_shell"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "42193E6DC47C9DF1",
+      "title": "... for Salvation",
+      "advancement": "alexsmobs:alexsmobs/squid_grapple"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4E441A01E4B81763",
+      "title": "Gamer Skunk Bath Water",
+      "advancement": "alexsmobs:alexsmobs/stink_bottle"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "400391B2290289E1",
+      "title": "I SAID DART GUN!",
+      "advancement": "alexsmobs:alexsmobs/stink_ray"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4595B5562CA67375",
+      "title": "Ant-Agonizer",
+      "advancement": "alexsmobs:alexsmobs/stomp_leafcutter_anthill"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4C2161A1C5E9EEAF",
+      "title": "The Family Sedan",
+      "advancement": "alexsmobs:alexsmobs/straddle_saddle"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "41361AABA7F409C4",
+      "title": "Surf Wax America",
+      "advancement": "alexsmobs:alexsmobs/straddleboard"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4FD74A404AF3E2BE",
+      "title": "Straddle My Ol' Saddle",
+      "advancement": "alexsmobs:alexsmobs/straddler"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "43512660AC26C601",
+      "title": "Like Father",
+      "advancement": "alexsmobs:alexsmobs/stradpole_feed"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4B8DC837B7DF3E46",
+      "title": "The Quest for the Best",
+      "advancement": "alexsmobs:alexsmobs/strange_fish_finder"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4A3871568655852E",
+      "title": "The Power of the Sun",
+      "advancement": "alexsmobs:alexsmobs/sunbird_blessing"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4E25F3100392A1DC",
+      "title": "Freedom Intensifies",
+      "advancement": "alexsmobs:alexsmobs/tame_bald_eagle"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4D5554907062F27E",
+      "title": "Monkey Business",
+      "advancement": "alexsmobs:alexsmobs/tame_capuchin"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4089795B7E56CBBD",
+      "title": "Its a Fish? Its a Bug? What is it?",
+      "advancement": "alexsmobs:alexsmobs/tame_cosmaw"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "48410F3CDA55B42A",
+      "title": "Stampy!",
+      "advancement": "alexsmobs:alexsmobs/tame_elephant"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4D89DFC4C65207A6",
+      "title": "The Biggest Land Mammal",
+      "advancement": "alexsmobs:alexsmobs/tame_elephant_tusked"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "462ED44F10CFE05A",
+      "title": "A Picky Fellow",
+      "advancement": "alexsmobs:alexsmobs/tame_flutter"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4A93310244F8575C",
+      "title": "In Memoriam",
+      "advancement": "alexsmobs:alexsmobs/tame_gorilla"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4FBC87EB2E95ACD3",
+      "title": "Arcturus!",
+      "advancement": "alexsmobs:alexsmobs/tame_grizzly_bear"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4E5F274C19A9A932",
+      "title": "Shrimp Friend",
+      "advancement": "alexsmobs:alexsmobs/tame_mantis_shrimp"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "43CA591EA263EA62",
+      "title": "Big Iron",
+      "advancement": "alexsmobs:alexsmobs/tame_tarantula_hawk"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "47F696BC75081643",
+      "title": "It Is Wednesday",
+      "advancement": "alexsmobs:alexsmobs/tame_warped_toad"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4EF1D11E7DA407F2",
+      "title": "Rigged from the Start",
+      "advancement": "alexsmobs:alexsmobs/tarantula_hawk"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4D7AF01B7B415E60",
+      "title": "Eye of the Tiger",
+      "advancement": "alexsmobs:alexsmobs/tigers_blessing"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4C0D04615D2921FB",
+      "title": "Reality Can Be Whatever I Want",
+      "advancement": "alexsmobs:alexsmobs/transmutation_table"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "49E5DF274F0FCC1A",
+      "title": "Nonequivalent Exchange",
+      "advancement": "alexsmobs:alexsmobs/transmute_1000_items"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "43D14D4CB542A222",
+      "title": "Who Undermines the Underminer?",
+      "advancement": "alexsmobs:alexsmobs/underminer"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4FB0ED2BBE1F3D12",
+      "title": "Wormy",
+      "advancement": "alexsmobs:alexsmobs/void_worm_kill"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4FCE17B412E89849",
+      "title": "Should've Gone for the Head",
+      "advancement": "alexsmobs:alexsmobs/void_worm_split"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4CEBF9FBA4C96517",
+      "title": "A Soul for a Soul",
+      "advancement": "alexsmobs:alexsmobs/void_worm_summon"
+    },
+    {
+      "chapter": "kncraft_alexsmobs.snbt",
+      "quest": "4CCCCEDF0B79A797",
+      "title": "Destroyer of Chads",
+      "advancement": "alexsmobs:alexsmobs/warped_mosco_kill"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "42B5DB73E12FB80E",
+      "title": "Follow the Leader",
+      "advancement": "cold_sweat:chameleon_find_biome"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "4D7AB5BB358EFD97",
+      "title": "Desperate Measures",
+      "advancement": "cold_sweat:desperate_measures"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "46860DBB50E5DE3A",
+      "title": "Inhospitable",
+      "advancement": "cold_sweat:extreme_temps"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "466FB565AB86A426",
+      "title": "Borrowed Time",
+      "advancement": "cold_sweat:fuel_soul_lamp"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "4F389081868E4F19",
+      "title": "Head to Toe",
+      "advancement": "cold_sweat:full_insulation"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "4D8044037BE008EA",
+      "title": "Soul of the Sea",
+      "advancement": "cold_sweat:get_soul_lamp"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "42948BF8785D4DC8",
+      "title": "Huddle Close",
+      "advancement": "cold_sweat:huddle_close"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "40B3225810C6B599",
+      "title": "Lining Up",
+      "advancement": "cold_sweat:insulate_armor"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "4B6C364F453FD202",
+      "title": "The Pit of Fire",
+      "advancement": "cold_sweat:lava_sea"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "4116D6B67256DD50",
+      "title": "The Great Leon",
+      "advancement": "cold_sweat:tame_chameleon"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "4C9F33FA692919EC",
+      "title": "Home Sweet Home",
+      "advancement": "cold_sweat:use_hearth"
+    },
+    {
+      "chapter": "kncraft_cold_sweat.snbt",
+      "quest": "4AF5C7A3E3011378",
+      "title": "Getting Cozy",
+      "advancement": "cold_sweat:use_smokestack"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "4DCBEE75267732E0",
+      "title": "Ahoy, Captain!",
+      "advancement": "dungeons_enhanced:ahoy"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "4A65EF76573EBDA7",
+      "title": "Ambitious Explorer",
+      "advancement": "dungeons_enhanced:ambitious_explorer"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "426331DC08D0835C",
+      "title": "Ancient Civilizations",
+      "advancement": "dungeons_enhanced:ancient_civilizations"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "46647D60B0174231",
+      "title": "Chilled Halls",
+      "advancement": "dungeons_enhanced:chilled_halls"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "4D8305A62ABE4D5D",
+      "title": "Hidden under Roots",
+      "advancement": "dungeons_enhanced:hidden_under_the_roots"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "44ACC14C20A37664",
+      "title": "Flying in the Air",
+      "advancement": "dungeons_enhanced:in_the_air"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "425F1454519E8758",
+      "title": "Rarest Structure?",
+      "advancement": "dungeons_enhanced:rarest_structure"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "4F06EF8E0F38C32C",
+      "title": "Seven Wonders of the World",
+      "advancement": "dungeons_enhanced:seven_world_wonders"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "4FCEE484ACBBB900",
+      "title": "Spooky Scary Citadel",
+      "advancement": "dungeons_enhanced:spooky_scary_citadel"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "4B2C59882F9658BB",
+      "title": "Sunken in the Depths",
+      "advancement": "dungeons_enhanced:sunken_deeps"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "46A7D22E398CD3A8",
+      "title": "What a Dungeon!",
+      "advancement": "dungeons_enhanced:thats_a_dungeon"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "49DC5B3D21646F6F",
+      "title": "Traps and Curses",
+      "advancement": "dungeons_enhanced:traps_and_curses"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced.snbt",
+      "quest": "49099A3B29DADE8E",
+      "title": "Forgotten Wars and Kingdoms",
+      "advancement": "dungeons_enhanced:wars_and_kingdoms"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4C138E3D8E0625E3",
+      "title": "Black Citadel",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/black_citadel"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4273AA57B05BECF8",
+      "title": "Castle",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/castle"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4A3A2B7700875EC1",
+      "title": "Deep Crypt",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/deep_crypt"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "498D0F8626B4DDC9",
+      "title": "Desert Temple",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/desert_temple"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4A6FD0244CF52E91",
+      "title": "Desert Tomb",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/desert_tomb"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "46DE415F2C62E9FD",
+      "title": "Druid Circle",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/druid_circle"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4F2CBCCF675B0FC2",
+      "title": "Dungeon Variant",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/dungeon_variant"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4E4288174F2FD10F",
+      "title": "Elders Temple",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/elders_temple"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4A2D40245F506D33",
+      "title": "Fishing Ship",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/fishing_ship"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "42CDEDD1A710F9A3",
+      "title": "Flying Dutchman",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/flying_dutchman"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "438B92AA4C20BACD",
+      "title": "Hay Storage",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/hay_storage"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4E228972D479B22B",
+      "title": "Ice Pit",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/ice_pit"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "40B39913DA2043B2",
+      "title": "Jungle Monument",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/jungle_monument"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "42DC0DAAAE620C02",
+      "title": "Large Dungeon",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/large_dungeon"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "42A0A9AFA6F8F56E",
+      "title": "Miners House",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/miners_house"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "421718AD4841462B",
+      "title": "Monster Maze",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/monster_maze"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4303CA9BAF48F7DE",
+      "title": "Mushroom House",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/mushroom_house"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "45BBAB76CD138AD2",
+      "title": "Pillager Camp",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/pillager_camp"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4D31DE9479C95432",
+      "title": "Pirate Ship",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/pirate_ship"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4E9506D5D6EF4028",
+      "title": "Ruined Building",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/ruined_building"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4FD6CEC83B0C8C79",
+      "title": "Stables",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/stables"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "49299E0B405B224E",
+      "title": "Sunken Shrine",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/sunken_shrine"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4C569AAA5AD1482A",
+      "title": "Tall Witch Hut",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/tall_witch_hut"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4916DE9DBCD2EDE4",
+      "title": "Tower Of The Undead",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/tower_of_the_undead"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4764B7789CB0BCCD",
+      "title": "Tree House",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/tree_house"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "4BD92C017545B9E0",
+      "title": "Watch Tower",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/watch_tower"
+    },
+    {
+      "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
+      "quest": "42F7C46291825069",
+      "title": "Witch Tower",
+      "advancement": "kncraft:journal/dungeons_enhanced/structures/witch_tower"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "48BBC69B85E994D2",
+      "title": "Abandoned Camp",
+      "advancement": "kncraft:journal/structory/structures/abandoned_camp"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "4EBD793821B6A9BB",
+      "title": "Abandoned Chapel",
+      "advancement": "kncraft:journal/structory/structures/abandoned_chapel"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "4591036A920786AF",
+      "title": "Boat",
+      "advancement": "kncraft:journal/structory/structures/boat"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "4CA4A6B89A4FA207",
+      "title": "Dense Forest Ruin",
+      "advancement": "kncraft:journal/structory/structures/dense_forest_ruin"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "4466C7BE4871D0DC",
+      "title": "Firetower",
+      "advancement": "kncraft:journal/structory/structures/firetower"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "48ADBA2E76F18D45",
+      "title": "Graveyard",
+      "advancement": "kncraft:journal/structory/structures/graveyard"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "459F04CBF6DFDDE2",
+      "title": "Jungle Ruin",
+      "advancement": "kncraft:journal/structory/structures/jungle_ruin"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "47FDA71797E1CB4D",
+      "title": "Northern Ruin",
+      "advancement": "kncraft:journal/structory/structures/northern_ruin"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "46D25FEEAADD9959",
+      "title": "Old Manor",
+      "advancement": "kncraft:journal/structory/structures/old_manor"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "4B76421727BBFAF2",
+      "title": "Outcast Villager Desert",
+      "advancement": "kncraft:journal/structory/structures/outcast_villager_desert"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "4E82BF4755066CE2",
+      "title": "Outcast Villager Grassy",
+      "advancement": "kncraft:journal/structory/structures/outcast_villager_grassy"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "44C07ADAAC162429",
+      "title": "Ruin Grassy",
+      "advancement": "kncraft:journal/structory/structures/ruin_grassy"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "41D06FE7F10EDD7C",
+      "title": "Swamp Ruin",
+      "advancement": "kncraft:journal/structory/structures/swamp_ruin"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "439F3DEDD8BD1D3D",
+      "title": "Taiga Ruin Surface",
+      "advancement": "kncraft:journal/structory/structures/taiga_ruin_surface"
+    },
+    {
+      "chapter": "kncraft_structory_landmarks.snbt",
+      "quest": "43CAD1C5CC153B69",
+      "title": "Taiga Ruin Underground",
+      "advancement": "kncraft:journal/structory/structures/taiga_ruin_underground"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "43F13DBD664A1851",
+      "title": "Pillager Outpost Classic",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_classic"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4C49336A908D8420",
+      "title": "Pillager Outpost Iberian",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_iberian"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "49D48D49D0788705",
+      "title": "Pillager Outpost Mediterranean",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_mediterranean"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4B82F878CE58F463",
+      "title": "Pillager Outpost Oriental",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_oriental"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "42C8F310FD10CA25",
+      "title": "Pillager Outpost Rustic",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_rustic"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4A73DB68B397960B",
+      "title": "Pillager Outpost Swedish",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_swedish"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4CE56D89A2F0A496",
+      "title": "Pillager Outpost Tudor",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/pillager_outpost_tudor"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "497ACA77BCA19DD0",
+      "title": "Village Classic",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_classic"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "434F542CF9AB1654",
+      "title": "Village Iberian",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_iberian"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "42FEB244E1F757FF",
+      "title": "Village Mediterranean",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_mediterranean"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "45F6B9E55D481F27",
+      "title": "Village Nilotic",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_nilotic"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4332A97A41776AE7",
+      "title": "Village Piglin",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_piglin"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "473EBC785F079B5E",
+      "title": "Village Rustic",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_rustic"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4AEB3417199FB72B",
+      "title": "Village Swedish",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_swedish"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4B81218272DE2F50",
+      "title": "Village Tudor",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_tudor"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4BBA4EC64DBE260D",
+      "title": "Village Wandering Trader Camp",
+      "advancement": "kncraft:journal/t_and_t/structures/exclusives/village_wandering_trader_camp"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4ED132968E117CA4",
+      "title": "Mimic Desert",
+      "advancement": "kncraft:journal/t_and_t/structures/mimic_desert"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "49F198EB06684BF0",
+      "title": "Pillager Outpost Badlands",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_badlands"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4C405D6EB7256ECD",
+      "title": "Pillager Outpost Beach",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_beach"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "42E2A5FDA42A2A00",
+      "title": "Pillager Outpost Birch Forest",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_birch_forest"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "442CDBFADE466CEA",
+      "title": "Pillager Outpost Desert",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_desert"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "49CD1B04E959DD6A",
+      "title": "Pillager Outpost Flower Forest",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_flower_forest"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "408617EDED6E45A3",
+      "title": "Pillager Outpost Forest",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_forest"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "43F009C9344B5B64",
+      "title": "Pillager Outpost Grove",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_grove"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4FFBB016EBED32A2",
+      "title": "Pillager Outpost Jungle",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_jungle"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "42C8F9F4B039732A",
+      "title": "Pillager Outpost Meadow",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_meadow"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "45A9F97ED8D7A18C",
+      "title": "Pillager Outpost Mushroom Fields",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_mushroom_fields"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4F84B46841929A0C",
+      "title": "Pillager Outpost Ocean",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_ocean"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "460D0E7B4A5C15AB",
+      "title": "Pillager Outpost Old Growth Taiga",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_old_growth_taiga"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4994AAE4E9176111",
+      "title": "Pillager Outpost Savanna",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_savanna"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "475E2E8EBA864878",
+      "title": "Pillager Outpost Savanna Plateau",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_savanna_plateau"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4AC0A70B75E5D83E",
+      "title": "Pillager Outpost Snowy Beach",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_snowy_beach"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4F5AA4D815F85932",
+      "title": "Pillager Outpost Snowy Plains",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_snowy_plains"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4D80F9C15C7E22EB",
+      "title": "Pillager Outpost Snowy Slopes",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_snowy_slopes"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "46920423EFA6ECD8",
+      "title": "Pillager Outpost Snowy Taiga",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_snowy_taiga"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "413BD7A456A463D8",
+      "title": "Pillager Outpost Sparse Jungle",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_sparse_jungle"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4B81E11006C1E351",
+      "title": "Pillager Outpost Sunflower Plains",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_sunflower_plains"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "409DF28462B89EBC",
+      "title": "Pillager Outpost Swamp",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_swamp"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "44720BBBCF72678E",
+      "title": "Pillager Outpost Taiga",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_taiga"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4F657D543011EAA8",
+      "title": "Pillager Outpost Wooded Badlands",
+      "advancement": "kncraft:journal/t_and_t/structures/pillager_outpost_wooded_badlands"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4AA59849D5CF12B9",
+      "title": "Village Badlands",
+      "advancement": "kncraft:journal/t_and_t/structures/village_badlands"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4048560DEAE6EDF1",
+      "title": "Village Beach",
+      "advancement": "kncraft:journal/t_and_t/structures/village_beach"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4415A4444FD457D0",
+      "title": "Village Birch Forest",
+      "advancement": "kncraft:journal/t_and_t/structures/village_birch_forest"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4EA14EF9E4B6D6DD",
+      "title": "Village Flower Forest",
+      "advancement": "kncraft:journal/t_and_t/structures/village_flower_forest"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4B26C3FDB2959D52",
+      "title": "Village Forest",
+      "advancement": "kncraft:journal/t_and_t/structures/village_forest"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4D3F68C7D8219118",
+      "title": "Village Grove",
+      "advancement": "kncraft:journal/t_and_t/structures/village_grove"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4A5D1385F613AAB0",
+      "title": "Village Jungle",
+      "advancement": "kncraft:journal/t_and_t/structures/village_jungle"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "40EA726D8E8E4823",
+      "title": "Village Meadow",
+      "advancement": "kncraft:journal/t_and_t/structures/village_meadow"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4520A90E7ADF98AA",
+      "title": "Village Mushroom Fields",
+      "advancement": "kncraft:journal/t_and_t/structures/village_mushroom_fields"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "44F0E5835FE64720",
+      "title": "Village Ocean",
+      "advancement": "kncraft:journal/t_and_t/structures/village_ocean"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "44F437C875C2B2B3",
+      "title": "Village Old Growth Taiga",
+      "advancement": "kncraft:journal/t_and_t/structures/village_old_growth_taiga"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4EC891A151528CE5",
+      "title": "Village Savanna Plateau",
+      "advancement": "kncraft:journal/t_and_t/structures/village_savanna_plateau"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "45E3CF0FF87B3CE9",
+      "title": "Village Snowy Slopes",
+      "advancement": "kncraft:journal/t_and_t/structures/village_snowy_slopes"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "41594CE089F791A5",
+      "title": "Village Snowy Taiga",
+      "advancement": "kncraft:journal/t_and_t/structures/village_snowy_taiga"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "48D623A7A4A30C43",
+      "title": "Village Sparse Jungle",
+      "advancement": "kncraft:journal/t_and_t/structures/village_sparse_jungle"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "4E4CEA6CC9A95D5C",
+      "title": "Village Sunflower Plains",
+      "advancement": "kncraft:journal/t_and_t/structures/village_sunflower_plains"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "466FB0A6F5208041",
+      "title": "Village Swamp",
+      "advancement": "kncraft:journal/t_and_t/structures/village_swamp"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "438ABA80CA44F6FA",
+      "title": "Village Wooded Badlands",
+      "advancement": "kncraft:journal/t_and_t/structures/village_wooded_badlands"
+    },
+    {
+      "chapter": "kncraft_t_and_t_landmarks.snbt",
+      "quest": "47FEFB146AD8B0FE",
+      "title": "Wreckage Ocean",
+      "advancement": "kncraft:journal/t_and_t/structures/wreckage_ocean"
+    },
+    {
+      "chapter": "kncraft_abridged_landmarks.snbt",
+      "quest": "46C923334259712B",
+      "title": "Bridge",
+      "advancement": "kncraft:journal/abridged/structures/bridge"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "4F5954803A998486",
+      "title": "Ancientaqueduct",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ancientaqueduct"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "4E221A9FF134DB27",
+      "title": "Ancientcitadel",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ancientcitadel"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "4BA39D3C46427AB8",
+      "title": "Ancientgates",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ancientgates"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "4E469E9577EC1A6E",
+      "title": "Ancientlibrary",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ancientlibrary"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "478AF6BF50B597B1",
+      "title": "Ancientmotherstatue",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ancientmotherstatue"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "434A003F36D77537",
+      "title": "Ancientportal",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ancientportal"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "4E67E9BAFFD250BB",
+      "title": "Ancientprison",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ancientprison"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "4F6F05CD8F8395D6",
+      "title": "Ancientsacrificialbastion",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ancientsacrificialbastion"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "4F32A599E629AEC1",
+      "title": "Ancientshrine",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ancientshrine"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "4FDAD71E92900166",
+      "title": "Ancienttower",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ancienttower"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "4379DA83F564150B",
+      "title": "Deepvillage",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/deepvillage"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "467A39C79E6F97A9",
+      "title": "Depthstemple",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/depthstemple"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "4F9C5F71F5AA35F4",
+      "title": "Marbleforge",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/marbleforge"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "42C1511354E23AC6",
+      "title": "Ruined Ancientaqueduct",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ruined_ancientaqueduct"
+    },
+    {
+      "chapter": "kncraft_callfromthedepth__landmarks.snbt",
+      "quest": "48E8663C4966E673",
+      "title": "Ruinedancientgates",
+      "advancement": "kncraft:journal/callfromthedepth_/structures/ruinedancientgates"
+    },
+    {
+      "chapter": "kncraft_bosses.snbt",
+      "quest": "49929E51070FCECB",
+      "title": "Defeat the Ender Dragon",
+      "advancement": "kncraft:journal/minecraft/bosses/ender_dragon"
+    },
+    {
+      "chapter": "kncraft_bosses.snbt",
+      "quest": "44437C59AB593D35",
+      "title": "Defeat the Wither",
+      "advancement": "kncraft:journal/minecraft/bosses/wither"
+    },
+    {
+      "chapter": "kncraft_bosses.snbt",
+      "quest": "40954B1AD5147E9A",
+      "title": "Defeat an Elder Guardian",
+      "advancement": "kncraft:journal/minecraft/bosses/elder_guardian"
+    },
+    {
+      "chapter": "kncraft_pamhc2crops_supplies.snbt",
+      "quest": "4CDBC059D3220B56",
+      "title": "Grow a fiber supply",
+      "advancement": "kncraft:journal/pamhc2crops/supplies/cottonitem"
+    },
+    {
+      "chapter": "kncraft_pamhc2crops_supplies.snbt",
+      "quest": "43C48FD41839FE28",
+      "title": "Harvest tea",
+      "advancement": "kncraft:journal/pamhc2crops/supplies/tealeafitem"
+    },
+    {
+      "chapter": "kncraft_pamhc2crops_supplies.snbt",
+      "quest": "4DA230A43826C389",
+      "title": "Harvest rice",
+      "advancement": "kncraft:journal/pamhc2crops/supplies/riceitem"
+    },
+    {
+      "chapter": "kncraft_pamhc2foodcore_supplies.snbt",
+      "quest": "4627CED1470FCC7D",
+      "title": "Equip a kitchen",
+      "advancement": "kncraft:journal/pamhc2foodcore/supplies/potitem"
+    },
+    {
+      "chapter": "kncraft_pamhc2foodcore_supplies.snbt",
+      "quest": "4C7D2C72A240929D",
+      "title": "Prepare warming food",
+      "advancement": "kncraft:journal/pamhc2foodcore/supplies/stewitem"
+    },
+    {
+      "chapter": "kncraft_pamhc2foodcore_supplies.snbt",
+      "quest": "4BDAC3441302E271",
+      "title": "Prepare cooling food",
+      "advancement": "kncraft:journal/pamhc2foodcore/supplies/icecreamitem"
+    },
+    {
+      "chapter": "kncraft_betterminecarts_supplies.snbt",
+      "quest": "472BF67FE0B530BD",
+      "title": "Stock railway fuel",
+      "advancement": "kncraft:journal/betterminecarts/supplies/bio_diesel_fuel"
+    }
+  ]
+}

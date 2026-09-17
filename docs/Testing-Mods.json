@@ -1,5 +1,10 @@
 [
   {
+    "file": "abridged-2.0.0-forge-1.20.1.jar",
+    "sha256": "d64f9c5d70aa808771770cc7b7f4490f225e646db3c81ae0080cbc6b4a5429af",
+    "matches_handoff": true
+  },
+  {
     "file": "aether-1.20.1-1.5.2-neoforge.jar",
     "sha256": "5cb64ab1f27e78e8338fe67f9c766578904aad9bc1f8bcc90f306ea52aea3fc5",
     "matches_handoff": true
@@ -10,8 +15,33 @@
     "matches_handoff": true
   },
   {
+    "file": "architectury-9.2.14-forge.jar",
+    "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+    "matches_handoff": true
+  },
+  {
     "file": "balm-forge-1.20.1-7.3.43.jar",
     "sha256": "1ef7820c2587d2ecee26a8b941427f08bbc1058a8dd376cf45e3fa6df1cba69e",
+    "matches_handoff": true
+  },
+  {
+    "file": "bettercombat-forge-1.9.0+1.20.1.jar",
+    "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1",
+    "matches_handoff": true
+  },
+  {
+    "file": "betterminecarts-1.20.1-1.9.0-47.3.0.jar",
+    "sha256": "4b5c2e3bc6ce1d43b1afc9449465571617136d94607714d992562e70b39e0279",
+    "matches_handoff": true
+  },
+  {
+    "file": "BiomesOPlenty-1.20.1-18.0.0.592.jar",
+    "sha256": "c587b49931e62f89c2673936a5e7269c6daabb713dbcc30813cb0f76da37e01d",
+    "matches_handoff": true
+  },
+  {
+    "file": "caelus-forge-3.2.0+1.20.1.jar",
+    "sha256": "37495445e79df8b30a3a038a0051f3c8aa8447f91a9d0aa0d20baef69dda9368",
     "matches_handoff": true
   },
   {
@@ -40,13 +70,63 @@
     "matches_handoff": true
   },
   {
+    "file": "collective-1.20.1-8.39.jar",
+    "sha256": "594bc5d40f2a3fec1ad95732524f65e01a27ac2abeb9d59889cd9f01fd8db6cb",
+    "matches_handoff": true
+  },
+  {
+    "file": "comforts-forge-6.4.0+1.20.1.jar",
+    "sha256": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c",
+    "matches_handoff": true
+  },
+  {
     "file": "coroutil-forge-1.20.1-1.3.7.jar",
     "sha256": "11448808a42c17425cf2ea39701841008683d6ad6e2838a34eef0253251a870f",
     "matches_handoff": true
   },
   {
+    "file": "cristellib-1.1.6-forge.jar",
+    "sha256": "3856ad565ea45d6189452d813e2f021b365b686d3b1adae5f747c56a1e535d9f",
+    "matches_handoff": true
+  },
+  {
     "file": "curios-forge-5.14.1+1.20.1.jar",
     "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+    "matches_handoff": true
+  },
+  {
+    "file": "dungeons_enhanced-1.20.1-5.4.3.jar",
+    "sha256": "caf6a694cf338d77b71208dcdd4e234e5b87594123a55bfb4f4e0122ae61b9c3",
+    "matches_handoff": true
+  },
+  {
+    "file": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+    "sha256": "a08b641e6cc1d4867e0878826ac4fb9e55b45907d0fa3429172ecad8cd678ce9",
+    "matches_handoff": true
+  },
+  {
+    "file": "elytraslot-forge-6.4.4+1.20.1.jar",
+    "sha256": "f96c26e7ac9e2dade0aa04f71b9f8708a2b7af92b9cc691103ae32c62764e6ab",
+    "matches_handoff": true
+  },
+  {
+    "file": "FallingTree-1.20.1-4.3.4.jar",
+    "sha256": "5fb64717c368c2759e768873424a46ee5c40076600feadaac5403ca197aebe0f",
+    "matches_handoff": true
+  },
+  {
+    "file": "ftb-library-forge-2001.2.13.jar",
+    "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7",
+    "matches_handoff": true
+  },
+  {
+    "file": "ftb-quests-forge-2001.4.22.jar",
+    "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68",
+    "matches_handoff": true
+  },
+  {
+    "file": "ftb-teams-forge-2001.3.2.jar",
+    "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
     "matches_handoff": true
   },
   {
@@ -57,6 +137,26 @@
   {
     "file": "immersive-portals-3.0.7-all.jar",
     "sha256": "deb233d1e530e5e208ba6f3529a3b90ad071a06a2dc8d7ea60f14b0d67912efc",
+    "matches_handoff": true
+  },
+  {
+    "file": "inventorytotem-1.20.1-3.4.jar",
+    "sha256": "bde671c0c6a5a71fdf0d56319461dcc30c3f58261cb547963b6b1581eaed9d0a",
+    "matches_handoff": true
+  },
+  {
+    "file": "ironchest-1.20.1-14.4.4.jar",
+    "sha256": "6bc75f288d2e8158d2e23c6881a1b341a894c38bab129ca0f20db6abd59d373f",
+    "matches_handoff": true
+  },
+  {
+    "file": "lithostitched-forge-1.20.1-1.4.11.jar",
+    "sha256": "c19a5a36c0e6cb3782cf7ca5b9648fb1bce5fc41fd737bed423a1f4971bccf75",
+    "matches_handoff": true
+  },
+  {
+    "file": "MoreEnchantments_MC_1.20.1_Vers.1.4.3.jar",
+    "sha256": "cd539b098563afe518d74f92e6f06c98e23b4cc65d45ab6c0b4c039587b6d49a",
     "matches_handoff": true
   },
   {
@@ -90,6 +190,16 @@
     "matches_handoff": true
   },
   {
+    "file": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+    "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691",
+    "matches_handoff": true
+  },
+  {
+    "file": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+    "sha256": "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f",
+    "matches_handoff": true
+  },
+  {
     "file": "RopeBridge-1.20.1-3.0.3.jar",
     "sha256": "9cb45241e4eedfb4268452a995a6c7f8032941ec0d7799702615ec22a3c916c6",
     "matches_handoff": true
@@ -102,6 +212,41 @@
   {
     "file": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
     "sha256": "f4038a2e0d0e3504258fbe315cb27a37f1a769d71985bfa20afb983a3bdfab64",
+    "matches_handoff": true
+  },
+  {
+    "file": "Structory_1.20.x_v1.3.5.jar",
+    "sha256": "43f4b4b88bb9caa1114928a93e787335e56171b5233a545bf2f4da1ce9fe943b",
+    "matches_handoff": true
+  },
+  {
+    "file": "structure_gel-1.20.1-2.16.2.jar",
+    "sha256": "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e",
+    "matches_handoff": true
+  },
+  {
+    "file": "SuperBarrels_4.jar",
+    "sha256": "90014232b596d54559d820d1f26fd6be7ea219acb3226412445d5962d38f5244",
+    "matches_handoff": true
+  },
+  {
+    "file": "tectonic-3.0.17-forge-1.20.1.jar",
+    "sha256": "c6de479b27cf090510de3f029918afc9fe17226981bd703e0002f7a25f4d8969",
+    "matches_handoff": true
+  },
+  {
+    "file": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+    "sha256": "c109016f46ca9bdae69976bf080bbf2e8e5968cb66c0a78845f8ca6af5dbbeb1",
+    "matches_handoff": true
+  },
+  {
+    "file": "Terralith_1.20.x_v2.5.4.jar",
+    "sha256": "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f",
+    "matches_handoff": true
+  },
+  {
+    "file": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+    "sha256": "9c8115af7109579da990249fdd67b38323a45be70f8a3a962b61da69c7021984",
     "matches_handoff": true
   },
   {

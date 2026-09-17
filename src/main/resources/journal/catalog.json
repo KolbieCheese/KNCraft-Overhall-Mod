@@ -1,0 +1,45 @@
+{
+  "kncraft_aether.snbt": [
+    "aether"
+  ],
+  "kncraft_callfromthedepth_.snbt": [
+    "callfromthedepth_"
+  ],
+  "kncraft_witherstormmod.snbt": [
+    "witherstormmod"
+  ],
+  "kncraft_alexsmobs.snbt": [
+    "alexsmobs"
+  ],
+  "kncraft_cold_sweat.snbt": [
+    "cold_sweat"
+  ],
+  "kncraft_dungeons_enhanced.snbt": [
+    "dungeons_enhanced"
+  ],
+  "kncraft_dungeons_enhanced_landmarks.snbt": [
+    "dungeons_enhanced"
+  ],
+  "kncraft_structory_landmarks.snbt": [
+    "structory"
+  ],
+  "kncraft_t_and_t_landmarks.snbt": [
+    "t_and_t"
+  ],
+  "kncraft_abridged_landmarks.snbt": [
+    "abridged"
+  ],
+  "kncraft_callfromthedepth__landmarks.snbt": [
+    "callfromthedepth_"
+  ],
+  "kncraft_bosses.snbt": [],
+  "kncraft_pamhc2crops_supplies.snbt": [
+    "pamhc2crops"
+  ],
+  "kncraft_pamhc2foodcore_supplies.snbt": [
+    "pamhc2foodcore"
+  ],
+  "kncraft_betterminecarts_supplies.snbt": [
+    "betterminecarts"
+  ]
+}

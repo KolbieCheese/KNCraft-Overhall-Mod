@@ -1,0 +1,32 @@
+[02:25:06] [Server thread/INFO] [minecraft/MinecraftServer]: CLIMATE RESTART CHECKS PASSED
+SUPPLIES: merged rail tags, administrator contributor preservation, 128 real loot rolls and four native trades passed
+CAMPING: Carry On structure exclusions, native fuel containers, insulated cart links, both Comforts sleep policies and inventory totems passed
+JOURNAL MIGRATION: repeat installation, stable IDs, administrator edits, root settings and collision preservation passed
+[02:25:07] [Server thread/INFO] [minecraft/MinecraftServer]: EXPANSION CHECKS PASSED
+HEARTH YURT: paths=787 fuel=488 contains=true effects=[effect.cold_sweat.grace, Duration: 6000, Particles: false, effect.cold_sweat.warmth x 4, Duration: 60, Particles: false]
+HEARTH TEPEE: paths=1286 fuel=488 contains=true effects=[effect.cold_sweat.grace, Duration: 6000, Particles: false, effect.cold_sweat.warmth x 4, Duration: 60, Particles: false]
+HEARTH BEDOUIN: paths=1102 fuel=488 contains=true effects=[effect.cold_sweat.grace, Duration: 6000, Particles: false, effect.cold_sweat.warmth x 4, Duration: 60, Particles: false]
+HEARTH INDLU: paths=829 fuel=488 contains=true effects=[effect.cold_sweat.grace, Duration: 6000, Particles: false, effect.cold_sweat.warmth x 4, Duration: 60, Particles: false]
+HEARTH SHAMIYANA: paths=958 fuel=488 contains=true effects=[effect.cold_sweat.grace, Duration: 6000, Particles: false, effect.cold_sweat.warmth x 4, Duration: 60, Particles: false]
+TENT CLIMATE: 30 shape/size combinations, expanded floors, source changes and unloaded snapshots checked
+[02:25:09] [Server thread/INFO] [minecraft/MinecraftServer]: TENT CLIMATE CHECKS PASSED
+SUPPLIES: merged rail tags, administrator contributor preservation, 128 real loot rolls and four native trades passed
+CAMPING: Carry On structure exclusions, native fuel containers, insulated cart links, both Comforts sleep policies and inventory totems passed
+JOURNAL MIGRATION: repeat installation, stable IDs, administrator edits, root settings and collision preservation passed
+[02:25:14] [Server thread/INFO] [minecraft/MinecraftServer]: EXPANSION CHECKS PASSED
+[02:25:15] [Server thread/INFO] [minecraft/MinecraftServer]: COHESION CHECKS PASSED
+Verified immersive-portals-3.0.7-all.jar
+Verified Nomadic-Tents-20.1.1.jar
+Verified weather2-1.20.1-2.8.3.jar
+Verified ColdSweat-2.4.3.jar
+Verified elytraslot-forge-6.4.4+1.20.1.jar
+Verified curios-forge-5.14.1+1.20.1.jar
+Verified bettercombat-forge-1.9.0+1.20.1.jar
+Verified sophisticatedcore-1.20.1-1.5.1.2335.jar
+Prepared 9 verified build inputs
+
+Final regression pass:
+[02:30:28] [Server thread/INFO] [minecraft/MinecraftServer]: EXPANSION CHECKS PASSED
+[02:30:37] [Server thread/INFO] [minecraft/MinecraftServer]: KNCRAFT PERFORMANCE: ALL REGRESSIONS PASSED
+[02:30:38] [Server thread/INFO] [minecraft/MinecraftServer]: CLIENT ACKNOWLEDGEMENT GATE PASSED
+[02:30:39] [Server thread/INFO] [minecraft/MinecraftServer]: DEPTH HEIGHT TESTS PASSED: four large-frame placements, both orientations, high/negative targets, bedrock intact, unsafe sources rejected

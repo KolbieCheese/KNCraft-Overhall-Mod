@@ -53,6 +53,27 @@
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals#animals_contents)Start$(/l)"
     },
     {
+      "type": "patchouli:kn_text",
+      "heading": "Fresh berry food",
+      "body": "Pam's blueberries, blackberries, raspberries and strawberries count as food for Alex's crows and raccoons. Their special taming, breeding and teaming ingredients stay the same. Food is not automatically a taming gift.",
+      "anchor": "kncraft_berries",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Companions near combat",
+      "body": "Better Combat protects owned companions from accidental area hits. KNCraft also recognizes their ownership when the owner is not loaded. Still aim carefully: direct attacks and other damage sources retain their own rules.",
+      "anchor": "kncraft_companions",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Wildlife and cold weather",
+      "body": "Bear fur, bison fur and kangaroo hide can supply Sewing Table insulation; the Frontier Cap helps when worn. Read $(l:patchouli:chapters/cold#kncraft_fibers)lining values$(/l). Cotton offers another route, so hunting is a choice.",
+      "anchor": "kncraft_materials",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals)Chapter$(/l)"
+    },
+    {
       "type": "patchouli:relations",
       "title": "Continue reading",
       "entries": [
@@ -61,13 +82,6 @@
       ],
       "text": "Next chapter first; previous chapter below.",
       "anchor": "animals_end"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Prepare for travel",
-      "body": "$(l:patchouli:chapters/architecture#wildlife)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
-      "navigation": "$(l:patchouli:guide)Book$(/l)",
-      "anchor": "architecture"
     }
   ],
   "extra_recipe_mappings": {}

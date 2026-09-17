@@ -27,6 +27,13 @@
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)"
     },
     {
+      "type": "patchouli:kn_text",
+      "heading": "Light the normal frame",
+      "body": "Use the normal Aether activation item to light the frame. Successful conversion gives an immersive portal pair; a stick remains a fallback. If conversion cannot complete, the normal portal remains available.",
+      "anchor": "kncraft_portal",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
+    },
+    {
       "type": "patchouli:kn_image",
       "heading": "Islands and edges",
       "body": "Cliffs and waterfalls from the Aether team's gallery. An island edge may drop",
@@ -69,6 +76,20 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Bring cooling home",
+      "body": "Icestone fuels Cold Sweat cooling equipment. Ice accessories and ordinary capes add modest insulation, with a combined heat limit. The Freezer can chill prepared Pam's juices. See $(l:patchouli:chapters/cold#kncraft_aether_accessories)climate equipment$(/l).",
+      "anchor": "kncraft_thermal",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "The Valkyrie Lance",
+      "body": "The Valkyrie Lance uses Better Combat thrusts with a 6.5-block reach, matching its normal survival reach. Better Combat otherwise misses its special Forge reach bonus. The weapon keeps its normal attack damage and enchantment rules.",
+      "anchor": "kncraft_lance",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Movement and discovery",
       "body": "Moa eggs can be hatched in an Incubator, fueled by Ambrosium Torches. Raise the hatchling before expecting a dependable mount. Keep fall protection even after gaining a new way to travel. The Book of Lore explains local blocks and items",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)",
@@ -107,13 +128,6 @@
       ],
       "text": "Next chapter first; previous chapter below.",
       "anchor": "aether_end"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Prepare for travel",
-      "body": "$(l:patchouli:chapters/architecture#portals)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
-      "navigation": "$(l:patchouli:guide)Book$(/l)",
-      "anchor": "architecture"
     }
   ],
   "extra_recipe_mappings": {}

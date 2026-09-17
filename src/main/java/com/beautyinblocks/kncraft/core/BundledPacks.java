@@ -15,6 +15,19 @@ public final class BundledPacks {
         add(event, "depth_portals", Compatibility.exact("immersive_portals") && Compatibility.exact("callfromthedepth_"));
         add(event, "waystones", ArchitectureConfig.WAYSTONES.get() && Compatibility.present("waystones"));
         add(event, "fiber_recipes", ArchitectureConfig.FIBERS.get());
+        add(event, "ingredients", ExpansionConfig.INGREDIENTS.get());
+        add(event, "recipe_repairs", ExpansionConfig.RECIPE_REPAIRS.get() && (Compatibility.present("pamhc2foodcore") || Compatibility.present("pamhc2crops")));
+        add(event, "camp_safety", ExpansionConfig.SAFE_CARRY.get() && Compatibility.present("carryon"));
+        add(event, "rail_fuel", ExpansionConfig.RAIL_FUEL.get());
+        add(event, "aether_freezer", ExpansionConfig.AETHER_THERMAL.get() && Compatibility.present("aether"));
+        add(event, "wildlife_food", ExpansionConfig.WILDLIFE_FOOD.get() && Compatibility.present("alexsmobs"));
+        add(event, "combat", ExpansionConfig.COMBAT.get() && Compatibility.exact("bettercombat") && Compatibility.present("aether"));
+        add(event, "exploration", ExpansionConfig.THEMED_LOOT.get());
+        add(event, "ecology", ExpansionConfig.ECOLOGY.get() && Compatibility.present("pamhc2crops"));
+        if (ExpansionConfig.JOURNAL.get() && Compatibility.present("ftbquests")) {
+            for (String mod : java.util.List.of("minecraft", "dungeons_enhanced", "structory", "t_and_t", "abridged", "callfromthedepth_", "pamhc2crops", "pamhc2foodcore", "betterminecarts"))
+                add(event, "journal_" + mod, Compatibility.present(mod));
+        }
     }
     private static void add(AddPackFindersEvent event, String name, boolean enabled) {
         if (!enabled) return;

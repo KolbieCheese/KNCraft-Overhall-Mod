@@ -1,0 +1,52 @@
+{
+  "inputs": [
+    {
+      "source": "immersive-portals-3.0.7-all.jar",
+      "target": "immersiveportals-3.0.7.jar",
+      "url": "https://edge.forgecdn.net/files/6368/524/immersive-portals-3.0.7-all.jar",
+      "sha256": "deb233d1e530e5e208ba6f3529a3b90ad071a06a2dc8d7ea60f14b0d67912efc"
+    },
+    {
+      "source": "Nomadic-Tents-20.1.1.jar",
+      "target": "nomadictents-20.1.1.jar",
+      "url": "https://edge.forgecdn.net/files/6155/502/Nomadic-Tents-20.1.1.jar",
+      "sha256": "57bf4b44756c5e8d8d4d9403f8da6150764e4872cae020be27af3fba98d35ae6"
+    },
+    {
+      "source": "weather2-1.20.1-2.8.3.jar",
+      "target": "weather2-2.8.3.jar",
+      "url": "https://edge.forgecdn.net/files/5244/118/weather2-1.20.1-2.8.3.jar",
+      "sha256": "5eb828f93b2eb370d7f38ad1893739caf7655f32d58dbbdaabae6075ede635db"
+    },
+    {
+      "source": "ColdSweat-2.4.3.jar",
+      "target": "coldsweat-2.4.3.jar",
+      "url": "https://edge.forgecdn.net/files/8872/729/ColdSweat-2.4.3.jar",
+      "sha256": "2f3829f807cce1664c7622a17bf70a1f4d79ee60fa9af25c0c4d44adea98003a"
+    },
+    {
+      "source": "elytraslot-forge-6.4.4+1.20.1.jar",
+      "target": "elytraslot-6.4.4.jar",
+      "url": "https://edge.forgecdn.net/files/5778/734/elytraslot-forge-6.4.4%2b1.20.1.jar",
+      "sha256": "f96c26e7ac9e2dade0aa04f71b9f8708a2b7af92b9cc691103ae32c62764e6ab"
+    },
+    {
+      "source": "curios-forge-5.14.1+1.20.1.jar",
+      "target": "curios-5.14.1.jar",
+      "url": "https://edge.forgecdn.net/files/6418/456/curios-forge-5.14.1%2b1.20.1.jar",
+      "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
+    },
+    {
+      "source": "bettercombat-forge-1.9.0+1.20.1.jar",
+      "target": "bettercombat-1.9.0.jar",
+      "url": "https://edge.forgecdn.net/files/7287/334/bettercombat-forge-1.9.0%2b1.20.1.jar",
+      "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1"
+    },
+    {
+      "source": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
+      "target": "sophisticatedcore-1.5.1.2335.jar",
+      "url": "https://edge.forgecdn.net/files/8839/328/sophisticatedcore-1.20.1-1.5.1.2335.jar",
+      "sha256": "f4038a2e0d0e3504258fbe315cb27a37f1a769d71985bfa20afb983a3bdfab64"
+    }
+  ]
+}

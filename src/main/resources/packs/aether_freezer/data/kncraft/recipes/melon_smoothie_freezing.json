@@ -1,0 +1,20 @@
+{
+  "type": "aether:freezing",
+  "category": "freezable_misc",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aether"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ],
+  "ingredient": {
+    "item": "pamhc2foodcore:melonjuiceitem"
+  },
+  "result": "pamhc2foodcore:melonsmoothieitem"
+}

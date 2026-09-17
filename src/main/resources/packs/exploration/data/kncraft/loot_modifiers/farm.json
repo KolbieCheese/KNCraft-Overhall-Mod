@@ -1,0 +1,27 @@
+{
+  "type": "kncraft:supplies",
+  "profile": "farm",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_enhanced:chests/hay_storage"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_enhanced:chests/ice_pit/garden"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "structory:mood/farmer"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "structory:outcast/farm_ruin"
+        }
+      ]
+    }
+  ]
+}

@@ -1,16 +1,29 @@
-name: Build with licensed local pack inputs
+name: Build and release KNCraft Compatibility
 on:
+  push:
+    branches: ['**']
+  pull_request:
   workflow_dispatch:
-    inputs:
-      instance:
-        description: Absolute path to the installed KNCraft profile on the private runner
-        required: true
-        type: string
+
+permissions:
+  contents: read
+
+# Serialize allocation through publication, including multiple pending default-branch pushes.
+concurrency:
+  group: kncraft-${{ github.event_name == 'pull_request' && github.head_ref || github.ref }}
+  cancel-in-progress: false
+  queue: max
+
 jobs:
-  forge:
-    runs-on: [self-hosted, Windows, kncraft]
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      tag: ${{ steps.version.outputs.tag }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -18,13 +31,76 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Verify local build dependencies
+      - name: Resolve version
+        id: version
         env:
-          KNCRAFT_INSTANCE: ${{ inputs.instance }}
-        run: python tools/bootstrap_dependencies.py --instance "$env:KNCRAFT_INSTANCE"
-      - run: .\gradlew.bat build harnessJars --console=plain
-      - run: python tools/validate_artifact.py --jar build/libs/KNCraft-Architecture-0.2.0.jar
+          PUBLISH: ${{ github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch }}
+        run: |
+          git fetch --tags --force
+          if [ "$PUBLISH" = "true" ]; then
+            python tools/release_version.py
+          else
+            python tools/release_version.py --snapshot
+          fi
+      - name: Download and verify pinned build inputs
+        run: python tools/bootstrap_dependencies.py --download
+      - name: Validate resources and version allocation
+        run: |
+          python tools/test_release_version.py
+          python tools/validate_artifact.py
+      - name: Build and test
+        env:
+          MOD_VERSION: ${{ steps.version.outputs.version }}
+        run: bash gradlew build releaseBundle -Pmod_version="$MOD_VERSION" --console=plain
+      - name: Verify release artifact and checksums
+        env:
+          MOD_VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          python tools/validate_artifact.py --jar "build/libs/KNCraftCompatibilityMod-$MOD_VERSION.jar"
+          mkdir -p build/release
+          cp "build/libs/KNCraftCompatibilityMod-$MOD_VERSION.jar" build/release/
+          cp "build/distributions/KNCraftCompatibilityMod-$MOD_VERSION.zip" build/release/
+          cd build/release
+          sha256sum *.jar *.zip > SHA256SUMS.txt
       - uses: actions/upload-artifact@v4
         with:
-          name: KNCraft-Architecture
-          path: build/libs/KNCraft-Architecture-*.jar
+          name: KNCraftCompatibilityMod-${{ steps.version.outputs.version }}
+          path: build/release/*
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: build-diagnostics
+          path: build/reports/
+
+  publish:
+    needs: build
+    if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: KNCraftCompatibilityMod-${{ needs.build.outputs.version }}
+          path: release
+      - name: Publish downloadable JAR and installation bundle
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ needs.build.outputs.tag }}
+          RELEASE_VERSION: ${{ needs.build.outputs.version }}
+          RELEASE_COMMIT: ${{ github.sha }}
+        run: |
+          if gh release view "$RELEASE_TAG" --json isDraft > release-state.json 2>/dev/null; then
+            if python -c 'import json,sys; sys.exit(0 if json.load(open("release-state.json"))["isDraft"] else 1)'; then
+              gh release upload "$RELEASE_TAG" release/* --clobber
+              gh release edit "$RELEASE_TAG" --draft=false
+            else
+              echo "This commit already has a published release; leaving its assets intact."
+            fi
+          else
+            gh release create "$RELEASE_TAG" release/* --draft --target "$RELEASE_COMMIT" \
+              --title "KNCraft Compatibility $RELEASE_VERSION" --generate-notes
+            gh release edit "$RELEASE_TAG" --draft=false
+          fi

@@ -1,0 +1,634 @@
+{
+  "id": "473111EE8CD536EB",
+  "filename": "kncraft_dungeons_enhanced_landmarks",
+  "title": "Dungeons Enhanced Landmarks",
+  "icon": "minecraft:writable_book",
+  "order_index": 106,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "4C138E3D8E0625E3",
+      "title": "Black Citadel",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4AEC15653BC24E44",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/black_citadel",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4273AA57B05BECF8",
+      "title": "Castle",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E829E9DA4D7522E",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/castle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A3A2B7700875EC1",
+      "title": "Deep Crypt",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4DA2D261867EE33E",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/deep_crypt",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "498D0F8626B4DDC9",
+      "title": "Desert Temple",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "46C61A4238567493",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/desert_temple",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A6FD0244CF52E91",
+      "title": "Desert Tomb",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4516378848608DCA",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/desert_tomb",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46DE415F2C62E9FD",
+      "title": "Druid Circle",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C20488F7AE5A9A7",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/druid_circle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F2CBCCF675B0FC2",
+      "title": "Dungeon Variant",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4FBE8113906E277A",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/dungeon_variant",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E4288174F2FD10F",
+      "title": "Elders Temple",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "454A873A2C3A6AE0",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/elders_temple",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A2D40245F506D33",
+      "title": "Fishing Ship",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "481B7FAB7F2619AC",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/fishing_ship",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42CDEDD1A710F9A3",
+      "title": "Flying Dutchman",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "464F455621CA1620",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/flying_dutchman",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "438B92AA4C20BACD",
+      "title": "Hay Storage",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48522FC818985B7B",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/hay_storage",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E228972D479B22B",
+      "title": "Ice Pit",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "47EB863332F95AE5",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/ice_pit",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40B39913DA2043B2",
+      "title": "Jungle Monument",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "42DA0E85A4076B12",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/jungle_monument",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42DC0DAAAE620C02",
+      "title": "Large Dungeon",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "47CC6DE7C6F8CC08",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/large_dungeon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42A0A9AFA6F8F56E",
+      "title": "Miners House",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "438D542837C213A2",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/miners_house",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "421718AD4841462B",
+      "title": "Monster Maze",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4478E445B9CC0675",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/monster_maze",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4303CA9BAF48F7DE",
+      "title": "Mushroom House",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C48E69694FB1F6A",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/mushroom_house",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "45BBAB76CD138AD2",
+      "title": "Pillager Camp",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A44D625BC1EF330",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/pillager_camp",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D31DE9479C95432",
+      "title": "Pirate Ship",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4536D3DEA5309476",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/pirate_ship",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E9506D5D6EF4028",
+      "title": "Ruined Building",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "47249885B373CB3A",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/ruined_building",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FD6CEC83B0C8C79",
+      "title": "Stables",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48A0B678A21F985A",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/stables",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49299E0B405B224E",
+      "title": "Sunken Shrine",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "47BBBE5E0F53F953",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/sunken_shrine",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4C569AAA5AD1482A",
+      "title": "Tall Witch Hut",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "482CFBD0458972B8",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/tall_witch_hut",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4916DE9DBCD2EDE4",
+      "title": "Tower Of The Undead",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "44BD80BB9EF25B9A",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/tower_of_the_undead",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4764B7789CB0BCCD",
+      "title": "Tree House",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "45EA8E417CC23F4D",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/tree_house",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4BD92C017545B9E0",
+      "title": "Watch Tower",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43C72316DF5FC5F0",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/watch_tower",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42F7C46291825069",
+      "title": "Witch Tower",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 6.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4FAEDC6CC9EE88D9",
+          "type": "advancement",
+          "advancement": "kncraft:journal/dungeons_enhanced/structures/witch_tower",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

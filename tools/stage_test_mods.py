@@ -16,7 +16,10 @@ except ImportError:
 ROOT = Path(__file__).resolve().parents[1]
 TARGETS = {"patchouli", "immersive_portals", "nomadictents", "weather2", "witherstormmod", "alexsmobs", "cold_sweat",
            "pamhc2crops", "pamhc2foodcore", "pamhc2foodextended", "pamhc2trees", "aether", "callfromthedepth_",
-           "waystones", "carryon", "ropebridge", "sophisticatedbackpacks", "geckolib"}  # Depth uses GeckoLib without declaring it mandatory.
+           "waystones", "carryon", "ropebridge", "sophisticatedbackpacks", "geckolib",
+           "elytraslot", "more_enchantments", "bettercombat", "betterminecarts", "ftbquests",
+           "dungeons_enhanced", "structory", "t_and_t", "abridged", "comforts", "inventorytotem",
+           "fallingtree", "easyanvils", "superbarrels", "ironchest", "biomesoplenty", "terralith", "tectonic"}  # Depth uses GeckoLib without declaring it mandatory.
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)

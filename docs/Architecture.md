@@ -59,3 +59,28 @@ This retains old book items, page IDs and original page ordering. All clients ne
 Official format references: [Patchouli book JSON](https://vazkiimods.github.io/Patchouli/docs/reference/book-json/),
 [1.20 resource layout](https://vazkiimods.github.io/Patchouli/docs/upgrading/upgrade-guide-120/).
 Version-specific implementation choices were checked against the installed 85-FORGE JAR.
+
+## Expanded integrations
+
+The public name is KNCraft Compatibility; the internal `kncraft` mod ID is unchanged.
+`ExpansionConfig` isolates additional opt-outs from existing administrator settings.
+Server data packs use optional tag entries and mod conditions. The targeted TagLoader
+adapter makes seven known upstream references optional only when their contributing
+source is the owning upstream mod JAR. It never replaces a merged tag or changes a
+higher-priority administrator contributor.
+
+Tent climate uses the native interior door's spawn dimension/position. It caches per-world
+ambient samples and template bounds, clears caches on unload/reload, and persists the last
+sample on the door. Chunk-presence checks cover Cold Sweat's ambient sampling grid and
+structure start references before evaluating the native modifier pipeline. No chunk tickets
+or forced loads are added. The bounded enclosure adapter only affects Cold Sweat queries.
+
+Aether equipment uses Cold Sweat's registry and InsulationTickEvent APIs. The latter is
+where 2.4.3 aggregates actual Curios insulation into its armor modifier. Managed excess is
+subtracted there, preserving external definitions. Feeding filters eligibility through the
+native Sophisticated path without replacing eating, hunger, timers or remainder handling.
+
+FTB chapter installation runs during ServerAboutToStart, before FTB's ServerStarted load.
+Owned hashes permit updates; edited files and ID collisions are preserved. No progress files
+are touched. Custom advancement predicates supply visit/kill/inventory records; native
+advancements supply the rest. FTB's native task logic tracks their completion.

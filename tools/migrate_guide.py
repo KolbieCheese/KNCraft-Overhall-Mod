@@ -18,7 +18,7 @@ def main():
     guide = args.instance.resolve() / "patchouli_books/kncraft_guide"
     book = guide / "book.json"
     if not book.exists():
-        print("No legacy guide: KNCraft Architecture creates the declaration when the game starts."); return
+        print("No legacy guide: KNCraft Compatibility creates the declaration when the game starts."); return
     data = json.loads(book.read_text(encoding="utf-8-sig"))
     if data.get("use_resource_pack"):
         print("Guide already uses bundled resources; nothing changed."); return
@@ -41,7 +41,7 @@ def main():
     backup.mkdir(parents=True, exist_ok=False)
     shutil.copy2(book, backup / "book.json")
     data["use_resource_pack"] = True
-    data["version"] = max(int(data.get("version", 8)), 9)
+    data["version"] = max(int(data.get("version", 8)), 10)
     temporary = book.with_suffix(".json.tmp")
     temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     temporary.replace(book)

@@ -10,6 +10,16 @@
       "recipe": "pamhc2foodcore:applesmoothieitem",
       "anchor": "lookup_recipe_pamhc2foodcore_applesmoothieitem",
       "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Freezer",
+      "anchor": "kncraft_freezer",
+      "input": "pamhc2foodcore:applejuiceitem",
+      "output": "pamhc2foodcore:applesmoothieitem",
+      "station": "aether:freezer",
+      "body": "Freeze prepared juice for 10 seconds. Makes one smoothie; uses normal Freezer fuel.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
     }
   ],
   "extra_recipe_mappings": {}

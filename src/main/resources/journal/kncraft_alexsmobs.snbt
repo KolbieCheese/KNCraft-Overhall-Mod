@@ -1,0 +1,2428 @@
+{
+  "id": "413F777074FD4DA3",
+  "filename": "kncraft_alexsmobs",
+  "title": "Wildlife",
+  "icon": "minecraft:writable_book",
+  "order_index": 103,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "46DB85167505D0F1",
+      "title": "Flowers of the Savanna",
+      "icon": "alexsmobs:acacia_blossom",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Obtain an Acacia Blossom from breaking Acacia Leaves",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "498601D2FDDECFCC",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/acacia_blossom",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4563F4C0E6FDE01A",
+      "title": "Alligator In Name Only",
+      "icon": "alexsmobs:tab_icon",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Encounter an Alligator Snapping Turtle",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "45D3717FF9764392",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/alligator_snapping_turtle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4901D25E94458EE2",
+      "title": "Winning Play",
+      "icon": "alexsmobs:tab_icon",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Kill any creature from 100 blocks away with an eagle wearing a hood.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D088B36DC472C0D",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/bald_eagle_challenge",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "41C3B63BEB2B8C77",
+      "title": "Gone Bananas!",
+      "icon": "alexsmobs:banana",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "Obtain a Banana",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C1C2EF628ADB088",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/banana",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A6962DF9578C4CC",
+      "title": "Convergent Evolution...",
+      "icon": "alexsmobs:tab_icon",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Encounter a Banana Slug. Not so appetising.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "41BC7CF83AAF0A95",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/banana_slug",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E6193E9DC17F56A",
+      "title": "Perfect View in the Plains",
+      "icon": "alexsmobs:tab_icon",
+      "x": 10.0,
+      "y": 0.0,
+      "description": [
+        "Observe a Bison through the lens of a Spyglass.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "45C68066F50EF7E5",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/bison_spyglass",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F75379538484F6B",
+      "title": "Spray 'n Pray",
+      "icon": "alexsmobs:blood_sprayer",
+      "x": 12.0,
+      "y": 0.0,
+      "description": [
+        "Craft a Blood Sprayer from the drops of a Crimson Mosquito",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4075031660A93B77",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/blood_sprayer",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "449537C2654E30E3",
+      "title": "Aunt Anteater",
+      "icon": "alexsmobs:tab_icon",
+      "x": 0.0,
+      "y": 2.0,
+      "description": [
+        "Breed two Anteaters by feeding them pupae.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48472689109C09D3",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/breed_anteater",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44497D0D87BA82D3",
+      "title": "Crikey!",
+      "icon": "alexsmobs:crocodile_egg",
+      "x": 2.0,
+      "y": 2.0,
+      "description": [
+        "Breed two crocodiles with rotten flesh. Careful not to trample their eggs!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "41DE13BBEC17963F",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/breed_crocodile",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46A8B5C989654E72",
+      "title": "Undercover Under Covers",
+      "icon": "alexsmobs:tab_icon",
+      "x": 4.0,
+      "y": 2.0,
+      "description": [
+        "Breed two Froststalkers with porkchops.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "440E71A97EFD1022",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/breed_froststalker",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AC7237D82737227",
+      "title": "Sugar Rush",
+      "icon": "alexsmobs:tab_icon",
+      "x": 6.0,
+      "y": 2.0,
+      "description": [
+        "Breed two hummingbirds with flowers",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4419C898525EBD8A",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/breed_hummingbird",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B8E15C56039B45B",
+      "title": "Capsid-19",
+      "icon": "alexsmobs:capsid",
+      "x": 8.0,
+      "y": 2.0,
+      "description": [
+        "Obtain a Capsid from a slain Enderiophage. Use it to display items or to transfer them upwards",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "47F6DC95967A226F",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/capsid",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4EAD12D734D17323",
+      "title": "Weird Fishes/Arpeggi",
+      "icon": "alexsmobs:cosmic_cod",
+      "x": 10.0,
+      "y": 2.0,
+      "description": [
+        "Create a Cosmic Cod by placing a Cod in a Capsid.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49A43793CDF9D439",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/cosmic_cod",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FA23B6A715438AA",
+      "title": "Nightmare Fuel",
+      "icon": "alexsmobs:tab_icon",
+      "x": 12.0,
+      "y": 2.0,
+      "description": [
+        "Encounter a crimson mosquito",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4923369641241CD9",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/crimson_mosquito",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D32DFAA83867796",
+      "title": "Pest Control",
+      "icon": "alexsmobs:mosquito_larva",
+      "x": 0.0,
+      "y": 4.0,
+      "description": [
+        "Craft a Crimson Mosquito Larvae from a maggot and a special proboscis",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4FB79F61EE2D49D3",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/crimson_mosquito_larva",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "411BF9063321F3FC",
+      "title": "Down with the Sickness",
+      "icon": "citadel:fancy_item",
+      "x": 2.0,
+      "y": 4.0,
+      "description": [
+        "Feed a Crimson Mosquito a strange, fungal creature covered in Warped Fungus. Watch as the Crimson Mosquito transforms!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C3E3E314BAAAC40",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/crimson_mosquito_sick",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B7D561B11E54F93",
+      "title": "Chompy",
+      "icon": "alexsmobs:tab_icon",
+      "x": 4.0,
+      "y": 4.0,
+      "description": [
+        "Encounter a Crocodile",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4B5698C73952B9D1",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/crocodile",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42C3770C5678FC1D",
+      "title": "Cover me with... scutes?",
+      "icon": "alexsmobs:crocodile_chestplate",
+      "x": 6.0,
+      "y": 4.0,
+      "description": [
+        "Craft a crocodile chestplate from many crocodile scutes",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "478E8785E3D1A40D",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/crocodile_chestplate",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4500BBEAE5202E1E",
+      "title": "One Chunk Fish",
+      "icon": "alexsmobs:tab_icon",
+      "x": 8.0,
+      "y": 4.0,
+      "description": [
+        "Capture the rarest fish in a bucket.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4FDA76C15E5B3824",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/devils_hole_pupfish_bucket",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "43F78289708F524D",
+      "title": "Break On Through...",
+      "icon": "citadel:fancy_item",
+      "x": 10.0,
+      "y": 4.0,
+      "description": [
+        "Using the drops of the Void Worm, create the Dimensional Carver, which allows you to dig through the fabric of reality to return home at any given point.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4263957EE60AA39C",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/dimensional_carver",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E2E03D219211C4E",
+      "title": "Echo-muh-cation!",
+      "icon": "alexsmobs:echolocator",
+      "x": 12.0,
+      "y": 4.0,
+      "description": [
+        "Craft an Echolocator, which can reveal nearby caves",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "46C177C4A0FCA380",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/echolocator",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B37483B8658659E",
+      "title": "Dressed to Impress",
+      "icon": "alexsmobs:tab_icon",
+      "x": 0.0,
+      "y": 6.0,
+      "description": [
+        "Place a colored carpet on an elephant",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49D813CED725529E",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/elephant_swag",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4BE16987C425B8F1",
+      "title": "It's an Emu!!!",
+      "icon": "alexsmobs:tab_icon",
+      "x": 2.0,
+      "y": 6.0,
+      "description": [
+        "Encounter an Emu. Exercise caution.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "402D2F83F85EFBDB",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/emu",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "408850B17428DD10",
+      "title": "Begun, The Emu War Has",
+      "icon": "minecraft:blue_banner",
+      "x": 4.0,
+      "y": 6.0,
+      "description": [
+        "See an emu dodge a launched projectile.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4DA533823F94F8E8",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/emu_dodge",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4CD94C7EDF8A9ADF",
+      "title": "Race Against The Clock",
+      "icon": "citadel:effect_item",
+      "x": 6.0,
+      "y": 6.0,
+      "description": [
+        "Catch the Ender Flu effect. Cure it by eating many Chorus Fruit or drinking milk. Be sure not to let it run its toll!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49DC7D1F344037A2",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/ender_flu",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4DF18EB0B8D715F5",
+      "title": "Ender Distancing",
+      "icon": "alexsmobs:tab_icon",
+      "x": 8.0,
+      "y": 6.0,
+      "description": [
+        "Encounter an Enderiophage, a giant biomechanical construct found in the End Midlands. Be careful not to catch Ender Flu!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E22B465638C5CDA",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/enderiophage",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4C42AD9D2A8F9393",
+      "title": "Ad End-stra",
+      "icon": "alexsmobs:enderiophage_rocket",
+      "x": 10.0,
+      "y": 6.0,
+      "description": [
+        "Craft an Enderiophage Rocket, which can be used in place of Firework Rockets when in the End.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "487C94DE3C08CEB4",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/enderiophage_rocket",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B35F8B6599AC965",
+      "title": "No End In Sight",
+      "icon": "alexsmobs:endolocator",
+      "x": 12.0,
+      "y": 6.0,
+      "description": [
+        "Craft an Endolocator, which can reveal nearby End Portal Frames",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40507F5C795583F8",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/endolocator",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "404CE6A69BD6981A",
+      "title": "Hand In Glove",
+      "icon": "citadel:fancy_item",
+      "x": 0.0,
+      "y": 8.0,
+      "description": [
+        "Craft a Falconry Glove from Leather and Hair of Bear. Use it to pick up and launch tamed eagles!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4B6341B206387D05",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/falconry_glove",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E0CC5F5C56790F1",
+      "title": "Blindsided",
+      "icon": "alexsmobs:falconry_hood",
+      "x": 2.0,
+      "y": 8.0,
+      "description": [
+        "Craft a Falconry Hood from Leather and a Roadrunner Feather. Eagles wearing one can be manually directed!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E04C95593B50A67",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/falconry_hood",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44BFA7CF8E11002E",
+      "title": "Farland Security",
+      "icon": "alexsmobs:tab_icon",
+      "x": 4.0,
+      "y": 8.0,
+      "description": [
+        "Encounter the Farseer, a monstrous defender of the world border.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40BB1539C96474DE",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/farseer",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "465568B34E74285D",
+      "title": "A Bone to Pick",
+      "icon": "alexsmobs:fish_bones",
+      "x": 6.0,
+      "y": 8.0,
+      "description": [
+        "Obtain Fish Bones from a Skelewag.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4166CD02E8530123",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/fish_bones",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46E0584D0ECCC8F9",
+      "title": "An Impostor Amoung Us",
+      "icon": "alexsmobs:froststalker_helmet",
+      "x": 8.0,
+      "y": 8.0,
+      "description": [
+        "Craft a Froststalker Helmet to walk amongst Froststalkers undetected.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4F9E040CDA051C38",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/froststalker_helmet",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4C95A72FF1A763DA",
+      "title": "Ice Scream",
+      "icon": "alexsmobs:froststalker_horn",
+      "x": 10.0,
+      "y": 8.0,
+      "description": [
+        "Slay a Froststalker.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40AFF168B95F3E08",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/froststalker_kill",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AC7599E028585DA",
+      "title": "Ghost! Ghost! Toast?",
+      "icon": "alexsmobs:ghostly_pickaxe",
+      "x": 12.0,
+      "y": 8.0,
+      "description": [
+        "Obtain a Ghostly Pickaxe from an Underminer.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43C8B30E5193BEAE",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/ghostly_pickaxe",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "47F3D488EBCAF136",
+      "title": "Like a Truffle, with more Ant",
+      "icon": "alexsmobs:gongylidia",
+      "x": 0.0,
+      "y": 10.0,
+      "description": [
+        "Harvest Gongylidia from a Leafcutter Ant Chamber underground. Place Shroomlight near the chamber to make sure you don't upset the locals",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D7322AE1CAFF791",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/gongylidia",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4351B8BA5E79FE43",
+      "title": "Pic-A-Nic Basket?",
+      "icon": "alexsmobs:tab_icon",
+      "x": 2.0,
+      "y": 10.0,
+      "description": [
+        "Encounter a Grizzly Bear",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49ABF8537408FEF2",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/grizzly_bear",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F1901F172765C03",
+      "title": "Eye of The Storm",
+      "icon": "alexsmobs:tab_icon",
+      "x": 4.0,
+      "y": 10.0,
+      "description": [
+        "Encounter a Guster during a stormy day in the desert",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "44532A4C93278326",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/guster",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "41AFDD39CB912FCE",
+      "title": "I Am Become Guster",
+      "icon": "alexsmobs:gustmaker",
+      "x": 6.0,
+      "y": 10.0,
+      "description": [
+        "Craft a Gustmaker. Now you can make your own mini-storms!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "469ACF996669C0DE",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/gustmaker",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4883C752A891BE1F",
+      "title": "Blast from the... Future?",
+      "icon": "citadel:fancy_item",
+      "x": 8.0,
+      "y": 10.0,
+      "description": [
+        "Craft a Hemolyph Blaster, the ultimate upgrade to the Blood Sprayer.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4BA491F467DB4FA7",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/hemolymph_blaster",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "41701CAEC68121E5",
+      "title": "Sugar... In Wator...",
+      "icon": "alexsmobs:hummingbird_feeder",
+      "x": 10.0,
+      "y": 10.0,
+      "description": [
+        "Craft a Hummingbird Feeder in order to keep hummingbirds nearby",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "45896D9AA5C0C997",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/hummingbird_feeder",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F7E89A2304E7C90",
+      "title": "We do a little trolling...",
+      "icon": "alexsmobs:tab_icon",
+      "x": 12.0,
+      "y": 10.0,
+      "description": [
+        "Encounter a Kangaroo",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49B47ABF879D277D",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/kangaroo",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "411D49A9C87025E9",
+      "title": "Mariachi!",
+      "icon": "alexsmobs:tab_icon",
+      "x": 0.0,
+      "y": 12.0,
+      "description": [
+        "Give a Maraca to a cockroach and enjoy the show. ¡La Cucaracha!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "437AC302B32E1BD4",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/la_cucaracha",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4356C0F2BC9A05B0",
+      "title": "Mass Transit",
+      "icon": "alexsmobs:tab_icon",
+      "x": 2.0,
+      "y": 12.0,
+      "description": [
+        "Ride a Laviathan with three other passengers.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49617DAC73A6AFE5",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/laviathan_four_passengers",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "463635A107BD7A88",
+      "title": "Loch-Nether Monster!",
+      "icon": "minecraft:spyglass",
+      "x": 4.0,
+      "y": 12.0,
+      "description": [
+        "Observe a Laviathan through the lens of a Spyglass.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43DBF6F97C287B63",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/laviathan_spyglass",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "434162D18B59EACF",
+      "title": "Ant Farm",
+      "icon": "alexsmobs:leafcutter_ant_pupa",
+      "x": 6.0,
+      "y": 12.0,
+      "description": [
+        "Obtain a Leafcutter Ant Pupa, which can be placed on dirt to start a Leafcutter Ant colony.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "488CF3CC9C92E9EF",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/leafcutter_ant_pupa",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4552B6489A9487A1",
+      "title": "A Small Price to Pay...",
+      "icon": "alexsmobs:lost_tentacle",
+      "x": 8.0,
+      "y": 12.0,
+      "description": [
+        "Obtain a Lost Tentacle from a battle between two titans.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "479616B4A97204D3",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/lost_tentacle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40C604545614A7A2",
+      "title": "Hungry For Apples?",
+      "icon": "alexsmobs:tab_icon",
+      "x": 10.0,
+      "y": 12.0,
+      "description": [
+        "Feed a Maned Wolf an apple.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "44B5569E107D6E95",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/maned_wolf_apple",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42853F53476EC77D",
+      "title": "A Fistful of Water",
+      "icon": "minecraft:water_bucket",
+      "x": 12.0,
+      "y": 12.0,
+      "description": [
+        "Sneak and give a tamed Mantis Shrimp a bucket of water so that it can live on land indefinitely",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40D1A824D540C486",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/mantis_shrimp_bucket",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4377E0C24DF1BF99",
+      "title": "Mariachi?",
+      "icon": "alexsmobs:maraca",
+      "x": 0.0,
+      "y": 14.0,
+      "description": [
+        "Craft a Maraca with a Rattlesnake rattle",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4083112B90CA5CAB",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/maraca",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "439B940A5520E5E6",
+      "title": "Flexible Schedule",
+      "icon": "alexsmobs:tab_icon",
+      "x": 2.0,
+      "y": 14.0,
+      "description": [
+        "Encounter the Murmur, which is not as it seems.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "438E01C99D8E0BB4",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/murmur",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "488E8F86701EFED4",
+      "title": "Destroy The Child",
+      "icon": "alexsmobs:mysterious_worm",
+      "x": 4.0,
+      "y": 14.0,
+      "description": [
+        "Create a Mysterious Worm by putting a Crimson Mosquito Larva in a Capsid.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A875349B31F549A",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/mysterious_worm",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4986AF3AC67E9140",
+      "title": "He Was Number One!",
+      "icon": "citadel:fancy_item",
+      "x": 6.0,
+      "y": 14.0,
+      "description": [
+        "Obtain a Novelty Hat from a Skelewag.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4DC0401B46A223D9",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/novelty_hat",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "441770A6ED6716F3",
+      "title": "Free Willy",
+      "icon": "alexsmobs:tab_icon",
+      "x": 8.0,
+      "y": 14.0,
+      "description": [
+        "Be granted a blessing from a wild Orca",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "401CAD095101B14B",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/orcas_might",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40E40CB3872FC98C",
+      "title": "Pocket Sand!",
+      "icon": "citadel:fancy_item",
+      "x": 10.0,
+      "y": 14.0,
+      "description": [
+        "Craft a Pocket Of Sand. Sha-sha!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48AF586DEC7DF5F7",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/pocket_sand",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "454238B1CA07E116",
+      "title": "Rainbow Road",
+      "icon": "alexsmobs:rainbow_glass",
+      "x": 12.0,
+      "y": 14.0,
+      "description": [
+        "Craft Rainbow Glass from Rainbow Jelly and Glass.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4328004F12423EDE",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/rainbow_glass",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "472BE17393588DA4",
+      "title": "Taste the Rainbow",
+      "icon": "alexsmobs:tab_icon",
+      "x": 0.0,
+      "y": 16.0,
+      "description": [
+        "Obtain Rainbow Jelly from a Comb Jelly. Use a sponge if you don't like what happens...",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40400FEA49913703",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/rainbow_jelly",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4839D9A9739B73EB",
+      "title": "No Step on Snake",
+      "icon": "alexsmobs:tab_icon",
+      "x": 2.0,
+      "y": 16.0,
+      "description": [
+        "Encounter a Rattlesnake",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "466ADBCB0BB69FF9",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/rattlesnake",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B356203FF3BE48E",
+      "title": "You're too Slow!",
+      "icon": "alexsmobs:rocky_chestplate",
+      "x": 4.0,
+      "y": 16.0,
+      "description": [
+        "Craft a Rock Shell Chestplate to roll into a ball.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4BC04562F8D839D1",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/rocky_chestplate",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44A72F9B5A73E017",
+      "title": "KEEP ROLLIN' ROLLIN' ROLLIN'",
+      "icon": "alexsmobs:tab_icon",
+      "x": 6.0,
+      "y": 16.0,
+      "description": [
+        "Encounter a Rocky Roller in the dripstone caves.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4F39AA8620EE5314",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/rocky_roller",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40EAF2E0495FFE0B",
+      "title": "Rocks Off!",
+      "icon": "alexsmobs:rocky_shell",
+      "x": 8.0,
+      "y": 16.0,
+      "description": [
+        "Obtain a Rocky Shell from slaying a Rocky Roller.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E321633EF154FFE",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/rocky_shell",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "48848587E56566FC",
+      "title": "Save the Whales!",
+      "icon": "alexsmobs:tab_icon",
+      "x": 10.0,
+      "y": 16.0,
+      "description": [
+        "Save a beached Cachalot Whale by pushing it into the water, and then have it reward you by coughing up some Ambergris",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4FFFCF62B59B9E4D",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/save_cachalot_whale",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40F189CD1CC5E067",
+      "title": "Ok Boomer",
+      "icon": "alexsmobs:sculk_boomer",
+      "x": 12.0,
+      "y": 16.0,
+      "description": [
+        "Craft a Sculk Boomer using the souls of a few Skreechers.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49B7AE14BB62A9A5",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/sculk_boomer",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "45BC2523C922431A",
+      "title": "Mine? Mine? Mine?",
+      "icon": "alexsmobs:tab_icon",
+      "x": 0.0,
+      "y": 18.0,
+      "description": [
+        "Have food stolen from your inventory by a seagull.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4B8A74CEAB3C59BA",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/seagull_steal",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FB73D28E3CF380B",
+      "title": "Ticket to the End of the World",
+      "icon": "alexsmobs:shattered_dimensional_carver",
+      "x": 2.0,
+      "y": 18.0,
+      "description": [
+        "Shatter a Dimensional Carver by placing it in a Capsid. Instead of opening a portal home, it will now open a portal one million blocks in any direction.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D2870F3580E1C00",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/shattered_dimensional_carver",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4157063797849793",
+      "title": "We Just Want our Hat Back",
+      "icon": "alexsmobs:tab_icon",
+      "x": 4.0,
+      "y": 18.0,
+      "description": [
+        "Encounter a Skelewag near a sunken ship.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "487A3064308134E7",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/skelewag",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B8B2FFEAE814D16",
+      "title": "Smitty WerbenJagerManJensen",
+      "icon": "citadel:fancy_item",
+      "x": 6.0,
+      "y": 18.0,
+      "description": [
+        "Take a sword-like skull from a Skelewag.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4DA91695BCD92DA9",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/skelewag_skull",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4BFC28AF62972C3D",
+      "title": "Sculk Cymbal",
+      "icon": "alexsmobs:tab_icon",
+      "x": 8.0,
+      "y": 18.0,
+      "description": [
+        "Encounter the Skreecher, a loud and obnoxious sculk monster.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "44202E2233B40D28",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/skreecher",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D8D2EBF5CC983DC",
+      "title": "Hippie Smell",
+      "icon": "alexsmobs:tab_icon",
+      "x": 10.0,
+      "y": 18.0,
+      "description": [
+        "Get sprayed by a Skunk.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D8831EE410DE59E",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/skunk",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4EC55F03436146A6",
+      "title": "Uma Delicia",
+      "icon": "citadel:fancy_item",
+      "x": 12.0,
+      "y": 18.0,
+      "description": [
+        "Craft sopa de macaco with a banana peel",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4F29FDDA631D923B",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/sopa_de_macaco",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40F20E021F6837A1",
+      "title": "The Soul-ly Ghost",
+      "icon": "alexsmobs:soul_heart",
+      "x": 0.0,
+      "y": 20.0,
+      "description": [
+        "Obtain a soul heart from slaying a bloated Soul Vulture",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "482E94E1CA4F0908",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/soul_heart",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4CE0339E75975787",
+      "title": "Fetch Me Their Souls!",
+      "icon": "alexsmobs:tab_icon",
+      "x": 2.0,
+      "y": 20.0,
+      "description": [
+        "Encounter a Soul Vulture in the nether",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "457C36B3FD9A7057",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/soul_vulture",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AE5EC37FD46C235",
+      "title": "The Iron Curtain",
+      "icon": "alexsmobs:tab_icon",
+      "x": 4.0,
+      "y": 20.0,
+      "description": [
+        "Lure a Spectre in the end with a Soul Heart. Use a lead on them to hitch a ride!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4199DD5D5BE66DF7",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/spectre",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44FBE21EFF63689E",
+      "title": "Shear the Scute",
+      "icon": "alexsmobs:spiked_scute",
+      "x": 6.0,
+      "y": 20.0,
+      "description": [
+        "Shear a moss-covered Alligator Snapping Turtle and obtain a Spiked Scute",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C85F265803B3C0C",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/spiked_scute",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "45338C4E3252F9F9",
+      "title": "Turtle-ology Majors Be Like",
+      "icon": "alexsmobs:spiked_turtle_shell",
+      "x": 8.0,
+      "y": 20.0,
+      "description": [
+        "Craft a Spiked Turtle Shell",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "474FDE242A101D56",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/spiked_turtle_shell",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42193E6DC47C9DF1",
+      "title": "... for Salvation",
+      "icon": "alexsmobs:squid_grapple",
+      "x": 10.0,
+      "y": 20.0,
+      "description": [
+        "Craft a Grappling Squok from Lost Tentacles, a crossbow and copper ingots.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43727703F2FF30F3",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/squid_grapple",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E441A01E4B81763",
+      "title": "Gamer Skunk Bath Water",
+      "icon": "alexsmobs:stink_bottle",
+      "x": 12.0,
+      "y": 20.0,
+      "description": [
+        "Capture skunk spray using a glass bottle.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4144F544B9CE2B23",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/stink_bottle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "400391B2290289E1",
+      "title": "I SAID DART GUN!",
+      "icon": "alexsmobs:stink_ray",
+      "x": 0.0,
+      "y": 22.0,
+      "description": [
+        "Craft a Stink Ray.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "454C9EB63BB35BC5",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/stink_ray",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4595B5562CA67375",
+      "title": "Ant-Agonizer",
+      "icon": "alexsmobs:tab_icon",
+      "x": 2.0,
+      "y": 22.0,
+      "description": [
+        "Stomp on a Leafcutter Anthill - beware the angry denizens within!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4680D8F7CA59FAD4",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/stomp_leafcutter_anthill",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4C2161A1C5E9EEAF",
+      "title": "The Family Sedan",
+      "icon": "alexsmobs:straddle_saddle",
+      "x": 4.0,
+      "y": 22.0,
+      "description": [
+        "Craft a Straddlite Saddle. Don't forget the trim!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "459E23A99700C62A",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/straddle_saddle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "41361AABA7F409C4",
+      "title": "Surf Wax America",
+      "icon": "alexsmobs:straddleboard",
+      "x": 6.0,
+      "y": 22.0,
+      "description": [
+        "Craft a Straddleboard from some Netherite and Straddlerite.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "41BC9FB28FBF58B4",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/straddleboard",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FD74A404AF3E2BE",
+      "title": "Straddle My Ol' Saddle",
+      "icon": "alexsmobs:tab_icon",
+      "x": 8.0,
+      "y": 22.0,
+      "description": [
+        "Encounter a Straddler in the Basalt Deltas.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "473DE35F9F79AFE0",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/straddler",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "43512660AC26C601",
+      "title": "Like Father",
+      "icon": "alexsmobs:tab_icon",
+      "x": 10.0,
+      "y": 22.0,
+      "description": [
+        "Feed a Stradpole some Mosquito Larva, in hopes of turning it into a Straddler.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40F47583F8539FFB",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/stradpole_feed",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B8DC837B7DF3E46",
+      "title": "The Quest for the Best",
+      "icon": "alexsmobs:pupfish_locator",
+      "x": 12.0,
+      "y": 22.0,
+      "description": [
+        "Craft a Strange Fish Finder from slimeballs, Fish Bones and an Echolocator.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48379F95F26FBB67",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/strange_fish_finder",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A3871568655852E",
+      "title": "The Power of the Sun",
+      "icon": "alexsmobs:tab_icon",
+      "x": 0.0,
+      "y": 24.0,
+      "description": [
+        "Receive a blessing from the great and noble sunbird",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E9C80E7DFF21F7B",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/sunbird_blessing",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E25F3100392A1DC",
+      "title": "Freedom Intensifies",
+      "icon": "alexsmobs:tab_icon",
+      "x": 2.0,
+      "y": 24.0,
+      "description": [
+        "Tame a bald eagle with fish oil.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4AFC0F97D0C4A4A9",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tame_bald_eagle",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D5554907062F27E",
+      "title": "Monkey Business",
+      "icon": "alexsmobs:tab_icon",
+      "x": 4.0,
+      "y": 24.0,
+      "description": [
+        "Tame a capuchin monkey with bananas",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4685C819ED5EF2D9",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tame_capuchin",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4089795B7E56CBBD",
+      "title": "Its a Fish? Its a Bug? What is it?",
+      "icon": "alexsmobs:tab_icon",
+      "x": 6.0,
+      "y": 24.0,
+      "description": [
+        "Tame a Cosmaw by feeding it Cosmic Cod.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4ECB77A5108E306B",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tame_cosmaw",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "48410F3CDA55B42A",
+      "title": "Stampy!",
+      "icon": "alexsmobs:tab_icon",
+      "x": 8.0,
+      "y": 24.0,
+      "description": [
+        "Tame an elephant by feeding it Acacia Blossoms",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4B696994FB746E54",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tame_elephant",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D89DFC4C65207A6",
+      "title": "The Biggest Land Mammal",
+      "icon": "alexsmobs:tab_icon",
+      "x": 10.0,
+      "y": 24.0,
+      "description": [
+        "Tame a tusked elephant when it is a baby",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40AF29D92D66AB41",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tame_elephant_tusked",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "462ED44F10CFE05A",
+      "title": "A Picky Fellow",
+      "icon": "alexsmobs:tab_icon",
+      "x": 12.0,
+      "y": 24.0,
+      "description": [
+        "Tame a Flutter by giving it multiple kinds of flowers.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49F44698FC59A045",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tame_flutter",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A93310244F8575C",
+      "title": "In Memoriam",
+      "icon": "alexsmobs:tab_icon",
+      "x": 0.0,
+      "y": 26.0,
+      "description": [
+        "Tame a gorilla with bananas",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "42038C32306A06A5",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tame_gorilla",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FBC87EB2E95ACD3",
+      "title": "Arcturus!",
+      "icon": "minecraft:salmon",
+      "x": 2.0,
+      "y": 26.0,
+      "description": [
+        "Tame a Grizzly Bear by feeding it honey and salmon",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E88F566E7A964BA",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tame_grizzly_bear",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E5F274C19A9A932",
+      "title": "Shrimp Friend",
+      "icon": "alexsmobs:tab_icon",
+      "x": 4.0,
+      "y": 26.0,
+      "description": [
+        "Tame a Mantis Shrimp with many feedings of Tropical Fish",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "478D7BFF195A7D7A",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tame_mantis_shrimp",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "43CA591EA263EA62",
+      "title": "Big Iron",
+      "icon": "minecraft:spider_eye",
+      "x": 6.0,
+      "y": 26.0,
+      "description": [
+        "Tame a Tarantula Hawk by feeding it Spider Eyes.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4F81059789D45062",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tame_tarantula_hawk",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "47F696BC75081643",
+      "title": "It Is Wednesday",
+      "icon": "alexsmobs:tab_icon",
+      "x": 8.0,
+      "y": 26.0,
+      "description": [
+        "Tame a Warped Toad, the perfect defense against any giant bug, with some larvae",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "42D5D1F4A4CD4922",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tame_warped_toad",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4EF1D11E7DA407F2",
+      "title": "Rigged from the Start",
+      "icon": "alexsmobs:tab_icon",
+      "x": 10.0,
+      "y": 26.0,
+      "description": [
+        "Encounter a Tarantula Hawk in a desert.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4399CD313EEE90D8",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tarantula_hawk",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D7AF01B7B415E60",
+      "title": "Eye of the Tiger",
+      "icon": "alexsmobs:tab_icon",
+      "x": 12.0,
+      "y": 26.0,
+      "description": [
+        "Receive a Tiger's Blessing after feeding it Porkchops, Chicken or other meats.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A1B5082658B170D",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/tigers_blessing",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4C0D04615D2921FB",
+      "title": "Reality Can Be Whatever I Want",
+      "icon": "alexsmobs:transmutation_table",
+      "x": 0.0,
+      "y": 28.0,
+      "description": [
+        "Craft a Transmutation Table to convert materials into almost anything.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4476CA751CD09D97",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/transmutation_table",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49E5DF274F0FCC1A",
+      "title": "Nonequivalent Exchange",
+      "icon": "alexsmobs:transmutation_table",
+      "x": 2.0,
+      "y": 28.0,
+      "description": [
+        "Transmute 1000 items using the same Transmutation Table.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "44D51D689B6742B9",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/transmute_1000_items",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "43D14D4CB542A222",
+      "title": "Who Undermines the Underminer?",
+      "icon": "alexsmobs:tab_icon",
+      "x": 4.0,
+      "y": 28.0,
+      "description": [
+        "Break the block an Underminer is mining, revealing a hidden ore",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "406296D73DB03980",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/underminer",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FB0ED2BBE1F3D12",
+      "title": "Wormy",
+      "icon": "alexsmobs:void_worm_beak",
+      "x": 6.0,
+      "y": 28.0,
+      "description": [
+        "Destroy the Void Worm.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4FF49CAADB0034B9",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/void_worm_kill",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FCE17B412E89849",
+      "title": "Should've Gone for the Head",
+      "icon": "alexsmobs:void_worm_eye",
+      "x": 8.0,
+      "y": 28.0,
+      "description": [
+        "Split a void worm in half by attacking one of its body segments. More worms, more problems!",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "415659E8B7391B8A",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/void_worm_split",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4CEBF9FBA4C96517",
+      "title": "A Soul for a Soul",
+      "icon": "alexsmobs:tab_icon",
+      "x": 10.0,
+      "y": 28.0,
+      "description": [
+        "Toss the Mysterious Worm into the void of the End, and prepare to meet the Void Worm.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48878C6EF22EAA95",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/void_worm_summon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4CCCCEDF0B79A797",
+      "title": "Destroyer of Chads",
+      "icon": "alexsmobs:tab_icon",
+      "x": 12.0,
+      "y": 28.0,
+      "description": [
+        "Slay the Warped Mosco, the swole defender of the Warped Forest.",
+        "",
+        "Field Guide: Animals & Companions. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4709B6C86F3FBD6C",
+          "type": "advancement",
+          "advancement": "alexsmobs:alexsmobs/warped_mosco_kill",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

@@ -79,6 +79,27 @@
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
     },
     {
+      "type": "patchouli:kn_text",
+      "heading": "Farm and wildlife linings",
+      "body": "Cotton gives 1 cold / 0.5 heat insulation. Bear fur gives 1.5 cold, bison fur 1.75 cold, and kangaroo hide 0.75 cold / 0.75 heat. Use normal Sewing Table slots and removal rules. Cotton offers a renewable alternative to hunting.",
+      "anchor": "kncraft_fibers",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Frontier Cap",
+      "body": "The worn Frontier Cap provides 3 cold / 1 heat insulation by default. Its built-in insulation uses sewing capacity. Read the Cold Sweat tooltip before adding linings; your existing sewn equipment keeps its native rules.",
+      "anchor": "kncraft_cap",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Aether accessories",
+      "body": "An equipped Ice Ring or Ice Pendant adds 2 heat insulation. Ordinary colored capes add 0.5 cold / 0.5 heat. Their combined added heat insulation is capped at 4. They slow temperature change; they do not make you immune to heat.",
+      "anchor": "kncraft_aether_accessories",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
       "type": "patchouli:kn_image",
       "heading": "Sewing Table example",
       "body": "The author's example shows the armor and insulation inputs. Use the installed item",
@@ -108,6 +129,20 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Icestone cooling fuel",
+      "body": "Aether Icestone supplies 100 cooling fuel to an Icebox or hearth. This is less than ordinary ice. The Aether Freezer also makes ice, packed ice and blue ice, linking an Aether workshop to your climate supplies.",
+      "anchor": "kncraft_icestone",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Carry climate provisions",
+      "body": "Hot tea, coffee and nettle tea warm for 60 seconds; carrot soup, potato soup and stew for 90. Melon smoothie and ice cream cool for 60; apple juice for 30. See $(l:patchouli:chapters/food#kncraft_thermal_meals)Pam's chapter$(/l) and each Cook Book page.",
+      "anchor": "kncraft_meals",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Conditioning a camp",
       "body": "A Hearth handles larger spaces and has separate heat and cold fuel supplies. It spreads protection through suitable covered spaces; a roof, range limits and obstructions matter. Check the block's control indicators and the effect on a",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
@@ -118,6 +153,34 @@
       "heading": "Conditioning a camp (cont.)",
       "body": "player in the farthest room. Cold Sweat 2.4 changed controls, so copy the tested layout for this pack rather than old wiring diagrams. A Thermolith provides a temperature-based redstone signal for automation.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Sleep at camp",
+      "body": "Comforts uses the normal Cold Sweat sleep check. This pack exempts sleeping bags through its existing Cold Sweat setting; other beds retain temperature danger checks. A server can change that policy. Warm or cool your shelter before a long stay.",
+      "anchor": "kncraft_comforts",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A hearth inside a tent",
+      "body": "Nomadic Tent interiors count as enclosed for Cold Sweat, including their expandable floors. A hearth still needs fuel, warm-up and a clear route for its effect to spread. Large tents may need careful placement or additional climate equipment.",
+      "anchor": "kncraft_tent_hearth",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "The camp sets the climate",
+      "body": "A tent inherits ambient temperature from its outside entrance, including local climate and time of day. Interior hearths, heat sources, clothing and food still affect you. Packing and pitching elsewhere gives the tent its new campsite climate.",
+      "anchor": "kncraft_tent_temperature",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A distant campsite",
+      "body": "When the outside area is unloaded, the tent retains its last sampled outdoor temperature. It updates when that area loads again. Rain is not simulated falling inside the tent. If you entered while wet, your existing wetness still dries normally.",
+      "anchor": "kncraft_unloaded_camp",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -370,13 +433,6 @@
       ],
       "text": "Next chapter first; previous chapter below.",
       "anchor": "cold_end"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Prepare for travel",
-      "body": "$(l:patchouli:chapters/architecture#cotton)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
-      "navigation": "$(l:patchouli:guide)Book$(/l)",
-      "anchor": "architecture"
     }
   ],
   "extra_recipe_mappings": {}

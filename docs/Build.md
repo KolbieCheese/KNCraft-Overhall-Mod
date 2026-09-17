@@ -2,7 +2,7 @@
 
 Pinned toolchain: Java 17, Gradle 8.8 (wrapper checksum), ForgeGradle 6.0.36,
 Minecraft 1.20.1 official mappings and Forge 47.4.0. `tools/bootstrap_dependencies.py` copies
-four top-level inputs and extracts Infiniverse from the verified Nomadic Tents parent archive.
+eight top-level inputs and extracts Infiniverse from the verified Nomadic Tents parent archive.
 It records hashes in ignored `libs/verified-inputs.json`. Build dependencies are local aliases
 for verified artifacts, not machine-specific paths. All third-party JARs remain outside Git.
 
@@ -12,14 +12,14 @@ Forge startup were checked. Pam's Food Extended reports internal version `0.0NON
 the artifact hash rather than assuming the filename equals its internal version.
 
 `gradlew build` runs deterministic tests and reobfuscates the runtime JAR. `harnessJars` makes
-separate reobfuscated depth, tents, performance and cohesion harnesses. Main resources never
+separate reobfuscated depth, tents, performance, cohesion and expansion harnesses. Main resources never
 include test commands/classes. `tools/validate_artifact.py --jar PATH` checks this boundary,
 JSON resources, guide assets, original gameplay data and fiber recipe costs.
 
-CI validates source assets on GitHub-hosted runners. The manual build workflow uses a private
-Windows runner labelled `kncraft` with a legally installed pack supplied as input. It cannot
-build on a fresh public runner without those licensed inputs; no secrets or downloaded client
-profiles are embedded in CI.
+CI builds on public GitHub-hosted runners. `bootstrap_dependencies.py --download` obtains
+the exact inputs from the official URLs in `Build-Inputs.json` and checks their hashes.
+Default-branch pushes publish incrementing versions; PR builds do not publish. See
+[release behavior](Releases.md). No secrets or downloaded client profiles are embedded in CI.
 
 ## Isolated runtime procedure
 
@@ -44,5 +44,6 @@ a fixture failure, resolved by preparing chunks without changing the gameplay im
 
 Test commands include `kncraftperfprepare` (wait), `kncraftperftest`, `kncrafttentacktest`,
 `kncrafttenttest`, `depthheighttests`, `nativeportalchecks`, `kncraftcohesiontest`, and the separate
-tent persistence/traversal commands retained in source. They modify their world deliberately.
+tent persistence/traversal commands retained in source. The expansion adds `kncraftexpansiontest`
+and `kncraftclimatetest`, plus `kncraftclimatepersist` after restarting their saved fixtures. They modify their world deliberately.
 Real multiplayer login and seamless rendering/traversal require a physical client afterward.

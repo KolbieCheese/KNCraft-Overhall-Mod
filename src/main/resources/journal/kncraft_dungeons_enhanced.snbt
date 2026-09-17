@@ -1,0 +1,312 @@
+{
+  "id": "4F74572CF5062AF0",
+  "filename": "kncraft_dungeons_enhanced",
+  "title": "Explorer Milestones",
+  "icon": "minecraft:writable_book",
+  "order_index": 105,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "4DCBEE75267732E0",
+      "title": "Ahoy, Captain!",
+      "icon": "minecraft:wither_skeleton_skull",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Find a Pirate Ship",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4F5F561A7B21670A",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:ahoy",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A65EF76573EBDA7",
+      "title": "Ambitious Explorer",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Discover all Structures",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A97D3D177BE04FE",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:ambitious_explorer",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "426331DC08D0835C",
+      "title": "Ancient Civilizations",
+      "icon": "minecraft:bamboo",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Find a Jungle Monument",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4F67993D424AC379",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:ancient_civilizations",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46647D60B0174231",
+      "title": "Chilled Halls",
+      "icon": "minecraft:bone",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "Find an Ice Pit",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "405F5B70F7A0E11D",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:chilled_halls",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4D8305A62ABE4D5D",
+      "title": "Hidden under Roots",
+      "icon": "minecraft:jack_o_lantern",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Find a Monster Maze",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E34B0D1DBD84E68",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:hidden_under_the_roots",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44ACC14C20A37664",
+      "title": "Flying in the Air",
+      "icon": "minecraft:lantern",
+      "x": 10.0,
+      "y": 0.0,
+      "description": [
+        "Find a Flying Dutchman",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4B24A8D4951CDAC1",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:in_the_air",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "425F1454519E8758",
+      "title": "Rarest Structure?",
+      "icon": "minecraft:red_mushroom",
+      "x": 12.0,
+      "y": 0.0,
+      "description": [
+        "Find a Mushroom House",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "44F09326F01BFC43",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:rarest_structure",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F06EF8E0F38C32C",
+      "title": "Seven Wonders of the World",
+      "icon": "minecraft:spyglass",
+      "x": 0.0,
+      "y": 2.0,
+      "description": [
+        "Find the Seven Greatest Structures",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "47893F8BDC77456C",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:seven_world_wonders",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FCEE484ACBBB900",
+      "title": "Spooky Scary Citadel",
+      "icon": "minecraft:red_banner",
+      "x": 2.0,
+      "y": 2.0,
+      "description": [
+        "Find a Black Citadel",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48FBA57E1925F432",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:spooky_scary_citadel",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B2C59882F9658BB",
+      "title": "Sunken in the Depths",
+      "icon": "minecraft:nautilus_shell",
+      "x": 4.0,
+      "y": 2.0,
+      "description": [
+        "Find an Elder's Temple",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48D9DAC11E47E6F3",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:sunken_deeps",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46A7D22E398CD3A8",
+      "title": "What a Dungeon!",
+      "icon": "minecraft:skeleton_skull",
+      "x": 6.0,
+      "y": 2.0,
+      "description": [
+        "Find a Large Dungeon",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "410DFC3F061BE732",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:thats_a_dungeon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49DC5B3D21646F6F",
+      "title": "Traps and Curses",
+      "icon": "minecraft:tnt",
+      "x": 8.0,
+      "y": 2.0,
+      "description": [
+        "Find a Desert Temple",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "42BC201B11D3C859",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:traps_and_curses",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49099A3B29DADE8E",
+      "title": "Forgotten Wars and Kingdoms",
+      "icon": "minecraft:stone_bricks",
+      "x": 10.0,
+      "y": 2.0,
+      "description": [
+        "Find a Castle",
+        "",
+        "Field Guide: Travel & Logistics. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C3E0707660888D7",
+          "type": "advancement",
+          "advancement": "dungeons_enhanced:wars_and_kingdoms",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

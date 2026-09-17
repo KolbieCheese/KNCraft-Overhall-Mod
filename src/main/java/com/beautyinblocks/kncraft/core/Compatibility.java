@@ -10,7 +10,10 @@ public final class Compatibility {
         Map.entry("immersive_portals", "3.0.7"), Map.entry("nomadictents", "20.1.1"),
         Map.entry("infiniverse", "1.0.0.5"), Map.entry("witherstormmod", "4.2.1"),
         Map.entry("alexsmobs", "1.22.9"), Map.entry("weather2", "1.20.1-2.8.3"),
-        Map.entry("callfromthedepth_", "1.22.1"), Map.entry("cold_sweat", "2.4.3"));
+        Map.entry("callfromthedepth_", "1.22.1"), Map.entry("cold_sweat", "2.4.3"),
+        Map.entry("more_enchantments", "1.4.3"), Map.entry("elytraslot", "6.4.4+1.20.1"),
+        Map.entry("bettercombat", "1.9.0+1.20.1"), Map.entry("sophisticatedcore", "1.5.1.2335"),
+        Map.entry("carryon", "2.1.2.7"));
     public static final Set<String> LEGACY = Set.of("kncraftnativeportals", "kncrafttentportals", "kncraftperformance");
     public static String version(String id) {
         return LoadingModList.get().getMods().stream().filter(m -> m.getModId().equals(id))

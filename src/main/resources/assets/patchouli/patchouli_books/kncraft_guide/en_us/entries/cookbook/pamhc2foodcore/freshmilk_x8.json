@@ -10,6 +10,12 @@
       "recipe": "pamhc2foodcore:freshmilk_x8",
       "anchor": "lookup_recipe_pamhc2foodcore_freshmilk_x8",
       "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "kncraft:skyroot_fresh_milk",
+      "anchor": "kncraft_skyroot_milk",
+      "text": "Skyroot milk also makes eight fresh milk. The empty Skyroot bucket is returned."
     }
   ],
   "extra_recipe_mappings": {}

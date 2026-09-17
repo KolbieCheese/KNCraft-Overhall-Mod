@@ -1,0 +1,519 @@
+{
+  "id": "4D92DA7B0BFC456B",
+  "filename": "kncraft_witherstormmod",
+  "title": "Wither Storm",
+  "icon": "minecraft:writable_book",
+  "order_index": 102,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "49330B0D5A2F9AF1",
+      "title": "Beaconator 4000",
+      "icon": "witherstormmod:super_beacon",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Activate the central Withered Beacon with all four external colors activated",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49AE15405ACF523B",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/activate_super_beacon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4429F30358267E01",
+      "title": "I Spy With My Little Eye",
+      "icon": "witherstormmod:amulet",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Craft an amulet, capable of tracking any mob desired",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "475BA727CF3E80FC",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/amulet",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4A6324586E9AD18C",
+      "title": "The Belly of the Beast",
+      "icon": "witherstormmod:tainted_sand",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Enter the bowels of the Wither Storm",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "416B18E80C100800",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/belly_of_the_beast",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E89145EE9254946",
+      "title": "Licensed Clinician",
+      "icon": "witherstormmod:golden_apple_stew",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "Cure a wither sickened mob using golden apple stew",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "478EE0F9150D9B65",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/cured_sickened_mob",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AB253ABAE6297E3",
+      "title": "Brushing Shoulders With Death",
+      "icon": "minecraft:spectral_arrow",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Escape from the Wither Storm's clutches by inflicting a blow to its heads",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C3BD7766650E218",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/escape_wither_storm",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "449BEE1269436394",
+      "title": "F-Bomb",
+      "icon": "witherstormmod:formidibomb",
+      "x": 10.0,
+      "y": 0.0,
+      "description": [
+        "Obtain a Formidibomb, a bomb capable of destroying almost anything in its path",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "444BB7934745C462",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/fbomb",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "417B8E3202AF1837",
+      "title": "Order of the Stone",
+      "icon": "minecraft:ender_eye",
+      "x": 12.0,
+      "y": 0.0,
+      "description": [
+        "Link all four colors of the amulet to different mobs",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "404F3B59FFDDB97C",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/fully_link_amulet",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4AD47820C03F7E3D",
+      "title": "Harbinger of Cataclysmic Fates",
+      "icon": "witherstormmod:withered_flesh",
+      "x": 0.0,
+      "y": 2.0,
+      "description": [
+        "Encounter a Withered Symbiont, a wither sickened, symbiotic agglomeration with Command Block powers",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "45C93AB84C684336",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/harbinger_of_cataclysmic_fates",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4C1CF8EC0F8AE5EE",
+      "title": "Infinite Potential",
+      "icon": "witherstormmod:command_block_book",
+      "x": 2.0,
+      "y": 2.0,
+      "description": [
+        "Obtain an Enchanted Command Block Book dropped by a Withered Symbiont",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4871773F262E1D50",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/infinite_potential",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40C2371C71DCF06F",
+      "title": "Insane Dedication",
+      "icon": "witherstormmod:command_block_hoe",
+      "x": 4.0,
+      "y": 2.0,
+      "description": [
+        "Craft a Command Block hoe, then look back at what got you to this point",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4246EED244698A89",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/insane_dedication",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "499AF4A40E6285EF",
+      "title": "A Nasty Surprise",
+      "icon": "witherstormmod:tainted_jack_o_lantern",
+      "x": 6.0,
+      "y": 2.0,
+      "description": [
+        "Almost kill the Wither Storm during it's hunchback phases using melee/projectile weapons",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A8B2F38E17989FE",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/nearly_kill_wither_storm",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44F45A0871C26AE4",
+      "title": "Overly Dedicated",
+      "icon": "witherstormmod:wooden_command_block_hoe",
+      "x": 8.0,
+      "y": 2.0,
+      "description": [
+        "Craft a Wooden Command Block hoe, you are a strange one, but I respect it",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49072B271D26B95D",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/overly_dedicated",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4575FE3AAB825FCA",
+      "title": "Back to the Beginning Again",
+      "icon": "minecraft:command_block",
+      "x": 10.0,
+      "y": 2.0,
+      "description": [
+        "Resummon the Wither Storm by right-clicking a withered beacon with three wither skulls",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D5A35072E2865F8",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/resummon_wither_storm",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "41696DF82907C4B6",
+      "title": "Need More Books",
+      "icon": "witherstormmod:withered_symbiont_spawn_egg",
+      "x": 12.0,
+      "y": 2.0,
+      "description": [
+        "Resummon the Withered Symbiont using a withered beacon",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "46926196A95249A7",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/resummon_withered_symbiont",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F88C73A54F01B41",
+      "title": "The Storm is Coming!",
+      "icon": "minecraft:bell",
+      "x": 0.0,
+      "y": 4.0,
+      "description": [
+        "Alert nearby entities by ringing a bell near the Wither Storm",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4F70E6F85644B335",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/ring_bell_near_storm",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "47D6AE752C60A0C5",
+      "title": "Every Cloud Has a Silver Lining",
+      "icon": "witherstormmod:command_block_sword",
+      "x": 2.0,
+      "y": 4.0,
+      "description": [
+        "Craft a Command Block tool, imbued with the powers of the Command Block",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "418B6FE13CDD2D2F",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/silver_lining",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B824F3258371150",
+      "title": "Is it the end?",
+      "icon": "minecraft:spyglass",
+      "x": 4.0,
+      "y": 4.0,
+      "description": [
+        "Look at the Wither Storm through a spyglass",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "464217CE9B2E0500",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/spyglass_at_wither_storm",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "40387A0FC7C1247B",
+      "title": "The Strong Grow Weak...",
+      "icon": "witherstormmod:infected_flesh_block",
+      "x": 6.0,
+      "y": 4.0,
+      "description": [
+        "Blow up the Wither Storm using a Formidibomb",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4770E67B4D53CA35",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/strong_grow_weak",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49F1DD30159AE551",
+      "title": "Infection Generator",
+      "icon": "witherstormmod:tainted_zombie_wall",
+      "x": 8.0,
+      "y": 4.0,
+      "description": [
+        "Summon any mob using a withered beacon",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4549B2C5982A4251",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/summon_mob_withered_beacon",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4658C6E941A3FF98",
+      "title": "Nothing Built Can Last Forever",
+      "icon": "minecraft:wither_skeleton_skull",
+      "x": 10.0,
+      "y": 4.0,
+      "description": [
+        "Summon the Wither Storm, a mutated Wither capable of mass destruction",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A881920ACFA9D76",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/summon_wither_storm",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "49413AED9062EE89",
+      "title": "...The Weakened Arise Stronger",
+      "icon": "minecraft:end_crystal",
+      "x": 12.0,
+      "y": 4.0,
+      "description": [
+        "Watch the Wither Storm arise from its slumber, more powerful than ever",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "46F9DBB8E30911E3",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/weakened_arise_stronger",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E2668C330B27B1B",
+      "title": "One Story Ends, Another Begins",
+      "icon": "witherstormmod:withered_nether_star",
+      "x": 0.0,
+      "y": 6.0,
+      "description": [
+        "Defeat the Wither Storm, once and for all",
+        "",
+        "Field Guide: Wither Storm. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49723E20CF2B309D",
+          "type": "advancement",
+          "advancement": "witherstormmod:main/wither_storm_defeated",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

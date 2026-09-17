@@ -4,7 +4,7 @@ plugins {
 }
 version = project.mod_version
 group = 'com.beautyinblocks.kncraft'
-base { archivesName = 'KNCraft-Architecture' }
+base { archivesName = 'KNCraftCompatibilityMod' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 minecraft { mappings channel: 'official', version: '1.20.1' }
 repositories { mavenCentral(); flatDir { dirs 'libs' } }
@@ -15,6 +15,10 @@ dependencies {
     implementation fg.deobf('local:infiniverse:1.0.0.5')
     implementation fg.deobf('local:weather2:2.8.3')
     implementation fg.deobf('local:coldsweat:2.4.3')
+    implementation fg.deobf('local:elytraslot:6.4.4')
+    implementation fg.deobf('local:curios:5.14.1')
+    implementation fg.deobf('local:bettercombat:1.9.0')
+    implementation fg.deobf('local:sophisticatedcore:1.5.1.2335')
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
@@ -25,12 +29,12 @@ tasks.withType(AbstractArchiveTask).configureEach {
 }
 jar {
     from('NOTICE.md')
-    manifest { attributes 'MixinConfigs': 'kncrafttents.mixins.json,kncraftperformance.mixins.json',
+    manifest { attributes 'MixinConfigs': 'kncrafttents.mixins.json,kncraftperformance.mixins.json,kncraftintegrations.mixins.json',
             'Implementation-Version': project.version }
     finalizedBy 'reobfJar'
 }
 test { useJUnitPlatform() }
-['depth', 'tents', 'performance', 'cohesion'].each { module ->
+['depth', 'tents', 'performance', 'cohesion', 'expansion'].each { module ->
     def source = sourceSets.create(module + 'Harness') {
         java.srcDir "src/gametest/${module}/java"
         resources.srcDir "src/gametest/${module}/resources"
@@ -45,10 +49,10 @@ test { useJUnitPlatform() }
     reobf.create(module + 'HarnessJar')
     tasks.named(module + 'HarnessJar') { finalizedBy 'reobf' + module.capitalize() + 'HarnessJar' }
 }
-tasks.register('harnessJars') { dependsOn 'depthHarnessJar', 'tentsHarnessJar', 'performanceHarnessJar', 'cohesionHarnessJar' }
+tasks.register('harnessJars') { dependsOn 'depthHarnessJar', 'tentsHarnessJar', 'performanceHarnessJar', 'cohesionHarnessJar', 'expansionHarnessJar' }
 tasks.register('releaseBundle', Zip) {
     dependsOn 'reobfJar', 'test'
-    archiveFileName = "KNCraft-Architecture-${project.version}.zip"
+    archiveFileName = "KNCraftCompatibilityMod-${project.version}.zip"
     destinationDirectory = layout.buildDirectory.dir('distributions')
     from(tasks.jar) { into 'mods' }
     from('README.md', 'CHANGELOG.md', 'NOTICE.md')

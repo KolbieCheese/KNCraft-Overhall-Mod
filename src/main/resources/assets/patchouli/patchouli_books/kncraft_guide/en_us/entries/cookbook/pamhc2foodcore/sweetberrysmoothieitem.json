@@ -10,6 +10,16 @@
       "recipe": "pamhc2foodcore:sweetberrysmoothieitem",
       "anchor": "lookup_recipe_pamhc2foodcore_sweetberrysmoothieitem",
       "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Freezer",
+      "anchor": "kncraft_freezer",
+      "input": "pamhc2foodcore:sweetberryjuiceitem",
+      "output": "pamhc2foodcore:sweetberrysmoothieitem",
+      "station": "aether:freezer",
+      "body": "Freeze prepared juice for 10 seconds. Makes one smoothie; uses normal Freezer fuel.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
     }
   ],
   "extra_recipe_mappings": {}

@@ -1,0 +1,358 @@
+{
+  "id": "45D27739ACFA1914",
+  "filename": "kncraft_callfromthedepth__landmarks",
+  "title": "Depths Landmarks",
+  "icon": "minecraft:writable_book",
+  "order_index": 110,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "4F5954803A998486",
+      "title": "Ancientaqueduct",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40EA3DB6E919B6D0",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ancientaqueduct",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E221A9FF134DB27",
+      "title": "Ancientcitadel",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48912AB4A7B432CA",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ancientcitadel",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4BA39D3C46427AB8",
+      "title": "Ancientgates",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "44643CA388A3362F",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ancientgates",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E469E9577EC1A6E",
+      "title": "Ancientlibrary",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4FF877B4038CD883",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ancientlibrary",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "478AF6BF50B597B1",
+      "title": "Ancientmotherstatue",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "40F4169B8171A5E6",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ancientmotherstatue",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "434A003F36D77537",
+      "title": "Ancientportal",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4039F710F0DEF8D6",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ancientportal",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E67E9BAFFD250BB",
+      "title": "Ancientprison",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "422E495D6C3D2BDF",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ancientprison",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F6F05CD8F8395D6",
+      "title": "Ancientsacrificialbastion",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "434D46EC8C1BF817",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ancientsacrificialbastion",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F32A599E629AEC1",
+      "title": "Ancientshrine",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4AFD71F6772D94BD",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ancientshrine",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4FDAD71E92900166",
+      "title": "Ancienttower",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4F2058A16CB321AB",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ancienttower",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4379DA83F564150B",
+      "title": "Deepvillage",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "45F2FA373E93F4BE",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/deepvillage",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "467A39C79E6F97A9",
+      "title": "Depthstemple",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A560E6C44753CE4",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/depthstemple",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4F9C5F71F5AA35F4",
+      "title": "Marbleforge",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4DDD512431D63DA2",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/marbleforge",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "42C1511354E23AC6",
+      "title": "Ruined Ancientaqueduct",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4BFF1D4938294315",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ruined_ancientaqueduct",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "48E8663C4966E673",
+      "title": "Ruinedancientgates",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43C1FCDB8B89BB0F",
+          "type": "advancement",
+          "advancement": "kncraft:journal/callfromthedepth_/structures/ruinedancientgates",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

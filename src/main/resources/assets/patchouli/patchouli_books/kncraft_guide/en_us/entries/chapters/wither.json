@@ -252,6 +252,13 @@
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
     },
     {
+      "type": "patchouli:kn_text",
+      "heading": "Keep the accomplishment",
+      "body": "The FTB journal follows the Wither Storm mod's own advancements, including its final defeat. There is no extra reward or forced route. KNCraft encounter scaling applies once; returning to an already balanced encounter does not heal it again.",
+      "anchor": "kncraft_journal",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither)Chapter$(/l)"
+    },
+    {
       "type": "patchouli:relations",
       "title": "Continue reading",
       "entries": [

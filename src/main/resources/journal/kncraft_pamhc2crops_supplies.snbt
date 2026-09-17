@@ -1,0 +1,82 @@
+{
+  "id": "4E75441FCBB72F6D",
+  "filename": "kncraft_pamhc2crops_supplies",
+  "title": "Farming",
+  "icon": "minecraft:writable_book",
+  "order_index": 112,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "4CDBC059D3220B56",
+      "title": "Grow a fiber supply",
+      "icon": "pamhc2crops:cottonitem",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Have this supply in your ordinary inventory. The item is not consumed.",
+        "",
+        "Field Guide: Pam's HarvestCraft. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4BC0A0ED174786B7",
+          "type": "advancement",
+          "advancement": "kncraft:journal/pamhc2crops/supplies/cottonitem",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "43C48FD41839FE28",
+      "title": "Harvest tea",
+      "icon": "pamhc2crops:tealeafitem",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Have this supply in your ordinary inventory. The item is not consumed.",
+        "",
+        "Field Guide: Pam's HarvestCraft. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4F289C3C4BFACDD3",
+          "type": "advancement",
+          "advancement": "kncraft:journal/pamhc2crops/supplies/tealeafitem",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4DA230A43826C389",
+      "title": "Harvest rice",
+      "icon": "pamhc2crops:riceitem",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Have this supply in your ordinary inventory. The item is not consumed.",
+        "",
+        "Field Guide: Pam's HarvestCraft. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4EDB456DA5283F6B",
+          "type": "advancement",
+          "advancement": "kncraft:journal/pamhc2crops/supplies/riceitem",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

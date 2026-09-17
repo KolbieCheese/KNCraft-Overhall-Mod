@@ -1,18 +1,27 @@
 # Feature state and tuning
 
-| Module | Implemented | Default | Verified here | Still required |
-|---|---|---|---|---|
-| Native Aether/Depth lighting | Retained adapters and generator IDs | On | Four native lighting/conversion cases, small/large frames | Real player crossings/rendering |
-| Bounded Depth placement | Retained full room/frame bounds | On | Both axes, negative/high targets, large frames, bedrock, unsafe sources | More occupied/fluid failure fixtures; real client |
-| Tent synchronization | Vanilla ping/pong barrier | On with pinned dependencies | Correct/wrong/stale/missing acknowledgements and disconnected-client cleanup | Connected physical clients, late login |
-| Tent entrances | Ownership, safety, packing/move tokens | On | Four facings, packing, saved contents/links after restart, permissions and server-entity round trip | Physical rapid return/prediction |
-| Performance | Three independent original optimizations | On | 10,000 selection cases, 135 live portal comparisons, real item goal, 64 tornado comparisons | Full-pack profiling is not claimed |
-| Waystone policy | Original recipes, loot and protection tags | On | Byte-for-byte data parity | Player break/carry/explosion checks; retain upstream restrictions |
-| Encounters | Persistent modifiers and tags | On | Scope/marker unit tests; no repeated healing in runtime harness | Full boss phase/progression playthrough |
-| Cotton/wildlife insulation | Cold Sweat registry API | Off | Real registry values and repeat-load idempotence | Sewing UI, removal, tooltip/slot rendering, old equipped armor |
-| Thermal meals | Nine curated entries; one shared effect | Off | Real consumption-finish events, hot/cold replacement, refresh, reload | Complete manual eating/container and backpack-feeding paths |
-| Fiber recipes | Cotton canvas and cotton rope | Off | Real recipe matching/output, material conservation | JEI presentation and player crafting |
-| Field Guide | Existing complete guide + 17 new pages | Available with Patchouli | Registered historical book ID; asset/JSON checks | Physical client pagination, textures, links, bookmarks |
+| Connection | Behavior and defaults |
+|---|---|
+| Nomadic Tents + Cold Sweat | Campsite ambient climate, bounded enclosed interiors, native hearth fuel/range/warm-up; enabled |
+| Pam's + wildlife + Aether | Selected real eggs, milk, ordinary berries, general meat/fish ingredients; enabled |
+| Food + climate + backpacks | Nine thermal foods; latest effect replaces previous; feeding avoids the wrong sign beyond BODY +/-20 unless hunger is 6 or lower |
+| Aether + climate | Ice accessories give 2 heat insulation; ordinary colored capes 0.5 cold/0.5 heat; combined managed heat cap 4; Icestone 100 cooling fuel |
+| Aether Freezer + Pam's | Prepared apple/melon/sweetberry juice becomes one smoothie in 200 ticks with native fuel |
+| Farming + rail | Two cooking oil and one bottle make native bio-diesel; existing locomotive accounting and glass-bottle return |
+| Flight equipment | More Enchantments reads usable chest elytra, otherwise Elytra Slot; normal armor checks remain on armor |
+| Better Combat | Valkyrie Lance reach 6.5; owned companions protected from cleave even when their owner is unloaded |
+| Exploration | Modest additive supplies in 22 named chest tables; four finite-stock farmer/butcher sales |
+| Ecology | Fresh Pam's berries feed crows/raccoons without becoming taming ingredients; missing savanna garden biome tag bridged |
+| Carry On | Tent doors and hearth halves use normal packing/dismantling; native tag cache refreshed after data loads; normal storage stays movable |
+| Resource repairs | Three invalid Food Core recipes disabled; three missing seed modifiers remain no-ops; seven broken tag contributors made optional |
+| FTB journal | 15 chapters, 339 independent records; bosses, structures and native advancements; no rewards, locks or item turn-ins |
+| Field Guide | Original chapters and individual Cook Book entries explain the changes; historical book ID and artwork retained |
+| Original integrations | Native portal lighting, bounded Depth arrivals, tent synchronization, performance fixes, Waystones and encounter scaling retained |
+
+`kncraft-integrations.toml` supplies independent switches for the new connections.
+Fresh installations enable the original cotton/wildlife/meal/fiber features too.
+Existing `kncraft-common.toml` values remain authoritative, including previous opt-outs.
+Restart after changing module switches. See [validation](Validation.md) for actual test scope.
 
 ## Starting values
 
@@ -41,10 +50,35 @@ four string -> one wool, total cost equals the original two wool (16 cotton). Co
 the wool too; sheep are not mandatory. Rope: six cotton plus three vines -> eight rope, equivalent
 to the original three string plus three vines. No reverse recipe or new intermediate item is added.
 
-## Roadmap, not active functionality
+## Climate and administrator ownership
 
-Aether icestone fuel/accessories, thematic loot, optional quests, campsite-derived tent climate,
-and temperature-aware backpack feeding remain proposed. They are not advertised as implemented.
-The Aether +0.7 offset and existing Weather2 temperature support remain externally owned and
-unchanged. No double storm modifier, progression lock, mandatory hunting route or automatic
-world regeneration was introduced.
+Tent samples include Cold Sweat's native ambient biome/dimension, time, cave/elevation,
+shade and supported weather components, once each. Local appliances and other personal
+modifiers continue inside. A loaded exterior sample is refreshed every 40 ticks by default.
+If its surrounding chunks are unloaded, the saved sample is retained without force-loading
+them. A tent without any valid saved/loaded sample temporarily uses native interior climate.
+Moving or upgrading through the native door refreshes its source and bounds. The snapshot
+is stored on the interior door, not in a new world registry.
+
+Hearth enclosure covers all five styles, six sizes and expandable floor layers. Enclosure
+does not extend a hearth's range, supply fuel, remove its redstone requirements or skip
+warm-up. Only the template interior is enclosed; air paths cannot escape its bounds.
+
+Explicit Cold Sweat JSON/TOML definitions take precedence. The accessory cap subtracts
+only insulation added by KNCraft; administrator-defined accessories and other armor retain
+their own values. The cap is heat insulation, not temperature immunity. The Aether's
+existing climate and Weather2 support remain unchanged.
+
+## Existing systems retained
+
+Insulated minecarts already support Better Minecarts linking. Comforts calls the Forge
+sleep event used by Cold Sweat; the installed pack explicitly exempts sleeping bags.
+Inventory Totem checks ordinary player inventory, not nested backpacks or Curios.
+Easy Anvils and JRFTL provide existing repair/leather routes. FallingTree's 100-log scan
+limit and Pam's right-click fruit harvest remain intact. Better Combat already has
+fallback profiles for Depth claymores/scythes, and reads attack speed for timing;
+Furor's native attribute behavior and Alex's active-use nunchaku are not replaced by
+blanket weapon profiles. These connections are documented where players use them.
+
+No new energy network, world regeneration, forced quest route, new dimension, or
+Skyroot/BOP building variant is introduced.

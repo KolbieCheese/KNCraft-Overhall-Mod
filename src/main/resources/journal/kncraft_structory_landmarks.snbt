@@ -1,0 +1,358 @@
+{
+  "id": "4333A3FE7992B943",
+  "filename": "kncraft_structory_landmarks",
+  "title": "Structory Landmarks",
+  "icon": "minecraft:writable_book",
+  "order_index": 107,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "48BBC69B85E994D2",
+      "title": "Abandoned Camp",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C45DA0267D3F16A",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/abandoned_camp",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4EBD793821B6A9BB",
+      "title": "Abandoned Chapel",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49A9B239C8C31DD1",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/abandoned_chapel",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4591036A920786AF",
+      "title": "Boat",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "450CA7A2A00E45DC",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/boat",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4CA4A6B89A4FA207",
+      "title": "Dense Forest Ruin",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "49505DE2BD30B44E",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/dense_forest_ruin",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4466C7BE4871D0DC",
+      "title": "Firetower",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4A5909BB6D98D7A2",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/firetower",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "48ADBA2E76F18D45",
+      "title": "Graveyard",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "44057A3FDA03869C",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/graveyard",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "459F04CBF6DFDDE2",
+      "title": "Jungle Ruin",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 0.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "43998045C13983A1",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/jungle_ruin",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "47FDA71797E1CB4D",
+      "title": "Northern Ruin",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4C1BE5A5B5BBC1C2",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/northern_ruin",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "46D25FEEAADD9959",
+      "title": "Old Manor",
+      "icon": "minecraft:filled_map",
+      "x": 2.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E49BBDAB185F317",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/old_manor",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4B76421727BBFAF2",
+      "title": "Outcast Villager Desert",
+      "icon": "minecraft:filled_map",
+      "x": 4.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48985D27AB3E73D1",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/outcast_villager_desert",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "4E82BF4755066CE2",
+      "title": "Outcast Villager Grassy",
+      "icon": "minecraft:filled_map",
+      "x": 6.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4E8856EC2DE3F6E0",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/outcast_villager_grassy",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "44C07ADAAC162429",
+      "title": "Ruin Grassy",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4D6FADA3C90A1CBA",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/ruin_grassy",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "41D06FE7F10EDD7C",
+      "title": "Swamp Ruin",
+      "icon": "minecraft:filled_map",
+      "x": 10.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4DEC9A6D717C4AF7",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/swamp_ruin",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "439F3DEDD8BD1D3D",
+      "title": "Taiga Ruin Surface",
+      "icon": "minecraft:filled_map",
+      "x": 12.0,
+      "y": 2.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "479449739E006A92",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/taiga_ruin_surface",
+          "criterion": ""
+        }
+      ]
+    },
+    {
+      "id": "43CAD1C5CC153B69",
+      "title": "Taiga Ruin Underground",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 4.0,
+      "description": [
+        "Enter this landmark to record your discovery. Previously visited places can be recorded by visiting again.",
+        "",
+        "Field Guide: Travel & Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "4432AD363E83B387",
+          "type": "advancement",
+          "advancement": "kncraft:journal/structory/structures/taiga_ruin_underground",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}
