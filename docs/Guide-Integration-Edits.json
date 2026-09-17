@@ -3,15 +3,15 @@
     "entries/chapters/architecture.json"
   ],
   "files": {
-    "entries/chapters/intro.json": "Integration pages inserted beside existing topics; original pages retained",
-    "entries/chapters/food.json": "Integration pages inserted beside existing topics; original pages retained",
+    "entries/chapters/intro.json": "Live key references and relevant controls within the original chapter",
+    "entries/chapters/food.json": "Live key references and relevant controls within the original chapter",
     "entries/chapters/cold.json": "Integration pages inserted beside existing topics; original pages retained",
     "entries/chapters/travel.json": "Integration pages inserted beside existing topics; original pages retained",
     "entries/chapters/explore.json": "Integration pages inserted beside existing topics; original pages retained",
     "entries/chapters/aether.json": "Integration pages inserted beside existing topics; original pages retained",
-    "entries/chapters/depths.json": "Integration pages inserted beside existing topics; original pages retained",
+    "entries/chapters/depths.json": "Live key references and relevant controls within the original chapter",
     "entries/chapters/animals.json": "Integration pages inserted beside existing topics; original pages retained",
-    "entries/chapters/wither.json": "Integration pages inserted beside existing topics; original pages retained",
+    "entries/chapters/wither.json": "Live key references and relevant controls within the original chapter",
     "entries/cookbook/pamhc2crops/hotcoffeeitem_campfire.json": "Thermal effect beside the affected food recipe",
     "entries/cookbook/pamhc2crops/hotnettleteaitem_campfire.json": "Thermal effect beside the affected food recipe",
     "entries/cookbook/pamhc2crops/hotteaitem_campfire.json": "Thermal effect beside the affected food recipe",
@@ -26,6 +26,18 @@
     "entries/cookbook/pamhc2foodcore/freshmilk_x8.json": "Skyroot bucket alternative beside fresh milk",
     "entries/cookbook/pamhc2foodcore/caramelcupcakeitem_x4.json": "Replace invalid recipe and missing-item icon with an accurate note",
     "entries/cookbook/pamhc2foodcore/honeymuffinitem.json": "Replace invalid recipe and missing-item icon with an accurate note",
-    "entries/cookbook/pamhc2foodcore/melonpieitem.json": "Replace invalid recipe and missing-item icon with an accurate note"
+    "entries/cookbook/pamhc2foodcore/melonpieitem.json": "Replace invalid recipe and missing-item icon with an accurate note",
+    "entries/chapters/weather.json": "Live key references and relevant controls within the original chapter",
+    "entries/chapters/catalog.json": "Live key references and relevant controls within the original chapter",
+    "entries/recipes/cold_sweat/goat_fur_boots.json": "Altar repair information beside the relevant equipment",
+    "entries/recipes/cold_sweat/goat_fur_cap.json": "Altar repair information beside the relevant equipment",
+    "entries/recipes/cold_sweat/goat_fur_pants.json": "Altar repair information beside the relevant equipment",
+    "entries/recipes/cold_sweat/goat_fur_parka.json": "Altar repair information beside the relevant equipment",
+    "entries/recipes/cold_sweat/hoglin_headpiece.json": "Altar repair information beside the relevant equipment",
+    "entries/recipes/cold_sweat/hoglin_hooves.json": "Altar repair information beside the relevant equipment",
+    "entries/recipes/cold_sweat/hoglin_trousers.json": "Altar repair information beside the relevant equipment",
+    "entries/recipes/cold_sweat/hoglin_tunic.json": "Altar repair information beside the relevant equipment",
+    "entries/recipes/alexsmobs/frontier_cap.json": "Altar repair information beside the relevant equipment",
+    "entries/recipes/cold_sweat/waterskin.json": "Verified native backpack-tank refill beside the waterskin recipe"
   }
 }

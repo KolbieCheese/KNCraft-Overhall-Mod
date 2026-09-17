@@ -7,6 +7,7 @@ import net.minecraftforge.fml.loading.LoadingModList;
 /** Safe during Mixin bootstrap: no references to optional game classes. */
 public final class Compatibility {
     public static final Map<String, String> PINS = Map.ofEntries(
+        Map.entry("aether", "1.20.1-1.5.2-neoforge"),
         Map.entry("immersive_portals", "3.0.7"), Map.entry("nomadictents", "20.1.1"),
         Map.entry("infiniverse", "1.0.0.5"), Map.entry("witherstormmod", "4.2.1"),
         Map.entry("alexsmobs", "1.22.9"), Map.entry("weather2", "1.20.1-2.8.3"),

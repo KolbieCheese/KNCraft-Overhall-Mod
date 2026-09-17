@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.0.1 - expedition polish
+
+- Added an opt-in control preset with backup/restore and conflict reporting; all eleven
+  guide chapters now display relevant live key bindings.
+- Changed four More Enchantments attribute contributions to cooperative modifiers,
+  with bounded legacy migration and an operator-accessible backup restore.
+- Added twenty selected regional climate defaults while preserving explicit Cold Sweat
+  settings, and on-demand campsite/hearth inspection without loading distant chunks.
+- Protected deliberate wildlife offerings briefly from backpack magnets.
+- Added nine Aether altar repair recipes and preserved complete equipment data,
+  including sewn Cold Sweat insulation, through those repairs.
+- Added BOP and RopeBridge accomplishments, bringing the journal to 344 independent
+  records; retained all prior quest/task IDs and administrator-owned files.
+- Integrated the changes into existing guide chapters and equipment recipe entries.
+
+
 ## 1.0.0 â€” cohesion expansion
 
 - Added campsite-derived tent climate and bounded enclosure support for Cold Sweat.

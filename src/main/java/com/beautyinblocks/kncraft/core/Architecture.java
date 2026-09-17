@@ -26,6 +26,7 @@ public final class Architecture {
         GuideBootstrap.install(FMLPaths.GAMEDIR.get());
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ArchitectureConfig.SPEC, "kncraft-common.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ExpansionConfig.SPEC, "kncraft-integrations.toml");
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, PolishConfig.SPEC, "kncraft-polish.toml");
         FMLJavaModLoadingContext.get().getModEventBus().addListener(BundledPacks::register);
         var lootCodecs = net.minecraftforge.registries.DeferredRegister.create(net.minecraftforge.registries.ForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, "kncraft");
         lootCodecs.register("supplies", () -> com.beautyinblocks.kncraft.integration.supplies.SupplyLootModifier.CODEC);
@@ -34,14 +35,20 @@ public final class Architecture {
         MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.supplies.SupplyTrades());
         if (Compatibility.exact("carryon")) MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.supplies.CarryOnTags());
         MinecraftForge.EVENT_BUS.register(new Encounters());
+        MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.equipment.EnchantmentAttributes());
+        if (Compatibility.exact("alexsmobs") && Compatibility.exact("sophisticatedcore"))
+            new com.beautyinblocks.kncraft.integration.equipment.WildlifeOfferings();
         // These constructors are only resolved when their entire dependency set is present.
         if (Compatibility.exact("immersive_portals")) new com.beautyinblocks.portals.NativePortalLighting();
         if (Compatibility.tents()) new com.beautyinblocks.tents.TentPortals();
         if (Compatibility.exact("cold_sweat")) MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.climate.ClimateIntegration());
+        if (Compatibility.exact("cold_sweat")) MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.climate.RegionalClimate());
         if (Compatibility.exact("cold_sweat") && Compatibility.present("aether") && Compatibility.present("curios"))
             MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.climate.AetherClimate());
         if (Compatibility.exact("cold_sweat") && Compatibility.exact("nomadictents"))
             MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.tentclimate.TentClimate());
+        if (Compatibility.exact("cold_sweat") && Compatibility.exact("nomadictents"))
+            MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.tentclimate.CampsiteStatus());
     }
     @SubscribeEvent public void starting(ServerAboutToStartEvent event) {
         com.beautyinblocks.kncraft.integration.journal.JournalBootstrap.install(FMLPaths.CONFIGDIR.get());
@@ -84,6 +91,9 @@ public final class Architecture {
         lines.add("Supplies: loot=" + ExpansionConfig.THEMED_LOOT.get() + ", trades=" + ExpansionConfig.TRADES.get()
             + ", wildlife food=" + ExpansionConfig.WILDLIFE_FOOD.get() + ", savanna gardens=" + ExpansionConfig.ECOLOGY.get());
         if (Compatibility.exact("cold_sweat")) lines.addAll(com.beautyinblocks.kncraft.integration.climate.ClimateIntegration.diagnostics());
+        lines.add("Polish: enchantment attributes=" + PolishConfig.ATTRIBUTES.get() + ", wildlife offerings=" + PolishConfig.OFFERINGS.get()
+            + ", regional climate=" + PolishConfig.REGIONAL_CLIMATE.get() + ", altar repairs=" + PolishConfig.ALTAR.get());
+        if (Compatibility.exact("cold_sweat")) lines.addAll(com.beautyinblocks.kncraft.integration.climate.RegionalClimate.diagnostics());
         return lines;
     }
     private static String waystonePolicy() {
@@ -104,6 +114,16 @@ public final class Architecture {
         catch (java.io.IOException ex) { LogUtils.getLogger().warn("Could not write kncraft-status.txt", ex); }
     }
     @SubscribeEvent public void commands(RegisterCommandsEvent event) {
+        event.getDispatcher().register(Commands.literal("kncraft").then(Commands.literal("attributes").executes(ctx -> {
+            var player = ctx.getSource().getPlayerOrException();
+            ctx.getSource().sendSuccess(() -> Component.literal("Attribute migration: " + com.beautyinblocks.kncraft.integration.equipment.EnchantmentAttributes.migration(player)), false);
+            return 1;
+        }).then(Commands.literal("restore").requires(s -> s.hasPermission(2)).then(Commands.argument("player", net.minecraft.commands.arguments.EntityArgument.player()).executes(ctx -> {
+            var player = net.minecraft.commands.arguments.EntityArgument.getPlayer(ctx, "player");
+            com.beautyinblocks.kncraft.integration.equipment.EnchantmentAttributes.restoreBackup(player);
+            ctx.getSource().sendSuccess(() -> Component.literal("Restored saved pre-migration base attributes for " + player.getGameProfile().getName()), false);
+            return 1;
+        })))));
         event.getDispatcher().register(Commands.literal("kncraft").then(Commands.literal("status").executes(ctx -> {
             report().forEach(line -> ctx.getSource().sendSuccess(() -> Component.literal(line), false));
             return 1;

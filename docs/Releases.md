@@ -5,13 +5,13 @@ The repository is currently private; releases inherit its access restrictions.
 The workflow in `.github/workflows/build.yml` runs on pushes, pull requests, and manual dispatch.
 
 Default-branch pushes and manual runs on that branch publish. Other branches and pull
-requests build `1.0.0-dev.<run number>` artifacts. Publishing receives `contents: write`
+requests build `<minimum-version>-dev.<run number>` artifacts. Publishing receives `contents: write`
 only in the release job; build and PR jobs have read-only repository permissions.
 
 ## Version allocation
 
-`gradle.properties` sets the minimum release and major/minor series. `mod_version=1.0.0`
-starts a fresh repository at 1.0.0. After fetching tags, `tools/release_version.py` selects
+`gradle.properties` sets the minimum release and major/minor series. `mod_version=1.0.1`
+sets the current minimum to 1.0.1. After fetching tags, `tools/release_version.py` selects
 one above the largest patch tag in that series. Set `mod_version=1.1.0` to start the 1.1
 series. Source files do not need a version-bump commit for every release.
 

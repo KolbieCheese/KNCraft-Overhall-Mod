@@ -15,6 +15,20 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Kitchen and garden controls",
+      "body": "Use / eat / harvest: $(k:key.use)$(br)Recipe: $(k:key.jei.showRecipe)$(br)Uses: $(k:key.jei.showUses)$(br)JEI search: $(k:key.jei.focusSearch)$(br)Bookmark: $(k:key.jei.bookmark)$(br)Hover the item before requesting recipes or uses.",
+      "anchor": "kncraft_controls_live",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Harvest with care",
+      "body": "Sneak: $(k:key.sneak)$(br)Attack / break: $(k:key.attack)$(br)Use / harvest: $(k:key.use)$(br)Pick ripe Pam's fruit before felling its tree. Sneaking uses ordinary chopping with this pack's FallingTree settings. Follow the normal crop or fruit interaction.",
+      "anchor": "kncraft_controls_harvest",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Four parts of the kitchen",
       "body": "Crops adds field produce. Trees adds fruit and nut trees. Food Core adds kitchen tools and recipes built around familiar ingredients. Food Extended uses the wider crop and tree selection for more meals. You do not need to make",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",

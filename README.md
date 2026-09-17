@@ -10,7 +10,8 @@ exploration, equipment, and transport support one another.
 - **Camping and climate:** Nomadic Tents inherit their campsite's ambient temperature.
   Their interiors count as enclosed for Cold Sweat hearths, while native fuel, warm-up,
   range, and air-path rules continue to apply. Seamless entrances retain tent ownership,
-  packing, and the dimension synchronization repair.
+  packing, and the dimension synchronization repair. Selected BOP/Terralith climates
+  get deliberate defaults, and `/kncraft camp` explains the current campsite conditions.
 - **Ingredients and transport:** Aether milk, ordinary berries, and animal eggs work in
   appropriate Pam's recipes; selected Alex's meats join general cooking ingredients.
   Cooking oil can supply Better Minecarts diesel, and the Aether Freezer chills prepared juices.
@@ -18,10 +19,14 @@ exploration, equipment, and transport support one another.
   The Valkyrie Lance retains its special reach in Better Combat, flight enchantments
   recognize Elytra Slot, and companion ownership protects against accidental cleave.
   Selected structure chests and village trades offer modest, relevant supplies.
+  Selected expedition armor can be maintained at Aether altars without losing its
+  sewn insulation. Enchantment attributes cooperate with other equipment bonuses,
+  and backpack magnets give nearby wildlife time to collect deliberate offerings.
 - **A guide to the whole pack:** The existing Patchouli Field Guide explains these
   connections within its original chapters, with thermal effects on individual Cook Book
   pages. The FTB accomplishment journal records bosses, landmarks, and mod advancements
   without recipe locks, required quest chains, item turn-ins, or rewards.
+  Each chapter includes relevant controls that display the player's current bindings.
 
 The mod also retains native Aether/Depth portal lighting, bounded Depth arrivals,
 natural Waystone policy data, one-time encounter scaling, and the original targeted
@@ -54,12 +59,19 @@ from 0.2 may still have cotton, wildlife insulation, thermal meals, and fiber re
 
 `config/kncraft-common.toml` controls the original integrations and tunable food/material
 lists. `config/kncraft-integrations.toml` controls the expanded connections separately.
+`config/kncraft-polish.toml` controls regional climate, wildlife offerings, altar repairs
+and cooperative enchantment attributes. See [migration details](docs/Migration.md)
+for legacy attribute handling and its backup.
 Restart after changing switches. Existing Cold Sweat definitions take precedence over
 the supplied defaults; the mod does not rewrite upstream configuration.
 
 Use `/kncraft status` or `config/kncraft-status.txt` to inspect enabled integrations.
-See [features and behavior](docs/Features.md) and [validation](docs/Validation.md) for
+See [features and behavior](docs/Features.md) and [1.0.1 validation](docs/Polish-Validation.md) for
 details and the limits of the completed checks.
+
+The client command `/kncraft controls` reports possible key conflicts. Players may apply
+`/kncraft controls preset` for an optional pack layout or use `/kncraft controls restore`
+to undo its unchanged assignments. Installing the mod never applies the preset automatically.
 
 ## Build and automatic releases
 
@@ -68,7 +80,7 @@ Set `JAVA_HOME` to a Java 17 JDK and use Python 3.11 or newer:
 ```powershell
 python tools/bootstrap_dependencies.py --download
 .\gradlew.bat build releaseBundle --console=plain
-python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.0.jar
+python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.1.jar
 ```
 
 Alternatively, bootstrap from the installed pack with `--instance "C:\path\to\KNCraft"`.

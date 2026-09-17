@@ -45,6 +45,10 @@ public final class ExpansionChecks {
     }
     static boolean tag(String item, String tag) { return item(item).is(TagKey.create(Registries.ITEM, new ResourceLocation(tag))); }
     @SubscribeEvent public void commands(RegisterCommandsEvent event) {
+        event.getDispatcher().register(Commands.literal("kncraftpolishtest").requires(s -> s.getEntity() == null && !s.getServer().usesAuthentication()).executes(ctx -> {
+            try { PolishChecks.run(ctx.getSource().getServer()); ctx.getSource().sendSuccess(() -> Component.literal("POLISH CHECKS PASSED"), false); return 1; }
+            catch (Throwable ex) { ex.printStackTrace(); ctx.getSource().sendFailure(Component.literal("POLISH CHECKS FAILED: " + ex)); return 0; }
+        }));
         event.getDispatcher().register(Commands.literal("kncraftclimatepersist").requires(s -> s.getEntity() == null && !s.getServer().usesAuthentication()).executes(ctx -> {
             try { TentClimateChecks.persistence(ctx.getSource().getServer()); ctx.getSource().sendSuccess(() -> Component.literal("CLIMATE RESTART CHECKS PASSED"), false); return 1; }
             catch (Throwable ex) { ex.printStackTrace(); ctx.getSource().sendFailure(Component.literal("CLIMATE RESTART CHECKS FAILED: " + ex)); return 0; }
@@ -148,7 +152,7 @@ public final class ExpansionChecks {
         var journal = Class.forName("dev.ftb.mods.ftbquests.quest.ServerQuestFile").getField("INSTANCE").get(null);
         var fileClass = Class.forName("dev.ftb.mods.ftbquests.quest.BaseQuestFile");
         var index = com.google.gson.JsonParser.parseReader(new java.io.InputStreamReader(com.beautyinblocks.kncraft.integration.journal.JournalBootstrap.class.getResourceAsStream("/journal/catalog.json")));
-        check(index.getAsJsonObject().size() == 15, "Journal catalog missing");
+        check(index.getAsJsonObject().size() == 17, "Journal catalog missing");
         int records = 0;
         Object bossTask = null;
         for (String filename : index.getAsJsonObject().keySet()) {
@@ -165,7 +169,7 @@ public final class ExpansionChecks {
                 records++;
             }
         }
-        check(records == 339 && bossTask != null, "Journal record count");
+        check(records == 344 && bossTask != null, "Journal record count");
         var canSubmit = bossTask.getClass().getMethod("canSubmit", Class.forName("dev.ftb.mods.ftbquests.quest.TeamData"), net.minecraft.server.level.ServerPlayer.class);
         // Forge deliberately refuses advancement awards for FakePlayer. Use a real
         // ServerPlayer with the fixture's no-op network connection for this check.

@@ -8,6 +8,8 @@ import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
 
 public final class IntegrationMixinPlugin implements IMixinConfigPlugin {
     public boolean shouldApplyMixin(String target, String mixin) {
+        if (mixin.endsWith("AltarRepairMixin")) return Compatibility.exact("aether");
+        if (mixin.endsWith("EnchantmentAttributesMixin")) return Compatibility.exact("more_enchantments");
         if (mixin.endsWith("KnownTagsMixin")) return Compatibility.present("betterminecarts") || Compatibility.present("callfromthedepth_");
         if (mixin.endsWith("TentPlacementClimateMixin") || mixin.endsWith("TentEnclosureMixin"))
             return Compatibility.exact("nomadictents") && Compatibility.exact("cold_sweat");

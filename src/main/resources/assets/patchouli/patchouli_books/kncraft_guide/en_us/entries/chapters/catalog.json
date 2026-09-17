@@ -15,6 +15,13 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Catalog controls",
+      "body": "Use / interact: $(k:key.use)$(br)Drop item: $(k:key.drop)$(br)Recipe: $(k:key.jei.showRecipe)$(br)Uses: $(k:key.jei.showUses)$(br)An animal's page explains its specific interaction. Food is not automatically a taming ingredient.",
+      "anchor": "kncraft_controls_live",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/catalog)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Species A-Z",
       "body": "$(l:patchouli:catalog/alligator_snapping_turtle#animal_alligator_snapping_turtle)Alligator Snapping Turtle$(/l)$(br)$(l:patchouli:catalog/anaconda#animal_anaconda)Anaconda$(/l)$(br)$(l:patchouli:catalog/anteater#animal_anteater)Anteater$(/l)$(br)$(l:patchouli:catalog/bald_eagle#animal_bald_eagle)Bald Eagle$(/l)$(br)$(l:patchouli:catalog/banana_slug#animal_banana_slug)Banana Slug$(/l)$(br)$(l:patchouli:catalog/bison#animal_bison)Bison$(/l)$(br)$(l:patchouli:catalog/blobfish#animal_blobfish)Blobfish$(/l)$(br)$(l:patchouli:catalog/blue_jay#animal_blue_jay)Blue Jay$(/l)$(br)$(l:patchouli:catalog/bone_serpent#animal_bone_serpent)Bone Serpent$(/l)$(br)$(l:patchouli:catalog/bunfungus#animal_bunfungus)Bunfungus$(/l)",
       "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:chapters/catalog)Start$(/l)",

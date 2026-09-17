@@ -1,0 +1,49 @@
+KNCraft Compatibility 1.0.1 / Forge 47.4.0 / Java 17
+Isolated expansion fixture, 17 September 2026. Selected output; not a full client run.
+
+POLISH ATTRIBUTES: native procedures, external base/modifier, 20 repeated updates, unequip, matching migration, NBT reload and backup restore passed
+POLISH ALTAR: all nine native fuelled repairs retained names/enchantments/insulation data and consumed input once
+POLISH BACKPACK: actual sneak-use filled waterskin with 250 mB, rejected insufficient water; native magnet baseline/grace/expiry/ordinary loot passed
+REGIONAL SAMPLE biomesoplenty:auroral_garden original biome MC=(-0.5833333432674408, 0.0833333432674408) new biome MC=(-0.3111111111111111, 0.08888888888888889) ambient MC [underground day/night, elevated day/night]=[1.1911798849087236, 1.1911798849087236, -0.6304843730236737, -1.0043607046265022]
+REGIONAL SAMPLE biomesoplenty:cold_desert original biome MC=(-0.25, 0.75) new biome MC=(-0.08888888888888889, 0.7111111111111111) ambient MC [underground day/night, elevated day/night]=[1.1911798849087236, 1.1911798849087236, -0.048898968308163065, -0.7966516315138197]
+REGIONAL SAMPLE biomesoplenty:tropics original biome MC=(0.699999988079071, 1.199999988079071) new biome MC=(0.9777777777777777, 1.2444444444444445) ambient MC [underground day/night, elevated day/night]=[1.1911798849087236, 1.1911798849087236, 0.44960280716227535, 0.2003519194270547]
+REGIONAL SAMPLE terralith:emerald_peaks original biome MC=(-0.2571428641676903, 0.4571428671479225) new biome MC=(-0.044444444444444446, 0.35555555555555557) ambient MC [underground day/night, elevated day/night]=[1.1911798849087236, 1.1911798849087236, -0.3812334852884549, -0.7551098168912831]
+REGIONAL SAMPLE terralith:cave/ice_caves original biome MC=(0.6153846085071564, 1.3846153914928436) new biome MC=(0.0, 0.0) ambient MC [underground day/night, elevated day/night]=[0.0, 0.0, 0.1795810121157873, 0.1795810121157873]
+REGIONAL SAMPLE terralith:cave/thermal_caves original biome MC=(0.44285714626312256, 1.1571428775787354) new biome MC=(1.2, 1.2) ambient MC [underground day/night, elevated day/night]=[1.1999999999999953, 1.1999999999999953, 0.1795810121157873, 0.1795810121157873]
+POLISH CLIMATE: native biome/cave/elevation sampling at two heights/times and administrator reload preservation passed
+[10:58:07] [Server thread/INFO] [minecraft/MinecraftServer]: POLISH CHECKS PASSED
+JOURNAL MIGRATION: repeat installation, stable IDs, administrator edits, root settings and collision preservation passed
+[10:58:08] [Server thread/INFO] [minecraft/MinecraftServer]: EXPANSION CHECKS PASSED
+HEARTH YURT: paths=787 fuel=488 contains=true effects=[effect.cold_sweat.warmth x 4, Duration: 60, Particles: false, effect.cold_sweat.grace, Duration: 6000, Particles: false]
+CAMPSITE STATUS YURT: [Campsite: minecraft:overworld at 2100, 150, 2100, Exterior ambient: 61.3 F / 16.3 C (live campsite)., Your position is inside the enclosed tent bounds., Hearth at 4, 64, 0: hot/cold fuel 488/0; heating/cooling enabled true/false; warmth/cooling level 500/0; spread reaches you=true; automatic=false, Field Guide: Cold Sweat > A hearth inside a tent. Equipment range and warm-up still apply.]
+HEARTH TEPEE: paths=1286 fuel=488 contains=true effects=[effect.cold_sweat.warmth x 4, Duration: 60, Particles: false, effect.cold_sweat.grace, Duration: 6000, Particles: false]
+CAMPSITE STATUS TEPEE: [Campsite: minecraft:overworld at 2100, 150, 2100, Exterior ambient: 61.3 F / 16.3 C (live campsite)., Your position is inside the enclosed tent bounds., Hearth at 4, 64, 0: hot/cold fuel 488/0; heating/cooling enabled true/false; warmth/cooling level 500/0; spread reaches you=true; automatic=false, Field Guide: Cold Sweat > A hearth inside a tent. Equipment range and warm-up still apply.]
+HEARTH BEDOUIN: paths=1102 fuel=488 contains=true effects=[effect.cold_sweat.warmth x 4, Duration: 60, Particles: false, effect.cold_sweat.grace, Duration: 6000, Particles: false]
+CAMPSITE STATUS BEDOUIN: [Campsite: minecraft:overworld at 2100, 150, 2100, Exterior ambient: 61.3 F / 16.3 C (live campsite)., Your position is inside the enclosed tent bounds., Hearth at 4, 64, 0: hot/cold fuel 488/0; heating/cooling enabled true/false; warmth/cooling level 500/0; spread reaches you=true; automatic=false, Field Guide: Cold Sweat > A hearth inside a tent. Equipment range and warm-up still apply.]
+HEARTH INDLU: paths=829 fuel=488 contains=true effects=[effect.cold_sweat.warmth x 4, Duration: 60, Particles: false, effect.cold_sweat.grace, Duration: 6000, Particles: false]
+CAMPSITE STATUS INDLU: [Campsite: minecraft:overworld at 2100, 150, 2100, Exterior ambient: 61.3 F / 16.3 C (live campsite)., Your position is inside the enclosed tent bounds., Hearth at 4, 64, 0: hot/cold fuel 488/0; heating/cooling enabled true/false; warmth/cooling level 500/0; spread reaches you=true; automatic=false, Field Guide: Cold Sweat > A hearth inside a tent. Equipment range and warm-up still apply.]
+HEARTH SHAMIYANA: paths=958 fuel=488 contains=true effects=[effect.cold_sweat.warmth x 4, Duration: 60, Particles: false, effect.cold_sweat.grace, Duration: 6000, Particles: false]
+CAMPSITE STATUS SHAMIYANA: [Campsite: minecraft:overworld at 2100, 150, 2100, Exterior ambient: 61.3 F / 16.3 C (live campsite)., Your position is inside the enclosed tent bounds., Hearth at 4, 64, 0: hot/cold fuel 488/0; heating/cooling enabled true/false; warmth/cooling level 500/0; spread reaches you=true; automatic=false, Field Guide: Cold Sweat > A hearth inside a tent. Equipment range and warm-up still apply.]
+TENT CLIMATE: 30 shape/size combinations, expanded floors, source changes and unloaded snapshots checked
+[10:58:10] [Server thread/INFO] [minecraft/MinecraftServer]: TENT CLIMATE CHECKS PASSED
+POLISH ATTRIBUTES: native procedures, external base/modifier, 20 repeated updates, unequip, matching migration, NBT reload and backup restore passed
+POLISH ALTAR: all nine native fuelled repairs retained names/enchantments/insulation data and consumed input once
+POLISH BACKPACK: actual sneak-use filled waterskin with 250 mB, rejected insufficient water; native magnet baseline/grace/expiry/ordinary loot passed
+REGIONAL SAMPLE biomesoplenty:auroral_garden original biome MC=(-0.5833333432674408, 0.0833333432674408) new biome MC=(-0.3111111111111111, 0.08888888888888889) ambient MC [underground day/night, elevated day/night]=[1.1911798849087236, 1.1911798849087236, -0.6304843730236737, -1.0043607046265022]
+REGIONAL SAMPLE biomesoplenty:cold_desert original biome MC=(-0.25, 0.75) new biome MC=(-0.08888888888888889, 0.7111111111111111) ambient MC [underground day/night, elevated day/night]=[1.1911798849087236, 1.1911798849087236, -0.048898968308163065, -0.7966516315138197]
+REGIONAL SAMPLE biomesoplenty:tropics original biome MC=(0.699999988079071, 1.199999988079071) new biome MC=(0.9777777777777777, 1.2444444444444445) ambient MC [underground day/night, elevated day/night]=[1.1911798849087236, 1.1911798849087236, 0.44960280716227535, 0.2003519194270547]
+REGIONAL SAMPLE terralith:emerald_peaks original biome MC=(-0.2571428641676903, 0.4571428671479225) new biome MC=(-0.044444444444444446, 0.35555555555555557) ambient MC [underground day/night, elevated day/night]=[1.1911798849087236, 1.1911798849087236, -0.3812334852884549, -0.7551098168912831]
+REGIONAL SAMPLE terralith:cave/ice_caves original biome MC=(0.6153846085071564, 1.3846153914928436) new biome MC=(0.0, 0.0) ambient MC [underground day/night, elevated day/night]=[0.0, 0.0, 0.1795810121157873, 0.1795810121157873]
+REGIONAL SAMPLE terralith:cave/thermal_caves original biome MC=(0.44285714626312256, 1.1571428775787354) new biome MC=(1.2, 1.2) ambient MC [underground day/night, elevated day/night]=[1.1999999999999953, 1.1999999999999953, 0.1795810121157873, 0.1795810121157873]
+POLISH CLIMATE: native biome/cave/elevation sampling at two heights/times and administrator reload preservation passed
+[10:58:14] [Server thread/INFO] [minecraft/MinecraftServer]: POLISH CHECKS PASSED
+JOURNAL MIGRATION: repeat installation, stable IDs, administrator edits, root settings and collision preservation passed
+[10:58:15] [Server thread/INFO] [minecraft/MinecraftServer]: EXPANSION CHECKS PASSED
+[10:58:16] [Server thread/INFO] [minecraft/MinecraftServer]: COHESION CHECKS PASSED
+PERF TEST: 10000 minimum-selection cases match stable sorting (ties, empty lists, NaN).
+PERF TEST: 135 live portal comparisons + immediate removal + fallbacks passed. 300 empty searches original=24.1654ms optimized=1.9268ms; blockChecks=0 sectionChecks=9
+PERF TEST: actual Alex's Mobs item goal matches original with 80 candidates, equal-distance ties and target removal.
+PERF TEST: 64 actual tornado forceRotate comparisons passed (normal/pet, grab settings, items/mobs). Broad candidates=206, living=5
+[10:58:26] [Server thread/INFO] [minecraft/MinecraftServer]: KNCRAFT PERFORMANCE: ALL REGRESSIONS PASSED
+[10:58:26] [Server thread/INFO] [minecraft/MinecraftServer]: CLIENT ACKNOWLEDGEMENT GATE PASSED
+[10:58:27] [Server thread/INFO] [minecraft/MinecraftServer]: DEPTH HEIGHT TESTS PASSED: four large-frame placements, both orientations, high/negative targets, bedrock intact, unsafe sources rejected

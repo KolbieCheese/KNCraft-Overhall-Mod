@@ -15,6 +15,13 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Encounter controls",
+      "body": "Use held equipment: $(k:key.use)$(br)Attack: $(k:key.attack)$(br)Sprint: $(k:key.sprint)$(br)Swap offhand: $(k:key.swapOffhand)$(br)Journal: $(k:key.ftbquests.quests)$(br)This chapter uses normal item controls, not a separate Wither Storm hotkey.",
+      "anchor": "kncraft_controls_live",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "The encounter",
       "body": "The Wither Storm grows as it consumes the world. Early survival means moving, supplying yourself and choosing when to approach. A temporary distraction is time to act, not a permanent safe zone. KNCraft allows persistent storm",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",

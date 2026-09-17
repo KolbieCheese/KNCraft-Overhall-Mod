@@ -15,6 +15,13 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Depths controls",
+      "body": "Use a key or held item: $(k:key.use)$(br)Attack: $(k:key.attack)$(br)Swap offhand: $(k:key.swapOffhand)$(br)Journal: $(k:key.ftbquests.quests)$(br)This chapter uses ordinary item interactions. Check individual equipment descriptions for its behavior.",
+      "anchor": "kncraft_controls_live",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Opening the way",
       "body": "Look for an Ancient City and its large central gateway. Obtain a Sculk Catalyst to unlock the mod's key progression; the author lists Warden drops and chest finds as sources. Craft the Depths Key using a catalyst, three bones",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",

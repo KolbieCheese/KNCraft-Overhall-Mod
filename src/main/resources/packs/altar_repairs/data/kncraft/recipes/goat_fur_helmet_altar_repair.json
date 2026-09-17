@@ -1,0 +1,13 @@
+{
+  "type": "aether:repairing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cold_sweat"
+    }
+  ],
+  "ingredient": {
+    "item": "cold_sweat:goat_fur_helmet"
+  },
+  "repairTime": 700
+}

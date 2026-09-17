@@ -66,7 +66,7 @@ def main():
     if args.jar:
         with zipfile.ZipFile(args.jar) as jar:
             names = jar.namelist()
-            forbidden = ['DepthHeightTests', 'DepthPortalChecks', 'TentTests', 'PerformanceTests', 'CohesionChecks', 'ExpansionChecks', 'TentClimateChecks', 'reference/', 'libs/']
+            forbidden = ['DepthHeightTests', 'DepthPortalChecks', 'TentTests', 'PerformanceTests', 'CohesionChecks', 'ExpansionChecks', 'TentClimateChecks', 'PolishChecks', 'reference/', 'libs/']
             assert not [n for n in names if any(token in n for token in forbidden)], 'Test/dependency payload in release'
             meta = jar.read('META-INF/mods.toml').decode()
             assert meta.count('[[mods]]') == 1 and 'modId="kncraft"' in meta
@@ -91,6 +91,18 @@ def main():
             assert all(task['type'] == 'advancement' for task in quest['tasks'])
             records += 1
     assert records == len(json.loads((ROOT / 'docs/Journal-Index.json').read_text())['quests'])
+    control_refs = json.loads((ROOT / 'docs/Guide-Control-References.json').read_text())['chapters']
+    for path in (book / 'entries/chapters').glob('*.json'):
+        entry = json.loads(path.read_text(encoding='utf-8'))
+        assert any(p.get('anchor') == 'kncraft_controls_live' for p in entry['pages']), 'Chapter lacks controls: ' + path.stem
+        actual = sorted(set(re.findall(r'\$\(k:([^)]*)\)', path.read_text(encoding='utf-8'))))
+        assert actual == control_refs[path.stem], 'Unaudited key reference: ' + path.stem
+    altar = list((RES / 'packs/altar_repairs/data/kncraft/recipes').glob('*.json'))
+    assert len(altar) == 9
+    for path in altar:
+        recipe = json.loads(path.read_text())
+        assert recipe['type'] == 'aether:repairing' and recipe['repairTime'] in (700, 1000)
+        assert recipe['conditions'][0]['modid'] == recipe['ingredient']['item'].split(':')[0]
     # Every managed food's cookbook page must display its actual default value and duration.
     config = (ROOT / 'src/main/java/com/beautyinblocks/kncraft/core/ArchitectureConfig.java').read_text()
     for item, amount, duration in re.findall(r'"([a-z0-9_]+:[a-z0-9_]+)\|(-?[0-9.]+)\|(\d+)"', config):

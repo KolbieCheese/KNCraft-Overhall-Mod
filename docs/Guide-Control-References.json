@@ -1,0 +1,147 @@
+{
+  "source": "Installed KNCraft options.txt binding IDs, 2026-09-17. Values are rendered live by Patchouli; stored user key assignments are not copied.",
+  "chapters": {
+    "aether": [
+      "key.aether.gravitite_jump_ability.desc",
+      "key.aether.invisibility_toggle.desc",
+      "key.aether.open_accessories.desc",
+      "key.curios.open.desc",
+      "key.ftbquests.quests",
+      "key.more_enchantments.action_key",
+      "key.use"
+    ],
+    "animals": [
+      "key.drop",
+      "key.ftbquests.quests",
+      "key.sneak",
+      "key.use"
+    ],
+    "catalog": [
+      "key.drop",
+      "key.jei.showRecipe",
+      "key.jei.showUses",
+      "key.use"
+    ],
+    "cold": [
+      "key.curios.open.desc",
+      "key.inventory",
+      "key.jei.showRecipe",
+      "key.sneak",
+      "key.use"
+    ],
+    "depths": [
+      "key.attack",
+      "key.ftbquests.quests",
+      "key.swapOffhand",
+      "key.use"
+    ],
+    "explore": [
+      "iris.keybind.shaderPackSelection",
+      "iris.keybind.toggleShaders",
+      "key.advancements",
+      "key.attack",
+      "key.curios.open.desc",
+      "key.do_a_barrel_roll.toggle_enabled",
+      "key.firstperson.toggle",
+      "key.ftbquests.quests",
+      "key.more_enchantments.action_key",
+      "key.togglePerspective",
+      "key.use",
+      "keybinds.bettercombat.feint"
+    ],
+    "food": [
+      "key.attack",
+      "key.jei.bookmark",
+      "key.jei.focusSearch",
+      "key.jei.showRecipe",
+      "key.jei.showUses",
+      "key.sneak",
+      "key.use"
+    ],
+    "intro": [
+      "key.chat",
+      "key.disable_voice_chat",
+      "key.ftbquests.quests",
+      "key.inventory",
+      "key.mute_microphone",
+      "key.push_to_talk",
+      "key.sneak",
+      "key.use",
+      "key.voice_chat",
+      "key.voice_chat_group"
+    ],
+    "travel": [
+      "key.betterminecarts.data",
+      "key.betterminecarts.decrease",
+      "key.betterminecarts.increase",
+      "key.betterminecarts.lamp",
+      "key.betterminecarts.redstone",
+      "key.betterminecarts.whistle",
+      "key.carry.desc",
+      "key.jei.showRecipe",
+      "key.sneak",
+      "key.sophisticatedbackpacks.inventory_interaction",
+      "key.sophisticatedbackpacks.open_backpack",
+      "key.sophisticatedcore.sort",
+      "key.sophisticatedcore.transfer_to_inventory",
+      "key.sophisticatedcore.transfer_to_storage",
+      "key.use"
+    ],
+    "weather": [
+      "key.jei.showRecipe",
+      "key.jei.showUses",
+      "key.use"
+    ],
+    "wither": [
+      "key.attack",
+      "key.ftbquests.quests",
+      "key.sprint",
+      "key.swapOffhand",
+      "key.use"
+    ]
+  },
+  "known_binding_ids": [
+    "iris.keybind.shaderPackSelection",
+    "iris.keybind.toggleShaders",
+    "key.advancements",
+    "key.aether.gravitite_jump_ability.desc",
+    "key.aether.invisibility_toggle.desc",
+    "key.aether.open_accessories.desc",
+    "key.attack",
+    "key.betterminecarts.data",
+    "key.betterminecarts.decrease",
+    "key.betterminecarts.increase",
+    "key.betterminecarts.lamp",
+    "key.betterminecarts.redstone",
+    "key.betterminecarts.whistle",
+    "key.carry.desc",
+    "key.chat",
+    "key.curios.open.desc",
+    "key.disable_voice_chat",
+    "key.do_a_barrel_roll.toggle_enabled",
+    "key.drop",
+    "key.firstperson.toggle",
+    "key.ftbquests.quests",
+    "key.inventory",
+    "key.jei.bookmark",
+    "key.jei.focusSearch",
+    "key.jei.showRecipe",
+    "key.jei.showUses",
+    "key.more_enchantments.action_key",
+    "key.mute_microphone",
+    "key.push_to_talk",
+    "key.sneak",
+    "key.sophisticatedbackpacks.inventory_interaction",
+    "key.sophisticatedbackpacks.open_backpack",
+    "key.sophisticatedcore.sort",
+    "key.sophisticatedcore.transfer_to_inventory",
+    "key.sophisticatedcore.transfer_to_storage",
+    "key.sprint",
+    "key.swapOffhand",
+    "key.togglePerspective",
+    "key.use",
+    "key.voice_chat",
+    "key.voice_chat_group",
+    "keybinds.bettercombat.feint"
+  ]
+}

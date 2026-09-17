@@ -14,6 +14,27 @@
       "eyebrow": "CHAPTER 10"
     },
     {
+      "type": "patchouli:kn_text",
+      "heading": "Exploration controls",
+      "body": "Journal: $(k:key.ftbquests.quests)$(br)Native advancements: $(k:key.advancements)$(br)Equipment action: $(k:key.more_enchantments.action_key)$(br)Curios: $(k:key.curios.open.desc)$(br)Records are optional and grant no rewards or recipe unlocks.",
+      "anchor": "kncraft_controls_live",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Flight and combat controls",
+      "body": "Barrel Roll toggle: $(k:key.do_a_barrel_roll.toggle_enabled)$(br)Attack: $(k:key.attack)$(br)Use item: $(k:key.use)$(br)Better Combat feint: $(k:keybinds.bettercombat.feint)$(br)Unbound actions are optional; assign them in Controls if wanted.",
+      "anchor": "kncraft_controls_flight",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "View and presentation",
+      "body": "Perspective: $(k:key.togglePerspective)$(br)First-person body: $(k:key.firstperson.toggle)$(br)Shader selection: $(k:iris.keybind.shaderPackSelection)$(br)Toggle shaders: $(k:iris.keybind.toggleShaders)$(br)Visual settings are personal client choices.",
+      "anchor": "kncraft_controls_view",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore)Chapter$(/l)"
+    },
+    {
       "type": "patchouli:kn_image",
       "heading": "Following the coast",
       "body": "A KNCraft coastline. Shorelines can offer useful landmarks for a long journey.",
@@ -385,6 +406,20 @@
       "heading": "Before going farther (cont.)",
       "body": "information, not just a full inventory. A marked passage, working bridge or prepared camp can be worth more on the next journey than another stack of stone.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "More accomplishments",
+      "body": "The journal now includes BOP's native all-biomes achievement and RopeBridge's two builder-item and two construction achievements. All 344 records remain independent. Build or explore at your own pace; nothing requires completing the whole journal.",
+      "anchor": "kncraft_journal_complete",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Equipment bonuses travel with you",
+      "body": "Furor, Agility, Range and Armoring keep their native strengths while contributing alongside other attribute bonuses. Changing or removing equipment updates the bonus. Wing armor effects still recognize your active Elytra Slot wings.",
+      "anchor": "kncraft_attribute_equipment",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",

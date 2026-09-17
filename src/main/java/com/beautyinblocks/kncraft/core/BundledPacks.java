@@ -20,6 +20,7 @@ public final class BundledPacks {
         add(event, "camp_safety", ExpansionConfig.SAFE_CARRY.get() && Compatibility.present("carryon"));
         add(event, "rail_fuel", ExpansionConfig.RAIL_FUEL.get());
         add(event, "aether_freezer", ExpansionConfig.AETHER_THERMAL.get() && Compatibility.present("aether"));
+        add(event, "altar_repairs", PolishConfig.ALTAR.get() && Compatibility.present("aether"));
         add(event, "wildlife_food", ExpansionConfig.WILDLIFE_FOOD.get() && Compatibility.present("alexsmobs"));
         add(event, "combat", ExpansionConfig.COMBAT.get() && Compatibility.exact("bettercombat") && Compatibility.present("aether"));
         add(event, "exploration", ExpansionConfig.THEMED_LOOT.get());

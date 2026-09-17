@@ -125,6 +125,12 @@ final class TentClimateChecks {
             check(player.hasEffect(warmth), "Hearth did not warm tent occupant: " + type);
             check(hearth.getHotFuel() < 500 && hearth.getHotFuel() > 0, "Hearth fuel rules changed");
             check(hearth.getPathLookup().keySet().stream().allMatch(path -> TentClimate.enclosed(level, path)), "Hearth spread escaped tent bounds");
+            int loadedBefore = level.getChunkSource().getLoadedChunksCount();
+            var status = com.beautyinblocks.kncraft.integration.tentclimate.CampsiteStatus.inspect(player);
+            check(status.stream().anyMatch(s -> s.contains("spread reaches you=true")), "Campsite status missed native conditioning path: " + status);
+            check(status.stream().anyMatch(s -> s.startsWith("Campsite:")), "Campsite source missing from status");
+            check(level.getChunkSource().getLoadedChunksCount() == loadedBefore, "Campsite inspection loaded chunks");
+            System.out.println("CAMPSITE STATUS " + type + ": " + status);
         } finally { player.discard(); level.removeBlock(pos, false); level.removeBlock(pos.above(), false); }
     }
 }

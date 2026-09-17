@@ -1,0 +1,13 @@
+{
+  "type": "aether:repairing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cold_sweat"
+    }
+  ],
+  "ingredient": {
+    "item": "cold_sweat:hoglin_leggings"
+  },
+  "repairTime": 1000
+}

@@ -14,6 +14,8 @@ def main():
     p.add_argument("--java", required=True)
     p.add_argument("--commands", type=Path)
     p.add_argument("--timeout", type=int, default=240)
+    p.add_argument("--shutdown-timeout", type=int, default=60)
+    p.add_argument("--require-output", action="append", default=[], help="Fail if a required success marker is missing from this run")
     args = p.parse_args()
     server = args.server.resolve()
     if not (server / "KNCraft-ISOLATED-TEST-WORLD").is_file(): raise SystemExit("Refusing unmarked server")
@@ -39,10 +41,13 @@ def main():
             print("Sent:", command, flush=True)
     if proc.poll() is None:
         if not ready.is_set(): print("Startup timeout; requesting stop", flush=True)
-        try: proc.stdin.write("stop\n"); proc.stdin.flush(); proc.wait(timeout=60)
+        try: proc.stdin.write("stop\n"); proc.stdin.flush(); proc.wait(timeout=args.shutdown_timeout)
         except (subprocess.TimeoutExpired, BrokenPipeError): proc.terminate(); proc.wait(timeout=15)
     thread.join(timeout=5)
     print("Exit:", proc.returncode, "Ready:", ready.is_set(), "Log:", server / "smoke-console.log")
     if not ready.is_set() or proc.returncode != 0: raise SystemExit(1)
+    output = (server / "smoke-console.log").read_text(encoding="utf-8")
+    for marker in args.require_output:
+        if marker not in output: raise SystemExit("Required test output missing: " + marker)
 
 if __name__ == "__main__": main()

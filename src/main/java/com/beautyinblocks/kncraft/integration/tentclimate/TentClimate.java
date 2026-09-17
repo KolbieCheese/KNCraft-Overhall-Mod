@@ -99,11 +99,12 @@ public final class TentClimate {
         var saved = new net.minecraft.nbt.CompoundTag();
         saved.putString("dimension", source); saved.putLong("position", pos.asLong());
         saved.putDouble("temperature", value);
+        saved.putLong("sampleTick", outside.getGameTime());
         door.getPersistentData().put(SNAPSHOT, saved); door.setChanged();
         return OptionalDouble.of(value);
     }
 
-    private static boolean samplingAreaLoaded(ServerLevel outside, BlockPos pos) {
+    public static boolean samplingAreaLoaded(ServerLevel outside, BlockPos pos) {
         // Cold Sweat's player biome grid samples up to 30 blocks away, with
         // biome interpolation around each point. Never let that read generate
         // neighboring chunks after the camper has left the exterior.

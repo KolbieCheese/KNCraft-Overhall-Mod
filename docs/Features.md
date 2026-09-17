@@ -5,6 +5,7 @@
 | Nomadic Tents + Cold Sweat | Campsite ambient climate, bounded enclosed interiors, native hearth fuel/range/warm-up; enabled |
 | Pam's + wildlife + Aether | Selected real eggs, milk, ordinary berries, general meat/fish ingredients; enabled |
 | Food + climate + backpacks | Nine thermal foods; latest effect replaces previous; feeding avoids the wrong sign beyond BODY +/-20 unless hunger is 6 or lower |
+| Backpack water supply | Native sneak-use on a placed water tank fills an empty waterskin for 250 mB; documented and tested without a duplicate adapter |
 | Aether + climate | Ice accessories give 2 heat insulation; ordinary colored capes 0.5 cold/0.5 heat; combined managed heat cap 4; Icestone 100 cooling fuel |
 | Aether Freezer + Pam's | Prepared apple/melon/sweetberry juice becomes one smoothie in 200 ticks with native fuel |
 | Farming + rail | Two cooking oil and one bottle make native bio-diesel; existing locomotive accounting and glass-bottle return |
@@ -14,14 +15,21 @@
 | Ecology | Fresh Pam's berries feed crows/raccoons without becoming taming ingredients; missing savanna garden biome tag bridged |
 | Carry On | Tent doors and hearth halves use normal packing/dismantling; native tag cache refreshed after data loads; normal storage stays movable |
 | Resource repairs | Three invalid Food Core recipes disabled; three missing seed modifiers remain no-ops; seven broken tag contributors made optional |
-| FTB journal | 15 chapters, 339 independent records; bosses, structures and native advancements; no rewards, locks or item turn-ins |
+| FTB journal | 17 chapters, 344 independent records including BOP and RopeBridge; bosses, structures and native advancements; no rewards, locks or item turn-ins |
+| Everyday controls | Opt-in client preset, backup/restore and conflict report; all 11 guide chapters contain live key references |
+| Enchantment attributes | Native strengths become transient additive modifiers; unchanged contributions are not recreated; bounded legacy migration |
+| Wildlife offerings | Player-thrown items accepted by a visible Alex's animal within 8 blocks get 200 ticks of magnet grace; ordinary loot unchanged |
+| Regional climate | 20 selected BOP/Terralith defaults only where no explicit absolute temperature exists; native climate/weather modifiers retained |
+| Altar maintenance | 8 Cold Sweat armor pieces and Frontier Cap; native fuel, 700/1000 ticks, complete input data retained |
+| Campsite inspection | `/kncraft camp` shows source, live/saved climate, bounded enclosure and up to four loaded climate appliances within 48 blocks |
 | Field Guide | Original chapters and individual Cook Book entries explain the changes; historical book ID and artwork retained |
 | Original integrations | Native portal lighting, bounded Depth arrivals, tent synchronization, performance fixes, Waystones and encounter scaling retained |
 
-`kncraft-integrations.toml` supplies independent switches for the new connections.
+`kncraft-integrations.toml` supplies independent switches for the 1.0 connections;
+`kncraft-polish.toml` controls the 1.0.1 additions and regional temperature list.
 Fresh installations enable the original cotton/wildlife/meal/fiber features too.
 Existing `kncraft-common.toml` values remain authoritative, including previous opt-outs.
-Restart after changing module switches. See [validation](Validation.md) for actual test scope.
+Restart after changing module switches. See [1.0.1 validation](Polish-Validation.md) for actual test scope.
 
 ## Starting values
 
@@ -77,8 +85,9 @@ Inventory Totem checks ordinary player inventory, not nested backpacks or Curios
 Easy Anvils and JRFTL provide existing repair/leather routes. FallingTree's 100-log scan
 limit and Pam's right-click fruit harvest remain intact. Better Combat already has
 fallback profiles for Depth claymores/scythes, and reads attack speed for timing;
-Furor's native attribute behavior and Alex's active-use nunchaku are not replaced by
-blanket weapon profiles. These connections are documented where players use them.
+Furor retains its configured strength through a cooperative attribute modifier;
+Alex's active-use nunchaku retains its native behavior. These connections are
+documented where players use them.
 
 No new energy network, world regeneration, forced quest route, new dimension, or
 Skyroot/BOP building variant is introduced.

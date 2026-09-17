@@ -1275,6 +1275,36 @@
       "advancement": "dungeons_enhanced:wars_and_kingdoms"
     },
     {
+      "chapter": "kncraft_biomesoplenty.snbt",
+      "quest": "459B550576A5B7A7",
+      "title": "Wanderer",
+      "advancement": "biomesoplenty:biomesoplenty/all_biomes"
+    },
+    {
+      "chapter": "kncraft_ropebridge.snbt",
+      "quest": "4A06C7E5548CBE87",
+      "title": "Rope Bridge",
+      "advancement": "ropebridge:main/build_bridge"
+    },
+    {
+      "chapter": "kncraft_ropebridge.snbt",
+      "quest": "432A001FBF3891AF",
+      "title": "Rope Ladder",
+      "advancement": "ropebridge:main/build_ladder"
+    },
+    {
+      "chapter": "kncraft_ropebridge.snbt",
+      "quest": "403334C8E015026A",
+      "title": "Bridge Building Gun",
+      "advancement": "ropebridge:main/craft_bridge_builder"
+    },
+    {
+      "chapter": "kncraft_ropebridge.snbt",
+      "quest": "4BC31EE539357246",
+      "title": "Ladder Building Gun",
+      "advancement": "ropebridge:main/craft_ladder_builder"
+    },
+    {
       "chapter": "kncraft_dungeons_enhanced_landmarks.snbt",
       "quest": "4C138E3D8E0625E3",
       "title": "Black Citadel",

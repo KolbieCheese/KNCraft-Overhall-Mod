@@ -14,6 +14,8 @@ NATIVE = [
     ('alexsmobs', 'alexsmobs*', 'Wildlife', 'animals'),
     ('cold_sweat', 'ColdSweat*', 'Climate & Shelter', 'cold'),
     ('dungeons_enhanced', 'dungeons_enhanced*', 'Explorer Milestones', 'travel'),
+    ('biomesoplenty', 'BiomesOPlenty*', "Biomes O' Plenty", 'explore'),
+    ('ropebridge', 'RopeBridge*', 'RopeBridge', 'travel'),
 ]
 STRUCTURES = [
     ('dungeons_enhanced', 'dungeons_enhanced*', 'Dungeons Enhanced'),

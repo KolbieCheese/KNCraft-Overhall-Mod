@@ -15,6 +15,13 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Wildlife controls",
+      "body": "Interact / offer held item: $(k:key.use)$(br)Drop an offering: $(k:key.drop)$(br)Sneak: $(k:key.sneak)$(br)Journal: $(k:key.ftbquests.quests)$(br)Some animals collect dropped food; others require direct interaction or special ingredients.",
+      "anchor": "kncraft_controls_live",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Using the field notes",
       "body": "Alex's Mobs adds wildlife across the Overworld, Nether and End. Some creatures are threats; others offer transport, materials or useful interactions. Habitats follow the mod's normal distribution, but KNCraft's biome mix affects where you",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals#animals_contents)Start$(/l)",
@@ -51,6 +58,20 @@
       "heading": "Trust, taming and breeding ...",
       "body": "Dictionary remains useful alongside this guide; the catalog here brings the practical notes into one place.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals#animals_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Give animals time to collect",
+      "body": "Player-dropped food accepted by a nearby Alex's animal gets a 10-second grace period from backpack magnets. Stay within eight blocks with a clear view. Ordinary loot is unaffected. The animal still follows its own eating and taming rules.",
+      "anchor": "kncraft_offerings",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A cap for expeditions",
+      "body": "The $(l:patchouli:recipes/alexsmobs/frontier_cap)Frontier Cap$(/l) has a recipe page with its climate and maintenance notes. It keeps its native abilities and can be repaired at an Aether Altar. Cotton and other linings remain useful options.",
+      "anchor": "kncraft_frontier_recipe",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",

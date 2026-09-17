@@ -1,0 +1,29 @@
+{
+  "name": "Frontier Cap",
+  "category": "patchouli:recipes",
+  "icon": "alexsmobs:frontier_cap",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:frontier_cap",
+      "anchor": "frontier_cap_recipe"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cold Sweat insulation",
+      "body": "Worn pack default: 3 cold / 1 heat insulation. Built-in insulation uses sewing capacity. Read the live item tooltip before adding linings; server settings take precedence.",
+      "anchor": "kncraft_frontier_insulation",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Aether Altar repair",
+      "body": "Repair this damaged item in an Aether Altar in 35 seconds with normal altar fuel. Its name, enchantments and sewn insulation are retained. See $(l:patchouli:chapters/aether#kncraft_altar_repairs)altar maintenance$(/l).",
+      "anchor": "kncraft_altar_repair",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:frontier_cap": 0
+  }
+}

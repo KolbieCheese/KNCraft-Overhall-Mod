@@ -1,5 +1,8 @@
 # Validation record - KNCraft Compatibility 1.0
 
+For the subsequent 1.0.1 implementation, new checks and repeated regressions, see
+[Polish-Validation.md](Polish-Validation.md). The original 1.0 results below are retained.
+
 Tests ran on 17 September 2026 in disposable, loopback-only Forge 47.4.0 servers
 inside this repository. The owner authorized EULA acceptance for these tests.
 The installed CurseForge profile, live server and play worlds were not changed.

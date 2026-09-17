@@ -1,0 +1,36 @@
+{
+  "id": "47ACBB1FAA40CEA3",
+  "filename": "kncraft_biomesoplenty",
+  "title": "Biomes O' Plenty",
+  "icon": "minecraft:writable_book",
+  "order_index": 106,
+  "subtitle": [
+    "An accomplishment journal. No required order, item turn-ins, or rewards."
+  ],
+  "default_hide_dependency_lines": true,
+  "quests": [
+    {
+      "id": "459B550576A5B7A7",
+      "title": "Wanderer",
+      "icon": "biomesoplenty:bop_icon",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Discover every biome in Biomes O' Plenty",
+        "",
+        "Field Guide: Exploration. Explore at your own pace; this record grants no reward and unlocks no recipes."
+      ],
+      "dependencies": [],
+      "rewards": [],
+      "disable_toast": true,
+      "tasks": [
+        {
+          "id": "48FE88D1E71631F9",
+          "type": "advancement",
+          "advancement": "biomesoplenty:biomesoplenty/all_biomes",
+          "criterion": ""
+        }
+      ]
+    }
+  ]
+}

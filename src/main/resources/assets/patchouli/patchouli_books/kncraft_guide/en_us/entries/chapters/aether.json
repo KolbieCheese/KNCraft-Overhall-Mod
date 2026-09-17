@@ -15,6 +15,20 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Aether controls",
+      "body": "Aether accessories: $(k:key.aether.open_accessories.desc)$(br)Curios: $(k:key.curios.open.desc)$(br)Invisibility toggle: $(k:key.aether.invisibility_toggle.desc)$(br)Gravitite jump ability: $(k:key.aether.gravitite_jump_ability.desc)$(br)Abilities still require the appropriate equipment.",
+      "anchor": "kncraft_controls_live",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Equipment abilities",
+      "body": "More Enchantments action: $(k:key.more_enchantments.action_key)$(br)Use held item / altar: $(k:key.use)$(br)Journal: $(k:key.ftbquests.quests)$(br)Flight abilities read your equipped usable wings, including Elytra Slot.",
+      "anchor": "kncraft_controls_equipment",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Before the portal",
       "body": "Build a vertical Glowstone portal frame in the familiar Nether-portal shape, with a two-block-wide, three-block-tall opening. Activate the opening with water rather than fire. Bring food, building blocks and fall protection. Plan a",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)",
@@ -73,6 +87,20 @@
       "heading": "Local equipment (cont.)",
       "body": "repair equipment. The Freezer uses Icestone. Check the relevant JEI processing category: these stations do more than a normal crafting table.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Maintain expedition gear",
+      "body": "An Altar repairs Cold Sweat goat-fur and hoglin armor, plus Alex's Frontier Cap. Supply normal altar fuel. Repairing keeps enchantments, names and sewn insulation. This is another workshop option alongside your normal repair routes.",
+      "anchor": "kncraft_altar_repairs",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Altar repair times",
+      "body": "Goat-fur armor and the Frontier Cap take 35 seconds per piece; hoglin armor takes 50 seconds. Repair one damaged piece at a time with normal Ambrosium fuel. Powerful boss equipment has not been added to this repair list.",
+      "anchor": "kncraft_altar_times",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",

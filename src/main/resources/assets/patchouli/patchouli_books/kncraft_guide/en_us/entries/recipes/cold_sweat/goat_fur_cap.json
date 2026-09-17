@@ -10,6 +10,13 @@
       "recipe": "cold_sweat:goat_fur_cap",
       "anchor": "lookup_recipe_cold_sweat_goat_fur_cap",
       "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_goat_fur_cap)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Aether Altar repair",
+      "body": "Repair this damaged item in an Aether Altar in 35 seconds with normal altar fuel. Its name, enchantments and sewn insulation are retained. See $(l:patchouli:chapters/aether#kncraft_altar_repairs)altar maintenance$(/l).",
+      "anchor": "kncraft_altar_repair",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
     }
   ],
   "extra_recipe_mappings": {}

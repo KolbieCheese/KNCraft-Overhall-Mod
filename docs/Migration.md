@@ -93,7 +93,43 @@ Serialized fields/IDs and modifier UUIDs are enumerated in `Migration-Manifest.j
 portals are never relocated. Existing tent worlds, identities, equipment and inventories are
 never regenerated. The obsolete encounter timer is removed; the old marker tags remain valid.
 
+## Updating 1.0.0 to 1.0.1
+
+Install the matching JAR on server and clients. New controls remain opt-in; existing
+`options.txt` assignments are untouched until `/kncraft controls preset` is used.
+The preset saves only affected bindings to `config/kncraft-controls-backup.json`.
+Restore keeps bindings customized after applying the preset and removes the consumed
+backup. Review `/kncraft controls` afterward because unrelated/contextual conflicts
+can still exist.
+
+More Enchantments previously saved bonuses directly into base attributes. On the
+first complete set of four native formula evaluations, KNCraft migrates those bases
+only if **all four** match the currently equipped native formulas. This is a
+conservative fingerprint, not historical proof of who wrote an attribute. A custom
+setup deliberately using the identical four values is indistinguishable: set
+`migrateMatchingLegacyAttributes=false` in `kncraft-polish.toml` before upgrading if
+that applies. Nonmatching bases and unrelated modifiers are preserved. On a
+nonmatching legacy save, review potential retained old bonuses rather than silently
+resetting them. `/kncraft attributes` shows the recorded decision and original values.
+
+The one-time record `ForgeData.KNCraftAttributeMigrationV1` contains the original four
+bases and migration decision. Operators can use `/kncraft attributes restore <player>`
+to restore the recorded bases; current enchantment modifiers remain active. The
+record survives respawn and saved-player reload. New bonuses use stable transient
+UUIDs and rebuild from equipped items. Disabling the attribute module restores the
+upstream procedures. Returning to the old mod build likewise restores its native
+per-tick base-writing behavior; keep a backup before any world rollback.
+
+Regional defaults never rewrite Cold Sweat TOML. Its explicit JSON/TOML definitions
+and absolute biome disables take precedence; existing offsets still apply. The two
+obsolete biome strings noted by the audit are left in administrator-owned settings.
+Only 20 deliberately selected gaps receive defaults; other regions retain native
+fallbacks. Altar recipes use existing items and preserve complete stack data,
+including capabilities. Journal IDs already present in 1.0.0 remain unchanged.
+
 ## Rollback and resets
+
+### Returning to the earlier helper arrangement
 
 Stop cleanly. Restore the three old helpers and matching datapacks/configs together, remove
 Architecture, and restore the backed-up guide declaration so its retained external chapters

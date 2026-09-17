@@ -15,6 +15,34 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Camp and storage controls",
+      "body": "Use tent door / storage: $(k:key.use)$(br)Backpack: $(k:key.sophisticatedbackpacks.open_backpack)$(br)Inventory interaction: $(k:key.sophisticatedbackpacks.inventory_interaction)$(br)Carry On modifier: $(k:key.carry.desc)$(br)Carry eligible blocks with empty hands and Use.",
+      "anchor": "kncraft_controls_live",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Train controls",
+      "body": "Increase power: $(k:key.betterminecarts.increase)$(br)Decrease power: $(k:key.betterminecarts.decrease)$(br)Lamp: $(k:key.betterminecarts.lamp)$(br)Whistle: $(k:key.betterminecarts.whistle)$(br)These controls apply while riding a minecart.",
+      "anchor": "kncraft_controls_train",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Train and inventory tools",
+      "body": "Train redstone: $(k:key.betterminecarts.redstone)$(br)Train data: $(k:key.betterminecarts.data)$(br)Sort storage: $(k:key.sophisticatedcore.sort)$(br)To storage: $(k:key.sophisticatedcore.transfer_to_storage)$(br)To inventory: $(k:key.sophisticatedcore.transfer_to_inventory)",
+      "anchor": "kncraft_controls_train_extra",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Building a route",
+      "body": "Aim / use a bridge or ladder builder: $(k:key.use)$(br)Sneak: $(k:key.sneak)$(br)Recipes: $(k:key.jei.showRecipe)$(br)RopeBridge uses the builder item. Macaw's bridges and stairs use normal block placement. Waystones open through Use.",
+      "anchor": "kncraft_controls_building",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Pack for a move",
       "body": "Keep emergency supplies on your person: food, tools, light, fall protection, temperature supplies and the items needed to restart a camp. Put bulk stores and workstations in portable storage. A tent holds a camp; a backpack keeps",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
@@ -131,6 +159,20 @@
       "heading": "Choose useful upgrades +...",
       "body": "gives a portable workspace. Stack upgrades increase suitable storage capacity. Refill and deposit/restock tools reduce repeated sorting at camp. Open each upgrade's settings instead of assuming its defaults fit your loadout.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Magnets near wildlife",
+      "body": "Deliberate offerings can briefly stay on the ground for a nearby animal. The grace period ends; magnets then collect normally. Filters still apply. See $(l:patchouli:chapters/animals#kncraft_offerings)wildlife offerings$(/l).",
+      "anchor": "kncraft_offering_magnets",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Water at a portable camp",
+      "body": "Place a backpack with a water-filled tank upgrade. Hold an empty waterskin, then sneak ($(k:key.sneak)) and Use ($(k:key.use)) on the backpack. Filling consumes 250 mB of water. Normal clicking opens the backpack; tank capacity and upgrades still matter.",
+      "anchor": "kncraft_tank_refill",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",

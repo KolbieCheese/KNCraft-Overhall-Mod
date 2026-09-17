@@ -15,6 +15,13 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Weather controls",
+      "body": "Use weather instruments: $(k:key.use)$(br)Recipes: $(k:key.jei.showRecipe)$(br)Recipe uses: $(k:key.jei.showUses)$(br)Weather devices use their normal item and block interfaces. This pack has no separate Weather2 key binding.",
+      "anchor": "kncraft_controls_live",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Weather along the route",
       "body": "Weather2 uses moving local weather. Rain in one area does not mean the whole world is in the same storm. Look at approaching clouds and wind before choosing a long crossing. Thunderstorms bring lightning. Snowstorms and sandstorms",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",

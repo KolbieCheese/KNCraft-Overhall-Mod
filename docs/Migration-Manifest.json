@@ -1,13 +1,62 @@
 {
   "schema": 1,
-  "replace_jars": ["KNCraftNativePortals-1.1.0.jar", "KNCraftTentPortals-1.0.1.jar", "KNCraftPerformance-1.0.0.jar"],
-  "replace_datapacks": ["kncraft-aether-immersive-portals-1.1.0.zip", "kncraft-depth-immersive-portals-1.2.0.zip", "kncraft-rules"],
+  "replace_jars": [
+    "KNCraftNativePortals-1.1.0.jar",
+    "KNCraftTentPortals-1.0.1.jar",
+    "KNCraftPerformance-1.0.0.jar"
+  ],
+  "replace_datapacks": [
+    "kncraft-aether-immersive-portals-1.1.0.zip",
+    "kncraft-depth-immersive-portals-1.2.0.zip",
+    "kncraft-rules"
+  ],
   "retain": "All upstream mods and their configurations; use reference/handoff/live-reference/gameplay-mod-inventory.json for exact versions and hashes",
-  "legacy_config_import": {"kncraft-tent-portals.toml": ["immersiveTentEntrances"], "kncraftperformance-common.toml": ["portalSearch", "itemSelection", "tornadoQuery"]},
+  "legacy_config_import": {
+    "kncraft-tent-portals.toml": [
+      "immersiveTentEntrances"
+    ],
+    "kncraftperformance-common.toml": [
+      "portalSearch",
+      "itemSelection",
+      "tornadoQuery"
+    ]
+  },
   "target_config": "config/kncraft-common.toml",
-  "preserved_ids": ["kncraft:bounded_depth", "kncraft_aether:aether", "kncraft_depth:depth", "KNCraftTentLink", "kncraft_tent", "kncraft_storm_balanced", "kncraft_balanced", "patchouli:kncraft_guide"],
-  "preserved_tent_fields": ["token", "tent", "outsideDim", "outsidePos", "insideDim", "insidePos", "portal"],
-  "preserved_modifier_uuids": ["65b697a5-2a47-49fb-a6f1-bc06230990f4", "766a37b6-5376-47df-bd46-9f756891a4b1", "7b9a2e4e-d880-4584-bb07-85ff369f12fd", "7b12d760-cbf3-4489-a04f-7a01d1076982"],
+  "preserved_ids": [
+    "kncraft:bounded_depth",
+    "kncraft_aether:aether",
+    "kncraft_depth:depth",
+    "KNCraftTentLink",
+    "kncraft_tent",
+    "kncraft_storm_balanced",
+    "kncraft_balanced",
+    "patchouli:kncraft_guide"
+  ],
+  "preserved_tent_fields": [
+    "token",
+    "tent",
+    "outsideDim",
+    "outsidePos",
+    "insideDim",
+    "insidePos",
+    "portal"
+  ],
+  "preserved_modifier_uuids": [
+    "65b697a5-2a47-49fb-a6f1-bc06230990f4",
+    "766a37b6-5376-47df-bd46-9f756891a4b1",
+    "7b9a2e4e-d880-4584-bb07-85ff369f12fd",
+    "7b12d760-cbf3-4489-a04f-7a01d1076982"
+  ],
   "retired_world_timer": "kncraft:encounter",
-  "world_content_migration": "none; no relocation, regeneration or deletion"
+  "world_content_migration": "none; no relocation, regeneration or deletion",
+  "polish_player_record": "ForgeData.KNCraftAttributeMigrationV1",
+  "polish_attribute_modifiers": {
+    "minecraft:generic.attack_speed": "bcf28e9f-1a44-3d36-8769-dd7b40e2e8a8",
+    "minecraft:generic.movement_speed": "cd65ea24-786b-3275-9948-1e0402fed899",
+    "forge:block_reach": "05cbf744-ae49-33b1-a870-f3a7b08b62ef",
+    "minecraft:generic.armor": "d4bc05a6-333e-3f35-9f0a-3e6a65b881e1"
+  },
+  "polish_attribute_storage": "Transient modifiers rebuild from native formulas; original bases backed up before one-time conditional migration.",
+  "control_backup": "config/kncraft-controls-backup.json; opt-in, restores only unchanged preset assignments",
+  "tent_climate_snapshot": "KNCraftExteriorClimate: dimension, position, temperature, optional sampleTick; no forced exterior loading"
 }

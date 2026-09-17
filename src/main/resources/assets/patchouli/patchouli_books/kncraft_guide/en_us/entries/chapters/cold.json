@@ -15,6 +15,20 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Climate controls",
+      "body": "Use waterskin / open machine: $(k:key.use)$(br)Inventory: $(k:key.inventory)$(br)Curios equipment: $(k:key.curios.open.desc)$(br)Recipe in JEI: $(k:key.jei.showRecipe)$(br)Use / pour preference follows Cold Sweat settings.",
+      "anchor": "kncraft_controls_live",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Inspect your campsite",
+      "body": "Inside a tent, enter /kncraft camp in chat. It shows exterior climate, live or saved sampling, and nearby climate equipment. Read fuel, heating/cooling enablement, current conditioning levels and whether the air path reaches you.",
+      "anchor": "kncraft_controls_camp",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Read your temperature",
       "body": "Cold Sweat tracks your body's response to the environment. Biome, elevation, nearby blocks and other conditions can push it toward dangerous heat or cold. Watch the trend before your health starts dropping. A Thermometer helps",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
@@ -38,6 +52,27 @@
       "heading": "Choose for the journey +...",
       "body": "return plan. The Nether is extremely hot and needs the opposite preparation. Judge the actual temperature at your destination before moving far from the portal.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare for the region",
+      "body": "Selected BOP and Terralith regions now have deliberate climate defaults. Ice caves are cold; thermal and mantle caves are warm or hot. Campsite inheritance uses the same climate. Time, elevation, weather and nearby blocks still affect the result.",
+      "anchor": "kncraft_regional_climate",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Regional starting points",
+      "body": "Default biome ranges: auroral garden 18-36 F; tundra 28-46 F; cold desert 28-64 F; tropics 76-88 F. These are ambient biome contributions, not guaranteed thermometer readings. The server may override them.",
+      "anchor": "kncraft_regional_examples",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Underground contrasts",
+      "body": "Terralith ice caves default to 32 F, frostfire caves 48 F, thermal caves 86 F and mantle caves 100 F before other effects. Pack both insulation and useful provisions. A tent preserves its campsite climate rather than guaranteeing comfort.",
+      "anchor": "kncraft_cave_examples",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -67,6 +102,13 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Refill from a backpack tank",
+      "body": "A placed backpack tank can refill an empty waterskin. Hold it, sneak ($(k:key.sneak)) and Use ($(k:key.use)) on the backpack. You need at least 250 mB of water. Filling uses native local temperature; warm or chill the skin afterward as needed.",
+      "anchor": "kncraft_tank_refill",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Sewing insulation",
       "body": "Use a Sewing Table to combine armor with insulation. Read the insulation tooltip before applying it: cold, heat, neutral and adaptive protection serve different trips. Leather provides balanced protection. Goat Fur is useful against cold; Hoglin",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
@@ -77,6 +119,13 @@
       "heading": "Sewing insulation (cont.)",
       "body": "Hide is useful against heat. Chameleon material provides adaptive protection. Shears in the table remove applied insulation, allowing you to change a set rather than replace the armor.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Repair your climate gear",
+      "body": "Cold Sweat goat-fur and hoglin armor can be repaired at an Aether Altar. The Frontier Cap can too. Keep your sewn insulation and enchantments while restoring durability. See $(l:patchouli:chapters/aether#kncraft_altar_repairs)altar maintenance$(/l).",
+      "anchor": "kncraft_altar_maintenance",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",

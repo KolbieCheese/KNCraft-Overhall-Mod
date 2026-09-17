@@ -1,0 +1,3728 @@
+{
+  "review_date": "2026-09-17",
+  "baseline_commit": "542481dd660099075a26671f7ab1b5169ae4b5e5",
+  "scope": "Second static opportunity audit against 1.0.0. All top-level installed artifacts rehashed and root-level data resources inventoried; selected configs/classes inspected. Not a new runtime test or a complete source/graphics audit. Nested JARs retained from the matching prior inventory, not independently re-audited.",
+  "implemented_by_this_audit": false,
+  "top_level_jar_count": 102,
+  "all_hashes_match_prior_audit": true,
+  "resource_count_note": "Packaged counts; includes resources that can be disabled or overridden at runtime. Excludes versioned overlays outside the root data path.",
+  "root_data_json_count": 12074,
+  "packaged_counts": {
+    "tags": 2523,
+    "loot_tables": 1687,
+    "java_classes": 30264,
+    "recipes": 4133,
+    "advancements": 1230
+  },
+  "groups": {
+    "Terrain, structures and weather": 8,
+    "Dimensions, encounters and wildlife": 6,
+    "Runtime performance": 11,
+    "Guidance, inventory and social": 11,
+    "Libraries and APIs": 26,
+    "Combat and equipment": 7,
+    "Travel, construction and storage": 10,
+    "Client presentation": 16,
+    "Survival, farming and camping": 7
+  },
+  "regional_climate_comparison": {
+    "comparison": "Explicit biome lists in installed Cold Sweat world.toml only; native fallback and JSON/tag overrides may still apply.",
+    "biomes": [
+      {
+        "id": "biomesoplenty:auroral_garden",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": -0.25
+      },
+      {
+        "id": "biomesoplenty:bayou",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.95
+      },
+      {
+        "id": "biomesoplenty:bog",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.2
+      },
+      {
+        "id": "biomesoplenty:clover_patch",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.6
+      },
+      {
+        "id": "biomesoplenty:cold_desert",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.25
+      },
+      {
+        "id": "biomesoplenty:coniferous_forest",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.45
+      },
+      {
+        "id": "biomesoplenty:crag",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.6
+      },
+      {
+        "id": "biomesoplenty:crystalline_chasm",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 2.0
+      },
+      {
+        "id": "biomesoplenty:dead_forest",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.2
+      },
+      {
+        "id": "biomesoplenty:dryland",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.85
+      },
+      {
+        "id": "biomesoplenty:dune_beach",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "biomesoplenty:erupting_inferno",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 2.0
+      },
+      {
+        "id": "biomesoplenty:field",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "biomesoplenty:fir_clearing",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.45
+      },
+      {
+        "id": "biomesoplenty:floodplain",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1.2
+      },
+      {
+        "id": "biomesoplenty:forested_field",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "biomesoplenty:fungal_jungle",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.9
+      },
+      {
+        "id": "biomesoplenty:glowing_grotto",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.5
+      },
+      {
+        "id": "biomesoplenty:grassland",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.6
+      },
+      {
+        "id": "biomesoplenty:highland",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.6
+      },
+      {
+        "id": "biomesoplenty:jade_cliffs",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "biomesoplenty:lavender_field",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "biomesoplenty:lavender_forest",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "biomesoplenty:lush_desert",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.9
+      },
+      {
+        "id": "biomesoplenty:lush_savanna",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.9
+      },
+      {
+        "id": "biomesoplenty:maple_woods",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.25
+      },
+      {
+        "id": "biomesoplenty:marsh",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.65
+      },
+      {
+        "id": "biomesoplenty:mediterranean_forest",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "biomesoplenty:moor",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.6
+      },
+      {
+        "id": "biomesoplenty:muskeg",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.0
+      },
+      {
+        "id": "biomesoplenty:mystic_grove",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "biomesoplenty:old_growth_dead_forest",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.3
+      },
+      {
+        "id": "biomesoplenty:old_growth_woodland",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "biomesoplenty:ominous_woods",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.6
+      },
+      {
+        "id": "biomesoplenty:orchard",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "biomesoplenty:origin_valley",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.6
+      },
+      {
+        "id": "biomesoplenty:pasture",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "biomesoplenty:prairie",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "biomesoplenty:pumpkin_patch",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "biomesoplenty:rainforest",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1.2
+      },
+      {
+        "id": "biomesoplenty:redwood_forest",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "biomesoplenty:rocky_rainforest",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 1.2
+      },
+      {
+        "id": "biomesoplenty:rocky_shrubland",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.6
+      },
+      {
+        "id": "biomesoplenty:scrubland",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1.1
+      },
+      {
+        "id": "biomesoplenty:seasonal_forest",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "biomesoplenty:seasonal_orchard",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "biomesoplenty:shrubland",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.6
+      },
+      {
+        "id": "biomesoplenty:snowblossom_grove",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": -0.25
+      },
+      {
+        "id": "biomesoplenty:snowy_coniferous_forest",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": -0.25
+      },
+      {
+        "id": "biomesoplenty:snowy_fir_clearing",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": -0.25
+      },
+      {
+        "id": "biomesoplenty:snowy_maple_woods",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": -0.25
+      },
+      {
+        "id": "biomesoplenty:spider_nest",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.5
+      },
+      {
+        "id": "biomesoplenty:tropics",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.95
+      },
+      {
+        "id": "biomesoplenty:tundra",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.2
+      },
+      {
+        "id": "biomesoplenty:undergrowth",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 2.0
+      },
+      {
+        "id": "biomesoplenty:visceral_heap",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 2.0
+      },
+      {
+        "id": "biomesoplenty:volcanic_plains",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.95
+      },
+      {
+        "id": "biomesoplenty:volcano",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.95
+      },
+      {
+        "id": "biomesoplenty:wasteland",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 2.0
+      },
+      {
+        "id": "biomesoplenty:wasteland_steppe",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 2.0
+      },
+      {
+        "id": "biomesoplenty:wetland",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.6
+      },
+      {
+        "id": "biomesoplenty:withered_abyss",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 2.0
+      },
+      {
+        "id": "biomesoplenty:woodland",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "terralith:alpha_islands",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "terralith:alpha_islands_winter",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.0
+      },
+      {
+        "id": "terralith:alpine_grove",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": -0.2
+      },
+      {
+        "id": "terralith:alpine_highlands",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.45
+      },
+      {
+        "id": "terralith:amethyst_canyon",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.95
+      },
+      {
+        "id": "terralith:amethyst_rainforest",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.95
+      },
+      {
+        "id": "terralith:ancient_sands",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 2
+      },
+      {
+        "id": "terralith:arid_highlands",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 1.6
+      },
+      {
+        "id": "terralith:ashen_savanna",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:basalt_cliffs",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.5
+      },
+      {
+        "id": "terralith:birch_taiga",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.22
+      },
+      {
+        "id": "terralith:blooming_plateau",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.5
+      },
+      {
+        "id": "terralith:blooming_valley",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "terralith:brushland",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 1.2
+      },
+      {
+        "id": "terralith:bryce_canyon",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 2
+      },
+      {
+        "id": "terralith:caldera",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.45
+      },
+      {
+        "id": "terralith:cave/andesite_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:cave/crystal_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:cave/deep_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.6
+      },
+      {
+        "id": "terralith:cave/desert_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "terralith:cave/diorite_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:cave/frostfire_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "terralith:cave/fungal_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:cave/granite_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:cave/ice_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:cave/infested_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:cave/mantle_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 2
+      },
+      {
+        "id": "terralith:cave/thermal_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "terralith:cave/tuff_caves",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:cave/underground_jungle",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.5
+      },
+      {
+        "id": "terralith:cloud_forest",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.25
+      },
+      {
+        "id": "terralith:cold_shrubland",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.14
+      },
+      {
+        "id": "terralith:desert_canyon",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 2
+      },
+      {
+        "id": "terralith:desert_oasis",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 2
+      },
+      {
+        "id": "terralith:desert_spires",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 2
+      },
+      {
+        "id": "terralith:emerald_peaks",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.1
+      },
+      {
+        "id": "terralith:forested_highlands",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.36
+      },
+      {
+        "id": "terralith:fractured_savanna",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 1.1
+      },
+      {
+        "id": "terralith:frozen_cliffs",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0
+      },
+      {
+        "id": "terralith:glacial_chasm",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0
+      },
+      {
+        "id": "terralith:granite_cliffs",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "terralith:gravel_beach",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "terralith:gravel_desert",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.14
+      },
+      {
+        "id": "terralith:haze_mountain",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.3
+      },
+      {
+        "id": "terralith:highlands",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "terralith:hot_shrubland",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "terralith:ice_marsh",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.14
+      },
+      {
+        "id": "terralith:jungle_mountains",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.95
+      },
+      {
+        "id": "terralith:lavender_forest",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "terralith:lavender_valley",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "terralith:lush_desert",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 2
+      },
+      {
+        "id": "terralith:lush_valley",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "terralith:mirage_isles",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "terralith:moonlight_grove",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "terralith:moonlight_valley",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "terralith:mountain_steppe",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.4025
+      },
+      {
+        "id": "terralith:orchid_swamp",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.8
+      },
+      {
+        "id": "terralith:painted_mountains",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:red_oasis",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 2
+      },
+      {
+        "id": "terralith:rocky_jungle",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.95
+      },
+      {
+        "id": "terralith:rocky_mountains",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.3
+      },
+      {
+        "id": "terralith:rocky_shrubland",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.14
+      },
+      {
+        "id": "terralith:sakura_grove",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "terralith:sakura_valley",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "terralith:sandstone_valley",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 2
+      },
+      {
+        "id": "terralith:savanna_badlands",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:savanna_slopes",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:scarlet_mountains",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.1
+      },
+      {
+        "id": "terralith:shield",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "terralith:shield_clearing",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "terralith:shrubland",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 1.2
+      },
+      {
+        "id": "terralith:siberian_grove",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.13
+      },
+      {
+        "id": "terralith:siberian_taiga",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.13
+      },
+      {
+        "id": "terralith:skylands",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.5
+      },
+      {
+        "id": "terralith:skylands_autumn",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.5
+      },
+      {
+        "id": "terralith:skylands_spring",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.5
+      },
+      {
+        "id": "terralith:skylands_summer",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.5
+      },
+      {
+        "id": "terralith:skylands_winter",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.2
+      },
+      {
+        "id": "terralith:snowy_badlands",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0
+      },
+      {
+        "id": "terralith:snowy_cherry_grove",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.1
+      },
+      {
+        "id": "terralith:snowy_maple_forest",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.1
+      },
+      {
+        "id": "terralith:snowy_shield",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.1
+      },
+      {
+        "id": "terralith:steppe",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "terralith:stony_spires",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.7
+      },
+      {
+        "id": "terralith:temperate_highlands",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.5
+      },
+      {
+        "id": "terralith:tropical_jungle",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.95
+      },
+      {
+        "id": "terralith:valley_clearing",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "terralith:volcanic_crater",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:volcanic_peaks",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 1
+      },
+      {
+        "id": "terralith:warm_river",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.5
+      },
+      {
+        "id": "terralith:warped_mesa",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 2
+      },
+      {
+        "id": "terralith:white_cliffs",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.4
+      },
+      {
+        "id": "terralith:white_mesa",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 2
+      },
+      {
+        "id": "terralith:windswept_spires",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.2
+      },
+      {
+        "id": "terralith:wintry_forest",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": -0.5
+      },
+      {
+        "id": "terralith:wintry_lowlands",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": -0.5
+      },
+      {
+        "id": "terralith:yellowstone",
+        "explicit_toml_temperature": true,
+        "vanilla_temperature": 0.24775
+      },
+      {
+        "id": "terralith:yosemite_cliffs",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.375
+      },
+      {
+        "id": "terralith:yosemite_lowlands",
+        "explicit_toml_temperature": false,
+        "vanilla_temperature": 0.25
+      }
+    ],
+    "stale_explicit_ids": [
+      "biomesoplenty:highland_moor",
+      "biomesoplenty:wooded_wasteland"
+    ]
+  },
+  "artifacts": [
+    {
+      "artifact": "abridged-2.0.0-forge-1.20.1.jar",
+      "sha256": "d64f9c5d70aa808771770cc7b7f4490f225e646db3c81ae0080cbc6b4a5429af",
+      "matches_prior_audit": true,
+      "group": "Terrain, structures and weather",
+      "declared_mods": [
+        {
+          "mod_id": "abridged",
+          "name": "Abridged",
+          "metadata_version": "2.0.0"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 11,
+        "loot_tables": 2,
+        "advancements": 0,
+        "java_classes": 12
+      },
+      "review_disposition": "Compared terrain/biome/structure data with 1.0 exploration and climate coverage. Regional climate sampling and native BOP achievement are the remaining opportunities; no blanket world-generation rewrite.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "aether-1.20.1-1.5.2-neoforge.jar",
+      "sha256": "5cb64ab1f27e78e8338fe67f9c766578904aad9bc1f8bcc90f306ea52aea3fc5",
+      "matches_prior_audit": true,
+      "group": "Dimensions, encounters and wildlife",
+      "declared_mods": [
+        {
+          "mod_id": "aether",
+          "name": "The Aether",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 681,
+        "tags": 287,
+        "loot_tables": 191,
+        "advancements": 343,
+        "java_classes": 977
+      },
+      "review_disposition": "Compared existing dimension, encounter, ingredient and equipment integrations with new altar, wildlife-offering and client acceptance opportunities.",
+      "follow_up_ids": [
+        "P1",
+        "P2",
+        "P5"
+      ],
+      "targeted_evidence": [
+        "97 packaged aether:repairing recipes",
+        "AltarBlockEntity",
+        "AbstractAetherFurnaceBlockEntity same-item NBT/damage path",
+        "Installed key bindings"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": [
+        "META-INF/jarjar/cumulus_menus-1.20.1-1.0.1-neoforge.jar",
+        "META-INF/jarjar/curios-forge-5.6.1+1.20.1.jar",
+        "META-INF/jarjar/mixinextras-forge-0.2.0-beta.9.jar",
+        "META-INF/jarjar/nitrogen_internals-1.20.1-1.0.12-neoforge.jar"
+      ]
+    },
+    {
+      "artifact": "AI-Improvements-1.20-0.5.2.jar",
+      "sha256": "575a4a8e00f982c064d54bb3e73e5cda2d14414de054a471a3daf3f58bdf560a",
+      "matches_prior_audit": true,
+      "group": "Runtime performance",
+      "declared_mods": [
+        {
+          "mod_id": "aiimprovements",
+          "name": "AI-Improvements",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 20
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reviewed role alongside existing performance fixes. No new gameplay adapter or tuning change justified by this static pass; no new benchmark performed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "alexsmobs-1.22.9.jar",
+      "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c",
+      "matches_prior_audit": true,
+      "group": "Dimensions, encounters and wildlife",
+      "declared_mods": [
+        {
+          "mod_id": "alexsmobs",
+          "name": "Alex's Mobs",
+          "metadata_version": "1.22.9"
+        }
+      ],
+      "counts": {
+        "recipes": 84,
+        "tags": 256,
+        "loot_tables": 139,
+        "advancements": 106,
+        "java_classes": 1118
+      },
+      "review_disposition": "Compared existing dimension, encounter, ingredient and equipment integrations with new altar, wildlife-offering and client acceptance opportunities.",
+      "follow_up_ids": [
+        "P4",
+        "P5"
+      ],
+      "targeted_evidence": [
+        "CreatureAITargetItems and crow item-targeting AI",
+        "Class constant scan for Sophisticated remote-movement marker strings",
+        "Existing 1.0 wildlife food tags"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "appleskin-forge-mc1.20.1-2.5.1.jar",
+      "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
+      "matches_prior_audit": true,
+      "group": "Guidance, inventory and social",
+      "declared_mods": [
+        {
+          "mod_id": "appleskin",
+          "name": "AppleSkin",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 29
+      },
+      "review_disposition": "Reviewed guide/journal content and client usability alongside existing native features. Relevant controls and omitted accomplishments are called out separately.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "architectury-9.2.14-forge.jar",
+      "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "architectury",
+          "name": "Architectury",
+          "metadata_version": "9.2.14"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 382
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "balm-forge-1.20.1-7.3.43.jar",
+      "sha256": "1ef7820c2587d2ecee26a8b941427f08bbc1058a8dd376cf45e3fa6df1cba69e",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "balm",
+          "name": "Balm",
+          "metadata_version": "7.3.43"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 31,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 403
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jarjar/kuma-api-forge-20.1.12+1.20.1.jar"
+      ]
+    },
+    {
+      "artifact": "bettercombat-forge-1.9.0+1.20.1.jar",
+      "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1",
+      "matches_prior_audit": true,
+      "group": "Combat and equipment",
+      "declared_mods": [
+        {
+          "mod_id": "bettercombat",
+          "name": "Better Combat",
+          "metadata_version": "1.9.0+1.20.1"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 151
+      },
+      "review_disposition": "Compared 1.0 flight/combat support with attribute procedures and existing repair routes. Physical movement/combat acceptance is still outstanding.",
+      "follow_up_ids": [
+        "P2"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/mixinextras-forge-0.2.0.jar"
+      ]
+    },
+    {
+      "artifact": "betterminecarts-1.20.1-1.9.0-47.3.0.jar",
+      "sha256": "4b5c2e3bc6ce1d43b1afc9449465571617136d94607714d992562e70b39e0279",
+      "matches_prior_audit": true,
+      "group": "Travel, construction and storage",
+      "declared_mods": [
+        {
+          "mod_id": "betterminecarts",
+          "name": "Better Minecarts",
+          "metadata_version": "1.9.0"
+        }
+      ],
+      "counts": {
+        "recipes": 9,
+        "tags": 2,
+        "loot_tables": 3,
+        "advancements": 0,
+        "java_classes": 85
+      },
+      "review_disposition": "Reviewed native logistics and inventory paths against 1.0. Magnet offerings, journal coverage and placed-tank refill are the selected follow-ups; no new building assets proposed.",
+      "follow_up_ids": [
+        "P1"
+      ],
+      "targeted_evidence": [
+        "ClientEvents.ClientForgeEvents.onKeyInput",
+        "Installed key bindings"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "BiomesOPlenty-1.20.1-18.0.0.592.jar",
+      "sha256": "c587b49931e62f89c2673936a5e7269c6daabb713dbcc30813cb0f76da37e01d",
+      "matches_prior_audit": true,
+      "group": "Terrain, structures and weather",
+      "declared_mods": [
+        {
+          "mod_id": "biomesoplenty",
+          "name": "Biomes O' Plenty",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 481,
+        "tags": 190,
+        "loot_tables": 326,
+        "advancements": 241,
+        "java_classes": 249
+      },
+      "review_disposition": "Compared terrain/biome/structure data with 1.0 exploration and climate coverage. Regional climate sampling and native BOP achievement are the remaining opportunities; no blanket world-generation rewrite.",
+      "follow_up_ids": [
+        "P3",
+        "P6"
+      ],
+      "targeted_evidence": [
+        "63 biome JSON definitions versus Cold Sweat explicit biome settings",
+        "Displayed all_biomes advancement and its 63 requirements"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "BorderlessWindow-1.20-1.6.0.jar",
+      "sha256": "43a317d85e7e40cea296ad1fe2d32f433f0e735bdb81b136f6f07d379039c3a9",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "borderlesswindow",
+          "name": "Borderless Window",
+          "metadata_version": "1.20-1.6.0"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 22
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "caelus-forge-3.2.0+1.20.1.jar",
+      "sha256": "37495445e79df8b30a3a038a0051f3c8aa8447f91a9d0aa0d20baef69dda9368",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "caelus",
+          "name": "Caelus API",
+          "metadata_version": "3.2.0+1.20.1"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 1,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 13
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "callfromthedepth_-1.22.1-forge-1.20.1.jar",
+      "sha256": "2098447c42102d38dd1e1f14cab079661c0ddcb16503f3571199c9775cd1a47e",
+      "matches_prior_audit": true,
+      "group": "Dimensions, encounters and wildlife",
+      "declared_mods": [
+        {
+          "mod_id": "callfromthedepth_",
+          "name": "CallFromTheDepth ",
+          "metadata_version": "1.22.1"
+        }
+      ],
+      "counts": {
+        "recipes": 82,
+        "tags": 54,
+        "loot_tables": 104,
+        "advancements": 30,
+        "java_classes": 596
+      },
+      "review_disposition": "Compared existing dimension, encounter, ingredient and equipment integrations with new altar, wildlife-offering and client acceptance opportunities.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "carryon-forge-1.20.1-2.1.2.7.jar",
+      "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613",
+      "matches_prior_audit": true,
+      "group": "Travel, construction and storage",
+      "declared_mods": [
+        {
+          "mod_id": "carryon",
+          "name": "Carry On",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 6,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 79
+      },
+      "review_disposition": "Reviewed native logistics and inventory paths against 1.0. Magnet offerings, journal coverage and placed-tank refill are the selected follow-ups; no new building assets proposed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jarjar/mixinextras-forge-0.2.0-beta.6.jar"
+      ]
+    },
+    {
+      "artifact": "chestsearchbar-1.20.1-1.5.0.jar",
+      "sha256": "ff7be26872356cd69af440b6a812ae4209de6ff6bc6d73c6014f632c62c75a24",
+      "matches_prior_audit": true,
+      "group": "Guidance, inventory and social",
+      "declared_mods": [
+        {
+          "mod_id": "chestsearchbar",
+          "name": "Chest Search Bar",
+          "metadata_version": "1.5.0"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 20
+      },
+      "review_disposition": "Reviewed guide/journal content and client usability alongside existing native features. Relevant controls and omitted accomplishments are called out separately.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "citadel-2.6.3-1.20.1.jar",
+      "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "citadel",
+          "name": "Citadel",
+          "metadata_version": "2.6.3"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 1,
+        "advancements": 0,
+        "java_classes": 1419
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "clientcrafting-1.20.1-2.1.jar",
+      "sha256": "2d2c37816343d390f02235086095a10a9a56949fd4346da39c1fca301d32a51f",
+      "matches_prior_audit": true,
+      "group": "Guidance, inventory and social",
+      "declared_mods": [
+        {
+          "mod_id": "clientcrafting",
+          "name": "clientcrafting mod",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 3
+      },
+      "review_disposition": "Reviewed guide/journal content and client usability alongside existing native features. Relevant controls and omitted accomplishments are called out separately.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "cloth-config-11.1.136-forge.jar",
+      "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "cloth_config",
+          "name": "Cloth Config v10 API",
+          "metadata_version": "11.1.136"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 633
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "Clumps-forge-1.20.1-12.0.0.4.jar",
+      "sha256": "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a",
+      "matches_prior_audit": true,
+      "group": "Runtime performance",
+      "declared_mods": [
+        {
+          "mod_id": "clumps",
+          "name": "Clumps",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 15
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reviewed role alongside existing performance fixes. No new gameplay adapter or tuning change justified by this static pass; no new benchmark performed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "ColdSweat-2.4.3.jar",
+      "sha256": "2f3829f807cce1664c7622a17bf70a1f4d79ee60fa9af25c0c4d44adea98003a",
+      "matches_prior_audit": true,
+      "group": "Survival, farming and camping",
+      "declared_mods": [
+        {
+          "mod_id": "cold_sweat",
+          "name": "Cold Sweat",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 47,
+        "tags": 54,
+        "loot_tables": 14,
+        "advancements": 21,
+        "java_classes": 720
+      },
+      "review_disposition": "Compared installed climate/food/camping resources and settings with 1.0. Regional tuning and campsite feedback remain useful; no duplicate meal, tent-climate or weather system proposed.",
+      "follow_up_ids": [
+        "P3",
+        "P5",
+        "P7",
+        "NATIVE_TANK_REFILL"
+      ],
+      "targeted_evidence": [
+        "Installed world.toml Biomes table",
+        "WaterskinItem.useOn/getFilledItem",
+        "WorldHelper.getBiomeTemperatureRange",
+        "BiomeTempModifier and CaveBiomeTempModifier",
+        "Existing 1.0 climate/tent integrations"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "collective-1.20.1-8.39.jar",
+      "sha256": "594bc5d40f2a3fec1ad95732524f65e01a27ac2abeb9d59889cd9f01fd8db6cb",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "collective",
+          "name": "Collective",
+          "metadata_version": "8.39"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 429
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "comforts-forge-6.4.0+1.20.1.jar",
+      "sha256": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c",
+      "matches_prior_audit": true,
+      "group": "Survival, farming and camping",
+      "declared_mods": [
+        {
+          "mod_id": "comforts",
+          "name": "Comforts",
+          "metadata_version": "6.4.0+1.20.1"
+        }
+      ],
+      "counts": {
+        "recipes": 66,
+        "tags": 5,
+        "loot_tables": 33,
+        "advancements": 33,
+        "java_classes": 59
+      },
+      "review_disposition": "Compared installed climate/food/camping resources and settings with 1.0. Regional tuning and campsite feedback remain useful; no duplicate meal, tent-climate or weather system proposed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jarjar/spectrelib-forge-0.13.15+1.20.1.jar"
+      ]
+    },
+    {
+      "artifact": "coroutil-forge-1.20.1-1.3.7.jar",
+      "sha256": "11448808a42c17425cf2ea39701841008683d6ad6e2838a34eef0253251a870f",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "coroutil",
+          "name": "CoroUtil",
+          "metadata_version": "1.20.1-1.3.7"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 44
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "cristellib-1.1.6-forge.jar",
+      "sha256": "3856ad565ea45d6189452d813e2f021b365b686d3b1adae5f747c56a1e535d9f",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "cristellib",
+          "name": "Cristel Lib",
+          "metadata_version": "1.1.6"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 29
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/jankson-1.2.3.jar"
+      ]
+    },
+    {
+      "artifact": "cullleaves-forge-4.1.1+1.20.1.jar",
+      "sha256": "eec8f9e98d456bbc0e6b2b82e928fbaedc4fd6c1055bd50311cb35d81802d6fc",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "cullleaves",
+          "name": "CullLeaves",
+          "metadata_version": "4.1.1"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 10
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/midnightlib-1.9.2+1.20.1-forge.jar"
+      ]
+    },
+    {
+      "artifact": "cupboard-1.20.1-4.1.jar",
+      "sha256": "9522d88548eca28469441743a1d4a16a5ad863cd5e00ec6525130485a695392b",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "cupboard",
+          "name": "Cupboard utilities",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 18
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "curios-forge-5.14.1+1.20.1.jar",
+      "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "curios",
+          "name": "Curios API",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 143
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [
+        "P1"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
+      "sha256": "27cc6df2189e142671e4174ad7b2d773318b1b871758ec27756538947052a302",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "distanthorizons",
+          "name": "Distant Horizons",
+          "metadata_version": "3.2.0-b"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 1655
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/fabric-api-0.92.6+1.20.1.jar",
+        "META-INF/jars/fabric-api-base-0.4.32+1802ada577.jar",
+        "META-INF/jars/fabric-api-lookup-api-v1-1.6.37+1802ada577.jar",
+        "META-INF/jars/fabric-biome-api-v1-13.0.14+1802ada577.jar",
+        "META-INF/jars/fabric-block-api-v1-1.0.12+1802ada577.jar",
+        "META-INF/jars/fabric-block-view-api-v2-1.0.3+924f046a77.jar",
+        "META-INF/jars/fabric-blockrenderlayer-v1-1.1.42+1802ada577.jar",
+        "META-INF/jars/fabric-client-tags-api-v1-1.1.3+1802ada577.jar",
+        "META-INF/jars/fabric-command-api-v1-1.2.35+f71b366f77.jar",
+        "META-INF/jars/fabric-command-api-v2-2.2.14+1802ada577.jar",
+        "META-INF/jars/fabric-commands-v0-0.2.52+df3654b377.jar",
+        "META-INF/jars/fabric-containers-v0-0.1.67+df3654b377.jar",
+        "META-INF/jars/fabric-content-registries-v0-4.0.13+1802ada577.jar",
+        "META-INF/jars/fabric-convention-tags-v1-1.5.6+1802ada577.jar",
+        "META-INF/jars/fabric-crash-report-info-v1-0.2.20+1802ada577.jar",
+        "META-INF/jars/fabric-data-attachment-api-v1-1.0.2+de0fd6d177.jar",
+        "META-INF/jars/fabric-data-generation-api-v1-12.3.7+1802ada577.jar",
+        "META-INF/jars/fabric-dimensions-v1-2.1.55+1802ada577.jar",
+        "META-INF/jars/fabric-entity-events-v1-1.6.1+1c78457f77.jar",
+        "META-INF/jars/fabric-events-interaction-v0-0.6.5+13a40c6677.jar",
+        "META-INF/jars/fabric-events-lifecycle-v0-0.2.64+df3654b377.jar",
+        "META-INF/jars/fabric-game-rule-api-v1-1.0.41+1802ada577.jar",
+        "META-INF/jars/fabric-item-api-v1-2.1.29+1802ada577.jar",
+        "META-INF/jars/fabric-item-group-api-v1-4.0.14+1802ada577.jar",
+        "META-INF/jars/fabric-key-binding-api-v1-1.0.38+1802ada577.jar",
+        "META-INF/jars/fabric-keybindings-v0-0.2.36+df3654b377.jar",
+        "META-INF/jars/fabric-lifecycle-events-v1-2.2.23+1802ada577.jar",
+        "META-INF/jars/fabric-loot-api-v2-1.2.3+1802ada577.jar",
+        "META-INF/jars/fabric-loot-tables-v1-1.1.47+9e7660c677.jar",
+        "META-INF/jars/fabric-message-api-v1-5.1.10+1802ada577.jar",
+        "META-INF/jars/fabric-mining-level-api-v1-2.1.52+1802ada577.jar",
+        "META-INF/jars/fabric-model-loading-api-v1-1.0.4+1802ada577.jar",
+        "META-INF/jars/fabric-models-v0-0.4.3+9386d8a777.jar",
+        "META-INF/jars/fabric-networking-api-v1-1.3.14+a158aa0477.jar",
+        "META-INF/jars/fabric-networking-v0-0.3.54+df3654b377.jar",
+        "META-INF/jars/fabric-object-builder-api-v1-11.1.5+e35120df77.jar",
+        "META-INF/jars/fabric-particles-v1-1.1.3+1802ada577.jar",
+        "META-INF/jars/fabric-recipe-api-v1-1.0.24+1802ada577.jar",
+        "META-INF/jars/fabric-registry-sync-v0-2.3.6+1802ada577.jar",
+        "META-INF/jars/fabric-renderer-api-v1-3.2.2+1802ada577.jar",
+        "META-INF/jars/fabric-renderer-indigo-1.5.3+85287f9f77.jar",
+        "META-INF/jars/fabric-renderer-registries-v1-3.2.47+df3654b377.jar",
+        "META-INF/jars/fabric-rendering-data-attachment-v1-0.3.39+92a0d36777.jar",
+        "META-INF/jars/fabric-rendering-fluids-v1-3.0.29+1802ada577.jar",
+        "META-INF/jars/fabric-rendering-v0-1.1.50+df3654b377.jar",
+        "META-INF/jars/fabric-rendering-v1-3.0.9+1802ada577.jar",
+        "META-INF/jars/fabric-resource-conditions-api-v1-2.3.9+1802ada577.jar",
+        "META-INF/jars/fabric-resource-loader-v0-0.11.12+fb82e9d777.jar",
+        "META-INF/jars/fabric-screen-api-v1-2.0.9+1802ada577.jar",
+        "META-INF/jars/fabric-screen-handler-api-v1-1.3.33+1802ada577.jar",
+        "META-INF/jars/fabric-sound-api-v1-1.0.14+1802ada577.jar",
+        "META-INF/jars/fabric-transfer-api-v1-3.3.6+8dd72ea377.jar",
+        "META-INF/jars/fabric-transitive-access-wideners-v1-4.3.2+1802ada577.jar"
+      ]
+    },
+    {
+      "artifact": "do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
+      "sha256": "71ffc54d3f1fbe9497cf7b398c79a2724c60f7b06809941e9ded0888587347af",
+      "matches_prior_audit": true,
+      "group": "Combat and equipment",
+      "declared_mods": [
+        {
+          "mod_id": "do_a_barrel_roll",
+          "name": "Do a Barrel Roll",
+          "metadata_version": "3.5.6+1.20.1"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 129
+      },
+      "review_disposition": "Compared 1.0 flight/combat support with attribute procedures and existing repair routes. Physical movement/combat acceptance is still outstanding.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/mixinextras-forge-0.3.2.jar"
+      ]
+    },
+    {
+      "artifact": "dungeons_enhanced-1.20.1-5.4.3.jar",
+      "sha256": "caf6a694cf338d77b71208dcdd4e234e5b87594123a55bfb4f4e0122ae61b9c3",
+      "matches_prior_audit": true,
+      "group": "Terrain, structures and weather",
+      "declared_mods": [
+        {
+          "mod_id": "dungeons_enhanced",
+          "name": "Dungeons Enhanced",
+          "metadata_version": "5.4.3"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 40,
+        "loot_tables": 51,
+        "advancements": 14,
+        "java_classes": 87
+      },
+      "review_disposition": "Compared terrain/biome/structure data with 1.0 exploration and climate coverage. Regional climate sampling and native BOP achievement are the remaining opportunities; no blanket world-generation rewrite.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+      "sha256": "a08b641e6cc1d4867e0878826ac4fb9e55b45907d0fa3429172ecad8cd678ce9",
+      "matches_prior_audit": true,
+      "group": "Combat and equipment",
+      "declared_mods": [
+        {
+          "mod_id": "easyanvils",
+          "name": "Easy Anvils",
+          "metadata_version": "8.0.2"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 52
+      },
+      "review_disposition": "Compared 1.0 flight/combat support with attribute procedures and existing repair routes. Physical movement/combat acceptance is still outstanding.",
+      "follow_up_ids": [
+        "P5"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "elytra_crafting_forge-1.0.0-forge-1.20.1.jar",
+      "sha256": "59a4f8bcd5caa15ef433d9d875382b1b7c14b0918782d99154ac307c1f09cbe4",
+      "matches_prior_audit": true,
+      "group": "Combat and equipment",
+      "declared_mods": [
+        {
+          "mod_id": "elytra_crafting_forge",
+          "name": "Elytra Crafting",
+          "metadata_version": "1.0.0"
+        }
+      ],
+      "counts": {
+        "recipes": 2,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 4
+      },
+      "review_disposition": "Compared 1.0 flight/combat support with attribute procedures and existing repair routes. Physical movement/combat acceptance is still outstanding.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "elytraslot-forge-6.4.4+1.20.1.jar",
+      "sha256": "f96c26e7ac9e2dade0aa04f71b9f8708a2b7af92b9cc691103ae32c62764e6ab",
+      "matches_prior_audit": true,
+      "group": "Combat and equipment",
+      "declared_mods": [
+        {
+          "mod_id": "elytraslot",
+          "name": "Elytra Slot",
+          "metadata_version": "6.4.4+1.20.1"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 2,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 36
+      },
+      "review_disposition": "Compared 1.0 flight/combat support with attribute procedures and existing repair routes. Physical movement/combat acceptance is still outstanding.",
+      "follow_up_ids": [
+        "P2"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jarjar/mixinsquared-forge-0.1.2-beta.6.jar"
+      ]
+    },
+    {
+      "artifact": "embeddium-0.3.31+mc1.20.1.jar",
+      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "embeddium",
+          "name": "Embeddium",
+          "metadata_version": "0.3.31+mc1.20.1"
+        },
+        {
+          "mod_id": "rubidium",
+          "name": "Rubidium (Embeddium)",
+          "metadata_version": "0.7.1"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 602
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jarjar/mixinextras-forge-0.3.5.jar"
+      ]
+    },
+    {
+      "artifact": "entityculling-forge-1.10.5-mc1.20.1.jar",
+      "sha256": "db0ee6aaf7e78d758885969e1d237e6efef07109195d4bb81fa06b304ddc12aa",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "entityculling",
+          "name": "EntityCulling",
+          "metadata_version": "1.10.5"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 32
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/TRansition-1.0.21-1.20.1-forge-SNAPSHOT.jar",
+        "META-INF/jars/TRender-1.0.15-1.20.1-forge-SNAPSHOT.jar"
+      ]
+    },
+    {
+      "artifact": "EuphoriaPatcher-1.10.5-r5.9.3-forge.jar",
+      "sha256": "65f7437bbfc2474f5c3208e5280cd898f0623c451af541d8a5777cfb21d44c78",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "euphoria_patcher",
+          "name": "Euphoria Patcher",
+          "metadata_version": "1.10.5-r5.9.3-forge"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 1485
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "fabric-api-0.92.6+1.11.15+1.20.1.jar",
+      "sha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "fabric_api",
+          "name": "Forgified Fabric API",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 2
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jarjar/mixinextras-forge-0.4.1.jar",
+        "META-INF/jarjar/fabric-transitive-access-wideners-v1-4.3.2+1880499877.jar",
+        "META-INF/jarjar/fabric-transfer-api-v1-3.3.6+25eff73b77.jar",
+        "META-INF/jarjar/fabric-sound-api-v1-1.0.14+4f23bd8477.jar",
+        "META-INF/jarjar/fabric-screen-handler-api-v1-1.3.33+561530ec77.jar",
+        "META-INF/jarjar/fabric-screen-api-v1-2.0.9+45a670a577.jar",
+        "META-INF/jarjar/fabric-resource-loader-v0-0.11.12+4b4151c077.jar",
+        "META-INF/jarjar/fabric-resource-conditions-api-v1-2.3.9+996d00b277.jar",
+        "META-INF/jarjar/fabric-rendering-v1-3.0.9+66e9a48f77.jar",
+        "META-INF/jarjar/fabric-rendering-fluids-v1-3.0.29+4ac5e37a77.jar",
+        "META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.39+a6081afc77.jar",
+        "META-INF/jarjar/fabric-renderer-indigo-1.5.3+b5b2da4177.jar",
+        "META-INF/jarjar/fabric-renderer-api-v1-3.2.2+cf68abbe77.jar",
+        "META-INF/jarjar/fabric-registry-sync-v0-2.3.6+1c0ea72177.jar",
+        "META-INF/jarjar/fabric-recipe-api-v1-1.0.24+514a076577.jar",
+        "META-INF/jarjar/fabric-particles-v1-1.1.3+78e1ecb877.jar",
+        "META-INF/jarjar/fabric-object-builder-api-v1-11.1.5+f8c414ce77.jar",
+        "META-INF/jarjar/fabric-networking-api-v1-1.3.14+fb7c822677.jar",
+        "META-INF/jarjar/fabric-models-v0-0.4.3+7c3892a477.jar",
+        "META-INF/jarjar/fabric-model-loading-api-v1-1.0.4+6274ab9d77.jar",
+        "META-INF/jarjar/fabric-mining-level-api-v1-2.1.52+561530ec77.jar",
+        "META-INF/jarjar/fabric-message-api-v1-5.1.10+52cc178c77.jar",
+        "META-INF/jarjar/fabric-loot-api-v2-1.2.3+eb28f93e77.jar",
+        "META-INF/jarjar/fabric-loader-2.6.0+0.15.0+1.20.1-full.jar",
+        "META-INF/jarjar/fabric-lifecycle-events-v1-2.2.23+afab492177.jar",
+        "META-INF/jarjar/fabric-key-binding-api-v1-1.0.38+561530ec77.jar",
+        "META-INF/jarjar/fabric-item-group-api-v1-4.0.14+c9161c2d77.jar",
+        "META-INF/jarjar/fabric-item-api-v1-2.1.29+4d0bbcfa77.jar",
+        "META-INF/jarjar/fabric-game-rule-api-v1-1.0.41+683d4da877.jar",
+        "META-INF/jarjar/fabric-events-interaction-v0-0.6.5+0f26153f77.jar",
+        "META-INF/jarjar/fabric-entity-events-v1-1.6.1+4ca7515277.jar",
+        "META-INF/jarjar/fabric-dimensions-v1-2.1.55+8005d10d77.jar",
+        "META-INF/jarjar/fabric-data-generation-api-v1-12.3.7+369cb3a477.jar",
+        "META-INF/jarjar/fabric-data-attachment-api-v1-1.0.2+30ef839e77.jar",
+        "META-INF/jarjar/fabric-convention-tags-v1-1.5.6+fa3d1c0177.jar",
+        "META-INF/jarjar/fabric-content-registries-v0-4.0.13+a670df1e77.jar",
+        "META-INF/jarjar/fabric-command-api-v2-2.2.14+561530ec77.jar",
+        "META-INF/jarjar/fabric-command-api-v1-1.2.35+f71b366f77.jar",
+        "META-INF/jarjar/fabric-client-tags-api-v1-1.1.3+5d6761b877.jar",
+        "META-INF/jarjar/fabric-blockrenderlayer-v1-1.1.42+1d0da21e77.jar",
+        "META-INF/jarjar/fabric-block-view-api-v2-1.0.3+53347ba977.jar",
+        "META-INF/jarjar/fabric-block-api-v1-1.0.12+0e6cb7f777.jar",
+        "META-INF/jarjar/fabric-biome-api-v1-13.0.14+dc36698e77.jar",
+        "META-INF/jarjar/fabric-api-lookup-api-v1-1.6.37+67f9824077.jar",
+        "META-INF/jarjar/fabric-api-base-0.4.32+ef105b4977.jar"
+      ]
+    },
+    {
+      "artifact": "FallingTree-1.20.1-4.3.4.jar",
+      "sha256": "5fb64717c368c2759e768873424a46ee5c40076600feadaac5403ca197aebe0f",
+      "matches_prior_audit": true,
+      "group": "Travel, construction and storage",
+      "declared_mods": [
+        {
+          "mod_id": "fallingtree",
+          "name": "FallingTree",
+          "metadata_version": "4.3.4"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 142
+      },
+      "review_disposition": "Reviewed native logistics and inventory paths against 1.0. Magnet offerings, journal coverage and placed-tank refill are the selected follow-ups; no new building assets proposed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "fastboot-1.20.x-1.2.jar",
+      "sha256": "66c44b0648a3e3d4115c37593208b85668a97ce012355bad3d33f3cd8142a11f",
+      "matches_prior_audit": true,
+      "group": "Runtime performance",
+      "declared_mods": [
+        {
+          "mod_id": "fastboot",
+          "name": "FastBoot",
+          "metadata_version": "1.2"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 3
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reviewed role alongside existing performance fixes. No new gameplay adapter or tuning change justified by this static pass; no new benchmark performed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "FastSuite-1.20.1-5.1.2.jar",
+      "sha256": "5e05cb3ce05785a0061a41b7a83443074a6c26dd7d9db75c453fa2487481d54e",
+      "matches_prior_audit": true,
+      "group": "Runtime performance",
+      "declared_mods": [
+        {
+          "mod_id": "fastsuite",
+          "name": "Fast Suite",
+          "metadata_version": "5.1.2"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 13
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reviewed role alongside existing performance fixes. No new gameplay adapter or tuning change justified by this static pass; no new benchmark performed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "ferritecore-6.0.1-forge.jar",
+      "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
+      "matches_prior_audit": true,
+      "group": "Runtime performance",
+      "declared_mods": [
+        {
+          "mod_id": "ferritecore",
+          "name": "Ferrite Core",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 81
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reviewed role alongside existing performance fixes. No new gameplay adapter or tuning change justified by this static pass; no new benchmark performed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "firstperson-forge-2.7.2-mc1.20.1.jar",
+      "sha256": "1ea260b6475ba8148a20a6d18a11f7e20313a5abf6764b981923400ab61c9f9a",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "firstperson",
+          "name": "FirstPerson",
+          "metadata_version": "2.7.2"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 44
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/TRansition-1.0.21-1.20.1-forge-SNAPSHOT.jar",
+        "META-INF/jars/TRender-1.0.15-1.20.1-forge-SNAPSHOT.jar",
+        "META-INF/jars/mixinextras-forge-0.4.1.jar"
+      ]
+    },
+    {
+      "artifact": "ftb-library-forge-2001.2.13.jar",
+      "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "ftblibrary",
+          "name": "FTB Library",
+          "metadata_version": "2001.2.13"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 318
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "ftb-quests-forge-2001.4.22.jar",
+      "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68",
+      "matches_prior_audit": true,
+      "group": "Guidance, inventory and social",
+      "declared_mods": [
+        {
+          "mod_id": "ftbquests",
+          "name": "FTB Quests",
+          "metadata_version": "2001.4.22"
+        }
+      ],
+      "counts": {
+        "recipes": 7,
+        "tags": 5,
+        "loot_tables": 5,
+        "advancements": 0,
+        "java_classes": 389
+      },
+      "review_disposition": "Reviewed guide/journal content and client usability alongside existing native features. Relevant controls and omitted accomplishments are called out separately.",
+      "follow_up_ids": [
+        "P1",
+        "P6"
+      ],
+      "targeted_evidence": [
+        "Installed key binding and sidebar_buttons.json",
+        "Current tools/generate_journal.py NATIVE list and Journal-Index.json"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "ftb-teams-forge-2001.3.2.jar",
+      "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
+      "matches_prior_audit": true,
+      "group": "Guidance, inventory and social",
+      "declared_mods": [
+        {
+          "mod_id": "ftbteams",
+          "name": "FTB Teams",
+          "metadata_version": "2001.3.2"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 122
+      },
+      "review_disposition": "Reviewed guide/journal content and client usability alongside existing native features. Relevant controls and omitted accomplishments are called out separately.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "ftb-xmod-compat-forge-2.1.3.jar",
+      "sha256": "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "ftbxmodcompat",
+          "name": "FTB XMod Compat",
+          "metadata_version": "2.1.3"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 83
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "geckolib-forge-1.20.1-4.8.4.jar",
+      "sha256": "c04abba4fd354dd8c0e8a732f1f05f4dca893d2e1d962b2ab128bbd411478747",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "geckolib",
+          "name": "GeckoLib 4",
+          "metadata_version": "4.8.4"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 260
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jarjar/mclib-20.jar"
+      ]
+    },
+    {
+      "artifact": "iChunUtil-1.20.1-Forge-1.0.3.jar",
+      "sha256": "31ee649f34ff9c7a51d4d1b80f438a49a0387bd544b0a5cdc96e039d90f134c5",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "ichunutil",
+          "name": "iChunUtil",
+          "metadata_version": "1.0.3"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 167
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "immersive-portals-3.0.7-all.jar",
+      "sha256": "deb233d1e530e5e208ba6f3529a3b90ad071a06a2dc8d7ea60f14b0d67912efc",
+      "matches_prior_audit": true,
+      "group": "Dimensions, encounters and wildlife",
+      "declared_mods": [
+        {
+          "mod_id": "immersive_portals",
+          "name": "Immersive Portals",
+          "metadata_version": "${file.jarVersion}"
+        },
+        {
+          "mod_id": "imm_ptl_core",
+          "name": "Immersive Portals Core",
+          "metadata_version": "${file.jarVersion}"
+        },
+        {
+          "mod_id": "q_misc_util",
+          "name": "QMiscUtil",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 661
+      },
+      "review_disposition": "Compared existing dimension, encounter, ingredient and equipment integrations with new altar, wildlife-offering and client acceptance opportunities.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [
+        "Installed immersive_portals.json cross-portal sound settings",
+        "Existing runtime versus remaining client acceptance scope"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": [
+        "META-INF/jarjar/mixinextras-forge-0.4.1.jar"
+      ]
+    },
+    {
+      "artifact": "InventoryProfilesNext-forge-1.20-1.10.20.jar",
+      "sha256": "2f664f23ed031f6cfacce01b0461c450e2248435936cb6b7e2e0463c6ec56343",
+      "matches_prior_audit": true,
+      "group": "Guidance, inventory and social",
+      "declared_mods": [
+        {
+          "mod_id": "inventoryprofilesnext",
+          "name": "Inventory Profiles Next",
+          "metadata_version": "1.10.20"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 986
+      },
+      "review_disposition": "Reviewed guide/journal content and client usability alongside existing native features. Relevant controls and omitted accomplishments are called out separately.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "inventorytotem-1.20.1-3.4.jar",
+      "sha256": "bde671c0c6a5a71fdf0d56319461dcc30c3f58261cb547963b6b1581eaed9d0a",
+      "matches_prior_audit": true,
+      "group": "Combat and equipment",
+      "declared_mods": [
+        {
+          "mod_id": "inventorytotem",
+          "name": "Inventory Totem",
+          "metadata_version": "3.4"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 10
+      },
+      "review_disposition": "Compared 1.0 flight/combat support with attribute procedures and existing repair routes. Physical movement/combat acceptance is still outstanding.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "ironchest-1.20.1-14.4.4.jar",
+      "sha256": "6bc75f288d2e8158d2e23c6881a1b341a894c38bab129ca0f20db6abd59d373f",
+      "matches_prior_audit": true,
+      "group": "Travel, construction and storage",
+      "declared_mods": [
+        {
+          "mod_id": "ironchest",
+          "name": "Iron Chests",
+          "metadata_version": "1.20.1-14.4.4"
+        }
+      ],
+      "counts": {
+        "recipes": 44,
+        "tags": 4,
+        "loot_tables": 14,
+        "advancements": 22,
+        "java_classes": 93
+      },
+      "review_disposition": "Reviewed native logistics and inventory paths against 1.0. Magnet offerings, journal coverage and placed-tank refill are the selected follow-ups; no new building assets proposed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "jei-1.20.1-forge-15.59.0.212.jar",
+      "sha256": "0f39187f57cadd7b27a4511038628e212b53a1b184edf53121614418ed6a7442",
+      "matches_prior_audit": true,
+      "group": "Guidance, inventory and social",
+      "declared_mods": [
+        {
+          "mod_id": "jei",
+          "name": "Just Enough Items",
+          "metadata_version": "15.59.0.212"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 1048
+      },
+      "review_disposition": "Reviewed guide/journal content and client usability alongside existing native features. Relevant controls and omitted accomplishments are called out separately.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "JRFTL-1.20.1-1.6.0.jar",
+      "sha256": "521258f9b254b2be0205b40db882cbcdc26cf87babc8449939646f75d8e6c3b3",
+      "matches_prior_audit": true,
+      "group": "Travel, construction and storage",
+      "declared_mods": [
+        {
+          "mod_id": "jrftl",
+          "name": "JRFTL",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 5,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 6
+      },
+      "review_disposition": "Reviewed native logistics and inventory paths against 1.0. Magnet offerings, journal coverage and placed-tank refill are the selected follow-ups; no new building assets proposed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "kotlinforforge-4.12.0-all.jar",
+      "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 4314
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jarjar/kfflang-4.12.0.jar",
+        "META-INF/jarjar/kfflib-4.12.0.jar",
+        "META-INF/jarjar/kffmod-4.12.0.jar"
+      ]
+    },
+    {
+      "artifact": "Ksyxis-1.4.4.jar",
+      "sha256": "84186b3d128fd45b6affb4af2d4132520ec302ea53634f53b717d14689784905",
+      "matches_prior_audit": true,
+      "group": "Runtime performance",
+      "declared_mods": [
+        {
+          "mod_id": "ksyxis",
+          "name": "Ksyxis",
+          "metadata_version": "1.4.4"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 13
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reviewed role alongside existing performance fixes. No new gameplay adapter or tuning change justified by this static pass; no new benchmark performed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "libIPN-forge-1.20-4.0.2.jar",
+      "sha256": "cb96fa15eddc74c243677f7f5b6e3ecaa87bb33f4854ae0353646f304058add6",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "libipn",
+          "name": "libIPN",
+          "metadata_version": "4.0.2"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 400
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "lithostitched-forge-1.20.1-1.4.11.jar",
+      "sha256": "c19a5a36c0e6cb3782cf7ca5b9648fb1bce5fc41fd737bed423a1f4971bccf75",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "lithostitched",
+          "name": "Lithostitched",
+          "metadata_version": "1.4.11"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 1,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 163
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "sha256": "95c5aae4e82758d5c0ca2ba61c4cf72e9240e53f68befe8104c68fa9f9b19eed",
+      "matches_prior_audit": true,
+      "group": "Travel, construction and storage",
+      "declared_mods": [
+        {
+          "mod_id": "mcwbridges",
+          "name": "Macaw's Bridges",
+          "metadata_version": "3.1.2"
+        }
+      ],
+      "counts": {
+        "recipes": 402,
+        "tags": 19,
+        "loot_tables": 145,
+        "advancements": 146,
+        "java_classes": 31
+      },
+      "review_disposition": "Reviewed native logistics and inventory paths against 1.0. Magnet offerings, journal coverage and placed-tank refill are the selected follow-ups; no new building assets proposed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "mcw-mcwstairs-1.0.2-mc1.20.1forge.jar",
+      "sha256": "c952bf7b9eec89071d05da79f73459565847c65187b2f342fa0933c46605bfea",
+      "matches_prior_audit": true,
+      "group": "Travel, construction and storage",
+      "declared_mods": [
+        {
+          "mod_id": "mcwstairs",
+          "name": "Macaw's Stairs and Balconies",
+          "metadata_version": "1.0.2"
+        }
+      ],
+      "counts": {
+        "recipes": 247,
+        "tags": 10,
+        "loot_tables": 196,
+        "advancements": 23,
+        "java_classes": 27
+      },
+      "review_disposition": "Reviewed native logistics and inventory paths against 1.0. Magnet offerings, journal coverage and placed-tank refill are the selected follow-ups; no new building assets proposed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "memoryleakfix-forge-1.17+-1.1.5.jar",
+      "sha256": "925c3db4e1d085a43c4d2beaa4eec18367c22abc90c2ce8594b8a129fd3f28dd",
+      "matches_prior_audit": true,
+      "group": "Runtime performance",
+      "declared_mods": [
+        {
+          "mod_id": "memoryleakfix",
+          "name": "Memory Leak Fix",
+          "metadata_version": "1.1.5"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 132
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reviewed role alongside existing performance fixes. No new gameplay adapter or tuning change justified by this static pass; no new benchmark performed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "midnightlib-forge-1.9.2+1.20.1.jar",
+      "sha256": "19af8e16930380e0669cb457a7f591c9ecac131cf3d879cc77f0fd7afe41b849",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "midnightlib",
+          "name": "MidnightLib",
+          "metadata_version": "1.9.2"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 24
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "modernfix-forge-5.27.83+mc1.20.1.jar",
+      "sha256": "954ff22f601be8de3978a0d7636a138dc93801c6ac55cfd71ef1cd2895de8e5f",
+      "matches_prior_audit": true,
+      "group": "Runtime performance",
+      "declared_mods": [
+        {
+          "mod_id": "modernfix",
+          "name": "ModernFix",
+          "metadata_version": "5.27.83+mc1.20.1"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 411
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reviewed role alongside existing performance fixes. No new gameplay adapter or tuning change justified by this static pass; no new benchmark performed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jarjar/mixinextras-forge-0.4.1.jar"
+      ]
+    },
+    {
+      "artifact": "MoreEnchantments_MC_1.20.1_Vers.1.4.3.jar",
+      "sha256": "cd539b098563afe518d74f92e6f06c98e23b4cc65d45ab6c0b4c039587b6d49a",
+      "matches_prior_audit": true,
+      "group": "Combat and equipment",
+      "declared_mods": [
+        {
+          "mod_id": "more_enchantments",
+          "name": "More Enchantments",
+          "metadata_version": "1.4.3"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 1,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 68
+      },
+      "review_disposition": "Compared 1.0 flight/combat support with attribute procedures and existing repair routes. Physical movement/combat acceptance is still outstanding.",
+      "follow_up_ids": [
+        "P2"
+      ],
+      "targeted_evidence": [
+        "UpdateTickProcedure",
+        "FurorProcProcedure",
+        "AgilityProcProcedure",
+        "RangeProcProcedure",
+        "ArmoringProcProcedure",
+        "Existing 1.0 flight mixins"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "MultiplayerServerPause-1.20.1-Forge-1.3.3.jar",
+      "sha256": "950a4220c833c3b450d3728bf817ba5be7085b3e6dae0c8b4e3e6591863fc329",
+      "matches_prior_audit": true,
+      "group": "Runtime performance",
+      "declared_mods": [
+        {
+          "mod_id": "serverpause",
+          "name": "Multiplayer Server Pause",
+          "metadata_version": "1.3.3"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 18
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reviewed role alongside existing performance fixes. No new gameplay adapter or tuning change justified by this static pass; no new benchmark performed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "noisium-forge-2.3.0+mc1.20-1.20.1.jar",
+      "sha256": "b0b020250c81e8cce7776c3dc8f7085f269e2007570d5fbd492c4497ad60685c",
+      "matches_prior_audit": true,
+      "group": "Runtime performance",
+      "declared_mods": [
+        {
+          "mod_id": "noisium",
+          "name": "Noisium",
+          "metadata_version": "2.3.0+mc1.20-1.20.1"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 12
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reviewed role alongside existing performance fixes. No new gameplay adapter or tuning change justified by this static pass; no new benchmark performed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/mixinextras-forge-0.3.5.jar"
+      ]
+    },
+    {
+      "artifact": "Nomadic-Tents-20.1.1.jar",
+      "sha256": "57bf4b44756c5e8d8d4d9403f8da6150764e4872cae020be27af3fba98d35ae6",
+      "matches_prior_audit": true,
+      "group": "Survival, farming and camping",
+      "declared_mods": [
+        {
+          "mod_id": "nomadictents",
+          "name": "Nomadic Tents",
+          "metadata_version": "20.1.1"
+        }
+      ],
+      "counts": {
+        "recipes": 182,
+        "tags": 7,
+        "loot_tables": 0,
+        "advancements": 40,
+        "java_classes": 54
+      },
+      "review_disposition": "Compared installed climate/food/camping resources and settings with 1.0. Regional tuning and campsite feedback remain useful; no duplicate meal, tent-climate or weather system proposed.",
+      "follow_up_ids": [
+        "P3",
+        "P7"
+      ],
+      "targeted_evidence": [
+        "Current 1.0 TentClimate implementation and guide explanation",
+        "Existing enclosure/climate validation scope"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": [
+        "META-INF/jarjar/infiniverse-1.20.1-1.0.0.5.jar"
+      ]
+    },
+    {
+      "artifact": "notenoughanimations-forge-1.12.4-mc1.20.1.jar",
+      "sha256": "510537a4149e3e838077750dd94906e582195eb55200344077218bddddd688c7",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "notenoughanimations",
+          "name": "NotEnoughAnimations",
+          "metadata_version": "1.12.4"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 74
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/TRansition-1.0.21-1.20.1-forge-SNAPSHOT.jar",
+        "META-INF/jars/TRender-1.0.15-1.20.1-forge-SNAPSHOT.jar"
+      ]
+    },
+    {
+      "artifact": "oculus-mc1.20.1-1.8.0.jar",
+      "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "oculus",
+          "name": "Oculus",
+          "metadata_version": "1.8.0"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 1587
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/jcpp-1.4.14.jar"
+      ]
+    },
+    {
+      "artifact": "pamhc2crops-1.20-1.0.3.jar",
+      "sha256": "81f743457e1cdd9a3061e23be094920562fd1c57cf29e78cf77a71c1f27da4f0",
+      "matches_prior_audit": true,
+      "group": "Survival, farming and camping",
+      "declared_mods": [
+        {
+          "mod_id": "pamhc2crops",
+          "name": "Pam's HarvestCraft 2 - Crops",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 177,
+        "tags": 424,
+        "loot_tables": 103,
+        "advancements": 0,
+        "java_classes": 22
+      },
+      "review_disposition": "Compared installed climate/food/camping resources and settings with 1.0. Regional tuning and campsite feedback remain useful; no duplicate meal, tent-climate or weather system proposed.",
+      "follow_up_ids": [
+        "P4"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "pamhc2foodcore-1.20.4-1.0.5.jar",
+      "sha256": "1f18655d5eeea99eeccf0d9d458dbf88d6b59c1a9f00c17e322db8d55a54ed5b",
+      "matches_prior_audit": true,
+      "group": "Survival, farming and camping",
+      "declared_mods": [
+        {
+          "mod_id": "pamhc2foodcore",
+          "name": "Pam's HarvestCraft 2 - Food Core",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 217,
+        "tags": 196,
+        "loot_tables": 0,
+        "advancements": 18,
+        "java_classes": 7
+      },
+      "review_disposition": "Compared installed climate/food/camping resources and settings with 1.0. Regional tuning and campsite feedback remain useful; no duplicate meal, tent-climate or weather system proposed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "pamhc2foodextended-1.20.4-1.0.1.jar",
+      "sha256": "3cead8bebf7bf4b0d690ee3887da58a1941c92d197826be1f54bbae942e408bd",
+      "matches_prior_audit": true,
+      "group": "Survival, farming and camping",
+      "declared_mods": [
+        {
+          "mod_id": "pamhc2foodextended",
+          "name": "Pam's HarvestCraft 2 - Food Extended",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 887,
+        "tags": 393,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 6
+      },
+      "review_disposition": "Compared installed climate/food/camping resources and settings with 1.0. Regional tuning and campsite feedback remain useful; no duplicate meal, tent-climate or weather system proposed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "pamhc2trees-1.20-1.0.2.jar",
+      "sha256": "69e0c722c786b78aea299e7faf27991e6533a671a66f281fb5ced279eb31b0dd",
+      "matches_prior_audit": true,
+      "group": "Survival, farming and camping",
+      "declared_mods": [
+        {
+          "mod_id": "pamhc2trees",
+          "name": "Pam's HarvestCraft 2 - Trees",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 77,
+        "tags": 140,
+        "loot_tables": 100,
+        "advancements": 0,
+        "java_classes": 121
+      },
+      "review_disposition": "Compared installed climate/food/camping resources and settings with 1.0. Regional tuning and campsite feedback remain useful; no duplicate meal, tent-climate or weather system proposed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "Patchouli-1.20.1-85-FORGE.jar",
+      "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5",
+      "matches_prior_audit": true,
+      "group": "Guidance, inventory and social",
+      "declared_mods": [
+        {
+          "mod_id": "patchouli",
+          "name": "Patchouli",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 2,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 196
+      },
+      "review_disposition": "Reviewed guide/journal content and client usability alongside existing native features. Relevant controls and omitted accomplishments are called out separately.",
+      "follow_up_ids": [
+        "P1",
+        "P6",
+        "P7",
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [
+        "Existing chapter placement and Cold Sweat/Travel guidance",
+        "Current global status command versus proposed campsite feedback"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "Placebo-1.20.1-8.6.3.jar",
+      "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "placebo",
+          "name": "Placebo",
+          "metadata_version": "8.6.3"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 153
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "playeranimator",
+          "name": "Player Animator",
+          "metadata_version": "1.0.2-rc1+1.20"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 115
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "Prism-1.20.1-forge-1.0.5.jar",
+      "sha256": "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "prism",
+          "name": "Prism",
+          "metadata_version": "1.0.5"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 17
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "sha256": "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "puzzleslib",
+          "name": "Puzzles Lib",
+          "metadata_version": "8.1.33"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 728
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jarjar/mixinextras-forge-0.4.1.jar",
+        "META-INF/jarjar/puzzlesaccessapi-forge-20.1.1.jar"
+      ]
+    },
+    {
+      "artifact": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+      "sha256": "b42584e2672d6b5329959ec2b0f342395b19389fed0ee4d86ea71072f42f77a0",
+      "matches_prior_audit": true,
+      "group": "Runtime performance",
+      "declared_mods": [
+        {
+          "mod_id": "radium",
+          "name": "Radium",
+          "metadata_version": "0.12.4+git.26c9d8e"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 517
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reviewed role alongside existing performance fixes. No new gameplay adapter or tuning change justified by this static pass; no new benchmark performed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/NanoLiveConfig-1.2.1.jar"
+      ]
+    },
+    {
+      "artifact": "RopeBridge-1.20.1-3.0.3.jar",
+      "sha256": "9cb45241e4eedfb4268452a995a6c7f8032941ec0d7799702615ec22a3c916c6",
+      "matches_prior_audit": true,
+      "group": "Travel, construction and storage",
+      "declared_mods": [
+        {
+          "mod_id": "ropebridge",
+          "name": "Rope Bridge",
+          "metadata_version": "3.0.3"
+        }
+      ],
+      "counts": {
+        "recipes": 16,
+        "tags": 0,
+        "loot_tables": 22,
+        "advancements": 13,
+        "java_classes": 40
+      },
+      "review_disposition": "Reviewed native logistics and inventory paths against 1.0. Magnet offerings, journal coverage and placed-tank refill are the selected follow-ups; no new building assets proposed.",
+      "follow_up_ids": [
+        "P6"
+      ],
+      "targeted_evidence": [
+        "Four displayed non-root native advancements",
+        "BridgeBuildingHandler and LadderBuildingHandler native advancement award calls"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+      "sha256": "32c28582040dfab4e167542bf319107296e9eff3cb17f4f576eba036f2d256da",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "embeddium_extra",
+          "name": "Embeddium Extra",
+          "metadata_version": "0.5.4.4+mc1.20.1-build.131"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 76
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/NanoLiveConfig-1.2.1.jar",
+        "META-INF/jars/mixinextras-forge-0.4.1.jar"
+      ]
+    },
+    {
+      "artifact": "Scribble-1.5.1+mc1.20.1-forge.jar",
+      "sha256": "75a3e038173d0feb776ee6acb92e401608369f203ca9b5c7f93f14cf83dda4d2",
+      "matches_prior_audit": true,
+      "group": "Guidance, inventory and social",
+      "declared_mods": [
+        {
+          "mod_id": "scribble",
+          "name": "Scribble",
+          "metadata_version": "1.5.1"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 36
+      },
+      "review_disposition": "Reviewed guide/journal content and client usability alongside existing native features. Relevant controls and omitted accomplishments are called out separately.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/mixinextras-forge-0.4.1.jar"
+      ]
+    },
+    {
+      "artifact": "skinlayers3d-forge-1.11.2-mc1.20.1.jar",
+      "sha256": "2d35eff3e2642e8a6f7fb4cc7461211699ee2e32b9644e0d3b3bd6ba1574551c",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "skinlayers3d",
+          "name": "3d-Skin-Layers",
+          "metadata_version": "1.11.2"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 79
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/TRansition-1.0.21-1.20.1-forge-SNAPSHOT.jar",
+        "META-INF/jars/TRender-1.0.15-1.20.1-forge-SNAPSHOT.jar",
+        "META-INF/jars/mixinextras-forge-0.4.1.jar"
+      ]
+    },
+    {
+      "artifact": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "sha256": "dff5325abb58c0c8526dffb80e764188bde045fd02ca6ed5e2bb76f0897d46f4",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "sodiumdynamiclights",
+          "name": "Sodium Dynamic Lights",
+          "metadata_version": "1.0.9"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 44
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/fabric-api-base-0.4.31+ef105b4977.jar",
+        "META-INF/jars/mixinextras-forge-0.4.1.jar"
+      ]
+    },
+    {
+      "artifact": "sodiumextras-forge-1.0.7-1.20.1.jar",
+      "sha256": "ce9a13c5f07e350f9c0b86af9e096aedb91cbc72996e59646da61ec724f1e4df",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "sodiumextras",
+          "name": "Sodium Extras",
+          "metadata_version": "1.0.6"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 48
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/mixinextras-forge-0.3.5.jar"
+      ]
+    },
+    {
+      "artifact": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "sha256": "37ec0b6248f04e856e6e5ba2066c4ded9981ce128282a9b45cdb10b67b9c8415",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "sodiumoptionsapi",
+          "name": "Sodium Options API",
+          "metadata_version": "1.0.10"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 25
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jars/fabric-api-base-0.4.31+ef105b4977.jar",
+        "META-INF/jars/mixinextras-forge-0.4.1.jar"
+      ]
+    },
+    {
+      "artifact": "sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar",
+      "sha256": "34e4c3ef79e882cc8d92f72f71e6acc04a1ef0f50ba57784316f6b1f70708ed6",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "sodiumoptionsmodcompat",
+          "name": "Sodium Options Mod Compat",
+          "metadata_version": "1.0.0"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 19
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
+      "sha256": "6ab4a0cb739a6c11442a73d1b5f42c40c2ae93b31162fa63d81e1b66706e9e31",
+      "matches_prior_audit": true,
+      "group": "Travel, construction and storage",
+      "declared_mods": [
+        {
+          "mod_id": "sophisticatedbackpacks",
+          "name": "Sophisticated Backpacks",
+          "metadata_version": "3.26.3.2157"
+        }
+      ],
+      "counts": {
+        "recipes": 167,
+        "tags": 3,
+        "loot_tables": 15,
+        "advancements": 83,
+        "java_classes": 378
+      },
+      "review_disposition": "Reviewed native logistics and inventory paths against 1.0. Magnet offerings, journal coverage and placed-tank refill are the selected follow-ups; no new building assets proposed.",
+      "follow_up_ids": [
+        "P1",
+        "P4",
+        "NATIVE_TANK_REFILL"
+      ],
+      "targeted_evidence": [
+        "BackpackBlock interaction order",
+        "BackpackBlockEntity.getCapability"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
+      "sha256": "f4038a2e0d0e3504258fbe315cb27a37f1a769d71985bfa20afb983a3bdfab64",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "sophisticatedcore",
+          "name": "Sophisticated Core",
+          "metadata_version": "1.5.1.2335"
+        }
+      ],
+      "counts": {
+        "recipes": 5,
+        "tags": 1,
+        "loot_tables": 0,
+        "advancements": 1,
+        "java_classes": 799
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [
+        "P4",
+        "NATIVE_TANK_REFILL"
+      ],
+      "targeted_evidence": [
+        "MagnetUpgradeWrapper.pickupItems/addMagnetPreventionChecker",
+        "TankUpgradeWrapper fluid-container handling"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "sound-physics-remastered-forge-1.20.1-1.4.10.jar",
+      "sha256": "57ce3c7d5abe724d9fb82f3d068b7717a56b94b7d3ea98f90a2f9ca61c8f57b1",
+      "matches_prior_audit": true,
+      "group": "Client presentation",
+      "declared_mods": [
+        {
+          "mod_id": "sound_physics_remastered",
+          "name": "Sound Physics Remastered",
+          "metadata_version": "1.20.1-1.4.10"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 90
+      },
+      "review_disposition": "Fresh artifact/resource inventory; reconsidered interactions with portals, animation, lighting and sound. Actual graphics/audio compatibility requires a physical-client matrix; no defect asserted from inventory alone.",
+      "follow_up_ids": [
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "Structory_1.20.x_v1.3.5.jar",
+      "sha256": "43f4b4b88bb9caa1114928a93e787335e56171b5233a545bf2f4da1ce9fe943b",
+      "matches_prior_audit": true,
+      "group": "Terrain, structures and weather",
+      "declared_mods": [
+        {
+          "mod_id": "structory",
+          "name": "Structory",
+          "metadata_version": "1.3.5"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 9,
+        "loot_tables": 39,
+        "advancements": 0,
+        "java_classes": 0
+      },
+      "review_disposition": "Compared terrain/biome/structure data with 1.0 exploration and climate coverage. Regional climate sampling and native BOP achievement are the remaining opportunities; no blanket world-generation rewrite.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "structure_gel-1.20.1-2.16.2.jar",
+      "sha256": "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "structure_gel",
+          "name": "Structure Gel API",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 6,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 325
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "SuperBarrels_4.jar",
+      "sha256": "90014232b596d54559d820d1f26fd6be7ea219acb3226412445d5962d38f5244",
+      "matches_prior_audit": true,
+      "group": "Travel, construction and storage",
+      "declared_mods": [
+        {
+          "mod_id": "superbarrels",
+          "name": "SuperBarrels",
+          "metadata_version": "119"
+        }
+      ],
+      "counts": {
+        "recipes": 9,
+        "tags": 0,
+        "loot_tables": 9,
+        "advancements": 0,
+        "java_classes": 965
+      },
+      "review_disposition": "Reviewed native logistics and inventory paths against 1.0. Magnet offerings, journal coverage and placed-tank refill are the selected follow-ups; no new building assets proposed.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "tectonic-3.0.17-forge-1.20.1.jar",
+      "sha256": "c6de479b27cf090510de3f029918afc9fe17226981bd703e0002f7a25f4d8969",
+      "matches_prior_audit": true,
+      "group": "Terrain, structures and weather",
+      "declared_mods": [
+        {
+          "mod_id": "tectonic",
+          "name": "Tectonic",
+          "metadata_version": "3.0.17"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 56
+      },
+      "review_disposition": "Compared terrain/biome/structure data with 1.0 exploration and climate coverage. Regional climate sampling and native BOP achievement are the remaining opportunities; no blanket world-generation rewrite.",
+      "follow_up_ids": [
+        "P3"
+      ],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+      "sha256": "c109016f46ca9bdae69976bf080bbf2e8e5968cb66c0a78845f8ca6af5dbbeb1",
+      "matches_prior_audit": true,
+      "group": "Libraries and APIs",
+      "declared_mods": [
+        {
+          "mod_id": "terrablender",
+          "name": "TerraBlender",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 2,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 53
+      },
+      "review_disposition": "Fresh artifact/resource inventory and dependency-role review. No artificial gameplay feature proposed for a library; selected public hooks examined where relevant.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "Terralith_1.20.x_v2.5.4.jar",
+      "sha256": "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f",
+      "matches_prior_audit": true,
+      "group": "Terrain, structures and weather",
+      "declared_mods": [
+        {
+          "mod_id": "terralith",
+          "name": "Terralith",
+          "metadata_version": "2.5.4"
+        }
+      ],
+      "counts": {
+        "recipes": 11,
+        "tags": 185,
+        "loot_tables": 51,
+        "advancements": 5,
+        "java_classes": 0
+      },
+      "review_disposition": "Compared terrain/biome/structure data with 1.0 exploration and climate coverage. Regional climate sampling and native BOP achievement are the remaining opportunities; no blanket world-generation rewrite.",
+      "follow_up_ids": [
+        "P3"
+      ],
+      "targeted_evidence": [
+        "99 Terralith-namespaced biome JSON definitions versus Cold Sweat explicit biome settings",
+        "Ice cave and thermal cave native climate values"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+      "sha256": "9c8115af7109579da990249fdd67b38323a45be70f8a3a962b61da69c7021984",
+      "matches_prior_audit": true,
+      "group": "Terrain, structures and weather",
+      "declared_mods": [
+        {
+          "mod_id": "t_and_t",
+          "name": "Towns and Towers",
+          "metadata_version": "${file.jarVersion}"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 69,
+        "loot_tables": 14,
+        "advancements": 0,
+        "java_classes": 1
+      },
+      "review_disposition": "Compared terrain/biome/structure data with 1.0 exploration and climate coverage. Regional climate sampling and native BOP achievement are the remaining opportunities; no blanket world-generation rewrite.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "villagernames-1.20.1-8.5.jar",
+      "sha256": "e941c7d5da09ee16ff1d7a99ac0a2651e6d6b1fa649ea4da19c5866128108e64",
+      "matches_prior_audit": true,
+      "group": "Guidance, inventory and social",
+      "declared_mods": [
+        {
+          "mod_id": "villagernames",
+          "name": "Villager Names",
+          "metadata_version": "8.5"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 24
+      },
+      "review_disposition": "Reviewed guide/journal content and client usability alongside existing native features. Relevant controls and omitted accomplishments are called out separately.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "voicechat-forge-1.20.1-2.6.22.jar",
+      "sha256": "f171e99fa99f007ef013af5306f6c490fe79a11be7e1b18940147d75ced045b9",
+      "matches_prior_audit": true,
+      "group": "Guidance, inventory and social",
+      "declared_mods": [
+        {
+          "mod_id": "voicechat",
+          "name": "Simple Voice Chat",
+          "metadata_version": "1.20.1-2.6.22"
+        },
+        {
+          "mod_id": "voicechat_api",
+          "name": "Simple Voice Chat API",
+          "metadata_version": "2.6.20"
+        }
+      ],
+      "counts": {
+        "recipes": 0,
+        "tags": 0,
+        "loot_tables": 0,
+        "advancements": 0,
+        "java_classes": 674
+      },
+      "review_disposition": "Reviewed guide/journal content and client usability alongside existing native features. Relevant controls and omitted accomplishments are called out separately.",
+      "follow_up_ids": [
+        "P1",
+        "CLIENT_ACCEPTANCE"
+      ],
+      "targeted_evidence": [
+        "KeyEvents input handlers",
+        "Installed key bindings"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "waystones-forge-1.20.1-14.1.21.jar",
+      "sha256": "fd6fe3c645328ea7be5bc6723d02c881e34650e0cbd4527ba59e42fa4cbe3c80",
+      "matches_prior_audit": true,
+      "group": "Dimensions, encounters and wildlife",
+      "declared_mods": [
+        {
+          "mod_id": "waystones",
+          "name": "Waystones",
+          "metadata_version": "14.1.21"
+        }
+      ],
+      "counts": {
+        "recipes": 34,
+        "tags": 23,
+        "loot_tables": 25,
+        "advancements": 0,
+        "java_classes": 189
+      },
+      "review_disposition": "Compared existing dimension, encounter, ingredient and equipment integrations with new altar, wildlife-offering and client acceptance opportunities.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": []
+    },
+    {
+      "artifact": "weather2-1.20.1-2.8.3.jar",
+      "sha256": "5eb828f93b2eb370d7f38ad1893739caf7655f32d58dbbdaabae6075ede635db",
+      "matches_prior_audit": true,
+      "group": "Terrain, structures and weather",
+      "declared_mods": [
+        {
+          "mod_id": "weather2",
+          "name": "Weather2",
+          "metadata_version": "1.20.1-2.8.3"
+        }
+      ],
+      "counts": {
+        "recipes": 18,
+        "tags": 0,
+        "loot_tables": 8,
+        "advancements": 9,
+        "java_classes": 140
+      },
+      "review_disposition": "Compared terrain/biome/structure data with 1.0 exploration and climate coverage. Regional climate sampling and native BOP achievement are the remaining opportunities; no blanket world-generation rewrite.",
+      "follow_up_ids": [
+        "P3"
+      ],
+      "targeted_evidence": [
+        "Installed weather2 climate/storm settings",
+        "Existing native Cold Sweat weather integration and 1.0 tent inheritance"
+      ],
+      "review_depth": "fresh_inventory_and_resources_plus_targeted_config_or_code",
+      "nested_jars": []
+    },
+    {
+      "artifact": "witherstormmod-1.20.1-4.2.1-all.jar",
+      "sha256": "a23c019b1465c87ba506ada49aa815866e5353ebdc2be3284d9087ff080018ac",
+      "matches_prior_audit": true,
+      "group": "Dimensions, encounters and wildlife",
+      "declared_mods": [
+        {
+          "mod_id": "witherstormmod",
+          "name": "Cracker's Wither Storm Mod",
+          "metadata_version": "4.2.1"
+        }
+      ],
+      "counts": {
+        "recipes": 176,
+        "tags": 84,
+        "loot_tables": 77,
+        "advancements": 82,
+        "java_classes": 805
+      },
+      "review_disposition": "Compared existing dimension, encounter, ingredient and equipment integrations with new altar, wildlife-offering and client acceptance opportunities.",
+      "follow_up_ids": [],
+      "targeted_evidence": [],
+      "review_depth": "fresh_inventory_and_resources_plus_role_review",
+      "nested_jars": [
+        "META-INF/jarjar/crackerslib-forge-1.20.1-0.4.1.jar"
+      ]
+    }
+  ]
+}

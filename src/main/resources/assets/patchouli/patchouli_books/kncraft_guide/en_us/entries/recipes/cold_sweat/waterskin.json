@@ -10,6 +10,13 @@
       "recipe": "cold_sweat:waterskin",
       "anchor": "lookup_recipe_cold_sweat_waterskin",
       "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_waterskin)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Portable water supply",
+      "body": "Sneak and Use an empty waterskin on a placed backpack with a water tank upgrade. Filling consumes 250 mB. It keeps the waterskin name and uses native fill-temperature rules. Heat or cool the filled waterskin normally.",
+      "anchor": "kncraft_tank_refill",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
     }
   ],
   "extra_recipe_mappings": {}

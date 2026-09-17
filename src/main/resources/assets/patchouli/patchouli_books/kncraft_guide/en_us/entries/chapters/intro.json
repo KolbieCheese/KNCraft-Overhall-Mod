@@ -24,6 +24,34 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Your current controls",
+      "body": "Bindings below are read from your Controls menu. Unbound means you need to assign a key; N/A means the binding is unavailable. Rebinding updates these references when the page opens. Context-specific overlaps can be intentional.",
+      "anchor": "kncraft_controls_live",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Everyday controls",
+      "body": "Inventory: $(k:key.inventory)$(br)Use / interact: $(k:key.use)$(br)Sneak: $(k:key.sneak)$(br)Chat: $(k:key.chat)$(br)Journal: $(k:key.ftbquests.quests)$(br)The journal is also in the inventory sidebar.",
+      "anchor": "kncraft_controls_basics",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Voice and company",
+      "body": "Voice menu: $(k:key.voice_chat)$(br)Group: $(k:key.voice_chat_group)$(br)Mute microphone: $(k:key.mute_microphone)$(br)Disable voice: $(k:key.disable_voice_chat)$(br)Push to talk: $(k:key.push_to_talk)$(br)Select devices in the voice menu.",
+      "anchor": "kncraft_controls_voice",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Optional pack controls",
+      "body": "Run /kncraft controls for possible overlaps. Use /kncraft controls preset to apply the optional pack layout. It saves your old bindings. /kncraft controls restore restores unchanged preset bindings and keeps your later customizations.",
+      "anchor": "kncraft_controls_preset",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "The server",
       "body": "Join at kncraft.beautyinblocks.com using the matching KNCraft modpack: Java 1.20.1 on Forge 47.4.0. Cooperation is encouraged. PvP is enabled, and trust is your decision. Read the community rules before playing. KNCraft and Beauty In",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",

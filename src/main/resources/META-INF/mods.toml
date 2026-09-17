@@ -8,6 +8,13 @@ displayName="KNCraft Compatibility"
 description="Connects KNCraft's survival, farming, exploration, equipment and travel mods into a cohesive pack, with an integrated Field Guide and accomplishment journal. Install the matching build on server and clients."
 
 [[dependencies.kncraft]]
+modId="aether"
+mandatory=false
+versionRange="[1.20.1-1.5.2-neoforge]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.kncraft]]
 modId="carryon"
 mandatory=false
 versionRange="[2.1.2.7]"
