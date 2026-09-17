@@ -1,0 +1,54 @@
+{
+  "note": "Minimum captures; add intermediate recipes only when needed. Details in Guide-Finishing-Review.md.",
+  "groups": [
+    {
+      "chapter": "intro",
+      "anchor": "shot_map",
+      "subject": "BlueMap",
+      "status": "received",
+      "minimum_captures": 1
+    },
+    {
+      "chapter": "wither",
+      "anchor": "shot_symbiont",
+      "subject": "Symbiont exposed back and encounter HUD",
+      "status": "pending",
+      "minimum_captures": 2
+    },
+    {
+      "chapter": "wither",
+      "anchor": "shot_bowels",
+      "subject": "Storm entrance overview and approach",
+      "status": "pending",
+      "minimum_captures": 2
+    },
+    {
+      "chapter": "weather",
+      "anchor": "shot_weather",
+      "subject": "Placed Weather Deflector",
+      "status": "pending",
+      "minimum_captures": 1
+    },
+    {
+      "chapter": "depths",
+      "anchor": "shot_depths",
+      "subject": "Inactive gateway and clear arrival view",
+      "status": "pending",
+      "minimum_captures": 2
+    },
+    {
+      "chapter": "travel",
+      "anchor": "shot_tent",
+      "subject": "Same tent before move, packed Tent ID, after move",
+      "status": "pending",
+      "minimum_captures": 3
+    },
+    {
+      "chapter": "food",
+      "anchor": "shot_food",
+      "subject": "Kitchen, final meal JEI recipe, intermediate recipe",
+      "status": "pending",
+      "minimum_captures": 3
+    }
+  ]
+}

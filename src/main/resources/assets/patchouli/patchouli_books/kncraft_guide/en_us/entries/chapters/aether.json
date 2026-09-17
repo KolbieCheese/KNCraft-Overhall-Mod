@@ -90,6 +90,13 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "Current repair times",
+      "body": "Each equipment page shows server repair time:$(br)Goat fur: $(l:patchouli:recipes/cold_sweat/goat_fur_cap)cap$(/l), $(l:patchouli:recipes/cold_sweat/goat_fur_parka)parka$(/l), $(l:patchouli:recipes/cold_sweat/goat_fur_pants)pants$(/l), $(l:patchouli:recipes/cold_sweat/goat_fur_boots)boots$(/l).$(br)Hoglin: $(l:patchouli:recipes/cold_sweat/hoglin_headpiece)headpiece$(/l), $(l:patchouli:recipes/cold_sweat/hoglin_tunic)tunic$(/l), $(l:patchouli:recipes/cold_sweat/hoglin_trousers)trousers$(/l), $(l:patchouli:recipes/cold_sweat/hoglin_hooves)hooves$(/l).$(br)$(l:patchouli:recipes/alexsmobs/frontier_cap)Frontier Cap$(/l).",
+      "anchor": "kncraft_machine_reference",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "Maintain expedition gear",
       "body": "An Altar repairs Cold Sweat goat-fur and hoglin armor, plus Alex's Frontier Cap. Supply normal altar fuel. Repairing keeps enchantments, names and sewn insulation. This is another workshop option alongside your normal repair routes.",
       "anchor": "kncraft_altar_repairs",
@@ -98,7 +105,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Altar repair times",
-      "body": "Goat-fur armor and the Frontier Cap take 35 seconds per piece; hoglin armor takes 50 seconds. Repair one damaged piece at a time with normal Ambrosium fuel. Powerful boss equipment has not been added to this repair list.",
+      "body": "Pack defaults: Goat-fur armor and the Frontier Cap take 35 seconds per piece; hoglin armor takes 50 seconds. Repair one damaged piece at a time with normal Ambrosium fuel. Powerful boss equipment has not been added to this repair list.",
       "anchor": "kncraft_altar_times",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
     },

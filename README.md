@@ -7,6 +7,7 @@ exploration, equipment, and transport support one another.
 - **Farming and survival:** Pam's crops and Alex's wildlife supply clothing insulation,
   camping materials, and practical food. Selected meals affect Cold Sweat, and backpack
   feeding avoids counterproductive thermal meals when the player is already hot or cold.
+  Reserved curative foods stay available for deliberate use, with a per-player opt-out.
 - **Camping and climate:** Nomadic Tents inherit their campsite's ambient temperature.
   Their interiors count as enclosed for Cold Sweat hearths, while native fuel, warm-up,
   range, and air-path rules continue to apply. Seamless entrances retain tent ownership,
@@ -27,6 +28,9 @@ exploration, equipment, and transport support one another.
   pages. The FTB accomplishment journal records bosses, landmarks, and mod advancements
   without recipe locks, required quest chains, item turn-ins, or rewards.
   Each chapter includes relevant controls that display the player's current bindings.
+  Journal records open the relevant guide chapter. Food, insulation and machine-time
+  references refresh from the server, and each player receives one starter guide.
+  No expedition loadouts or equipment profiles are installed.
 
 The mod also retains native Aether/Depth portal lighting, bounded Depth arrivals,
 natural Waystone policy data, one-time encounter scaling, and the original targeted
@@ -60,13 +64,16 @@ from 0.2 may still have cotton, wildlife insulation, thermal meals, and fiber re
 `config/kncraft-common.toml` controls the original integrations and tunable food/material
 lists. `config/kncraft-integrations.toml` controls the expanded connections separately.
 `config/kncraft-polish.toml` controls regional climate, wildlife offerings, altar repairs
-and cooperative enchantment attributes. See [migration details](docs/Migration.md)
+and cooperative enchantment attributes, reserved feeding foods and the one-time guide gift.
+Players can use `/kncraft feeding reserved false` to allow automatic use of reserved food,
+or `true` to restore protection. Native backpack filters still apply.
+See [migration details](docs/Migration.md)
 for legacy attribute handling and its backup.
 Restart after changing switches. Existing Cold Sweat definitions take precedence over
 the supplied defaults; the mod does not rewrite upstream configuration.
 
 Use `/kncraft status` or `config/kncraft-status.txt` to inspect enabled integrations.
-See [features and behavior](docs/Features.md) and [1.0.1 validation](docs/Polish-Validation.md) for
+See [features and behavior](docs/Features.md) and [1.0.2 validation](docs/Reference-Validation.md) for
 details and the limits of the completed checks.
 
 The client command `/kncraft controls` reports possible key conflicts. Players may apply
@@ -80,11 +87,14 @@ Set `JAVA_HOME` to a Java 17 JDK and use Python 3.11 or newer:
 ```powershell
 python tools/bootstrap_dependencies.py --download
 .\gradlew.bat build releaseBundle --console=plain
-python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.1.jar
+python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.2.jar
 ```
 
 Alternatively, bootstrap from the installed pack with `--instance "C:\path\to\KNCraft"`.
 Both modes verify the exact dependency hashes. On Linux/macOS use `bash gradlew`.
+Builds audit guide images, unfinished text and journal links. The remaining real-world
+[photography checklist](docs/Guide-Finishing-Review.md) is maintained outside the book;
+the supplied three-storm BlueMap image is already included.
 
 Every push to the repository's default branch builds, tests, and publishes a GitHub
 Release containing the downloadable JAR, installation ZIP, and checksums. Version numbers

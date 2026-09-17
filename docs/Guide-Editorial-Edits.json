@@ -1,0 +1,516 @@
+{
+  "reason": "User-approved finishing pass: real BlueMap photo, player-facing instructions, complete short captions.",
+  "changes": [
+    {
+      "chapter": "depths",
+      "before": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "The Ancient City gateway",
+          "body": "The gateway with the destination visible through its opening. Mark your return",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
+          "anchor": "capture_depths_portal",
+          "picture": "kncraft:textures/guide/capture_depths_portal.png",
+          "credit": "KNCraft"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "The Ancient City gateway",
+          "body": "route.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "The Ancient City gateway",
+          "body": "The gateway with the destination visible through its opening. Mark your return route.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
+          "anchor": "capture_depths_portal",
+          "picture": "kncraft:textures/guide/capture_depths_portal.png",
+          "credit": "KNCraft"
+        }
+      ]
+    },
+    {
+      "chapter": "depths",
+      "before": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Gateway and first view",
+          "body": "SCREENSHOT NEEDED. Gateway capture is included. Still needed: the gateway before activation and a brighter, spoiler-free arrival landscape. No temperature HUD is needed here.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
+          "anchor": "shot_depths"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Gateway and first view",
+          "body": "Before activating the gateway, check your supplies and mark its position. On arrival, light the immediate footing and locate the return opening before exploring. Keep a clear route back to the gateway.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
+          "anchor": "shot_depths"
+        }
+      ]
+    },
+    {
+      "chapter": "explore",
+      "before": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Read the landscape (cont.)",
+          "body": "Horizons changes how far terrain can be seen. It does not create mountains or structures. This chapter includes author examples and captures from KNCraft. Credits identify their source; scenery does not guarantee what you",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Read the landscape (cont.)",
+          "body": "will find along another route.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Read the landscape (cont.)",
+          "body": "Horizons changes how far terrain can be seen. It does not create mountains or structures. This chapter includes author examples and captures from KNCraft. Credits identify their source; scenery does not guarantee what you will find along another route.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        }
+      ]
+    },
+    {
+      "chapter": "explore",
+      "before": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Underground rivers",
+          "body": "Tectonic's underground-river example. Light the entry and keep a",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "tectonic_river",
+          "picture": "kncraft:textures/guide/tectonic-4.png",
+          "credit": "$(l:https://modrinth.com/mod/tectonic/gallery)Source$(/l)"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Underground rivers",
+          "body": "clear return route before exploring out of sight.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Underground rivers",
+          "body": "Tectonic's underground-river example. Light the entry and keep a clear return route before exploring out of sight.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "tectonic_river",
+          "picture": "kncraft:textures/guide/tectonic-4.png",
+          "credit": "$(l:https://modrinth.com/mod/tectonic/gallery)Source$(/l)"
+        }
+      ]
+    },
+    {
+      "chapter": "explore",
+      "before": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Wildlife in open country",
+          "body": "Animals share the open landscape. Leave room to observe before",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "capture_open_country",
+          "picture": "kncraft:textures/guide/capture_open_country.png",
+          "credit": "KNCraft"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Wildlife in open country",
+          "body": "approaching.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Wildlife in open country",
+          "body": "Animals share the open landscape. Leave room to observe before approaching.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "capture_open_country",
+          "picture": "kncraft:textures/guide/capture_open_country.png",
+          "credit": "KNCraft"
+        }
+      ]
+    },
+    {
+      "chapter": "explore",
+      "before": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Redwood forest",
+          "body": "Redwood Forest from the project gallery. Tall vegetation limits sightlines at ground",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "redwoods",
+          "picture": "kncraft:textures/guide/biomes-o-plenty-2.png",
+          "credit": "$(l:https://modrinth.com/mod/biomes-o-plenty/gallery)Source$(/l)"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Redwood forest",
+          "body": "level and can hide the route back to your group.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Redwood forest",
+          "body": "Redwood Forest from the project gallery. Tall vegetation limits sightlines at ground level and can hide the route back to your group.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "redwoods",
+          "picture": "kncraft:textures/guide/biomes-o-plenty-2.png",
+          "credit": "$(l:https://modrinth.com/mod/biomes-o-plenty/gallery)Source$(/l)"
+        }
+      ]
+    },
+    {
+      "chapter": "explore",
+      "before": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "A structure offshore",
+          "body": "The project's Pirate Ship example. Scout the water and the deck before committing",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "dungeon_ship",
+          "picture": "kncraft:textures/guide/dungeons-enhanced-0.png",
+          "credit": "$(l:https://modrinth.com/mod/dungeons-enhanced/gallery)Source$(/l)"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "A structure offshore",
+          "body": "to a landing; aquatic wildlife can complicate the approach.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "A structure offshore",
+          "body": "The project's Pirate Ship example. Scout the water and the deck before committing to a landing; aquatic wildlife can complicate the approach.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "dungeon_ship",
+          "picture": "kncraft:textures/guide/dungeons-enhanced-0.png",
+          "credit": "$(l:https://modrinth.com/mod/dungeons-enhanced/gallery)Source$(/l)"
+        }
+      ]
+    },
+    {
+      "chapter": "explore",
+      "before": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Ruins along the route",
+          "body": "Grassy Ruins from Structory's gallery. Use a distinctive ruin to describe a meeting",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "structory_ruin",
+          "picture": "kncraft:textures/guide/structory-1.png",
+          "credit": "$(l:https://modrinth.com/mod/structory/gallery)Source$(/l)"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Ruins along the route",
+          "body": "point, then give its coordinates to avoid confusion.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Ruins along the route",
+          "body": "Grassy Ruins from Structory's gallery. Use a distinctive ruin to describe a meeting point, then give its coordinates to avoid confusion.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "structory_ruin",
+          "picture": "kncraft:textures/guide/structory-1.png",
+          "credit": "$(l:https://modrinth.com/mod/structory/gallery)Source$(/l)"
+        }
+      ]
+    },
+    {
+      "chapter": "explore",
+      "before": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "A canyon crossing",
+          "body": "Abridged's stone-bridge example. Inspect the actual crossing before using",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "bridge",
+          "picture": "kncraft:textures/guide/abridged-0.png",
+          "credit": "$(l:https://modrinth.com/mod/abridged/gallery)Source$(/l)"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "A canyon crossing",
+          "body": "it as the only evacuation route.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "A canyon crossing",
+          "body": "Abridged's stone-bridge example. Inspect the actual crossing before using it as the only evacuation route.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "bridge",
+          "picture": "kncraft:textures/guide/abridged-0.png",
+          "credit": "$(l:https://modrinth.com/mod/abridged/gallery)Source$(/l)"
+        }
+      ]
+    },
+    {
+      "chapter": "explore",
+      "before": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "A different village layout",
+          "body": "Birch Forest Village from the project gallery. Larger or unfamiliar layouts",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "village",
+          "picture": "kncraft:textures/guide/towns-and-towers-6.png",
+          "credit": "$(l:https://modrinth.com/mod/towns-and-towers/gallery)Source$(/l)"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "A different village layout",
+          "body": "make it worth choosing a clear entrance and meeting place.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "A different village layout",
+          "body": "Birch Forest Village from the project gallery. Larger or unfamiliar layouts make it worth choosing a clear entrance and meeting place.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "village",
+          "picture": "kncraft:textures/guide/towns-and-towers-6.png",
+          "credit": "$(l:https://modrinth.com/mod/towns-and-towers/gallery)Source$(/l)"
+        }
+      ]
+    },
+    {
+      "chapter": "explore",
+      "before": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Distant Horizons off",
+          "body": "The overlook without Distant Horizons. Compare the distant terrain in the next",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "capture_horizons_off",
+          "picture": "kncraft:textures/guide/capture_horizons_off.png",
+          "credit": "KNCraft"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Distant Horizons off",
+          "body": "view.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Distant Horizons off",
+          "body": "The overlook without Distant Horizons. Compare the distant terrain in the next view.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "capture_horizons_off",
+          "picture": "kncraft:textures/guide/capture_horizons_off.png",
+          "credit": "KNCraft"
+        }
+      ]
+    },
+    {
+      "chapter": "explore",
+      "before": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Distant Horizons on",
+          "body": "Distant terrain extends beyond the nearby chunks. Camera and lighting",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "capture_horizons_on",
+          "picture": "kncraft:textures/guide/capture_horizons_on.png",
+          "credit": "KNCraft"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Distant Horizons on",
+          "body": "differ slightly.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_image",
+          "heading": "Distant Horizons on",
+          "body": "Distant terrain extends beyond the nearby chunks. Camera and lighting differ slightly.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+          "anchor": "capture_horizons_on",
+          "picture": "kncraft:textures/guide/capture_horizons_on.png",
+          "credit": "KNCraft"
+        }
+      ]
+    },
+    {
+      "chapter": "food",
+      "before": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "A compact traveling kitchen",
+          "body": "SCREENSHOT NEEDED. Crop and fruit-tree captures are included. Still needed: a traveling kitchen with reusable tools and ingredients, plus a JEI example of a recommended meal and its intermediate steps.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+          "anchor": "shot_food"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "A compact traveling kitchen",
+          "body": "Keep reusable tools near a supply of repeatable ingredients. Look up a final meal in JEI, then follow each crafted ingredient back to its recipe. The Cook Book lists thermal effects beside the affected meals, so your kitchen can support both hunger and climate.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+          "anchor": "shot_food"
+        }
+      ]
+    },
+    {
+      "chapter": "intro",
+      "before": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "BlueMap: read the threat",
+          "body": "SCREENSHOT NEEDED. Capture KNCraft BlueMap showing both Wither Storm markers, a named settlement or landmark, and enough terrain to judge direction. Hide private chat or unrelated browser tabs. This should teach players how to plan a route",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+          "anchor": "shot_map"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "BlueMap: read the threat",
+          "body": "around the current threats.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_map",
+          "heading": "BlueMap: read the threat",
+          "body": "Three Wither Storm markers appear near the center of this BlueMap example. Check the live map before traveling; positions change.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+          "anchor": "shot_map",
+          "picture": "kncraft:textures/guide/capture_bluemap_three_storms.jpg",
+          "credit": "KNCraft"
+        },
+        {
+          "type": "patchouli:kn_map_detail",
+          "heading": "The three markers",
+          "body": "Three markers in the same map. Check live positions before choosing a route.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+          "anchor": "kncraft_map_markers",
+          "picture": "kncraft:textures/guide/capture_bluemap_three_storms.jpg",
+          "credit": "KNCraft"
+        }
+      ]
+    },
+    {
+      "chapter": "travel",
+      "before": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "One camp, two locations",
+          "body": "SCREENSHOT NEEDED. Capture a furnished tent interior, the packed item with Tent ID visible, and the same interior after setting up elsewhere. Include a simple arrangement of storage, cooking, temperature supplies and a clear door. This",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+          "anchor": "shot_tent"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "One camp, two locations",
+          "body": "demonstrates what persists during a move.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "One camp, two locations",
+          "body": "A tent keeps its interior when packed and pitched again. Check the packed item's Tent ID so you move the same camp. Keep the door clear and inspect the new campsite climate after moving; furniture persistence does not guarantee a comfortable temperature.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+          "anchor": "shot_tent"
+        }
+      ]
+    },
+    {
+      "chapter": "weather",
+      "before": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Weather to recognize",
+          "body": "SCREENSHOT NEEDED. Storm, tornado, snow and siren captures are included. Still needed: a Deflector setup showing its placement. No extra HUD capture is needed.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+          "anchor": "shot_weather"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Weather to recognize",
+          "body": "Place a Deflector as part of your shelter plan, and use the Weather2 instruments described in this chapter to watch changing conditions. A device does not replace a planned route back to shelter.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+          "anchor": "shot_weather"
+        }
+      ]
+    },
+    {
+      "chapter": "wither",
+      "before": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Symbiont opening",
+          "body": "SCREENSHOT NEEDED. Capture a Withered Symbiont in its weakened posture from behind, with the purple weak point clearly visible. Add a second capture of the same encounter with the boss bar showing KNCraft health scaling. Keep",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+          "anchor": "shot_symbiont"
+        },
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Symbiont opening",
+          "body": "this separate from the Aether and Depths spoiler-free sections.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Symbiont opening",
+          "body": "Watch for the weakened posture, then look behind the Symbiont for its exposed purple weak point. Coordinate your attack window with nearby players. A boss bar shows remaining health; it does not by itself establish maximum-health scaling.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+          "anchor": "shot_symbiont"
+        }
+      ]
+    },
+    {
+      "chapter": "wither",
+      "before": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Find the entrance",
+          "body": "SCREENSHOT NEEDED. Capture the open entrance above the main head at a readable distance, with the full opening visible. A second image should show a safe aiming position. This is a navigation image; avoid motion blur and hide chat.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+          "anchor": "shot_bowels"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Find the entrance",
+          "body": "Look for the open entrance above the main head. Identify the whole opening before committing to an approach. Keep your group informed of its position; reaching the entrance does not make the approach safe from attacks.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+          "anchor": "shot_bowels"
+        }
+      ]
+    }
+  ]
+}

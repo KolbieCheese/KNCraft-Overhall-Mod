@@ -24,6 +24,7 @@ public final class Architecture {
         Compatibility.validate();
         LegacyConfigImport.run(FMLPaths.CONFIGDIR.get());
         GuideBootstrap.install(FMLPaths.GAMEDIR.get());
+        com.beautyinblocks.kncraft.integration.guide.GuideNetwork.register();
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ArchitectureConfig.SPEC, "kncraft-common.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ExpansionConfig.SPEC, "kncraft-integrations.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, PolishConfig.SPEC, "kncraft-polish.toml");
@@ -32,6 +33,8 @@ public final class Architecture {
         lootCodecs.register("supplies", () -> com.beautyinblocks.kncraft.integration.supplies.SupplyLootModifier.CODEC);
         lootCodecs.register(FMLJavaModLoadingContext.get().getModEventBus());
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.guide.GuideDelivery());
+        MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.equipment.ReservedFood());
         MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.supplies.SupplyTrades());
         if (Compatibility.exact("carryon")) MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.supplies.CarryOnTags());
         MinecraftForge.EVENT_BUS.register(new Encounters());
@@ -80,6 +83,8 @@ public final class Architecture {
         if (Compatibility.present("waystones") && ArchitectureConfig.WAYSTONES.get()) lines.add(waystonePolicy());
         lines.add("Cohesion config: cotton=" + ArchitectureConfig.COTTON.get() + ", wildlife=" + ArchitectureConfig.WILDLIFE.get() + ", meals=" + ArchitectureConfig.MEALS.get() + ", fiber=" + ArchitectureConfig.FIBERS.get());
         lines.add("Guide: patchouli:kncraft_guide; " + GuideBootstrap.state + "; matching client installation required.");
+        lines.add("Reference guide: first-join gift=" + PolishConfig.STARTER_GUIDE.get() + "; reserved auto-feed protection=" + PolishConfig.RESERVED_FOOD.get()
+            + "; live reference keys=" + com.beautyinblocks.kncraft.integration.guide.GuideValues.KEYS.size());
         lines.add("Accomplishment journal: " + com.beautyinblocks.kncraft.integration.journal.JournalBootstrap.state);
         lines.add("Tent climate=" + (Compatibility.exact("nomadictents") && Compatibility.exact("cold_sweat") && ExpansionConfig.TENT_CLIMATE.get())
             + "; enclosed interiors=" + ExpansionConfig.TENT_ENCLOSURE.get() + "; safe Carry On=" + ExpansionConfig.SAFE_CARRY.get());
@@ -114,6 +119,13 @@ public final class Architecture {
         catch (java.io.IOException ex) { LogUtils.getLogger().warn("Could not write kncraft-status.txt", ex); }
     }
     @SubscribeEvent public void commands(RegisterCommandsEvent event) {
+        event.getDispatcher().register(Commands.literal("kncraft").then(Commands.literal("feeding").then(Commands.literal("reserved")
+            .then(Commands.argument("protect", com.mojang.brigadier.arguments.BoolArgumentType.bool()).executes(ctx -> {
+                boolean protect = com.mojang.brigadier.arguments.BoolArgumentType.getBool(ctx, "protect");
+                com.beautyinblocks.kncraft.integration.equipment.ReservedFood.setProtection(ctx.getSource().getPlayerOrException(), protect);
+                ctx.getSource().sendSuccess(() -> Component.literal("Reserved food protection " + (protect ? "enabled" : "disabled") + " for you. Server settings and backpack filters still apply."), false);
+                return 1;
+            })))));
         event.getDispatcher().register(Commands.literal("kncraft").then(Commands.literal("attributes").executes(ctx -> {
             var player = ctx.getSource().getPlayerOrException();
             ctx.getSource().sendSuccess(() -> Component.literal("Attribute migration: " + com.beautyinblocks.kncraft.integration.equipment.EnchantmentAttributes.migration(player)), false);

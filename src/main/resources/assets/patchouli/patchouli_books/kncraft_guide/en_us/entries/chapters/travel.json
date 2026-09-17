@@ -124,15 +124,9 @@
     {
       "type": "patchouli:kn_text",
       "heading": "One camp, two locations",
-      "body": "SCREENSHOT NEEDED. Capture a furnished tent interior, the packed item with Tent ID visible, and the same interior after setting up elsewhere. Include a simple arrangement of storage, cooking, temperature supplies and a clear door. This",
+      "body": "A tent keeps its interior when packed and pitched again. Check the packed item's Tent ID so you move the same camp. Keep the door clear and inspect the new campsite climate after moving; furniture persistence does not guarantee a comfortable temperature.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
       "anchor": "shot_tent"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "One camp, two locations",
-      "body": "demonstrates what persists during a move.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -159,6 +153,13 @@
       "heading": "Choose useful upgrades +...",
       "body": "gives a portable workspace. Stack upgrades increase suitable storage capacity. Refill and deposit/restock tools reduce repeated sorting at camp. Open each upgrade's settings instead of assuming its defaults fit your loadout.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Save food for deliberate use",
+      "body": "Automatic backpack feeding reserves Golden Apple Stew and enchanted golden apples by default. You can still eat them yourself. Use /kncraft feeding reserved false to allow automatic use, or true to restore protection. The server controls the reserve list.",
+      "anchor": "kncraft_reserved_food",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",

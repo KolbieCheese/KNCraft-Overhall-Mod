@@ -1,0 +1,28 @@
+KNCraft Compatibility 1.0.2 / Forge 47.4.0 / Java 17
+Isolated fixtures, 17 September 2026. Selected output; no physical client run.
+
+REFERENCE: one-time guide delivery, full inventory retry, native feeding reserves, player opt-out persistence, authoritative overrides, packet data and 344 guide routes verified
+[13:06:28] [Server thread/INFO] [minecraft/MinecraftServer]: REFERENCE CHECKS PASSED
+[13:06:30] [Server thread/INFO] [minecraft/MinecraftServer]: POLISH CHECKS PASSED
+[13:06:31] [Server thread/INFO] [minecraft/MinecraftServer]: EXPANSION CHECKS PASSED
+TENT CLIMATE: 30 shape/size combinations, expanded floors, source changes and unloaded snapshots checked
+[13:06:33] [Server thread/INFO] [minecraft/MinecraftServer]: TENT CLIMATE CHECKS PASSED
+REFERENCE: one-time guide delivery, full inventory retry, native feeding reserves, player opt-out persistence, authoritative overrides, packet data and 344 guide routes verified
+[13:06:37] [Server thread/INFO] [minecraft/MinecraftServer]: REFERENCE CHECKS PASSED
+[13:06:39] [Server thread/INFO] [minecraft/MinecraftServer]: EXPANSION CHECKS PASSED
+[13:06:39] [Server thread/INFO] [minecraft/MinecraftServer]: COHESION CHECKS PASSED
+PERF TEST: 10000 minimum-selection cases match stable sorting (ties, empty lists, NaN).
+PERF TEST: 135 live portal comparisons + immediate removal + fallbacks passed. 300 empty searches original=24.4285ms optimized=0.5688ms; blockChecks=0 sectionChecks=9
+PERF TEST: actual Alex's Mobs item goal matches original with 80 candidates, equal-distance ties and target removal.
+PERF TEST: 64 actual tornado forceRotate comparisons passed (normal/pet, grab settings, items/mobs). Broad candidates=206, living=5
+[13:06:49] [Server thread/INFO] [minecraft/MinecraftServer]: KNCRAFT PERFORMANCE: ALL REGRESSIONS PASSED
+[13:06:50] [Server thread/INFO] [minecraft/MinecraftServer]: CLIENT ACKNOWLEDGEMENT GATE PASSED
+[13:06:51] [Server thread/INFO] [minecraft/MinecraftServer]: DEPTH HEIGHT TESTS PASSED: four large-frame placements, both orientations, high/negative targets, bedrock intact, unsafe sources rejected
+
+Optional-mods-absent server:
+[13:06:42] [Server thread/INFO] [minecraft/DedicatedServer]: Done (1.317s)! For help, type "help"
+[13:06:42] [Server thread/INFO] [co.be.kn.co.Architecture/]: KNCraft Compatibility 1.0.2 � Java 17 / Minecraft 1.20.1 / Forge 47.4.0
+Reference guide: first-join gift=true; reserved auto-feed protection=true; live reference keys=26
+[13:06:43] [Server thread/INFO] [minecraft/MinecraftServer]: KNCraft Compatibility 1.0.2 � Java 17 / Minecraft 1.20.1 / Forge 47.4.0
+[13:06:43] [Server thread/INFO] [minecraft/MinecraftServer]: Reference guide: first-join gift=true; reserved auto-feed protection=true; live reference keys=26
+[13:06:47] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved

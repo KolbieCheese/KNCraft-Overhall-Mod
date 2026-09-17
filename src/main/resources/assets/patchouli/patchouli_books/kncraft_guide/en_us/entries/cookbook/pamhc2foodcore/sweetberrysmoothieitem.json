@@ -18,8 +18,17 @@
       "input": "pamhc2foodcore:sweetberryjuiceitem",
       "output": "pamhc2foodcore:sweetberrysmoothieitem",
       "station": "aether:freezer",
-      "body": "Freeze prepared juice for 10 seconds. Makes one smoothie; uses normal Freezer fuel.",
+      "body": "Pack defaults: Freeze prepared juice for 10 seconds. Makes one smoothie; uses normal Freezer fuel.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Server machine recipe",
+      "body": "10 seconds with normal machine fuel. Use JEI for the current ingredients and result.",
+      "anchor": "kncraft_server_recipe",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)",
+      "reference": "recipe/kncraft:sweetberry_smoothie_freezing",
+      "fallback": "10 seconds with normal machine fuel. Use JEI for the current ingredients and result."
     }
   ],
   "extra_recipe_mappings": {}

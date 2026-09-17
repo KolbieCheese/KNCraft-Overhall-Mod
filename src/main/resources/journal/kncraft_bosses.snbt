@@ -13,6 +13,7 @@
       "id": "49929E51070FCECB",
       "title": "Defeat the Ender Dragon",
       "icon": "minecraft:diamond_sword",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "44437C59AB593D35",
       "title": "Defeat the Wither",
       "icon": "minecraft:diamond_sword",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "40954B1AD5147E9A",
       "title": "Defeat an Elder Guardian",
       "icon": "minecraft:diamond_sword",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 0.0,
       "description": [

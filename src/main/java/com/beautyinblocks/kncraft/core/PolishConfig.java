@@ -9,9 +9,15 @@ public final class PolishConfig {
     public static final ForgeConfigSpec.BooleanValue ATTRIBUTES, MIGRATE_ATTRIBUTES, OFFERINGS, REGIONAL_CLIMATE, ALTAR;
     public static final ForgeConfigSpec.IntValue OFFERING_TICKS;
     public static final ForgeConfigSpec.ConfigValue<List<? extends String>> BIOMES;
+    public static final ForgeConfigSpec.BooleanValue RESERVED_FOOD, STARTER_GUIDE;
+    public static final ForgeConfigSpec.ConfigValue<List<? extends String>> RESERVED_ITEMS;
     static {
         var b = new ForgeConfigSpec.Builder();
         b.comment("Restart after changing module switches. Player control presets are opt-in client commands.");
+        STARTER_GUIDE = b.comment("Give the Field Guide once per player. Existing copies count; respawns and reconnects do not duplicate it.").define("giveStarterGuide", true);
+        RESERVED_FOOD = b.comment("Keep reserved provisions out of backpack automatic feeding. Players can opt out with /kncraft feeding reserved false.").define("protectReservedFoods", true);
+        RESERVED_ITEMS = b.comment("Exact item IDs reserved for manual eating; native backpack filters still apply to other food.")
+            .defineListAllowEmpty(List.of("reservedFoods"), List.of("witherstormmod:golden_apple_stew", "minecraft:enchanted_golden_apple"), value -> value instanceof String);
         ATTRIBUTES = b.define("cooperativeEnchantmentAttributes", true);
         MIGRATE_ATTRIBUTES = b.comment("One-time migration only when ALL FOUR saved base values match More Enchantments' current formulas. Original values are backed up in player data. Set false to preserve every preexisting base value.")
             .define("migrateMatchingLegacyAttributes", true);

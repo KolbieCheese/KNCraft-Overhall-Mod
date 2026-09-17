@@ -124,7 +124,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Weather to recognize",
-      "body": "SCREENSHOT NEEDED. Storm, tornado, snow and siren captures are included. Still needed: a Deflector setup showing its placement. No extra HUD capture is needed.",
+      "body": "Place a Deflector as part of your shelter plan, and use the Weather2 instruments described in this chapter to watch changing conditions. A device does not replace a planned route back to shelter.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
       "anchor": "shot_weather"
     },

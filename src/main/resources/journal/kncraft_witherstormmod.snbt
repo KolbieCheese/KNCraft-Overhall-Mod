@@ -13,6 +13,7 @@
       "id": "49330B0D5A2F9AF1",
       "title": "Beaconator 4000",
       "icon": "witherstormmod:super_beacon",
+      "guide_page": "kncraft/chapters/wither",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "4429F30358267E01",
       "title": "I Spy With My Little Eye",
       "icon": "witherstormmod:amulet",
+      "guide_page": "kncraft/chapters/wither",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "4A6324586E9AD18C",
       "title": "The Belly of the Beast",
       "icon": "witherstormmod:tainted_sand",
+      "guide_page": "kncraft/chapters/wither",
       "x": 4.0,
       "y": 0.0,
       "description": [
@@ -82,6 +85,7 @@
       "id": "4E89145EE9254946",
       "title": "Licensed Clinician",
       "icon": "witherstormmod:golden_apple_stew",
+      "guide_page": "kncraft/chapters/wither",
       "x": 6.0,
       "y": 0.0,
       "description": [
@@ -105,6 +109,7 @@
       "id": "4AB253ABAE6297E3",
       "title": "Brushing Shoulders With Death",
       "icon": "minecraft:spectral_arrow",
+      "guide_page": "kncraft/chapters/wither",
       "x": 8.0,
       "y": 0.0,
       "description": [
@@ -128,6 +133,7 @@
       "id": "449BEE1269436394",
       "title": "F-Bomb",
       "icon": "witherstormmod:formidibomb",
+      "guide_page": "kncraft/chapters/wither",
       "x": 10.0,
       "y": 0.0,
       "description": [
@@ -151,6 +157,7 @@
       "id": "417B8E3202AF1837",
       "title": "Order of the Stone",
       "icon": "minecraft:ender_eye",
+      "guide_page": "kncraft/chapters/wither",
       "x": 12.0,
       "y": 0.0,
       "description": [
@@ -174,6 +181,7 @@
       "id": "4AD47820C03F7E3D",
       "title": "Harbinger of Cataclysmic Fates",
       "icon": "witherstormmod:withered_flesh",
+      "guide_page": "kncraft/chapters/wither",
       "x": 0.0,
       "y": 2.0,
       "description": [
@@ -197,6 +205,7 @@
       "id": "4C1CF8EC0F8AE5EE",
       "title": "Infinite Potential",
       "icon": "witherstormmod:command_block_book",
+      "guide_page": "kncraft/chapters/wither",
       "x": 2.0,
       "y": 2.0,
       "description": [
@@ -220,6 +229,7 @@
       "id": "40C2371C71DCF06F",
       "title": "Insane Dedication",
       "icon": "witherstormmod:command_block_hoe",
+      "guide_page": "kncraft/chapters/wither",
       "x": 4.0,
       "y": 2.0,
       "description": [
@@ -243,6 +253,7 @@
       "id": "499AF4A40E6285EF",
       "title": "A Nasty Surprise",
       "icon": "witherstormmod:tainted_jack_o_lantern",
+      "guide_page": "kncraft/chapters/wither",
       "x": 6.0,
       "y": 2.0,
       "description": [
@@ -266,6 +277,7 @@
       "id": "44F45A0871C26AE4",
       "title": "Overly Dedicated",
       "icon": "witherstormmod:wooden_command_block_hoe",
+      "guide_page": "kncraft/chapters/wither",
       "x": 8.0,
       "y": 2.0,
       "description": [
@@ -289,6 +301,7 @@
       "id": "4575FE3AAB825FCA",
       "title": "Back to the Beginning Again",
       "icon": "minecraft:command_block",
+      "guide_page": "kncraft/chapters/wither",
       "x": 10.0,
       "y": 2.0,
       "description": [
@@ -312,6 +325,7 @@
       "id": "41696DF82907C4B6",
       "title": "Need More Books",
       "icon": "witherstormmod:withered_symbiont_spawn_egg",
+      "guide_page": "kncraft/chapters/wither",
       "x": 12.0,
       "y": 2.0,
       "description": [
@@ -335,6 +349,7 @@
       "id": "4F88C73A54F01B41",
       "title": "The Storm is Coming!",
       "icon": "minecraft:bell",
+      "guide_page": "kncraft/chapters/wither",
       "x": 0.0,
       "y": 4.0,
       "description": [
@@ -358,6 +373,7 @@
       "id": "47D6AE752C60A0C5",
       "title": "Every Cloud Has a Silver Lining",
       "icon": "witherstormmod:command_block_sword",
+      "guide_page": "kncraft/chapters/wither",
       "x": 2.0,
       "y": 4.0,
       "description": [
@@ -381,6 +397,7 @@
       "id": "4B824F3258371150",
       "title": "Is it the end?",
       "icon": "minecraft:spyglass",
+      "guide_page": "kncraft/chapters/wither",
       "x": 4.0,
       "y": 4.0,
       "description": [
@@ -404,6 +421,7 @@
       "id": "40387A0FC7C1247B",
       "title": "The Strong Grow Weak...",
       "icon": "witherstormmod:infected_flesh_block",
+      "guide_page": "kncraft/chapters/wither",
       "x": 6.0,
       "y": 4.0,
       "description": [
@@ -427,6 +445,7 @@
       "id": "49F1DD30159AE551",
       "title": "Infection Generator",
       "icon": "witherstormmod:tainted_zombie_wall",
+      "guide_page": "kncraft/chapters/wither",
       "x": 8.0,
       "y": 4.0,
       "description": [
@@ -450,6 +469,7 @@
       "id": "4658C6E941A3FF98",
       "title": "Nothing Built Can Last Forever",
       "icon": "minecraft:wither_skeleton_skull",
+      "guide_page": "kncraft/chapters/wither",
       "x": 10.0,
       "y": 4.0,
       "description": [
@@ -473,6 +493,7 @@
       "id": "49413AED9062EE89",
       "title": "...The Weakened Arise Stronger",
       "icon": "minecraft:end_crystal",
+      "guide_page": "kncraft/chapters/wither",
       "x": 12.0,
       "y": 4.0,
       "description": [
@@ -496,6 +517,7 @@
       "id": "4E2668C330B27B1B",
       "title": "One Story Ends, Another Begins",
       "icon": "witherstormmod:withered_nether_star",
+      "guide_page": "kncraft/chapters/wither",
       "x": 0.0,
       "y": 6.0,
       "description": [

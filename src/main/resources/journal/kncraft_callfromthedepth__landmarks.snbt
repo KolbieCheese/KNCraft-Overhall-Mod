@@ -13,6 +13,7 @@
       "id": "4F5954803A998486",
       "title": "Ancientaqueduct",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "4E221A9FF134DB27",
       "title": "Ancientcitadel",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "4BA39D3C46427AB8",
       "title": "Ancientgates",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 0.0,
       "description": [
@@ -82,6 +85,7 @@
       "id": "4E469E9577EC1A6E",
       "title": "Ancientlibrary",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 0.0,
       "description": [
@@ -105,6 +109,7 @@
       "id": "478AF6BF50B597B1",
       "title": "Ancientmotherstatue",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 0.0,
       "description": [
@@ -128,6 +133,7 @@
       "id": "434A003F36D77537",
       "title": "Ancientportal",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 0.0,
       "description": [
@@ -151,6 +157,7 @@
       "id": "4E67E9BAFFD250BB",
       "title": "Ancientprison",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 0.0,
       "description": [
@@ -174,6 +181,7 @@
       "id": "4F6F05CD8F8395D6",
       "title": "Ancientsacrificialbastion",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 2.0,
       "description": [
@@ -197,6 +205,7 @@
       "id": "4F32A599E629AEC1",
       "title": "Ancientshrine",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 2.0,
       "description": [
@@ -220,6 +229,7 @@
       "id": "4FDAD71E92900166",
       "title": "Ancienttower",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 2.0,
       "description": [
@@ -243,6 +253,7 @@
       "id": "4379DA83F564150B",
       "title": "Deepvillage",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 2.0,
       "description": [
@@ -266,6 +277,7 @@
       "id": "467A39C79E6F97A9",
       "title": "Depthstemple",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 2.0,
       "description": [
@@ -289,6 +301,7 @@
       "id": "4F9C5F71F5AA35F4",
       "title": "Marbleforge",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 2.0,
       "description": [
@@ -312,6 +325,7 @@
       "id": "42C1511354E23AC6",
       "title": "Ruined Ancientaqueduct",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 2.0,
       "description": [
@@ -335,6 +349,7 @@
       "id": "48E8663C4966E673",
       "title": "Ruinedancientgates",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 4.0,
       "description": [

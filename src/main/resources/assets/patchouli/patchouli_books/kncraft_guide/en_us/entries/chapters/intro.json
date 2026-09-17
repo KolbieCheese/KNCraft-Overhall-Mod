@@ -111,16 +111,30 @@
     },
     {
       "type": "patchouli:kn_text",
-      "heading": "Your accomplishment journal",
-      "body": "FTB Quests records bosses, discoveries and mod advancements. Choose any entry, in any order. There are no reward chains, recipe locks or item turn-ins. Existing native advancements can count; revisit landmarks to record new discoveries.",
-      "anchor": "kncraft_journal",
+      "heading": "Your first Field Guide",
+      "body": "You receive this guide once when joining the world. A carried copy counts; a full inventory delays delivery until space is free. Death and reconnecting do not grant another. Craft a book with one paper if you need a replacement.",
+      "anchor": "kncraft_guide",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",
-      "heading": "Keep this guide",
-      "body": "Craft a book with one paper for this Field Guide. Its chapters explain how the pack works together. Food effects appear beside their Cook Book recipes. Values shown are pack defaults; the server may adjust them. Check item tooltips for active effects.",
-      "anchor": "kncraft_guide",
+      "heading": "From journal to chapter",
+      "body": "Open a journal record, then select Open in Guide to jump to the relevant Field Guide chapter. All records stay independent, without rewards or recipe locks. Read at your own pace and return to the journal when ready.",
+      "anchor": "kncraft_journal_links",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Values from your server",
+      "body": "Thermal-food and selected insulation pages request current server definitions while open. They label pack defaults while waiting. Values describe a plain item under your current conditions; item data and other modifiers may change the result.",
+      "anchor": "kncraft_server_values",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Your accomplishment journal",
+      "body": "FTB Quests records bosses, discoveries and mod advancements. Choose any entry, in any order. There are no reward chains, recipe locks or item turn-ins. Existing native advancements can count; revisit landmarks to record new discoveries.",
+      "anchor": "kncraft_journal",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
     },
     {
@@ -137,17 +151,22 @@
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)"
     },
     {
-      "type": "patchouli:kn_text",
+      "type": "patchouli:kn_map",
       "heading": "BlueMap: read the threat",
-      "body": "SCREENSHOT NEEDED. Capture KNCraft BlueMap showing both Wither Storm markers, a named settlement or landmark, and enough terrain to judge direction. Hide private chat or unrelated browser tabs. This should teach players how to plan a route",
+      "body": "Three Wither Storm markers appear near the center of this BlueMap example. Check the live map before traveling; positions change.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
-      "anchor": "shot_map"
+      "anchor": "shot_map",
+      "picture": "kncraft:textures/guide/capture_bluemap_three_storms.jpg",
+      "credit": "KNCraft"
     },
     {
-      "type": "patchouli:kn_text",
-      "heading": "BlueMap: read the threat",
-      "body": "around the current threats.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)"
+      "type": "patchouli:kn_map_detail",
+      "heading": "The three markers",
+      "body": "Three markers in the same map. Check live positions before choosing a route.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+      "anchor": "kncraft_map_markers",
+      "picture": "kncraft:textures/guide/capture_bluemap_three_storms.jpg",
+      "credit": "KNCraft"
     },
     {
       "type": "patchouli:relations",

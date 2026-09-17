@@ -3,7 +3,20 @@
   "minVersion": "0.8",
   "package": "com.beautyinblocks.kncraft.integration.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": ["KnownTagsMixin", "TentPlacementClimateMixin", "TentEnclosureMixin", "FlightEquipmentMixin", "WingArmorMixin", "EnchantmentAttributesMixin", "AltarRepairMixin", "FeedingClimateMixin", "CompanionCleaveMixin"],
-  "injectors": {"defaultRequire": 1},
+  "mixins": [
+    "KnownTagsMixin",
+    "TentPlacementClimateMixin",
+    "TentEnclosureMixin",
+    "FlightEquipmentMixin",
+    "WingArmorMixin",
+    "EnchantmentAttributesMixin",
+    "AltarRepairMixin",
+    "FeedingClimateMixin",
+    "CompanionCleaveMixin",
+    "ReservedFoodMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
   "plugin": "com.beautyinblocks.kncraft.core.IntegrationMixinPlugin"
 }

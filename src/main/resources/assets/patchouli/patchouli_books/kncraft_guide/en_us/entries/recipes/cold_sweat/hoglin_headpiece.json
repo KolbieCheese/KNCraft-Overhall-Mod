@@ -14,9 +14,18 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Aether Altar repair",
-      "body": "Repair this damaged item in an Aether Altar in 50 seconds with normal altar fuel. Its name, enchantments and sewn insulation are retained. See $(l:patchouli:chapters/aether#kncraft_altar_repairs)altar maintenance$(/l).",
+      "body": "Pack defaults: Repair this damaged item in an Aether Altar in 50 seconds with normal altar fuel. Its name, enchantments and sewn insulation are retained. See $(l:patchouli:chapters/aether#kncraft_altar_repairs)altar maintenance$(/l).",
       "anchor": "kncraft_altar_repair",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Server machine recipe",
+      "body": "50 seconds with normal machine fuel. Use JEI for the current ingredients and result.",
+      "anchor": "kncraft_server_recipe",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)",
+      "reference": "recipe/kncraft:hoglin_helmet_altar_repair",
+      "fallback": "50 seconds with normal machine fuel. Use JEI for the current ingredients and result."
     }
   ],
   "extra_recipe_mappings": {}

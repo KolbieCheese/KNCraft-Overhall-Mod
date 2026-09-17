@@ -71,13 +71,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Read the landscape (cont.)",
-      "body": "Horizons changes how far terrain can be seen. It does not create mountains or structures. This chapter includes author examples and captures from KNCraft. Credits identify their source; scenery does not guarantee what you",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Read the landscape (cont.)",
-      "body": "will find along another route.",
+      "body": "Horizons changes how far terrain can be seen. It does not create mountains or structures. This chapter includes author examples and captures from KNCraft. Credits identify their source; scenery does not guarantee what you will find along another route.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
     },
     {
@@ -120,17 +114,11 @@
     {
       "type": "patchouli:kn_image",
       "heading": "Underground rivers",
-      "body": "Tectonic's underground-river example. Light the entry and keep a",
+      "body": "Tectonic's underground-river example. Light the entry and keep a clear return route before exploring out of sight.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
       "anchor": "tectonic_river",
       "picture": "kncraft:textures/guide/tectonic-4.png",
       "credit": "$(l:https://modrinth.com/mod/tectonic/gallery)Source$(/l)"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Underground rivers",
-      "body": "clear return route before exploring out of sight.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -163,17 +151,11 @@
     {
       "type": "patchouli:kn_image",
       "heading": "Wildlife in open country",
-      "body": "Animals share the open landscape. Leave room to observe before",
+      "body": "Animals share the open landscape. Leave room to observe before approaching.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
       "anchor": "capture_open_country",
       "picture": "kncraft:textures/guide/capture_open_country.png",
       "credit": "KNCraft"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Wildlife in open country",
-      "body": "approaching.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -191,17 +173,11 @@
     {
       "type": "patchouli:kn_image",
       "heading": "Redwood forest",
-      "body": "Redwood Forest from the project gallery. Tall vegetation limits sightlines at ground",
+      "body": "Redwood Forest from the project gallery. Tall vegetation limits sightlines at ground level and can hide the route back to your group.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
       "anchor": "redwoods",
       "picture": "kncraft:textures/guide/biomes-o-plenty-2.png",
       "credit": "$(l:https://modrinth.com/mod/biomes-o-plenty/gallery)Source$(/l)"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Redwood forest",
-      "body": "level and can hide the route back to your group.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
     },
     {
       "type": "patchouli:kn_image",
@@ -246,17 +222,11 @@
     {
       "type": "patchouli:kn_image",
       "heading": "A structure offshore",
-      "body": "The project's Pirate Ship example. Scout the water and the deck before committing",
+      "body": "The project's Pirate Ship example. Scout the water and the deck before committing to a landing; aquatic wildlife can complicate the approach.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
       "anchor": "dungeon_ship",
       "picture": "kncraft:textures/guide/dungeons-enhanced-0.png",
       "credit": "$(l:https://modrinth.com/mod/dungeons-enhanced/gallery)Source$(/l)"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "A structure offshore",
-      "body": "to a landing; aquatic wildlife can complicate the approach.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -274,17 +244,11 @@
     {
       "type": "patchouli:kn_image",
       "heading": "Ruins along the route",
-      "body": "Grassy Ruins from Structory's gallery. Use a distinctive ruin to describe a meeting",
+      "body": "Grassy Ruins from Structory's gallery. Use a distinctive ruin to describe a meeting point, then give its coordinates to avoid confusion.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
       "anchor": "structory_ruin",
       "picture": "kncraft:textures/guide/structory-1.png",
       "credit": "$(l:https://modrinth.com/mod/structory/gallery)Source$(/l)"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Ruins along the route",
-      "body": "point, then give its coordinates to avoid confusion.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -302,17 +266,11 @@
     {
       "type": "patchouli:kn_image",
       "heading": "A canyon crossing",
-      "body": "Abridged's stone-bridge example. Inspect the actual crossing before using",
+      "body": "Abridged's stone-bridge example. Inspect the actual crossing before using it as the only evacuation route.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
       "anchor": "bridge",
       "picture": "kncraft:textures/guide/abridged-0.png",
       "credit": "$(l:https://modrinth.com/mod/abridged/gallery)Source$(/l)"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "A canyon crossing",
-      "body": "it as the only evacuation route.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -330,17 +288,11 @@
     {
       "type": "patchouli:kn_image",
       "heading": "A different village layout",
-      "body": "Birch Forest Village from the project gallery. Larger or unfamiliar layouts",
+      "body": "Birch Forest Village from the project gallery. Larger or unfamiliar layouts make it worth choosing a clear entrance and meeting place.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
       "anchor": "village",
       "picture": "kncraft:textures/guide/towns-and-towers-6.png",
       "credit": "$(l:https://modrinth.com/mod/towns-and-towers/gallery)Source$(/l)"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "A different village layout",
-      "body": "make it worth choosing a clear entrance and meeting place.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -367,32 +319,20 @@
     {
       "type": "patchouli:kn_image",
       "heading": "Distant Horizons off",
-      "body": "The overlook without Distant Horizons. Compare the distant terrain in the next",
+      "body": "The overlook without Distant Horizons. Compare the distant terrain in the next view.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
       "anchor": "capture_horizons_off",
       "picture": "kncraft:textures/guide/capture_horizons_off.png",
       "credit": "KNCraft"
     },
     {
-      "type": "patchouli:kn_text",
-      "heading": "Distant Horizons off",
-      "body": "view.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
-    },
-    {
       "type": "patchouli:kn_image",
       "heading": "Distant Horizons on",
-      "body": "Distant terrain extends beyond the nearby chunks. Camera and lighting",
+      "body": "Distant terrain extends beyond the nearby chunks. Camera and lighting differ slightly.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
       "anchor": "capture_horizons_on",
       "picture": "kncraft:textures/guide/capture_horizons_on.png",
       "credit": "KNCraft"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Distant Horizons on",
-      "body": "differ slightly.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
     },
     {
       "type": "patchouli:kn_text",

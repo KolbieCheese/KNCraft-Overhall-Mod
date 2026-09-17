@@ -13,6 +13,7 @@
       "id": "4CDBC059D3220B56",
       "title": "Grow a fiber supply",
       "icon": "pamhc2crops:cottonitem",
+      "guide_page": "kncraft/chapters/food",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "43C48FD41839FE28",
       "title": "Harvest tea",
       "icon": "pamhc2crops:tealeafitem",
+      "guide_page": "kncraft/chapters/food",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "4DA230A43826C389",
       "title": "Harvest rice",
       "icon": "pamhc2crops:riceitem",
+      "guide_page": "kncraft/chapters/food",
       "x": 4.0,
       "y": 0.0,
       "description": [

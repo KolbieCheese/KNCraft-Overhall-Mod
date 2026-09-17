@@ -2,7 +2,7 @@
 
 Pinned toolchain: Java 17, Gradle 8.8 (wrapper checksum), ForgeGradle 6.0.36,
 Minecraft 1.20.1 official mappings and Forge 47.4.0. `tools/bootstrap_dependencies.py` copies
-eight top-level inputs and extracts Infiniverse from the verified Nomadic Tents parent archive.
+nine top-level inputs (including Patchouli 85's public guide API) and extracts Infiniverse from the verified Nomadic Tents parent archive.
 It records hashes in ignored `libs/verified-inputs.json`. Build dependencies are local aliases
 for verified artifacts, not machine-specific paths. All third-party JARs remain outside Git.
 
@@ -15,6 +15,9 @@ the artifact hash rather than assuming the filename equals its internal version.
 separate reobfuscated depth, tents, performance, cohesion and expansion harnesses. Main resources never
 include test commands/classes. `tools/validate_artifact.py --jar PATH` checks this boundary,
 JSON resources, guide assets, original gameplay data and fiber recipe costs.
+The normal Gradle `check` task also runs this resource audit and writes
+`docs/Guide-Asset-Report.json`. Documented photo requests may remain in the external
+backlog; missing textures or unfinished author prompts inside the book fail the build.
 
 CI builds on public GitHub-hosted runners. `bootstrap_dependencies.py --download` obtains
 the exact inputs from the official URLs in `Build-Inputs.json` and checks their hashes.
@@ -46,4 +49,6 @@ Test commands include `kncraftperfprepare` (wait), `kncraftperftest`, `kncraftte
 `kncrafttenttest`, `depthheighttests`, `nativeportalchecks`, `kncraftcohesiontest`, and the separate
 tent persistence/traversal commands retained in source. The expansion adds `kncraftexpansiontest`
 and `kncraftclimatetest`, plus `kncraftclimatepersist` after restarting their saved fixtures. They modify their world deliberately.
+`kncraftreferencetest` exercises guide delivery, feeding reserves, persisted preferences,
+server definition overrides, recipe replacement, packet data and native FTB guide routes.
 Real multiplayer login and seamless rendering/traversal require a physical client afterward.

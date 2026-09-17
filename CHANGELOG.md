@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.0.2 - connected Field Guide
+
+- Added configurable automatic-feeding reserves for Golden Apple Stew and enchanted
+  golden apples, with a persistent per-player opt-out and unchanged manual consumption.
+- Give one Field Guide per player, recognizing carried copies and waiting for inventory
+  space. Preserve the receipt through respawn, reconnect and saved-player reload.
+- Connect all 344 journal records to their existing guide chapters through FTB's native
+  Open in Guide action; retain stable IDs, administrator edits and reward-free tracking.
+- Display 26 authoritative server references beside food/equipment recipes and sewing
+  instructions: nine thermal foods, five insulation materials/items and twelve machine recipes.
+- Include the supplied BlueMap photo with three Wither Storm markers, an overview and
+  a native detail view. Preserve its original JPEG bytes and all prior artwork.
+- Replace author capture prompts with useful player instructions, complete short captions,
+  add illustrated hearth/kitchen steps and audit unfinished text/images during builds.
+  Keep the six remaining photo groups (13 minimum shots) in the external capture checklist.
+- No expedition loadouts or equipment profiles are included.
+
 ## 1.0.1 - expedition polish
 
 - Added an opt-in control preset with backup/restore and conflict reporting; all eleven

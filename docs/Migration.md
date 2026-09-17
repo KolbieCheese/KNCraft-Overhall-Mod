@@ -129,6 +129,43 @@ including capabilities. Journal IDs already present in 1.0.0 remain unchanged.
 
 ## Rollback and resets
 
+### Field Guide finishing update (1.0.2)
+
+Install the matching JAR on the server and clients; use the same external-guide migration
+procedure above if the original loose guide is still installed. The bundled book is version
+12 with the unchanged ID `patchouli:kncraft_guide`. Original artwork stays intact; approved
+text replacements are recorded explicitly in `Guide-Editorial-Edits.json`.
+
+`giveStarterGuide` in `kncraft-polish.toml` defaults to true. A player without a receipt
+receives one guide on joining, or when a free inventory slot becomes available. An existing
+carried guide (including offhand) marks the receipt without adding another. Stored copies
+in remote chests are not scanned. Existing players without a receipt can receive this gift
+on their first join after upgrading. `ForgeData.KNCraftGuideReceivedV1` survives death,
+reconnect and save/load. Lost books can still be crafted; respawning does not replace them.
+No other starter items, expedition loadouts or equipment profiles are provided.
+
+`protectReservedFoods` and `reservedFoods` configure automatic-feeding reserves. The default
+list is Golden Apple Stew and enchanted golden apples. An empty list is valid. The rule also
+holds at emergency hunger; ordinary eligible food remains available. Player preference
+`/kncraft feeding reserved false` allows automatic use, and `true` restores protection.
+`ForgeData.KNCraftAllowReservedAutoFeed` preserves that choice through save/load and respawn.
+Manual eating and upstream backpack filters keep their normal behavior.
+
+The book requests its allowlisted server reference values while those pages are open.
+It refreshes every five seconds, labels defaults while waiting, and clears its cache on
+disconnect. Food/insulation values describe a plain item against the native server registry;
+special item data, conditions and additional modifiers may differ. The displayed definition
+is not a prediction of final body temperature. Machine times come from the server recipe
+manager. Other prose explicitly marked as a pack default remains static.
+
+Unmodified managed journal chapters gain Open in Guide links automatically. Administrator-edited
+chapters remain preserved; add `guide_page: "kncraft/chapters/<chapter>"` there if desired.
+This update never resets journal progress or replaces administrator quest files.
+
+Photography is tracked in `Guide-Capture-Backlog.json` and `Guide-Finishing-Review.md`.
+The BlueMap example is received; six groups/13 minimum captures remain. These requests
+are documentation tasks, not unfinished prompts shown to players.
+
 ### Returning to the earlier helper arrangement
 
 Stop cleanly. Restore the three old helpers and matching datapacks/configs together, remove

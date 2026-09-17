@@ -115,6 +115,51 @@
       "anchor": "insulation"
     },
     {
+      "type": "patchouli:kn_value",
+      "heading": "Cotton",
+      "body": "1 cold / 0.5 heat insulation. Uses sewing capacity.",
+      "anchor": "kncraft_value_cottonitem",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)",
+      "reference": "item/pamhc2crops:cottonitem",
+      "fallback": "1 cold / 0.5 heat insulation. Uses sewing capacity."
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Bear Fur",
+      "body": "1.5 cold / 0 heat insulation. Uses sewing capacity.",
+      "anchor": "kncraft_value_bear_fur",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)",
+      "reference": "item/alexsmobs:bear_fur",
+      "fallback": "1.5 cold / 0 heat insulation. Uses sewing capacity."
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Bison Fur",
+      "body": "1.75 cold / 0 heat insulation. Uses sewing capacity.",
+      "anchor": "kncraft_value_bison_fur",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)",
+      "reference": "item/alexsmobs:bison_fur",
+      "fallback": "1.75 cold / 0 heat insulation. Uses sewing capacity."
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Kangaroo Hide",
+      "body": "0.75 cold / 0.75 heat insulation. Uses sewing capacity.",
+      "anchor": "kncraft_value_kangaroo_hide",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)",
+      "reference": "item/alexsmobs:kangaroo_hide",
+      "fallback": "0.75 cold / 0.75 heat insulation. Uses sewing capacity."
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Frontier Cap",
+      "body": "3 cold / 1 heat insulation. Uses sewing capacity.",
+      "anchor": "kncraft_value_frontier_cap",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)",
+      "reference": "armor/alexsmobs:frontier_cap",
+      "fallback": "3 cold / 1 heat insulation. Uses sewing capacity."
+    },
+    {
       "type": "patchouli:kn_text",
       "heading": "Sewing insulation (cont.)",
       "body": "Hide is useful against heat. Chameleon material provides adaptive protection. Shears in the table remove applied insulation, allowing you to change a set rather than replace the armor.",
@@ -186,7 +231,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Carry climate provisions",
-      "body": "Hot tea, coffee and nettle tea warm for 60 seconds; carrot soup, potato soup and stew for 90. Melon smoothie and ice cream cool for 60; apple juice for 30. See $(l:patchouli:chapters/food#kncraft_thermal_meals)Pam's chapter$(/l) and each Cook Book page.",
+      "body": "Pack defaults: Hot tea, coffee and nettle tea warm for 60 seconds; carrot soup, potato soup and stew for 90. Melon smoothie and ice cream cool for 60; apple juice for 30. See $(l:patchouli:chapters/food#kncraft_thermal_meals)Pam's chapter$(/l) and each Cook Book page.",
       "anchor": "kncraft_meals",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
     },
@@ -196,6 +241,19 @@
       "body": "A Hearth handles larger spaces and has separate heat and cold fuel supplies. It spreads protection through suitable covered spaces; a roof, range limits and obstructions matter. Check the block's control indicators and the effect on a",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
       "anchor": "hearth"
+    },
+    {
+      "type": "patchouli:kn_steps",
+      "heading": "Check the hearth",
+      "body": "",
+      "anchor": "kncraft_practical_steps",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)",
+      "icon1": "cold_sweat:hearth",
+      "step1": "1. Supply fuel for the mode you need.",
+      "icon2": "minecraft:lever",
+      "step2": "2. Enable heating or cooling. Allow warm-up time.",
+      "icon3": "minecraft:oak_door",
+      "step3": "3. Check the air path and range with /kncraft camp."
     },
     {
       "type": "patchouli:kn_text",

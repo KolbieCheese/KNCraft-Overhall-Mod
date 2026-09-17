@@ -77,6 +77,33 @@ only insulation added by KNCraft; administrator-defined accessories and other ar
 their own values. The cap is heat insulation, not temperature immunity. The Aether's
 existing climate and Weather2 support remain unchanged.
 
+## Connected Field Guide (1.0.2)
+
+Players receive one guide, with a carried-copy check and retry after a full inventory.
+The receipt survives respawn and save/load. The book remains craftable if lost. This is
+the only starter gift: there are no expedition loadouts or equipment profiles.
+
+Golden Apple Stew and enchanted golden apples are reserved from native backpack auto-feeding
+by default, even at low hunger. The server can edit/disable the list and each player can
+opt out with `/kncraft feeding reserved false`. Manual eating and normal eligible food
+remain available; upstream backpack filters still apply.
+
+The 344 independent journal records use FTB's native Open in Guide action to open an
+existing Field Guide chapter through Patchouli. Only KNCraft's own guide routes are handled.
+Quest IDs, rewards (none), dependencies (none) and administrator-file ownership stay intact.
+
+Nine food definitions, five insulation definitions and twelve machine recipe times are
+read on the server and sent to the requesting player's open reference pages. The client
+refreshes every five seconds and marks its fallback values explicitly. Requests contain
+no arbitrary item IDs or commands, are rate-limited, and never alter gameplay settings.
+Food/insulation descriptions are for plain items; native conditions and modifiers can
+change the actual effect. Machine recipe ingredients/results remain available in JEI.
+
+The original BlueMap JPEG supplies an overview and closer view of three storm markers.
+Existing images remain unchanged; short captions are completed on their image pages.
+Numbered hearth/kitchen illustrations use native item icons. Pending photography is kept
+in an external checklist, with no author capture prompts in the player book.
+
 ## Existing systems retained
 
 Insulated minecarts already support Better Minecarts linking. Comforts calls the Forge

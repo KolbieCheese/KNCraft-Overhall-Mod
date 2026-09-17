@@ -13,6 +13,7 @@
       "id": "4C138E3D8E0625E3",
       "title": "Black Citadel",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "4273AA57B05BECF8",
       "title": "Castle",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "4A3A2B7700875EC1",
       "title": "Deep Crypt",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 0.0,
       "description": [
@@ -82,6 +85,7 @@
       "id": "498D0F8626B4DDC9",
       "title": "Desert Temple",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 0.0,
       "description": [
@@ -105,6 +109,7 @@
       "id": "4A6FD0244CF52E91",
       "title": "Desert Tomb",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 0.0,
       "description": [
@@ -128,6 +133,7 @@
       "id": "46DE415F2C62E9FD",
       "title": "Druid Circle",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 0.0,
       "description": [
@@ -151,6 +157,7 @@
       "id": "4F2CBCCF675B0FC2",
       "title": "Dungeon Variant",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 0.0,
       "description": [
@@ -174,6 +181,7 @@
       "id": "4E4288174F2FD10F",
       "title": "Elders Temple",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 2.0,
       "description": [
@@ -197,6 +205,7 @@
       "id": "4A2D40245F506D33",
       "title": "Fishing Ship",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 2.0,
       "description": [
@@ -220,6 +229,7 @@
       "id": "42CDEDD1A710F9A3",
       "title": "Flying Dutchman",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 2.0,
       "description": [
@@ -243,6 +253,7 @@
       "id": "438B92AA4C20BACD",
       "title": "Hay Storage",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 2.0,
       "description": [
@@ -266,6 +277,7 @@
       "id": "4E228972D479B22B",
       "title": "Ice Pit",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 2.0,
       "description": [
@@ -289,6 +301,7 @@
       "id": "40B39913DA2043B2",
       "title": "Jungle Monument",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 2.0,
       "description": [
@@ -312,6 +325,7 @@
       "id": "42DC0DAAAE620C02",
       "title": "Large Dungeon",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 2.0,
       "description": [
@@ -335,6 +349,7 @@
       "id": "42A0A9AFA6F8F56E",
       "title": "Miners House",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 4.0,
       "description": [
@@ -358,6 +373,7 @@
       "id": "421718AD4841462B",
       "title": "Monster Maze",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 4.0,
       "description": [
@@ -381,6 +397,7 @@
       "id": "4303CA9BAF48F7DE",
       "title": "Mushroom House",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 4.0,
       "description": [
@@ -404,6 +421,7 @@
       "id": "45BBAB76CD138AD2",
       "title": "Pillager Camp",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 4.0,
       "description": [
@@ -427,6 +445,7 @@
       "id": "4D31DE9479C95432",
       "title": "Pirate Ship",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 4.0,
       "description": [
@@ -450,6 +469,7 @@
       "id": "4E9506D5D6EF4028",
       "title": "Ruined Building",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 4.0,
       "description": [
@@ -473,6 +493,7 @@
       "id": "4FD6CEC83B0C8C79",
       "title": "Stables",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 4.0,
       "description": [
@@ -496,6 +517,7 @@
       "id": "49299E0B405B224E",
       "title": "Sunken Shrine",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 6.0,
       "description": [
@@ -519,6 +541,7 @@
       "id": "4C569AAA5AD1482A",
       "title": "Tall Witch Hut",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 6.0,
       "description": [
@@ -542,6 +565,7 @@
       "id": "4916DE9DBCD2EDE4",
       "title": "Tower Of The Undead",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 6.0,
       "description": [
@@ -565,6 +589,7 @@
       "id": "4764B7789CB0BCCD",
       "title": "Tree House",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 6.0,
       "description": [
@@ -588,6 +613,7 @@
       "id": "4BD92C017545B9E0",
       "title": "Watch Tower",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 6.0,
       "description": [
@@ -611,6 +637,7 @@
       "id": "42F7C46291825069",
       "title": "Witch Tower",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 6.0,
       "description": [

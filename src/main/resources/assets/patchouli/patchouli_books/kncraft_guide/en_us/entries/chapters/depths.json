@@ -75,7 +75,7 @@
     {
       "type": "patchouli:kn_image",
       "heading": "The Ancient City gateway",
-      "body": "The gateway with the destination visible through its opening. Mark your return",
+      "body": "The gateway with the destination visible through its opening. Mark your return route.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
       "anchor": "capture_depths_portal",
       "picture": "kncraft:textures/guide/capture_depths_portal.png",
@@ -83,14 +83,8 @@
     },
     {
       "type": "patchouli:kn_text",
-      "heading": "The Ancient City gateway",
-      "body": "route.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)"
-    },
-    {
-      "type": "patchouli:kn_text",
       "heading": "Gateway and first view",
-      "body": "SCREENSHOT NEEDED. Gateway capture is included. Still needed: the gateway before activation and a brighter, spoiler-free arrival landscape. No temperature HUD is needed here.",
+      "body": "Before activating the gateway, check your supplies and mark its position. On arrival, light the immediate footing and locate the return opening before exploring. Keep a clear route back to the gateway.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
       "anchor": "shot_depths"
     },

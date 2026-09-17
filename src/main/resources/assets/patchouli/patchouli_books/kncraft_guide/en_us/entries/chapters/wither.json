@@ -123,15 +123,9 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Symbiont opening",
-      "body": "SCREENSHOT NEEDED. Capture a Withered Symbiont in its weakened posture from behind, with the purple weak point clearly visible. Add a second capture of the same encounter with the boss bar showing KNCraft health scaling. Keep",
+      "body": "Watch for the weakened posture, then look behind the Symbiont for its exposed purple weak point. Coordinate your attack window with nearby players. A boss bar shows remaining health; it does not by itself establish maximum-health scaling.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
       "anchor": "shot_symbiont"
-    },
-    {
-      "type": "patchouli:kn_text",
-      "heading": "Symbiont opening",
-      "body": "this separate from the Aether and Depths spoiler-free sections.",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
     },
     {
       "type": "patchouli:kn_text",
@@ -228,7 +222,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Find the entrance",
-      "body": "SCREENSHOT NEEDED. Capture the open entrance above the main head at a readable distance, with the full opening visible. A second image should show a safe aiming position. This is a navigation image; avoid motion blur and hide chat.",
+      "body": "Look for the open entrance above the main head. Identify the whole opening before committing to an approach. Keep your group informed of its position; reaching the entrance does not make the approach safe from attacks.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
       "anchor": "shot_bowels"
     },

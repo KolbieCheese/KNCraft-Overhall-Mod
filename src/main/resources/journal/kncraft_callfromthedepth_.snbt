@@ -13,6 +13,7 @@
       "id": "458316F5CA11FA80",
       "title": "Anger in the flesh",
       "icon": "callfromthedepth_:soulofagony",
+      "guide_page": "kncraft/chapters/depths",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "421D06F58D05EEAE",
       "title": "Stronger than the bedrock!",
       "icon": "callfromthedepth_:immemorialarmor_helmet",
+      "guide_page": "kncraft/chapters/depths",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "46215976C01C5BC9",
       "title": "Soul force",
       "icon": "callfromthedepth_:soulingot",
+      "guide_page": "kncraft/chapters/depths",
       "x": 4.0,
       "y": 0.0,
       "description": [
@@ -82,6 +85,7 @@
       "id": "489D6BA0E0899E37",
       "title": "Interesting stuff",
       "icon": "callfromthedepth_:depthbrick",
+      "guide_page": "kncraft/chapters/depths",
       "x": 6.0,
       "y": 0.0,
       "description": [
@@ -105,6 +109,7 @@
       "id": "4F01D3068901F23E",
       "title": "Culinary specialist",
       "icon": "callfromthedepth_:jawsapplepie",
+      "guide_page": "kncraft/chapters/depths",
       "x": 8.0,
       "y": 0.0,
       "description": [
@@ -128,6 +133,7 @@
       "id": "49DE5C5930031D9E",
       "title": "Over the abyss",
       "icon": "callfromthedepth_:soulofabyss",
+      "guide_page": "kncraft/chapters/depths",
       "x": 10.0,
       "y": 0.0,
       "description": [
@@ -151,6 +157,7 @@
       "id": "473D2779811E0D6C",
       "title": "Exploring the Darkness",
       "icon": "callfromthedepth_:abyssachieve",
+      "guide_page": "kncraft/chapters/depths",
       "x": 12.0,
       "y": 0.0,
       "description": [
@@ -174,6 +181,7 @@
       "id": "4442ACA1E858080F",
       "title": "Ancients world",
       "icon": "callfromthedepth_:immemorialsword",
+      "guide_page": "kncraft/chapters/depths",
       "x": 0.0,
       "y": 2.0,
       "description": [
@@ -197,6 +205,7 @@
       "id": "44307AC9E546FD58",
       "title": "Main detail",
       "icon": "callfromthedepth_:energypowder",
+      "guide_page": "kncraft/chapters/depths",
       "x": 2.0,
       "y": 2.0,
       "description": [
@@ -220,6 +229,7 @@
       "id": "4C86D1CFE461219F",
       "title": "Flower lover",
       "icon": "callfromthedepth_:deepflower",
+      "guide_page": "kncraft/chapters/depths",
       "x": 4.0,
       "y": 2.0,
       "description": [
@@ -243,6 +253,7 @@
       "id": "4FF9FFF3FEF2D964",
       "title": "Magma mushroom",
       "icon": "callfromthedepth_:deepmagmamushroom",
+      "guide_page": "kncraft/chapters/depths",
       "x": 6.0,
       "y": 2.0,
       "description": [
@@ -266,6 +277,7 @@
       "id": "4BD322A93AE0F1BB",
       "title": "Heated stone",
       "icon": "callfromthedepth_:heatedstone",
+      "guide_page": "kncraft/chapters/depths",
       "x": 8.0,
       "y": 2.0,
       "description": [
@@ -289,6 +301,7 @@
       "id": "4CB26048F2D1D625",
       "title": "Hymn for the lost souls",
       "icon": "callfromthedepth_:hymnforthelostsoulsmusicdisc",
+      "guide_page": "kncraft/chapters/depths",
       "x": 10.0,
       "y": 2.0,
       "description": [
@@ -312,6 +325,7 @@
       "id": "44B4ED3AF96FD6A5",
       "title": "Ancient artifact",
       "icon": "callfromthedepth_:immemorial_debris",
+      "guide_page": "kncraft/chapters/depths",
       "x": 12.0,
       "y": 2.0,
       "description": [
@@ -335,6 +349,7 @@
       "id": "43B6B0E8858A3A3D",
       "title": "Dig and forge!",
       "icon": "callfromthedepth_:immemorialingot",
+      "guide_page": "kncraft/chapters/depths",
       "x": 0.0,
       "y": 4.0,
       "description": [
@@ -358,6 +373,7 @@
       "id": "44160A327EAC33E1",
       "title": "Strange biomass",
       "icon": "minecraft:sculk_catalyst",
+      "guide_page": "kncraft/chapters/depths",
       "x": 2.0,
       "y": 4.0,
       "description": [
@@ -381,6 +397,7 @@
       "id": "40B8F6AFAAE11378",
       "title": "Lost souls",
       "icon": "callfromthedepth_:lostsoulitem",
+      "guide_page": "kncraft/chapters/depths",
       "x": 4.0,
       "y": 4.0,
       "description": [
@@ -404,6 +421,7 @@
       "id": "41B063D35371F723",
       "title": "Marble warrior",
       "icon": "callfromthedepth_:marblearmor_helmet",
+      "guide_page": "kncraft/chapters/depths",
       "x": 6.0,
       "y": 4.0,
       "description": [
@@ -427,6 +445,7 @@
       "id": "47B77FCC3C9AB164",
       "title": "Ancient stone",
       "icon": "callfromthedepth_:marble_gem",
+      "guide_page": "kncraft/chapters/depths",
       "x": 8.0,
       "y": 4.0,
       "description": [
@@ -450,6 +469,7 @@
       "id": "420E7D66646F9F6B",
       "title": "Sorrow memories",
       "icon": "callfromthedepth_:memoriespain",
+      "guide_page": "kncraft/chapters/depths",
       "x": 10.0,
       "y": 4.0,
       "description": [
@@ -473,6 +493,7 @@
       "id": "460F3CFD6C02FEBC",
       "title": "Call from the depths",
       "icon": "callfromthedepth_:depth",
+      "guide_page": "kncraft/chapters/depths",
       "x": 12.0,
       "y": 4.0,
       "description": [
@@ -496,6 +517,7 @@
       "id": "45F4199E0D5BBA1D",
       "title": "Alive,but not alive",
       "icon": "callfromthedepth_:sculkhearth",
+      "guide_page": "kncraft/chapters/depths",
       "x": 0.0,
       "y": 6.0,
       "description": [
@@ -519,6 +541,7 @@
       "id": "43B643056CD39636",
       "title": "Peace of mind",
       "icon": "callfromthedepth_:soularmor_helmet",
+      "guide_page": "kncraft/chapters/depths",
       "x": 2.0,
       "y": 6.0,
       "description": [
@@ -542,6 +565,7 @@
       "id": "4A6D07FF6DB42F6A",
       "title": "Into the darkness",
       "icon": "callfromthedepth_:soullight",
+      "guide_page": "kncraft/chapters/depths",
       "x": 4.0,
       "y": 6.0,
       "description": [
@@ -565,6 +589,7 @@
       "id": "49209CA51FBD8470",
       "title": "Sorrow and corruption",
       "icon": "callfromthedepth_:soulofsorrow",
+      "guide_page": "kncraft/chapters/depths",
       "x": 6.0,
       "y": 6.0,
       "description": [
@@ -588,6 +613,7 @@
       "id": "4ACC6E1E38372E5A",
       "title": "Soul rose",
       "icon": "callfromthedepth_:soulrose",
+      "guide_page": "kncraft/chapters/depths",
       "x": 8.0,
       "y": 6.0,
       "description": [
@@ -611,6 +637,7 @@
       "id": "474BEB16FFF92527",
       "title": "I see the sun again!",
       "icon": "callfromthedepth_:deepflower",
+      "guide_page": "kncraft/chapters/depths",
       "x": 10.0,
       "y": 6.0,
       "description": [
@@ -634,6 +661,7 @@
       "id": "48517C9B15E113C2",
       "title": "Poisonous swamps? I've seen them somewhere...",
       "icon": "callfromthedepth_:poisonwater_bucket",
+      "guide_page": "kncraft/chapters/depths",
       "x": 12.0,
       "y": 6.0,
       "description": [
@@ -657,6 +685,7 @@
       "id": "42E255F5254F5383",
       "title": "Toothy ingredient",
       "icon": "callfromthedepth_:jawsappleeat",
+      "guide_page": "kncraft/chapters/depths",
       "x": 0.0,
       "y": 8.0,
       "description": [
@@ -680,6 +709,7 @@
       "id": "491FABF93EDAEAD2",
       "title": "Soul manipulator",
       "icon": "callfromthedepth_:transmutationstone",
+      "guide_page": "kncraft/chapters/depths",
       "x": 2.0,
       "y": 8.0,
       "description": [

@@ -13,6 +13,7 @@
       "id": "43F13DBD664A1851",
       "title": "Pillager Outpost Classic",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "4C49336A908D8420",
       "title": "Pillager Outpost Iberian",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "49D48D49D0788705",
       "title": "Pillager Outpost Mediterranean",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 0.0,
       "description": [
@@ -82,6 +85,7 @@
       "id": "4B82F878CE58F463",
       "title": "Pillager Outpost Oriental",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 0.0,
       "description": [
@@ -105,6 +109,7 @@
       "id": "42C8F310FD10CA25",
       "title": "Pillager Outpost Rustic",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 0.0,
       "description": [
@@ -128,6 +133,7 @@
       "id": "4A73DB68B397960B",
       "title": "Pillager Outpost Swedish",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 0.0,
       "description": [
@@ -151,6 +157,7 @@
       "id": "4CE56D89A2F0A496",
       "title": "Pillager Outpost Tudor",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 0.0,
       "description": [
@@ -174,6 +181,7 @@
       "id": "497ACA77BCA19DD0",
       "title": "Village Classic",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 2.0,
       "description": [
@@ -197,6 +205,7 @@
       "id": "434F542CF9AB1654",
       "title": "Village Iberian",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 2.0,
       "description": [
@@ -220,6 +229,7 @@
       "id": "42FEB244E1F757FF",
       "title": "Village Mediterranean",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 2.0,
       "description": [
@@ -243,6 +253,7 @@
       "id": "45F6B9E55D481F27",
       "title": "Village Nilotic",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 2.0,
       "description": [
@@ -266,6 +277,7 @@
       "id": "4332A97A41776AE7",
       "title": "Village Piglin",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 2.0,
       "description": [
@@ -289,6 +301,7 @@
       "id": "473EBC785F079B5E",
       "title": "Village Rustic",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 2.0,
       "description": [
@@ -312,6 +325,7 @@
       "id": "4AEB3417199FB72B",
       "title": "Village Swedish",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 2.0,
       "description": [
@@ -335,6 +349,7 @@
       "id": "4B81218272DE2F50",
       "title": "Village Tudor",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 4.0,
       "description": [
@@ -358,6 +373,7 @@
       "id": "4BBA4EC64DBE260D",
       "title": "Village Wandering Trader Camp",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 4.0,
       "description": [
@@ -381,6 +397,7 @@
       "id": "4ED132968E117CA4",
       "title": "Mimic Desert",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 4.0,
       "description": [
@@ -404,6 +421,7 @@
       "id": "49F198EB06684BF0",
       "title": "Pillager Outpost Badlands",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 4.0,
       "description": [
@@ -427,6 +445,7 @@
       "id": "4C405D6EB7256ECD",
       "title": "Pillager Outpost Beach",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 4.0,
       "description": [
@@ -450,6 +469,7 @@
       "id": "42E2A5FDA42A2A00",
       "title": "Pillager Outpost Birch Forest",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 4.0,
       "description": [
@@ -473,6 +493,7 @@
       "id": "442CDBFADE466CEA",
       "title": "Pillager Outpost Desert",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 4.0,
       "description": [
@@ -496,6 +517,7 @@
       "id": "49CD1B04E959DD6A",
       "title": "Pillager Outpost Flower Forest",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 6.0,
       "description": [
@@ -519,6 +541,7 @@
       "id": "408617EDED6E45A3",
       "title": "Pillager Outpost Forest",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 6.0,
       "description": [
@@ -542,6 +565,7 @@
       "id": "43F009C9344B5B64",
       "title": "Pillager Outpost Grove",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 6.0,
       "description": [
@@ -565,6 +589,7 @@
       "id": "4FFBB016EBED32A2",
       "title": "Pillager Outpost Jungle",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 6.0,
       "description": [
@@ -588,6 +613,7 @@
       "id": "42C8F9F4B039732A",
       "title": "Pillager Outpost Meadow",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 6.0,
       "description": [
@@ -611,6 +637,7 @@
       "id": "45A9F97ED8D7A18C",
       "title": "Pillager Outpost Mushroom Fields",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 6.0,
       "description": [
@@ -634,6 +661,7 @@
       "id": "4F84B46841929A0C",
       "title": "Pillager Outpost Ocean",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 6.0,
       "description": [
@@ -657,6 +685,7 @@
       "id": "460D0E7B4A5C15AB",
       "title": "Pillager Outpost Old Growth Taiga",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 8.0,
       "description": [
@@ -680,6 +709,7 @@
       "id": "4994AAE4E9176111",
       "title": "Pillager Outpost Savanna",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 8.0,
       "description": [
@@ -703,6 +733,7 @@
       "id": "475E2E8EBA864878",
       "title": "Pillager Outpost Savanna Plateau",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 8.0,
       "description": [
@@ -726,6 +757,7 @@
       "id": "4AC0A70B75E5D83E",
       "title": "Pillager Outpost Snowy Beach",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 8.0,
       "description": [
@@ -749,6 +781,7 @@
       "id": "4F5AA4D815F85932",
       "title": "Pillager Outpost Snowy Plains",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 8.0,
       "description": [
@@ -772,6 +805,7 @@
       "id": "4D80F9C15C7E22EB",
       "title": "Pillager Outpost Snowy Slopes",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 8.0,
       "description": [
@@ -795,6 +829,7 @@
       "id": "46920423EFA6ECD8",
       "title": "Pillager Outpost Snowy Taiga",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 8.0,
       "description": [
@@ -818,6 +853,7 @@
       "id": "413BD7A456A463D8",
       "title": "Pillager Outpost Sparse Jungle",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 10.0,
       "description": [
@@ -841,6 +877,7 @@
       "id": "4B81E11006C1E351",
       "title": "Pillager Outpost Sunflower Plains",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 10.0,
       "description": [
@@ -864,6 +901,7 @@
       "id": "409DF28462B89EBC",
       "title": "Pillager Outpost Swamp",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 10.0,
       "description": [
@@ -887,6 +925,7 @@
       "id": "44720BBBCF72678E",
       "title": "Pillager Outpost Taiga",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 10.0,
       "description": [
@@ -910,6 +949,7 @@
       "id": "4F657D543011EAA8",
       "title": "Pillager Outpost Wooded Badlands",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 10.0,
       "description": [
@@ -933,6 +973,7 @@
       "id": "4AA59849D5CF12B9",
       "title": "Village Badlands",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 10.0,
       "description": [
@@ -956,6 +997,7 @@
       "id": "4048560DEAE6EDF1",
       "title": "Village Beach",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 10.0,
       "description": [
@@ -979,6 +1021,7 @@
       "id": "4415A4444FD457D0",
       "title": "Village Birch Forest",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 12.0,
       "description": [
@@ -1002,6 +1045,7 @@
       "id": "4EA14EF9E4B6D6DD",
       "title": "Village Flower Forest",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 12.0,
       "description": [
@@ -1025,6 +1069,7 @@
       "id": "4B26C3FDB2959D52",
       "title": "Village Forest",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 12.0,
       "description": [
@@ -1048,6 +1093,7 @@
       "id": "4D3F68C7D8219118",
       "title": "Village Grove",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 12.0,
       "description": [
@@ -1071,6 +1117,7 @@
       "id": "4A5D1385F613AAB0",
       "title": "Village Jungle",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 12.0,
       "description": [
@@ -1094,6 +1141,7 @@
       "id": "40EA726D8E8E4823",
       "title": "Village Meadow",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 12.0,
       "description": [
@@ -1117,6 +1165,7 @@
       "id": "4520A90E7ADF98AA",
       "title": "Village Mushroom Fields",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 12.0,
       "description": [
@@ -1140,6 +1189,7 @@
       "id": "44F0E5835FE64720",
       "title": "Village Ocean",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 14.0,
       "description": [
@@ -1163,6 +1213,7 @@
       "id": "44F437C875C2B2B3",
       "title": "Village Old Growth Taiga",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 14.0,
       "description": [
@@ -1186,6 +1237,7 @@
       "id": "4EC891A151528CE5",
       "title": "Village Savanna Plateau",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 14.0,
       "description": [
@@ -1209,6 +1261,7 @@
       "id": "45E3CF0FF87B3CE9",
       "title": "Village Snowy Slopes",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 14.0,
       "description": [
@@ -1232,6 +1285,7 @@
       "id": "41594CE089F791A5",
       "title": "Village Snowy Taiga",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 14.0,
       "description": [
@@ -1255,6 +1309,7 @@
       "id": "48D623A7A4A30C43",
       "title": "Village Sparse Jungle",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 14.0,
       "description": [
@@ -1278,6 +1333,7 @@
       "id": "4E4CEA6CC9A95D5C",
       "title": "Village Sunflower Plains",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 14.0,
       "description": [
@@ -1301,6 +1357,7 @@
       "id": "466FB0A6F5208041",
       "title": "Village Swamp",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 16.0,
       "description": [
@@ -1324,6 +1381,7 @@
       "id": "438ABA80CA44F6FA",
       "title": "Village Wooded Badlands",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 16.0,
       "description": [
@@ -1347,6 +1405,7 @@
       "id": "47FEFB146AD8B0FE",
       "title": "Wreckage Ocean",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 16.0,
       "description": [

@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "type": "patchouli:text",
+      "x": 0,
+      "y": 0,
+      "text": "#navigation",
+      "max_width": 74
+    },
+    {
+      "type": "patchouli:header",
+      "x": 0,
+      "y": 14,
+      "text": "#heading",
+      "centered": false,
+      "scale": 0.8
+    },
+    {
+      "type": "patchouli:image",
+      "x": 0,
+      "y": 23,
+      "image": "kncraft:textures/guide/rule.png",
+      "width": 114,
+      "height": 8,
+      "texture_width": 128,
+      "texture_height": 8
+    },
+    {
+      "type": "patchouli:item",
+      "x": 0,
+      "y": 33,
+      "item": "#icon1"
+    },
+    {
+      "type": "patchouli:text",
+      "x": 22,
+      "y": 33,
+      "text": "#step1",
+      "max_width": 92,
+      "line_height": 9
+    },
+    {
+      "type": "patchouli:item",
+      "x": 0,
+      "y": 70,
+      "item": "#icon2"
+    },
+    {
+      "type": "patchouli:text",
+      "x": 22,
+      "y": 70,
+      "text": "#step2",
+      "max_width": 92,
+      "line_height": 9
+    },
+    {
+      "type": "patchouli:item",
+      "x": 0,
+      "y": 107,
+      "item": "#icon3"
+    },
+    {
+      "type": "patchouli:text",
+      "x": 22,
+      "y": 107,
+      "text": "#step3",
+      "max_width": 92,
+      "line_height": 9
+    }
+  ]
+}

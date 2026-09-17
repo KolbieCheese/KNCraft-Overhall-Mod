@@ -12,11 +12,13 @@
       "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
     },
     {
-      "type": "patchouli:kn_text",
+      "type": "patchouli:kn_value",
       "heading": "Cold Sweat effect",
       "body": "Pack default: -0.2 base temperature for 60 seconds. Cools while the effect lasts. The latest KNCraft thermal meal replaces the previous effect. Normal hunger rules apply. Server settings and tooltips take precedence.",
       "anchor": "kncraft_thermal_effect",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)"
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)",
+      "reference": "food/pamhc2foodcore:melonsmoothieitem",
+      "fallback": "Pack default: -0.2 base temperature for 60 seconds. Cools while the effect lasts. The latest KNCraft thermal meal replaces the previous effect. Normal hunger rules apply. Server settings and tooltips take precedence."
     },
     {
       "type": "patchouli:kn_cooking",
@@ -25,8 +27,17 @@
       "input": "pamhc2foodcore:melonjuiceitem",
       "output": "pamhc2foodcore:melonsmoothieitem",
       "station": "aether:freezer",
-      "body": "Freeze prepared juice for 10 seconds. Makes one smoothie; uses normal Freezer fuel.",
+      "body": "Pack defaults: Freeze prepared juice for 10 seconds. Makes one smoothie; uses normal Freezer fuel.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Server machine recipe",
+      "body": "10 seconds with normal machine fuel. Use JEI for the current ingredients and result.",
+      "anchor": "kncraft_server_recipe",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)",
+      "reference": "recipe/kncraft:melon_smoothie_freezing",
+      "fallback": "10 seconds with normal machine fuel. Use JEI for the current ingredients and result."
     }
   ],
   "extra_recipe_mappings": {}

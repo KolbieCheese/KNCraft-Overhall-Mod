@@ -1,0 +1,9 @@
+{
+  "source": "User-supplied Photo 1.jpg, 17 September 2026",
+  "resource": "assets/kncraft/textures/guide/capture_bluemap_three_storms.jpg",
+  "sha256": "6402256a5f42bfadd76b72da7cfa6cbb50e8d924ccfef818b643c3a8b8783889",
+  "width": 1280,
+  "height": 595,
+  "treatment": "Original JPEG bytes unchanged; native Patchouli UV coordinates provide overview and detail.",
+  "caption_scope": "Three Wither Storm markers in this example; no permanent count or named settlement inferred."
+}

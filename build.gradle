@@ -19,6 +19,7 @@ dependencies {
     implementation fg.deobf('local:curios:5.14.1')
     implementation fg.deobf('local:bettercombat:1.9.0')
     implementation fg.deobf('local:sophisticatedcore:1.5.1.2335')
+    implementation fg.deobf('local:patchouli:85')
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
@@ -34,6 +35,10 @@ jar {
     finalizedBy 'reobfJar'
 }
 test { useJUnitPlatform() }
+tasks.register('validateResources', Exec) {
+    commandLine 'python', 'tools/validate_artifact.py'
+}
+tasks.named('check') { dependsOn 'validateResources' }
 ['depth', 'tents', 'performance', 'cohesion', 'expansion'].each { module ->
     def source = sourceSets.create(module + 'Harness') {
         java.srcDir "src/gametest/${module}/java"
@@ -51,7 +56,7 @@ test { useJUnitPlatform() }
 }
 tasks.register('harnessJars') { dependsOn 'depthHarnessJar', 'tentsHarnessJar', 'performanceHarnessJar', 'cohesionHarnessJar', 'expansionHarnessJar' }
 tasks.register('releaseBundle', Zip) {
-    dependsOn 'reobfJar', 'test'
+    dependsOn 'reobfJar', 'test', 'validateResources'
     archiveFileName = "KNCraftCompatibilityMod-${project.version}.zip"
     destinationDirectory = layout.buildDirectory.dir('distributions')
     from(tasks.jar) { into 'mods' }

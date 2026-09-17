@@ -13,6 +13,7 @@
       "id": "46C923334259712B",
       "title": "Bridge",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 0.0,
       "description": [

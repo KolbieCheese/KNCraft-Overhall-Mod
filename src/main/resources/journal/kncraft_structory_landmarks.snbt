@@ -13,6 +13,7 @@
       "id": "48BBC69B85E994D2",
       "title": "Abandoned Camp",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "4EBD793821B6A9BB",
       "title": "Abandoned Chapel",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "4591036A920786AF",
       "title": "Boat",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 0.0,
       "description": [
@@ -82,6 +85,7 @@
       "id": "4CA4A6B89A4FA207",
       "title": "Dense Forest Ruin",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 0.0,
       "description": [
@@ -105,6 +109,7 @@
       "id": "4466C7BE4871D0DC",
       "title": "Firetower",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 0.0,
       "description": [
@@ -128,6 +133,7 @@
       "id": "48ADBA2E76F18D45",
       "title": "Graveyard",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 0.0,
       "description": [
@@ -151,6 +157,7 @@
       "id": "459F04CBF6DFDDE2",
       "title": "Jungle Ruin",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 0.0,
       "description": [
@@ -174,6 +181,7 @@
       "id": "47FDA71797E1CB4D",
       "title": "Northern Ruin",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 2.0,
       "description": [
@@ -197,6 +205,7 @@
       "id": "46D25FEEAADD9959",
       "title": "Old Manor",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 2.0,
       "y": 2.0,
       "description": [
@@ -220,6 +229,7 @@
       "id": "4B76421727BBFAF2",
       "title": "Outcast Villager Desert",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 4.0,
       "y": 2.0,
       "description": [
@@ -243,6 +253,7 @@
       "id": "4E82BF4755066CE2",
       "title": "Outcast Villager Grassy",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 6.0,
       "y": 2.0,
       "description": [
@@ -266,6 +277,7 @@
       "id": "44C07ADAAC162429",
       "title": "Ruin Grassy",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 8.0,
       "y": 2.0,
       "description": [
@@ -289,6 +301,7 @@
       "id": "41D06FE7F10EDD7C",
       "title": "Swamp Ruin",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 10.0,
       "y": 2.0,
       "description": [
@@ -312,6 +325,7 @@
       "id": "439F3DEDD8BD1D3D",
       "title": "Taiga Ruin Surface",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 12.0,
       "y": 2.0,
       "description": [
@@ -335,6 +349,7 @@
       "id": "43CAD1C5CC153B69",
       "title": "Taiga Ruin Underground",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/explore",
       "x": 0.0,
       "y": 4.0,
       "description": [

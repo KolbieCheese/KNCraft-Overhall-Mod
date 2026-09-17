@@ -169,6 +169,33 @@
       "anchor": "meal_plan"
     },
     {
+      "type": "patchouli:kn_steps",
+      "heading": "From pantry to meal",
+      "body": "",
+      "anchor": "kncraft_practical_steps",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)",
+      "icon1": "pamhc2foodcore:potitem",
+      "step1": "1. Gather reusable cooking tools.",
+      "icon2": "minecraft:carrot",
+      "step2": "2. Follow intermediate ingredient recipes in JEI.",
+      "icon3": "pamhc2foodcore:stewitem",
+      "step3": "3. Make the meal. Check its Cook Book thermal notes."
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Current freezing times",
+      "body": "Prepared-juice Freezer recipes show current server times beside the result in the Cook Book: $(l:patchouli:cookbook/pamhc2foodcore/applesmoothieitem)apple smoothie$(/l), $(l:patchouli:cookbook/pamhc2foodcore/melonsmoothieitem)melon smoothie$(/l), and $(l:patchouli:cookbook/pamhc2foodcore/sweetberrysmoothieitem)sweetberry smoothie$(/l). Use JEI for the current ingredients.",
+      "anchor": "kncraft_machine_reference",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Save food for deliberate use",
+      "body": "Automatic backpack feeding reserves Golden Apple Stew and enchanted golden apples by default. You can still eat them yourself. Use /kncraft feeding reserved false to allow automatic use, or true to restore protection. The server controls the reserve list.",
+      "anchor": "kncraft_reserved_food",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)"
+    },
+    {
       "type": "patchouli:kn_text",
       "heading": "A practical food loop (cont.)",
       "body": "camp is secure. AppleSkin helps compare hunger and saturation. Use that information to choose a travel food you can actually replenish. A long ingredient chain is only worthwhile if its ingredients fit your route.",
@@ -212,7 +239,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Juice from the Freezer",
-      "body": "An Aether Freezer turns prepared apple, melon or sweetberry juice into its matching smoothie in 10 seconds, using normal Freezer fuel. Prepare the juice first. This replaces the ice step; it does not create extra servings or cooking experience.",
+      "body": "Pack defaults: An Aether Freezer turns prepared apple, melon or sweetberry juice into its matching smoothie in 10 seconds, using normal Freezer fuel. Prepare the juice first. This replaces the ice step; it does not create extra servings or cooking experience.",
       "anchor": "kncraft_freezer",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)"
     },
@@ -262,7 +289,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "A compact traveling kitchen",
-      "body": "SCREENSHOT NEEDED. Crop and fruit-tree captures are included. Still needed: a traveling kitchen with reusable tools and ingredients, plus a JEI example of a recommended meal and its intermediate steps.",
+      "body": "Keep reusable tools near a supply of repeatable ingredients. Look up a final meal in JEI, then follow each crafted ingredient back to its recipe. The Cook Book lists thermal effects beside the affected meals, so your kitchen can support both hunger and climate.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
       "anchor": "shot_food"
     },

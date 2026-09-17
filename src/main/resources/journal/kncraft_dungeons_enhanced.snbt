@@ -13,6 +13,7 @@
       "id": "4DCBEE75267732E0",
       "title": "Ahoy, Captain!",
       "icon": "minecraft:wither_skeleton_skull",
+      "guide_page": "kncraft/chapters/travel",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "4A65EF76573EBDA7",
       "title": "Ambitious Explorer",
       "icon": "minecraft:filled_map",
+      "guide_page": "kncraft/chapters/travel",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "426331DC08D0835C",
       "title": "Ancient Civilizations",
       "icon": "minecraft:bamboo",
+      "guide_page": "kncraft/chapters/travel",
       "x": 4.0,
       "y": 0.0,
       "description": [
@@ -82,6 +85,7 @@
       "id": "46647D60B0174231",
       "title": "Chilled Halls",
       "icon": "minecraft:bone",
+      "guide_page": "kncraft/chapters/travel",
       "x": 6.0,
       "y": 0.0,
       "description": [
@@ -105,6 +109,7 @@
       "id": "4D8305A62ABE4D5D",
       "title": "Hidden under Roots",
       "icon": "minecraft:jack_o_lantern",
+      "guide_page": "kncraft/chapters/travel",
       "x": 8.0,
       "y": 0.0,
       "description": [
@@ -128,6 +133,7 @@
       "id": "44ACC14C20A37664",
       "title": "Flying in the Air",
       "icon": "minecraft:lantern",
+      "guide_page": "kncraft/chapters/travel",
       "x": 10.0,
       "y": 0.0,
       "description": [
@@ -151,6 +157,7 @@
       "id": "425F1454519E8758",
       "title": "Rarest Structure?",
       "icon": "minecraft:red_mushroom",
+      "guide_page": "kncraft/chapters/travel",
       "x": 12.0,
       "y": 0.0,
       "description": [
@@ -174,6 +181,7 @@
       "id": "4F06EF8E0F38C32C",
       "title": "Seven Wonders of the World",
       "icon": "minecraft:spyglass",
+      "guide_page": "kncraft/chapters/travel",
       "x": 0.0,
       "y": 2.0,
       "description": [
@@ -197,6 +205,7 @@
       "id": "4FCEE484ACBBB900",
       "title": "Spooky Scary Citadel",
       "icon": "minecraft:red_banner",
+      "guide_page": "kncraft/chapters/travel",
       "x": 2.0,
       "y": 2.0,
       "description": [
@@ -220,6 +229,7 @@
       "id": "4B2C59882F9658BB",
       "title": "Sunken in the Depths",
       "icon": "minecraft:nautilus_shell",
+      "guide_page": "kncraft/chapters/travel",
       "x": 4.0,
       "y": 2.0,
       "description": [
@@ -243,6 +253,7 @@
       "id": "46A7D22E398CD3A8",
       "title": "What a Dungeon!",
       "icon": "minecraft:skeleton_skull",
+      "guide_page": "kncraft/chapters/travel",
       "x": 6.0,
       "y": 2.0,
       "description": [
@@ -266,6 +277,7 @@
       "id": "49DC5B3D21646F6F",
       "title": "Traps and Curses",
       "icon": "minecraft:tnt",
+      "guide_page": "kncraft/chapters/travel",
       "x": 8.0,
       "y": 2.0,
       "description": [
@@ -289,6 +301,7 @@
       "id": "49099A3B29DADE8E",
       "title": "Forgotten Wars and Kingdoms",
       "icon": "minecraft:stone_bricks",
+      "guide_page": "kncraft/chapters/travel",
       "x": 10.0,
       "y": 2.0,
       "description": [

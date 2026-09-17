@@ -47,6 +47,12 @@
       "target": "sophisticatedcore-1.5.1.2335.jar",
       "url": "https://edge.forgecdn.net/files/8839/328/sophisticatedcore-1.20.1-1.5.1.2335.jar",
       "sha256": "f4038a2e0d0e3504258fbe315cb27a37f1a769d71985bfa20afb983a3bdfab64"
+    },
+    {
+      "source": "Patchouli-1.20.1-85-FORGE.jar",
+      "target": "patchouli-85.jar",
+      "url": "https://edge.forgecdn.net/files/7731/017/Patchouli-1.20.1-85-FORGE.jar",
+      "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
     }
   ]
 }

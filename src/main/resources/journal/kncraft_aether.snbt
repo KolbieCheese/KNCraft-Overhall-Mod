@@ -13,6 +13,7 @@
       "id": "479838B3854DE139",
       "title": "A Well Earned Rest",
       "icon": "aether:skyroot_bed",
+      "guide_page": "kncraft/chapters/aether",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "49078A49CA9D3B56",
       "title": "Let's Fly!",
       "icon": "minecraft:feather",
+      "guide_page": "kncraft/chapters/aether",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "4581FE8CCA88C17A",
       "title": "To Infinity and Beyond!",
       "icon": "aether:blue_aercloud",
+      "guide_page": "kncraft/chapters/aether",
       "x": 4.0,
       "y": 0.0,
       "description": [
@@ -82,6 +85,7 @@
       "id": "4DF4845F08BBCC6B",
       "title": "Like a Bossaru!",
       "icon": "aether:bronze_dungeon_key",
+      "guide_page": "kncraft/chapters/aether",
       "x": 6.0,
       "y": 0.0,
       "description": [
@@ -105,6 +109,7 @@
       "id": "441022FBE5F54AEF",
       "title": "Do You Believe in Magic?",
       "icon": "aether:altar",
+      "guide_page": "kncraft/chapters/aether",
       "x": 8.0,
       "y": 0.0,
       "description": [
@@ -128,6 +133,7 @@
       "id": "478F9197866B3A36",
       "title": "Pink is the New Blue",
       "icon": "aether:enchanted_gravitite",
+      "guide_page": "kncraft/chapters/aether",
       "x": 10.0,
       "y": 0.0,
       "description": [
@@ -151,6 +157,7 @@
       "id": "4BB15BF4BE532020",
       "title": "Hostile Paradise",
       "icon": "minecraft:glowstone",
+      "guide_page": "kncraft/chapters/aether",
       "x": 12.0,
       "y": 0.0,
       "description": [
@@ -174,6 +181,7 @@
       "id": "4681A12226D9294C",
       "title": "Extinguished",
       "icon": "aether:gold_dungeon_key",
+      "guide_page": "kncraft/chapters/aether",
       "x": 0.0,
       "y": 2.0,
       "description": [
@@ -197,6 +205,7 @@
       "id": "4B2BDEAD28C87ACB",
       "title": "Defying Gravity",
       "icon": "aether:gravitite_chestplate",
+      "guide_page": "kncraft/chapters/aether",
       "x": 2.0,
       "y": 2.0,
       "description": [
@@ -220,6 +229,7 @@
       "id": "469466517159567D",
       "title": "The Power of the Gods",
       "icon": "aether:hammer_of_kingbdogz",
+      "guide_page": "kncraft/chapters/aether",
       "x": 4.0,
       "y": 2.0,
       "description": [
@@ -243,6 +253,7 @@
       "id": "4D83EF4B05EC81A6",
       "title": "Cool Jewelery!",
       "icon": "aether:ice_pendant",
+      "guide_page": "kncraft/chapters/aether",
       "x": 6.0,
       "y": 2.0,
       "description": [
@@ -266,6 +277,7 @@
       "id": "45C48C937E89CB5C",
       "title": "Cold as Ice",
       "icon": "aether:icestone",
+      "guide_page": "kncraft/chapters/aether",
       "x": 8.0,
       "y": 2.0,
       "description": [
@@ -289,6 +301,7 @@
       "id": "4171901BDCDD3852",
       "title": "... Until They hatch!",
       "icon": "aether:incubator",
+      "guide_page": "kncraft/chapters/aether",
       "x": 10.0,
       "y": 2.0,
       "description": [
@@ -312,6 +325,7 @@
       "id": "436CE4181F55BEBF",
       "title": "Challenger to the Throne",
       "icon": "aether:valkyrie_lance",
+      "guide_page": "kncraft/chapters/aether",
       "x": 12.0,
       "y": 2.0,
       "description": [
@@ -335,6 +349,7 @@
       "id": "401693337D469F2C",
       "title": "Lore-Ception!",
       "icon": "aether:book_of_lore",
+      "guide_page": "kncraft/chapters/aether",
       "x": 0.0,
       "y": 4.0,
       "description": [
@@ -358,6 +373,7 @@
       "id": "4CFFF1CD82373526",
       "title": "When Phygs Fly",
       "icon": "minecraft:saddle",
+      "guide_page": "kncraft/chapters/aether",
       "x": 2.0,
       "y": 4.0,
       "description": [
@@ -381,6 +397,7 @@
       "id": "49670295F2F09BFC",
       "title": "Ice Bucket Armor",
       "icon": "aether:obsidian_chestplate",
+      "guide_page": "kncraft/chapters/aether",
       "x": 4.0,
       "y": 4.0,
       "description": [
@@ -404,6 +421,7 @@
       "id": "43408DABD48C2D61",
       "title": "Don't Count Your Moas...",
       "icon": "aether:blue_moa_egg",
+      "guide_page": "kncraft/chapters/aether",
       "x": 6.0,
       "y": 4.0,
       "description": [
@@ -427,6 +445,7 @@
       "id": "45CC2D7026BF5744",
       "title": "Baby Food",
       "icon": "aether:aechor_petal",
+      "guide_page": "kncraft/chapters/aether",
       "x": 8.0,
       "y": 4.0,
       "description": [
@@ -450,6 +469,7 @@
       "id": "4541E0FE717456B0",
       "title": "Fireproof",
       "icon": "aether:phoenix_helmet",
+      "guide_page": "kncraft/chapters/aether",
       "x": 10.0,
       "y": 4.0,
       "description": [
@@ -473,6 +493,7 @@
       "id": "49245CFE73D05E19",
       "title": "Tending The Garden",
       "icon": "aether:purple_flower",
+      "guide_page": "kncraft/chapters/aether",
       "x": 12.0,
       "y": 4.0,
       "description": [
@@ -496,6 +517,7 @@
       "id": "45AD515576F1A7E6",
       "title": "Get Off My Lawn!",
       "icon": "minecraft:black_banner",
+      "guide_page": "kncraft/chapters/aether",
       "x": 0.0,
       "y": 6.0,
       "description": [
@@ -519,6 +541,7 @@
       "id": "488CD074E7FB2032",
       "title": "The More You Know!",
       "icon": "aether:book_of_lore",
+      "guide_page": "kncraft/chapters/aether",
       "x": 2.0,
       "y": 6.0,
       "description": [
@@ -542,6 +565,7 @@
       "id": "46C75465E26393C4",
       "title": "Battle Hardened",
       "icon": "aether:regeneration_stone",
+      "guide_page": "kncraft/chapters/aether",
       "x": 4.0,
       "y": 6.0,
       "description": [
@@ -565,6 +589,7 @@
       "id": "45FC8ACA2ABA76AB",
       "title": "Dethroned",
       "icon": "aether:silver_dungeon_key",
+      "guide_page": "kncraft/chapters/aether",
       "x": 6.0,
       "y": 6.0,
       "description": [
@@ -588,6 +613,7 @@
       "id": "4617066F419E4289",
       "title": "The Aether",
       "icon": "aether:aether_portal_frame",
+      "guide_page": "kncraft/chapters/aether",
       "x": 8.0,
       "y": 6.0,
       "description": [
@@ -611,6 +637,7 @@
       "id": "458BF6DF54204E79",
       "title": "Plunderer's Remorse",
       "icon": "aether:aether_farmland",
+      "guide_page": "kncraft/chapters/aether",
       "x": 10.0,
       "y": 6.0,
       "description": [
@@ -634,6 +661,7 @@
       "id": "463A267A95BEF2B8",
       "title": "Earning your Wings",
       "icon": "aether:valkyrie_helmet",
+      "guide_page": "kncraft/chapters/aether",
       "x": 12.0,
       "y": 6.0,
       "description": [
@@ -657,6 +685,7 @@
       "id": "43689FF523A3FF01",
       "title": "Exotic Hardware",
       "icon": "aether:zanite_gemstone",
+      "guide_page": "kncraft/chapters/aether",
       "x": 0.0,
       "y": 8.0,
       "description": [
@@ -680,6 +709,7 @@
       "id": "4AE1B0EB633BAA9F",
       "title": "Ultimate Ban Hammer",
       "icon": "minecraft:snowball",
+      "guide_page": "kncraft/chapters/aether",
       "x": 2.0,
       "y": 8.0,
       "description": [

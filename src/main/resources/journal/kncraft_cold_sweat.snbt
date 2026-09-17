@@ -13,6 +13,7 @@
       "id": "42B5DB73E12FB80E",
       "title": "Follow the Leader",
       "icon": "minecraft:compass",
+      "guide_page": "kncraft/chapters/cold",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "4D7AB5BB358EFD97",
       "title": "Desperate Measures",
       "icon": "minecraft:flint_and_steel",
+      "guide_page": "kncraft/chapters/cold",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "46860DBB50E5DE3A",
       "title": "Inhospitable",
       "icon": "minecraft:dead_bush",
+      "guide_page": "kncraft/chapters/cold",
       "x": 4.0,
       "y": 0.0,
       "description": [
@@ -82,6 +85,7 @@
       "id": "466FB565AB86A426",
       "title": "Borrowed Time",
       "icon": "cold_sweat:soulspring_lamp",
+      "guide_page": "kncraft/chapters/cold",
       "x": 6.0,
       "y": 0.0,
       "description": [
@@ -105,6 +109,7 @@
       "id": "4F389081868E4F19",
       "title": "Head to Toe",
       "icon": "minecraft:leather_chestplate",
+      "guide_page": "kncraft/chapters/cold",
       "x": 8.0,
       "y": 0.0,
       "description": [
@@ -128,6 +133,7 @@
       "id": "4D8044037BE008EA",
       "title": "Soul of the Sea",
       "icon": "minecraft:heart_of_the_sea",
+      "guide_page": "kncraft/chapters/cold",
       "x": 10.0,
       "y": 0.0,
       "description": [
@@ -151,6 +157,7 @@
       "id": "42948BF8785D4DC8",
       "title": "Huddle Close",
       "icon": "minecraft:campfire",
+      "guide_page": "kncraft/chapters/cold",
       "x": 12.0,
       "y": 0.0,
       "description": [
@@ -174,6 +181,7 @@
       "id": "40B3225810C6B599",
       "title": "Lining Up",
       "icon": "minecraft:leather",
+      "guide_page": "kncraft/chapters/cold",
       "x": 0.0,
       "y": 2.0,
       "description": [
@@ -197,6 +205,7 @@
       "id": "4B6C364F453FD202",
       "title": "The Pit of Fire",
       "icon": "minecraft:lava_bucket",
+      "guide_page": "kncraft/chapters/cold",
       "x": 2.0,
       "y": 2.0,
       "description": [
@@ -220,6 +229,7 @@
       "id": "4116D6B67256DD50",
       "title": "The Great Leon",
       "icon": "cold_sweat:chameleon_molt",
+      "guide_page": "kncraft/chapters/cold",
       "x": 4.0,
       "y": 2.0,
       "description": [
@@ -243,6 +253,7 @@
       "id": "4C9F33FA692919EC",
       "title": "Home Sweet Home",
       "icon": "cold_sweat:hearth",
+      "guide_page": "kncraft/chapters/cold",
       "x": 6.0,
       "y": 2.0,
       "description": [
@@ -266,6 +277,7 @@
       "id": "4AF5C7A3E3011378",
       "title": "Getting Cozy",
       "icon": "cold_sweat:smokestack",
+      "guide_page": "kncraft/chapters/cold",
       "x": 8.0,
       "y": 2.0,
       "description": [

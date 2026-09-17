@@ -12,11 +12,13 @@
       "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
     },
     {
-      "type": "patchouli:kn_text",
+      "type": "patchouli:kn_value",
       "heading": "Cold Sweat effect",
       "body": "Pack default: +0.2 base temperature for 90 seconds. Warms while the effect lasts. The latest KNCraft thermal meal replaces the previous effect. Normal hunger rules apply. Server settings and tooltips take precedence.",
       "anchor": "kncraft_thermal_effect",
-      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)"
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)",
+      "reference": "food/pamhc2foodcore:stewitem",
+      "fallback": "Pack default: +0.2 base temperature for 90 seconds. Warms while the effect lasts. The latest KNCraft thermal meal replaces the previous effect. Normal hunger rules apply. Server settings and tooltips take precedence."
     }
   ],
   "extra_recipe_mappings": {}

@@ -37,6 +37,7 @@ def main():
     assert not (book / 'entries/chapters/architecture.json').exists(), 'Integrate changes into the existing chapters'
     guide_edits = json.loads((ROOT / 'docs/Guide-Integration-Edits.json').read_text())['files']
     for relative in guide_edits:
+        if not relative.startswith('entries/'): continue
         entry = json.loads((book / relative).read_text(encoding='utf-8'))
         anchors = [p['anchor'] for p in entry['pages'] if p.get('anchor')]
         assert len(anchors) == len(set(anchors)), 'Duplicate guide anchor: ' + relative
@@ -46,16 +47,26 @@ def main():
                 assert len(re.sub(r'\$\([^)]*\)', '', page['body'])) <= 290, 'New guide page needs pagination'
     declaration = json.loads((RES / "data/patchouli/patchouli_books/kncraft_guide/book.json").read_text(encoding="utf-8"))
     assert declaration['use_resource_pack'] is True
-    # New pages may be inserted next to their topic. Original chapter pages remain
-    # an ordered subsequence, preserving old anchors, artwork and pagination.
+    # Original pages remain in order, except individually documented, approved
+    # editorial replacements. Check both sides of that explicit provenance record.
     source_manifest = json.loads((ROOT / "docs/Guide-Provenance.json").read_text())
     provenance = source_manifest['source_files']
+    editorial = json.loads((ROOT / 'docs/Guide-Editorial-Edits.json').read_text())['changes']
+    digest_page = lambda p: hashlib.sha256(json.dumps(p, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
     for chapter, hashes in source_manifest['preserved_chapter_pages'].items():
         pages = json.loads((book / f'entries/chapters/{chapter}.json').read_text(encoding='utf-8'))['pages']
-        assert len(pages) >= len(hashes)
-        actual = [hashlib.sha256(json.dumps(page, sort_keys=True, separators=(',', ':')).encode()).hexdigest() for page in pages]
+        expected = list(hashes)
+        for change in [e for e in editorial if e['chapter'] == chapter]:
+            before, after = [[digest_page(p) for p in change[side]] for side in ('before', 'after')]
+            start = expected.index(before[0])
+            assert expected[start:start+len(before)] == before, 'Editorial provenance mismatch'
+            expected[start:start+len(before)] = after
+            old_anchors = {p['anchor'] for p in change['before'] if p.get('anchor')}
+            new_anchors = {p['anchor'] for p in change['after'] if p.get('anchor')}
+            assert old_anchors <= new_anchors, 'Lost original guide anchor'
+        actual = [digest_page(page) for page in pages]
         cursor = 0
-        for digest in hashes:
+        for digest in expected:
             assert digest in actual[cursor:], 'Original guide page changed: ' + chapter
             cursor = actual.index(digest, cursor) + 1
     edited = {'book/en_us/' + p for p in guide_edits}
@@ -66,7 +77,7 @@ def main():
     if args.jar:
         with zipfile.ZipFile(args.jar) as jar:
             names = jar.namelist()
-            forbidden = ['DepthHeightTests', 'DepthPortalChecks', 'TentTests', 'PerformanceTests', 'CohesionChecks', 'ExpansionChecks', 'TentClimateChecks', 'PolishChecks', 'reference/', 'libs/']
+            forbidden = ['DepthHeightTests', 'DepthPortalChecks', 'TentTests', 'PerformanceTests', 'CohesionChecks', 'ExpansionChecks', 'TentClimateChecks', 'PolishChecks', 'ReferenceChecks', 'reference/', 'libs/']
             assert not [n for n in names if any(token in n for token in forbidden)], 'Test/dependency payload in release'
             meta = jar.read('META-INF/mods.toml').decode()
             assert meta.count('[[mods]]') == 1 and 'modId="kncraft"' in meta
@@ -87,6 +98,8 @@ def main():
             assert re.fullmatch(r'[0-9A-F]{16}', obj['id']) and obj['id'] not in ids, 'Duplicate journal ID'
             ids.add(obj['id'])
         for quest in chapter['quests']:
+            target = quest['guide_page']
+            assert target.startswith('kncraft/chapters/') and (book / ('entries/' + target[len('kncraft/'):] + '.json')).is_file(), 'Broken journal guide link'
             assert not quest.get('dependencies') and not quest.get('rewards')
             assert all(task['type'] == 'advancement' for task in quest['tasks'])
             records += 1
@@ -112,6 +125,8 @@ def main():
             if entry.get('icon') == item: matches += [p for p in entry['pages'] if p.get('anchor') == 'kncraft_thermal_effect']
         assert matches, 'Thermal food missing cookbook help: ' + item
         assert all(f'{float(amount):+g} base temperature for {int(duration)//20} seconds' in p['body'] for p in matches)
+    from validate_guide import validate
+    validate()
     print('PASS:', count, 'JSON resources,', records, 'ungated journal records, integrated guide, parity data and release isolation')
 
 if __name__ == "__main__": main()

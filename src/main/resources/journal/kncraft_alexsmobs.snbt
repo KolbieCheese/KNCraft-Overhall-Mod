@@ -13,6 +13,7 @@
       "id": "46DB85167505D0F1",
       "title": "Flowers of the Savanna",
       "icon": "alexsmobs:acacia_blossom",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "4563F4C0E6FDE01A",
       "title": "Alligator In Name Only",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "4901D25E94458EE2",
       "title": "Winning Play",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 0.0,
       "description": [
@@ -82,6 +85,7 @@
       "id": "41C3B63BEB2B8C77",
       "title": "Gone Bananas!",
       "icon": "alexsmobs:banana",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 0.0,
       "description": [
@@ -105,6 +109,7 @@
       "id": "4A6962DF9578C4CC",
       "title": "Convergent Evolution...",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 0.0,
       "description": [
@@ -128,6 +133,7 @@
       "id": "4E6193E9DC17F56A",
       "title": "Perfect View in the Plains",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 0.0,
       "description": [
@@ -151,6 +157,7 @@
       "id": "4F75379538484F6B",
       "title": "Spray 'n Pray",
       "icon": "alexsmobs:blood_sprayer",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 0.0,
       "description": [
@@ -174,6 +181,7 @@
       "id": "449537C2654E30E3",
       "title": "Aunt Anteater",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 2.0,
       "description": [
@@ -197,6 +205,7 @@
       "id": "44497D0D87BA82D3",
       "title": "Crikey!",
       "icon": "alexsmobs:crocodile_egg",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 2.0,
       "description": [
@@ -220,6 +229,7 @@
       "id": "46A8B5C989654E72",
       "title": "Undercover Under Covers",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 2.0,
       "description": [
@@ -243,6 +253,7 @@
       "id": "4AC7237D82737227",
       "title": "Sugar Rush",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 2.0,
       "description": [
@@ -266,6 +277,7 @@
       "id": "4B8E15C56039B45B",
       "title": "Capsid-19",
       "icon": "alexsmobs:capsid",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 2.0,
       "description": [
@@ -289,6 +301,7 @@
       "id": "4EAD12D734D17323",
       "title": "Weird Fishes/Arpeggi",
       "icon": "alexsmobs:cosmic_cod",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 2.0,
       "description": [
@@ -312,6 +325,7 @@
       "id": "4FA23B6A715438AA",
       "title": "Nightmare Fuel",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 2.0,
       "description": [
@@ -335,6 +349,7 @@
       "id": "4D32DFAA83867796",
       "title": "Pest Control",
       "icon": "alexsmobs:mosquito_larva",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 4.0,
       "description": [
@@ -358,6 +373,7 @@
       "id": "411BF9063321F3FC",
       "title": "Down with the Sickness",
       "icon": "citadel:fancy_item",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 4.0,
       "description": [
@@ -381,6 +397,7 @@
       "id": "4B7D561B11E54F93",
       "title": "Chompy",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 4.0,
       "description": [
@@ -404,6 +421,7 @@
       "id": "42C3770C5678FC1D",
       "title": "Cover me with... scutes?",
       "icon": "alexsmobs:crocodile_chestplate",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 4.0,
       "description": [
@@ -427,6 +445,7 @@
       "id": "4500BBEAE5202E1E",
       "title": "One Chunk Fish",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 4.0,
       "description": [
@@ -450,6 +469,7 @@
       "id": "43F78289708F524D",
       "title": "Break On Through...",
       "icon": "citadel:fancy_item",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 4.0,
       "description": [
@@ -473,6 +493,7 @@
       "id": "4E2E03D219211C4E",
       "title": "Echo-muh-cation!",
       "icon": "alexsmobs:echolocator",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 4.0,
       "description": [
@@ -496,6 +517,7 @@
       "id": "4B37483B8658659E",
       "title": "Dressed to Impress",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 6.0,
       "description": [
@@ -519,6 +541,7 @@
       "id": "4BE16987C425B8F1",
       "title": "It's an Emu!!!",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 6.0,
       "description": [
@@ -542,6 +565,7 @@
       "id": "408850B17428DD10",
       "title": "Begun, The Emu War Has",
       "icon": "minecraft:blue_banner",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 6.0,
       "description": [
@@ -565,6 +589,7 @@
       "id": "4CD94C7EDF8A9ADF",
       "title": "Race Against The Clock",
       "icon": "citadel:effect_item",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 6.0,
       "description": [
@@ -588,6 +613,7 @@
       "id": "4DF18EB0B8D715F5",
       "title": "Ender Distancing",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 6.0,
       "description": [
@@ -611,6 +637,7 @@
       "id": "4C42AD9D2A8F9393",
       "title": "Ad End-stra",
       "icon": "alexsmobs:enderiophage_rocket",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 6.0,
       "description": [
@@ -634,6 +661,7 @@
       "id": "4B35F8B6599AC965",
       "title": "No End In Sight",
       "icon": "alexsmobs:endolocator",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 6.0,
       "description": [
@@ -657,6 +685,7 @@
       "id": "404CE6A69BD6981A",
       "title": "Hand In Glove",
       "icon": "citadel:fancy_item",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 8.0,
       "description": [
@@ -680,6 +709,7 @@
       "id": "4E0CC5F5C56790F1",
       "title": "Blindsided",
       "icon": "alexsmobs:falconry_hood",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 8.0,
       "description": [
@@ -703,6 +733,7 @@
       "id": "44BFA7CF8E11002E",
       "title": "Farland Security",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 8.0,
       "description": [
@@ -726,6 +757,7 @@
       "id": "465568B34E74285D",
       "title": "A Bone to Pick",
       "icon": "alexsmobs:fish_bones",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 8.0,
       "description": [
@@ -749,6 +781,7 @@
       "id": "46E0584D0ECCC8F9",
       "title": "An Impostor Amoung Us",
       "icon": "alexsmobs:froststalker_helmet",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 8.0,
       "description": [
@@ -772,6 +805,7 @@
       "id": "4C95A72FF1A763DA",
       "title": "Ice Scream",
       "icon": "alexsmobs:froststalker_horn",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 8.0,
       "description": [
@@ -795,6 +829,7 @@
       "id": "4AC7599E028585DA",
       "title": "Ghost! Ghost! Toast?",
       "icon": "alexsmobs:ghostly_pickaxe",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 8.0,
       "description": [
@@ -818,6 +853,7 @@
       "id": "47F3D488EBCAF136",
       "title": "Like a Truffle, with more Ant",
       "icon": "alexsmobs:gongylidia",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 10.0,
       "description": [
@@ -841,6 +877,7 @@
       "id": "4351B8BA5E79FE43",
       "title": "Pic-A-Nic Basket?",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 10.0,
       "description": [
@@ -864,6 +901,7 @@
       "id": "4F1901F172765C03",
       "title": "Eye of The Storm",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 10.0,
       "description": [
@@ -887,6 +925,7 @@
       "id": "41AFDD39CB912FCE",
       "title": "I Am Become Guster",
       "icon": "alexsmobs:gustmaker",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 10.0,
       "description": [
@@ -910,6 +949,7 @@
       "id": "4883C752A891BE1F",
       "title": "Blast from the... Future?",
       "icon": "citadel:fancy_item",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 10.0,
       "description": [
@@ -933,6 +973,7 @@
       "id": "41701CAEC68121E5",
       "title": "Sugar... In Wator...",
       "icon": "alexsmobs:hummingbird_feeder",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 10.0,
       "description": [
@@ -956,6 +997,7 @@
       "id": "4F7E89A2304E7C90",
       "title": "We do a little trolling...",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 10.0,
       "description": [
@@ -979,6 +1021,7 @@
       "id": "411D49A9C87025E9",
       "title": "Mariachi!",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 12.0,
       "description": [
@@ -1002,6 +1045,7 @@
       "id": "4356C0F2BC9A05B0",
       "title": "Mass Transit",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 12.0,
       "description": [
@@ -1025,6 +1069,7 @@
       "id": "463635A107BD7A88",
       "title": "Loch-Nether Monster!",
       "icon": "minecraft:spyglass",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 12.0,
       "description": [
@@ -1048,6 +1093,7 @@
       "id": "434162D18B59EACF",
       "title": "Ant Farm",
       "icon": "alexsmobs:leafcutter_ant_pupa",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 12.0,
       "description": [
@@ -1071,6 +1117,7 @@
       "id": "4552B6489A9487A1",
       "title": "A Small Price to Pay...",
       "icon": "alexsmobs:lost_tentacle",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 12.0,
       "description": [
@@ -1094,6 +1141,7 @@
       "id": "40C604545614A7A2",
       "title": "Hungry For Apples?",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 12.0,
       "description": [
@@ -1117,6 +1165,7 @@
       "id": "42853F53476EC77D",
       "title": "A Fistful of Water",
       "icon": "minecraft:water_bucket",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 12.0,
       "description": [
@@ -1140,6 +1189,7 @@
       "id": "4377E0C24DF1BF99",
       "title": "Mariachi?",
       "icon": "alexsmobs:maraca",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 14.0,
       "description": [
@@ -1163,6 +1213,7 @@
       "id": "439B940A5520E5E6",
       "title": "Flexible Schedule",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 14.0,
       "description": [
@@ -1186,6 +1237,7 @@
       "id": "488E8F86701EFED4",
       "title": "Destroy The Child",
       "icon": "alexsmobs:mysterious_worm",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 14.0,
       "description": [
@@ -1209,6 +1261,7 @@
       "id": "4986AF3AC67E9140",
       "title": "He Was Number One!",
       "icon": "citadel:fancy_item",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 14.0,
       "description": [
@@ -1232,6 +1285,7 @@
       "id": "441770A6ED6716F3",
       "title": "Free Willy",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 14.0,
       "description": [
@@ -1255,6 +1309,7 @@
       "id": "40E40CB3872FC98C",
       "title": "Pocket Sand!",
       "icon": "citadel:fancy_item",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 14.0,
       "description": [
@@ -1278,6 +1333,7 @@
       "id": "454238B1CA07E116",
       "title": "Rainbow Road",
       "icon": "alexsmobs:rainbow_glass",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 14.0,
       "description": [
@@ -1301,6 +1357,7 @@
       "id": "472BE17393588DA4",
       "title": "Taste the Rainbow",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 16.0,
       "description": [
@@ -1324,6 +1381,7 @@
       "id": "4839D9A9739B73EB",
       "title": "No Step on Snake",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 16.0,
       "description": [
@@ -1347,6 +1405,7 @@
       "id": "4B356203FF3BE48E",
       "title": "You're too Slow!",
       "icon": "alexsmobs:rocky_chestplate",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 16.0,
       "description": [
@@ -1370,6 +1429,7 @@
       "id": "44A72F9B5A73E017",
       "title": "KEEP ROLLIN' ROLLIN' ROLLIN'",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 16.0,
       "description": [
@@ -1393,6 +1453,7 @@
       "id": "40EAF2E0495FFE0B",
       "title": "Rocks Off!",
       "icon": "alexsmobs:rocky_shell",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 16.0,
       "description": [
@@ -1416,6 +1477,7 @@
       "id": "48848587E56566FC",
       "title": "Save the Whales!",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 16.0,
       "description": [
@@ -1439,6 +1501,7 @@
       "id": "40F189CD1CC5E067",
       "title": "Ok Boomer",
       "icon": "alexsmobs:sculk_boomer",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 16.0,
       "description": [
@@ -1462,6 +1525,7 @@
       "id": "45BC2523C922431A",
       "title": "Mine? Mine? Mine?",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 18.0,
       "description": [
@@ -1485,6 +1549,7 @@
       "id": "4FB73D28E3CF380B",
       "title": "Ticket to the End of the World",
       "icon": "alexsmobs:shattered_dimensional_carver",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 18.0,
       "description": [
@@ -1508,6 +1573,7 @@
       "id": "4157063797849793",
       "title": "We Just Want our Hat Back",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 18.0,
       "description": [
@@ -1531,6 +1597,7 @@
       "id": "4B8B2FFEAE814D16",
       "title": "Smitty WerbenJagerManJensen",
       "icon": "citadel:fancy_item",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 18.0,
       "description": [
@@ -1554,6 +1621,7 @@
       "id": "4BFC28AF62972C3D",
       "title": "Sculk Cymbal",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 18.0,
       "description": [
@@ -1577,6 +1645,7 @@
       "id": "4D8D2EBF5CC983DC",
       "title": "Hippie Smell",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 18.0,
       "description": [
@@ -1600,6 +1669,7 @@
       "id": "4EC55F03436146A6",
       "title": "Uma Delicia",
       "icon": "citadel:fancy_item",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 18.0,
       "description": [
@@ -1623,6 +1693,7 @@
       "id": "40F20E021F6837A1",
       "title": "The Soul-ly Ghost",
       "icon": "alexsmobs:soul_heart",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 20.0,
       "description": [
@@ -1646,6 +1717,7 @@
       "id": "4CE0339E75975787",
       "title": "Fetch Me Their Souls!",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 20.0,
       "description": [
@@ -1669,6 +1741,7 @@
       "id": "4AE5EC37FD46C235",
       "title": "The Iron Curtain",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 20.0,
       "description": [
@@ -1692,6 +1765,7 @@
       "id": "44FBE21EFF63689E",
       "title": "Shear the Scute",
       "icon": "alexsmobs:spiked_scute",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 20.0,
       "description": [
@@ -1715,6 +1789,7 @@
       "id": "45338C4E3252F9F9",
       "title": "Turtle-ology Majors Be Like",
       "icon": "alexsmobs:spiked_turtle_shell",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 20.0,
       "description": [
@@ -1738,6 +1813,7 @@
       "id": "42193E6DC47C9DF1",
       "title": "... for Salvation",
       "icon": "alexsmobs:squid_grapple",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 20.0,
       "description": [
@@ -1761,6 +1837,7 @@
       "id": "4E441A01E4B81763",
       "title": "Gamer Skunk Bath Water",
       "icon": "alexsmobs:stink_bottle",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 20.0,
       "description": [
@@ -1784,6 +1861,7 @@
       "id": "400391B2290289E1",
       "title": "I SAID DART GUN!",
       "icon": "alexsmobs:stink_ray",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 22.0,
       "description": [
@@ -1807,6 +1885,7 @@
       "id": "4595B5562CA67375",
       "title": "Ant-Agonizer",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 22.0,
       "description": [
@@ -1830,6 +1909,7 @@
       "id": "4C2161A1C5E9EEAF",
       "title": "The Family Sedan",
       "icon": "alexsmobs:straddle_saddle",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 22.0,
       "description": [
@@ -1853,6 +1933,7 @@
       "id": "41361AABA7F409C4",
       "title": "Surf Wax America",
       "icon": "alexsmobs:straddleboard",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 22.0,
       "description": [
@@ -1876,6 +1957,7 @@
       "id": "4FD74A404AF3E2BE",
       "title": "Straddle My Ol' Saddle",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 22.0,
       "description": [
@@ -1899,6 +1981,7 @@
       "id": "43512660AC26C601",
       "title": "Like Father",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 22.0,
       "description": [
@@ -1922,6 +2005,7 @@
       "id": "4B8DC837B7DF3E46",
       "title": "The Quest for the Best",
       "icon": "alexsmobs:pupfish_locator",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 22.0,
       "description": [
@@ -1945,6 +2029,7 @@
       "id": "4A3871568655852E",
       "title": "The Power of the Sun",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 24.0,
       "description": [
@@ -1968,6 +2053,7 @@
       "id": "4E25F3100392A1DC",
       "title": "Freedom Intensifies",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 24.0,
       "description": [
@@ -1991,6 +2077,7 @@
       "id": "4D5554907062F27E",
       "title": "Monkey Business",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 24.0,
       "description": [
@@ -2014,6 +2101,7 @@
       "id": "4089795B7E56CBBD",
       "title": "Its a Fish? Its a Bug? What is it?",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 24.0,
       "description": [
@@ -2037,6 +2125,7 @@
       "id": "48410F3CDA55B42A",
       "title": "Stampy!",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 24.0,
       "description": [
@@ -2060,6 +2149,7 @@
       "id": "4D89DFC4C65207A6",
       "title": "The Biggest Land Mammal",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 24.0,
       "description": [
@@ -2083,6 +2173,7 @@
       "id": "462ED44F10CFE05A",
       "title": "A Picky Fellow",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 24.0,
       "description": [
@@ -2106,6 +2197,7 @@
       "id": "4A93310244F8575C",
       "title": "In Memoriam",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 26.0,
       "description": [
@@ -2129,6 +2221,7 @@
       "id": "4FBC87EB2E95ACD3",
       "title": "Arcturus!",
       "icon": "minecraft:salmon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 26.0,
       "description": [
@@ -2152,6 +2245,7 @@
       "id": "4E5F274C19A9A932",
       "title": "Shrimp Friend",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 26.0,
       "description": [
@@ -2175,6 +2269,7 @@
       "id": "43CA591EA263EA62",
       "title": "Big Iron",
       "icon": "minecraft:spider_eye",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 26.0,
       "description": [
@@ -2198,6 +2293,7 @@
       "id": "47F696BC75081643",
       "title": "It Is Wednesday",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 26.0,
       "description": [
@@ -2221,6 +2317,7 @@
       "id": "4EF1D11E7DA407F2",
       "title": "Rigged from the Start",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 26.0,
       "description": [
@@ -2244,6 +2341,7 @@
       "id": "4D7AF01B7B415E60",
       "title": "Eye of the Tiger",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 26.0,
       "description": [
@@ -2267,6 +2365,7 @@
       "id": "4C0D04615D2921FB",
       "title": "Reality Can Be Whatever I Want",
       "icon": "alexsmobs:transmutation_table",
+      "guide_page": "kncraft/chapters/animals",
       "x": 0.0,
       "y": 28.0,
       "description": [
@@ -2290,6 +2389,7 @@
       "id": "49E5DF274F0FCC1A",
       "title": "Nonequivalent Exchange",
       "icon": "alexsmobs:transmutation_table",
+      "guide_page": "kncraft/chapters/animals",
       "x": 2.0,
       "y": 28.0,
       "description": [
@@ -2313,6 +2413,7 @@
       "id": "43D14D4CB542A222",
       "title": "Who Undermines the Underminer?",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 4.0,
       "y": 28.0,
       "description": [
@@ -2336,6 +2437,7 @@
       "id": "4FB0ED2BBE1F3D12",
       "title": "Wormy",
       "icon": "alexsmobs:void_worm_beak",
+      "guide_page": "kncraft/chapters/animals",
       "x": 6.0,
       "y": 28.0,
       "description": [
@@ -2359,6 +2461,7 @@
       "id": "4FCE17B412E89849",
       "title": "Should've Gone for the Head",
       "icon": "alexsmobs:void_worm_eye",
+      "guide_page": "kncraft/chapters/animals",
       "x": 8.0,
       "y": 28.0,
       "description": [
@@ -2382,6 +2485,7 @@
       "id": "4CEBF9FBA4C96517",
       "title": "A Soul for a Soul",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 10.0,
       "y": 28.0,
       "description": [
@@ -2405,6 +2509,7 @@
       "id": "4CCCCEDF0B79A797",
       "title": "Destroyer of Chads",
       "icon": "alexsmobs:tab_icon",
+      "guide_page": "kncraft/chapters/animals",
       "x": 12.0,
       "y": 28.0,
       "description": [

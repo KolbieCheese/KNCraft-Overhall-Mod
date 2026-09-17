@@ -13,6 +13,7 @@
       "id": "4A06C7E5548CBE87",
       "title": "Rope Bridge",
       "icon": "ropebridge:oak_bridge",
+      "guide_page": "kncraft/chapters/travel",
       "x": 0.0,
       "y": 0.0,
       "description": [
@@ -36,6 +37,7 @@
       "id": "432A001FBF3891AF",
       "title": "Rope Ladder",
       "icon": "ropebridge:oak_rope_ladder",
+      "guide_page": "kncraft/chapters/travel",
       "x": 2.0,
       "y": 0.0,
       "description": [
@@ -59,6 +61,7 @@
       "id": "403334C8E015026A",
       "title": "Bridge Building Gun",
       "icon": "ropebridge:bridge_builder",
+      "guide_page": "kncraft/chapters/travel",
       "x": 4.0,
       "y": 0.0,
       "description": [
@@ -82,6 +85,7 @@
       "id": "4BC31EE539357246",
       "title": "Ladder Building Gun",
       "icon": "ropebridge:ladder_builder",
+      "guide_page": "kncraft/chapters/travel",
       "x": 6.0,
       "y": 0.0,
       "description": [

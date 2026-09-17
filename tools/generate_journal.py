@@ -39,8 +39,9 @@ def advancement(mod, name, criteria):
     return f'kncraft:journal/{mod}/{name}'
 
 def quest(key, title, description, advancement_id, chapter, number, icon='minecraft:book'):
+    guide = {'Travel & Exploration': 'explore', 'Combat & Exploration': 'explore', 'Travel & Transport': 'travel', "Pam's HarvestCraft": 'food'}.get(chapter, chapter)
     chapter = {'aether': 'The Aether', 'depths': 'Call from the Depths', 'wither': 'Wither Storm', 'animals': 'Animals & Companions', 'cold': 'Cold Sweat', 'travel': 'Travel & Logistics', 'food': "Pam's HarvestCraft", 'explore': 'Exploration'}.get(chapter, chapter)
-    return {'id': stable('quest/' + key), 'title': title, 'icon': icon,
+    return {'id': stable('quest/' + key), 'title': title, 'icon': icon, 'guide_page': 'kncraft/chapters/' + guide,
             'x': float(number % 7 * 2), 'y': float(number // 7 * 2),
             'description': [description, '', f'Field Guide: {chapter}. Explore at your own pace; this record grants no reward and unlocks no recipes.'],
             'dependencies': [], 'rewards': [], 'disable_toast': True,
