@@ -74,6 +74,8 @@ Restart after changing switches. Existing Cold Sweat definitions take precedence
 the supplied defaults; the mod does not rewrite upstream configuration.
 
 Use `/kncraft status` or `config/kncraft-status.txt` to inspect enabled integrations.
+The [setup audit](docs/Setup-Audit.md) records installation gaps, runtime checks and
+client tuning that still needs measurement before a full-pack sign-off.
 See [features and behavior](docs/Features.md), [guide recovery validation](docs/Guide-Recovery-Validation.md)
 and [1.0.2 validation](docs/Reference-Validation.md) for
 details and the limits of the completed checks.
@@ -89,7 +91,7 @@ Set `JAVA_HOME` to a Java 17 JDK and use Python 3.11 or newer:
 ```powershell
 python tools/bootstrap_dependencies.py --download
 .\gradlew.bat build releaseBundle --console=plain
-python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.4.jar
+python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.5.jar
 ```
 
 Alternatively, bootstrap from the installed pack with `--instance "C:\path\to\KNCraft"`.

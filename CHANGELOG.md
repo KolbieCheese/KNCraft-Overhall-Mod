@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.5 - setup audit
+
+- Document the installed-pack audit, coordinated installation requirements, local
+  Waystones policy mismatch and client rendering/performance follow-up.
+- Recheck the existing gameplay and performance integrations. Gameplay behavior and
+  client settings remain unchanged; no additional performance mods are introduced.
+
 ## 1.0.4 - KNCraft Guide Book
 
 - Rename the Patchouli book to **KNCraft Guide Book**, including command messages,
