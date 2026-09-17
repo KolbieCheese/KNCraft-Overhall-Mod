@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.4 - KNCraft Guide Book
+
+- Rename the Patchouli book to **KNCraft Guide Book**, including command messages,
+  campsite help and journal references. The bundled book advances to version 14.
+- Update existing declarations that still use the old title on startup, preserving
+  custom settings and the `patchouli:kncraft_guide` identity. Existing books and
+  `/guide` continue to work.
+
 ## 1.0.3 - recover a lost guide
 
 - Added `/guide` and `/kncraft guide` for every player, without operator permission.

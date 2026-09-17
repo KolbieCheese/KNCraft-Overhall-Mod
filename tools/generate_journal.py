@@ -43,7 +43,7 @@ def quest(key, title, description, advancement_id, chapter, number, icon='minecr
     chapter = {'aether': 'The Aether', 'depths': 'Call from the Depths', 'wither': 'Wither Storm', 'animals': 'Animals & Companions', 'cold': 'Cold Sweat', 'travel': 'Travel & Logistics', 'food': "Pam's HarvestCraft", 'explore': 'Exploration'}.get(chapter, chapter)
     return {'id': stable('quest/' + key), 'title': title, 'icon': icon, 'guide_page': 'kncraft/chapters/' + guide,
             'x': float(number % 7 * 2), 'y': float(number // 7 * 2),
-            'description': [description, '', f'Field Guide: {chapter}. Explore at your own pace; this record grants no reward and unlocks no recipes.'],
+            'description': [description, '', f'KNCraft Guide Book: {chapter}. Explore at your own pace; this record grants no reward and unlocks no recipes.'],
             'dependencies': [], 'rewards': [], 'disable_toast': True,
             'tasks': [{'id': stable('task/' + key), 'type': 'advancement', 'advancement': advancement_id, 'criterion': ''}]}
 

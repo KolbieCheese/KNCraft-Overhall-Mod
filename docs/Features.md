@@ -22,7 +22,7 @@
 | Regional climate | 20 selected BOP/Terralith defaults only where no explicit absolute temperature exists; native climate/weather modifiers retained |
 | Altar maintenance | 8 Cold Sweat armor pieces and Frontier Cap; native fuel, 700/1000 ticks, complete input data retained |
 | Campsite inspection | `/kncraft camp` shows source, live/saved climate, bounded enclosure and up to four loaded climate appliances within 48 blocks |
-| Field Guide | Original chapters and individual Cook Book entries explain the changes; historical book ID and artwork retained |
+| KNCraft Guide Book | Original chapters and individual Cook Book entries explain the changes; historical book ID and artwork retained |
 | Original integrations | Native portal lighting, bounded Depth arrivals, tent synchronization, performance fixes, Waystones and encounter scaling retained |
 
 `kncraft-integrations.toml` supplies independent switches for the 1.0 connections;
@@ -77,7 +77,7 @@ only insulation added by KNCraft; administrator-defined accessories and other ar
 their own values. The cap is heat insulation, not temperature immunity. The Aether's
 existing climate and Weather2 support remain unchanged.
 
-## Connected Field Guide (1.0.2)
+## Connected KNCraft Guide Book
 
 Players receive one guide, with a carried-copy check and retry after a full inventory.
 The receipt survives respawn and save/load. Every player can recover a lost guide with
@@ -92,7 +92,7 @@ opt out with `/kncraft feeding reserved false`. Manual eating and normal eligibl
 remain available; upstream backpack filters still apply.
 
 The 344 independent journal records use FTB's native Open in Guide action to open an
-existing Field Guide chapter through Patchouli. Only KNCraft's own guide routes are handled.
+existing KNCraft Guide Book chapter through Patchouli. Only KNCraft's own guide routes are handled.
 Quest IDs, rewards (none), dependencies (none) and administrator-file ownership stay intact.
 
 Nine food definitions, five insulation definitions and twelve machine recipe times are

@@ -5,7 +5,7 @@ license="MIT (original helper declarations); see NOTICE.md"
 modId="kncraft"
 version="${file.jarVersion}"
 displayName="KNCraft Compatibility"
-description="Connects KNCraft's survival, farming, exploration, equipment and travel mods into a cohesive pack, with an integrated Field Guide and accomplishment journal. Install the matching build on server and clients."
+description="Connects KNCraft's survival, farming, exploration, equipment and travel mods into a cohesive pack, with the KNCraft Guide Book and accomplishment journal. Install the matching build on server and clients."
 
 [[dependencies.kncraft]]
 modId="aether"

@@ -14,7 +14,7 @@ public final class PolishConfig {
     static {
         var b = new ForgeConfigSpec.Builder();
         b.comment("Restart after changing module switches. Player control presets are opt-in client commands.");
-        STARTER_GUIDE = b.comment("Give the Field Guide once per player. Existing copies count; respawns and reconnects do not duplicate it.").define("giveStarterGuide", true);
+        STARTER_GUIDE = b.comment("Give the KNCraft Guide Book once per player. Existing copies count; respawns and reconnects do not duplicate it.").define("giveStarterGuide", true);
         RESERVED_FOOD = b.comment("Keep reserved provisions out of backpack automatic feeding. Players can opt out with /kncraft feeding reserved false.").define("protectReservedFoods", true);
         RESERVED_ITEMS = b.comment("Exact item IDs reserved for manual eating; native backpack filters still apply to other food.")
             .defineListAllowEmpty(List.of("reservedFoods"), List.of("witherstormmod:golden_apple_stew", "minecraft:enchanted_golden_apple"), value -> value instanceof String);

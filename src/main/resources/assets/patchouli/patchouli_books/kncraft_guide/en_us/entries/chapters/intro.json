@@ -111,14 +111,14 @@
     },
     {
       "type": "patchouli:kn_text",
-      "heading": "Your first Field Guide",
+      "heading": "Your first guide book",
       "body": "You receive this guide once when joining the world. A carried copy counts; a full inventory delays delivery until space is free. Death and reconnecting do not grant another automatically. Lost it? Use /guide for a replacement.",
       "anchor": "kncraft_guide",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
     },
     {
       "type": "patchouli:kn_text",
-      "heading": "Recover your Field Guide",
+      "heading": "Recover your guide book",
       "body": "Use /guide or /kncraft guide to put this book in an empty inventory slot. Every player can use it. A carried copy, including your offhand, prevents duplicates. If your inventory is full, free a slot and retry. Crafting a book with one paper also still works.",
       "anchor": "kncraft_recover_guide",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
@@ -126,7 +126,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "From journal to chapter",
-      "body": "Open a journal record, then select Open in Guide to jump to the relevant Field Guide chapter. All records stay independent, without rewards or recipe locks. Read at your own pace and return to the journal when ready.",
+      "body": "Open a journal record, then select Open in Guide to jump to the relevant KNCraft Guide Book chapter. All records stay independent, without rewards or recipe locks. Read at your own pace and return to the journal when ready.",
       "anchor": "kncraft_journal_links",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
     },

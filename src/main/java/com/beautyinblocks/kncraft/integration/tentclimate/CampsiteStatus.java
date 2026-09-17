@@ -50,7 +50,7 @@ public final class CampsiteStatus {
                 + "; spread reaches you=" + covers + "; automatic=" + hearth.isSmartEnabled());
         }
         if (hearths.isEmpty()) lines.add("No loaded hearth, boiler or icebox within 48 blocks. Check fuel, smokestacks and native redstone controls.");
-        lines.add("Field Guide: Cold Sweat > A hearth inside a tent. Equipment range and warm-up still apply.");
+        lines.add("KNCraft Guide Book: Cold Sweat > A hearth inside a tent. Equipment range and warm-up still apply.");
         return lines;
     }
     @SubscribeEvent public void commands(RegisterCommandsEvent event) {

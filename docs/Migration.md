@@ -32,7 +32,7 @@ Retain Waystones' creative-only and generated-stone protection settings; the exa
 fragment is in `pack-overrides/`.
 
 Install the matching Compatibility JAR on clients too. Patchouli must remain in the pack for
-the Field Guide; it is an upstream dependency, not embedded in Architecture.
+the KNCraft Guide Book; it is an upstream dependency, not embedded in Architecture.
 
 ## Guide migration
 
@@ -174,6 +174,15 @@ switch. They recognize existing carried copies (including offhand) and use only 
 main-inventory/hotbar slot. If all slots are occupied, no item is replaced or dropped;
 the player gets a message to free space and retry. Console use reports that a player is
 required. Recovery marks the normal receipt so it cannot trigger an extra automatic gift.
+
+### Guide book name (1.0.4)
+
+The book is now named **KNCraft Guide Book**. On startup, declarations still using
+the original title receive the new name; recognized old subtitles update too. Other
+settings and administrator-chosen titles are preserved. Resource-backed declarations
+advance to at least book version 14; legacy content still requires the migration above.
+The identity remains `patchouli:kncraft_guide`, so existing copies, links and `/guide`
+keep working. Install the matching mod update on clients and server, then restart.
 
 ### Returning to the earlier helper arrangement
 

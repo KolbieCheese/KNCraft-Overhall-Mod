@@ -48,10 +48,10 @@ public final class GuideDelivery {
             var source = context.getSource();
             var result = summon(source.getPlayerOrException());
             switch (result) {
-                case GIVEN -> source.sendSuccess(() -> Component.literal("KNCraft Field Guide added to your inventory."), false);
-                case ALREADY_CARRIED -> source.sendSuccess(() -> Component.literal("You already carry the KNCraft Field Guide. Check your inventory or offhand."), false);
+                case GIVEN -> source.sendSuccess(() -> Component.literal("KNCraft Guide Book added to your inventory."), false);
+                case ALREADY_CARRIED -> source.sendSuccess(() -> Component.literal("You already carry the KNCraft Guide Book. Check your inventory or offhand."), false);
                 case FULL -> source.sendFailure(Component.literal("Your inventory is full. Free an inventory slot, then use /guide again."));
-                case UNAVAILABLE -> source.sendFailure(Component.literal("The Field Guide is unavailable because Patchouli is not installed on this server."));
+                case UNAVAILABLE -> source.sendFailure(Component.literal("The KNCraft Guide Book is unavailable because Patchouli is not installed on this server."));
             }
             return result == Delivery.GIVEN ? 1 : 0;
         };

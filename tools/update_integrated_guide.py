@@ -1,4 +1,4 @@
-"""Weave integration help into the existing Field Guide and individual Cook Book entries."""
+"""Weave integration help into the existing KNCraft Guide Book and individual Cook Book entries."""
 import hashlib
 import json
 from pathlib import Path
@@ -35,7 +35,7 @@ def insert(chapter, section, pages):
 def main():
     insert('intro', 'controls', [
         ('journal', 'Your accomplishment journal', 'FTB Quests records bosses, discoveries and mod advancements. Choose any entry, in any order. There are no reward chains, recipe locks or item turn-ins. Existing native advancements can count; revisit landmarks to record new discoveries.'),
-        ('guide', 'Keep this guide', 'Craft a book with one paper for this Field Guide. Its chapters explain how the pack works together. Food effects appear beside their Cook Book recipes. Values shown are pack defaults; the server may adjust them. Check item tooltips for active effects.'),
+        ('guide', 'Keep this guide', 'Craft a book with one paper for this KNCraft Guide Book. Its chapters explain how the pack works together. Food effects appear beside their Cook Book recipes. Values shown are pack defaults; the server may adjust them. Check item tooltips for active effects.'),
     ])
     insert('food', 'gardens', [
         ('cotton', 'A crop for more than food', "Cotton can line clothing in Cold Sweat's Sewing Table: 1 cold / 0.5 heat insulation by default. Eight cotton around one wool make tent canvas. Six cotton and three vines make eight RopeBridge ropes. Cotton keeps its ordinary farming uses."),
@@ -155,7 +155,7 @@ def main():
         data['pages'] = [page('food', 'recipe_note', 'Recipe unavailable', "This Food Core recipe names an item that is absent from the installed version. It has been disabled. Choose another recipe from the Cook Book or JEI; no replacement ingredient or result is required.")]
         save(path, data, 'Replace invalid recipe and missing-item icon with an accurate note')
     declaration = RES / 'data/patchouli/patchouli_books/kncraft_guide/book.json'
-    data = read(declaration); data['version'] = 10; data['subtitle'] = 'KNCraft | Field Guide'
+    data = read(declaration); data['version'] = 10; data['name'] = 'KNCraft Guide Book'; data['subtitle'] = 'KNCraft Guide Book'
     declaration.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     manifest = ROOT / 'docs/Guide-Integration-Edits.json'
     # Preserve provenance of all approved edits when this authoring tool is rerun.

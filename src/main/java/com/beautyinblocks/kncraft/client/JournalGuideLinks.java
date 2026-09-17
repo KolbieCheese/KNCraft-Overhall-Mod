@@ -17,7 +17,7 @@ public final class JournalGuideLinks {
     private static void install() {
         try {
             JournalGuideEvents.register(entry -> PatchouliAPI.get().openBookEntry(GuideDelivery.BOOK, entry, 0));
-        } catch (ReflectiveOperationException ex) { LogUtils.getLogger().error("Could not connect FTB journal to the Field Guide", ex); }
+        } catch (ReflectiveOperationException ex) { LogUtils.getLogger().error("Could not connect FTB journal to the KNCraft Guide Book", ex); }
     }
     private JournalGuideLinks() {}
 }

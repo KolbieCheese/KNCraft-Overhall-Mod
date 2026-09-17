@@ -23,7 +23,7 @@ exploration, equipment, and transport support one another.
   Selected expedition armor can be maintained at Aether altars without losing its
   sewn insulation. Enchantment attributes cooperate with other equipment bonuses,
   and backpack magnets give nearby wildlife time to collect deliberate offerings.
-- **A guide to the whole pack:** The existing Patchouli Field Guide explains these
+- **A guide to the whole pack:** The KNCraft Guide Book for Patchouli explains these
   connections within its original chapters, with thermal effects on individual Cook Book
   pages. The FTB accomplishment journal records bosses, landmarks, and mod advancements
   without recipe locks, required quest chains, item turn-ins, or rewards.
@@ -89,7 +89,7 @@ Set `JAVA_HOME` to a Java 17 JDK and use Python 3.11 or newer:
 ```powershell
 python tools/bootstrap_dependencies.py --download
 .\gradlew.bat build releaseBundle --console=plain
-python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.3.jar
+python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.4.jar
 ```
 
 Alternatively, bootstrap from the installed pack with `--instance "C:\path\to\KNCraft"`.
