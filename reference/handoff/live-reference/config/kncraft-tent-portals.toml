@@ -1,0 +1,3 @@
+#Enable immersive tent doorways. Dimension synchronization remains active when disabled.
+immersiveTentEntrances = true
+

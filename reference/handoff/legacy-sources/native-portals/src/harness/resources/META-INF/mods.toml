@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="depthheighttests"
+version="1.0.0"
+displayName="Isolated Depth Height Tests"
+
+[[mods]]
+modId="depthportalchecks"
+version="1.0.0"
+displayName="Isolated Native Portal Checks"

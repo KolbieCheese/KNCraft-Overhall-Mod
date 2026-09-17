@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.beautyinblocks.tents.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TentDoorMixin",
+    "PortalMixin",
+    "PongMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "plugin": "com.beautyinblocks.kncraft.core.IntegrationMixinPlugin"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "minecraft:blackstone"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SWS",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "item": "waystones:blackstone_waystone"
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

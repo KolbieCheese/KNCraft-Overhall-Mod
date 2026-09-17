@@ -1,0 +1,207 @@
+[
+  {
+    "path": "legacy-sources/native-portals/src/main/resources/pack.mcmeta",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/src/main/resources/pack.mcmeta",
+    "sha256": "339ea41abb0dbbd27a295d1b99be3741528e036e0dde238b20d127ac656ef8d1"
+  },
+  {
+    "path": "legacy-sources/native-portals/src/main/resources/META-INF/mods.toml",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/src/main/resources/META-INF/mods.toml",
+    "sha256": "1455122551c29df0529f7bb395f17a255639cfb1a6a2668a38341b50a7d3789f"
+  },
+  {
+    "path": "legacy-sources/native-portals/src/main/java/com/beautyinblocks/portals/DepthBoundedForm.java",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/src/main/java/com/beautyinblocks/portals/DepthBoundedForm.java",
+    "sha256": "d454be0257279c1d57c801b9e82b65e34ec109cb96322c59ace5b01c66982735"
+  },
+  {
+    "path": "legacy-sources/native-portals/src/main/java/com/beautyinblocks/portals/NativePortalLighting.java",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/src/main/java/com/beautyinblocks/portals/NativePortalLighting.java",
+    "sha256": "57e4f094367315fbeccc8e208c188f294ad0869600fd4f1b2acd195d269ee660"
+  },
+  {
+    "path": "legacy-sources/native-portals/src/harness/resources/META-INF/mods.toml",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/src/harness/resources/META-INF/mods.toml",
+    "sha256": "2d1060b7bc404d4a27775659250e4d8d0cd387eddcdf0202f653a4bbd654d5be"
+  },
+  {
+    "path": "legacy-sources/native-portals/src/harness/java/com/beautyinblocks/test/DepthHeightTests.java",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/src/harness/java/com/beautyinblocks/test/DepthHeightTests.java",
+    "sha256": "38a546eef6233402be63cec814d6646714d9b0f48ecc8aaee143b51343afd4ca"
+  },
+  {
+    "path": "legacy-sources/native-portals/src/harness/java/com/beautyinblocks/test/DepthPortalChecks.java",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/src/harness/java/com/beautyinblocks/test/DepthPortalChecks.java",
+    "sha256": "dfcc1306cb66c540c941b01578b590a7a7d7d80e90b914b8799171a3b8e2a8f5"
+  },
+  {
+    "path": "legacy-sources/native-portals/build.gradle",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/build.gradle",
+    "sha256": "bfb8bbe6feccc8d8af549728d6fe2f6916fe10e61f0aa6d1e5116a96b56a4253"
+  },
+  {
+    "path": "legacy-sources/native-portals/settings.gradle",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/settings.gradle",
+    "sha256": "21c8c1cfea9f78f7fed6d7ad325aafa24e0d1bd330a40719997c303d2217b830"
+  },
+  {
+    "path": "legacy-sources/native-portals/gradle.properties",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/gradle.properties",
+    "sha256": "2c80532e563c884fe53b84e4f04e193afffa28d27cd17a266adfe4543652ad1a"
+  },
+  {
+    "path": "legacy-sources/native-portals/gradlew",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/gradlew",
+    "sha256": "fb3cbfe6d066ee52bc07f62ed61ff77bde195384f52496c94280a83008d9f531"
+  },
+  {
+    "path": "legacy-sources/native-portals/gradle/wrapper/gradle-wrapper.properties",
+    "source": "/home/moankolbie/kncraft/depth-height-fix/adapter/gradle/wrapper/gradle-wrapper.properties",
+    "sha256": "0c0c22ccb8e653a13a7df19493b11fe5ce0f5fae7ee4835223d2d2ad028799da"
+  },
+  {
+    "path": "legacy-sources/tent-portals/src/main/resources/kncrafttents.mixins.json",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/src/main/resources/kncrafttents.mixins.json",
+    "sha256": "409eb4deea4ac79717c3a3aec301b686a818f55a3e9feefc843928c505e32ed1"
+  },
+  {
+    "path": "legacy-sources/tent-portals/src/main/resources/pack.mcmeta",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/src/main/resources/pack.mcmeta",
+    "sha256": "c760842bf31943563107ee873e38f24fa510ed9a9bd335959f9581bcd2157e4f"
+  },
+  {
+    "path": "legacy-sources/tent-portals/src/main/resources/META-INF/mods.toml",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/src/main/resources/META-INF/mods.toml",
+    "sha256": "e44486d30e90edfca000968902d3c3224c8b0a00e137ccd09a8a554a19f1c7bc"
+  },
+  {
+    "path": "legacy-sources/tent-portals/src/main/java/com/beautyinblocks/tents/TentPortals.java",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/src/main/java/com/beautyinblocks/tents/TentPortals.java",
+    "sha256": "e8315a7b361b91a559dd2bde2556c50356cd6d091fdb0671dff7efd9204f2a3d"
+  },
+  {
+    "path": "legacy-sources/tent-portals/src/main/java/com/beautyinblocks/tents/mixin/TentDoorMixin.java",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/src/main/java/com/beautyinblocks/tents/mixin/TentDoorMixin.java",
+    "sha256": "9364f7c7d1783e3d3da9823b75487c35bb154dbe6c33368d54f12364ba992b38"
+  },
+  {
+    "path": "legacy-sources/tent-portals/src/main/java/com/beautyinblocks/tents/mixin/PongMixin.java",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/src/main/java/com/beautyinblocks/tents/mixin/PongMixin.java",
+    "sha256": "093196d176cc099ef8319b655fcb815da10a58831d520bdae6fe9eb28dbf41aa"
+  },
+  {
+    "path": "legacy-sources/tent-portals/src/main/java/com/beautyinblocks/tents/mixin/PortalMixin.java",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/src/main/java/com/beautyinblocks/tents/mixin/PortalMixin.java",
+    "sha256": "19798c468b94f249bae9d08ca134a4f97a900e88c732e4bba89a2a0f44655828"
+  },
+  {
+    "path": "legacy-sources/tent-portals/src/harness/resources/META-INF/mods.toml",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/src/harness/resources/META-INF/mods.toml",
+    "sha256": "a6b3aecc463595b0d5798f04701394f0409282ce39e478d4dc363c46eeab2b43"
+  },
+  {
+    "path": "legacy-sources/tent-portals/src/harness/java/com/beautyinblocks/tents/TentTests.java",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/src/harness/java/com/beautyinblocks/tents/TentTests.java",
+    "sha256": "5e7ce9148af642ccb861c4398ad9b184ae7a518ffbd17763b252bc67ae450c83"
+  },
+  {
+    "path": "legacy-sources/tent-portals/build.gradle",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/build.gradle",
+    "sha256": "29012572cebd0f08e56b85f597546c695c54803f8c960d761e61c94ce5ddaae6"
+  },
+  {
+    "path": "legacy-sources/tent-portals/settings.gradle",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/settings.gradle",
+    "sha256": "21c8c1cfea9f78f7fed6d7ad325aafa24e0d1bd330a40719997c303d2217b830"
+  },
+  {
+    "path": "legacy-sources/tent-portals/gradle.properties",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/gradle.properties",
+    "sha256": "2ac018c4c4d5984943eb6fd48efb888fa5116fccc2d7d0811f604bae2732f438"
+  },
+  {
+    "path": "legacy-sources/tent-portals/gradlew",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/gradlew",
+    "sha256": "fb3cbfe6d066ee52bc07f62ed61ff77bde195384f52496c94280a83008d9f531"
+  },
+  {
+    "path": "legacy-sources/tent-portals/gradle/wrapper/gradle-wrapper.properties",
+    "source": "/home/moankolbie/kncraft/tent-fix-20260916/adapter/gradle/wrapper/gradle-wrapper.properties",
+    "sha256": "0c0c22ccb8e653a13a7df19493b11fe5ce0f5fae7ee4835223d2d2ad028799da"
+  },
+  {
+    "path": "legacy-sources/performance/src/main/resources/kncraftperformance.mixins.json",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/src/main/resources/kncraftperformance.mixins.json",
+    "sha256": "4c84e850004f7acba1b1c2d044c8d900e7a90be7e940c7a672c487ef283a3c94"
+  },
+  {
+    "path": "legacy-sources/performance/src/main/resources/META-INF/mods.toml",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/src/main/resources/META-INF/mods.toml",
+    "sha256": "dc9c44a6e7c319608588298e63a07c6744448307e0dcd5fc21423cd3008b3cf2"
+  },
+  {
+    "path": "legacy-sources/performance/src/main/java/com/beautyinblocks/performance/Performance.java",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/src/main/java/com/beautyinblocks/performance/Performance.java",
+    "sha256": "29a177d50b75d42ace1fff0b74c6b54203110266dfe543b5efa47bbdf699707b"
+  },
+  {
+    "path": "legacy-sources/performance/src/main/java/com/beautyinblocks/performance/PortalSearch.java",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/src/main/java/com/beautyinblocks/performance/PortalSearch.java",
+    "sha256": "77e33cc344ab72533aef00f7e9fd973d3ff35b6f0998e32f1c4fdfb161cb6d8b"
+  },
+  {
+    "path": "legacy-sources/performance/src/main/java/com/beautyinblocks/performance/NearestSelection.java",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/src/main/java/com/beautyinblocks/performance/NearestSelection.java",
+    "sha256": "cad63472e407fca8b07bbfdc633a9b249998fd5ac82936e1ebfd1760c0190037"
+  },
+  {
+    "path": "legacy-sources/performance/src/main/java/com/beautyinblocks/performance/mixin/ItemTargetMixin.java",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/src/main/java/com/beautyinblocks/performance/mixin/ItemTargetMixin.java",
+    "sha256": "fe6aef06703c16034e2937797880c754d6c505ddee2ea21cebe88a07bbea88d0"
+  },
+  {
+    "path": "legacy-sources/performance/src/main/java/com/beautyinblocks/performance/mixin/TornadoMixin.java",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/src/main/java/com/beautyinblocks/performance/mixin/TornadoMixin.java",
+    "sha256": "4ee9472a828feb32458f60a7644c592beab2dc6e953eb4116f09b904f1379530"
+  },
+  {
+    "path": "legacy-sources/performance/src/main/java/com/beautyinblocks/performance/mixin/AvoidStormMixin.java",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/src/main/java/com/beautyinblocks/performance/mixin/AvoidStormMixin.java",
+    "sha256": "30a1298bd3ca859c7450a2bbbea3443bc1196611b669b38d3db89cd6981d34cf"
+  },
+  {
+    "path": "legacy-sources/performance/src/harness/resources/META-INF/mods.toml",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/src/harness/resources/META-INF/mods.toml",
+    "sha256": "d896a0010b34a812dddbceaa5363a66d476894f2acde27d528349455538c483a"
+  },
+  {
+    "path": "legacy-sources/performance/src/harness/java/com/beautyinblocks/perftests/PerformanceTests.java",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/src/harness/java/com/beautyinblocks/perftests/PerformanceTests.java",
+    "sha256": "40a4eb27587bfe67ad22aa9763b61a29887f7072e44fd4f18b9761586f07cc8c"
+  },
+  {
+    "path": "legacy-sources/performance/build.gradle",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/build.gradle",
+    "sha256": "62b418cc5b57765c4a27a07c7e26a178480bc27755e0fde4504e73fde15350dc"
+  },
+  {
+    "path": "legacy-sources/performance/settings.gradle",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/settings.gradle",
+    "sha256": "21c8c1cfea9f78f7fed6d7ad325aafa24e0d1bd330a40719997c303d2217b830"
+  },
+  {
+    "path": "legacy-sources/performance/gradle.properties",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/gradle.properties",
+    "sha256": "2ac018c4c4d5984943eb6fd48efb888fa5116fccc2d7d0811f604bae2732f438"
+  },
+  {
+    "path": "legacy-sources/performance/gradlew",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/gradlew",
+    "sha256": "fb3cbfe6d066ee52bc07f62ed61ff77bde195384f52496c94280a83008d9f531"
+  },
+  {
+    "path": "legacy-sources/performance/gradle/wrapper/gradle-wrapper.properties",
+    "source": "/home/moankolbie/kncraft/performance-addon/adapter/gradle/wrapper/gradle-wrapper.properties",
+    "sha256": "0c0c22ccb8e653a13a7df19493b11fe5ce0f5fae7ee4835223d2d2ad028799da"
+  }
+]

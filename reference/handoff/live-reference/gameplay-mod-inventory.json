@@ -1,0 +1,341 @@
+{
+  "captured_at": "2026-09-17T03:27:01.484797+00:00",
+  "minecraft": "1.20.1",
+  "forge": "47.4.0",
+  "java": 17,
+  "mods": [
+    {
+      "filename": "AI-Improvements-1.20-0.5.2.jar",
+      "sha256": "575a4a8e00f982c064d54bb3e73e5cda2d14414de054a471a3daf3f58bdf560a"
+    },
+    {
+      "filename": "BiomesOPlenty-1.20.1-18.0.0.592.jar",
+      "sha256": "c587b49931e62f89c2673936a5e7269c6daabb713dbcc30813cb0f76da37e01d"
+    },
+    {
+      "filename": "Clumps-forge-1.20.1-12.0.0.4.jar",
+      "sha256": "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a"
+    },
+    {
+      "filename": "ColdSweat-2.4.3.jar",
+      "sha256": "2f3829f807cce1664c7622a17bf70a1f4d79ee60fa9af25c0c4d44adea98003a"
+    },
+    {
+      "filename": "DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
+      "sha256": "27cc6df2189e142671e4174ad7b2d773318b1b871758ec27756538947052a302"
+    },
+    {
+      "filename": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+      "sha256": "a08b641e6cc1d4867e0878826ac4fb9e55b45907d0fa3429172ecad8cd678ce9"
+    },
+    {
+      "filename": "FallingTree-1.20.1-4.3.4.jar",
+      "sha256": "5fb64717c368c2759e768873424a46ee5c40076600feadaac5403ca197aebe0f"
+    },
+    {
+      "filename": "FastSuite-1.20.1-5.1.2.jar",
+      "sha256": "5e05cb3ce05785a0061a41b7a83443074a6c26dd7d9db75c453fa2487481d54e"
+    },
+    {
+      "filename": "JRFTL-1.20.1-1.6.0.jar",
+      "sha256": "521258f9b254b2be0205b40db882cbcdc26cf87babc8449939646f75d8e6c3b3"
+    },
+    {
+      "filename": "KNCraftNativePortals-1.1.0.jar",
+      "sha256": "33c701e506b92cd5b865b6e8f50305b41acfb249ff4ad72854b8dc2645df9ea7"
+    },
+    {
+      "filename": "KNCraftPerformance-1.0.0.jar",
+      "sha256": "59f8894a62f1aba8265b10e4730be91cb2c05dc588428272b80f4760cdd72824"
+    },
+    {
+      "filename": "KNCraftTentPortals-1.0.1.jar",
+      "sha256": "661e2215b74c29b466580c8399e9a1fb6a68307fd1e42c9c3049556283b4a30b"
+    },
+    {
+      "filename": "Ksyxis-1.4.4.jar",
+      "sha256": "84186b3d128fd45b6affb4af2d4132520ec302ea53634f53b717d14689784905"
+    },
+    {
+      "filename": "MoreEnchantments_MC_1.20.1_Vers.1.4.3.jar",
+      "sha256": "cd539b098563afe518d74f92e6f06c98e23b4cc65d45ab6c0b4c039587b6d49a"
+    },
+    {
+      "filename": "MultiplayerServerPause-1.20.1-Forge-1.3.3.jar",
+      "sha256": "950a4220c833c3b450d3728bf817ba5be7085b3e6dae0c8b4e3e6591863fc329"
+    },
+    {
+      "filename": "Nomadic-Tents-20.1.1.jar",
+      "sha256": "57bf4b44756c5e8d8d4d9403f8da6150764e4872cae020be27af3fba98d35ae6"
+    },
+    {
+      "filename": "Patchouli-1.20.1-85-FORGE.jar",
+      "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
+    },
+    {
+      "filename": "Placebo-1.20.1-8.6.3.jar",
+      "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
+    },
+    {
+      "filename": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "sha256": "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f"
+    },
+    {
+      "filename": "RopeBridge-1.20.1-3.0.3.jar",
+      "sha256": "9cb45241e4eedfb4268452a995a6c7f8032941ec0d7799702615ec22a3c916c6"
+    },
+    {
+      "filename": "Structory_1.20.x_v1.3.5.jar",
+      "sha256": "43f4b4b88bb9caa1114928a93e787335e56171b5233a545bf2f4da1ce9fe943b"
+    },
+    {
+      "filename": "SuperBarrels_4.jar",
+      "sha256": "90014232b596d54559d820d1f26fd6be7ea219acb3226412445d5962d38f5244"
+    },
+    {
+      "filename": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+      "sha256": "c109016f46ca9bdae69976bf080bbf2e8e5968cb66c0a78845f8ca6af5dbbeb1"
+    },
+    {
+      "filename": "Terralith_1.20.x_v2.5.4.jar",
+      "sha256": "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f"
+    },
+    {
+      "filename": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+      "sha256": "9c8115af7109579da990249fdd67b38323a45be70f8a3a962b61da69c7021984"
+    },
+    {
+      "filename": "abridged-2.0.0-forge-1.20.1.jar",
+      "sha256": "d64f9c5d70aa808771770cc7b7f4490f225e646db3c81ae0080cbc6b4a5429af"
+    },
+    {
+      "filename": "aether-1.20.1-1.5.2-neoforge.jar",
+      "sha256": "5cb64ab1f27e78e8338fe67f9c766578904aad9bc1f8bcc90f306ea52aea3fc5"
+    },
+    {
+      "filename": "alexsmobs-1.22.9.jar",
+      "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c"
+    },
+    {
+      "filename": "appleskin-forge-mc1.20.1-2.5.1.jar",
+      "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
+    },
+    {
+      "filename": "architectury-9.2.14-forge.jar",
+      "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+    },
+    {
+      "filename": "balm-forge-1.20.1-7.3.43.jar",
+      "sha256": "1ef7820c2587d2ecee26a8b941427f08bbc1058a8dd376cf45e3fa6df1cba69e"
+    },
+    {
+      "filename": "bettercombat-forge-1.9.0+1.20.1.jar",
+      "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1"
+    },
+    {
+      "filename": "betterminecarts-1.20.1-1.9.0-47.3.0.jar",
+      "sha256": "4b5c2e3bc6ce1d43b1afc9449465571617136d94607714d992562e70b39e0279"
+    },
+    {
+      "filename": "caelus-forge-3.2.0+1.20.1.jar",
+      "sha256": "37495445e79df8b30a3a038a0051f3c8aa8447f91a9d0aa0d20baef69dda9368"
+    },
+    {
+      "filename": "callfromthedepth_-1.22.1-forge-1.20.1.jar",
+      "sha256": "2098447c42102d38dd1e1f14cab079661c0ddcb16503f3571199c9775cd1a47e"
+    },
+    {
+      "filename": "carryon-forge-1.20.1-2.1.2.7.jar",
+      "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
+    },
+    {
+      "filename": "citadel-2.6.3-1.20.1.jar",
+      "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce"
+    },
+    {
+      "filename": "cloth-config-11.1.136-forge.jar",
+      "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+    },
+    {
+      "filename": "collective-1.20.1-8.39.jar",
+      "sha256": "594bc5d40f2a3fec1ad95732524f65e01a27ac2abeb9d59889cd9f01fd8db6cb"
+    },
+    {
+      "filename": "comforts-forge-6.4.0+1.20.1.jar",
+      "sha256": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c"
+    },
+    {
+      "filename": "coroutil-forge-1.20.1-1.3.7.jar",
+      "sha256": "11448808a42c17425cf2ea39701841008683d6ad6e2838a34eef0253251a870f"
+    },
+    {
+      "filename": "cristellib-1.1.6-forge.jar",
+      "sha256": "3856ad565ea45d6189452d813e2f021b365b686d3b1adae5f747c56a1e535d9f"
+    },
+    {
+      "filename": "cupboard-1.20.1-4.1.jar",
+      "sha256": "9522d88548eca28469441743a1d4a16a5ad863cd5e00ec6525130485a695392b"
+    },
+    {
+      "filename": "curios-forge-5.14.1+1.20.1.jar",
+      "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
+    },
+    {
+      "filename": "dungeons_enhanced-1.20.1-5.4.3.jar",
+      "sha256": "caf6a694cf338d77b71208dcdd4e234e5b87594123a55bfb4f4e0122ae61b9c3"
+    },
+    {
+      "filename": "elytra_crafting_forge-1.0.0-forge-1.20.1.jar",
+      "sha256": "59a4f8bcd5caa15ef433d9d875382b1b7c14b0918782d99154ac307c1f09cbe4"
+    },
+    {
+      "filename": "elytraslot-forge-6.4.4+1.20.1.jar",
+      "sha256": "f96c26e7ac9e2dade0aa04f71b9f8708a2b7af92b9cc691103ae32c62764e6ab"
+    },
+    {
+      "filename": "fabric-api-0.92.6+1.11.15+1.20.1.jar",
+      "sha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194"
+    },
+    {
+      "filename": "ferritecore-6.0.1-forge.jar",
+      "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
+    },
+    {
+      "filename": "ftb-library-forge-2001.2.13.jar",
+      "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7"
+    },
+    {
+      "filename": "ftb-quests-forge-2001.4.22.jar",
+      "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68"
+    },
+    {
+      "filename": "ftb-teams-forge-2001.3.2.jar",
+      "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
+    },
+    {
+      "filename": "ftb-xmod-compat-forge-2.1.3.jar",
+      "sha256": "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72"
+    },
+    {
+      "filename": "geckolib-forge-1.20.1-4.8.4.jar",
+      "sha256": "c04abba4fd354dd8c0e8a732f1f05f4dca893d2e1d962b2ab128bbd411478747"
+    },
+    {
+      "filename": "iChunUtil-1.20.1-Forge-1.0.3.jar",
+      "sha256": "31ee649f34ff9c7a51d4d1b80f438a49a0387bd544b0a5cdc96e039d90f134c5"
+    },
+    {
+      "filename": "immersive-portals-3.0.7-all.jar",
+      "sha256": "deb233d1e530e5e208ba6f3529a3b90ad071a06a2dc8d7ea60f14b0d67912efc"
+    },
+    {
+      "filename": "inventorytotem-1.20.1-3.4.jar",
+      "sha256": "bde671c0c6a5a71fdf0d56319461dcc30c3f58261cb547963b6b1581eaed9d0a"
+    },
+    {
+      "filename": "ironchest-1.20.1-14.4.4.jar",
+      "sha256": "6bc75f288d2e8158d2e23c6881a1b341a894c38bab129ca0f20db6abd59d373f"
+    },
+    {
+      "filename": "jei-1.20.1-forge-15.59.0.212.jar",
+      "sha256": "0f39187f57cadd7b27a4511038628e212b53a1b184edf53121614418ed6a7442"
+    },
+    {
+      "filename": "kotlinforforge-4.12.0-all.jar",
+      "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
+    },
+    {
+      "filename": "lithostitched-forge-1.20.1-1.4.11.jar",
+      "sha256": "c19a5a36c0e6cb3782cf7ca5b9648fb1bce5fc41fd737bed423a1f4971bccf75"
+    },
+    {
+      "filename": "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "sha256": "95c5aae4e82758d5c0ca2ba61c4cf72e9240e53f68befe8104c68fa9f9b19eed"
+    },
+    {
+      "filename": "mcw-mcwstairs-1.0.2-mc1.20.1forge.jar",
+      "sha256": "c952bf7b9eec89071d05da79f73459565847c65187b2f342fa0933c46605bfea"
+    },
+    {
+      "filename": "memoryleakfix-forge-1.17+-1.1.5.jar",
+      "sha256": "925c3db4e1d085a43c4d2beaa4eec18367c22abc90c2ce8594b8a129fd3f28dd"
+    },
+    {
+      "filename": "midnightlib-forge-1.9.2+1.20.1.jar",
+      "sha256": "19af8e16930380e0669cb457a7f591c9ecac131cf3d879cc77f0fd7afe41b849"
+    },
+    {
+      "filename": "modernfix-forge-5.27.83+mc1.20.1.jar",
+      "sha256": "954ff22f601be8de3978a0d7636a138dc93801c6ac55cfd71ef1cd2895de8e5f"
+    },
+    {
+      "filename": "noisium-forge-2.3.0+mc1.20-1.20.1.jar",
+      "sha256": "b0b020250c81e8cce7776c3dc8f7085f269e2007570d5fbd492c4497ad60685c"
+    },
+    {
+      "filename": "pamhc2crops-1.20-1.0.3.jar",
+      "sha256": "81f743457e1cdd9a3061e23be094920562fd1c57cf29e78cf77a71c1f27da4f0"
+    },
+    {
+      "filename": "pamhc2foodcore-1.20.4-1.0.5.jar",
+      "sha256": "1f18655d5eeea99eeccf0d9d458dbf88d6b59c1a9f00c17e322db8d55a54ed5b"
+    },
+    {
+      "filename": "pamhc2foodextended-1.20.4-1.0.1.jar",
+      "sha256": "3cead8bebf7bf4b0d690ee3887da58a1941c92d197826be1f54bbae942e408bd"
+    },
+    {
+      "filename": "pamhc2trees-1.20-1.0.2.jar",
+      "sha256": "69e0c722c786b78aea299e7faf27991e6533a671a66f281fb5ced279eb31b0dd"
+    },
+    {
+      "filename": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691"
+    },
+    {
+      "filename": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+      "sha256": "b42584e2672d6b5329959ec2b0f342395b19389fed0ee4d86ea71072f42f77a0"
+    },
+    {
+      "filename": "servercore-forge-1.5.2+1.20.1.jar",
+      "sha256": "d9ad4f456b6c36bac17a71cd12935fdccae69ca1e1fcd33857210758cb58e586"
+    },
+    {
+      "filename": "sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
+      "sha256": "6ab4a0cb739a6c11442a73d1b5f42c40c2ae93b31162fa63d81e1b66706e9e31"
+    },
+    {
+      "filename": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
+      "sha256": "f4038a2e0d0e3504258fbe315cb27a37f1a769d71985bfa20afb983a3bdfab64"
+    },
+    {
+      "filename": "structure_gel-1.20.1-2.16.2.jar",
+      "sha256": "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e"
+    },
+    {
+      "filename": "tectonic-3.0.17-forge-1.20.1.jar",
+      "sha256": "c6de479b27cf090510de3f029918afc9fe17226981bd703e0002f7a25f4d8969"
+    },
+    {
+      "filename": "villagernames-1.20.1-8.5.jar",
+      "sha256": "e941c7d5da09ee16ff1d7a99ac0a2651e6d6b1fa649ea4da19c5866128108e64"
+    },
+    {
+      "filename": "voicechat-forge-1.20.1-2.6.22.jar",
+      "sha256": "f171e99fa99f007ef013af5306f6c490fe79a11be7e1b18940147d75ced045b9"
+    },
+    {
+      "filename": "waystones-forge-1.20.1-14.1.21.jar",
+      "sha256": "fd6fe3c645328ea7be5bc6723d02c881e34650e0cbd4527ba59e42fa4cbe3c80"
+    },
+    {
+      "filename": "weather2-1.20.1-2.8.3.jar",
+      "sha256": "5eb828f93b2eb370d7f38ad1893739caf7655f32d58dbbdaabae6075ede635db"
+    },
+    {
+      "filename": "witherstormmod-1.20.1-4.2.1-all.jar",
+      "sha256": "a23c019b1465c87ba506ada49aa815866e5353ebdc2be3284d9087ff080018ac"
+    }
+  ],
+  "scope": "Gameplay, supporting libraries and performance mods only; unrelated server-service mods deliberately omitted."
+}

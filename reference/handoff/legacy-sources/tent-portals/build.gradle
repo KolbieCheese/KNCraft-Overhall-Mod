@@ -1,0 +1,19 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '[6.0,6.2)' }
+version='1.0.1'
+group='com.beautyinblocks'
+base { archivesName='KNCraftTentPortals' }
+java.toolchain.languageVersion=JavaLanguageVersion.of(17)
+minecraft { mappings channel:'official', version:'1.20.1' }
+repositories { mavenCentral(); flatDir { dirs 'libs' } }
+dependencies {
+ minecraft 'net.minecraftforge:forge:1.20.1-47.4.0'
+ implementation fg.deobf('local:nomadictents:20.1.1')
+ implementation fg.deobf('local:immersiveportals:3.0.7')
+ implementation fg.deobf('local:infiniverse:1.0.0.5')
+}
+jar { manifest { attributes(['MixinConfigs':'kncrafttents.mixins.json']) }; finalizedBy 'reobfJar' }
+
+sourceSets { harness { compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath; runtimeClasspath += output + compileClasspath } }
+tasks.register('harnessJar', Jar) { dependsOn harnessClasses; archiveBaseName='KNCraftTentTests'; from sourceSets.harness.output }
+reobf { harnessJar {} }
+tasks.named('harnessJar').configure { finalizedBy 'reobfHarnessJar' }

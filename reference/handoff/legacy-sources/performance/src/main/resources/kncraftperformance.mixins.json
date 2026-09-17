@@ -1,0 +1,1 @@
+{"required":true,"minVersion":"0.8","package":"com.beautyinblocks.performance.mixin","compatibilityLevel":"JAVA_17","mixins":["AvoidStormMixin","ItemTargetMixin","TornadoMixin"],"injectors":{"defaultRequire":1}}

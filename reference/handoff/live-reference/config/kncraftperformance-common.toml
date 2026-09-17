@@ -1,0 +1,7 @@
+#Skip portal-free sections during Wither Storm flee-goal searches. Unloaded areas use the original search.
+portalSearch = true
+#Select the nearest Alex's Mobs item target without sorting other candidates.
+itemSelection = true
+#Query only entity classes used by Weather2's forceRotate logic.
+tornadoQuery = true
+

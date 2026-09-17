@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '6.0.36'
+}
+version = project.mod_version
+group = 'com.beautyinblocks.kncraft'
+base { archivesName = 'KNCraft-Architecture' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft { mappings channel: 'official', version: '1.20.1' }
+repositories { mavenCentral(); flatDir { dirs 'libs' } }
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.0'
+    implementation fg.deobf('local:immersiveportals:3.0.7')
+    implementation fg.deobf('local:nomadictents:20.1.1')
+    implementation fg.deobf('local:infiniverse:1.0.0.5')
+    implementation fg.deobf('local:weather2:2.8.3')
+    implementation fg.deobf('local:coldsweat:2.4.3')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+jar {
+    manifest { attributes 'MixinConfigs': 'kncrafttents.mixins.json,kncraftperformance.mixins.json',
+            'Implementation-Version': project.version }
+    finalizedBy 'reobfJar'
+}
+test { useJUnitPlatform() }
+['depth', 'tents', 'performance'].each { module ->
+    def source = sourceSets.create(module + 'Harness') {
+        java.srcDir "src/gametest/${module}/java"
+        resources.srcDir "src/gametest/${module}/resources"
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += output + compileClasspath
+    }
+    tasks.register(module + 'HarnessJar', Jar) {
+        dependsOn source.classesTaskName
+        archiveBaseName = 'KNCraft-' + module + '-ISOLATED-TESTS'
+        from source.output
+    }
+    reobf.create(module + 'HarnessJar')
+    tasks.named(module + 'HarnessJar') { finalizedBy 'reobf' + module.capitalize() + 'HarnessJar' }
+}
+tasks.register('harnessJars') { dependsOn 'depthHarnessJar', 'tentsHarnessJar', 'performanceHarnessJar' }

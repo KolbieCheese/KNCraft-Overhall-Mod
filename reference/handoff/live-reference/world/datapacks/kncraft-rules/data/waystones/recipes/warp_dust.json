@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "waystones:warp_dust",
+    "count": 4
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

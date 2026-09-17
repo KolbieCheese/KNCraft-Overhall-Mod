@@ -1,0 +1,21 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": [
+    "minecraft:overworld"
+  ],
+  "to": "aether:the_aether",
+  "reversible": true,
+  "space_ratio_from": 1,
+  "space_ratio_to": 1,
+  "form": {
+    "type": "imm_ptl:classical",
+    "from_frame_block": "minecraft:glowstone",
+    "to_frame_block": "minecraft:glowstone",
+    "area_block": "aether:aether_portal",
+    "generate_frame_if_not_found": true
+  },
+  "trigger": {
+    "type": "imm_ptl:use_item",
+    "item": "minecraft:stick"
+  }
+}

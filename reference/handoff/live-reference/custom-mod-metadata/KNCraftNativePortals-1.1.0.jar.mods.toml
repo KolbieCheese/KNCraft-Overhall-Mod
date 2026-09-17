@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="kncraftnativeportals"
+version="1.1.0"
+displayName="KNCraft Native Portal Lighting"
+displayTest="IGNORE_SERVER_VERSION"
+description="Convert successfully lit Aether and Depth portals using KNCraft's immersive datapacks. Server only."
+[[dependencies.kncraftnativeportals]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="SERVER"
+[[dependencies.kncraftnativeportals]]
+modId="immersive_portals"
+mandatory=true
+versionRange="[3.0.7,3.0.8)"
+ordering="AFTER"
+side="SERVER"
+
+[[dependencies.kncraftnativeportals]]
+modId="callfromthedepth_"
+mandatory=false
+versionRange="[1.22.1]"
+ordering="AFTER"
+side="SERVER"

@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "waystones:blue_sharestone"
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "balm:blue_dyes"
+    },
+    {
+      "tag": "waystones:sharestone"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

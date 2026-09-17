@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="kncraftperformance"
+version="1.0.0"
+displayName="KNCraft Performance"
+displayTest="IGNORE_SERVER_VERSION"
+description="Conservative server-side search optimizations for KNCraft's pinned mod versions."
+[[dependencies.kncraftperformance]]
+modId="witherstormmod"
+mandatory=true
+versionRange="[4.2.1]"
+ordering="AFTER"
+side="SERVER"
+[[dependencies.kncraftperformance]]
+modId="weather2"
+mandatory=true
+versionRange="[1.20.1-2.8.3]"
+ordering="AFTER"
+side="SERVER"
+[[dependencies.kncraftperformance]]
+modId="alexsmobs"
+mandatory=true
+versionRange="[1.22.9]"
+ordering="AFTER"
+side="SERVER"

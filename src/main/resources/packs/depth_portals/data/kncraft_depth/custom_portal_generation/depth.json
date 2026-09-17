@@ -1,0 +1,21 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": [
+    "minecraft:overworld"
+  ],
+  "to": "callfromthedepth_:depth",
+  "reversible": true,
+  "space_ratio_from": 16,
+  "space_ratio_to": 1,
+  "form": {
+    "type": "kncraft:bounded_depth",
+    "from_frame_block": "minecraft:reinforced_deepslate",
+    "to_frame_block": "minecraft:reinforced_deepslate",
+    "area_block": "callfromthedepth_:depth_portal",
+    "generate_frame_if_not_found": true
+  },
+  "trigger": {
+    "type": "imm_ptl:use_item",
+    "item": "minecraft:stick"
+  }
+}

@@ -1,0 +1,7 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="kncraftperformancetests"
+version="1.0.0"
+displayName="KNCraft Performance Tests - ISOLATED SERVER ONLY"
