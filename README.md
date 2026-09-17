@@ -30,6 +30,7 @@ exploration, equipment, and transport support one another.
   Each chapter includes relevant controls that display the player's current bindings.
   Journal records open the relevant guide chapter. Food, insulation and machine-time
   references refresh from the server, and each player receives one starter guide.
+  Players can recover a lost copy with `/guide`, which uses an empty inventory slot.
   No expedition loadouts or equipment profiles are installed.
 
 The mod also retains native Aether/Depth portal lighting, bounded Depth arrivals,
@@ -73,7 +74,8 @@ Restart after changing switches. Existing Cold Sweat definitions take precedence
 the supplied defaults; the mod does not rewrite upstream configuration.
 
 Use `/kncraft status` or `config/kncraft-status.txt` to inspect enabled integrations.
-See [features and behavior](docs/Features.md) and [1.0.2 validation](docs/Reference-Validation.md) for
+See [features and behavior](docs/Features.md), [guide recovery validation](docs/Guide-Recovery-Validation.md)
+and [1.0.2 validation](docs/Reference-Validation.md) for
 details and the limits of the completed checks.
 
 The client command `/kncraft controls` reports possible key conflicts. Players may apply
@@ -87,7 +89,7 @@ Set `JAVA_HOME` to a Java 17 JDK and use Python 3.11 or newer:
 ```powershell
 python tools/bootstrap_dependencies.py --download
 .\gradlew.bat build releaseBundle --console=plain
-python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.2.jar
+python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.3.jar
 ```
 
 Alternatively, bootstrap from the installed pack with `--instance "C:\path\to\KNCraft"`.

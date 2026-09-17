@@ -166,6 +166,15 @@ Photography is tracked in `Guide-Capture-Backlog.json` and `Guide-Finishing-Revi
 The BlueMap example is received; six groups/13 minimum captures remain. These requests
 are documentation tasks, not unfinished prompts shown to players.
 
+### Guide recovery (1.0.3)
+
+Book version 13 documents `/guide` and its `/kncraft guide` alias. Both commands are
+available to all players and bypass the one-time gift receipt and `giveStarterGuide`
+switch. They recognize existing carried copies (including offhand) and use only an empty
+main-inventory/hotbar slot. If all slots are occupied, no item is replaced or dropped;
+the player gets a message to free space and retry. Console use reports that a player is
+required. Recovery marks the normal receipt so it cannot trigger an extra automatic gift.
+
 ### Returning to the earlier helper arrangement
 
 Stop cleanly. Restore the three old helpers and matching datapacks/configs together, remove

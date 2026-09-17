@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.3 - recover a lost guide
+
+- Added `/guide` and `/kncraft guide` for every player, without operator permission.
+  Recovery uses an empty inventory slot, skips copies already carried (including offhand),
+  and reports when the inventory is full without replacing or dropping items.
+- Explicit recovery works after the first-join gift and when automatic gifts are disabled.
+  The Welcome chapter explains the commands; the bundled book advances to version 13.
+
 ## 1.0.2 - connected Field Guide
 
 - Added configurable automatic-feeding reserves for Golden Apple Stew and enchanted

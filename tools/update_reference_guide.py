@@ -51,7 +51,8 @@ def main():
     manifest.write_text(json.dumps(edits, indent=2) + '\n', encoding='utf-8')
 
     insert('intro', 'controls', [
-        ('guide', 'Your first Field Guide', 'You receive this guide once when joining the world. A carried copy counts; a full inventory delays delivery until space is free. Death and reconnecting do not grant another. Craft a book with one paper if you need a replacement.'),
+        ('guide', 'Your first Field Guide', 'You receive this guide once when joining the world. A carried copy counts; a full inventory delays delivery until space is free. Death and reconnecting do not grant another automatically. Lost it? Use /guide for a replacement.'),
+        ('recover_guide', 'Recover your Field Guide', 'Use /guide or /kncraft guide to put this book in an empty inventory slot. Every player can use it. A carried copy, including your offhand, prevents duplicates. If your inventory is full, free a slot and retry. Crafting a book with one paper also still works.'),
         ('journal_links', 'From journal to chapter', 'Open a journal record, then select Open in Guide to jump to the relevant Field Guide chapter. All records stay independent, without rewards or recipe locks. Read at your own pace and return to the journal when ready.'),
         ('server_values', 'Values from your server', 'Thermal-food and selected insulation pages request current server definitions while open. They label pack defaults while waiting. Values describe a plain item under your current conditions; item data and other modifiers may change the result.'),
     ])
@@ -142,7 +143,7 @@ def main():
         template['components'][5]['y'] = 29 + round(height*scale) + 5
         save(BOOK / f'templates/{name}.json', template, 'Native texture coordinates; original JPEG unchanged')
     declaration = RES / 'data/patchouli/patchouli_books/kncraft_guide/book.json'
-    data = read(declaration); data['version'] = 12; declaration.write_text(json.dumps(data, indent=2) + '\n')
+    data = read(declaration); data['version'] = 13; declaration.write_text(json.dumps(data, indent=2) + '\n')
     manifest = ROOT / 'docs/Guide-Integration-Edits.json'; data = read(manifest); data['files'].update(edited)
     manifest.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
     print('Reference guide:', len(keys), 'live keys;', len(edits['changes']), 'documented editorial replacements')

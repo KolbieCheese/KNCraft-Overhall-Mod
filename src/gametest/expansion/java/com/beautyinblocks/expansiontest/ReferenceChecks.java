@@ -23,7 +23,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 final class ReferenceChecks {
     static ServerPlayer player(MinecraftServer server) { return FakePlayerFactory.get(server.overworld(), new GameProfile(UUID.randomUUID(), "GuideCheck")); }
     static void run(MinecraftServer server) throws Exception {
-        gift(server); feeding(server); values(server); links();
+        gift(server); guideCommand(server); feeding(server); values(server); links();
         System.out.println("REFERENCE: one-time guide delivery, full inventory retry, native feeding reserves, player opt-out persistence, authoritative overrides, packet data and 344 guide routes verified");
     }
     static void gift(MinecraftServer server) {
@@ -68,6 +68,41 @@ final class ReferenceChecks {
             PolishConfig.RESERVED_FOOD.set(true); PolishConfig.RESERVED_ITEMS.set(List.of("minecraft:bread"));
             check(!(boolean) method.invoke(null, new ItemStack(Items.BREAD), p) && (boolean) method.invoke(null, stew, p), "Administrator reserve list ignored");
         } finally { PolishConfig.RESERVED_FOOD.set(enabled); PolishConfig.RESERVED_ITEMS.set(list); }
+    }
+    static void guideCommand(MinecraftServer server) throws Exception {
+        var p = player(server);
+        var source = p.createCommandSourceStack().withPermission(0).withSuppressedOutput();
+        var dispatcher = server.getCommands().getDispatcher();
+        // A previous first-join receipt must never prevent deliberate replacement.
+        p.getPersistentData().putBoolean(GuideDelivery.RECEIVED, true);
+        p.getInventory().setItem(0, new ItemStack(Items.DIAMOND, 7));
+        check(dispatcher.execute("guide", source) == 1 && GuideDelivery.isGuide(p.getInventory().getItem(1)), "Non-op /guide did not replace a lost book in the first empty slot");
+        check(p.getInventory().getItem(0).is(Items.DIAMOND) && p.getInventory().getItem(0).getCount() == 7, "/guide overwrote an occupied slot");
+        check(dispatcher.execute("guide", source) == 0 && p.getInventory().items.stream().filter(GuideDelivery::isGuide).count() == 1, "Repeated /guide duplicated a carried copy");
+        p.getInventory().offhand.set(0, p.getInventory().removeItemNoUpdate(1));
+        check(dispatcher.execute("kncraft guide", source) == 0 && p.getInventory().getItem(1).isEmpty(), "Guide alias duplicated an offhand copy");
+        p.getInventory().offhand.set(0, ItemStack.EMPTY);
+        p.getInventory().items.replaceAll(ignored -> new ItemStack(Items.STONE, 64));
+        check(dispatcher.execute("guide", source) == 0, "Full inventory accepted /guide");
+        check(p.getInventory().items.stream().allMatch(s -> s.is(Items.STONE) && s.getCount() == 64), "Full inventory contents changed");
+        p.getInventory().setItem(17, ItemStack.EMPTY);
+        check(dispatcher.execute("kncraft guide", source) == 1 && GuideDelivery.isGuide(p.getInventory().getItem(17)), "Retry through alias failed to use the sole free slot");
+        boolean setting = PolishConfig.STARTER_GUIDE.get();
+        try {
+            PolishConfig.STARTER_GUIDE.set(false);
+            p.getInventory().setItem(17, ItemStack.EMPTY);
+            check(dispatcher.execute("guide", source) == 1, "Disabling automatic gifts also disabled explicit recovery");
+        } finally { PolishConfig.STARTER_GUIDE.set(setting); }
+        var other = player(server);
+        var otherBook = item("patchouli:guide_book"); otherBook.getOrCreateTag().putString("patchouli:book", "patchouli:another_book");
+        other.getInventory().setItem(0, otherBook);
+        check(dispatcher.execute("guide", other.createCommandSourceStack().withPermission(0).withSuppressedOutput()) == 1
+            && other.getInventory().getItem(0) == otherBook && GuideDelivery.isGuide(other.getInventory().getItem(1)), "A different Patchouli book blocked recovery or was replaced");
+        try {
+            dispatcher.execute("guide", server.createCommandSourceStack().withSuppressedOutput());
+            throw new IllegalStateException("Console /guide must require a player");
+        } catch (com.mojang.brigadier.exceptions.CommandSyntaxException expected) { }
+        System.out.println("GUIDE COMMAND PASSED: permission zero, received/lost guide, empty-slot placement, repeated and offhand copies, full inventory, retry, alias, disabled automatic gift, other book and console rejection");
     }
     static void values(MinecraftServer server) {
         var p = player(server); var tea = item("pamhc2crops:hotteaitem").getItem(); var cotton = item("pamhc2crops:cottonitem").getItem();

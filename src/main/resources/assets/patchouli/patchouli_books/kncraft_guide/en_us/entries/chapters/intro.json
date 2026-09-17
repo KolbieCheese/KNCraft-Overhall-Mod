@@ -112,8 +112,15 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Your first Field Guide",
-      "body": "You receive this guide once when joining the world. A carried copy counts; a full inventory delays delivery until space is free. Death and reconnecting do not grant another. Craft a book with one paper if you need a replacement.",
+      "body": "You receive this guide once when joining the world. A carried copy counts; a full inventory delays delivery until space is free. Death and reconnecting do not grant another automatically. Lost it? Use /guide for a replacement.",
       "anchor": "kncraft_guide",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Recover your Field Guide",
+      "body": "Use /guide or /kncraft guide to put this book in an empty inventory slot. Every player can use it. A carried copy, including your offhand, prevents duplicates. If your inventory is full, free a slot and retry. Crafting a book with one paper also still works.",
+      "anchor": "kncraft_recover_guide",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
     },
     {

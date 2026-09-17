@@ -80,7 +80,10 @@ existing climate and Weather2 support remain unchanged.
 ## Connected Field Guide (1.0.2)
 
 Players receive one guide, with a carried-copy check and retry after a full inventory.
-The receipt survives respawn and save/load. The book remains craftable if lost. This is
+The receipt survives respawn and save/load. Every player can recover a lost guide with
+`/guide` or `/kncraft guide`, without operator permission. Recovery puts the book in an
+empty inventory slot, recognizes carried/offhand copies and asks for space when full.
+It works even when the automatic first-join gift is disabled. The book also remains craftable. This is
 the only starter gift: there are no expedition loadouts or equipment profiles.
 
 Golden Apple Stew and enchanted golden apples are reserved from native backpack auto-feeding
