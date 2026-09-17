@@ -1,0 +1,16 @@
+{
+  "name": "Fig Jelly Toast",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:figjellytoastitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:figjellytoastitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_figjellytoastitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

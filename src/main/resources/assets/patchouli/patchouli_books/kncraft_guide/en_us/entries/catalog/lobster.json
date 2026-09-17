@@ -1,0 +1,25 @@
+{
+  "name": "Lobster",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Lobster",
+      "body": "Underwater near beaches. Usually passive; an attacked lobster pinches nearby threats. Bucket it for transport. Tails can be cooked, but also",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/lobster)Start$(/l)",
+      "anchor": "animal_lobster",
+      "creature": "alexsmobs:lobster"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Lobster (cont.)",
+      "body": "tame or breed several other animals, making them useful to keep as ingredients.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/lobster)Start$(/l)",
+      "anchor": "animal_lobster_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Thermolith",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:thermolith",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:thermolith",
+      "anchor": "lookup_recipe_cold_sweat_thermolith",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_thermolith)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

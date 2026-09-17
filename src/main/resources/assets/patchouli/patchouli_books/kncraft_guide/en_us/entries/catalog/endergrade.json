@@ -1,0 +1,25 @@
+{
+  "name": "Endergrade",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Endergrade",
+      "body": "End chorus forests. Saddle it and hold Chorus on a Stick to steer. Chorus Fruit lures and breeds it. It is a slow flying mount suited to controlled movement between",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/endergrade)Start$(/l)",
+      "anchor": "animal_endergrade",
+      "creature": "alexsmobs:endergrade"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Endergrade (cont.)",
+      "body": "heights; plan crossings before committing over the void.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/endergrade)Start$(/l)",
+      "anchor": "animal_endergrade_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

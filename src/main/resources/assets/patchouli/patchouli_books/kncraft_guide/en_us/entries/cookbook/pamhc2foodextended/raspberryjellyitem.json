@@ -1,0 +1,16 @@
+{
+  "name": "Raspberry Jelly",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:raspberryjellyitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:raspberryjellyitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_raspberryjellyitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

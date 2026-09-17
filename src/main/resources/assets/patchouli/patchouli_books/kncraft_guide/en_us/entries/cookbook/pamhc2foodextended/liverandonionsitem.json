@@ -1,0 +1,16 @@
+{
+  "name": "Liver and Onions",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:liverandonionsitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:liverandonionsitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_liverandonionsitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Hoglin Headpiece",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:hoglin_helmet",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:hoglin_headpiece",
+      "anchor": "lookup_recipe_cold_sweat_hoglin_headpiece",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_hoglin_headpiece)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

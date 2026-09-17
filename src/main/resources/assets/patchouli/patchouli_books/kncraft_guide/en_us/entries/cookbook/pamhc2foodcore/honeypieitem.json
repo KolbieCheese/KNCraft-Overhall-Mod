@@ -1,0 +1,16 @@
+{
+  "name": "Honey Pie",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:honeypieitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:honeypieitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_honeypieitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Gorilla",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Gorilla",
+      "body": "Jungles. Normally peaceful, but a provoked group is dangerous, especially its silverback leader. Bananas from jungle leaves build trust. A friendly gorilla can sit",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/gorilla)Start$(/l)",
+      "anchor": "animal_gorilla",
+      "creature": "alexsmobs:gorilla"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Gorilla (cont.)",
+      "body": "or wander and will defend its benefactor. Avoid accidental hits while fighting nearby enemies.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/gorilla)Start$(/l)",
+      "anchor": "animal_gorilla_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

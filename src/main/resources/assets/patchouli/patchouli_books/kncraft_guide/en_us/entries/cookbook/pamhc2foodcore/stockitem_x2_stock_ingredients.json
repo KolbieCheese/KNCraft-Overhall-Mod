@@ -1,0 +1,16 @@
+{
+  "name": "Stock",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:stockitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:stockitem_x2_stock_ingredients",
+      "anchor": "lookup_recipe_pamhc2foodcore_stockitem_x2_stock_ingredients",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

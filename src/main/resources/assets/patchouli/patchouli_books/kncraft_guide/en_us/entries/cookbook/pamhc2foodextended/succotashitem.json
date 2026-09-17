@@ -1,0 +1,16 @@
+{
+  "name": "Succotash",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:succotashitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:succotashitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_succotashitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

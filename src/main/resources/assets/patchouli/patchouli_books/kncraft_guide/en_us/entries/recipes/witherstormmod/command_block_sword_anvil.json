@@ -1,0 +1,22 @@
+{
+  "name": "Command Block Sword",
+  "category": "patchouli:recipes",
+  "icon": "witherstormmod:command_block_sword",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_anvil",
+      "heading": "Command Block Sword",
+      "body": "Anvil: 1 level. Place the tool on the left and the book on the right.",
+      "navigation": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/wither#recipe_witherstormmod_command_block_sword_anvil)Guide$(/l)",
+      "anchor": "lookup_recipe_witherstormmod_command_block_sword_anvil",
+      "left": "minecraft:diamond_sword",
+      "right": "witherstormmod:command_block_book",
+      "output": "witherstormmod:command_block_sword"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:command_block_sword": 0
+  }
+}

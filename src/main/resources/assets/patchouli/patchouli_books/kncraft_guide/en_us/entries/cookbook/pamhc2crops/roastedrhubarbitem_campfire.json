@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Rhubarb",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:roastedrhubarbitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Rhubarb",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedrhubarbitem_campfire",
+      "input": "tag:forge:crops/rhubarb",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:roastedrhubarbitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:roastedrhubarbitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_roastedrhubarbitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Rhubarb",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedrhubarbitem_smoker",
+      "input": "tag:forge:crops/rhubarb",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:roastedrhubarbitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:roastedrhubarbitem": 2
+  }
+}

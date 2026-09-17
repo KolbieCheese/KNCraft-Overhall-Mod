@@ -1,0 +1,16 @@
+{
+  "name": "Scallion Baked Potato",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:scallionbakedpotatoitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:scallionbakedpotatoitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_scallionbakedpotatoitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

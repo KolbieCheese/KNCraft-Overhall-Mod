@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Mushroom",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:roastedmushroomitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Mushroom",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedmushroomitem_campfire",
+      "input": "tag:forge:mushrooms",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:roastedmushroomitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:roastedmushroomitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_roastedmushroomitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Mushroom",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedmushroomitem_smoker",
+      "input": "tag:forge:mushrooms",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:roastedmushroomitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:roastedmushroomitem": 2
+  }
+}

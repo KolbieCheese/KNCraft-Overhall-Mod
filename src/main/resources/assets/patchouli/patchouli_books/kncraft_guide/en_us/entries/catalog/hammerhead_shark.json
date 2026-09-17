@@ -1,0 +1,25 @@
+{
+  "name": "Hammerhead Shark",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Hammerhead Shark",
+      "body": "Warm oceans. Targets creatures below half health, so recover before swimming near one. It circles before attacking. Teeth shed during hunts make arrows suited to",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/hammerhead_shark)Start$(/l)",
+      "anchor": "animal_hammerhead_shark",
+      "creature": "alexsmobs:hammerhead_shark"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Hammerhead Shark (cont.)",
+      "body": "underwater travel and aquatic targets.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/hammerhead_shark)Start$(/l)",
+      "anchor": "animal_hammerhead_shark_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

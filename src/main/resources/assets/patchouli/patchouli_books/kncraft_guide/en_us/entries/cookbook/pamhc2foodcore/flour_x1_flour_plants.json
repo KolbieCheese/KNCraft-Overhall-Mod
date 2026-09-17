@@ -1,0 +1,16 @@
+{
+  "name": "Flour",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:flouritem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:flour_x1_flour_plants",
+      "anchor": "lookup_recipe_pamhc2foodcore_flour_x1_flour_plants",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

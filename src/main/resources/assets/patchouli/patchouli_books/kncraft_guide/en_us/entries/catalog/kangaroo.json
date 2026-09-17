@@ -1,0 +1,25 @@
+{
+  "name": "Kangaroo",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Kangaroo",
+      "body": "Savannas and badlands. Tame with carrots. Sneak to access its pouch; it can use a stored melee weapon, helmet and chestplate, and eat non-meat food to",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/kangaroo)Start$(/l)",
+      "anchor": "animal_kangaroo",
+      "creature": "alexsmobs:kangaroo"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Kangaroo (cont.)",
+      "body": "heal. Breed with dead bushes or grass. Commands include stay, follow and wander.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/kangaroo)Start$(/l)",
+      "anchor": "animal_kangaroo_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Cashew",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2trees:roastedcashewitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Cashew",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2trees_roastedcashewitem_campfire",
+      "input": "tag:forge:crops/cashew",
+      "station": "minecraft:campfire",
+      "output": "pamhc2trees:roastedcashewitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2trees:roastedcashewitem_forge",
+      "anchor": "lookup_recipe_pamhc2trees_roastedcashewitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Cashew",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2trees_roastedcashewitem_smoker",
+      "input": "tag:forge:crops/cashew",
+      "station": "minecraft:smoker",
+      "output": "pamhc2trees:roastedcashewitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2trees:roastedcashewitem": 2
+  }
+}

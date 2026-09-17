@@ -1,0 +1,16 @@
+{
+  "name": "Hoglin Hooves",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:hoglin_boots",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:hoglin_hooves",
+      "anchor": "lookup_recipe_cold_sweat_hoglin_hooves",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_hoglin_hooves)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

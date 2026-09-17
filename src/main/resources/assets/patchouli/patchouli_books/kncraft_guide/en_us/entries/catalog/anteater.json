@@ -1,0 +1,25 @@
+{
+  "name": "Anteater",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Anteater",
+      "body": "Jungles. Neutral until attacked, then dangerous at close range. It eats Leafcutter Ants and digs into anthills, sometimes uncovering pupae, fungus, dirt",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/anteater)Start$(/l)",
+      "anchor": "animal_anteater",
+      "creature": "alexsmobs:anteater"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Anteater (cont.)",
+      "body": "and tubers. Breed with Leafcutter Ant Pupae. Keep it away from an ant colony you want to preserve.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/anteater)Start$(/l)",
+      "anchor": "animal_anteater_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Alligator Snapping Turtle",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Alligator Snapping Turtle",
+      "body": "Swamps. Keep clear of its mouth: it attacks at close range. Shear a moss-covered shell for a chance at Spiked Scutes; these improve a Turtle Shell helmet with extra",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/alligator_snapping_turtle)Start$(/l)",
+      "anchor": "animal_alligator_snapping_turtle",
+      "creature": "alexsmobs:alligator_snapping_turtle"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Alligator Snapping Turtle +...",
+      "body": "underwater breathing and knockback protection. Breed with raw cod.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/alligator_snapping_turtle)Start$(/l)",
+      "anchor": "animal_alligator_snapping_turtle_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

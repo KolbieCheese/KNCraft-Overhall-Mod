@@ -1,0 +1,25 @@
+{
+  "name": "Fly",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Fly",
+      "body": "Common in the Overworld, often around zombies. Breed with rotten flesh. Maggots feed several other species. Keep flies out of Nether transport systems:",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/fly)Start$(/l)",
+      "anchor": "animal_fly",
+      "creature": "alexsmobs:fly"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Fly (cont.)",
+      "body": "they can turn into Crimson Mosquitoes there.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/fly)Start$(/l)",
+      "anchor": "animal_fly_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

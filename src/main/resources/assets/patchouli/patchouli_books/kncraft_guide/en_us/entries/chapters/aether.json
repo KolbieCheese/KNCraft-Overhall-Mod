@@ -1,0 +1,120 @@
+{
+  "name": "5. The Aether",
+  "category": "patchouli:guide",
+  "icon": "minecraft:glowstone",
+  "priority": false,
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:kn_chapter",
+      "heading": "The Aether",
+      "body": "$(l:patchouli:chapters/aether#aether_start)Build the portal$(/l)$(br)$(l:patchouli:chapters/aether#aether_arrival)First landing$(/l)$(br)$(l:patchouli:chapters/aether#aether_resources)Local materials$(/l)$(br)$(l:patchouli:chapters/aether#aether_moa)Moa$(/l)",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)",
+      "anchor": "aether_contents",
+      "eyebrow": "CHAPTER 05"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Before the portal",
+      "body": "Build a vertical Glowstone portal frame in the familiar Nether-portal shape, with a two-block-wide, three-block-tall opening. Activate the opening with water rather than fire. Bring food, building blocks and fall protection. Plan a",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)",
+      "anchor": "aether_start"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Before the portal (cont.)",
+      "body": "safe return before exploring. Cold Sweat makes this destination generally temperate to cool on KNCraft; carry some warmth, especially while testing unfamiliar heights.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Islands and edges",
+      "body": "Cliffs and waterfalls from the Aether team's gallery. An island edge may drop",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)",
+      "anchor": "aether_view",
+      "picture": "kncraft:textures/guide/aether-2.png",
+      "credit": "$(l:https://modrinth.com/mod/aether/gallery)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Islands and edges",
+      "body": "straight into open space. Build crossings with cover and a landing in mind; an uninterrupted view is not a safe path.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Your first landing",
+      "body": "Mark the portal and make its approach safe. Falling out of the Aether can return you to the Overworld, far from a useful route. Flying enemies and uneven terrain make narrow bridges risky. Gather local materials before a long trip. Skyroot and",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)",
+      "anchor": "aether_arrival"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Your first landing (cont.)",
+      "body": "Holystone begin the dimension's equipment progression. Ambrosium supplies useful light and fuel. Keep ordinary survival tasks close to your return point at first.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Local equipment",
+      "body": "Skyroot tools can give extra drops from appropriate natural blocks. Holystone, Zanite and Gravitite offer further equipment options. Gravitite Ore can float upward; leave room to collect it. An Altar uses Ambrosium to process items and",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)",
+      "anchor": "aether_resources"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Local equipment (cont.)",
+      "body": "repair equipment. The Freezer uses Icestone. Check the relevant JEI processing category: these stations do more than a normal crafting table.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Movement and discovery",
+      "body": "Moa eggs can be hatched in an Incubator, fueled by Ambrosium Torches. Raise the hatchling before expecting a dependable mount. Keep fall protection even after gaining a new way to travel. The Book of Lore explains local blocks and items",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)",
+      "anchor": "aether_moa"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Movement and discovery +...",
+      "body": "as you discover them. Dungeons have their own progression and defenses; this chapter leaves their solutions and rewards for you to find.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "The Glowstone frame",
+      "body": "Aether portal framing from the owner's capture. Keep the approach clear.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)",
+      "anchor": "capture_aether_portal",
+      "picture": "kncraft:textures/guide/capture_aether_portal.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "The return path",
+      "body": "A cloud bridge leads back to the portal. Keep the return route visible.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether#aether_contents)Start$(/l)",
+      "anchor": "capture_aether_return",
+      "picture": "kncraft:textures/guide/capture_aether_return.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Continue reading",
+      "entries": [
+        "patchouli:chapters/depths",
+        "patchouli:chapters/weather"
+      ],
+      "text": "Next chapter first; previous chapter below.",
+      "anchor": "aether_end"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare for travel",
+      "body": "$(l:patchouli:chapters/architecture#portals)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
+      "navigation": "$(l:patchouli:guide)Book$(/l)",
+      "anchor": "architecture"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

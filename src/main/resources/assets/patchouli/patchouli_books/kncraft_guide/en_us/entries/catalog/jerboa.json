@@ -1,0 +1,25 @@
+{
+  "name": "Jerboa",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Jerboa",
+      "body": "Deserts at night. Seeds grant Fleet-Footed, improving movement when running and jumping together. Breed with maggots or small insects. Feeding",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/jerboa)Start$(/l)",
+      "anchor": "animal_jerboa",
+      "creature": "alexsmobs:jerboa"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Jerboa (cont.)",
+      "body": "prevents disappearance. Its small size makes it prey for snakes, cats and foxes.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/jerboa)Start$(/l)",
+      "anchor": "animal_jerboa_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Baked Turnip",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:bakedturnipitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Turnip",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedturnipitem_campfire",
+      "input": "tag:forge:crops/turnip",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:bakedturnipitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:bakedturnipitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_bakedturnipitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Turnip",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedturnipitem_smoker",
+      "input": "tag:forge:crops/turnip",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:bakedturnipitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:bakedturnipitem": 2
+  }
+}

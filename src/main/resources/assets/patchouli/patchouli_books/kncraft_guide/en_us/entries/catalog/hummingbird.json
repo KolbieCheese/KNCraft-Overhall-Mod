@@ -1,0 +1,25 @@
+{
+  "name": "Hummingbird",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Hummingbird",
+      "body": "Flower-rich habitats including jungles and meadows. Pollinates plants and breeds with flowers. Supply a Hummingbird Feeder with water bottles and sugar to keep birds",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/hummingbird)Start$(/l)",
+      "anchor": "animal_hummingbird",
+      "creature": "alexsmobs:hummingbird"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Hummingbird (cont.)",
+      "body": "nearby and support pollination. Check which crops respond before designing a large mixed-mod farm around it.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/hummingbird)Start$(/l)",
+      "anchor": "animal_hummingbird_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

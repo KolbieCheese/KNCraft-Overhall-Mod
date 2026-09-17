@@ -1,0 +1,25 @@
+{
+  "name": "Caiman",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Caiman",
+      "body": "Mangrove swamps. Generally neutral, but hunts small animals. Breed with catfish and protect the eggs on shore. Hatchlings imprint on a nearby player; a tamed adult",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/caiman)Start$(/l)",
+      "anchor": "animal_caiman",
+      "creature": "alexsmobs:caiman"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Caiman (cont.)",
+      "body": "can hold an attacker in its jaws, buying its owner time to move.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/caiman)Start$(/l)",
+      "anchor": "animal_caiman_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

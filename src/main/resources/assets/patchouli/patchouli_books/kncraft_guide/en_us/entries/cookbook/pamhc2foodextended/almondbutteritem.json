@@ -1,0 +1,16 @@
+{
+  "name": "Almond Butter",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:almondbutteritem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:almondbutteritem",
+      "anchor": "lookup_recipe_pamhc2foodextended_almondbutteritem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

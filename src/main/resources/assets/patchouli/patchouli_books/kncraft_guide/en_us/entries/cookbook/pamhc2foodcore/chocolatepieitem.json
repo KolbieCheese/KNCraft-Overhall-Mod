@@ -1,0 +1,16 @@
+{
+  "name": "Chocolate Pie",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:chocolatepieitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:chocolatepieitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_chocolatepieitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

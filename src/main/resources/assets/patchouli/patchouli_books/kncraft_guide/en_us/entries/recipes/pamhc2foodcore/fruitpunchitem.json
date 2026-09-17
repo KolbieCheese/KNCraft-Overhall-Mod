@@ -1,0 +1,16 @@
+{
+  "name": "Fruit Punch",
+  "category": "patchouli:recipes",
+  "icon": "pamhc2foodcore:fruitpunchitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:fruitpunchitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_fruitpunchitem",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/food#recipe_pamhc2foodcore_fruitpunchitem)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,56 @@
+KNCraft Architecture validation evidence — 2026-09-17
+These are selected actual log lines, not a complete transcript.
+
+minimal-startup.log SHA256 8c16ce38a5ce16bd889b6f1983a14b8251eb35db0bf98b094446f78e32b59490
+[00:16:23] [Server thread/INFO] [minecraft/DedicatedServer]: Done (1.241s)! For help, type "help"
+
+parity-runtime.log SHA256 509dbc06de2f37957351114171e2edb39766a24caa38be0e0b39f70c79b2bf94
+[00:18:08] [Server thread/INFO] [minecraft/DedicatedServer]: Done (1.516s)! For help, type "help"
+PERF TEST: 10000 minimum-selection cases match stable sorting (ties, empty lists, NaN).
+PERF TEST: 135 live portal comparisons + immediate removal + fallbacks passed.
+PERF TEST: actual Alex's Mobs item goal matches original with 80 candidates, equal-distance ties and target removal.
+PERF TEST: 64 actual tornado forceRotate comparisons passed (normal/pet, grab settings, items/mobs). Broad candidates=206, living=5
+[00:18:19] [Server thread/INFO] [minecraft/MinecraftServer]: KNCRAFT PERFORMANCE: ALL REGRESSIONS PASSED
+[00:18:19] [Server thread/INFO] [minecraft/MinecraftServer]: CLIENT ACKNOWLEDGEMENT GATE PASSED
+[00:18:23] [Server thread/INFO] [minecraft/MinecraftServer]: DEPTH HEIGHT TESTS PASSED: four large-frame placements, both orientations, high/negative targets, bedrock intact, unsafe sources rejected
+
+cohesion-runtime.log SHA256 2c5117e9dbf37acb1c9fdc9ce2cf4f45e75922eb30d5de047452a37111d5fa57
+[00:21:08] [Server thread/INFO] [minecraft/DedicatedServer]: Done (1.509s)! For help, type "help"
+TENT TEST PASSED: east dimension=nomadictents:64770ad6-c802-4c18-98df-677bee399403
+TENT TEST PASSED: south dimension=nomadictents:6874cdc2-2695-41b1-9f57-b21c5c66245b
+TENT TEST PASSED: west dimension=nomadictents:634b0078-d89d-41a3-9f95-504fca0d1667
+TENT TEST PASSED: north dimension=nomadictents:d7e86490-b53f-40c9-bf7b-844269e7cd5e
+[00:21:18] [Server thread/INFO] [minecraft/MinecraftServer]: TENT TESTS PASSED
+COHESION OBSERVATION: hot tea at full hunger consumesAction=false
+COHESION: registry reload, recipes, meal cap, encounter idempotence and guide identity verified
+[00:21:19] [Server thread/INFO] [minecraft/MinecraftServer]: COHESION CHECKS PASSED
+[00:21:31] [Server thread/INFO] [minecraft/MinecraftServer]: NATIVE PORTAL CHECKS PASSED: 4 native lighting actions, 4 converted source areas with 8 portal faces; small and large forward, bucket consumed normally
+
+persistence-runtime.log SHA256 607de772066859ebab0d4a6ba7d1a250449de69006270df493b12bc838984415
+[00:28:35] [Server thread/INFO] [minecraft/DedicatedServer]: Done (1.483s)! For help, type "help"
+[00:28:47] [Server thread/INFO] [minecraft/MinecraftServer]: PERSISTENCE TEST PASSED
+[00:28:58] [Server thread/INFO] [minecraft/MinecraftServer]: ROUND-TRIP ENTITY TRAVERSAL PASSED
+
+final-runtime.log SHA256 2f6270f14625c569533185b6e8ae25e29fa28df6f7e76d1dc4908f8190d4d11b
+[00:34:01] [Server thread/INFO] [minecraft/DedicatedServer]: Done (1.561s)! For help, type "help"
+[00:34:11] [Server thread/INFO] [minecraft/MinecraftServer]: PERSISTENCE TEST PASSED
+[00:34:12] [Server thread/INFO] [minecraft/MinecraftServer]: CLIENT ACKNOWLEDGEMENT GATE PASSED
+COHESION OBSERVATION: hot tea at full hunger consumesAction=false
+COHESION: registry reload, recipes, meal cap, encounter idempotence and guide identity verified
+[00:34:12] [Server thread/INFO] [minecraft/MinecraftServer]: COHESION CHECKS PASSED
+
+legacy-conflict.log SHA256 b18699718992817a2f3a2e07b0ac6af41b4fae49f7a2efa25ee3c055a80821f1
+java.lang.IllegalStateException: KNCraft Architecture replaces kncraftperformance. Remove the old helper JAR; both cannot run together.
+		java.lang.IllegalStateException: KNCraft Architecture replaces kncraftperformance. Remove the old helper JAR; both cannot run together.
+	Exception message: java.lang.IllegalStateException: KNCraft Architecture replaces kncraftperformance. Remove the old helper JAR; both cannot run together.
+�7java.lang.IllegalStateException: KNCraft Architecture replaces kncraftperformance. Remove the old helper JAR; both cannot run together.
+
+datapack-conflict.log SHA256 fd25aa5e021e5452724e5e62f7f6b3788b64196449692762f51c081fcaac62c9
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: External kncraft:encounter scheduler conflicts with KNCraft Architecture; remove the old rules pack.
+Caused by: java.lang.IllegalStateException: External kncraft:encounter scheduler conflicts with KNCraft Architecture; remove the old rules pack.
+
+version-conflict.log SHA256 4380b37bc854f5ab2185fa7821e9a4757e834e4d4048a34324f93528b5969526
+	Mod ID: 'cold_sweat', Requested by: 'kncraft', Expected range: '[2.4.3,2.4.3]', Actual version: '2.4.3.1'
+
+Final crafted-book identity check (cohesion harness):
+[00:36:47] [Server thread/INFO] [minecraft/MinecraftServer]: COHESION CHECKS PASSED

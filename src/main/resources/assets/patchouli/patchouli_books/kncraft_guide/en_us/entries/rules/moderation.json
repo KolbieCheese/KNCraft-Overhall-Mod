@@ -1,0 +1,59 @@
+{
+  "name": "3. Moderation, reports and appeals",
+  "category": "patchouli:rules",
+  "icon": "minecraft:writable_book",
+  "priority": false,
+  "sortnum": 1219,
+  "pages": [
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Moderation, reports and ap...",
+      "body": "Staff review suspected rule violations, safety concerns, and technical problems. Staff do not decide who deserved to win a feud, negotiate peace, require apologies, or compensate players for permitted losses. Use the designated",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/moderation)Start$(/l)",
+      "anchor": "rule_moderation"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Moderation, reports and ap...",
+      "body": "private reporting route for rule violations and sensitive evidence. Report the behavior, the players involved, the approximate time and timezone, the dimension and coordinates when relevant, and any available evidence.",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/moderation)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Moderation, reports and ap...",
+      "body": "You do not need to identify an exact rule number to report a safety concern. Rollbacks and compensation are reserved for confirmed prohibited activity or technical failures when recovery is feasible. Recovery is not",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/moderation)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Moderation, reports and ap...",
+      "body": "guaranteed. Enforcement depends on evidence and severity. Minor, correctable violations may receive a warning; repeated or serious violations may receive restrictions or bans. Serious misconduct can result in immediate action without a",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/moderation)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Moderation, reports and ap...",
+      "body": "warning. An accusation alone is not proof. One appeal per decision may identify a factual mistake, relevant new evidence, or a misapplied rule. Ordinary disagreement does not require repeated reviews. Genuinely new",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/moderation)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Moderation, reports and ap...",
+      "body": "information can still be added to the existing case. Supporter status, friendships, time played, and owner participation do not change the rules. An owner directly involved in a dispute should not be its sole decision-maker.",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/moderation)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Moderation, reports and ap...",
+      "body": "Genuine policy ambiguities will normally be clarified publicly for future play rather than resolved by inventing a new rule after the event. $(l:https://beautyinblocks.com/form.html#private-reports)Check private reporting availability$(/l) . Identify KNCraft in your report. Use a confirmed private",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/moderation)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Moderation, reports and ap...",
+      "body": "route for sensitive evidence.",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/moderation)Start$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Vegemite on Toast",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:vegemiteontoastitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:vegemiteontoastitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_vegemiteontoastitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Tasmanian Devil",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Tasmanian Devil",
+      "body": "Temperate forests. Rotten flesh prompts a howl that briefly scares nearby monsters. It is not tameable, but breeds with meat. Groups hunt chickens and rabbits,",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/tasmanian_devil)Start$(/l)",
+      "anchor": "animal_tasmanian_devil",
+      "creature": "alexsmobs:tasmanian_devil"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Tasmanian Devil (cont.)",
+      "body": "so house them separately from those animals.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/tasmanian_devil)Start$(/l)",
+      "anchor": "animal_tasmanian_devil_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

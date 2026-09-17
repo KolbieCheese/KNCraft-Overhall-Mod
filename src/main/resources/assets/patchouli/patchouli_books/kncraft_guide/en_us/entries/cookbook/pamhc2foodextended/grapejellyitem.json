@@ -1,0 +1,16 @@
+{
+  "name": "Grape Jelly",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:grapejellyitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:grapejellyitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_grapejellyitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

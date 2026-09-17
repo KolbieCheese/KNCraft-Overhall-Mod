@@ -1,0 +1,16 @@
+{
+  "name": "Apple Donut",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:appledonutitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:appledonutitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_appledonutitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

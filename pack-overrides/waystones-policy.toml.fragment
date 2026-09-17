@@ -1,0 +1,7 @@
+# Merge these keys into config/waystones-common.toml under its EXISTING [restrictions] table.
+# This is a reference fragment, not a replacement configuration file.
+[restrictions]
+restrictToCreative = true
+restrictRenameToOwner = true
+generatedWaystonesUnbreakable = true
+globalWaystoneSetupRequiresCreativeMode = true

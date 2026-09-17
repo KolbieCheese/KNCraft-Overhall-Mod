@@ -1,0 +1,35 @@
+{
+  "name": "2. Respect the person behind the player",
+  "category": "patchouli:rules",
+  "icon": "minecraft:writable_book",
+  "priority": false,
+  "sortnum": 1218,
+  "pages": [
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Respect the person behind...",
+      "body": "Swearing, disagreements, criticism, and game-related trash talk are permitted within the applicable platform rules. Real-world threats, sharing or threatening to share personal information, hateful abuse, sexual",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/conduct)Start$(/l)",
+      "anchor": "rule_conduct"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Respect the person behind...",
+      "body": "harassment, spam, and attempts to bypass communication blocks are prohibited. Do not target the person behind a character with personal abuse. These boundaries apply to chat, private messages, signs, books, names, builds, and connected",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/conduct)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Respect the person behind...",
+      "body": "Discord spaces. Minecraft/Xbox and Discord rules still apply on their respective platforms. Blocking or ignoring someone does not give you immunity from ordinary gameplay. It does mean they must not use alternate accounts, other",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/conduct)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Respect the person behind...",
+      "body": "communication channels, or other people to force continued unwanted personal contact.",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/conduct)Start$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

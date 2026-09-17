@@ -1,0 +1,25 @@
+{
+  "name": "Rain Frog",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Rain Frog",
+      "body": "Deserts on overcast days. Breed with maggots. It burrows into sand; using a shovel on a buried frog makes it persistent. It reacts to music discs. Its",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/rain_frog)Start$(/l)",
+      "anchor": "animal_rain_frog",
+      "creature": "alexsmobs:rain_frog"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Rain Frog (cont.)",
+      "body": "rain-related behavior is separate from KNCraft's configured Weather2 storm schedule.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/rain_frog)Start$(/l)",
+      "anchor": "animal_rain_frog_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

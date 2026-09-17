@@ -1,0 +1,25 @@
+{
+  "name": "Farseer",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Farseer",
+      "body": "Near the world border. Extremely hostile; its beam and claws can bypass armor protection. A Shattered Dimensional Carver can move enormous distances",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/farseer)Start$(/l)",
+      "anchor": "animal_farseer",
+      "creature": "alexsmobs:farseer"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Farseer (cont.)",
+      "body": "toward its range, subject to server boundaries. Its arm makes a Transmutation Table, exchanging stacks at an experience cost. Breaking that table destroys its learned choices and causes an explosion; plan its location carefully.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/farseer)Start$(/l)",
+      "anchor": "animal_farseer_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Potoo",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Potoo",
+      "body": "Dark forests. Perches on logs and leaves and sleeps by day. Its calls and enlarged pupils indicate darkness suitable for monster spawning. A Falconry Glove moves",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/potoo)Start$(/l)",
+      "anchor": "animal_potoo",
+      "creature": "alexsmobs:potoo"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Potoo (cont.)",
+      "body": "it; maggots breed it. Use it as a warning cue, then check the area's lighting directly.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/potoo)Start$(/l)",
+      "anchor": "animal_potoo_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

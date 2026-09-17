@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Leek",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:roastedleekitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Leek",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedleekitem_campfire",
+      "input": "tag:forge:crops/leek",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:roastedleekitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:roastedleekitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_roastedleekitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Leek",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedleekitem_smoker",
+      "input": "tag:forge:crops/leek",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:roastedleekitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:roastedleekitem": 2
+  }
+}

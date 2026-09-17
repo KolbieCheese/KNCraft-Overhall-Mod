@@ -1,0 +1,25 @@
+{
+  "name": "Tarantula Hawk",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Tarantula Hawk",
+      "body": "Deserts. Neutral wasp with a powerful sting. Tame with Spider Eyes, heal with flowers, and breed tame pairs with Fermented Spider Eyes. They require spiders for their",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/tarantula_hawk)Start$(/l)",
+      "anchor": "animal_tarantula_hawk",
+      "creature": "alexsmobs:tarantula_hawk"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Tarantula Hawk (cont.)",
+      "body": "offspring to develop. Wing fragments make wings used in an armored elytra upgrade.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/tarantula_hawk)Start$(/l)",
+      "anchor": "animal_tarantula_hawk_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

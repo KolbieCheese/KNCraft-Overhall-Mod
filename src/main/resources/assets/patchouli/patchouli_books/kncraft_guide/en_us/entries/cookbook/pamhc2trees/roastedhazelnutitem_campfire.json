@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Hazelnut",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2trees:roastedhazelnutitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Hazelnut",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2trees_roastedhazelnutitem_campfire",
+      "input": "tag:forge:crops/hazelnut",
+      "station": "minecraft:campfire",
+      "output": "pamhc2trees:roastedhazelnutitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2trees:roastedhazelnutitem_forge",
+      "anchor": "lookup_recipe_pamhc2trees_roastedhazelnutitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Hazelnut",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2trees_roastedhazelnutitem_smoker",
+      "input": "tag:forge:crops/hazelnut",
+      "station": "minecraft:smoker",
+      "output": "pamhc2trees:roastedhazelnutitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2trees:roastedhazelnutitem": 2
+  }
+}

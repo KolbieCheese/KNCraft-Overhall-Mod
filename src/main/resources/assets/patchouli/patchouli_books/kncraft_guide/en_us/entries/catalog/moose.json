@@ -1,0 +1,25 @@
+{
+  "name": "Moose",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Moose",
+      "body": "Snowy plains and taigas. Neutral, protective of young, and dangerous when struck. Antlers are naturally shed and regrown; two make a knockback-focused",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/moose)Start$(/l)",
+      "anchor": "animal_moose",
+      "creature": "alexsmobs:moose"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Moose (cont.)",
+      "body": "headdress. Breed with dandelions. Snow on the coat can be removed with a shovel.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/moose)Start$(/l)",
+      "anchor": "animal_moose_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

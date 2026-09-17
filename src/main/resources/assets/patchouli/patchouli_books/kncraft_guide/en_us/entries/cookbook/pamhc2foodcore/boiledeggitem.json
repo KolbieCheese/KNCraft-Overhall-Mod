@@ -1,0 +1,16 @@
+{
+  "name": "Boiled Egg",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:boiledeggitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:boiledeggitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_boiledeggitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

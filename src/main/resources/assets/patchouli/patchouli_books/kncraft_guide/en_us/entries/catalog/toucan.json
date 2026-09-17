@@ -1,0 +1,25 @@
+{
+  "name": "Toucan",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Toucan",
+      "body": "Jungles. Feeding tree fruit can prompt planting of the corresponding sapling. A golden apple temporarily improves planting; an enchanted golden",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/toucan)Start$(/l)",
+      "anchor": "animal_toucan",
+      "creature": "alexsmobs:toucan"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Toucan (cont.)",
+      "body": "apple enables continued planting without repeated fruit feeding. Breed with eggs. Test modded fruit compatibility before relying on it for a Pam's orchard.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/toucan)Start$(/l)",
+      "anchor": "animal_toucan_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

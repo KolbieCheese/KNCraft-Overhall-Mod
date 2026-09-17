@@ -1,0 +1,38 @@
+{
+  "name": "Cooked Ground Rabbit",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:cookedgroundrabbititem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Ground Rabbit",
+      "body": "Campfire. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_minecraft_campfire_cookedgroundrabbititem",
+      "input": "pamhc2foodcore:groundrabbititem",
+      "station": "minecraft:campfire",
+      "output": "pamhc2foodcore:cookedgroundrabbititem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:smelting_cookedgroundrabbititem",
+      "anchor": "lookup_recipe_minecraft_smelting_cookedgroundrabbititem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Ground Rabbit",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_minecraft_smoking_cookedgroundrabbititem",
+      "input": "pamhc2foodcore:groundrabbititem",
+      "station": "minecraft:smoker",
+      "output": "pamhc2foodcore:cookedgroundrabbititem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2foodcore:cookedgroundrabbititem": 2
+  }
+}

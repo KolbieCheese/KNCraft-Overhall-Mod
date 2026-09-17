@@ -1,0 +1,16 @@
+{
+  "name": "Sewing Table",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:sewing_table",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:sewing_table",
+      "anchor": "lookup_recipe_cold_sweat_sewing_table",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_sewing_table)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

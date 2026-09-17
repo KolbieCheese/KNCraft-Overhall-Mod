@@ -1,0 +1,102 @@
+{
+  "name": "6. Call from the Depths",
+  "category": "patchouli:guide",
+  "icon": "minecraft:echo_shard",
+  "priority": false,
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:kn_chapter",
+      "heading": "Call from the Depths",
+      "body": "$(l:patchouli:chapters/depths#depths_start)Open the way$(/l)$(br)$(l:patchouli:chapters/depths#recipe_callfromthedepth__depthkeycraft)Depths Key recipe$(/l)$(br)$(l:patchouli:chapters/depths#depths_prepare)Cold preparation$(/l)$(br)$(l:patchouli:chapters/depths#depths_discover)What to expect$(/l)",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
+      "anchor": "depths_contents",
+      "eyebrow": "CHAPTER 06"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Opening the way",
+      "body": "Look for an Ancient City and its large central gateway. Obtain a Sculk Catalyst to unlock the mod's key progression; the author lists Warden drops and chest finds as sources. Craft the Depths Key using a catalyst, three bones",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
+      "anchor": "depths_start"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Opening the way (cont.)",
+      "body": "and an Echo Shard. Use the key at the Ancient City gateway. This is Call from the Depths, so portal instructions for similarly named Deep Dark mods may not apply.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:depthkeycraft",
+      "anchor": "recipe_callfromthedepth__depthkeycraft",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare for the cold",
+      "body": "The Depth Dimension is extremely chilly on KNCraft. Bring cold-insulated armor, warmed waterskins, food, light and blocks. Mark the entrance and begin with a short reconnaissance trip. Do not spend your remaining warmth chasing an unfamiliar",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
+      "anchor": "depths_prepare"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare for the cold (cont.)",
+      "body": "structure. Return while you still have supplies to recover. A route that was clear on arrival may be harder to recognize in the dark.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "What to expect",
+      "body": "This is a sculk-covered dimension with distinct biomes, ruins, creatures and its own progression. Some locations are meant to be approached later. Travel slowly enough to notice changes in the ground and the creatures nearby.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
+      "anchor": "depths_discover"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "What to expect (cont.)",
+      "body": "Keep important discoveries marked, leave space for unfamiliar materials, and examine new items before using them. This guide does not reveal the dimension's boss encounters or late progression.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "The Ancient City gateway",
+      "body": "The gateway with the destination visible through its opening. Mark your return",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
+      "anchor": "capture_depths_portal",
+      "picture": "kncraft:textures/guide/capture_depths_portal.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "The Ancient City gateway",
+      "body": "route.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Gateway and first view",
+      "body": "SCREENSHOT NEEDED. Gateway capture is included. Still needed: the gateway before activation and a brighter, spoiler-free arrival landscape. No temperature HUD is needed here.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/depths#depths_contents)Start$(/l)",
+      "anchor": "shot_depths"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Continue reading",
+      "entries": [
+        "patchouli:chapters/animals",
+        "patchouli:chapters/aether"
+      ],
+      "text": "Next chapter first; previous chapter below.",
+      "anchor": "depths_end"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare for travel",
+      "body": "$(l:patchouli:chapters/architecture#depth)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
+      "navigation": "$(l:patchouli:guide)Book$(/l)",
+      "anchor": "architecture"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

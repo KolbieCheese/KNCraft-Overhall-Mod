@@ -1,0 +1,16 @@
+{
+  "name": "Sweet Berry Jelly Toast",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:sweetberryjellytoastitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:sweetberryjellytoastitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_sweetberryjellytoastitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

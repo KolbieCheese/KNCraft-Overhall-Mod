@@ -1,0 +1,16 @@
+{
+  "name": "Glazed Carrots",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:glazedcarrotsitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:glazedcarrotsitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_glazedcarrotsitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

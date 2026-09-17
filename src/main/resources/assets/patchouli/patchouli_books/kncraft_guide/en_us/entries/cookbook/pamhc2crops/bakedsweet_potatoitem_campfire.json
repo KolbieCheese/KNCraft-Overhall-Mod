@@ -1,0 +1,64 @@
+{
+  "name": "Baked Sweet Potato",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:bakedsweetpotatoitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Sweet Potato",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedsweet_potatoitem_campfire",
+      "input": "tag:forge:crops/sweet_potato",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:bakedsweetpotatoitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:bakedsweet_potatoitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_bakedsweet_potatoitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Sweet Potato",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedsweet_potatoitem_smoker",
+      "input": "tag:forge:crops/sweet_potato",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:bakedsweetpotatoitem"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Sweet Potato",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedsweetpotatoitem_campfire",
+      "input": "tag:forge:crops/sweetpotato",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:bakedsweetpotatoitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:bakedsweetpotatoitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_bakedsweetpotatoitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Sweet Potato",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedsweetpotatoitem_smoker",
+      "input": "tag:forge:crops/sweetpotato",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:bakedsweetpotatoitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:bakedsweetpotatoitem": 5
+  }
+}

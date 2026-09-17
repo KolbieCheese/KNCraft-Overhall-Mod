@@ -1,0 +1,35 @@
+{
+  "name": "1. Fair play and server operation",
+  "category": "patchouli:rules",
+  "icon": "minecraft:writable_book",
+  "priority": false,
+  "sortnum": 1217,
+  "pages": [
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Fair play and server oper...",
+      "body": "Do not use cheats, X-ray, prohibited automation, exploits, duplication, or methods that bypass server protections. A client-side mod is not automatically allowed just because it can connect. Report vulnerabilities privately rather than",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/fair_play)Start$(/l)",
+      "anchor": "rule_fair_play"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Fair play and server oper...",
+      "body": "using or distributing them. Normal farms and redstone are allowed unless they use prohibited methods or disrupt server operation. Builds and machines that disrupt the server may be paused or removed. Do not restart or replace a",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/fair_play)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Fair play and server oper...",
+      "body": "disabled mechanism to recreate the problem before it is resolved. Attempts to crash the server, compromise accounts, evade bans, or interfere with its services are prohibited. Staff may contain an active technical problem before deciding",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/fair_play)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Fair play and server oper...",
+      "body": "whether anyone should be punished.",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/fair_play)Start$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

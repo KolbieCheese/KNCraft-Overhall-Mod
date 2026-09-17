@@ -1,0 +1,16 @@
+{
+  "name": "Fruit Cream Festival Bread",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:fruitcreamfestivalbreaditem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:fruitcreamfestivalbreaditem",
+      "anchor": "lookup_recipe_pamhc2foodextended_fruitcreamfestivalbreaditem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

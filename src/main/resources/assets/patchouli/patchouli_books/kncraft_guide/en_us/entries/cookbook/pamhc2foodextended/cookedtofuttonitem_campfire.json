@@ -1,0 +1,38 @@
+{
+  "name": "Cooked Tofutton",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:cookedtofuttonitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Tofutton",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofuttonitem_campfire",
+      "input": "pamhc2foodextended:rawtofuttonitem",
+      "station": "minecraft:campfire",
+      "output": "pamhc2foodextended:cookedtofuttonitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2foodextended:cookedtofuttonitem_forge",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofuttonitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Tofutton",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofuttonitem_smoker",
+      "input": "pamhc2foodextended:rawtofuttonitem",
+      "station": "minecraft:smoker",
+      "output": "pamhc2foodextended:cookedtofuttonitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2foodextended:cookedtofuttonitem": 2
+  }
+}

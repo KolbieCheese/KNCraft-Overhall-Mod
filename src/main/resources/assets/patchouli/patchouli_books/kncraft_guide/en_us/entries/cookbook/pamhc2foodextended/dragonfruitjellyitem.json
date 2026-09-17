@@ -1,0 +1,16 @@
+{
+  "name": "Dragonfruit Jelly",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:dragonfruitjellyitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:dragonfruitjellyitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_dragonfruitjellyitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

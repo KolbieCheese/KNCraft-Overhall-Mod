@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Scallion",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:roastedscallionitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Scallion",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedscallionitem_campfire",
+      "input": "tag:forge:crops/scallion",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:roastedscallionitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:roastedscallionitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_roastedscallionitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Scallion",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedscallionitem_smoker",
+      "input": "tag:forge:crops/scallion",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:roastedscallionitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:roastedscallionitem": 2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Leather",
+  "category": "patchouli:recipes",
+  "icon": "minecraft:leather",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:hoglin_to_leather",
+      "anchor": "lookup_recipe_cold_sweat_hoglin_to_leather",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_hoglin_to_leather)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

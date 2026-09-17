@@ -1,0 +1,16 @@
+{
+  "name": "Strawberry Pie",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:strawberrypieitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:strawberrypieitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_strawberrypieitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

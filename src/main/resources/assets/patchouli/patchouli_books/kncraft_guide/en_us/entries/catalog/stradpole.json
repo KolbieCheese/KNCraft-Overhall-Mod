@@ -1,0 +1,25 @@
+{
+  "name": "Stradpole",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Stradpole",
+      "body": "Shallow Basalt Delta lava. Transport with a lava bucket. It can live in water, but feeding Crimson Mosquito Larva may turn it into a hostile Straddler. Do not feed",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/stradpole)Start$(/l)",
+      "anchor": "animal_stradpole",
+      "creature": "alexsmobs:stradpole"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Stradpole (cont.)",
+      "body": "one casually inside a display tank.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/stradpole)Start$(/l)",
+      "anchor": "animal_stradpole_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

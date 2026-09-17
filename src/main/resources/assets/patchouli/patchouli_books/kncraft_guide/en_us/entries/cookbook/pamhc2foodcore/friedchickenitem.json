@@ -1,0 +1,16 @@
+{
+  "name": "Fried Chicken",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:friedchickenitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:friedchickenitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_friedchickenitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

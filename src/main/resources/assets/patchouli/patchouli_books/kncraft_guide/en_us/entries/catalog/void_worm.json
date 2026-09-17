@@ -1,0 +1,25 @@
+{
+  "name": "Void Worm",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Void Worm",
+      "body": "Optional End boss. Transform Crimson Mosquito Larva in a Capsid into a Mysterious Worm, then throw that into the End void to summon it. Focus damage on the",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/void_worm)Start$(/l)",
+      "anchor": "animal_void_worm",
+      "creature": "alexsmobs:void_worm"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Void Worm (cont.)",
+      "body": "head: destroying body segments splits the threat. Its eye and mandibles help make a Dimensional Carver, which opens temporary spawn-linked portals with limited uses. Server travel restrictions still need to be respected.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/void_worm)Start$(/l)",
+      "anchor": "animal_void_worm_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

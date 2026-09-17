@@ -1,0 +1,16 @@
+{
+  "name": "Peach Yogurt",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:peachyogurtitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:peachyogurtitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_peachyogurtitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

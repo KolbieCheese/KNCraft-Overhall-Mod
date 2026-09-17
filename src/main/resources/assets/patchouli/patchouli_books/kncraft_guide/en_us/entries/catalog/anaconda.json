@@ -1,0 +1,25 @@
+{
+  "name": "Anaconda",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Anaconda",
+      "body": "Swamps. This hostile snake coils around prey and swallows it, preventing normal prey drops. Chicken pacifies it and allows breeding. After several meals it sheds",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/anaconda)Start$(/l)",
+      "anchor": "animal_anaconda",
+      "creature": "alexsmobs:anaconda"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Anaconda (cont.)",
+      "body": "skin, used for a banner pattern or Vine Lasso. The lasso restrains even hostile mobs but cannot be tied to a fence.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/anaconda)Start$(/l)",
+      "anchor": "animal_anaconda_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

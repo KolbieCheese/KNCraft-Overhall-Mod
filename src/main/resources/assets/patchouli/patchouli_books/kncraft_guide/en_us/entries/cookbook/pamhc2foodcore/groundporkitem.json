@@ -1,0 +1,16 @@
+{
+  "name": "Ground Pork",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:groundporkitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:groundporkitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_groundporkitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

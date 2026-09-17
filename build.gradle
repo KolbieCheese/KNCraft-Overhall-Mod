@@ -24,12 +24,13 @@ tasks.withType(AbstractArchiveTask).configureEach {
     reproducibleFileOrder = true
 }
 jar {
+    from('NOTICE.md')
     manifest { attributes 'MixinConfigs': 'kncrafttents.mixins.json,kncraftperformance.mixins.json',
             'Implementation-Version': project.version }
     finalizedBy 'reobfJar'
 }
 test { useJUnitPlatform() }
-['depth', 'tents', 'performance'].each { module ->
+['depth', 'tents', 'performance', 'cohesion'].each { module ->
     def source = sourceSets.create(module + 'Harness') {
         java.srcDir "src/gametest/${module}/java"
         resources.srcDir "src/gametest/${module}/resources"
@@ -44,4 +45,14 @@ test { useJUnitPlatform() }
     reobf.create(module + 'HarnessJar')
     tasks.named(module + 'HarnessJar') { finalizedBy 'reobf' + module.capitalize() + 'HarnessJar' }
 }
-tasks.register('harnessJars') { dependsOn 'depthHarnessJar', 'tentsHarnessJar', 'performanceHarnessJar' }
+tasks.register('harnessJars') { dependsOn 'depthHarnessJar', 'tentsHarnessJar', 'performanceHarnessJar', 'cohesionHarnessJar' }
+tasks.register('releaseBundle', Zip) {
+    dependsOn 'reobfJar', 'test'
+    archiveFileName = "KNCraft-Architecture-${project.version}.zip"
+    destinationDirectory = layout.buildDirectory.dir('distributions')
+    from(tasks.jar) { into 'mods' }
+    from('README.md', 'CHANGELOG.md', 'NOTICE.md')
+    from('docs') { into 'docs' }
+    from('pack-overrides') { into 'pack-overrides' }
+    from('tools/migrate_guide.py') { into 'tools' }
+}

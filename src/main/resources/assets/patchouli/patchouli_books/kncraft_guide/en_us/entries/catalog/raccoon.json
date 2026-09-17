@@ -1,0 +1,25 @@
+{
+  "name": "Raccoon",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Raccoon",
+      "body": "Forests and plains. Can steal food from containers. Give a chicken egg near water so it can wash it to tame it. Breed with bread; carpets make removable bandanas.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/raccoon)Start$(/l)",
+      "anchor": "animal_raccoon",
+      "creature": "alexsmobs:raccoon"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Raccoon (cont.)",
+      "body": "Its tail makes a Frontiersman's Cap for faster sneaking. Glow Berries can bond one with a following Blue Jay.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/raccoon)Start$(/l)",
+      "anchor": "animal_raccoon_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

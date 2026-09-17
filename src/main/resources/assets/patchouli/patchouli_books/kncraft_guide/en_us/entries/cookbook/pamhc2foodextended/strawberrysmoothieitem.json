@@ -1,0 +1,16 @@
+{
+  "name": "Strawberry Smoothie",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:strawberrysmoothieitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:strawberrysmoothieitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_strawberrysmoothieitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

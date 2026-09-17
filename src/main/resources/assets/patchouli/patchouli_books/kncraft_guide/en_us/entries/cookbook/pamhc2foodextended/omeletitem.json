@@ -1,0 +1,16 @@
+{
+  "name": "Omelet",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:omeletitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:omeletitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_omeletitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Cooked Ground Beef",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:cookedgroundbeefitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Ground Beef",
+      "body": "Campfire. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_minecraft_campfire_cookedgroundbeefitem",
+      "input": "pamhc2foodcore:groundbeefitem",
+      "station": "minecraft:campfire",
+      "output": "pamhc2foodcore:cookedgroundbeefitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:smelting_cookedgroundbeefitem",
+      "anchor": "lookup_recipe_minecraft_smelting_cookedgroundbeefitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Ground Beef",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_minecraft_smoking_cookedgroundbeefitem",
+      "input": "pamhc2foodcore:groundbeefitem",
+      "station": "minecraft:smoker",
+      "output": "pamhc2foodcore:cookedgroundbeefitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2foodcore:cookedgroundbeefitem": 2
+  }
+}

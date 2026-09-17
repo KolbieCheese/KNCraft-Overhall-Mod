@@ -1,0 +1,25 @@
+{
+  "name": "Catfish",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Catfish",
+      "body": "Rivers and swamps. Small fish swallow three stacks of items; medium fish hold nine. Large fish swallow one small mob instead. A bucket preserves the contents. Sea",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/catfish)Start$(/l)",
+      "anchor": "animal_catfish",
+      "creature": "alexsmobs:catfish"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Catfish (cont.)",
+      "body": "pickles make them release what they swallowed; sea lanterns attract them. Useful for transport, but keep them away from loose valuables and small pets.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/catfish)Start$(/l)",
+      "anchor": "animal_catfish_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

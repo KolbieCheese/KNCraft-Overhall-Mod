@@ -1,0 +1,16 @@
+{
+  "name": "Durian Juice",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:durianjuiceitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:durianjuiceitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_durianjuiceitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

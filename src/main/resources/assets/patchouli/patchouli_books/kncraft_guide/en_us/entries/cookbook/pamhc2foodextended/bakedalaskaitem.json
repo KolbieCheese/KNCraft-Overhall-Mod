@@ -1,0 +1,16 @@
+{
+  "name": "Baked Alaska",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:bakedalaskaitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:bakedalaskaitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_bakedalaskaitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

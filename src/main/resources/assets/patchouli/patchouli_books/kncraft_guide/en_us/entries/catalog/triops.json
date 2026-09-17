@@ -1,0 +1,25 @@
+{
+  "name": "Triops",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Triops",
+      "body": "Desert water. Toss carrots to a pair to encourage eggs at the water surface. Eggs hatch with time or become an ingredient for Mosquito Repellent",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/triops)Start$(/l)",
+      "anchor": "animal_triops",
+      "creature": "alexsmobs:triops"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Triops (cont.)",
+      "body": "Stew. Bucket adults for transport. Repellent is useful against Crimson Mosquitoes during Nether trips.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/triops)Start$(/l)",
+      "anchor": "animal_triops_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

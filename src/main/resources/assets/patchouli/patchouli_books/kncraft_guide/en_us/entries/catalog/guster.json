@@ -1,0 +1,25 @@
+{
+  "name": "Guster",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Guster",
+      "body": "Deserts during storms. Hostile; lifts targets and loose items or attacks with sand. It resists projectiles. An Eye drop makes a redstone-powered",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/guster)Start$(/l)",
+      "anchor": "animal_guster",
+      "creature": "alexsmobs:guster"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Guster (cont.)",
+      "body": "Gustmaker or Pocket of Sand. Treat it as an Alex's Mobs creature, separate from Weather2's tornado system.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/guster)Start$(/l)",
+      "anchor": "animal_guster_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

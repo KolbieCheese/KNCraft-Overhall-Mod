@@ -1,0 +1,16 @@
+{
+  "name": "Gyudon",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:gyudonitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:gyudonitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_gyudonitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

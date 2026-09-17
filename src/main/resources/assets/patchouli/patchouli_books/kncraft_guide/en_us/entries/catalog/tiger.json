@@ -1,0 +1,25 @@
+{
+  "name": "Tiger",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Tiger",
+      "body": "Bamboo jungles. Dangerous at close range and difficult to spot while stalking. Fresh meat, especially chicken or pork, grants a temporary Tiger's Blessing that",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/tiger)Start$(/l)",
+      "anchor": "animal_tiger",
+      "creature": "alexsmobs:tiger"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Tiger (cont.)",
+      "body": "allows safe approach and support. This is not permanent taming; attacking a tiger removes it. Breed with Acacia Blossoms.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/tiger)Start$(/l)",
+      "anchor": "animal_tiger_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

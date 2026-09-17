@@ -1,0 +1,16 @@
+{
+  "name": "Raw Tofeak",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:rawtofeakitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:rawtofeakitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_rawtofeakitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

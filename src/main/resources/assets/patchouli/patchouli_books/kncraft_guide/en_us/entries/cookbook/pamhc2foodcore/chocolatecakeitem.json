@@ -1,0 +1,16 @@
+{
+  "name": "Chocolate Cake",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:chocolatecakeitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:chocolatecakeitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_chocolatecakeitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

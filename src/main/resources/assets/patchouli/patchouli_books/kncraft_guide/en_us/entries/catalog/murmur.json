@@ -1,0 +1,25 @@
+{
+  "name": "Murmur",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Murmur",
+      "body": "Very deep caves, rarely Cherry Groves. Its long neck lets it attack from far away; hits to the head deal reduced damage. Elastic Tendons make a Tendon Whip with",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/murmur)Start$(/l)",
+      "anchor": "animal_murmur",
+      "creature": "alexsmobs:murmur"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Murmur (cont.)",
+      "body": "Dropbear Claws. The rare Unsettling Kimono adds placement reach and reduces attention from many undead, but not Murmurs or the Wither.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/murmur)Start$(/l)",
+      "anchor": "animal_murmur_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

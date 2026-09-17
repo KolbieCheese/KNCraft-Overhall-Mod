@@ -1,0 +1,6 @@
+{
+  "name": "Mob catalog",
+  "description": "Choose a creature from the alphabetical entry list. Each entry includes its model and complete field notes.",
+  "icon": "minecraft:book",
+  "sortnum": 1
+}

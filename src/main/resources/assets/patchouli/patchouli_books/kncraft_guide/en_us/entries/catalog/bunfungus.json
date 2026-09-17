@@ -1,0 +1,25 @@
+{
+  "name": "Bunfungus",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Bunfungus",
+      "body": "Rare in mushroom biomes. Feed several Mungal Spores to a rabbit to create one. It fights monsters and cannot be bred. A carrot makes it passive toward",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/bunfungus)Start$(/l)",
+      "anchor": "animal_bunfungus",
+      "creature": "alexsmobs:bunfungus"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Bunfungus (cont.)",
+      "body": "players and briefly strengthens and heals it. Allow space for its jumps and wide attacks.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/bunfungus)Start$(/l)",
+      "anchor": "animal_bunfungus_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

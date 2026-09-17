@@ -1,0 +1,25 @@
+{
+  "name": "Mudskipper",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Mudskipper",
+      "body": "Mangrove swamps. Comfortable on land and in water. Tame with Lobster Tails; it supports combat with slowing mud projectiles. Breed with tails or insect",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/mudskipper)Start$(/l)",
+      "anchor": "animal_mudskipper",
+      "creature": "alexsmobs:mudskipper"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Mudskipper (cont.)",
+      "body": "larvae. Commands include follow, stay and wander.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/mudskipper)Start$(/l)",
+      "anchor": "animal_mudskipper_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "P8 Juice",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:p8juiceitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:p8juiceitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_p8juiceitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

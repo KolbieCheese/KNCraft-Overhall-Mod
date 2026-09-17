@@ -1,0 +1,25 @@
+{
+  "name": "Frilled Shark",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Frilled Shark",
+      "body": "Deep oceans. Neutral, but its bites inflict Exsanguination. Teeth shed while hunting squid help make the Shield of the Deep, which applies that effect when blocking",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/frilled_shark)Start$(/l)",
+      "anchor": "animal_frilled_shark",
+      "creature": "alexsmobs:frilled_shark"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Frilled Shark (cont.)",
+      "body": "close attacks. It can be bucketed. Shallow water changes its appearance and slows it.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/frilled_shark)Start$(/l)",
+      "anchor": "animal_frilled_shark_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

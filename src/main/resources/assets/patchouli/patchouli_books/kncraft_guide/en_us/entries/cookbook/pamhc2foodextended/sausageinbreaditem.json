@@ -1,0 +1,16 @@
+{
+  "name": "Sausage in Bread",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:sausageinbreaditem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:sausageinbreaditem",
+      "anchor": "lookup_recipe_pamhc2foodextended_sausageinbreaditem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

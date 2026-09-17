@@ -1,0 +1,16 @@
+{
+  "name": "Tamarind Jelly",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:tamarindjellyitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:tamarindjellyitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_tamarindjellyitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

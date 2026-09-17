@@ -1,0 +1,48 @@
+{
+  "name": "Cooked Tofabbit",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:cookedtofabbititem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Tofabbit",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofabbititem_campfire",
+      "input": "pamhc2foodextended:rawtofabbititem",
+      "station": "minecraft:campfire",
+      "output": "pamhc2foodextended:cookedtofabbititem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2foodextended:cookedtofabbititem_forge",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofabbititem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Tofabbit",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofabbititem_smoker",
+      "input": "pamhc2foodextended:rawtofabbititem",
+      "station": "minecraft:smoker",
+      "output": "pamhc2foodextended:cookedtofabbititem"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Tofabbit",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofaconitem_campfire",
+      "input": "pamhc2foodextended:rawtofabbititem",
+      "station": "minecraft:campfire",
+      "output": "pamhc2foodextended:cookedtofabbititem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2foodextended:cookedtofabbititem": 3
+  }
+}

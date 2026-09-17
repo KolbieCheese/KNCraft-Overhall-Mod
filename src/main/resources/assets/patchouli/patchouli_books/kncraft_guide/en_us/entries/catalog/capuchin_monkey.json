@@ -1,0 +1,25 @@
+{
+  "name": "Capuchin Monkey",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Capuchin Monkey",
+      "body": "Jungles. Tame with bananas, heal with eggs, and breed with maggots. It can follow, stay, wander or ride your shoulder while throwing stones. Give it an Ancient Dart",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/capuchin_monkey)Start$(/l)",
+      "anchor": "animal_capuchin_monkey",
+      "creature": "alexsmobs:capuchin_monkey"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Capuchin Monkey (cont.)",
+      "body": "from a jungle temple to improve its ranged attack. Bananas sometimes leave peels used in cooking.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/capuchin_monkey)Start$(/l)",
+      "anchor": "animal_capuchin_monkey_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

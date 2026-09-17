@@ -1,0 +1,25 @@
+{
+  "name": "Comb Jelly",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Comb Jelly",
+      "body": "Frozen oceans at night. Bucket for transport. Rainbow Jelly can color a mob with a cycling rainbow effect; a sponge removes it. Eating the jelly applies the",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/comb_jelly)Start$(/l)",
+      "anchor": "animal_comb_jelly",
+      "creature": "alexsmobs:comb_jelly"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Comb Jelly (cont.)",
+      "body": "effect to you. Combining jelly and glass creates light-emitting Rainbow Glass.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/comb_jelly)Start$(/l)",
+      "anchor": "animal_comb_jelly_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

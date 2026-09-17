@@ -1,0 +1,90 @@
+{
+  "name": "Catalog overview",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": true,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_chapter",
+      "heading": "Mob catalog",
+      "body": "$(l:patchouli:chapters/catalog#animals_index)Species A-Z$(/l)$(br)$(l:patchouli:chapters/animals#animals_practice)Care guidance$(/l)",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:chapters/catalog)Start$(/l)",
+      "anchor": "catalog_contents",
+      "eyebrow": "CHAPTER 11"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Species A-Z",
+      "body": "$(l:patchouli:catalog/alligator_snapping_turtle#animal_alligator_snapping_turtle)Alligator Snapping Turtle$(/l)$(br)$(l:patchouli:catalog/anaconda#animal_anaconda)Anaconda$(/l)$(br)$(l:patchouli:catalog/anteater#animal_anteater)Anteater$(/l)$(br)$(l:patchouli:catalog/bald_eagle#animal_bald_eagle)Bald Eagle$(/l)$(br)$(l:patchouli:catalog/banana_slug#animal_banana_slug)Banana Slug$(/l)$(br)$(l:patchouli:catalog/bison#animal_bison)Bison$(/l)$(br)$(l:patchouli:catalog/blobfish#animal_blobfish)Blobfish$(/l)$(br)$(l:patchouli:catalog/blue_jay#animal_blue_jay)Blue Jay$(/l)$(br)$(l:patchouli:catalog/bone_serpent#animal_bone_serpent)Bone Serpent$(/l)$(br)$(l:patchouli:catalog/bunfungus#animal_bunfungus)Bunfungus$(/l)",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:chapters/catalog)Start$(/l)",
+      "anchor": "animals_index"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Species A-Z",
+      "body": "$(l:patchouli:catalog/cachalot_whale#animal_cachalot_whale)Cachalot Whale$(/l)$(br)$(l:patchouli:catalog/caiman#animal_caiman)Caiman$(/l)$(br)$(l:patchouli:catalog/capuchin_monkey#animal_capuchin_monkey)Capuchin Monkey$(/l)$(br)$(l:patchouli:catalog/catfish#animal_catfish)Catfish$(/l)$(br)$(l:patchouli:catalog/cave_centipede#animal_cave_centipede)Cave Centipede$(/l)$(br)$(l:patchouli:catalog/cockroach#animal_cockroach)Cockroach$(/l)$(br)$(l:patchouli:catalog/comb_jelly#animal_comb_jelly)Comb Jelly$(/l)$(br)$(l:patchouli:catalog/cosmaw#animal_cosmaw)Cosmaw$(/l)$(br)$(l:patchouli:catalog/cosmic_cod#animal_cosmic_cod)Cosmic Cod$(/l)$(br)$(l:patchouli:catalog/crimson_mosquito#animal_crimson_mosquito)Crimson Mosquito$(/l)",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:chapters/catalog)Start$(/l)",
+      "anchor": "animals_index_1"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Species A-Z",
+      "body": "$(l:patchouli:catalog/crocodile#animal_crocodile)Crocodile$(/l)$(br)$(l:patchouli:catalog/crow#animal_crow)Crow$(/l)$(br)$(l:patchouli:catalog/devils_hole_pupfish#animal_devils_hole_pupfish)Devil's Hole Pupfish$(/l)$(br)$(l:patchouli:catalog/dropbear#animal_dropbear)Dropbear$(/l)$(br)$(l:patchouli:catalog/elephant#animal_elephant)Elephant$(/l)$(br)$(l:patchouli:catalog/emu#animal_emu)Emu$(/l)$(br)$(l:patchouli:catalog/endergrade#animal_endergrade)Endergrade$(/l)$(br)$(l:patchouli:catalog/enderiophage#animal_enderiophage)Enderiophage$(/l)$(br)$(l:patchouli:catalog/farseer#animal_farseer)Farseer$(/l)$(br)$(l:patchouli:catalog/flutter#animal_flutter)Flutter$(/l)",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:chapters/catalog)Start$(/l)",
+      "anchor": "animals_index_2"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Species A-Z",
+      "body": "$(l:patchouli:catalog/fly#animal_fly)Fly$(/l)$(br)$(l:patchouli:catalog/flying_fish#animal_flying_fish)Flying Fish$(/l)$(br)$(l:patchouli:catalog/frilled_shark#animal_frilled_shark)Frilled Shark$(/l)$(br)$(l:patchouli:catalog/froststalker#animal_froststalker)Froststalker$(/l)$(br)$(l:patchouli:catalog/gazelle#animal_gazelle)Gazelle$(/l)$(br)$(l:patchouli:catalog/gelada_monkey#animal_gelada_monkey)Gelada Monkey$(/l)$(br)$(l:patchouli:catalog/giant_squid#animal_giant_squid)Giant Squid$(/l)$(br)$(l:patchouli:catalog/gorilla#animal_gorilla)Gorilla$(/l)$(br)$(l:patchouli:catalog/grizzly_bear#animal_grizzly_bear)Grizzly Bear$(/l)$(br)$(l:patchouli:catalog/guster#animal_guster)Guster$(/l)",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:chapters/catalog)Start$(/l)",
+      "anchor": "animals_index_3"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Species A-Z",
+      "body": "$(l:patchouli:catalog/hammerhead_shark#animal_hammerhead_shark)Hammerhead Shark$(/l)$(br)$(l:patchouli:catalog/hummingbird#animal_hummingbird)Hummingbird$(/l)$(br)$(l:patchouli:catalog/jerboa#animal_jerboa)Jerboa$(/l)$(br)$(l:patchouli:catalog/kangaroo#animal_kangaroo)Kangaroo$(/l)$(br)$(l:patchouli:catalog/komodo_dragon#animal_komodo_dragon)Komodo Dragon$(/l)$(br)$(l:patchouli:catalog/laviathan#animal_laviathan)Laviathan$(/l)$(br)$(l:patchouli:catalog/leafcutter_ant#animal_leafcutter_ant)Leafcutter Ant$(/l)$(br)$(l:patchouli:catalog/lobster#animal_lobster)Lobster$(/l)$(br)$(l:patchouli:catalog/maned_wolf#animal_maned_wolf)Maned Wolf$(/l)$(br)$(l:patchouli:catalog/mantis_shrimp#animal_mantis_shrimp)Mantis Shrimp$(/l)",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:chapters/catalog)Start$(/l)",
+      "anchor": "animals_index_4"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Species A-Z",
+      "body": "$(l:patchouli:catalog/mimic_octopus#animal_mimic_octopus)Mimic Octopus$(/l)$(br)$(l:patchouli:catalog/mimicube#animal_mimicube)Mimicube$(/l)$(br)$(l:patchouli:catalog/moose#animal_moose)Moose$(/l)$(br)$(l:patchouli:catalog/mudskipper#animal_mudskipper)Mudskipper$(/l)$(br)$(l:patchouli:catalog/mungus#animal_mungus)Mungus$(/l)$(br)$(l:patchouli:catalog/murmur#animal_murmur)Murmur$(/l)$(br)$(l:patchouli:catalog/orca#animal_orca)Orca$(/l)$(br)$(l:patchouli:catalog/platypus#animal_platypus)Platypus$(/l)$(br)$(l:patchouli:catalog/potoo#animal_potoo)Potoo$(/l)$(br)$(l:patchouli:catalog/raccoon#animal_raccoon)Raccoon$(/l)",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:chapters/catalog)Start$(/l)",
+      "anchor": "animals_index_5"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Species A-Z",
+      "body": "$(l:patchouli:catalog/rain_frog#animal_rain_frog)Rain Frog$(/l)$(br)$(l:patchouli:catalog/rattlesnake#animal_rattlesnake)Rattlesnake$(/l)$(br)$(l:patchouli:catalog/rhinoceros#animal_rhinoceros)Rhinoceros$(/l)$(br)$(l:patchouli:catalog/roadrunner#animal_roadrunner)Roadrunner$(/l)$(br)$(l:patchouli:catalog/rocky_roller#animal_rocky_roller)Rocky Roller$(/l)$(br)$(l:patchouli:catalog/sea_bear#animal_sea_bear)Sea Bear$(/l)$(br)$(l:patchouli:catalog/seagull#animal_seagull)Seagull$(/l)$(br)$(l:patchouli:catalog/seal#animal_seal)Seal$(/l)$(br)$(l:patchouli:catalog/shoebill#animal_shoebill)Shoebill$(/l)$(br)$(l:patchouli:catalog/skelewag#animal_skelewag)Skelewag$(/l)",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:chapters/catalog)Start$(/l)",
+      "anchor": "animals_index_6"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Species A-Z",
+      "body": "$(l:patchouli:catalog/skreecher#animal_skreecher)Skreecher$(/l)$(br)$(l:patchouli:catalog/skunk#animal_skunk)Skunk$(/l)$(br)$(l:patchouli:catalog/snow_leopard#animal_snow_leopard)Snow Leopard$(/l)$(br)$(l:patchouli:catalog/soul_vulture#animal_soul_vulture)Soul Vulture$(/l)$(br)$(l:patchouli:catalog/spectre#animal_spectre)Spectre$(/l)$(br)$(l:patchouli:catalog/straddler#animal_straddler)Straddler$(/l)$(br)$(l:patchouli:catalog/stradpole#animal_stradpole)Stradpole$(/l)$(br)$(l:patchouli:catalog/sugar_glider#animal_sugar_glider)Sugar Glider$(/l)$(br)$(l:patchouli:catalog/sunbird#animal_sunbird)Sunbird$(/l)$(br)$(l:patchouli:catalog/tarantula_hawk#animal_tarantula_hawk)Tarantula Hawk$(/l)",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:chapters/catalog)Start$(/l)",
+      "anchor": "animals_index_7"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Species A-Z",
+      "body": "$(l:patchouli:catalog/tasmanian_devil#animal_tasmanian_devil)Tasmanian Devil$(/l)$(br)$(l:patchouli:catalog/terrapin#animal_terrapin)Terrapin$(/l)$(br)$(l:patchouli:catalog/tiger#animal_tiger)Tiger$(/l)$(br)$(l:patchouli:catalog/toucan#animal_toucan)Toucan$(/l)$(br)$(l:patchouli:catalog/triops#animal_triops)Triops$(/l)$(br)$(l:patchouli:catalog/tusklin#animal_tusklin)Tusklin$(/l)$(br)$(l:patchouli:catalog/underminer#animal_underminer)Underminer$(/l)$(br)$(l:patchouli:catalog/void_worm#animal_void_worm)Void Worm$(/l)$(br)$(l:patchouli:catalog/warped_mosco#animal_warped_mosco)Warped Mosco$(/l)$(br)$(l:patchouli:catalog/warped_toad#animal_warped_toad)Warped Toad$(/l)",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:chapters/catalog)Start$(/l)",
+      "anchor": "animals_index_8"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Continue reading",
+      "entries": [
+        "patchouli:chapters/explore"
+      ],
+      "text": "End of the guide. Return to the previous chapter below.",
+      "anchor": "catalog_end"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

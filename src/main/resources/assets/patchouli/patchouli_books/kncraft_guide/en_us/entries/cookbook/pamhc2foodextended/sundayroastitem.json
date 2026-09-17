@@ -1,0 +1,16 @@
+{
+  "name": "Sunday Roast",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:sundayroastitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:sundayroastitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_sundayroastitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Waterskin",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:waterskin",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:waterskin",
+      "anchor": "lookup_recipe_cold_sweat_waterskin",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_waterskin)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

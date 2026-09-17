@@ -1,0 +1,16 @@
+{
+  "name": "Grinder",
+  "category": "patchouli:recipes",
+  "icon": "pamhc2foodcore:grinderitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_grinder",
+      "anchor": "lookup_recipe_pamhc2foodcore_tool_grinder",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/food#recipe_pamhc2foodcore_tool_grinder)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

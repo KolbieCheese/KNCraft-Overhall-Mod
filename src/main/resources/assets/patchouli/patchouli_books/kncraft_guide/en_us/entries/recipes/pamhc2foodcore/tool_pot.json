@@ -1,0 +1,16 @@
+{
+  "name": "Pot",
+  "category": "patchouli:recipes",
+  "icon": "pamhc2foodcore:potitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_pot",
+      "anchor": "lookup_recipe_pamhc2foodcore_tool_pot",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/food#recipe_pamhc2foodcore_tool_pot)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

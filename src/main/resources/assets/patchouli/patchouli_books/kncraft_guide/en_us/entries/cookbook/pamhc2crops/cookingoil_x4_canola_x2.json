@@ -1,0 +1,28 @@
+{
+  "name": "Cooking Oil",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:cookingoilitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:cookingoil_x4_canola_x2",
+      "anchor": "lookup_recipe_pamhc2crops_cookingoil_x4_canola_x2",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:cookingoilitem_x2_nuts",
+      "anchor": "lookup_recipe_pamhc2foodcore_cookingoilitem_x2_nuts",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:cookingoilitem_x2_vegetables",
+      "anchor": "lookup_recipe_pamhc2foodcore_cookingoilitem_x2_vegetables",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

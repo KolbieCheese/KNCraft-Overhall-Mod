@@ -1,0 +1,16 @@
+{
+  "name": "Fresh Milk",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:freshmilkitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:freshmilk_x8",
+      "anchor": "lookup_recipe_pamhc2foodcore_freshmilk_x8",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

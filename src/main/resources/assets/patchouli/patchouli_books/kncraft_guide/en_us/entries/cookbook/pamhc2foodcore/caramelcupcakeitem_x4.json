@@ -1,0 +1,16 @@
+{
+  "name": "Caramelcupcakeitem",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:caramelcupcakeitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:caramelcupcakeitem_x4",
+      "anchor": "lookup_recipe_pamhc2foodcore_caramelcupcakeitem_x4",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

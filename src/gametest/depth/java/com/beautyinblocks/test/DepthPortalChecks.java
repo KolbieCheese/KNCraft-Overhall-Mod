@@ -21,7 +21,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import java.util.*;
 @Mod("depthportalchecks")
 public class DepthPortalChecks {
- public DepthPortalChecks(){MinecraftForge.EVENT_BUS.register(this);}
+ public DepthPortalChecks(){if (!Boolean.getBoolean("kncraft.isolatedTests") || !java.nio.file.Files.isRegularFile(net.minecraftforge.fml.loading.FMLPaths.GAMEDIR.get().resolve("KNCraft-ISOLATED-TEST-WORLD"))) throw new IllegalStateException("Test harness requires an explicitly marked isolated server and -Dkncraft.isolatedTests=true"); MinecraftForge.EVENT_BUS.register(this);}
  record Fixture(ServerLevel world,BlockPos b,int width,int height){}
  List<Fixture> fixtures=new ArrayList<>();int ticks;net.minecraft.commands.CommandSourceStack pending;
  @SubscribeEvent public void commands(RegisterCommandsEvent e){e.getDispatcher().register(Commands.literal("nativeportalchecks").requires(s->s.getEntity()==null&&!s.getServer().usesAuthentication()).executes(c->{try{run(c.getSource().getServer());pending=c.getSource();ticks=0;return 1;}catch(Exception ex){ex.printStackTrace();c.getSource().sendFailure(Component.literal("PORTAL REPAIR FAILURE: "+ex));return 0;}}));}

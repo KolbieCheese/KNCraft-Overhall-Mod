@@ -1,0 +1,16 @@
+{
+  "name": "Fish Jerky",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:fishjerkyitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:fishjerkyitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_fishjerkyitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

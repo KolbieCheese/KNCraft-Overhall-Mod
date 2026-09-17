@@ -1,0 +1,122 @@
+[
+  {
+    "file": "aether-1.20.1-1.5.2-neoforge.jar",
+    "sha256": "5cb64ab1f27e78e8338fe67f9c766578904aad9bc1f8bcc90f306ea52aea3fc5",
+    "matches_handoff": true
+  },
+  {
+    "file": "alexsmobs-1.22.9.jar",
+    "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c",
+    "matches_handoff": true
+  },
+  {
+    "file": "balm-forge-1.20.1-7.3.43.jar",
+    "sha256": "1ef7820c2587d2ecee26a8b941427f08bbc1058a8dd376cf45e3fa6df1cba69e",
+    "matches_handoff": true
+  },
+  {
+    "file": "callfromthedepth_-1.22.1-forge-1.20.1.jar",
+    "sha256": "2098447c42102d38dd1e1f14cab079661c0ddcb16503f3571199c9775cd1a47e",
+    "matches_handoff": true
+  },
+  {
+    "file": "carryon-forge-1.20.1-2.1.2.7.jar",
+    "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613",
+    "matches_handoff": true
+  },
+  {
+    "file": "citadel-2.6.3-1.20.1.jar",
+    "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce",
+    "matches_handoff": true
+  },
+  {
+    "file": "cloth-config-11.1.136-forge.jar",
+    "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+    "matches_handoff": true
+  },
+  {
+    "file": "ColdSweat-2.4.3.jar",
+    "sha256": "2f3829f807cce1664c7622a17bf70a1f4d79ee60fa9af25c0c4d44adea98003a",
+    "matches_handoff": true
+  },
+  {
+    "file": "coroutil-forge-1.20.1-1.3.7.jar",
+    "sha256": "11448808a42c17425cf2ea39701841008683d6ad6e2838a34eef0253251a870f",
+    "matches_handoff": true
+  },
+  {
+    "file": "curios-forge-5.14.1+1.20.1.jar",
+    "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+    "matches_handoff": true
+  },
+  {
+    "file": "geckolib-forge-1.20.1-4.8.4.jar",
+    "sha256": "c04abba4fd354dd8c0e8a732f1f05f4dca893d2e1d962b2ab128bbd411478747",
+    "matches_handoff": true
+  },
+  {
+    "file": "immersive-portals-3.0.7-all.jar",
+    "sha256": "deb233d1e530e5e208ba6f3529a3b90ad071a06a2dc8d7ea60f14b0d67912efc",
+    "matches_handoff": true
+  },
+  {
+    "file": "Nomadic-Tents-20.1.1.jar",
+    "sha256": "57bf4b44756c5e8d8d4d9403f8da6150764e4872cae020be27af3fba98d35ae6",
+    "matches_handoff": true
+  },
+  {
+    "file": "pamhc2crops-1.20-1.0.3.jar",
+    "sha256": "81f743457e1cdd9a3061e23be094920562fd1c57cf29e78cf77a71c1f27da4f0",
+    "matches_handoff": true
+  },
+  {
+    "file": "pamhc2foodcore-1.20.4-1.0.5.jar",
+    "sha256": "1f18655d5eeea99eeccf0d9d458dbf88d6b59c1a9f00c17e322db8d55a54ed5b",
+    "matches_handoff": true
+  },
+  {
+    "file": "pamhc2foodextended-1.20.4-1.0.1.jar",
+    "sha256": "3cead8bebf7bf4b0d690ee3887da58a1941c92d197826be1f54bbae942e408bd",
+    "matches_handoff": true
+  },
+  {
+    "file": "pamhc2trees-1.20-1.0.2.jar",
+    "sha256": "69e0c722c786b78aea299e7faf27991e6533a671a66f281fb5ced279eb31b0dd",
+    "matches_handoff": true
+  },
+  {
+    "file": "Patchouli-1.20.1-85-FORGE.jar",
+    "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5",
+    "matches_handoff": true
+  },
+  {
+    "file": "RopeBridge-1.20.1-3.0.3.jar",
+    "sha256": "9cb45241e4eedfb4268452a995a6c7f8032941ec0d7799702615ec22a3c916c6",
+    "matches_handoff": true
+  },
+  {
+    "file": "sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
+    "sha256": "6ab4a0cb739a6c11442a73d1b5f42c40c2ae93b31162fa63d81e1b66706e9e31",
+    "matches_handoff": true
+  },
+  {
+    "file": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
+    "sha256": "f4038a2e0d0e3504258fbe315cb27a37f1a769d71985bfa20afb983a3bdfab64",
+    "matches_handoff": true
+  },
+  {
+    "file": "waystones-forge-1.20.1-14.1.21.jar",
+    "sha256": "fd6fe3c645328ea7be5bc6723d02c881e34650e0cbd4527ba59e42fa4cbe3c80",
+    "matches_handoff": true
+  },
+  {
+    "file": "weather2-1.20.1-2.8.3.jar",
+    "sha256": "5eb828f93b2eb370d7f38ad1893739caf7655f32d58dbbdaabae6075ede635db",
+    "matches_handoff": true
+  },
+  {
+    "file": "witherstormmod-1.20.1-4.2.1-all.jar",
+    "sha256": "a23c019b1465c87ba506ada49aa815866e5353ebdc2be3284d9087ff080018ac",
+    "matches_handoff": true
+  }
+]

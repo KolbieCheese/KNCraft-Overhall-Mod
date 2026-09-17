@@ -1,0 +1,25 @@
+{
+  "name": "Grizzly Bear",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Grizzly Bear",
+      "body": "Forests. Neutral at a distance, aggressive when approached hungry. Let it eat honey, then offer salmon to earn its trust and gain a rideable companion.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/grizzly_bear)Start$(/l)",
+      "anchor": "animal_grizzly_bear",
+      "creature": "alexsmobs:grizzly_bear"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Grizzly Bear (cont.)",
+      "body": "Naturally shed hair brews with Strength into Knockback Resistance. A shovel removes snow from its coat.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/grizzly_bear)Start$(/l)",
+      "anchor": "animal_grizzly_bear_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Rhinoceros",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Rhinoceros",
+      "body": "Savannas. Give it space; wheat pacifies it and can gain its aid. Applying a potion coats its horn so attacks transfer that effect for a limited number of hits. Breed",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/rhinoceros)Start$(/l)",
+      "anchor": "animal_rhinoceros",
+      "creature": "alexsmobs:rhinoceros"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Rhinoceros (cont.)",
+      "body": "with tall grass or dead bushes. It attacks pillagers on sight.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/rhinoceros)Start$(/l)",
+      "anchor": "animal_rhinoceros_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

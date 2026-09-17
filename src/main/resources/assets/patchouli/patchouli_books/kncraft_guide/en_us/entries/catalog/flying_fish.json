@@ -1,0 +1,25 @@
+{
+  "name": "Flying Fish",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Flying Fish",
+      "body": "Lukewarm ocean surfaces. Bucket for transport. Two fish and two string make Flying Fish Boots, allowing water launches; the effect is useful alongside an",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/flying_fish)Start$(/l)",
+      "anchor": "animal_flying_fish",
+      "creature": "alexsmobs:flying_fish"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Flying Fish (cont.)",
+      "body": "elytra. Watch the landing area before jumping from a river or coastline.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/flying_fish)Start$(/l)",
+      "anchor": "animal_flying_fish_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

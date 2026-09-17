@@ -1,0 +1,16 @@
+{
+  "name": "Depths key",
+  "category": "patchouli:recipes",
+  "icon": "callfromthedepth_:depth",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:depthkeycraft",
+      "anchor": "lookup_recipe_callfromthedepth__depthkeycraft",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/depths#recipe_callfromthedepth__depthkeycraft)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

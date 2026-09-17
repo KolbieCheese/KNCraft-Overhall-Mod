@@ -1,0 +1,16 @@
+{
+  "name": "Peanut Butter Cup",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:peanutbuttercupitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:peanutbuttercupitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_peanutbuttercupitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

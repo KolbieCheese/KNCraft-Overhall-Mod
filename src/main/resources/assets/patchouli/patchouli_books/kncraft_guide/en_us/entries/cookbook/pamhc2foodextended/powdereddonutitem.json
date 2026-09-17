@@ -1,0 +1,16 @@
+{
+  "name": "Powdered Donut",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:powdereddonutitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:powdereddonutitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_powdereddonutitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

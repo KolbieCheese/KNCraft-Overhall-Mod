@@ -1,0 +1,16 @@
+{
+  "name": "Eggroll",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:eggrollitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:eggrollitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_eggrollitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

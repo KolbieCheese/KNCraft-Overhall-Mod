@@ -1,0 +1,16 @@
+{
+  "name": "Sweet Potato Souffle",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:sweetpotatosouffleitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:sweetpotatosouffleitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_sweetpotatosouffleitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

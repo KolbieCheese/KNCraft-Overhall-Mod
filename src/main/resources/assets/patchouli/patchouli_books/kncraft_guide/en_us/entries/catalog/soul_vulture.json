@@ -1,0 +1,25 @@
+{
+  "name": "Soul Vulture",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Soul Vulture",
+      "body": "Soul Sand Valleys. Approaching can trigger life-stealing attacks. After it has fed, killing it may yield a Soul Heart, used in Soulsteal brewing and to lure Spectres.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/soul_vulture)Start$(/l)",
+      "anchor": "animal_soul_vulture",
+      "creature": "alexsmobs:soul_vulture"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Soul Vulture (cont.)",
+      "body": "Account for both the bird and the Nether's temperature before hunting.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/soul_vulture)Start$(/l)",
+      "anchor": "animal_soul_vulture_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

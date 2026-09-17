@@ -1,0 +1,25 @@
+{
+  "name": "Banana Slug",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Banana Slug",
+      "body": "Old-growth forests. Collect naturally dropped slime to make an absorbent slime block. Contact with water creates temporary crystallized mucus;",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/banana_slug)Start$(/l)",
+      "anchor": "animal_banana_slug",
+      "creature": "alexsmobs:banana_slug"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Banana Slug (cont.)",
+      "body": "removing the slime block lets those crystals decay. Silk Touch collects the crystals. Breed slugs with brown mushrooms.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/banana_slug)Start$(/l)",
+      "anchor": "animal_banana_slug_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

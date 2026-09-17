@@ -1,0 +1,25 @@
+{
+  "name": "Flutter",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Flutter",
+      "body": "Lush caves. Tame with four to six different flowers; repeated flowers do not count. A flower pot adds armor and lets you pick it up while sneaking. It defends",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/flutter)Start$(/l)",
+      "anchor": "animal_flutter",
+      "creature": "alexsmobs:flutter"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Flutter (cont.)",
+      "body": "with homing pollen, heals from flowers, and breeds with bone meal. Breeding near azaleas can make them bloom.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/flutter)Start$(/l)",
+      "anchor": "animal_flutter_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

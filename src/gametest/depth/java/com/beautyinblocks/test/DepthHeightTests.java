@@ -15,7 +15,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import qouteall.imm_ptl.core.portal.nether_portal.BlockPortalShape;
 import java.util.*;
 @Mod("depthheighttests") public class DepthHeightTests {
- public DepthHeightTests(){MinecraftForge.EVENT_BUS.register(this);}
+ public DepthHeightTests(){if (!Boolean.getBoolean("kncraft.isolatedTests") || !java.nio.file.Files.isRegularFile(net.minecraftforge.fml.loading.FMLPaths.GAMEDIR.get().resolve("KNCraft-ISOLATED-TEST-WORLD"))) throw new IllegalStateException("Test harness requires an explicitly marked isolated server and -Dkncraft.isolatedTests=true"); MinecraftForge.EVENT_BUS.register(this);}
  void check(boolean b,String s){if(!b)throw new IllegalStateException(s);}
  @SubscribeEvent public void commands(RegisterCommandsEvent e){e.getDispatcher().register(Commands.literal("depthheighttests").requires(s->s.getEntity()==null&&!s.getServer().usesAuthentication()).executes(c->{try{
  var server=c.getSource().getServer();var ow=server.overworld();var depth=server.getLevel(ResourceKey.create(Registries.DIMENSION,new ResourceLocation("callfromthedepth_:depth")));

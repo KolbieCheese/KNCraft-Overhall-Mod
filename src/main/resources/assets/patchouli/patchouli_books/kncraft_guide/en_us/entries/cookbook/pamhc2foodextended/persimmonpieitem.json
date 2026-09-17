@@ -1,0 +1,16 @@
+{
+  "name": "Persimmon Pie",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:persimmonpieitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:persimmonpieitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_persimmonpieitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

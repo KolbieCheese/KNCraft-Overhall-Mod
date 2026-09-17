@@ -1,0 +1,25 @@
+{
+  "name": "Cockroach",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Cockroach",
+      "body": "Dark underground spaces. Light drives them away; loose food attracts them. Breed with sugar and collect egg cases to raise more. Wing fragments combine into a wing",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/cockroach)Start$(/l)",
+      "anchor": "animal_cockroach",
+      "creature": "alexsmobs:cockroach"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cockroach (cont.)",
+      "body": "used for Bug Pheromones, which helps avoid hostile arthropods. This effect is not complete invisibility.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/cockroach)Start$(/l)",
+      "anchor": "animal_cockroach_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Chocolate Roll",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:chocolaterollitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:chocolaterollitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_chocolaterollitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

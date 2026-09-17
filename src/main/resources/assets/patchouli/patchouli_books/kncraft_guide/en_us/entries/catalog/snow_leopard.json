@@ -1,0 +1,25 @@
+{
+  "name": "Snow Leopard",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Snow Leopard",
+      "body": "Snowy mountains. Neutral to players but hunts livestock, especially sheep, and defends its young. It cannot be tamed; breed with Moose Ribs. Its kills can yield",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/snow_leopard)Start$(/l)",
+      "anchor": "animal_snow_leopard",
+      "creature": "alexsmobs:snow_leopard"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Snow Leopard (cont.)",
+      "body": "extra drops. Keep it outside livestock enclosures.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/snow_leopard)Start$(/l)",
+      "anchor": "animal_snow_leopard_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

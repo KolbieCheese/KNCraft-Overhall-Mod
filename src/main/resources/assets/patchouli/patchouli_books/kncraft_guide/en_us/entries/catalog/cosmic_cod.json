@@ -1,0 +1,25 @@
+{
+  "name": "Cosmic Cod",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Cosmic Cod",
+      "body": "The air and void around End islands. Use an empty bucket, not a water bucket. Water harms them, and an attacked school attempts to teleport away. They are the",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/cosmic_cod)Start$(/l)",
+      "anchor": "animal_cosmic_cod",
+      "creature": "alexsmobs:cosmic_cod"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cosmic Cod (cont.)",
+      "body": "food used to tame Cosmaws.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/cosmic_cod)Start$(/l)",
+      "anchor": "animal_cosmic_cod_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

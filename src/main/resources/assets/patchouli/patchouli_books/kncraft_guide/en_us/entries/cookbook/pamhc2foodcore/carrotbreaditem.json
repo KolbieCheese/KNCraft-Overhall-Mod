@@ -1,0 +1,16 @@
+{
+  "name": "Carrot Bread",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:carrotbreaditem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:carrotbreaditem",
+      "anchor": "lookup_recipe_pamhc2foodcore_carrotbreaditem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

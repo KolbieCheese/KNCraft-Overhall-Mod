@@ -1,0 +1,22 @@
+{
+  "name": "Bread",
+  "category": "patchouli:cookbook",
+  "icon": "minecraft:bread",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:bread_grain",
+      "anchor": "lookup_recipe_pamhc2crops_bread_grain",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:bread_dough",
+      "anchor": "lookup_recipe_pamhc2foodcore_bread_dough",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

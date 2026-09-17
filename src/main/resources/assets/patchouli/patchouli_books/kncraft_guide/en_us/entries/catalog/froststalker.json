@@ -1,0 +1,25 @@
+{
+  "name": "Froststalker",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Froststalker",
+      "body": "Ice Spikes and Frozen Peaks. Hostile pack hunter that freezes water underfoot and can shed damaging ice shards. Its horn makes a disguise helmet, but attacking",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/froststalker)Start$(/l)",
+      "anchor": "animal_froststalker",
+      "creature": "alexsmobs:froststalker"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Froststalker (cont.)",
+      "body": "the pack breaks your cover. Breed with porkchops while wearing the helmet. Warm biomes weaken it and melt its spikes.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/froststalker)Start$(/l)",
+      "anchor": "animal_froststalker_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

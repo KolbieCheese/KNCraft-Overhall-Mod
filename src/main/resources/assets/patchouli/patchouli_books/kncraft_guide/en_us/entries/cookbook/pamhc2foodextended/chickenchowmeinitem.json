@@ -1,0 +1,16 @@
+{
+  "name": "Chicken Chowmein",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:chickenchowmeinitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:chickenchowmeinitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_chickenchowmeinitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

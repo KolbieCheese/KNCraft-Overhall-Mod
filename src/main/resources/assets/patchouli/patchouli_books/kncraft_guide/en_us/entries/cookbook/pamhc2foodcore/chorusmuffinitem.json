@@ -1,0 +1,16 @@
+{
+  "name": "Chorus Muffin",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:chorusmuffinitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:chorusmuffinitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_chorusmuffinitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

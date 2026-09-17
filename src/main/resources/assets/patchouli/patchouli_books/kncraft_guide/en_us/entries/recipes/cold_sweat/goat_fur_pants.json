@@ -1,0 +1,16 @@
+{
+  "name": "Goat Fur Pants",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:goat_fur_leggings",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:goat_fur_pants",
+      "anchor": "lookup_recipe_cold_sweat_goat_fur_pants",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_goat_fur_pants)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Tusklin",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Tusklin",
+      "body": "Very cold, flat biomes. Hostile at close range. Brown mushrooms pacify; red mushrooms breed it. A saddle permits a short ride before it throws you off. Hogshoes improve",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/tusklin)Start$(/l)",
+      "anchor": "animal_tusklin",
+      "creature": "alexsmobs:tusklin"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Tusklin (cont.)",
+      "body": "riding. Do not mistake temporary control for a dependable emergency mount.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/tusklin)Start$(/l)",
+      "anchor": "animal_tusklin_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

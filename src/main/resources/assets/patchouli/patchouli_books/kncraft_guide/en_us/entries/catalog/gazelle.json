@@ -1,0 +1,25 @@
+{
+  "name": "Gazelle",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Gazelle",
+      "body": "Savannas. Attacking one sends the herd running. Its occasional horn drop upgrades a Speed II potion to Speed III. It also drops mutton. Avoid chasing a",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/gazelle)Start$(/l)",
+      "anchor": "animal_gazelle",
+      "creature": "alexsmobs:gazelle"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Gazelle (cont.)",
+      "body": "fleeing herd into unknown terrain while a storm is approaching.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/gazelle)Start$(/l)",
+      "anchor": "animal_gazelle_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

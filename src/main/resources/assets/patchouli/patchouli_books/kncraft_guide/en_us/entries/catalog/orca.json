@@ -1,0 +1,25 @@
+{
+  "name": "Orca",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Orca",
+      "body": "Cold oceans. Do not strike one: the pod may retaliate. Swimming nearby can grant Orca's Might, increasing attack speed. They hunt other wildlife, so keep",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/orca)Start$(/l)",
+      "anchor": "animal_orca",
+      "creature": "alexsmobs:orca"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Orca (cont.)",
+      "body": "vulnerable aquatic pets away from a pod.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/orca)Start$(/l)",
+      "anchor": "animal_orca_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

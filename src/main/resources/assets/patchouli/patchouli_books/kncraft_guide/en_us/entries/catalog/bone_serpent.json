@@ -1,0 +1,25 @@
+{
+  "name": "Bone Serpent",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Bone Serpent",
+      "body": "Nether lava lakes. Hostile; watch for a leap followed by a crushing attack. Its occasional tooth drop brews with a Lava Bottle into Lava Vision. The potion improves",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/bone_serpent)Start$(/l)",
+      "anchor": "animal_bone_serpent",
+      "creature": "alexsmobs:bone_serpent"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Bone Serpent (cont.)",
+      "body": "visibility in lava; visibility alone does not protect you from burning.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/bone_serpent)Start$(/l)",
+      "anchor": "animal_bone_serpent_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

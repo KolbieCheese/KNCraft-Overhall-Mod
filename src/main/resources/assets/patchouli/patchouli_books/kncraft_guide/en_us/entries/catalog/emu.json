@@ -1,0 +1,25 @@
+{
+  "name": "Emu",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Emu",
+      "body": "Savannas and badlands. Attacking one may bring retaliation from the flock; their projectile evasion makes bows unreliable. Breed with wheat. Eggs can be",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/emu)Start$(/l)",
+      "anchor": "animal_emu",
+      "creature": "alexsmobs:emu"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Emu (cont.)",
+      "body": "cooked, and feathers make leggings that sometimes dodge projectiles or a banner pattern.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/emu)Start$(/l)",
+      "anchor": "animal_emu_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

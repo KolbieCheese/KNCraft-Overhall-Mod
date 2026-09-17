@@ -1,0 +1,16 @@
+{
+  "name": "Basic Chicken Sandwich",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:basicchickensandwichitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:basicchickensandwichitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_basicchickensandwichitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

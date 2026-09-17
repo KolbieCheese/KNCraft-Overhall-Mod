@@ -1,0 +1,16 @@
+{
+  "name": "Poke Bowl",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:pokebowlitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:pokebowlitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_pokebowlitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

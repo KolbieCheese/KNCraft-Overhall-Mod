@@ -1,0 +1,16 @@
+{
+  "name": "Caramel Pie",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:caramelpieitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:caramelpieitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_caramelpieitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -23,6 +23,7 @@ public final class Architecture {
     public Architecture() {
         Compatibility.validate();
         LegacyConfigImport.run(FMLPaths.CONFIGDIR.get());
+        GuideBootstrap.install(FMLPaths.GAMEDIR.get());
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ArchitectureConfig.SPEC, "kncraft-common.toml");
         FMLJavaModLoadingContext.get().getModEventBus().addListener(BundledPacks::register);
         MinecraftForge.EVENT_BUS.register(this);
@@ -30,6 +31,7 @@ public final class Architecture {
         // These constructors are only resolved when their entire dependency set is present.
         if (Compatibility.exact("immersive_portals")) new com.beautyinblocks.portals.NativePortalLighting();
         if (Compatibility.tents()) new com.beautyinblocks.tents.TentPortals();
+        if (Compatibility.exact("cold_sweat")) MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.climate.ClimateIntegration());
     }
     @SubscribeEvent public void starting(ServerAboutToStartEvent event) {
         for (String id : event.getServer().getPackRepository().getSelectedIds()) {
@@ -37,6 +39,13 @@ public final class Architecture {
                 || id.contains("kncraft-aether-immersive-portals") || id.contains("kncraft-depth-immersive-portals"))
                 throw new IllegalStateException("Remove replaced external datapack " + id + " before starting KNCraft Architecture. Keep a backup outside the world datapacks directory.");
         }
+        // Also recognize a renamed old rules pack by its legacy scheduler resource.
+        var scheduler = new net.minecraft.resources.ResourceLocation("kncraft:functions/encounter.mcfunction");
+        if (event.getServer().getResourceManager().getResource(scheduler).isPresent())
+            throw new IllegalStateException("An external pack still supplies kncraft:encounter. Remove the old kncraft-rules scheduler before starting the merged mod.");
+    }
+    @SubscribeEvent public void reload(net.minecraftforge.event.AddReloadListenerEvent event) {
+        event.addListener(new LegacyPackGuard());
     }
     public static List<String> report() {
         var lines = new ArrayList<String>();
@@ -50,9 +59,22 @@ public final class Architecture {
             + ", items=" + (Compatibility.exact("alexsmobs") && ArchitectureConfig.ITEM_SELECTION.get())
             + ", tornado=" + (Compatibility.exact("weather2") && ArchitectureConfig.TORNADO_QUERY.get()));
         lines.add("Waystone data=" + (Compatibility.present("waystones") && ArchitectureConfig.WAYSTONES.get()) + "; encounter scaling=" + (Compatibility.exact("witherstormmod") && ArchitectureConfig.ENCOUNTERS.get()));
+        if (Compatibility.present("waystones") && ArchitectureConfig.WAYSTONES.get()) lines.add(waystonePolicy());
         lines.add("Cohesion config: cotton=" + ArchitectureConfig.COTTON.get() + ", wildlife=" + ArchitectureConfig.WILDLIFE.get() + ", meals=" + ArchitectureConfig.MEALS.get() + ", fiber=" + ArchitectureConfig.FIBERS.get());
-        lines.add("Guide: patchouli:kncraft_guide; matching client installation required. See docs/Validation.md for unverified checks.");
+        lines.add("Guide: patchouli:kncraft_guide; " + GuideBootstrap.state + "; matching client installation required.");
+        if (Compatibility.exact("cold_sweat")) lines.addAll(com.beautyinblocks.kncraft.integration.climate.ClimateIntegration.diagnostics());
         return lines;
+    }
+    private static String waystonePolicy() {
+        var path = FMLPaths.CONFIGDIR.get().resolve("waystones-common.toml");
+        if (!Files.isRegularFile(path)) return "WARNING: Waystones config absent; retain the natural-network policy from pack-overrides.";
+        try (var config = com.electronwill.nightconfig.core.file.CommentedFileConfig.of(path)) {
+            config.load();
+            boolean creative = Boolean.TRUE.equals(config.get("restrictions.restrictToCreative"));
+            boolean protectedStones = Boolean.TRUE.equals(config.get("restrictions.generatedWaystonesUnbreakable"));
+            return creative && protectedStones ? "Waystones: creative-only editing and generated-stone protection configured"
+                : "WARNING: Waystone protection is incomplete in upstream config; merge pack-overrides/waystones-policy.toml.fragment.";
+        } catch (RuntimeException ex) { return "WARNING: Could not inspect Waystones policy; check config/waystones-common.toml."; }
     }
     @SubscribeEvent public void started(ServerStartedEvent event) {
         String text = String.join("\n", report());

@@ -1,0 +1,16 @@
+{
+  "name": "Pad Thai",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:padthaiitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:padthaiitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_padthaiitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

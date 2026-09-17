@@ -261,6 +261,8 @@ public class TentPortals {
         MinecraftServer server = e.getServer();
         finishSync(server);
         if (++ticks % 20 != 0) return;
+        if (ticks % 1200 == 0 && !pendingSync.isEmpty())
+            LOG.warn("Tent dimension synchronization is still waiting for {} client acknowledgement(s); entrances remain gated. Reconnect a stalled client; no unsafe timeout bypass is used.", pendingSync.size());
         // Scan only already-loaded chunks immediately around online players.
         Set<TentDoorBlockEntity> seen = new HashSet<>();
         for (var player : server.getPlayerList().getPlayers()) {

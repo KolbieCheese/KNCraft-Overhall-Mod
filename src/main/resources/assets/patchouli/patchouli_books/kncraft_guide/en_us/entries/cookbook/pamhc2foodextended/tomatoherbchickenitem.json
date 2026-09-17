@@ -1,0 +1,16 @@
+{
+  "name": "Tomato Herb Chicken",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:tomatoherbchickenitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:tomatoherbchickenitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_tomatoherbchickenitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

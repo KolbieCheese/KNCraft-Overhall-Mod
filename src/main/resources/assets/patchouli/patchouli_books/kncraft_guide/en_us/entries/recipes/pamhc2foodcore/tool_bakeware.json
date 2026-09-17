@@ -1,0 +1,16 @@
+{
+  "name": "Bakeware",
+  "category": "patchouli:recipes",
+  "icon": "pamhc2foodcore:bakewareitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_bakeware",
+      "anchor": "lookup_recipe_pamhc2foodcore_tool_bakeware",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/food#recipe_pamhc2foodcore_tool_bakeware)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

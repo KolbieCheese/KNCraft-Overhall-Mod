@@ -1,0 +1,16 @@
+{
+  "name": "Ground Rabbit",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:groundrabbititem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:groundrabbititem",
+      "anchor": "lookup_recipe_pamhc2foodcore_groundrabbititem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

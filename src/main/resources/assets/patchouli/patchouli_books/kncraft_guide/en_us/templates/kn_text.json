@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "type": "patchouli:text",
+      "x": 0,
+      "y": 0,
+      "text": "#navigation",
+      "max_width": 74
+    },
+    {
+      "type": "patchouli:header",
+      "x": 0,
+      "y": 14,
+      "text": "#heading",
+      "centered": false,
+      "scale": 0.8
+    },
+    {
+      "type": "patchouli:image",
+      "x": 0,
+      "y": 23,
+      "image": "kncraft:textures/guide/rule.png",
+      "width": 114,
+      "height": 8,
+      "texture_width": 128,
+      "texture_height": 8
+    },
+    {
+      "type": "patchouli:text",
+      "x": 0,
+      "y": 30,
+      "text": "#body",
+      "max_width": 114,
+      "line_height": 9
+    }
+  ]
+}

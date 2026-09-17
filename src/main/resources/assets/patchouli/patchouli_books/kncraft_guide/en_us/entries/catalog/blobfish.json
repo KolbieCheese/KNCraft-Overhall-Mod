@@ -1,0 +1,25 @@
+{
+  "name": "Blobfish",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Blobfish",
+      "body": "Deep oceans. Bucket them for transport. Shallow water changes their appearance; a slimeball lets a display specimen survive on land. Blobfish are an ingredient in Fish Oil,",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/blobfish)Start$(/l)",
+      "anchor": "animal_blobfish",
+      "creature": "alexsmobs:blobfish"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Blobfish (cont.)",
+      "body": "which grants limited levitation in water or rain and is also useful for taming Bald Eagles.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/blobfish)Start$(/l)",
+      "anchor": "animal_blobfish_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

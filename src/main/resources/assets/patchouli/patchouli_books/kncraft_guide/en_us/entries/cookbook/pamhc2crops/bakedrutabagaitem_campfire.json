@@ -1,0 +1,38 @@
+{
+  "name": "Baked Rutabaga",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:bakedrutabagaitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Rutabaga",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedrutabagaitem_campfire",
+      "input": "tag:forge:crops/rutabaga",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:bakedrutabagaitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:bakedrutabagaitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_bakedrutabagaitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Rutabaga",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedrutabagaitem_smoker",
+      "input": "tag:forge:crops/rutabaga",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:bakedrutabagaitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:bakedrutabagaitem": 2
+  }
+}

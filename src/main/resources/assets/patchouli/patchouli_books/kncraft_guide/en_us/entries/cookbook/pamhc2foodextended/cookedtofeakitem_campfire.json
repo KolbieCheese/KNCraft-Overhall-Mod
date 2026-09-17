@@ -1,0 +1,38 @@
+{
+  "name": "Cooked Tofeak",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:cookedtofeakitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Tofeak",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofeakitem_campfire",
+      "input": "pamhc2foodextended:rawtofeakitem",
+      "station": "minecraft:campfire",
+      "output": "pamhc2foodextended:cookedtofeakitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2foodextended:cookedtofeakitem_forge",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofeakitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Tofeak",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofeakitem_smoker",
+      "input": "pamhc2foodextended:rawtofeakitem",
+      "station": "minecraft:smoker",
+      "output": "pamhc2foodextended:cookedtofeakitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2foodextended:cookedtofeakitem": 2
+  }
+}

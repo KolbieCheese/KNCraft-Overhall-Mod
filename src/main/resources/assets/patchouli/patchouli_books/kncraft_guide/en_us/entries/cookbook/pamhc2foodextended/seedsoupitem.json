@@ -1,0 +1,16 @@
+{
+  "name": "Seed Soup",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:seedsoupitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:seedsoupitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_seedsoupitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

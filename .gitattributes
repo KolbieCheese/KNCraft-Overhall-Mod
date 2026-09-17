@@ -4,3 +4,9 @@
 reference/** -text
 *.png binary
 *.jar binary
+
+gradlew text eol=lf
+*.py text eol=lf
+*.java text eol=lf
+src/main/resources/assets/** -text
+src/main/resources/packs/** -text

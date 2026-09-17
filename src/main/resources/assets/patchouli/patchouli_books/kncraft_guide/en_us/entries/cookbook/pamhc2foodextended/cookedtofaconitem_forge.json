@@ -1,0 +1,28 @@
+{
+  "name": "Cooked Tofacon",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:cookedtofaconitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2foodextended:cookedtofaconitem_forge",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofaconitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Tofacon",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofaconitem_smoker",
+      "input": "pamhc2foodextended:rawtofaconitem",
+      "station": "minecraft:smoker",
+      "output": "pamhc2foodextended:cookedtofaconitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2foodextended:cookedtofaconitem": 1
+  }
+}

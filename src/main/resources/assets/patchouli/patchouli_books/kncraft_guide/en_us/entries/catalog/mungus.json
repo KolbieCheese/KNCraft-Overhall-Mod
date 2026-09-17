@@ -1,0 +1,25 @@
+{
+  "name": "Mungus",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Mungus",
+      "body": "Mushroom Fields. Feed matching mushrooms to support its nearby mushroom growth. A Mungus killed while carrying five mushrooms explodes and can change the",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/mungus)Start$(/l)",
+      "anchor": "animal_mungus",
+      "creature": "alexsmobs:mungus"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Mungus (cont.)",
+      "body": "surrounding biome. A poisonous potato reverses a conversion. Naturally dropped Mungal Spores breed Mungi and transform rabbits into Bunfungi; keep experiments away from builds.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/mungus)Start$(/l)",
+      "anchor": "animal_mungus_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

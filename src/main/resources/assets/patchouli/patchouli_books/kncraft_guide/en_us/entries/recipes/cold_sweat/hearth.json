@@ -1,0 +1,16 @@
+{
+  "name": "Hearth",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:hearth",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:hearth",
+      "anchor": "lookup_recipe_cold_sweat_hearth",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_hearth)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

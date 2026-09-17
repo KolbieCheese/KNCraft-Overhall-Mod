@@ -1,0 +1,16 @@
+{
+  "name": "Jackfruit Jelly Toast",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:jackfruitjellytoastitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:jackfruitjellytoastitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_jackfruitjellytoastitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

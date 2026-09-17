@@ -1,0 +1,25 @@
+{
+  "name": "Sugar Glider",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Sugar Glider",
+      "body": "Birch forests. Tame with sweet berries and breed with honeycombs. Sneak-interact to place it on your head for Slow Falling. Tame gliders also forage",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/sugar_glider)Start$(/l)",
+      "anchor": "animal_sugar_glider",
+      "creature": "alexsmobs:sugar_glider"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Sugar Glider (cont.)",
+      "body": "through leaves for assorted items. Young gliders cannot glide.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/sugar_glider)Start$(/l)",
+      "anchor": "animal_sugar_glider_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

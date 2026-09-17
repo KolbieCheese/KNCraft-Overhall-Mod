@@ -1,0 +1,16 @@
+{
+  "name": "Lemon Yogurt",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:lemonyogurtitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:lemonyogurtitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_lemonyogurtitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

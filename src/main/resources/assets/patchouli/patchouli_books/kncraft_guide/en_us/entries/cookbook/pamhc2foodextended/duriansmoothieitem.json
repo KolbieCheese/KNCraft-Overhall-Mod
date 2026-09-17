@@ -1,0 +1,16 @@
+{
+  "name": "Durian Smoothie",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:duriansmoothieitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:duriansmoothieitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_duriansmoothieitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

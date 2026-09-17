@@ -1,0 +1,25 @@
+{
+  "name": "Dropbear",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Dropbear",
+      "body": "Nether Wastes. Look overhead: it hangs from ceilings and drops onto prey before attacking with claws and jaws. Its claw can substitute in a Flint and Steel",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/dropbear)Start$(/l)",
+      "anchor": "animal_dropbear",
+      "creature": "alexsmobs:dropbear"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Dropbear (cont.)",
+      "body": "recipe or help brew Clinging, which lets you move along ceilings.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/dropbear)Start$(/l)",
+      "anchor": "animal_dropbear_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

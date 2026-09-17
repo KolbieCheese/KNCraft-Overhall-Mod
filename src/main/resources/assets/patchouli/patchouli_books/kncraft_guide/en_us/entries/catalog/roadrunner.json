@@ -1,0 +1,25 @@
+{
+  "name": "Roadrunner",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Roadrunner",
+      "body": "Deserts and badlands. Fast-moving predator of rattlesnakes. Feathers make boots for faster movement on sand. Maggots are useful for breeding. Keep a pair protected",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/roadrunner)Start$(/l)",
+      "anchor": "animal_roadrunner",
+      "creature": "alexsmobs:roadrunner"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Roadrunner (cont.)",
+      "body": "if you want a local supply rather than chasing wild birds through exposed terrain.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/roadrunner)Start$(/l)",
+      "anchor": "animal_roadrunner_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

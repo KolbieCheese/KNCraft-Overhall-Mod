@@ -1,0 +1,401 @@
+{
+  "name": "10. Exploring KNCraft",
+  "category": "patchouli:guide",
+  "icon": "minecraft:map",
+  "priority": false,
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:kn_chapter",
+      "heading": "Exploring KNCraft",
+      "body": "$(l:patchouli:chapters/explore#tectonic)Terrain$(/l)$(br)$(l:patchouli:chapters/explore#terralith)Biomes$(/l)$(br)$(l:patchouli:chapters/explore#dungeons)Dungeons$(/l)$(br)$(l:patchouli:chapters/explore#structory)Smaller structures$(/l)$(br)$(l:patchouli:chapters/explore#dh)Distant Horizons$(/l)",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "explore_contents",
+      "eyebrow": "CHAPTER 10"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Following the coast",
+      "body": "A KNCraft coastline. Shorelines can offer useful landmarks for a long journey.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "capture_coastline",
+      "picture": "kncraft:textures/guide/capture_coastline.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "A riverside landmark",
+      "body": "A stone circle near the river. Distinctive structures help you recognize a route.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "capture_stone_circle",
+      "picture": "kncraft:textures/guide/capture_stone_circle.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Below the surface",
+      "body": "A large marine animal beneath the water. Leave space when exploring by boat.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "capture_ocean_wildlife",
+      "picture": "kncraft:textures/guide/capture_ocean_wildlife.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Read the landscape",
+      "body": "Several mods shape the same journey. Tectonic controls broad terrain forms; Terralith adds biome variety using vanilla blocks; Biomes O' Plenty adds its own biomes and materials. Structure mods place places to investigate along the way. Distant",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "explore_start"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Read the landscape (cont.)",
+      "body": "Horizons changes how far terrain can be seen. It does not create mountains or structures. This chapter includes author examples and captures from KNCraft. Credits identify their source; scenery does not guarantee what you",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Read the landscape (cont.)",
+      "body": "will find along another route.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Under the mountain",
+      "body": "A river runs beneath the terrain. Bring light and mark the entrance.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "capture_mountain_river",
+      "picture": "kncraft:textures/guide/capture_mountain_river.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Tectonic",
+      "body": "Expect large changes in elevation, substantial ranges and terrain that can turn a short straight-line journey into a long route. Look for valleys, river corridors and manageable passes before climbing. Underground rivers",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "tectonic"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Tectonic (cont.)",
+      "body": "add another kind of route, but visibility and return access matter. Check that an apparent tunnel continues before moving animals or a loaded party into it.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Mountain routes",
+      "body": "Tectonic's mountain-range example. A valley route may be faster",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "tectonic_mountains",
+      "picture": "kncraft:textures/guide/tectonic-1.png",
+      "credit": "$(l:https://modrinth.com/mod/tectonic/gallery)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Mountain routes",
+      "body": "and easier to retreat along than a direct climb. Keep temperature and weather in mind when choosing a pass.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Underground rivers",
+      "body": "Tectonic's underground-river example. Light the entry and keep a",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "tectonic_river",
+      "picture": "kncraft:textures/guide/tectonic-4.png",
+      "credit": "$(l:https://modrinth.com/mod/tectonic/gallery)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Underground rivers",
+      "body": "clear return route before exploring out of sight.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Terralith",
+      "body": "Terralith rearranges vanilla materials into a wider set of realistic and unusual biomes. Color alone may not tell you what a surface is made from; inspect blocks when gathering resources. Use distinctive landforms as route markers, but record a",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "terralith"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Terralith (cont.)",
+      "body": "return location too. Terrain that is easy to recognize in daylight can be hard to read through rain or snow.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Terralith landscape",
+      "body": "An author-gallery example of contrasting terrain and materials. It",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "terralith_view",
+      "picture": "kncraft:textures/guide/terralith-1.png",
+      "credit": "$(l:https://modrinth.com/mod/terralith/gallery)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Terralith landscape",
+      "body": "illustrates the variety of the project; your KNCraft route will depend on the seed and the other generation mods.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Wildlife in open country",
+      "body": "Animals share the open landscape. Leave room to observe before",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "capture_open_country",
+      "picture": "kncraft:textures/guide/capture_open_country.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Wildlife in open country",
+      "body": "approaching.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Biomes O' Plenty",
+      "body": "Biomes O' Plenty brings additional vegetation, wood types and other building materials alongside its biomes. Collect saplings when you find a useful wood, rather than filling your entire travel inventory with logs. Keep new materials",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "bop"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Biomes O' Plenty (cont.)",
+      "body": "organized by purpose. A new-looking biome can also change your temperature situation, so check before making it your next camp.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Redwood forest",
+      "body": "Redwood Forest from the project gallery. Tall vegetation limits sightlines at ground",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "redwoods",
+      "picture": "kncraft:textures/guide/biomes-o-plenty-2.png",
+      "credit": "$(l:https://modrinth.com/mod/biomes-o-plenty/gallery)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Redwood forest",
+      "body": "level and can hide the route back to your group.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "An entrance in the ruins",
+      "body": "An opening beneath weathered stonework. Check the way back before descending.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "capture_dungeon_entry",
+      "picture": "kncraft:textures/guide/capture_dungeon_entry.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Inside the dungeon",
+      "body": "A spawner and chests inside the structure. Secure a route out before searching.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "capture_dungeon_room",
+      "picture": "kncraft:textures/guide/capture_dungeon_room.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Across the water",
+      "body": "A large ship on the ocean. Scout an approach before boarding.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "capture_ocean_ship",
+      "picture": "kncraft:textures/guide/capture_ocean_ship.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Dungeons Enhanced",
+      "body": "Dungeons Enhanced adds separate medieval and fantasy structures, including towers, ships and larger complexes. A visible building is not proof of safe shelter. Approach with light, space for loot and a route out. Clear a manageable area",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "dungeons"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Dungeons Enhanced (cont.)",
+      "body": "before continuing farther inside. Check the map between stops so a long search does not leave the storm closing on your exit.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "A structure offshore",
+      "body": "The project's Pirate Ship example. Scout the water and the deck before committing",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "dungeon_ship",
+      "picture": "kncraft:textures/guide/dungeons-enhanced-0.png",
+      "credit": "$(l:https://modrinth.com/mod/dungeons-enhanced/gallery)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A structure offshore",
+      "body": "to a landing; aquatic wildlife can complicate the approach.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Structory",
+      "body": "Structory adds smaller ruins, cottages, graveyards and other signs of past habitation. These work as landmarks and short stops between larger objectives. Examine the surroundings before treating a ruin as a campsite. A",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "structory"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Structory (cont.)",
+      "body": "broken wall may offer cover, but it may not provide the roof or temperature control you need.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Ruins along the route",
+      "body": "Grassy Ruins from Structory's gallery. Use a distinctive ruin to describe a meeting",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "structory_ruin",
+      "picture": "kncraft:textures/guide/structory-1.png",
+      "credit": "$(l:https://modrinth.com/mod/structory/gallery)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Ruins along the route",
+      "body": "point, then give its coordinates to avoid confusion.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Abridged",
+      "body": "Abridged adds bridges over rivers and larger gaps. They can save building time and make a useful meeting point. Check both ends, the deck and the inhabitants before crossing. The author notes that bridge placement can behave oddly with terrain",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "abridged"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Abridged (cont.)",
+      "body": "mods such as Tectonic. Do not drive a train or lead animals onto a crossing simply because it looks complete from far away.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "A canyon crossing",
+      "body": "Abridged's stone-bridge example. Inspect the actual crossing before using",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "bridge",
+      "picture": "kncraft:textures/guide/abridged-0.png",
+      "credit": "$(l:https://modrinth.com/mod/abridged/gallery)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A canyon crossing",
+      "body": "it as the only evacuation route.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Towns and Towers",
+      "body": "Towns and Towers adds village, outpost and ship designs inspired by varied architecture. Identify whether a location is friendly before walking into its center. A settlement can provide supplies or a useful landmark, but it remains exposed to",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "towns"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Towns and Towers (cont.)",
+      "body": "the world around it. Keep villagers out of harm's way and leave routes open if your group uses the area as a staging point.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "A different village layout",
+      "body": "Birch Forest Village from the project gallery. Larger or unfamiliar layouts",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "village",
+      "picture": "kncraft:textures/guide/towns-and-towers-6.png",
+      "credit": "$(l:https://modrinth.com/mod/towns-and-towers/gallery)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A different village layout",
+      "body": "make it worth choosing a clear entrance and meeting place.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Distant Horizons",
+      "body": "Distant Horizons displays simplified distant terrain. KNCraft supports it server-side, but your view still depends on the client setup and available terrain data. Allow time for distant areas to fill in. Use the view to choose a general direction,",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "dh"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Distant Horizons (cont.)",
+      "body": "then inspect the ground as you approach. It is not a live scan for mobs, loot, intact bridges or every recent block change. Use BlueMap for the server's Wither Storm markers.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "The distant landscape",
+      "body": "The owner's Distant Horizons view. Distant terrain is not a live view of every hazard.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "capture_horizons",
+      "picture": "kncraft:textures/guide/capture_horizons.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Distant Horizons off",
+      "body": "The overlook without Distant Horizons. Compare the distant terrain in the next",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "capture_horizons_off",
+      "picture": "kncraft:textures/guide/capture_horizons_off.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Distant Horizons off",
+      "body": "view.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Distant Horizons on",
+      "body": "Distant terrain extends beyond the nearby chunks. Camera and lighting",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "capture_horizons_on",
+      "picture": "kncraft:textures/guide/capture_horizons_on.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Distant Horizons on",
+      "body": "differ slightly.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Before going farther",
+      "body": "Choose your next stopping point while you still have enough food, temperature supplies and daylight or lighting to reach it. Record a discovered Waystone and check the map before changing your route. Bring back useful ingredients and",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)",
+      "anchor": "return_trip"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Before going farther (cont.)",
+      "body": "information, not just a full inventory. A marked passage, working bridge or prepared camp can be worth more on the next journey than another stack of stone.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/explore#explore_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Continue reading",
+      "entries": [
+        "patchouli:chapters/catalog",
+        "patchouli:chapters/food"
+      ],
+      "text": "Next chapter first; previous chapter below.",
+      "anchor": "explore_end"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

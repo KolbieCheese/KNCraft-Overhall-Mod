@@ -1,0 +1,16 @@
+{
+  "name": "Chorus Popsicle",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:choruspopsicleitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:choruspopsicleitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_choruspopsicleitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,127 @@
+{
+  "name": "11. Prepare, camp and travel",
+  "category": "patchouli:guide",
+  "icon": "nomadictents:tent_canvas",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:kn_text",
+      "heading": "KNCraft Architecture",
+      "body": "Portals, tents and survival work together. This chapter explains the new options. Survival additions start disabled; use $(bold)/kncraft status$() to check this server. Sewing and food tooltips show the active values.",
+      "anchor": "contents",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare together",
+      "body": "Grow cotton, sew clothing, cook provisions and pack a tent before an expedition. Farming and hunting offer different supplies. Meals offer brief help; keep your waterskin, shelter and specialized clothing.",
+      "anchor": "prepare",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cotton lining",
+      "body": "When cotton insulation is enabled, Pam's cotton works in the Sewing Table. Default: 1 cold / 0.5 heat insulation. It uses normal Cold Sweat slots and removal rules. Cotton does not count as wool in unrelated recipes.",
+      "anchor": "cotton",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Wildlife materials",
+      "body": "With wildlife insulation enabled: bear fur gives 1.5 cold, bison fur 1.75 cold, and kangaroo hide 0.75 cold / 0.75 heat. These defaults leave goat fur, hoglin hide and adaptive materials useful.",
+      "anchor": "wildlife",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Frontier Cap",
+      "body": "The wildlife option gives the worn Frontier Cap 3 cold / 1 heat insulation by default. Built-in insulation consumes sewing capacity. Cold Sweat still owns your existing armor and sewn linings. Check its tooltip before adding more.",
+      "anchor": "cap",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Warm provisions",
+      "body": "With thermal meals enabled, hot tea, coffee and nettle tea provide +0.2 base temperature for 60 seconds. Carrot soup, potato soup and stew last 90 seconds at the same strength. These are the default settings.",
+      "anchor": "warm",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cool provisions",
+      "body": "Melon smoothie and ice cream provide -0.2 base temperature for 60 seconds. Apple juice gives a lighter -0.1 for 30 seconds. Values are Cold Sweat temperature units, not instant body-temperature points.",
+      "anchor": "cool",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "One meal effect",
+      "body": "KNCraft meals share one active effect: the latest replaces the previous, including hot versus cold meals. Repeating a meal refreshes its time. Normal hunger and container rules still apply; food is not a replacement for a waterskin.",
+      "anchor": "stacking",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Backpack feeding",
+      "body": "Pam's hot tea cannot be consumed at full hunger in the tested pack. A feeding upgrade chooses for hunger, not temperature. Pack deliberate hot/cold supplies; automatic temperature-based selection is not part of this update.",
+      "anchor": "feeding",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cotton canvas",
+      "body": "With fiber recipes enabled, surround one wool block with eight cotton to make tent canvas. Wool can itself come from cotton-made string. This costs the same fiber as the original cotton-to-string-to-wool route. Find the pattern in JEI.",
+      "anchor": "canvas",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Plant rope",
+      "body": "Six cotton and three vines make eight RopeBridge ropes when fiber recipes are enabled. Use rows cotton/cotton/vine, vine/cotton/cotton, cotton/cotton/vine. This replaces three string with six cotton at the original cost.",
+      "anchor": "rope",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Native portals",
+      "body": "Light Aether and Depth frames with their normal items. Successful lighting converts to an immersive pair; stick activation remains a fallback. Failed conversion preserves native travel. Existing pairs stay where players built them.",
+      "anchor": "portals",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Depth arrivals",
+      "body": "New Depth frames and their landing rooms stay between Y=5 and Y=122. The adapter avoids bedrock, fluids, block entities and occupied rooms. A failed safe placement restores the native source portal.",
+      "anchor": "depth",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Tent crossings",
+      "body": "Complete tents get seamless entrances while keeping Nomadic Tents ownership and contents. New interiors wait for connected clients to acknowledge the dimension. If an entrance stays closed, reconnect a stalled client or use the native door.",
+      "anchor": "tents",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Pack and move",
+      "body": "Use the physical door to pack a tent. Old links are invalidated when it is packed, damaged or moved. Quick return crossings remain possible. Turning off immersive entrances retains the dimension synchronization repair.",
+      "anchor": "packing",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Explore the network",
+      "body": "Natural Waystones remain protected travel infrastructure. Their crafting and drops stay restricted. Wither Storm encounter scaling happens once; revisiting or reloading an already balanced encounter does not heal it again.",
+      "anchor": "rules",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Keep this guide",
+      "body": "Craft a book with one paper to get this Field Guide. The matching KNCraft Architecture mod supplies its chapters and artwork to each player. Existing books keep the same identity and bookmarks.",
+      "anchor": "guide",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/architecture#contents)Camp$(/l)"
+    }
+  ]
+}

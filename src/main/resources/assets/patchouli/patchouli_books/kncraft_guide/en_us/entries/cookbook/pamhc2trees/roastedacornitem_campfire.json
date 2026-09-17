@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Acorn",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2trees:roastedacornitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Acorn",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2trees_roastedacornitem_campfire",
+      "input": "tag:forge:crops/acorn",
+      "station": "minecraft:campfire",
+      "output": "pamhc2trees:roastedacornitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2trees:roastedacornitem_forge",
+      "anchor": "lookup_recipe_pamhc2trees_roastedacornitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Acorn",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2trees_roastedacornitem_smoker",
+      "input": "tag:forge:crops/acorn",
+      "station": "minecraft:smoker",
+      "output": "pamhc2trees:roastedacornitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2trees:roastedacornitem": 2
+  }
+}

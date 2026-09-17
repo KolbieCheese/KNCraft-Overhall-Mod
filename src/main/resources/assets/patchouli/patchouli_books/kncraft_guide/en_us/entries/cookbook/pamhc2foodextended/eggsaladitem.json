@@ -1,0 +1,16 @@
+{
+  "name": "Egg Salad",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:eggsaladitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:eggsaladitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_eggsaladitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

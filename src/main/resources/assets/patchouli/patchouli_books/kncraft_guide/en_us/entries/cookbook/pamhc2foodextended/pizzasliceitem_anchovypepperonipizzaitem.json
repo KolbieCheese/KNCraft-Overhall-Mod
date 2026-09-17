@@ -1,0 +1,46 @@
+{
+  "name": "Pizza Slice",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:pizzasliceitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:pizzasliceitem_anchovypepperonipizzaitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_pizzasliceitem_anchovypepperonipizzaitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:pizzasliceitem_bbqchickenpizzaitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_pizzasliceitem_bbqchickenpizzaitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:pizzasliceitem_hamandpineapplepizzaitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_pizzasliceitem_hamandpineapplepizzaitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:pizzasliceitem_meatfeastpizzaitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_pizzasliceitem_meatfeastpizzaitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:pizzasliceitem_pepperonipizzaitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_pizzasliceitem_pepperonipizzaitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:pizzasliceitem_supremepizzaitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_pizzasliceitem_supremepizzaitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

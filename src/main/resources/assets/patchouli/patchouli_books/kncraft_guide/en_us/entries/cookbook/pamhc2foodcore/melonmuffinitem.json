@@ -1,0 +1,16 @@
+{
+  "name": "Melon Muffin",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:melonmuffinitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:melonmuffinitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_melonmuffinitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

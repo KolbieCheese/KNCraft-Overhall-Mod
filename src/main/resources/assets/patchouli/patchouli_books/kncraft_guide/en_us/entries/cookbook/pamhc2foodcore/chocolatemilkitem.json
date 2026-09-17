@@ -1,0 +1,16 @@
+{
+  "name": "Chocolate Milk",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:chocolatemilkitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:chocolatemilkitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_chocolatemilkitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

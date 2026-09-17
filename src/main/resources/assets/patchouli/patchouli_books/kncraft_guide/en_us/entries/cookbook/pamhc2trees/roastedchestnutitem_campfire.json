@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Chestnut",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2trees:roastedchestnutitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Chestnut",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2trees_roastedchestnutitem_campfire",
+      "input": "tag:forge:crops/chestnut",
+      "station": "minecraft:campfire",
+      "output": "pamhc2trees:roastedchestnutitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2trees:roastedchestnutitem_forge",
+      "anchor": "lookup_recipe_pamhc2trees_roastedchestnutitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Chestnut",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2trees_roastedchestnutitem_smoker",
+      "input": "tag:forge:crops/chestnut",
+      "station": "minecraft:smoker",
+      "output": "pamhc2trees:roastedchestnutitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2trees:roastedchestnutitem": 2
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "name": "2. The Wither Storm",
+  "category": "patchouli:guide",
+  "icon": "minecraft:nether_star",
+  "priority": false,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:kn_chapter",
+      "heading": "The Wither Storm",
+      "body": "$(l:patchouli:chapters/wither#wither_changes)KNCraft changes$(/l)$(br)$(l:patchouli:chapters/wither#wither_route)Progression$(/l)$(br)$(l:patchouli:chapters/wither#sickness)Sickness$(/l)$(br)$(l:patchouli:chapters/wither#bomb)Formidibomb$(/l)$(br)$(l:patchouli:chapters/wither#bowels)Final approach$(/l)",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "wither_contents",
+      "eyebrow": "CHAPTER 02"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "The encounter",
+      "body": "The Wither Storm grows as it consumes the world. Early survival means moving, supplying yourself and choosing when to approach. A temporary distraction is time to act, not a permanent safe zone. KNCraft allows persistent storm",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "wither_start"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "The encounter (cont.)",
+      "body": "loading while the server is empty. Do not assume logging out freezes the threat. Use BlueMap and your Amulet together when deciding whether a camp is still usable.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "The storm at work",
+      "body": "Tractor beams lift terrain around the storm. Keep an escape route ready.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "capture_wither_storm",
+      "picture": "kncraft:textures/guide/capture_wither_storm.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "KNCraft changes",
+      "body": "Attack damage is increased by 50%, with 4 extra armor. Early phases have 600 maximum health; large stages remain subject to the 1,024-health cap. Movement and tractor pull are 25% stronger. Flaming skulls travel 20% faster. The final",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "wither_changes"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "KNCraft changes (cont.)",
+      "body": "Command Block core has 128 health. Symbiont health adds 80 per nearby player. A larger group brings help, but also a stronger Symbiont.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Storm arrivals",
+      "body": "The launch plan calls for two automatic spawns at the end of the server's second Minecraft day. Further automatic spawns may be introduced, but the website does not promise a recurring schedule. Track each storm separately.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "spawn_policy"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Storm arrivals (cont.)",
+      "body": "Defeating one does not establish that every other threat has been removed. Keep the current map available when choosing where to regroup.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Progression route",
+      "body": "Prepare while keeping your distance. Obtain an Enchanted Command Block Book from a Withered Symbiont. Use a book to make Super TNT and then a Formidibomb. The bomb is not the end of the encounter. You will need another book for a Command Block",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "wither_route"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Progression route (cont.)",
+      "body": "tool and must eventually enter the storm to destroy its core. Read the bomb handling instructions before crafting one.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Tracking and escape",
+      "body": "An Amulet helps establish the storm's direction and distance; its tooltip provides useful distance information. A Phasometer helps identify its development. Keep both accessible when planning an approach. Have a retreat route",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "tracking"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Tracking and escape (cont.)",
+      "body": "before entering tractor-beam range. Projectiles aimed at the pulling head can interrupt a grab; prepare for the fall that follows. A water landing or other practiced fall protection is part of the escape, not an afterthought.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Buying time",
+      "body": "Fireworks and TNT can distract the storm. Use the opening to move a teammate or finish an urgent task, then leave the area. Invisibility and cover can help during an approach, but do not build your whole plan around an untested protection. The",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "distractions"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Buying time (cont.)",
+      "body": "stronger tractor pull and faster movement on KNCraft reduce your margin for mistakes. Keep a bow, ammunition, food and fall protection on your hotbar.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "The Withered Symbiont",
+      "body": "The author's progression places the first Symbiont encounter near the end of phase 5. Approach with combat supplies and a way to leave. Avoid its spell attacks, deal with summoned enemies and watch for its weakened posture.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "symbiont"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "The Withered Symbiont +...",
+      "body": "Strike the exposed purple area on its back during the opening. Collect the Enchanted Command Block Book after the fight, then regroup away from the storm.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Symbiont opening",
+      "body": "SCREENSHOT NEEDED. Capture a Withered Symbiont in its weakened posture from behind, with the purple weak point clearly visible. Add a second capture of the same encounter with the boss bar showing KNCraft health scaling. Keep",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "shot_symbiont"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Symbiont opening",
+      "body": "this separate from the Aether and Depths spoiler-free sections.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Wither Sickness",
+      "body": "Wither Sickness is a continuing health threat, not simply the ordinary Wither effect. Watch your status effects and maximum health after contact with sickened creatures or the storm. Golden Apple Stew begins the cure. The visible effect",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "sickness"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Wither Sickness (cont.)",
+      "body": "takes time to clear, so move to safety while recovering. Carry a supply for the final approach and keep spare ingredients outside the dangerous area.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:amulet",
+      "anchor": "recipe_witherstormmod_amulet",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:phasometer",
+      "anchor": "recipe_witherstormmod_phasometer",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:golden_apple_stew",
+      "anchor": "recipe_witherstormmod_golden_apple_stew",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:super_tnt",
+      "anchor": "recipe_witherstormmod_super_tnt",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Before making the bomb",
+      "body": "A Formidibomb's fuse starts when it is crafted. It can detonate while carried. Gather ingredients in advance, but assemble it only when the team, target and escape route are ready. Place it where the storm can take it. Flint",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "bomb"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Before making the bomb +...",
+      "body": "and Steel shortens the remaining fuse. Clear the area rather than staying nearby to watch. Do not store a crafted bomb in a tent, chest or backpack as if it were ordinary TNT.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:formidibomb",
+      "anchor": "recipe_witherstormmod_formidibomb",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "After the blast",
+      "body": "The apparent defeat after the bomb is temporary. The storm can revive and split. Use the interval to assess the area rather than treating the corpse as safe salvage. Prepare a Command Block tool with another Enchanted Command",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "revival"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "After the blast (cont.)",
+      "body": "Block Book. In this installed version, combine the book with a suitable tool in an anvil. The diamond sword example follows; older smithing-table instructions do not match this version.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_anvil",
+      "heading": "Command Block Sword",
+      "body": "Anvil: 1 level. Place the tool on the left and the book on the right.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "recipe_witherstormmod_command_block_sword_anvil",
+      "left": "minecraft:diamond_sword",
+      "right": "witherstormmod:command_block_book",
+      "output": "witherstormmod:command_block_sword"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Entering the storm",
+      "body": "Wait for the visible entrance above the main head. An Ender Pearl can reach it; the mod also supports launching a pearl from a crossbow. Bring the Command Block tool, armor, ranged equipment, food, blocks, healing and fall protection.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "bowels"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Entering the storm (cont.)",
+      "body": "Golden Apple Stew belongs in the same kit. KNCraft's FTB teleport commands cannot bypass the bowels restriction, so do not rely on a home command as your exit plan.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Find the entrance",
+      "body": "SCREENSHOT NEEDED. Capture the open entrance above the main head at a readable distance, with the full opening visible. A second image should show a safe aiming position. This is a navigation image; avoid motion blur and hide chat.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "shot_bowels"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Destroying the core",
+      "body": "Follow the interior passages toward the Command Block chamber. Check your supplies before starting. Damage the exposed core with a Command Block tool, then reposition when its defenses force you away. Clear attackers, heal and",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "core"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Destroying the core (cont.)",
+      "body": "return for the next opening. When the heads shield the core, interrupt their beams to reopen the attack. The core has 128 health here: keep attacking available openings instead of expecting an old guide's fixed hit count.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "After the fight",
+      "body": "Confirm which storm was defeated and check the map again. Gather the drops, treat remaining sickness, and agree on a safe meeting point before splitting up. A Withered Nether Star leads to the mod's beacon progression. Use JEI",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+      "anchor": "wither_after"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "After the fight (cont.)",
+      "body": "for the installed recipes. Damage left across the landscape remains part of the world; a defeated storm does not restore a road, bridge or shelter.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Continue reading",
+      "entries": [
+        "patchouli:chapters/cold",
+        "patchouli:chapters/intro"
+      ],
+      "text": "Next chapter first; previous chapter below.",
+      "anchor": "wither_end"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:command_block_sword": 29
+  }
+}

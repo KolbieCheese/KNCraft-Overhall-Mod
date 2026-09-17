@@ -1,0 +1,16 @@
+{
+  "name": "Chameleon Scale Chestplate",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:chameleon_chestplate",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:chameleon_chestplate",
+      "anchor": "lookup_recipe_cold_sweat_chameleon_chestplate",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_chameleon_chestplate)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

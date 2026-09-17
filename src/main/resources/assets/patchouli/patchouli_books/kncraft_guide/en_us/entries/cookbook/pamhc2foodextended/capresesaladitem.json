@@ -1,0 +1,16 @@
+{
+  "name": "Caprese Salad",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:capresesaladitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:capresesaladitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_capresesaladitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

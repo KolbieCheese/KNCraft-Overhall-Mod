@@ -1,0 +1,25 @@
+{
+  "name": "Bald Eagle",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Bald Eagle",
+      "body": "Wooded mountains and nearby fishing spots. Tame with Fish Oil; heal with fish and breed with rotten flesh. A Falconry Glove holds the eagle; punch while aiming at a target to",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/bald_eagle)Start$(/l)",
+      "anchor": "animal_bald_eagle",
+      "creature": "alexsmobs:bald_eagle"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Bald Eagle (cont.)",
+      "body": "launch it. A Falconry Hood enables direct flight control. Sneak to stop controlling it; shears remove the hood.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/bald_eagle)Start$(/l)",
+      "anchor": "animal_bald_eagle_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

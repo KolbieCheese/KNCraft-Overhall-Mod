@@ -1,0 +1,25 @@
+{
+  "name": "Mimicube",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Mimicube",
+      "body": "End cities. Copies an attacker's equipment, so consider what you expose it to. Its Mimicream can copy eligible damageable equipment using eight cream around the item,",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/mimicube)Start$(/l)",
+      "anchor": "animal_mimicube",
+      "creature": "alexsmobs:mimicube"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Mimicube (cont.)",
+      "body": "but the copy needs repair. The recipe has restrictions; inspect the result before committing valuable equipment.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/mimicube)Start$(/l)",
+      "anchor": "animal_mimicube_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

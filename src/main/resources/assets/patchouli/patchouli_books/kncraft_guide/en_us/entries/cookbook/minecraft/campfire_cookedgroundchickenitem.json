@@ -1,0 +1,38 @@
+{
+  "name": "Cooked Ground Chicken",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:cookedgroundchickenitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Ground Chicken",
+      "body": "Campfire. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_minecraft_campfire_cookedgroundchickenitem",
+      "input": "pamhc2foodcore:groundchickenitem",
+      "station": "minecraft:campfire",
+      "output": "pamhc2foodcore:cookedgroundchickenitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:smelting_cookedgroundchickenitem",
+      "anchor": "lookup_recipe_minecraft_smelting_cookedgroundchickenitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Ground Chicken",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_minecraft_smoking_cookedgroundchickenitem",
+      "input": "pamhc2foodcore:groundchickenitem",
+      "station": "minecraft:smoker",
+      "output": "pamhc2foodcore:cookedgroundchickenitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2foodcore:cookedgroundchickenitem": 2
+  }
+}

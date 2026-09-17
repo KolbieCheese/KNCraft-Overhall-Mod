@@ -1,0 +1,16 @@
+{
+  "name": "Chicken Tenders",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:chickentendersitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:chickentendersitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_chickentendersitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

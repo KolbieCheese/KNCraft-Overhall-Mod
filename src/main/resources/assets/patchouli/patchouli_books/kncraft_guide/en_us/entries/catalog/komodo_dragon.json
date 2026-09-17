@@ -1,0 +1,25 @@
+{
+  "name": "Komodo Dragon",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Komodo Dragon",
+      "body": "Sparse jungles. Hostile, poisonous, and dangerous to weakened members of its own species. Taming consumes multiple full stacks of rotten flesh. A tame dragon",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/komodo_dragon)Start$(/l)",
+      "anchor": "animal_komodo_dragon",
+      "creature": "alexsmobs:komodo_dragon"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Komodo Dragon (cont.)",
+      "body": "can be saddled and commanded. Collected spit supports Poison Resistance brewing and slimeball crafting. Separate vulnerable young from adults.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/komodo_dragon)Start$(/l)",
+      "anchor": "animal_komodo_dragon_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

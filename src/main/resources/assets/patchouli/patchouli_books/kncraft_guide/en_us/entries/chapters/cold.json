@@ -1,0 +1,383 @@
+{
+  "name": "3. Cold Sweat",
+  "category": "patchouli:guide",
+  "icon": "minecraft:leather_chestplate",
+  "priority": false,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:kn_chapter",
+      "heading": "Cold Sweat",
+      "body": "$(l:patchouli:chapters/cold#cold_start)Temperature$(/l)$(br)$(l:patchouli:chapters/cold#cold_destinations)Dimensions$(/l)$(br)$(l:patchouli:chapters/cold#waterskins)Waterskins$(/l)$(br)$(l:patchouli:chapters/cold#insulation)Insulation$(/l)$(br)$(l:patchouli:chapters/cold#cold_recipes)Crafting$(/l)",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "cold_contents",
+      "eyebrow": "CHAPTER 03"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Read your temperature",
+      "body": "Cold Sweat tracks your body's response to the environment. Biome, elevation, nearby blocks and other conditions can push it toward dangerous heat or cold. Watch the trend before your health starts dropping. A Thermometer helps",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "cold_start"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Read your temperature +...",
+      "body": "you read the surroundings. Equipment that handles combat well is not automatically suitable for a freezing dimension or a hot Nether trip.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Choose for the journey",
+      "body": "KNCraft's Aether is generally temperate, leaning cool. Modest cold protection and a way to warm up are sensible starting equipment. The Depth Dimension is extremely chilly: bring substantial cold insulation, warm waterskins and a",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "cold_destinations"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Choose for the journey +...",
+      "body": "return plan. The Nether is extremely hot and needs the opposite preparation. Judge the actual temperature at your destination before moving far from the portal.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Immediate response",
+      "body": "If you are overheating, get to a cooler area; water can help. If you are freezing, seek warmth and get out of conditions that keep cooling you. Keep any lava heat source contained and away from your route. Use the time you gain to",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "cold_first"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Immediate response (cont.)",
+      "body": "prepare lasting protection. A brief temperature correction does not make a long expedition safe. Keep food available so recovery does not turn into another emergency.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Waterskins",
+      "body": "Craft and fill waterskins, then warm them in a Boiler or cool them in an Icebox. Fuel the block and let the waterskins change temperature. Carry a prepared waterskin in the hotbar for ongoing relief. Its use controls also let you",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "waterskins"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Waterskins (cont.)",
+      "body": "apply the stored temperature more quickly. Read its tooltip for the current controls. Keep replacement skins ready for a longer trip.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Sewing insulation",
+      "body": "Use a Sewing Table to combine armor with insulation. Read the insulation tooltip before applying it: cold, heat, neutral and adaptive protection serve different trips. Leather provides balanced protection. Goat Fur is useful against cold; Hoglin",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "insulation"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Sewing insulation (cont.)",
+      "body": "Hide is useful against heat. Chameleon material provides adaptive protection. Shears in the table remove applied insulation, allowing you to change a set rather than replace the armor.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Sewing Table example",
+      "body": "The author's example shows the armor and insulation inputs. Use the installed item",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "sewing_example",
+      "picture": "kncraft:textures/guide/sewing.png",
+      "credit": "$(l:https://github.com/Momo-Softworks/Cold-Sweat/wiki/Armor-Insulation)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Sewing Table example",
+      "body": "tooltips to judge protection and remaining capacity; values can change between versions.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Boiler and Icebox",
+      "body": "The Boiler warms waterskins; the Icebox cools them. Add a Smokestack for local room conditioning. Supply appropriate fuel, enable the required redstone control, and watch for the protection effect to build. A roofed shelter and an",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "boiler"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Boiler and Icebox (cont.)",
+      "body": "operating heater or cooler work together. A placed machine with no fuel is not a refuge. Keep fuel accessible instead of burying it at the bottom of your storage.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Conditioning a camp",
+      "body": "A Hearth handles larger spaces and has separate heat and cold fuel supplies. It spreads protection through suitable covered spaces; a roof, range limits and obstructions matter. Check the block's control indicators and the effect on a",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "hearth"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Conditioning a camp (cont.)",
+      "body": "player in the farthest room. Cold Sweat 2.4 changed controls, so copy the tested layout for this pack rather than old wiring diagrams. A Thermolith provides a temperature-based redstone signal for automation.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Preparing for the Nether",
+      "body": "Use heat insulation, cooled waterskins and a fueled Soulspring Lamp for sustained Nether travel. The lamp uses Soul Sprouts and only works in permitted dimensions; do not assume it cools every destination. Cold protection for the",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "lamp"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Preparing for the Nether +...",
+      "body": "Depths does not solve Nether heat. Keep separate labeled supplies, and inspect your body temperature soon after every portal crossing.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Preparing to cross",
+      "body": "Nether portal. Prepare cooling supplies before crossing.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "capture_nether_portal",
+      "picture": "kncraft:textures/guide/capture_nether_portal.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Aether temperature",
+      "body": "Thermometer: 77 in this capture. Readings vary with conditions.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "capture_aether_temperature",
+      "picture": "kncraft:textures/guide/capture_aether_temperature.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Depths temperature",
+      "body": "The thermometer HUD reads 47 here. Carry cold protection and a way back.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "capture_depths_temperature",
+      "picture": "kncraft:textures/guide/capture_depths_temperature.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Hearth switched off",
+      "body": "The Nether room before the Hearth is running. Compare the HUD with the next view.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "capture_hearth_off",
+      "picture": "kncraft:textures/guide/capture_hearth_off.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Hearth running",
+      "body": "The same room with the Hearth running. Its effect depends on the room and supply.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "capture_hearth_on",
+      "picture": "kncraft:textures/guide/capture_hearth_on.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Hearth supplies",
+      "body": "The supplied Hearth interface. Check fuel and controls when preparing a room.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "capture_hearth_fuel",
+      "picture": "kncraft:textures/guide/capture_hearth_fuel.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cold Sweat recipes",
+      "body": "The following crafting layouts come from the installed Cold Sweat 2.4.3 files. Hover an ingredient to see its item; tag ingredients may cycle between accepted choices. Insulation is applied at the Sewing Table, not by combining arbitrary armor and fur in a",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)",
+      "anchor": "cold_recipes"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cold Sweat recipes (cont.)",
+      "body": "crafting grid. Fueling, waterskin filling and potion brewing are separate actions from these crafting recipes.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:boiler",
+      "anchor": "recipe_cold_sweat_boiler",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:chameleon_boots",
+      "anchor": "recipe_cold_sweat_chameleon_boots",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:chameleon_chestplate",
+      "anchor": "recipe_cold_sweat_chameleon_chestplate",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:chameleon_helmet",
+      "anchor": "recipe_cold_sweat_chameleon_helmet",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:chameleon_leggings",
+      "anchor": "recipe_cold_sweat_chameleon_leggings",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:goat_fur_boots",
+      "anchor": "recipe_cold_sweat_goat_fur_boots",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:goat_fur_cap",
+      "anchor": "recipe_cold_sweat_goat_fur_cap",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:goat_fur_pants",
+      "anchor": "recipe_cold_sweat_goat_fur_pants",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:goat_fur_parka",
+      "anchor": "recipe_cold_sweat_goat_fur_parka",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:hearth",
+      "anchor": "recipe_cold_sweat_hearth",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:hoglin_headpiece",
+      "anchor": "recipe_cold_sweat_hoglin_headpiece",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:hoglin_hooves",
+      "anchor": "recipe_cold_sweat_hoglin_hooves",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:hoglin_to_leather",
+      "anchor": "recipe_cold_sweat_hoglin_to_leather",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:hoglin_trousers",
+      "anchor": "recipe_cold_sweat_hoglin_trousers",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:hoglin_tunic",
+      "anchor": "recipe_cold_sweat_hoglin_tunic",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:icebox",
+      "anchor": "recipe_cold_sweat_icebox",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:insul_minecart",
+      "anchor": "recipe_cold_sweat_insul_minecart",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:insul_minecart_raw",
+      "anchor": "recipe_cold_sweat_insul_minecart_raw",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:insul_minecart_raw_goat",
+      "anchor": "recipe_cold_sweat_insul_minecart_raw_goat",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:minecart_insulation",
+      "anchor": "recipe_cold_sweat_minecart_insulation",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:minecart_insulation_goat",
+      "anchor": "recipe_cold_sweat_minecart_insulation_goat",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:sewing_table",
+      "anchor": "recipe_cold_sweat_sewing_table",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:smokestack",
+      "anchor": "recipe_cold_sweat_smokestack",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:soulspring_lamp",
+      "anchor": "recipe_cold_sweat_soulspring_lamp",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:thermolith",
+      "anchor": "recipe_cold_sweat_thermolith",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:thermometer",
+      "anchor": "recipe_cold_sweat_thermometer",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:waterskin",
+      "anchor": "recipe_cold_sweat_waterskin",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold#cold_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Continue reading",
+      "entries": [
+        "patchouli:chapters/weather",
+        "patchouli:chapters/wither"
+      ],
+      "text": "Next chapter first; previous chapter below.",
+      "anchor": "cold_end"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare for travel",
+      "body": "$(l:patchouli:chapters/architecture#cotton)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
+      "navigation": "$(l:patchouli:guide)Book$(/l)",
+      "anchor": "architecture"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

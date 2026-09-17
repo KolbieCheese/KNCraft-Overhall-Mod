@@ -1,0 +1,16 @@
+{
+  "name": "Tatertots",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:tatertotsitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:tatertotsitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_tatertotsitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

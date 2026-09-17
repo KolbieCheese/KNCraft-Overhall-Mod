@@ -1,0 +1,47 @@
+{
+  "name": "4. Owner availability and support",
+  "category": "patchouli:rules",
+  "icon": "minecraft:writable_book",
+  "priority": false,
+  "sortnum": 1220,
+  "pages": [
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Owner availability and supp...",
+      "body": "KNCraft is run by two owners in their spare time. We both have jobs, responsibilities, other hobbies, and lives outside the server. We review reports, bugs, appeals, and other issues when we have time available. A response or",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/availability)Start$(/l)",
+      "anchor": "rule_availability"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Owner availability and supp...",
+      "body": "resolution may take days or weeks, and sometimes longer, depending on our availability and the issue. There is no guaranteed response time, investigation, fix, rollback, or outcome. An owner being online, chatting, or playing does not mean they",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/availability)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Owner availability and supp...",
+      "body": "are available for support. Submit one clear report through the designated route and add genuinely new information to that report. Repeated messages, owner pings, duplicate reports, or public pressure do not move an issue ahead.",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/availability)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Owner availability and supp...",
+      "body": "Supporter purchases do not buy priority moderation or guaranteed turnaround. Active threats, security incidents, and problems affecting server operation may be prioritized when noticed, but the server is not",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/availability)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Owner availability and supp...",
+      "body": "continuously monitored. Use platform blocking and reporting tools for immediate personal control. For an immediate real-world danger, contact appropriate emergency services rather than waiting for a server",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/availability)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Owner availability and supp...",
+      "body": "response. A delayed response is not approval of prohibited behavior. Thank you for respecting our time and helping keep the server sustainable.",
+      "navigation": "$(l:patchouli:rules)Rules$(/l) $(l:patchouli:rules/availability)Start$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

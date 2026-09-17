@@ -1,0 +1,16 @@
+{
+  "name": "Huckleberry Jelly Toast",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:huckleberryjellytoastitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:huckleberryjellytoastitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_huckleberryjellytoastitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

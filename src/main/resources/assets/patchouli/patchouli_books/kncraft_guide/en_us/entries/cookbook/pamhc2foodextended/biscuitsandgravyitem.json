@@ -1,0 +1,16 @@
+{
+  "name": "Biscuits and Gravy",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:biscuitsandgravyitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:biscuitsandgravyitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_biscuitsandgravyitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -33,7 +33,7 @@ public final class LegacyConfigImport {
                 }
             }
             if (values.isEmpty()) { state = "no legacy settings to import; parity defaults"; return; }
-            Path temporary = directory.resolve("kncraft-common.toml.importing");
+            Path temporary = directory.resolve("kncraft-common.importing.toml");
             try (var output = CommentedFileConfig.of(temporary)) {
                 values.forEach((key, value) -> output.set((key.equals("immersiveTentEntrances") ? "parity." : "performance.") + key, value));
                 output.save();

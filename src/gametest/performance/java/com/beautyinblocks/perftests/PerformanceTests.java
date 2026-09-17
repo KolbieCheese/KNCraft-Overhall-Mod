@@ -22,7 +22,7 @@ import java.util.*;
 import java.lang.reflect.*;
 @Mod("kncraftperformancetests")
 public class PerformanceTests {
-    public PerformanceTests(){MinecraftForge.EVENT_BUS.register(this);}
+    public PerformanceTests(){if (!Boolean.getBoolean("kncraft.isolatedTests") || !java.nio.file.Files.isRegularFile(net.minecraftforge.fml.loading.FMLPaths.GAMEDIR.get().resolve("KNCraft-ISOLATED-TEST-WORLD"))) throw new IllegalStateException("Test harness requires an explicitly marked isolated server and -Dkncraft.isolatedTests=true"); MinecraftForge.EVENT_BUS.register(this);}
     static void check(boolean ok,String message){if(!ok)throw new IllegalStateException(message);}
     @SubscribeEvent public void commands(RegisterCommandsEvent event){
         event.getDispatcher().register(Commands.literal("kncraftperfprepare").requires(s->s.hasPermission(4)).executes(c->{

@@ -1,0 +1,16 @@
+{
+  "name": "Cornmeal",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:cornmealitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:cornmealitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_cornmealitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

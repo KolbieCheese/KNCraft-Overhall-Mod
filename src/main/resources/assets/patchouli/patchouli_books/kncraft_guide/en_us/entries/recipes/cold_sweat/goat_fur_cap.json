@@ -1,0 +1,16 @@
+{
+  "name": "Goat Fur Cap",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:goat_fur_helmet",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:goat_fur_cap",
+      "anchor": "lookup_recipe_cold_sweat_goat_fur_cap",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_goat_fur_cap)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

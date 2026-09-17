@@ -1,0 +1,16 @@
+{
+  "name": "Green Grape Jelly Toast",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:greengrapejellytoastitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:greengrapejellytoastitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_greengrapejellytoastitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

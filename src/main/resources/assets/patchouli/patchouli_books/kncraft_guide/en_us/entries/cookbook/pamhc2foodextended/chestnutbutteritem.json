@@ -1,0 +1,16 @@
+{
+  "name": "Chesnut Butter",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:chestnutbutteritem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:chestnutbutteritem",
+      "anchor": "lookup_recipe_pamhc2foodextended_chestnutbutteritem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Potato Skins",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:potatoskinsitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:potatoskinsitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_potatoskinsitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

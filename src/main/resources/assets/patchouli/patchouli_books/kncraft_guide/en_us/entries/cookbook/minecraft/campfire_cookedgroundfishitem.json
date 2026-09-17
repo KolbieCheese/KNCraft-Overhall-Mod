@@ -1,0 +1,38 @@
+{
+  "name": "Cooked Ground Fish",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:cookedgroundfishitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Ground Fish",
+      "body": "Campfire. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_minecraft_campfire_cookedgroundfishitem",
+      "input": "pamhc2foodcore:groundfishitem",
+      "station": "minecraft:campfire",
+      "output": "pamhc2foodcore:cookedgroundfishitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:smelting_cookedgroundfishitem",
+      "anchor": "lookup_recipe_minecraft_smelting_cookedgroundfishitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Ground Fish",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_minecraft_smoking_cookedgroundfishitem",
+      "input": "pamhc2foodcore:groundfishitem",
+      "station": "minecraft:smoker",
+      "output": "pamhc2foodcore:cookedgroundfishitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2foodcore:cookedgroundfishitem": 2
+  }
+}

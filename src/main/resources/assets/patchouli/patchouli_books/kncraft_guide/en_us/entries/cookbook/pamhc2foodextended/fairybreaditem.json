@@ -1,0 +1,16 @@
+{
+  "name": "Fairy Bread",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:fairybreaditem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:fairybreaditem",
+      "anchor": "lookup_recipe_pamhc2foodextended_fairybreaditem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

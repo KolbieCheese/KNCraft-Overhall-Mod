@@ -1,0 +1,16 @@
+{
+  "name": "Pomegranate Smoothie",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:pomegranatesmoothieitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:pomegranatesmoothieitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_pomegranatesmoothieitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

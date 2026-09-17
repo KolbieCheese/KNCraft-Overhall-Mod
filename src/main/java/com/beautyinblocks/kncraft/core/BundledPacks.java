@@ -14,6 +14,7 @@ public final class BundledPacks {
         add(event, "aether_portals", Compatibility.exact("immersive_portals") && Compatibility.present("aether"));
         add(event, "depth_portals", Compatibility.exact("immersive_portals") && Compatibility.exact("callfromthedepth_"));
         add(event, "waystones", ArchitectureConfig.WAYSTONES.get() && Compatibility.present("waystones"));
+        add(event, "fiber_recipes", ArchitectureConfig.FIBERS.get());
     }
     private static void add(AddPackFindersEvent event, String name, boolean enabled) {
         if (!enabled) return;

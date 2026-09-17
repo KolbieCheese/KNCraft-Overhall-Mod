@@ -1,0 +1,25 @@
+{
+  "name": "Cave Centipede",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Cave Centipede",
+      "body": "Deep caves. Hostile, poisonous and dangerous at close range. Dropped legs make wall-climbing leggings. A leg also combines through brewing with Poisonous",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/cave_centipede)Start$(/l)",
+      "anchor": "animal_cave_centipede",
+      "creature": "alexsmobs:centipede_head"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cave Centipede (cont.)",
+      "body": "Essence or bottled Komodo Dragon Spit to make Poison Resistance. Bring a way to treat poison before hunting one.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/cave_centipede)Start$(/l)",
+      "anchor": "animal_cave_centipede_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

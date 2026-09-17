@@ -1,0 +1,38 @@
+{
+  "name": "Cooked Toficken",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:cookedtofickenitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Toficken",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofickenitem_campfire",
+      "input": "pamhc2foodextended:rawtofickenitem",
+      "station": "minecraft:campfire",
+      "output": "pamhc2foodextended:cookedtofickenitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2foodextended:cookedtofickenitem_forge",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofickenitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Cooked Toficken",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2foodextended_cookedtofickenitem_smoker",
+      "input": "pamhc2foodextended:rawtofickenitem",
+      "station": "minecraft:smoker",
+      "output": "pamhc2foodextended:cookedtofickenitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2foodextended:cookedtofickenitem": 2
+  }
+}

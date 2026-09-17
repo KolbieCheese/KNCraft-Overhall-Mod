@@ -1,0 +1,260 @@
+{
+  "name": "8. Shelter, storage and travel",
+  "category": "patchouli:guide",
+  "icon": "minecraft:chest",
+  "priority": false,
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:kn_chapter",
+      "heading": "Shelter, storage and travel",
+      "body": "$(l:patchouli:chapters/travel#tents)Tents$(/l)$(br)$(l:patchouli:chapters/travel#backpacks)Backpacks$(/l)$(br)$(l:patchouli:chapters/travel#iron_chests)Chests & Carry On$(/l)$(br)$(l:patchouli:chapters/travel#trains)Trains$(/l)$(br)$(l:patchouli:chapters/travel#waystones)Waystones$(/l)$(br)$(l:patchouli:chapters/travel#evacuation)Evacuation$(/l)",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "travel_contents",
+      "eyebrow": "CHAPTER 08"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Pack for a move",
+      "body": "Keep emergency supplies on your person: food, tools, light, fall protection, temperature supplies and the items needed to restart a camp. Put bulk stores and workstations in portable storage. A tent holds a camp; a backpack keeps",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "travel_start"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Pack for a move (cont.)",
+      "body": "supplies within reach; a railway moves bulk along a prepared route; a natural Waystone can shorten an established journey. Each solves a different part of moving.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Setting up a tent",
+      "body": "Craft a tent style and a Tent Mallet. Place the tent on clear ground, then use the mallet on the frame pieces until construction is complete. Use the finished door to enter. The interior persists when the tent is packed. A Golden",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "tents"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Setting up a tent (cont.)",
+      "body": "Tent Mallet speeds construction. Start setting up while you have time; it is not an instant substitute for getting out of a tractor beam.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Packing and upgrades",
+      "body": "Use the Tent Mallet on the door to pack a completed tent. Set it up elsewhere to reach the same interior. Record its Tent ID and keep the item safe. Larger tents use successive size upgrades; later tiers need crossbeams. Tent",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "tent_move"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Packing and upgrades +...",
+      "body": "Shovels add floor layers in order, with higher minimum tent sizes. Read the tooltip for the installed recipe and layer limit before upgrading.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A shared camp",
+      "body": "Gather everyone outside before packing and moving. A player leaving a packed tent can emerge at the old entry location, so do not assume they follow whoever carries the item. Keep the tent carrier and the emergency-supply",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "tent_team"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A shared camp (cont.)",
+      "body": "carrier separate when traveling as a group. Test portal, sleeping and temperature behavior in a safe area. The tent's usefulness does not establish immunity to every server threat.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "One camp, two locations",
+      "body": "SCREENSHOT NEEDED. Capture a furnished tent interior, the packed item with Tent ID visible, and the same interior after setting up elsewhere. Include a simple arrangement of storage, cooking, temperature supplies and a clear door. This",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "shot_tent"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "One camp, two locations",
+      "body": "demonstrates what persists during a move.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Backpack basics",
+      "body": "Open a backpack with its assigned key or use it while held. Sneak-use it on a block to place it, then use it as storage. Pick it back up with the supported empty-hand interaction. Upgrade the existing backpack through its material tiers. Keep a clear",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "backpacks"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Backpack basics (cont.)",
+      "body": "route through its inventory: emergency items first, then supplies, then collected loot. Color coding makes multiple bags easier to distinguish.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Choose useful upgrades",
+      "body": "Pickup and Magnet upgrades collect items; configure filters before using them near other people's drops. A Feeding upgrade can keep ordinary food available automatically. Reserve special meals and cures with filters. A Crafting upgrade",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "backpack_upgrades"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Choose useful upgrades +...",
+      "body": "gives a portable workspace. Stack upgrades increase suitable storage capacity. Refill and deposit/restock tools reduce repeated sorting at camp. Open each upgrade's settings instead of assuming its defaults fit your loadout.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Avoid costly settings",
+      "body": "Void upgrades delete matching items. Test a filter with cheap material before carrying valuable loot. Inception allows controlled backpack nesting, not unlimited bags inside bags. Tank and processing upgrades can support a traveling camp, but",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "backpack_care"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Avoid costly settings (cont.)",
+      "body": "they need the correct fluids or fuel. Keep a basic hand-carried fallback so one full, misplaced or inaccessible backpack does not stop the entire group.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Iron Chests",
+      "body": "Iron Chests increases fixed storage capacity through material tiers. Use the appropriate upgrade on an existing chest to improve it without manually moving every stack. Check JEI for the tier path you intend to follow. A larger chest is still",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "iron_chests"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Iron Chests (cont.)",
+      "body": "placed storage. Breaking it is not the same as picking up a backpack. Empty it or use a supported Carry On interaction when moving supplies; confirm contents after placement.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Moving a full block",
+      "body": "With empty hands, hold the Carry On key and use a supported block or small creature to lift it. Use again to place it. Shift is the usual binding, but check your Controls. You move more slowly while carrying, and other actions are limited. Use this for",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "carryon"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Moving a full block (cont.)",
+      "body": "moving a chest across camp or into a tent, then put it down. It is a poor last-second escape method. Server restrictions decide which blocks and creatures can be lifted.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Build a train",
+      "body": "Place a locomotive and carts on rails. Set the Crowbar to connection mode by using it on a normal block, then click the carts in sequence without sneaking. The locomotive must be the head. The connecting chain's red marks indicate the tailward",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "trains"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Build a train (cont.)",
+      "body": "side. Crowbar disconnect and revert modes let you separate or reverse the connection order. Test with an empty train before loading supplies.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Run the locomotive",
+      "body": "Steam engines need water and burnable fuel, then time to generate steam. Electric engines refill from powered rails; provide charging track before trying to depart. Diesel engines use compatible fuel such as Bio Diesel. Use the engine",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "engines"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Run the locomotive (cont.)",
+      "body": "interface or assigned controls to change speed, reverse, stop, sound the whistle and operate the lamp. Steam idle holds the train while the engine continues working; stopping and shutting down are different tasks.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Steam controls",
+      "body": "The author's interface example shows separate water, steam and fuel",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "train_gui",
+      "picture": "kncraft:textures/guide/steam-gui.png",
+      "credit": "$(l:https://github.com/Xannosz/BetterMinecarts/wiki/How-to-control-the-engines)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Steam controls",
+      "body": "information. Check those supplies before loading passengers. Match your control bindings to the installed version.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Leave room to turn",
+      "body": "The author's examples show extra track around return turns. Test the entire train",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "train_turns",
+      "picture": "kncraft:textures/guide/rail-turns.png",
+      "credit": "$(l:https://github.com/Xannosz/BetterMinecarts/wiki/How-to-build-a-railway-system)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Leave room to turn",
+      "body": "through each bend; a route that passes one cart may still mishandle a linked train.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Railways under pressure",
+      "body": "A prepared line can move people and supplies efficiently, but its track is fixed and can be damaged. Keep an alternate route at each stopping point. Inspect the next segment before accelerating with a loaded train. Signal Rails and",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "rail_escape"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Railways under pressure +...",
+      "body": "detector rails support junction control. Build and test switches while the area is calm. A railway is infrastructure to maintain, not a way to improvise a route through an advancing storm.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Natural Waystones only",
+      "body": "Activate a naturally generated Waystone when you find it. Its travel menu connects the destinations available to you; check the displayed cost and conditions before departure. KNCraft disables all 34 Waystones crafting recipes. Survival",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "waystones"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Natural Waystones only +...",
+      "body": "players also have restricted editing and removal. Do not plan to craft a new stone, carry one to a camp or make craftable scrolls as your fallback.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A repeatable move",
+      "body": "Before leaving, top up food and temperature supplies, choose the destination and check the map. Retrieve loose containers, gather animals and bring everyone out of the tent. Pack it last. Use the route you have prepared: a natural Waystone, a",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "evacuation"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A repeatable move (cont.)",
+      "body": "clear railway or overland travel. At the destination, secure the area, place the tent, restore supplies and check that everyone arrived. Keep an exit available before unpacking nonessential materials.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Continue reading",
+      "entries": [
+        "patchouli:chapters/food",
+        "patchouli:chapters/animals"
+      ],
+      "text": "Next chapter first; previous chapter below.",
+      "anchor": "travel_end"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare for travel",
+      "body": "$(l:patchouli:chapters/architecture#canvas)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
+      "navigation": "$(l:patchouli:guide)Book$(/l)",
+      "anchor": "architecture"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

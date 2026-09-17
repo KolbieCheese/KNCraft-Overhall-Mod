@@ -1,0 +1,25 @@
+{
+  "name": "Leafcutter Ant",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Leafcutter Ant",
+      "body": "Jungles. Workers gather leaves for underground fungus chambers; a queen is needed to replenish the colony. Harvest Gongylidia near a Shroomlight to avoid",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/leafcutter_ant)Start$(/l)",
+      "anchor": "animal_leafcutter_ant",
+      "creature": "alexsmobs:leafcutter_ant"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Leafcutter Ant (cont.)",
+      "body": "angering the ants. Sunlight ruins exposed chambers. Feeding fungus heals and pacifies ants; pupae sometimes dropped from chambers establish new colonies on dirt or grass.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/leafcutter_ant)Start$(/l)",
+      "anchor": "animal_leafcutter_ant_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

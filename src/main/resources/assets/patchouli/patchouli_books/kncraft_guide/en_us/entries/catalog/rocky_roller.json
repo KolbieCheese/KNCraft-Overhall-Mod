@@ -1,0 +1,25 @@
+{
+  "name": "Rocky Roller",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Rocky Roller",
+      "body": "Dripstone caves. Hostile, heavily armored, and capable of a fast rolling charge. Its shell makes a chestplate that rolls while sprinting and reduces",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/rocky_roller)Start$(/l)",
+      "anchor": "animal_rocky_roller",
+      "creature": "alexsmobs:rocky_roller"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Rocky Roller (cont.)",
+      "body": "fall damage. The same armor makes you sink in water; plan river crossings before wearing it on a long journey.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/rocky_roller)Start$(/l)",
+      "anchor": "animal_rocky_roller_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Glow Berry Smoothie",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:glowberrysmoothieitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:glowberrysmoothieitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_glowberrysmoothieitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

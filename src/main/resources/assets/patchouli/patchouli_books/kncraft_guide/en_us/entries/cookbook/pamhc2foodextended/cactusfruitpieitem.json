@@ -1,0 +1,16 @@
+{
+  "name": "Cactus Fruit Pie",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:cactusfruitpieitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:cactusfruitpieitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_cactusfruitpieitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

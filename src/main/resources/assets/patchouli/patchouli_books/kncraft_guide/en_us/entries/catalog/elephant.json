@@ -1,0 +1,25 @@
+{
+  "name": "Elephant",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Elephant",
+      "body": "Savannas. Tame calves or non-tusked adults with Acacia Blossoms; wild tusked adults cannot be tamed. Ride a tame elephant and add a chest for storage;",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/elephant)Start$(/l)",
+      "anchor": "animal_elephant",
+      "creature": "alexsmobs:elephant"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Elephant (cont.)",
+      "body": "sneak to open it. Carpets decorate it and shears remove fittings. Tamed tusked elephants can charge when fed wheat while ridden. Breed tame elephants with blossoms.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/elephant)Start$(/l)",
+      "anchor": "animal_elephant_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

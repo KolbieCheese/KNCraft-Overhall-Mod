@@ -1,0 +1,25 @@
+{
+  "name": "Enderiophage",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Enderiophage",
+      "body": "End Midlands. Its Ender Flu causes a dangerous delayed outbreak; remove it with Chorus Fruit or milk. Dropped Capsids transfer items upward and participate in",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/enderiophage)Start$(/l)",
+      "anchor": "animal_enderiophage",
+      "creature": "alexsmobs:enderiophage"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Enderiophage (cont.)",
+      "body": "unusual transformations. A Capsid, vertical End Rod and Eye of Ender can create another phage. Keep experiments separate from livestock and living areas.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/enderiophage)Start$(/l)",
+      "anchor": "animal_enderiophage_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

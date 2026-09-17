@@ -1,0 +1,16 @@
+{
+  "name": "Chai Tea",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:chaiteaitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:chaiteaitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_chaiteaitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

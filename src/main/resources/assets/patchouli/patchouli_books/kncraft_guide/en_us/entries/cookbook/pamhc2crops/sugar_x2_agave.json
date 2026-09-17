@@ -1,0 +1,28 @@
+{
+  "name": "Sugar",
+  "category": "patchouli:cookbook",
+  "icon": "minecraft:sugar",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:sugar_x2_agave",
+      "anchor": "lookup_recipe_pamhc2crops_sugar_x2_agave",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:sugar_x2_beet",
+      "anchor": "lookup_recipe_pamhc2foodcore_sugar_x2_beet",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:sugar_x8_honey",
+      "anchor": "lookup_recipe_pamhc2foodcore_sugar_x8_honey",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

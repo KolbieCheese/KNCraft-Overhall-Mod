@@ -1,0 +1,38 @@
+{
+  "name": "Baked Cassava",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:bakedcassavaitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Cassava",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedcassavaitem_campfire",
+      "input": "tag:forge:crops/cassava",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:bakedcassavaitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:bakedcassavaitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_bakedcassavaitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Cassava",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedcassavaitem_smoker",
+      "input": "tag:forge:crops/cassava",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:bakedcassavaitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:bakedcassavaitem": 2
+  }
+}

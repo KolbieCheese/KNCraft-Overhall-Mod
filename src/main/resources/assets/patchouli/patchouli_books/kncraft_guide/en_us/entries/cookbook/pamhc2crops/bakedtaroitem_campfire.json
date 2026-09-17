@@ -1,0 +1,38 @@
+{
+  "name": "Baked Taro",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:bakedtaroitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Taro",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedtaroitem_campfire",
+      "input": "tag:forge:crops/taro",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:bakedtaroitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:bakedtaroitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_bakedtaroitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Baked Taro",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_bakedtaroitem_smoker",
+      "input": "tag:forge:crops/taro",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:bakedtaroitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:bakedtaroitem": 2
+  }
+}

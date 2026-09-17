@@ -1,0 +1,16 @@
+{
+  "name": "Cactus Fruit Yogurt",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:cactusfruityogurtitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:cactusfruityogurtitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_cactusfruityogurtitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

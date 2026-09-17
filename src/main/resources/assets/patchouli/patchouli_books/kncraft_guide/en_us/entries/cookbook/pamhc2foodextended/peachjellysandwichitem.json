@@ -1,0 +1,16 @@
+{
+  "name": "Peach Jelly Sandwich",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:peachjellysandwichitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:peachjellysandwichitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_peachjellysandwichitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

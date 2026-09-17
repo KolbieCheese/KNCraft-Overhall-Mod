@@ -1,0 +1,16 @@
+{
+  "name": "Chorus Yogurt",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:chorusyogurtitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:chorusyogurtitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_chorusyogurtitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

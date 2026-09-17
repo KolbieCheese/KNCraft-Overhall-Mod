@@ -1,0 +1,16 @@
+{
+  "name": "Boiler",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:boiler",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:boiler",
+      "anchor": "lookup_recipe_cold_sweat_boiler",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_boiler)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

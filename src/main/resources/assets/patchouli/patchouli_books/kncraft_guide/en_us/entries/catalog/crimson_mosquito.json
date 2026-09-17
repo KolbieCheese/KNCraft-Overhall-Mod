@@ -1,0 +1,25 @@
+{
+  "name": "Crimson Mosquito",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Crimson Mosquito",
+      "body": "Crimson Forests. It latches onto prey, feeds, then attacks with the blood it collected. An inflated mosquito can drop a Blood Sac. Sacs and its proboscis support",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/crimson_mosquito)Start$(/l)",
+      "anchor": "animal_crimson_mosquito",
+      "creature": "alexsmobs:crimson_mosquito"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Crimson Mosquito (cont.)",
+      "body": "the Blood Sprayer weapon. An Overworld fly brought into the Nether can transform into this creature.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/crimson_mosquito)Start$(/l)",
+      "anchor": "animal_crimson_mosquito_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

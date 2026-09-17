@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Onion",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:roastedonionitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Onion",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedonionitem_campfire",
+      "input": "tag:forge:crops/onion",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:roastedonionitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:roastedonionitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_roastedonionitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Onion",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedonionitem_smoker",
+      "input": "tag:forge:crops/onion",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:roastedonionitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:roastedonionitem": 2
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Sunbird",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Sunbird",
+      "body": "High above mountains. Reaching it grants a flight-related blessing. Attacking it instead brings a dangerous falling curse. It also burns nearby undead.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/sunbird)Start$(/l)",
+      "anchor": "animal_sunbird",
+      "creature": "alexsmobs:sunbird"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Sunbird (cont.)",
+      "body": "Approach carefully and keep weapons away while flying near one.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/sunbird)Start$(/l)",
+      "anchor": "animal_sunbird_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Gelada Monkey",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Gelada Monkey",
+      "body": "High meadows. Neutral but territorial, with stronger maned leaders. Wheat encourages a group to clear nearby grass; dead bushes breed them. Keep the",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/gelada_monkey)Start$(/l)",
+      "anchor": "animal_gelada_monkey",
+      "creature": "alexsmobs:gelada_monkey"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Gelada Monkey (cont.)",
+      "body": "clearing task away from grass you intend to retain.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/gelada_monkey)Start$(/l)",
+      "anchor": "animal_gelada_monkey_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

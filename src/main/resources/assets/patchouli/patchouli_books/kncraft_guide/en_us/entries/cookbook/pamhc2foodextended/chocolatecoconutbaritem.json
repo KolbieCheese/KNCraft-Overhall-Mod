@@ -1,0 +1,16 @@
+{
+  "name": "Chocolate Coconut Bar",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:chocolatecoconutbaritem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:chocolatecoconutbaritem",
+      "anchor": "lookup_recipe_pamhc2foodextended_chocolatecoconutbaritem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

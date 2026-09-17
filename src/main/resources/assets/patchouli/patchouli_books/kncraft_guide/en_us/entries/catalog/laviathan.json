@@ -1,0 +1,25 @@
+{
+  "name": "Laviathan",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Laviathan",
+      "body": "Nether lava lakes. Passive, but an injured one may dive. Equip both a Straddlite Saddle and Tack for controlled travel with up to four passengers. Water",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/laviathan)Start$(/l)",
+      "anchor": "animal_laviathan",
+      "creature": "alexsmobs:laviathan"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Laviathan (cont.)",
+      "body": "turns it into an obsidian form. Breed with Crimson Mosquito Larva and heal with Magma Cream. Carry your own heat protection.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/laviathan)Start$(/l)",
+      "anchor": "animal_laviathan_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

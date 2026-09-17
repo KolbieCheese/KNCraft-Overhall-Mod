@@ -1,0 +1,16 @@
+{
+  "name": "Poached Pear",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:poachedpearitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:poachedpearitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_poachedpearitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

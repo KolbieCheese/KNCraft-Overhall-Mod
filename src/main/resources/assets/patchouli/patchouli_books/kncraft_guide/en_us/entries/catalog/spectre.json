@@ -1,0 +1,25 @@
+{
+  "name": "Spectre",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Spectre",
+      "body": "Void between End islands. Passive and drawn to Soul Hearts. Attach a lead to be pulled along, then sneak or interact with the lead again to detach. Choose a safe",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/spectre)Start$(/l)",
+      "anchor": "animal_spectre",
+      "creature": "alexsmobs:spectre"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Spectre (cont.)",
+      "body": "landing before releasing it; this is transport, not a permanent platform.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/spectre)Start$(/l)",
+      "anchor": "animal_spectre_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

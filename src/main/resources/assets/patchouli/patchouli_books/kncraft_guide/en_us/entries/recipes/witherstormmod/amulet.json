@@ -1,0 +1,16 @@
+{
+  "name": "Amulet",
+  "category": "patchouli:recipes",
+  "icon": "witherstormmod:amulet",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:amulet",
+      "anchor": "lookup_recipe_witherstormmod_amulet",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/wither#recipe_witherstormmod_amulet)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

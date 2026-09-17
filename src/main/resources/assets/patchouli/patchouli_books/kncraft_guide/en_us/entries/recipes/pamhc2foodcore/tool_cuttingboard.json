@@ -1,0 +1,16 @@
+{
+  "name": "Cutting Board",
+  "category": "patchouli:recipes",
+  "icon": "pamhc2foodcore:cuttingboarditem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_cuttingboard",
+      "anchor": "lookup_recipe_pamhc2foodcore_tool_cuttingboard",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/food#recipe_pamhc2foodcore_tool_cuttingboard)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

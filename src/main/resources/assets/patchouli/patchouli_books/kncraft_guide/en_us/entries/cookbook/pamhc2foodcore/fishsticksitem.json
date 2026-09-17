@@ -1,0 +1,16 @@
+{
+  "name": "Fish Sticks",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:fishsticksitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:fishsticksitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_fishsticksitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

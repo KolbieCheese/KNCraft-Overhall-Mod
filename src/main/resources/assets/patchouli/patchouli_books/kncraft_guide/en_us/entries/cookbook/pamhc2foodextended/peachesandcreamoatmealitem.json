@@ -1,0 +1,16 @@
+{
+  "name": "Peaches and Cream Oatmeal",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:peachesandcreamoatmealitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:peachesandcreamoatmealitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_peachesandcreamoatmealitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Maned Wolf",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Maned Wolf",
+      "body": "Savannas. Passive and not tameable. Apples trigger a scent that attracts animals and improves fungus production at nearby Leafcutter anthills. Breed with rabbit or",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/maned_wolf)Start$(/l)",
+      "anchor": "animal_maned_wolf",
+      "creature": "alexsmobs:maned_wolf"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Maned Wolf (cont.)",
+      "body": "chicken meat. Use its attraction behavior to gather animals before moving them into pens.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/maned_wolf)Start$(/l)",
+      "anchor": "animal_maned_wolf_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

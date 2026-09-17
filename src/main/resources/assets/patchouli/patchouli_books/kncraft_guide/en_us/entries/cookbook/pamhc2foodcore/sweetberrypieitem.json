@@ -1,0 +1,16 @@
+{
+  "name": "Sweet Berry Pie",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:sweetberrypieitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:sweetberrypieitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_sweetberrypieitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Grapefruit Yogurt",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:grapefruityogurtitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:grapefruityogurtitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_grapefruityogurtitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

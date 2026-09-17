@@ -1,0 +1,25 @@
+{
+  "name": "Underminer",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Underminer",
+      "body": "Abandoned mineshafts after spending time there. Usually non-hostile; dropping an ore block encourages it to reveal matching nearby ore. Its",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/underminer)Start$(/l)",
+      "anchor": "animal_underminer",
+      "creature": "alexsmobs:underminer"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Underminer (cont.)",
+      "body": "Ghostly Pickaxe can store overflow mining drops when your inventory is full, then return them when space opens. Phantom Membranes repair the tool.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/underminer)Start$(/l)",
+      "anchor": "animal_underminer_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

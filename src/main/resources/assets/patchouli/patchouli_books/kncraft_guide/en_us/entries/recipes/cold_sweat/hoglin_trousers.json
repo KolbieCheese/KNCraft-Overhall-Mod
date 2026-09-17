@@ -1,0 +1,16 @@
+{
+  "name": "Hoglin Trousers",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:hoglin_leggings",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:hoglin_trousers",
+      "anchor": "lookup_recipe_cold_sweat_hoglin_trousers",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_hoglin_trousers)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

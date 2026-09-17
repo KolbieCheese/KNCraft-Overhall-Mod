@@ -1,0 +1,25 @@
+{
+  "name": "Crow",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Crow",
+      "body": "Forests and plains. Wild crows damage crops; a carved pumpkin protects a small field. Toss Pumpkin Seeds to tame one. A tamed crow can gather items around a",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/crow)Start$(/l)",
+      "anchor": "animal_crow",
+      "creature": "alexsmobs:crow"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Crow (cont.)",
+      "body": "hay-block home and deposit them into containers marked with a matching item frame. Hay heals resting crows. Sneak to remove shoulder riders.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/crow)Start$(/l)",
+      "anchor": "animal_crow_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

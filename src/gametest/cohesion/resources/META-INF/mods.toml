@@ -1,0 +1,7 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="kncraftcohesiontests"
+version="1.0.0"
+displayName="KNCraft Cohesion Tests - ISOLATED SERVER ONLY"

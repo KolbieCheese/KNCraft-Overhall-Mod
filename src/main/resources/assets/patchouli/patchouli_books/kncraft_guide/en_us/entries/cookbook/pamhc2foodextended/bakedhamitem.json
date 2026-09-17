@@ -1,0 +1,16 @@
+{
+  "name": "Baked Ham",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:bakedhamitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:bakedhamitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_bakedhamitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

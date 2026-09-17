@@ -1,0 +1,16 @@
+{
+  "name": "Toast",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:toastitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:toastitem_x2",
+      "anchor": "lookup_recipe_pamhc2foodcore_toastitem_x2",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

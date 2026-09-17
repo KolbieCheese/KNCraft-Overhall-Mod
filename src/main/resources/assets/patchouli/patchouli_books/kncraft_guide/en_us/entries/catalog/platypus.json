@@ -1,0 +1,25 @@
+{
+  "name": "Platypus",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Platypus",
+      "body": "Rivers. Neutral with poisonous defensive spurs. Redstone prompts digging in nearby clay; a redstone block increases the haul of clay and maggots.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/platypus)Start$(/l)",
+      "anchor": "animal_platypus",
+      "creature": "alexsmobs:platypus"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Platypus (cont.)",
+      "body": "Bucket for transport and breed with Lobster Tails. Give it suitable clay to work in.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/platypus)Start$(/l)",
+      "anchor": "animal_platypus_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

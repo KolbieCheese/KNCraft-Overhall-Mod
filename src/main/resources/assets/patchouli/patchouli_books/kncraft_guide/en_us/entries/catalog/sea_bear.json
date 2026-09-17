@@ -1,0 +1,25 @@
+{
+  "name": "Sea Bear",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Sea Bear",
+      "body": "A special encounter with unusual triggers described in the Animal Dictionary. Its documented defense is an Anti-Sea Bear Circle drawn on sand with a stick. Do not",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/sea_bear)Start$(/l)",
+      "anchor": "animal_sea_bear",
+      "creature": "alexsmobs:sea_bear"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Sea Bear (cont.)",
+      "body": "treat ordinary circles, boats or a tent doorway as tested substitutes. Keep this encounter separate from normal ocean wildlife handling.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/sea_bear)Start$(/l)",
+      "anchor": "animal_sea_bear_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

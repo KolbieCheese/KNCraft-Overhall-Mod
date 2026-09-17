@@ -1,0 +1,16 @@
+{
+  "name": "Cantaloupe Yogurt",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:cantaloupeyogurtitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:cantaloupeyogurtitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_cantaloupeyogurtitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

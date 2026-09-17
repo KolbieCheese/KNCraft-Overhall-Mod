@@ -1,0 +1,16 @@
+{
+  "name": "Crackers and Cheese",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:crackersandcheeseitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:crackersandcheeseitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_crackersandcheeseitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

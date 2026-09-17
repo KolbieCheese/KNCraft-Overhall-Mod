@@ -1,0 +1,74 @@
+{
+  "name": "7. Alex's Mobs",
+  "category": "patchouli:guide",
+  "icon": "minecraft:lead",
+  "priority": false,
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:kn_chapter",
+      "heading": "Alex's Mobs",
+      "body": "$(l:patchouli:chapters/animals#animals_start)The mod$(/l)$(br)$(l:patchouli:chapters/animals#animals_practice)Keeping animals$(/l)$(br)$(l:patchouli:chapters/animals#animals_care)Trust & taming$(/l)$(br)$(l:patchouli:chapters/catalog#animals_index)Species catalog$(/l)",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals#animals_contents)Start$(/l)",
+      "anchor": "animals_contents",
+      "eyebrow": "CHAPTER 07"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Using the field notes",
+      "body": "Alex's Mobs adds wildlife across the Overworld, Nether and End. Some creatures are threats; others offer transport, materials or useful interactions. Habitats follow the mod's normal distribution, but KNCraft's biome mix affects where you",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals#animals_contents)Start$(/l)",
+      "anchor": "animals_start"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Using the field notes (cont.)",
+      "body": "find them. Consult the $(l:patchouli:chapters/catalog#animals_index)Mob catalog$(/l) for species-specific handling, food and drops.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals#animals_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Keeping animals",
+      "body": "Give predators and prey separate spaces. Transport aquatic creatures in the appropriate bucket and keep food-stealing wildlife away from open storage. Use the ingredient the entry names. Two mods can add fruit with similar",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals#animals_contents)Start$(/l)",
+      "anchor": "animals_practice"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Keeping animals (cont.)",
+      "body": "names without making them interchangeable. Check JEI and item tooltips before spending a rare supply. Test travel with one companion before attempting to evacuate a whole collection.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals#animals_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Trust, taming and breeding",
+      "body": "Taming, breeding and temporary trust are different. A creature that accepts food is not necessarily a permanent companion. Check its catalog entry before approaching, and carry the supplies needed to care for it. The mod's Animal",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals#animals_contents)Start$(/l)",
+      "anchor": "animals_care"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Trust, taming and breeding ...",
+      "body": "Dictionary remains useful alongside this guide; the catalog here brings the practical notes into one place.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/animals#animals_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Continue reading",
+      "entries": [
+        "patchouli:chapters/travel",
+        "patchouli:chapters/depths"
+      ],
+      "text": "Next chapter first; previous chapter below.",
+      "anchor": "animals_end"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare for travel",
+      "body": "$(l:patchouli:chapters/architecture#wildlife)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
+      "navigation": "$(l:patchouli:guide)Book$(/l)",
+      "anchor": "architecture"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

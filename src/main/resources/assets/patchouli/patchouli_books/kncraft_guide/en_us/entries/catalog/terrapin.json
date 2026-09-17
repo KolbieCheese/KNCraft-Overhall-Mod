@@ -1,0 +1,25 @@
+{
+  "name": "Terrapin",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Terrapin",
+      "body": "Ice-free rivers. Passive and bucketable. Breed with seagrass to produce eggs with inherited or occasionally mutated colors. Jumping on a withdrawn terrapin",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/terrapin)Start$(/l)",
+      "anchor": "animal_terrapin",
+      "creature": "alexsmobs:terrapin"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Terrapin (cont.)",
+      "body": "launches its shell; anything struck may blame the player. Keep busy paths away from its enclosure.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/terrapin)Start$(/l)",
+      "anchor": "animal_terrapin_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

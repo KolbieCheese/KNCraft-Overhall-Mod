@@ -1,0 +1,25 @@
+{
+  "name": "Mimic Octopus",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Mimic Octopus",
+      "body": "Warm oceans. Tame with Lobster Tails while it is not camouflaged. Slimeballs prevent drying for a time on land. Ink Sacs toggle random disguises;",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/mimic_octopus)Start$(/l)",
+      "anchor": "animal_mimic_octopus",
+      "creature": "alexsmobs:mimic_octopus"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Mimic Octopus (cont.)",
+      "body": "relevant mob drops select remembered forms. Mimicream unlocks combat abilities in those forms. Bucket tame specimens and breed with tropical fish. Keep away from sharks and Mantis Shrimp.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/mimic_octopus)Start$(/l)",
+      "anchor": "animal_mimic_octopus_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

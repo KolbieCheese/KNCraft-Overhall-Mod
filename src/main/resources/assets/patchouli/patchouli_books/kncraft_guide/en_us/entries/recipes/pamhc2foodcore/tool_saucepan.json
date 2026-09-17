@@ -1,0 +1,16 @@
+{
+  "name": "Saucepan",
+  "category": "patchouli:recipes",
+  "icon": "pamhc2foodcore:saucepanitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_saucepan",
+      "anchor": "lookup_recipe_pamhc2foodcore_tool_saucepan",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/food#recipe_pamhc2foodcore_tool_saucepan)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

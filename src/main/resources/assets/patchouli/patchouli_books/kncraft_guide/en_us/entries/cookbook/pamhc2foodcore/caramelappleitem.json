@@ -1,0 +1,16 @@
+{
+  "name": "Caramel Apple",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:caramelappleitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:caramelappleitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_caramelappleitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Pomegranate Jelly",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:pomegranatejellyitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:pomegranatejellyitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_pomegranatejellyitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

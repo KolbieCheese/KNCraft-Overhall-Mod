@@ -1,0 +1,16 @@
+{
+  "name": "Cream",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:creamitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:creamitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_creamitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

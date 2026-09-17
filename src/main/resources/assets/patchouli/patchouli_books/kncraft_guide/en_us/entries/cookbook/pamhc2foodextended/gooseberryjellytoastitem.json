@@ -1,0 +1,16 @@
+{
+  "name": "Gooseberry Jelly Toast",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:gooseberryjellytoastitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:gooseberryjellytoastitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_gooseberryjellytoastitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

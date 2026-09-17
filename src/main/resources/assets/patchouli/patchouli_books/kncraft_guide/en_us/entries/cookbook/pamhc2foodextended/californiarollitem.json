@@ -1,0 +1,16 @@
+{
+  "name": "California Roll",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:californiarollitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:californiarollitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_californiarollitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

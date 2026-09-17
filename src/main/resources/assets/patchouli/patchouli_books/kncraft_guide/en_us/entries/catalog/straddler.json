@@ -1,0 +1,25 @@
+{
+  "name": "Straddler",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Straddler",
+      "body": "Basalt Deltas. Hostile relative of the Strider that launches Stradpoles. Rare Straddlite drops make a Straddleboard. The board travels over lava but sinks in water",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/straddler)Start$(/l)",
+      "anchor": "animal_straddler",
+      "creature": "alexsmobs:straddler"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Straddler (cont.)",
+      "body": "and can fail after a hard collision. Carry fire protection and leave room to turn.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/straddler)Start$(/l)",
+      "anchor": "animal_straddler_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

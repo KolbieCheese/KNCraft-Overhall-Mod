@@ -1,0 +1,16 @@
+{
+  "name": "Chameleon Scale Leggings",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:chameleon_leggings",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:chameleon_leggings",
+      "anchor": "lookup_recipe_cold_sweat_chameleon_leggings",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_chameleon_leggings)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

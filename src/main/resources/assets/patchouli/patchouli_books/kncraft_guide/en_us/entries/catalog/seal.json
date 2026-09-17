@@ -1,0 +1,25 @@
+{
+  "name": "Seal",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Seal",
+      "body": "Beaches and icebergs. Feed a seal on land three fish to send it searching underwater for an item. Results range from common debris to useful aquatic materials.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/seal)Start$(/l)",
+      "anchor": "animal_seal",
+      "creature": "alexsmobs:seal"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Seal (cont.)",
+      "body": "Breed with Lobster Tails. Protect seals from Orcas and avoid hitting a pod while feeding it.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/seal)Start$(/l)",
+      "anchor": "animal_seal_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Super TNT",
+  "category": "patchouli:recipes",
+  "icon": "witherstormmod:super_tnt",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:super_tnt",
+      "anchor": "lookup_recipe_witherstormmod_super_tnt",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/wither#recipe_witherstormmod_super_tnt)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

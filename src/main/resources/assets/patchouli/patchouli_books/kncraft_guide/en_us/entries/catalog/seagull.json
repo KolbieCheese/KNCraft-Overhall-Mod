@@ -1,0 +1,25 @@
+{
+  "name": "Seagull",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Seagull",
+      "body": "Beaches. Steals food from the hotbar and ground. Near buried treasure, hold its map in your offhand and toss a Lobster Tail; the bird that eats it can indicate the dig",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/seagull)Start$(/l)",
+      "anchor": "animal_seagull",
+      "creature": "alexsmobs:seagull"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Seagull (cont.)",
+      "body": "location. Breed with raw cod. Store travel rations before lingering on a beach.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/seagull)Start$(/l)",
+      "anchor": "animal_seagull_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

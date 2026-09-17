@@ -1,0 +1,128 @@
+{
+  "name": "1. Welcome to KNCraft",
+  "category": "patchouli:guide",
+  "icon": "minecraft:grass_block",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_image",
+      "heading": "KNCraft",
+      "body": "Survival, travel and exploration on KNCraft.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+      "anchor": "welcome",
+      "picture": "kncraft:textures/guide/logo.png",
+      "credit": "$(l:https://beautyinblocks.com/kncraft.html)Source$(/l)"
+    },
+    {
+      "type": "patchouli:kn_chapter",
+      "heading": "Welcome to KNCraft",
+      "body": "$(l:patchouli:chapters/intro#links)Server & links$(/l)$(br)$(l:patchouli:chapters/intro#client)Client features$(/l)$(br)$(l:patchouli:chapters/intro#first_day)First day$(/l)$(br)$(l:patchouli:chapters/intro#controls)Recipes & controls$(/l)$(br)$(l:patchouli:chapters/intro#reporting)Help$(/l)",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+      "anchor": "intro_contents",
+      "eyebrow": "CHAPTER 01"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "The server",
+      "body": "Join at kncraft.beautyinblocks.com using the matching KNCraft modpack: Java 1.20.1 on Forge 47.4.0. Cooperation is encouraged. PvP is enabled, and trust is your decision. Read the community rules before playing. KNCraft and Beauty In",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+      "anchor": "community"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "The server (cont.)",
+      "body": "Blocks share community services, but their world progress is separate.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Useful links",
+      "body": "$(l:https://beautyinblocks.com/kncraft.html)Website$(/l)$(br)$(l:https://discord.gg/zNwRwEQDeq)Discord$(/l)$(br)$(l:https://beautyinblocks.com/kncraft-map.html)BlueMap$(/l)$(br)$(l:https://beautyinblocks.com/kncraft-rules.html)Rules$(/l)$(br)$(l:https://beautyinblocks.com/kncraft-faq.html)Joining help$(/l)$(br)$(l:https://beautyinblocks.com/kncraft-roles.html)Roles and commands$(/l)$(br)$(l:https://beautyinblocks.com/kncraft-clans.html)Clans$(/l)$(br)$(l:https://beautyinblocks.com/form.html)Help and reports$(/l)",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+      "anchor": "links"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Client features",
+      "body": "KNCraft supports Distant Horizons on the server. A matching client installation shows simplified distant terrain beyond the usual render distance. It does not extend interaction range or guarantee that distant mobs are visible. Simple Voice",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+      "anchor": "client"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Client features (cont.)",
+      "body": "Chat is also supported. Open its menu from your assigned key, select your microphone and output device, and check mute and push-to-talk settings. Key conflicts can be changed in Controls.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Before settling",
+      "body": "Gather food, wood, tools, light and a means of escape. Check your temperature before choosing a route. Keep supplies ready to carry; an elaborate starter base is a poor substitute for working equipment. KNCraft",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+      "anchor": "first_day"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Before settling (cont.)",
+      "body": "plans to spawn two Wither Storms at the end of the second Minecraft day. This is a server launch milestone, not a two-day grace period for every new player. Check BlueMap before leaving a safe location.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Recipes and controls",
+      "body": "JEI is included. Search an item, then use its recipe and uses controls to see how it is made and what it feeds into. Check the workstation tab as well as the ingredients. Several mods use the same default keys. Assign separate keys for the",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+      "anchor": "controls"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Recipes and controls (cont.)",
+      "body": "backpack, voice chat and train controls. Better Combat changes weapon handling; test your weapon and its reach before a boss fight. Comforts sleeping bags are useful on trips without moving your normal spawn point.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "When you need help",
+      "body": "Use the help form for a server problem and identify KNCraft. Include the location, what happened, and a useful screenshot or error message. Reports are handled by two owners in their spare time; responses can take time. Commands and",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+      "anchor": "reporting"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "When you need help (cont.)",
+      "body": "cooldowns vary by role. Use the linked roles page for current permissions instead of assuming a command described in another modpack works here.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "BlueMap: read the threat",
+      "body": "SCREENSHOT NEEDED. Capture KNCraft BlueMap showing both Wither Storm markers, a named settlement or landmark, and enough terrain to judge direction. Hide private chat or unrelated browser tabs. This should teach players how to plan a route",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)",
+      "anchor": "shot_map"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "BlueMap: read the threat",
+      "body": "around the current threats.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro#intro_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Continue reading",
+      "entries": [
+        "patchouli:chapters/wither"
+      ],
+      "text": "Continue with the next chapter.",
+      "anchor": "intro_end"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare for travel",
+      "body": "$(l:patchouli:chapters/architecture#contents)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
+      "navigation": "$(l:patchouli:guide)Book$(/l)",
+      "anchor": "architecture"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

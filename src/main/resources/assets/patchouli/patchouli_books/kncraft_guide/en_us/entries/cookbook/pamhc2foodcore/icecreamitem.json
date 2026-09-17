@@ -1,0 +1,16 @@
+{
+  "name": "Ice Cream",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:icecreamitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:icecreamitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_icecreamitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

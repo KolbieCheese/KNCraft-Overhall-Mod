@@ -1,0 +1,16 @@
+{
+  "name": "Golden Apple Stew",
+  "category": "patchouli:recipes",
+  "icon": "witherstormmod:golden_apple_stew",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:golden_apple_stew",
+      "anchor": "lookup_recipe_witherstormmod_golden_apple_stew",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/wither#recipe_witherstormmod_golden_apple_stew)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Shoebill",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Shoebill",
+      "body": "Swamps. Leave it to fish and collect discarded bycatch. Crocodile Eggs improve its lure effect; Terrapin Eggs improve catch luck. It cannot be bred by",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/shoebill)Start$(/l)",
+      "anchor": "animal_shoebill",
+      "creature": "alexsmobs:shoebill"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Shoebill (cont.)",
+      "body": "players and may prey on young turtles or crocodiles. Keep breeding pens separate.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/shoebill)Start$(/l)",
+      "anchor": "animal_shoebill_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

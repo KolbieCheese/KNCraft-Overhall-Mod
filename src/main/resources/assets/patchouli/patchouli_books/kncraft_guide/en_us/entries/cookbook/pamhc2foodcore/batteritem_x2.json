@@ -1,0 +1,16 @@
+{
+  "name": "Batter",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:batteritem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:batteritem_x2",
+      "anchor": "lookup_recipe_pamhc2foodcore_batteritem_x2",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Skunk",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Skunk",
+      "body": "Forests. Chasing or hurting it triggers a nausea-inducing spray. Bottle residue for Stink Ray ammunition, which redirects nearby mobs toward a",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/skunk)Start$(/l)",
+      "anchor": "animal_skunk",
+      "creature": "alexsmobs:skunk"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Skunk (cont.)",
+      "body": "sprayed target. Breed with sweet berries. A potion effect on a spraying adult can produce a lingering effect cloud.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/skunk)Start$(/l)",
+      "anchor": "animal_skunk_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

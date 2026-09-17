@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Peanut",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:roastedpeanutitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Peanut",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedpeanutitem_campfire",
+      "input": "tag:forge:crops/peanut",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:roastedpeanutitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:roastedpeanutitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_roastedpeanutitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Peanut",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedpeanutitem_smoker",
+      "input": "tag:forge:crops/peanut",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:roastedpeanutitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:roastedpeanutitem": 2
+  }
+}

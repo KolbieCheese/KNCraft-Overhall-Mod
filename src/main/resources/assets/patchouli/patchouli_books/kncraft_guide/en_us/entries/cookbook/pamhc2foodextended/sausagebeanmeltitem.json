@@ -1,0 +1,16 @@
+{
+  "name": "Sausage Bean Melt",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:sausagebeanmeltitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:sausagebeanmeltitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_sausagebeanmeltitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Sunflower Seeds",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:roastedsunflowerseedsitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Sunflower Seeds",
+      "body": "Campfire. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_minecraft_campfire_roastedsunflowerseedsitem",
+      "input": "pamhc2foodcore:sunflowerseedsitem",
+      "station": "minecraft:campfire",
+      "output": "pamhc2foodcore:roastedsunflowerseedsitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:smelting_roastedsunflowerseedsitem",
+      "anchor": "lookup_recipe_minecraft_smelting_roastedsunflowerseedsitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Sunflower Seeds",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_minecraft_smoking_roastedsunflowerseedsitem",
+      "input": "pamhc2foodcore:sunflowerseedsitem",
+      "station": "minecraft:smoker",
+      "output": "pamhc2foodcore:roastedsunflowerseedsitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2foodcore:roastedsunflowerseedsitem": 2
+  }
+}

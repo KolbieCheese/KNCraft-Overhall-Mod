@@ -1,0 +1,25 @@
+{
+  "name": "Cosmaw",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Cosmaw",
+      "body": "Outer End islands. Tame and breed with Cosmic Cod; heal with Chorus Fruit. It does not fight for you, but can retrieve its owner after a fall into the void. Keep ordinary",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/cosmaw)Start$(/l)",
+      "anchor": "animal_cosmaw",
+      "creature": "alexsmobs:cosmaw"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cosmaw (cont.)",
+      "body": "fall precautions: do not make an untested rescue your only return plan.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/cosmaw)Start$(/l)",
+      "anchor": "animal_cosmaw_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

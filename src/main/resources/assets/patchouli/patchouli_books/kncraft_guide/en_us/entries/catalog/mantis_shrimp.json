@@ -1,0 +1,25 @@
+{
+  "name": "Mantis Shrimp",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Mantis Shrimp",
+      "body": "Warm reefs and mangrove swamps. Neutral, with a powerful block-breaking punch. Tame with tropical fish, heal with fish, and breed with Lobster",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/mantis_shrimp)Start$(/l)",
+      "anchor": "animal_mantis_shrimp",
+      "creature": "alexsmobs:mantis_shrimp"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Mantis Shrimp (cont.)",
+      "body": "Tails. Sneak-use a water bucket to keep a tame shrimp from drying out. Give it a block while sneaking, then select block-breaking behavior to target matching blocks.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/mantis_shrimp)Start$(/l)",
+      "anchor": "animal_mantis_shrimp_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

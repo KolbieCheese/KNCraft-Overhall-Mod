@@ -1,0 +1,25 @@
+{
+  "name": "Giant Squid",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Giant Squid",
+      "body": "Deep oceans. A battle with a Cachalot Whale can produce a Lost Tentacle; simply killing the squid mostly yields ink. Tentacles make the Grappling Squok, which attaches to",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/giant_squid)Start$(/l)",
+      "anchor": "animal_giant_squid",
+      "creature": "alexsmobs:giant_squid"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Giant Squid (cont.)",
+      "body": "surfaces for movement. Shallow water depressurizes the squid. A lightning-struck ordinary squid can become a rare blue specimen.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/giant_squid)Start$(/l)",
+      "anchor": "animal_giant_squid_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Peppermint",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:peppermintitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:peppermintitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_peppermintitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

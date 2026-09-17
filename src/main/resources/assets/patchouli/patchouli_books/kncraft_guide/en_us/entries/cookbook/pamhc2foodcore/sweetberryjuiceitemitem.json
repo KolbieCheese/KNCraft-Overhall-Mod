@@ -1,0 +1,16 @@
+{
+  "name": "Sweet Berry Juice",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:sweetberryjuiceitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:sweetberryjuiceitemitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_sweetberryjuiceitemitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

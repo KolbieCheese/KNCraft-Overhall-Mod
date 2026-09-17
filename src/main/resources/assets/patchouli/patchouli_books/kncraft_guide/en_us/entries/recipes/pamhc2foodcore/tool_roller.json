@@ -1,0 +1,16 @@
+{
+  "name": "Roller",
+  "category": "patchouli:recipes",
+  "icon": "pamhc2foodcore:rolleritem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_roller",
+      "anchor": "lookup_recipe_pamhc2foodcore_tool_roller",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/food#recipe_pamhc2foodcore_tool_roller)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

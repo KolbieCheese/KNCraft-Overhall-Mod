@@ -1,0 +1,25 @@
+{
+  "name": "Cachalot Whale",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Cachalot Whale",
+      "body": "Several ocean types, including deep oceans. Keep boats clear of charging whales. A whale stranded during a thunderstorm can reward a rescue with Ambergris if returned",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/cachalot_whale)Start$(/l)",
+      "anchor": "animal_cachalot_whale",
+      "creature": "alexsmobs:cachalot_whale"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Cachalot Whale (cont.)",
+      "body": "to water without injury. Ambergris is fuel, a fisherman trade, and an Echolocator ingredient. An Endolocator upgrades that tool to locate a nearby stronghold's End portal.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/cachalot_whale)Start$(/l)",
+      "anchor": "animal_cachalot_whale_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

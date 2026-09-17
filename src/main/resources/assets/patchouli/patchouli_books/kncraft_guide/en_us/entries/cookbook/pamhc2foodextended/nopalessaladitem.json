@@ -1,0 +1,16 @@
+{
+  "name": "Nopales Salad",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:nopalessaladitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:nopalessaladitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_nopalessaladitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

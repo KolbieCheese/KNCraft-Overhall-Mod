@@ -1,0 +1,25 @@
+{
+  "name": "Skelewag",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Skelewag",
+      "body": "Around shipwrecks. Hostile and fast, sometimes carrying a Drowned. Fish Bones help craft a Strange Fish Finder. A dropped skull works as a quick weapon with blocking",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/skelewag)Start$(/l)",
+      "anchor": "animal_skelewag",
+      "creature": "alexsmobs:skelewag"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Skelewag (cont.)",
+      "body": "and parrying. Scout a wreck's surroundings before entering tight underwater spaces.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/skelewag)Start$(/l)",
+      "anchor": "animal_skelewag_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

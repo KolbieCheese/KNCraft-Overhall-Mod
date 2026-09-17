@@ -29,7 +29,7 @@ import java.util.UUID;
 public class TentTests {
     private static UUID traveler;
     private static net.minecraft.resources.ResourceKey<net.minecraft.world.level.Level> destination;
-    public TentTests() { MinecraftForge.EVENT_BUS.register(this); }
+    public TentTests() { if (!Boolean.getBoolean("kncraft.isolatedTests") || !java.nio.file.Files.isRegularFile(net.minecraftforge.fml.loading.FMLPaths.GAMEDIR.get().resolve("KNCraft-ISOLATED-TEST-WORLD"))) throw new IllegalStateException("Test harness requires an explicitly marked isolated server and -Dkncraft.isolatedTests=true"); MinecraftForge.EVENT_BUS.register(this); }
     static void check(boolean yes, String message) { if (!yes) throw new IllegalStateException(message); }
     @SubscribeEvent public void commands(RegisterCommandsEvent e) {
         e.getDispatcher().register(Commands.literal("kncrafttentacktest").requires(s -> s.hasPermission(4)).executes(c -> {
@@ -63,6 +63,12 @@ public class TentTests {
                 check(TentPortals.create(door)==null,"Stale pong released newer registry gate");
                 player.connection.handlePong(new net.minecraft.network.protocol.game.ServerboundPongPacket(latestPing));
                 check(TentPortals.create(door)!=null,"Correct client pong failed to release gate");
+                var disconnectedDoor=place(level,new BlockPos(1240,150,1100),new Tent(3000000+Math.floorMod(UUID.randomUUID().hashCode(),1000000),TentType.YURT,TentSize.TINY),Direction.EAST);
+                check(TentPortals.create(disconnectedDoor)==null,"Missing acknowledgement did not keep gate closed");
+                players.remove(player);byId.remove(player.getUUID());
+                var finish=TentPortals.class.getDeclaredMethod("finishSync",net.minecraft.server.MinecraftServer.class);
+                finish.setAccessible(true);finish.invoke(null,server);
+                check(TentPortals.create(disconnectedDoor)!=null,"Disconnected client kept dimension gate closed");
                 c.getSource().sendSuccess(()->Component.literal("CLIENT ACKNOWLEDGEMENT GATE PASSED"),false);return 1;
             } catch(Throwable ex) {ex.printStackTrace();c.getSource().sendFailure(Component.literal("ACK TEST FAILED: "+ex));return 0;}
             finally {players.remove(player);byId.remove(player.getUUID());testChannel.finishAndReleaseAll();}
@@ -124,6 +130,9 @@ public class TentTests {
                         check(door != null, "Saved exterior door missing");
                         // Entity chunks need one tick to finish loading; test after forceload command.
                         check(TentPortals.hasLivePortal(door), "Saved paired portal missing for " + i);
+                        var tag=door.getPersistentData().getCompound(TentPortals.DATA);
+                        var insideLevel=level.getServer().getLevel(net.minecraft.resources.ResourceKey.create(net.minecraft.core.registries.Registries.DIMENSION,new net.minecraft.resources.ResourceLocation(tag.getString("insideDim"))));
+                        check(insideLevel.getBlockState(Tent.calculatePos(door.getTent().getId()).relative(Direction.EAST,2).above()).is(Blocks.DIAMOND_BLOCK),"Saved tent content marker missing for " + i);
                     }
                     c.getSource().sendSuccess(() -> Component.literal("PERSISTENCE TEST PASSED"),false); return 1;
                 } catch(Throwable ex) {ex.printStackTrace();c.getSource().sendFailure(Component.literal("PERSISTENCE TEST FAILED: "+ex));return 0;}

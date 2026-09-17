@@ -1,0 +1,25 @@
+{
+  "name": "Blue Jay",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Blue Jay",
+      "body": "Forests. Glow Berries make it follow temporarily; feeding berries to a Raccoon during this period bonds the pair. Seeds prompt a call that reveals nearby",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/blue_jay)Start$(/l)",
+      "anchor": "animal_blue_jay",
+      "creature": "alexsmobs:blue_jay"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Blue Jay (cont.)",
+      "body": "monsters. It does not damage crops and is not permanently tameable. Breed with maggots or other insect larvae.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/blue_jay)Start$(/l)",
+      "anchor": "animal_blue_jay_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

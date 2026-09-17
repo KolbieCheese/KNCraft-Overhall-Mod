@@ -1,0 +1,16 @@
+{
+  "name": "Chameleon Scale Helmet",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:chameleon_helmet",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:chameleon_helmet",
+      "anchor": "lookup_recipe_cold_sweat_chameleon_helmet",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_chameleon_helmet)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

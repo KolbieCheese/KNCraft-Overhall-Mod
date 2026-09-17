@@ -1,0 +1,204 @@
+{
+  "name": "9. Pam's HarvestCraft",
+  "category": "patchouli:guide",
+  "icon": "minecraft:wheat",
+  "priority": false,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:kn_chapter",
+      "heading": "Pam's HarvestCraft",
+      "body": "$(l:patchouli:chapters/food#gardens)Crops$(/l)$(br)$(l:patchouli:chapters/food#orchard)Trees$(/l)$(br)$(l:patchouli:chapters/food#kitchen)Kitchen & recipes$(/l)$(br)$(l:patchouli:chapters/food#meal_plan)Meal planning$(/l)$(br)$(l:patchouli:chapters/food#travel_food)Travel supplies$(/l)",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+      "anchor": "food_contents",
+      "eyebrow": "CHAPTER 09"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Four parts of the kitchen",
+      "body": "Crops adds field produce. Trees adds fruit and nut trees. Food Core adds kitchen tools and recipes built around familiar ingredients. Food Extended uses the wider crop and tree selection for more meals. You do not need to make",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+      "anchor": "food_start"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Four parts of the kitchen ...",
+      "body": "every food. Choose a few meals you can replenish, then expand when you have a stable ingredient supply. The following examples use recipes from the installed files.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Starting a crop supply",
+      "body": "Look for HarvestCraft gardens while exploring. Collect their produce and use JEI to find the corresponding seed recipes. Keep planting stock separate from food you intend to eat. Prepare hydrated farmland and light, then plant a small",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+      "anchor": "gardens"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Starting a crop supply +...",
+      "body": "mixed plot. Harvest mature crops and replant as needed. Do not commit your last specimen to cooking before you have a way to grow more.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Fruit and tree crops",
+      "body": "Look for harvestable fruit and nuts growing on HarvestCraft trees. Gather ripe produce and check its sapling recipe. Many tree crops use a fruit-bearing block beneath leaves; cutting down the whole tree is not the same as harvesting its",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+      "anchor": "orchard"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Fruit and tree crops (cont.)",
+      "body": "crop. Give a sapling enough space and keep a record of what it produces. A small orchard is easier to maintain than a wide collection with no organized storage.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Kitchen tools",
+      "body": "Recipes use tools in the crafting grid: Bakeware, Cutting Board, Juicer, Grinder, Mixing Bowl, Pot, Roller, Saucepan and Skillet. These are reusable recipe tools, so keep them in a dedicated row or container. The installed recipes differ from some",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+      "anchor": "kitchen"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Kitchen tools (cont.)",
+      "body": "older HarvestCraft guides. The Pot, for example, uses copper. Use the layouts here or JEI instead of a recipe image from another version.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_bakeware",
+      "anchor": "recipe_pamhc2foodcore_tool_bakeware",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_cuttingboard",
+      "anchor": "recipe_pamhc2foodcore_tool_cuttingboard",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_juicer",
+      "anchor": "recipe_pamhc2foodcore_tool_juicer",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_grinder",
+      "anchor": "recipe_pamhc2foodcore_tool_grinder",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_mixingbowl",
+      "anchor": "recipe_pamhc2foodcore_tool_mixingbowl",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_pot",
+      "anchor": "recipe_pamhc2foodcore_tool_pot",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_roller",
+      "anchor": "recipe_pamhc2foodcore_tool_roller",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_saucepan",
+      "anchor": "recipe_pamhc2foodcore_tool_saucepan",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:tool_skillet",
+      "anchor": "recipe_pamhc2foodcore_tool_skillet",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A practical food loop",
+      "body": "Start with an ingredient you already grow. Use JEI's uses view to find a simple meal, then work backward through any flour, dough, juice or other intermediate ingredients. Make intermediates in batches while the",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+      "anchor": "meal_plan"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A practical food loop (cont.)",
+      "body": "camp is secure. AppleSkin helps compare hunger and saturation. Use that information to choose a travel food you can actually replenish. A long ingredient chain is only worthwhile if its ingredients fit your route.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:fruitpunchitem",
+      "anchor": "recipe_pamhc2foodcore_fruitpunchitem",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:trailmixitem",
+      "anchor": "recipe_pamhc2foodcore_trailmixitem",
+      "text": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Food on the move",
+      "body": "Carry ready-to-eat meals separately from seeds and cooking ingredients. Keep reusable tools with the portable kitchen, and leave some food accessible even when the tent is packed. Backpack feeding filters should exclude Golden Apple Stew and",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+      "anchor": "travel_food"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Food on the move (cont.)",
+      "body": "other supplies reserved for a specific problem. A large stack of food does not replace temperature protection. Restock waterskins and fuel during the same stop.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "A cotton plot",
+      "body": "A small cotton plot beside a village path. Keep useful crops easy to reach.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+      "anchor": "capture_cotton_plot",
+      "picture": "kncraft:textures/guide/capture_cotton_plot.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Fruit on the tree",
+      "body": "Fruit hangs below the leaves. Check ripeness before harvesting.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+      "anchor": "capture_fruit_tree",
+      "picture": "kncraft:textures/guide/capture_fruit_tree.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "A compact traveling kitchen",
+      "body": "SCREENSHOT NEEDED. Crop and fruit-tree captures are included. Still needed: a traveling kitchen with reusable tools and ingredients, plus a JEI example of a recommended meal and its intermediate steps.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food#food_contents)Start$(/l)",
+      "anchor": "shot_food"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Continue reading",
+      "entries": [
+        "patchouli:chapters/explore",
+        "patchouli:chapters/travel"
+      ],
+      "text": "Next chapter first; previous chapter below.",
+      "anchor": "food_end"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare for travel",
+      "body": "$(l:patchouli:chapters/architecture#warm)KNCraft Architecture$(/l) connects farming, cooking, clothing, tents and portals. Read the new chapter for optional survival recipes, default effects and safe travel. Use /kncraft status to check enabled features.",
+      "navigation": "$(l:patchouli:guide)Book$(/l)",
+      "anchor": "architecture"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

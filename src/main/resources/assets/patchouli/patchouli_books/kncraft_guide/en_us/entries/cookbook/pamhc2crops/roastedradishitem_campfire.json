@@ -1,0 +1,38 @@
+{
+  "name": "Roasted Radish",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:roastedradishitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Radish",
+      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedradishitem_campfire",
+      "input": "tag:forge:crops/radish",
+      "station": "minecraft:campfire",
+      "output": "pamhc2crops:roastedradishitem"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pamhc2crops:roastedradishitem_forge",
+      "anchor": "lookup_recipe_pamhc2crops_roastedradishitem_forge",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Roasted Radish",
+      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
+      "anchor": "lookup_recipe_pamhc2crops_roastedradishitem_smoker",
+      "input": "tag:forge:crops/radish",
+      "station": "minecraft:smoker",
+      "output": "pamhc2crops:roastedradishitem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:roastedradishitem": 2
+  }
+}

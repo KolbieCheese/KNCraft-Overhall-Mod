@@ -1,0 +1,25 @@
+{
+  "name": "Bison",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Bison",
+      "body": "Plains, snowy plains and meadows. Give adults space: they charge and can throw you upward. Shearing provides fur without killing them; grass restores their coat.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/bison)Start$(/l)",
+      "anchor": "animal_bison",
+      "creature": "alexsmobs:bison"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Bison (cont.)",
+      "body": "Fur makes building blocks and a boot treatment for powder snow. Breed with wheat. A shovel removes accumulated snow from the coat.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/bison)Start$(/l)",
+      "anchor": "animal_bison_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

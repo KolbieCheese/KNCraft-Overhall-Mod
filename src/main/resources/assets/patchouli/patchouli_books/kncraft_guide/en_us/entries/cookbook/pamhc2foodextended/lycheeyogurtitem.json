@@ -1,0 +1,16 @@
+{
+  "name": "Lychee Yogurt",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:lycheeyogurtitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:lycheeyogurtitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_lycheeyogurtitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

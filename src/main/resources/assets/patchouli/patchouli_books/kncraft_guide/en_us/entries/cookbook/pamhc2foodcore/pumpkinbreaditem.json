@@ -1,0 +1,16 @@
+{
+  "name": "Pumpkin Bread",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:pumpkinbreaditem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:pumpkinbreaditem",
+      "anchor": "lookup_recipe_pamhc2foodcore_pumpkinbreaditem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

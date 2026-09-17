@@ -1,0 +1,25 @@
+{
+  "name": "Skreecher",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Skreecher",
+      "body": "Deep Dark ceilings. Its noise can call a Warden beneath its target. Look up and interrupt it quickly with a projectile. A dropped soul makes a Sculk Boomer, which",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/skreecher)Start$(/l)",
+      "anchor": "animal_skreecher",
+      "creature": "alexsmobs:skreecher"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Skreecher (cont.)",
+      "body": "responds to nearby sensors; redstone can disable it. Keep such traps away from routes intended for quiet travel.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/skreecher)Start$(/l)",
+      "anchor": "animal_skreecher_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

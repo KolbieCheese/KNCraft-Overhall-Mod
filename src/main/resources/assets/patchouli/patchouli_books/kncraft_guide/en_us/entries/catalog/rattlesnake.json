@@ -1,0 +1,25 @@
+{
+  "name": "Rattlesnake",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Rattlesnake",
+      "body": "Deserts and badlands. Back away when it rattles; close approach triggers a poisonous bite. Breed with meat. A rattle brews with Poison into Poisonous Essence,",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/rattlesnake)Start$(/l)",
+      "anchor": "animal_rattlesnake",
+      "creature": "alexsmobs:rattlesnake"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Rattlesnake (cont.)",
+      "body": "which combines with a Cave Centipede Leg for Poison Resistance.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/rattlesnake)Start$(/l)",
+      "anchor": "animal_rattlesnake_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

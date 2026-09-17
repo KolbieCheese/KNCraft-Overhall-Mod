@@ -1,0 +1,25 @@
+{
+  "name": "Warped Toad",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Warped Toad",
+      "body": "Warped Forests. Tame and breed with Crimson Mosquito Larva, made from a maggot and mosquito proboscis. Heal with maggots. It can follow, stay or wander and",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/warped_toad)Start$(/l)",
+      "anchor": "animal_warped_toad",
+      "creature": "alexsmobs:warped_toad"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Warped Toad (cont.)",
+      "body": "fights insects for its owner. Comfortable in water and lava, but its tolerance does not transfer to you.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/warped_toad)Start$(/l)",
+      "anchor": "animal_warped_toad_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

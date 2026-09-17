@@ -1,0 +1,16 @@
+{
+  "name": "Roast Potatoes",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:roastpotatoesitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:roastpotatoesitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_roastpotatoesitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

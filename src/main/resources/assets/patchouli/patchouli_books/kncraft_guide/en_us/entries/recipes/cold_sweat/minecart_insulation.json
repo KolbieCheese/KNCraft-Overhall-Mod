@@ -1,0 +1,22 @@
+{
+  "name": "Minecart Insulation",
+  "category": "patchouli:recipes",
+  "icon": "cold_sweat:minecart_insulation",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:minecart_insulation",
+      "anchor": "lookup_recipe_cold_sweat_minecart_insulation",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_minecart_insulation)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "cold_sweat:minecart_insulation_goat",
+      "anchor": "lookup_recipe_cold_sweat_minecart_insulation_goat",
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_minecart_insulation_goat)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

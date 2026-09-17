@@ -1,0 +1,16 @@
+{
+  "name": "Guava Jelly Toast",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:guavajellytoastitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:guavajellytoastitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_guavajellytoastitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

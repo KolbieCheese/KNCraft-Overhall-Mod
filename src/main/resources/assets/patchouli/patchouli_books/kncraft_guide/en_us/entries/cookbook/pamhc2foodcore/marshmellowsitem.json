@@ -1,0 +1,16 @@
+{
+  "name": "Marshmellows",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodcore:marshmellowsitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodcore:marshmellowsitem",
+      "anchor": "lookup_recipe_pamhc2foodcore_marshmellowsitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

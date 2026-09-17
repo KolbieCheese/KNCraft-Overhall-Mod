@@ -1,0 +1,136 @@
+{
+  "name": "4. Weather2",
+  "category": "patchouli:guide",
+  "icon": "minecraft:lightning_rod",
+  "priority": false,
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:kn_chapter",
+      "heading": "Weather2",
+      "body": "$(l:patchouli:chapters/weather#weather_start)Weather events$(/l)$(br)$(l:patchouli:chapters/weather#weather_changes)Server settings$(/l)$(br)$(l:patchouli:chapters/weather#weather_shelter)Shelter$(/l)$(br)$(l:patchouli:chapters/weather#weather_tools)Warning & defense$(/l)",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+      "anchor": "weather_contents",
+      "eyebrow": "CHAPTER 04"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Weather along the route",
+      "body": "Weather2 uses moving local weather. Rain in one area does not mean the whole world is in the same storm. Look at approaching clouds and wind before choosing a long crossing. Thunderstorms bring lightning. Snowstorms and sandstorms",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+      "anchor": "weather_start"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Weather along the route +...",
+      "body": "reduce visibility and make movement harder. Tornadoes can move entities and damage allowed blocks. Check the weather even when the Wither Storm is far away.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "KNCraft storm settings",
+      "body": "Severe storms are less frequent than in the supplied pack settings. The documented global cooldowns are three hours generally and ten hours for land-based spacing, measured in server ticks. They are not appointments for the",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+      "anchor": "weather_changes"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "KNCraft storm settings +...",
+      "body": "next storm. Tornadoes do not aim at the nearest player when they spawn. They can still affect players, mobs and allowed wood or foliage blocks.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare before arrival",
+      "body": "Choose a substantial shelter before visibility disappears. Keep away from exposed trees and loose wooden structures during severe weather. Bring animals inside and keep an exit route clear. A lightning rod can help manage local",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+      "anchor": "weather_shelter"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Prepare before arrival +...",
+      "body": "lightning. Carry enough food and temperature supplies to wait rather than crossing open terrain in poor conditions. Repair damage only after the storm has moved away.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Monitoring and defense",
+      "body": "Wind Vanes and Anemometers help read wind. Sensor and Siren blocks support local warning setups. A Weather Deflector can protect an area from tornado effects; check its coverage in a local test before trusting a permanent build to it. Radar and",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+      "anchor": "weather_tools"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Monitoring and defense +...",
+      "body": "Forecast blocks have version limitations in 1.20.1. Do not depend on them as your warning system. They are omitted from the working-equipment examples here.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Know the difference",
+      "body": "Hail is represented by particles in this version; do not import every damage mechanic from old Weather2 videos. Fire tornadoes are available as spawned events, which does not establish that KNCraft naturally generates them. A Guster is an",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+      "anchor": "weather_limits"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Know the difference (cont.)",
+      "body": "Alex's Mobs creature with its own attacks and drops. It is not a small Weather2 tornado. Hurricane footage from other releases may also show behavior that differs from this pack.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "A tornado nearby",
+      "body": "Airborne debris marks the tornado. Reach shelter before it reaches your route.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+      "anchor": "capture_tornado",
+      "picture": "kncraft:textures/guide/capture_tornado.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Snow and visibility",
+      "body": "Blowing snow hides landmarks. Wait under cover if you lose the route.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+      "anchor": "capture_snowstorm",
+      "picture": "kncraft:textures/guide/capture_snowstorm.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "Storm overhead",
+      "body": "Dark storm clouds above the trees. Keep a sheltered route within reach.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+      "anchor": "capture_weather_storm",
+      "picture": "kncraft:textures/guide/capture_weather_storm.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_image",
+      "heading": "A village siren",
+      "body": "The owner's village warning setup. A siren warns of danger; it is not shelter.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+      "anchor": "capture_weather_siren",
+      "picture": "kncraft:textures/guide/capture_weather_siren.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Weather to recognize",
+      "body": "SCREENSHOT NEEDED. Storm, tornado, snow and siren captures are included. Still needed: a Deflector setup showing its placement. No extra HUD capture is needed.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/weather#weather_contents)Start$(/l)",
+      "anchor": "shot_weather"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Continue reading",
+      "entries": [
+        "patchouli:chapters/aether",
+        "patchouli:chapters/cold"
+      ],
+      "text": "Next chapter first; previous chapter below.",
+      "anchor": "weather_end"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

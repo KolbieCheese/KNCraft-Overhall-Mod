@@ -1,0 +1,16 @@
+{
+  "name": "Jelly Roll",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:jellyrollitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:jellyrollitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_jellyrollitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

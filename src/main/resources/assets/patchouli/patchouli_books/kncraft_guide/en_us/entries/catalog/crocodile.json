@@ -1,0 +1,25 @@
+{
+  "name": "Crocodile",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Crocodile",
+      "body": "Rivers and swamps. Hostile; its grab can drag you underwater. Blocking the lunge briefly stuns it. Breed with rotten flesh, protect the eggs, and be nearby when they",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/crocodile)Start$(/l)",
+      "anchor": "animal_crocodile",
+      "creature": "alexsmobs:crocodile"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Crocodile (cont.)",
+      "body": "hatch for imprinting. Growing young provide scutes used for a swimming chestplate and the Animal Dictionary.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/crocodile)Start$(/l)",
+      "anchor": "animal_crocodile_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

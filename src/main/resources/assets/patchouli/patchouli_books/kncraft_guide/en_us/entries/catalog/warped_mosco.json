@@ -1,0 +1,25 @@
+{
+  "name": "Warped Mosco",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Warped Mosco",
+      "body": "A dangerous mutation created when a Crimson Mosquito feeds on the appropriate fungal creature. It attacks nearby prey with slams and melee",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/warped_mosco)Start$(/l)",
+      "anchor": "animal_warped_mosco",
+      "creature": "alexsmobs:warped_mosco"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Warped Mosco (cont.)",
+      "body": "strikes, and heals by feeding. Warped Muscle and Hemolymph Sacs support the Hemolymph Blaster. Keep this experiment away from camps, livestock and travel routes.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/warped_mosco)Start$(/l)",
+      "anchor": "animal_warped_mosco_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

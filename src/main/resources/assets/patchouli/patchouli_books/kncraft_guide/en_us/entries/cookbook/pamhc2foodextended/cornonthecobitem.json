@@ -1,0 +1,16 @@
+{
+  "name": "Corn on the Cob",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2foodextended:cornonthecobitem",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2foodextended:cornonthecobitem",
+      "anchor": "lookup_recipe_pamhc2foodextended_cornonthecobitem",
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

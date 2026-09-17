@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ropebridge"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2crops"
+    }
+  ],
+  "pattern": [
+    "FFV",
+    "VFF",
+    "FFV"
+  ],
+  "key": {
+    "F": {
+      "tag": "kncraft:camping_fiber"
+    },
+    "V": {
+      "item": "minecraft:vine"
+    }
+  },
+  "result": {
+    "item": "ropebridge:rope",
+    "count": 8
+  }
+}

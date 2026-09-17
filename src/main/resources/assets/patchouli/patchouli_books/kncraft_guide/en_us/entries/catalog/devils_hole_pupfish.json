@@ -1,0 +1,25 @@
+{
+  "name": "Devil's Hole Pupfish",
+  "category": "patchouli:catalog",
+  "icon": "minecraft:book",
+  "priority": false,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_entity",
+      "heading": "Devil's Hole Pupfish",
+      "body": "A very restricted underground aquifer population. Use a Strange Fish Finder to search for its home chunk. Pupfish graze on submerged mossy blocks, sometimes",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/devils_hole_pupfish)Start$(/l)",
+      "anchor": "animal_devils_hole_pupfish",
+      "creature": "alexsmobs:devils_hole_pupfish"
+    },
+    {
+      "type": "patchouli:kn_text",
+      "heading": "Devil's Hole Pupfish (cont.)",
+      "body": "dislodging slimeballs, and reproduce after feeding there. Bucket specimens for transport; preserve a suitable feeding area when building a habitat.",
+      "navigation": "$(l:patchouli:catalog)Catalog$(/l) $(l:patchouli:catalog/devils_hole_pupfish)Start$(/l)",
+      "anchor": "animal_devils_hole_pupfish_notes"
+    }
+  ],
+  "extra_recipe_mappings": {}
+}

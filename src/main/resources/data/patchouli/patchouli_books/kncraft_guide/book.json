@@ -1,0 +1,19 @@
+{
+  "name": "KNCraft Field Guide",
+  "landing_text": "$(l:patchouli:chapters/intro#welcome)Begin reading$(/l)$(br)$(br)Survival, travel and exploration on KNCraft.$(br)$(br)Choose a chapter from the Entry Index. Turn pages for the full chapter, or use its opening shortcuts.",
+  "version": 9,
+  "subtitle": "KNCraft | Architecture 0.2",
+  "model": "patchouli:book_cyan",
+  "book_texture": "kncraft:textures/guide/book_teal.png",
+  "crafting_texture": "kncraft:textures/guide/crafting_teal.png",
+  "filler_texture": "kncraft:textures/guide/filler_teal.png",
+  "header_color": "edf7f5",
+  "text_color": "c3d9d8",
+  "link_color": "7ddcda",
+  "link_hover_color": "f2c384",
+  "nameplate_color": "f2c384",
+  "show_progress": false,
+  "use_resource_pack": true,
+  "creative_tab": "minecraft:tools_and_utilities",
+  "dont_generate_book": false
+}
