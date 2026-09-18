@@ -1,0 +1,18 @@
+{
+  "name": "Copper Block",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:copper_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:copper_block",
+      "anchor": "catalog_minecraft_copper_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:copper_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:copper_block": 0
+  }
+}

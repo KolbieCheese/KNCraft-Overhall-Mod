@@ -1,0 +1,18 @@
+{
+  "name": "Stripped Birch Wood",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stripped_birch_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stripped_birch_wood",
+      "anchor": "catalog_minecraft_stripped_birch_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stripped_birch_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stripped_birch_wood": 0
+  }
+}

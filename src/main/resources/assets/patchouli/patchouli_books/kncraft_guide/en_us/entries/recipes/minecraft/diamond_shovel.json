@@ -1,0 +1,29 @@
+{
+  "name": "Diamond Shovel",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:diamond_shovel",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_diamond_shovel_repairing",
+      "input": "minecraft:diamond_shovel",
+      "output": "minecraft:diamond_shovel",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:diamond_shovel_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond_shovel",
+      "anchor": "catalog_minecraft_diamond_shovel",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diamond_shovel"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:diamond_shovel": 0
+  }
+}

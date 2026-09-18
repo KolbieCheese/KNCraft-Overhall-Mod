@@ -1,0 +1,18 @@
+{
+  "name": "Ender Eye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:ender_eye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:ender_eye",
+      "anchor": "catalog_minecraft_ender_eye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:ender_eye"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:ender_eye": 0
+  }
+}

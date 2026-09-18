@@ -1,0 +1,18 @@
+{
+  "name": "Silent tree fence",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:silenttreefence",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:st_3",
+      "anchor": "catalog_callfromthedepth__st_3",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:st_3"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:silenttreefence": 0
+  }
+}

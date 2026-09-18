@@ -1,0 +1,18 @@
+{
+  "name": "Tainted Stone",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_stone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "witherstormmod:tainted_stone",
+      "anchor": "catalog_witherstormmod_tainted_stone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_stone"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_stone": 0
+  }
+}

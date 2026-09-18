@@ -1,0 +1,18 @@
+{
+  "name": "Immemorial boots",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:immemorialarmor_boots",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smithing",
+      "recipe": "callfromthedepth_:immemorialbootscraft",
+      "anchor": "catalog_callfromthedepth__immemorialbootscraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:immemorialbootscraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:immemorialarmor_boots": 0
+  }
+}

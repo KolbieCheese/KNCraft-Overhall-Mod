@@ -1,0 +1,18 @@
+{
+  "name": "Electric Locomotive",
+  "category": "patchouli:recipes/betterminecarts",
+  "icon": "betterminecarts:electric_locomotive",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "betterminecarts:electric_locomotive",
+      "anchor": "catalog_betterminecarts_electric_locomotive",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "betterminecarts:electric_locomotive"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "betterminecarts:electric_locomotive": 0
+  }
+}

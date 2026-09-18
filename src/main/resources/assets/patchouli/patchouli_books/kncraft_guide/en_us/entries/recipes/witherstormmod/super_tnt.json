@@ -1,6 +1,6 @@
 {
   "name": "Super TNT",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/witherstormmod",
   "icon": "witherstormmod:super_tnt",
   "priority": false,
   "sortnum": 0,

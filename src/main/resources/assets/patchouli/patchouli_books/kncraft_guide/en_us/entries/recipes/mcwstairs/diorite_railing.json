@@ -1,0 +1,18 @@
+{
+  "name": "Diorite Railing",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:diorite_railing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:diorite_railing",
+      "anchor": "catalog_mcwstairs_diorite_railing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:diorite_railing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:diorite_railing": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Stonecutter Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:stonecutter_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:stonecutter_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_stonecutter_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:stonecutter_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:stonecutter_upgrade": 0
+  }
+}

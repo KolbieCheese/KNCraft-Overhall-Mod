@@ -1,0 +1,18 @@
+{
+  "name": "Dark Oak Skyline Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:dark_oak_skyline_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:dark_oak_skyline_stairs",
+      "anchor": "catalog_mcwstairs_dark_oak_skyline_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:dark_oak_skyline_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:dark_oak_skyline_stairs": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Deepslate",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:deepslate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:deepslate",
+      "anchor": "catalog_minecraft_deepslate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:deepslate"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:deepslate": 0
+  }
+}

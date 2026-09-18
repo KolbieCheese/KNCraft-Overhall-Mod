@@ -1,0 +1,18 @@
+{
+  "name": "Cherry Pressure Plate",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cherry_pressure_plate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cherry_pressure_plate",
+      "anchor": "catalog_minecraft_cherry_pressure_plate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cherry_pressure_plate"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cherry_pressure_plate": 0
+  }
+}

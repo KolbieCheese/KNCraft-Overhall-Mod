@@ -1,0 +1,22 @@
+{
+  "name": "Healing Stone",
+  "category": "patchouli:cookbook",
+  "icon": "aether:healing_stone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_healing_stone_enchanting",
+      "input": "aether:holystone",
+      "output": "aether:healing_stone",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "aether:healing_stone_enchanting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:healing_stone": 0
+  }
+}

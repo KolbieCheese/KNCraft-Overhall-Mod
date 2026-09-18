@@ -1,0 +1,18 @@
+{
+  "name": "Magenta Concrete Powder",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:magenta_concrete_powder",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magenta_concrete_powder",
+      "anchor": "catalog_minecraft_magenta_concrete_powder",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:magenta_concrete_powder"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:magenta_concrete_powder": 0
+  }
+}

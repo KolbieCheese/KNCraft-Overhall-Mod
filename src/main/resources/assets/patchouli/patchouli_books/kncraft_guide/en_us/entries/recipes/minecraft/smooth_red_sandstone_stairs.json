@@ -1,0 +1,25 @@
+{
+  "name": "Smooth Red Sandstone Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:smooth_red_sandstone_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smooth_red_sandstone_stairs",
+      "anchor": "catalog_minecraft_smooth_red_sandstone_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:smooth_red_sandstone_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:smooth_red_sandstone_stairs_from_smooth_red_sandstone_stonecutting",
+      "anchor": "catalog_minecraft_smooth_red_sandstone_stairs_from_smooth_red_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:smooth_red_sandstone_stairs_from_smooth_red_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:smooth_red_sandstone_stairs": 0
+  }
+}

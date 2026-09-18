@@ -1,0 +1,53 @@
+{
+  "name": "Magenta Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:magenta_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:magenta_dye_from_wildflower",
+      "anchor": "catalog_biomesoplenty_magenta_dye_from_wildflower",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:magenta_dye_from_wildflower"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magenta_dye_from_allium",
+      "anchor": "catalog_minecraft_magenta_dye_from_allium",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:magenta_dye_from_allium"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magenta_dye_from_blue_red_pink",
+      "anchor": "catalog_minecraft_magenta_dye_from_blue_red_pink",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:magenta_dye_from_blue_red_pink"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magenta_dye_from_blue_red_white_dye",
+      "anchor": "catalog_minecraft_magenta_dye_from_blue_red_white_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:magenta_dye_from_blue_red_white_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magenta_dye_from_lilac",
+      "anchor": "catalog_minecraft_magenta_dye_from_lilac",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:magenta_dye_from_lilac"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magenta_dye_from_purple_and_pink",
+      "anchor": "catalog_minecraft_magenta_dye_from_purple_and_pink",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:magenta_dye_from_purple_and_pink"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:magenta_dye": 0
+  }
+}

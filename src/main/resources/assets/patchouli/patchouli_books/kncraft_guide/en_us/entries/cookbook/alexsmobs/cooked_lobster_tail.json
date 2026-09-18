@@ -1,0 +1,41 @@
+{
+  "name": "Cooked Lobster Tail",
+  "category": "patchouli:cookbook",
+  "icon": "alexsmobs:cooked_lobster_tail",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "alexsmobs:cooked_lobster_tail",
+      "anchor": "catalog_alexsmobs_cooked_lobster_tail",
+      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:cooked_lobster_tail"
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: +0.1 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "fallback": "Pack default: +0.1 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "reference": "food/alexsmobs:cooked_lobster_tail",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "alexsmobs:cooked_lobster_tail_campfire",
+      "anchor": "catalog_alexsmobs_cooked_lobster_tail_campfire",
+      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:cooked_lobster_tail_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "alexsmobs:cooked_lobster_tail_smoke",
+      "anchor": "catalog_alexsmobs_cooked_lobster_tail_smoke",
+      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:cooked_lobster_tail_smoke"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:cooked_lobster_tail": 0
+  }
+}

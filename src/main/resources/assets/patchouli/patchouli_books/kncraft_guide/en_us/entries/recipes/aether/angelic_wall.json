@@ -1,0 +1,25 @@
+{
+  "name": "Angelic Wall",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:angelic_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:angelic_wall",
+      "anchor": "catalog_aether_angelic_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:angelic_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:angelic_wall_from_angelic_stone_stonecutting",
+      "anchor": "catalog_aether_angelic_wall_from_angelic_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:angelic_wall_from_angelic_stone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:angelic_wall": 0
+  }
+}

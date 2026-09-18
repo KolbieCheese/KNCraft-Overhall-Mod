@@ -1,0 +1,25 @@
+{
+  "name": "Blue Sleeping Bag",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:sleeping_bag_blue",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_blue",
+      "anchor": "catalog_comforts_sleeping_bag_blue",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_blue"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_to_blue",
+      "anchor": "catalog_comforts_sleeping_bag_to_blue",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_to_blue"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:sleeping_bag_blue": 0
+  }
+}

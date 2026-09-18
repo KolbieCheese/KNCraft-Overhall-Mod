@@ -1,0 +1,18 @@
+{
+  "name": "Willow Stairs",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:willow_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:willow_stairs",
+      "anchor": "catalog_biomesoplenty_willow_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:willow_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:willow_stairs": 0
+  }
+}

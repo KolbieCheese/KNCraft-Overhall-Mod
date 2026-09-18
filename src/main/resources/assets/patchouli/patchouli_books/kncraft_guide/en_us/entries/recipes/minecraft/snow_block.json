@@ -1,0 +1,18 @@
+{
+  "name": "Snow Block",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:snow_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:snow_block",
+      "anchor": "catalog_minecraft_snow_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:snow_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:snow_block": 0
+  }
+}

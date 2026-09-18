@@ -1,0 +1,18 @@
+{
+  "name": "Fermented Spider Eye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:fermented_spider_eye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fermented_spider_eye",
+      "anchor": "catalog_minecraft_fermented_spider_eye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:fermented_spider_eye": 0
+  }
+}

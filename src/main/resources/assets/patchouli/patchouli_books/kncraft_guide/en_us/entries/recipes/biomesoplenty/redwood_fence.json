@@ -1,0 +1,18 @@
+{
+  "name": "Redwood Fence",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:redwood_fence",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:redwood_fence",
+      "anchor": "catalog_biomesoplenty_redwood_fence",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:redwood_fence"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:redwood_fence": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Leather Helmet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:leather_helmet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_leather_helmet_repairing",
+      "input": "minecraft:leather_helmet",
+      "output": "minecraft:leather_helmet",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:leather_helmet_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:leather_helmet",
+      "anchor": "catalog_minecraft_leather_helmet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:leather_helmet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:leather_helmet": 0
+  }
+}

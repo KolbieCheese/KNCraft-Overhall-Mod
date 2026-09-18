@@ -1,0 +1,7 @@
+{
+  "name": "Cold Sweat",
+  "parent": "patchouli:recipes",
+  "description": "Cold Sweat equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "cold_sweat:hearth",
+  "sortnum": 0
+}

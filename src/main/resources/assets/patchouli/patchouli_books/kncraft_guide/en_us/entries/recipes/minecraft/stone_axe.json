@@ -1,0 +1,29 @@
+{
+  "name": "Stone Axe",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stone_axe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_stone_axe_repairing",
+      "input": "minecraft:stone_axe",
+      "output": "minecraft:stone_axe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:stone_axe_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_axe",
+      "anchor": "catalog_minecraft_stone_axe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stone_axe"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stone_axe": 0
+  }
+}

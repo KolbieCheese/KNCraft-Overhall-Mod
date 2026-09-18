@@ -1,0 +1,25 @@
+{
+  "name": "Brown Wool",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:brown_wool",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:bison_fur_to_wool",
+      "anchor": "catalog_alexsmobs_bison_fur_to_wool",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:bison_fur_to_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_brown_wool",
+      "anchor": "catalog_minecraft_dye_brown_wool",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_brown_wool"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:brown_wool": 0
+  }
+}

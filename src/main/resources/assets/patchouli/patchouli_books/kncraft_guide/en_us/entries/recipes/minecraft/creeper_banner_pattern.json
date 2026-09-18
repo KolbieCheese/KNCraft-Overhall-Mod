@@ -1,0 +1,18 @@
+{
+  "name": "Creeper Banner Pattern",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:creeper_banner_pattern",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:creeper_banner_pattern",
+      "anchor": "catalog_minecraft_creeper_banner_pattern",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:creeper_banner_pattern"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:creeper_banner_pattern": 0
+  }
+}

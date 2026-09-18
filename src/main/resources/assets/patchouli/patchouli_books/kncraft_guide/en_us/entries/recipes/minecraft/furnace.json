@@ -1,0 +1,25 @@
+{
+  "name": "Furnace",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:furnace",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:furnacedepthscraft",
+      "anchor": "catalog_callfromthedepth__furnacedepthscraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:furnacedepthscraft"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:furnace",
+      "anchor": "catalog_minecraft_furnace",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:furnace"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:furnace": 0
+  }
+}

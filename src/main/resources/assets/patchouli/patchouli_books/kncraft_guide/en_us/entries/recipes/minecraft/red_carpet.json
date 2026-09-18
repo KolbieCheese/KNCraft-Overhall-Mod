@@ -1,0 +1,25 @@
+{
+  "name": "Red Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:red_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_red_carpet",
+      "anchor": "catalog_minecraft_dye_red_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_red_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_carpet",
+      "anchor": "catalog_minecraft_red_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:red_carpet": 0
+  }
+}

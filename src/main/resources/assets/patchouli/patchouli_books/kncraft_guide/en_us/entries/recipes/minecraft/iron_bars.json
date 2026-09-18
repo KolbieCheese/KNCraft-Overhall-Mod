@@ -1,0 +1,18 @@
+{
+  "name": "Iron Bars",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_bars",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_bars",
+      "anchor": "catalog_minecraft_iron_bars",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_bars"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_bars": 0
+  }
+}

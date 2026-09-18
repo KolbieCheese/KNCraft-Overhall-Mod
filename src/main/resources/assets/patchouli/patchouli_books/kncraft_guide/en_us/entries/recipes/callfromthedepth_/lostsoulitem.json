@@ -1,0 +1,18 @@
+{
+  "name": "Soul shard",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:lostsoulitem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "callfromthedepth_:soulsmelting",
+      "anchor": "catalog_callfromthedepth__soulsmelting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:soulsmelting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:lostsoulitem": 0
+  }
+}

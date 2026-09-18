@@ -1,0 +1,25 @@
+{
+  "name": "Cobblestone Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cobblestone_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cobblestone_slab",
+      "anchor": "catalog_minecraft_cobblestone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cobblestone_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:cobblestone_slab_from_cobblestone_stonecutting",
+      "anchor": "catalog_minecraft_cobblestone_slab_from_cobblestone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cobblestone_slab_from_cobblestone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cobblestone_slab": 0
+  }
+}

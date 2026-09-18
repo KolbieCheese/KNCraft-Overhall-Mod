@@ -1,0 +1,18 @@
+{
+  "name": "Heavy Weighted Pressure Plate",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:heavy_weighted_pressure_plate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:heavy_weighted_pressure_plate",
+      "anchor": "catalog_minecraft_heavy_weighted_pressure_plate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:heavy_weighted_pressure_plate"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:heavy_weighted_pressure_plate": 0
+  }
+}

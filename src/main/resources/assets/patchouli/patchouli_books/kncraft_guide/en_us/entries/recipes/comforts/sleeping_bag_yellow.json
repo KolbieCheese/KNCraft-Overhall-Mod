@@ -1,0 +1,25 @@
+{
+  "name": "Yellow Sleeping Bag",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:sleeping_bag_yellow",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_to_yellow",
+      "anchor": "catalog_comforts_sleeping_bag_to_yellow",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_to_yellow"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_yellow",
+      "anchor": "catalog_comforts_sleeping_bag_yellow",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_yellow"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:sleeping_bag_yellow": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Cyan Candle",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cyan_candle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cyan_candle",
+      "anchor": "catalog_minecraft_cyan_candle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cyan_candle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cyan_candle": 0
+  }
+}

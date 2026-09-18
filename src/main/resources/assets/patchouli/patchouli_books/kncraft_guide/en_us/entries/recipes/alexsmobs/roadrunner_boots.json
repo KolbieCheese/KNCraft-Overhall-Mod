@@ -1,0 +1,18 @@
+{
+  "name": "Roadrunner Boots",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:roadrunner_boots",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:roadrunner_boots",
+      "anchor": "catalog_alexsmobs_roadrunner_boots",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:roadrunner_boots"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:roadrunner_boots": 0
+  }
+}

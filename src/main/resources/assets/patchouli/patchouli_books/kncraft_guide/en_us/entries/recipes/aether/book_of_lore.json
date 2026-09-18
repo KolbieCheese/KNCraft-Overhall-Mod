@@ -1,0 +1,18 @@
+{
+  "name": "Book of Lore",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:book_of_lore",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:book_of_lore",
+      "anchor": "catalog_aether_book_of_lore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:book_of_lore"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:book_of_lore": 0
+  }
+}

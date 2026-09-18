@@ -1,0 +1,29 @@
+{
+  "name": "Holystone Axe",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:holystone_axe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:holystone_axe",
+      "anchor": "catalog_aether_holystone_axe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:holystone_axe"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_holystone_axe_repairing",
+      "input": "aether:holystone_axe",
+      "output": "aether:holystone_axe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:holystone_axe_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:holystone_axe": 0
+  }
+}

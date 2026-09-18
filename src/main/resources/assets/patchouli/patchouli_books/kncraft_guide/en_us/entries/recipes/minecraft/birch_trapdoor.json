@@ -1,0 +1,18 @@
+{
+  "name": "Birch Trapdoor",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:birch_trapdoor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_trapdoor",
+      "anchor": "catalog_minecraft_birch_trapdoor",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:birch_trapdoor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:birch_trapdoor": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Arrowroot Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:arrowrootseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:arrowrootseeditem",
+      "anchor": "catalog_pamhc2crops_arrowrootseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:arrowrootseeditem"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:sunchokeseeditem",
+      "anchor": "catalog_pamhc2crops_sunchokeseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:sunchokeseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:arrowrootseeditem": 0
+  }
+}

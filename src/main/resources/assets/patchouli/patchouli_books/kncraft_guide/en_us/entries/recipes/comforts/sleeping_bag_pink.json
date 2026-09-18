@@ -1,0 +1,25 @@
+{
+  "name": "Pink Sleeping Bag",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:sleeping_bag_pink",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_pink",
+      "anchor": "catalog_comforts_sleeping_bag_pink",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_pink"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_to_pink",
+      "anchor": "catalog_comforts_sleeping_bag_to_pink",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_to_pink"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:sleeping_bag_pink": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Redstone Lamp",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:redstone_lamp",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_lamp",
+      "anchor": "catalog_minecraft_redstone_lamp",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:redstone_lamp"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:redstone_lamp": 0
+  }
+}

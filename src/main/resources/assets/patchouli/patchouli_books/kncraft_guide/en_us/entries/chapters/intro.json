@@ -133,7 +133,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Values from your server",
-      "body": "Thermal-food and selected insulation pages request current server definitions while open. They label pack defaults while waiting. Values describe a plain item under your current conditions; item data and other modifiers may change the result.",
+      "body": "Recipes groups non-food crafting by mod. Cook Book holds food and drinks. Thermal recipes print pack defaults below the diagram; turn pages for current server values. Server settings, special item data and conditions can change the effect.",
       "anchor": "kncraft_server_values",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/intro)Chapter$(/l)"
     },

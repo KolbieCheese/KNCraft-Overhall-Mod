@@ -1,0 +1,25 @@
+{
+  "name": "Smithing Table",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:smithing_table",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_smithing_table",
+      "anchor": "catalog_aether_skyroot_smithing_table",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_smithing_table"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smithing_table",
+      "anchor": "catalog_minecraft_smithing_table",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:smithing_table"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:smithing_table": 0
+  }
+}

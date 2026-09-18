@@ -1,0 +1,25 @@
+{
+  "name": "Magenta Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:magenta_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_magenta_bed",
+      "anchor": "catalog_minecraft_dye_magenta_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_magenta_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magenta_bed",
+      "anchor": "catalog_minecraft_magenta_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:magenta_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:magenta_bed": 0
+  }
+}

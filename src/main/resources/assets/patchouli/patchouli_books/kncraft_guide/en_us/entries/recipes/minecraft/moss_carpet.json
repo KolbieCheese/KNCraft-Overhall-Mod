@@ -1,0 +1,18 @@
+{
+  "name": "Moss Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:moss_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:moss_carpet",
+      "anchor": "catalog_minecraft_moss_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:moss_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:moss_carpet": 0
+  }
+}

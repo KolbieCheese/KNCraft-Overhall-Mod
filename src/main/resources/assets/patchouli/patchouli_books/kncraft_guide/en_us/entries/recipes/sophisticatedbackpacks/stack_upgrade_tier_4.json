@@ -1,0 +1,18 @@
+{
+  "name": "Stack Upgrade Tier 4",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:stack_upgrade_tier_4",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:stack_upgrade_tier_4",
+      "anchor": "catalog_sophisticatedbackpacks_stack_upgrade_tier_4",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:stack_upgrade_tier_4"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:stack_upgrade_tier_4": 0
+  }
+}

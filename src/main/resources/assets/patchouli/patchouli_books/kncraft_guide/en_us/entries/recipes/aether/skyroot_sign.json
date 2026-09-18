@@ -1,0 +1,18 @@
+{
+  "name": "Skyroot Sign",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:skyroot_sign",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_sign",
+      "anchor": "catalog_aether_skyroot_sign",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_sign"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:skyroot_sign": 0
+  }
+}

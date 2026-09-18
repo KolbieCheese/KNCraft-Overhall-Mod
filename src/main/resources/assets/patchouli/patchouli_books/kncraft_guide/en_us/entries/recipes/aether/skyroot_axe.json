@@ -1,0 +1,29 @@
+{
+  "name": "Skyroot Axe",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:skyroot_axe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_axe",
+      "anchor": "catalog_aether_skyroot_axe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_axe"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_skyroot_axe_repairing",
+      "input": "aether:skyroot_axe",
+      "output": "aether:skyroot_axe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_axe_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:skyroot_axe": 0
+  }
+}

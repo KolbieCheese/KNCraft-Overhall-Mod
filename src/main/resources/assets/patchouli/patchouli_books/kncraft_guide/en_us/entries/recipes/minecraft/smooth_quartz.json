@@ -1,0 +1,18 @@
+{
+  "name": "Smooth Quartz",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:smooth_quartz",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:smooth_quartz",
+      "anchor": "catalog_minecraft_smooth_quartz",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:smooth_quartz"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:smooth_quartz": 0
+  }
+}

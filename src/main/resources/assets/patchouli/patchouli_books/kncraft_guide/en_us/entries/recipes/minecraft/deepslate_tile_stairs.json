@@ -1,0 +1,46 @@
+{
+  "name": "Deepslate Tile Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:deepslate_tile_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:deepslate_tile_stairs",
+      "anchor": "catalog_minecraft_deepslate_tile_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:deepslate_tile_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:deepslate_tile_stairs_from_cobbled_deepslate_stonecutting",
+      "anchor": "catalog_minecraft_deepslate_tile_stairs_from_cobbled_deepslate_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:deepslate_tile_stairs_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:deepslate_tile_stairs_from_deepslate_bricks_stonecutting",
+      "anchor": "catalog_minecraft_deepslate_tile_stairs_from_deepslate_bricks_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:deepslate_tile_stairs_from_deepslate_bricks_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:deepslate_tile_stairs_from_deepslate_tiles_stonecutting",
+      "anchor": "catalog_minecraft_deepslate_tile_stairs_from_deepslate_tiles_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:deepslate_tile_stairs_from_deepslate_tiles_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:deepslate_tile_stairs_from_polished_deepslate_stonecutting",
+      "anchor": "catalog_minecraft_deepslate_tile_stairs_from_polished_deepslate_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:deepslate_tile_stairs_from_polished_deepslate_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:deepslate_tile_stairs": 0
+  }
+}

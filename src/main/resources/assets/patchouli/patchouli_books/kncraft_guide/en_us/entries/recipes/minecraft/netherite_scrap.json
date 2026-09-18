@@ -1,0 +1,25 @@
+{
+  "name": "Netherite Scrap",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:netherite_scrap",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:netherite_scrap",
+      "anchor": "catalog_minecraft_netherite_scrap",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:netherite_scrap"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:netherite_scrap_from_blasting",
+      "anchor": "catalog_minecraft_netherite_scrap_from_blasting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:netherite_scrap_from_blasting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:netherite_scrap": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Jukebox",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:jukebox",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:gravitite_jukebox",
+      "anchor": "catalog_aether_gravitite_jukebox",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_jukebox"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_gravitite_jukebox",
+      "anchor": "catalog_aether_skyroot_gravitite_jukebox",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_gravitite_jukebox"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_jukebox",
+      "anchor": "catalog_aether_skyroot_jukebox",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_jukebox"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jukebox",
+      "anchor": "catalog_minecraft_jukebox",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:jukebox"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:jukebox": 0
+  }
+}

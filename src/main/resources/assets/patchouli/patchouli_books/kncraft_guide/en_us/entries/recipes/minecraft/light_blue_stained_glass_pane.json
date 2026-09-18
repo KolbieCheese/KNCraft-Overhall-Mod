@@ -1,0 +1,25 @@
+{
+  "name": "Light Blue Stained Glass Pane",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:light_blue_stained_glass_pane",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_stained_glass_pane",
+      "anchor": "catalog_minecraft_light_blue_stained_glass_pane",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_blue_stained_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_stained_glass_pane_from_glass_pane",
+      "anchor": "catalog_minecraft_light_blue_stained_glass_pane_from_glass_pane",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_blue_stained_glass_pane_from_glass_pane"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:light_blue_stained_glass_pane": 0
+  }
+}

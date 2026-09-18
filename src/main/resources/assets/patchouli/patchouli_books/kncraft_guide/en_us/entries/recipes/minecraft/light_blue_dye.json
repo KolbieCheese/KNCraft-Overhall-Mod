@@ -1,0 +1,39 @@
+{
+  "name": "Light Blue Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:light_blue_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:light_blue_dye_from_blue_hydrangea",
+      "anchor": "catalog_biomesoplenty_light_blue_dye_from_blue_hydrangea",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:light_blue_dye_from_blue_hydrangea"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:light_blue_dye_from_icy_iris",
+      "anchor": "catalog_biomesoplenty_light_blue_dye_from_icy_iris",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:light_blue_dye_from_icy_iris"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_dye_from_blue_orchid",
+      "anchor": "catalog_minecraft_light_blue_dye_from_blue_orchid",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_blue_dye_from_blue_orchid"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_dye_from_blue_white_dye",
+      "anchor": "catalog_minecraft_light_blue_dye_from_blue_white_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_blue_dye_from_blue_white_dye"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:light_blue_dye": 0
+  }
+}

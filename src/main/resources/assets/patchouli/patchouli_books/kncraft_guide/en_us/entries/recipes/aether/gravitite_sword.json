@@ -1,0 +1,29 @@
+{
+  "name": "Gravitite Sword",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:gravitite_sword",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:gravitite_sword",
+      "anchor": "catalog_aether_gravitite_sword",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_sword"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_gravitite_sword_repairing",
+      "input": "aether:gravitite_sword",
+      "output": "aether:gravitite_sword",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_sword_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:gravitite_sword": 0
+  }
+}

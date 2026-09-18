@@ -1,0 +1,46 @@
+{
+  "name": "Orange Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:orange_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:orange_dye_from_burning_blossom",
+      "anchor": "catalog_biomesoplenty_orange_dye_from_burning_blossom",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:orange_dye_from_burning_blossom"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:orange_dye_from_orange_cosmos",
+      "anchor": "catalog_biomesoplenty_orange_dye_from_orange_cosmos",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:orange_dye_from_orange_cosmos"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_dye_from_orange_tulip",
+      "anchor": "catalog_minecraft_orange_dye_from_orange_tulip",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:orange_dye_from_orange_tulip"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_dye_from_red_yellow",
+      "anchor": "catalog_minecraft_orange_dye_from_red_yellow",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:orange_dye_from_red_yellow"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_dye_from_torchflower",
+      "anchor": "catalog_minecraft_orange_dye_from_torchflower",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:orange_dye_from_torchflower"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:orange_dye": 0
+  }
+}

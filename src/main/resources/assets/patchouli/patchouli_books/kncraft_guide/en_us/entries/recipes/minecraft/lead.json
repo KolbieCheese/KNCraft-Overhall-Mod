@@ -1,0 +1,25 @@
+{
+  "name": "Lead",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:lead",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:swet_lead",
+      "anchor": "catalog_aether_swet_lead",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:swet_lead"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lead",
+      "anchor": "catalog_minecraft_lead",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lead"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:lead": 0
+  }
+}

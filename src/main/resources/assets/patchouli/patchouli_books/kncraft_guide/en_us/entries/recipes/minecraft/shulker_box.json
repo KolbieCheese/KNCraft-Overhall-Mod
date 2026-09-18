@@ -1,0 +1,18 @@
+{
+  "name": "Shulker Box",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:shulker_box",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shulker_box",
+      "anchor": "catalog_minecraft_shulker_box",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:shulker_box"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:shulker_box": 0
+  }
+}

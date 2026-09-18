@@ -1,0 +1,18 @@
+{
+  "name": "Oak Balcony",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:oak_balcony",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:oak_balcony",
+      "anchor": "catalog_mcwstairs_oak_balcony",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:oak_balcony"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:oak_balcony": 0
+  }
+}

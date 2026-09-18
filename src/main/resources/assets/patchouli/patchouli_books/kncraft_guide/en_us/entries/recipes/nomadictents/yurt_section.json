@@ -1,0 +1,18 @@
+{
+  "name": "Yurt Wall Section",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:yurt_section",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:yurt_section",
+      "anchor": "catalog_nomadictents_yurt_section",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:yurt_section"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:yurt_section": 0
+  }
+}

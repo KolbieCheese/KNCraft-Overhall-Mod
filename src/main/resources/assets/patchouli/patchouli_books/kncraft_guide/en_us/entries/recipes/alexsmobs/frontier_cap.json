@@ -1,6 +1,6 @@
 {
   "name": "Frontier Cap",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/alexsmobs",
   "icon": "alexsmobs:frontier_cap",
   "pages": [
     {
@@ -39,6 +39,24 @@
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)",
       "reference": "armor/alexsmobs:frontier_cap",
       "fallback": "3 cold / 1 heat insulation. Server settings and item conditions take precedence."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:frontier_cap_alt",
+      "anchor": "catalog_alexsmobs_frontier_cap_alt",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:frontier_cap_alt"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_kncraft_frontier_cap_altar_repair",
+      "input": "alexsmobs:frontier_cap",
+      "output": "alexsmobs:frontier_cap",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "kncraft:frontier_cap_altar_repair"
     }
   ],
   "extra_recipe_mappings": {

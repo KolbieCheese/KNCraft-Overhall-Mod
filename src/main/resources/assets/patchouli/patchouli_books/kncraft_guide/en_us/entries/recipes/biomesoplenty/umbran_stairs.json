@@ -1,0 +1,18 @@
+{
+  "name": "Umbran Stairs",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:umbran_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:umbran_stairs",
+      "anchor": "catalog_biomesoplenty_umbran_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:umbran_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:umbran_stairs": 0
+  }
+}

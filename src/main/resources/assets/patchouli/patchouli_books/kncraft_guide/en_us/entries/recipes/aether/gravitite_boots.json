@@ -1,0 +1,29 @@
+{
+  "name": "Gravitite Boots",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:gravitite_boots",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:gravitite_boots",
+      "anchor": "catalog_aether_gravitite_boots",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_boots"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_gravitite_boots_repairing",
+      "input": "aether:gravitite_boots",
+      "output": "aether:gravitite_boots",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_boots_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:gravitite_boots": 0
+  }
+}

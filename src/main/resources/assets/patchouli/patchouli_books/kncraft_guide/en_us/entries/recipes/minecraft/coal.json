@@ -1,0 +1,46 @@
+{
+  "name": "Coal",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:coal",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:coal",
+      "anchor": "catalog_minecraft_coal",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:coal"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:coal_from_blasting_coal_ore",
+      "anchor": "catalog_minecraft_coal_from_blasting_coal_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:coal_from_blasting_coal_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:coal_from_blasting_deepslate_coal_ore",
+      "anchor": "catalog_minecraft_coal_from_blasting_deepslate_coal_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:coal_from_blasting_deepslate_coal_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:coal_from_smelting_coal_ore",
+      "anchor": "catalog_minecraft_coal_from_smelting_coal_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:coal_from_smelting_coal_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:coal_from_smelting_deepslate_coal_ore",
+      "anchor": "catalog_minecraft_coal_from_smelting_deepslate_coal_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:coal_from_smelting_deepslate_coal_ore"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:coal": 0
+  }
+}

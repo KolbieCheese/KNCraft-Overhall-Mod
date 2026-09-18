@@ -1,0 +1,7 @@
+{
+  "name": "Alex's Mobs",
+  "parent": "patchouli:recipes",
+  "description": "Alex's Mobs equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "alexsmobs:animal_dictionary",
+  "sortnum": 0
+}

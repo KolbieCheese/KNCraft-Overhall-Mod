@@ -1,0 +1,18 @@
+{
+  "name": "Acacia Pressure Plate",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:acacia_pressure_plate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:acacia_pressure_plate",
+      "anchor": "catalog_minecraft_acacia_pressure_plate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:acacia_pressure_plate"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:acacia_pressure_plate": 0
+  }
+}

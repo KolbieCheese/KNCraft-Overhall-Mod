@@ -1,0 +1,25 @@
+{
+  "name": "Note Block",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:note_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_note_block",
+      "anchor": "catalog_aether_skyroot_note_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_note_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:note_block",
+      "anchor": "catalog_minecraft_note_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:note_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:note_block": 0
+  }
+}

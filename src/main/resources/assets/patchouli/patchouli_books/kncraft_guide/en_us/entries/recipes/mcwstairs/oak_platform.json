@@ -1,0 +1,18 @@
+{
+  "name": "Oak Platform",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:oak_platform",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:oak_platform",
+      "anchor": "catalog_mcwstairs_oak_platform",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:oak_platform"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:oak_platform": 0
+  }
+}

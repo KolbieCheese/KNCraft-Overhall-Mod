@@ -1,0 +1,18 @@
+{
+  "name": "Bone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:bone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:bob",
+      "anchor": "catalog_callfromthedepth__bob",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:bob"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:bone": 0
+  }
+}

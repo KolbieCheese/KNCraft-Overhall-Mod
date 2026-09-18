@@ -1,0 +1,25 @@
+{
+  "name": "Orange Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:orange_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_orange_bed",
+      "anchor": "catalog_minecraft_dye_orange_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_orange_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_bed",
+      "anchor": "catalog_minecraft_orange_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:orange_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:orange_bed": 0
+  }
+}

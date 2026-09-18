@@ -1,0 +1,18 @@
+{
+  "name": "Raspberry Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:raspberryseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:raspberryseeditem",
+      "anchor": "catalog_pamhc2crops_raspberryseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:raspberryseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:raspberryseeditem": 0
+  }
+}

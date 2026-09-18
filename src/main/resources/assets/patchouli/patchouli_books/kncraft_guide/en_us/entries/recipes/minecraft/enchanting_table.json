@@ -1,0 +1,18 @@
+{
+  "name": "Enchanting Table",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:enchanting_table",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:enchanting_table",
+      "anchor": "catalog_minecraft_enchanting_table",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:enchanting_table"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:enchanting_table": 0
+  }
+}

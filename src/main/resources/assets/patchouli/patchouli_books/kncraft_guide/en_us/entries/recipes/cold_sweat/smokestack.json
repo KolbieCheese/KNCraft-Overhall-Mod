@@ -1,6 +1,6 @@
 {
   "name": "Smokestack",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/cold_sweat",
   "icon": "cold_sweat:smokestack",
   "priority": false,
   "sortnum": 0,

@@ -1,0 +1,18 @@
+{
+  "name": "Stack Upgrade Starter Tier",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:stack_upgrade_starter_tier",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:stack_upgrade_starter_tier",
+      "anchor": "catalog_sophisticatedbackpacks_stack_upgrade_starter_tier",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:stack_upgrade_starter_tier"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:stack_upgrade_starter_tier": 0
+  }
+}

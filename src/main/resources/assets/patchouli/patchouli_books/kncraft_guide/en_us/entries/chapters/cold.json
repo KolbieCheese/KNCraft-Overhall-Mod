@@ -231,7 +231,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Carry climate provisions",
-      "body": "Pack defaults: Hot tea, coffee and nettle tea warm for 60 seconds; carrot soup, potato soup and stew for 90. Melon smoothie and ice cream cool for 60; apple juice for 30. See $(l:patchouli:chapters/food#kncraft_thermal_meals)Pam's chapter$(/l) and each Cook Book page.",
+      "body": "Pack defaults: soups and stews warm for 90 seconds; hot drinks for 60. Smoothies and frozen desserts cool for 60; juices, yogurt and salads for 30. Selected cooked meals warm gently for 60. Read each Cook Book recipe for strength and current server values.",
       "anchor": "kncraft_meals",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
     },

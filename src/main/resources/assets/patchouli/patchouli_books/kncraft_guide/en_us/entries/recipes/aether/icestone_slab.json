@@ -1,0 +1,25 @@
+{
+  "name": "Icestone Slab",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:icestone_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:icestone_slab",
+      "anchor": "catalog_aether_icestone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:icestone_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:icestone_slab_from_icestone_stonecutting",
+      "anchor": "catalog_aether_icestone_slab_from_icestone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:icestone_slab_from_icestone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:icestone_slab": 0
+  }
+}

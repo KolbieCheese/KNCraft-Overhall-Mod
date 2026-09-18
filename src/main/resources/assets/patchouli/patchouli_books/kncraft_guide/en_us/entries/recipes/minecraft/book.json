@@ -1,0 +1,18 @@
+{
+  "name": "Book",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:book",
+      "anchor": "catalog_minecraft_book",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:book"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:book": 0
+  }
+}

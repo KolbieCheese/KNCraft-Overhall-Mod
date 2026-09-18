@@ -1,0 +1,25 @@
+{
+  "name": "Dark Prismarine Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:dark_prismarine_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_prismarine_slab",
+      "anchor": "catalog_minecraft_dark_prismarine_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dark_prismarine_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:dark_prismarine_slab_from_dark_prismarine_stonecutting",
+      "anchor": "catalog_minecraft_dark_prismarine_slab_from_dark_prismarine_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dark_prismarine_slab_from_dark_prismarine_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:dark_prismarine_slab": 0
+  }
+}

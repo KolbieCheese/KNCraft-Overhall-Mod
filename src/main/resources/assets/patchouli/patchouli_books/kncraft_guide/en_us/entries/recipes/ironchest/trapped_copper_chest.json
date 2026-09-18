@@ -1,0 +1,18 @@
+{
+  "name": "Trapped Copper Chest",
+  "category": "patchouli:recipes/ironchest",
+  "icon": "ironchest:trapped_copper_chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ironchest:chests/trapped_copper_chest",
+      "anchor": "catalog_ironchest_chests_trapped_copper_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ironchest:chests/trapped_copper_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ironchest:trapped_copper_chest": 0
+  }
+}

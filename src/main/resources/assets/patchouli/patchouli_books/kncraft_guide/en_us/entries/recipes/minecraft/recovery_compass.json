@@ -1,0 +1,18 @@
+{
+  "name": "Recovery Compass",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:recovery_compass",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:recovery_compass",
+      "anchor": "catalog_minecraft_recovery_compass",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:recovery_compass"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:recovery_compass": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Umbran Door",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:umbran_door",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:umbran_door",
+      "anchor": "catalog_biomesoplenty_umbran_door",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:umbran_door"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:umbran_door": 0
+  }
+}

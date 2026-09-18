@@ -1,0 +1,18 @@
+{
+  "name": "Skyroot Bed",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:skyroot_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_bed",
+      "anchor": "catalog_aether_skyroot_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:skyroot_bed": 0
+  }
+}

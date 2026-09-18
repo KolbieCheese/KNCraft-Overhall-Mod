@@ -1,0 +1,18 @@
+{
+  "name": "Chickpea Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:chickpeaseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:chickpeaseeditem",
+      "anchor": "catalog_pamhc2crops_chickpeaseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:chickpeaseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:chickpeaseeditem": 0
+  }
+}

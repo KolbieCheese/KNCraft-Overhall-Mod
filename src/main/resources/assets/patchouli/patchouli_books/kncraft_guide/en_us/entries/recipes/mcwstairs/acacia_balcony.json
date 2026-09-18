@@ -1,0 +1,18 @@
+{
+  "name": "Acacia Balcony",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:acacia_balcony",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:acacia_balcony",
+      "anchor": "catalog_mcwstairs_acacia_balcony",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:acacia_balcony"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:acacia_balcony": 0
+  }
+}

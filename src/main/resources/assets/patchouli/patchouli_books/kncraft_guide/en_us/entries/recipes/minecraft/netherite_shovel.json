@@ -1,0 +1,29 @@
+{
+  "name": "Netherite Shovel",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:netherite_shovel",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_netherite_shovel_repairing",
+      "input": "minecraft:netherite_shovel",
+      "output": "minecraft:netherite_shovel",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:netherite_shovel_repairing"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "minecraft:netherite_shovel_smithing",
+      "anchor": "catalog_minecraft_netherite_shovel_smithing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:netherite_shovel_smithing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:netherite_shovel": 0
+  }
+}

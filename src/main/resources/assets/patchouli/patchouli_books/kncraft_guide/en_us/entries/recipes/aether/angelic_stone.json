@@ -1,0 +1,32 @@
+{
+  "name": "Angelic Stone",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:angelic_stone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:angelic_stone_from_light_angelic_stone_stonecutting",
+      "anchor": "catalog_aether_angelic_stone_from_light_angelic_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:angelic_stone_from_light_angelic_stone_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:angelic_stone_from_pillar_stonecutting",
+      "anchor": "catalog_aether_angelic_stone_from_pillar_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:angelic_stone_from_pillar_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:angelic_stone_from_pillar_top_stonecutting",
+      "anchor": "catalog_aether_angelic_stone_from_pillar_top_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:angelic_stone_from_pillar_top_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:angelic_stone": 0
+  }
+}

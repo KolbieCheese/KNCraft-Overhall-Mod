@@ -1,0 +1,25 @@
+{
+  "name": "Dropper",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:dropper",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dropper",
+      "anchor": "catalog_minecraft_dropper",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dropper"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terralith:dropper_alt",
+      "anchor": "catalog_terralith_dropper_alt",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "terralith:dropper_alt"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:dropper": 0
+  }
+}

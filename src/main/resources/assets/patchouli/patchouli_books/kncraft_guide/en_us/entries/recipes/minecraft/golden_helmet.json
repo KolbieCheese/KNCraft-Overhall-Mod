@@ -1,0 +1,29 @@
+{
+  "name": "Golden Helmet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:golden_helmet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_golden_helmet_repairing",
+      "input": "minecraft:golden_helmet",
+      "output": "minecraft:golden_helmet",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:golden_helmet_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_helmet",
+      "anchor": "catalog_minecraft_golden_helmet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:golden_helmet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:golden_helmet": 0
+  }
+}

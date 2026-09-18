@@ -1,0 +1,25 @@
+{
+  "name": "Cyan Stained Glass Pane",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cyan_stained_glass_pane",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cyan_stained_glass_pane",
+      "anchor": "catalog_minecraft_cyan_stained_glass_pane",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cyan_stained_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cyan_stained_glass_pane_from_glass_pane",
+      "anchor": "catalog_minecraft_cyan_stained_glass_pane_from_glass_pane",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cyan_stained_glass_pane_from_glass_pane"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cyan_stained_glass_pane": 0
+  }
+}

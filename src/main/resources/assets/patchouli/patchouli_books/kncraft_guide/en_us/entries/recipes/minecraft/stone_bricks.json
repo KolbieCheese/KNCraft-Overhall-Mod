@@ -1,0 +1,25 @@
+{
+  "name": "Stone Bricks",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stone_bricks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_bricks",
+      "anchor": "catalog_minecraft_stone_bricks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stone_bricks"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:stone_bricks_from_stone_stonecutting",
+      "anchor": "catalog_minecraft_stone_bricks_from_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stone_bricks_from_stone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stone_bricks": 0
+  }
+}

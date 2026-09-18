@@ -1,0 +1,25 @@
+{
+  "name": "Red Sandstone Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:red_sandstone_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_sandstone_slab",
+      "anchor": "catalog_minecraft_red_sandstone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_sandstone_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:red_sandstone_slab_from_red_sandstone_stonecutting",
+      "anchor": "catalog_minecraft_red_sandstone_slab_from_red_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_sandstone_slab_from_red_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:red_sandstone_slab": 0
+  }
+}

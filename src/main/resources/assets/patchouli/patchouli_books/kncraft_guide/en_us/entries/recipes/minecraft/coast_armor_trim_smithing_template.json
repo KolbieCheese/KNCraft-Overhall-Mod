@@ -1,0 +1,18 @@
+{
+  "name": "Coast Armor Trim Smithing Template",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:coast_armor_trim_smithing_template",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:coast_armor_trim_smithing_template",
+      "anchor": "catalog_minecraft_coast_armor_trim_smithing_template",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:coast_armor_trim_smithing_template"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:coast_armor_trim_smithing_template": 0
+  }
+}

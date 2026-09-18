@@ -1,0 +1,25 @@
+{
+  "name": "Tepee Wall Section",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:tepee_section",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:tepee_section",
+      "anchor": "catalog_nomadictents_tepee_section",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:tepee_section"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:tepee_section2",
+      "anchor": "catalog_nomadictents_tepee_section2",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:tepee_section2"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:tepee_section": 0
+  }
+}

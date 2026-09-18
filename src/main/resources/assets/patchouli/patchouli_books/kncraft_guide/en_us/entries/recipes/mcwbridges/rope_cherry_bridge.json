@@ -1,0 +1,25 @@
+{
+  "name": "Rope Cherry Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:rope_cherry_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:cherry_rope_bridge_stair_recycle",
+      "anchor": "catalog_mcwbridges_cherry_rope_bridge_stair_recycle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:cherry_rope_bridge_stair_recycle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:rope_cherry_bridge",
+      "anchor": "catalog_mcwbridges_rope_cherry_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:rope_cherry_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:rope_cherry_bridge": 0
+  }
+}

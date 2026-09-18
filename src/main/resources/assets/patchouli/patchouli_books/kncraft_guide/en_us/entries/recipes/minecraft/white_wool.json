@@ -1,0 +1,25 @@
+{
+  "name": "White Wool",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:white_wool",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_white_wool",
+      "anchor": "catalog_minecraft_dye_white_wool",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_white_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_wool_from_string",
+      "anchor": "catalog_minecraft_white_wool_from_string",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:white_wool_from_string"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:white_wool": 0
+  }
+}

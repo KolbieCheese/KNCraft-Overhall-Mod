@@ -1,0 +1,18 @@
+{
+  "name": "Mahogany Boat",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:mahogany_boat",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:mahogany_boat",
+      "anchor": "catalog_biomesoplenty_mahogany_boat",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:mahogany_boat"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:mahogany_boat": 0
+  }
+}

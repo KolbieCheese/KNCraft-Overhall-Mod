@@ -30,6 +30,20 @@
       "input": "tag:forge:crops/rhubarb",
       "station": "minecraft:smoker",
       "output": "pamhc2crops:roastedrhubarbitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2crops:roastedrhubarbitem_campfire",
+      "anchor": "catalog_pamhc2crops_roastedrhubarbitem_campfire",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:roastedrhubarbitem_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2crops:roastedrhubarbitem_smoker",
+      "anchor": "catalog_pamhc2crops_roastedrhubarbitem_smoker",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:roastedrhubarbitem_smoker"
     }
   ],
   "extra_recipe_mappings": {

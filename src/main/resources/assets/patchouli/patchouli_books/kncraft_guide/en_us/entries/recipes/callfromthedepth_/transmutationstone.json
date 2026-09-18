@@ -1,0 +1,18 @@
+{
+  "name": "Transmutation stone",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:transmutationstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:transmutationstonecraft",
+      "anchor": "catalog_callfromthedepth__transmutationstonecraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:transmutationstonecraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:transmutationstone": 0
+  }
+}

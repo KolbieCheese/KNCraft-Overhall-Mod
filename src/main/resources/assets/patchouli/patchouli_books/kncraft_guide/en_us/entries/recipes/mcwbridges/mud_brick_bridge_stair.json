@@ -1,0 +1,25 @@
+{
+  "name": "Mud Brick Bridge Stair",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:mud_brick_bridge_stair",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:mud_brick_bridge_stair",
+      "anchor": "catalog_mcwbridges_mud_brick_bridge_stair",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:mud_brick_bridge_stair"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_mud_brick_bridge_stair",
+      "anchor": "catalog_mcwbridges_stonecutter_mud_brick_bridge_stair",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_mud_brick_bridge_stair"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:mud_brick_bridge_stair": 0
+  }
+}

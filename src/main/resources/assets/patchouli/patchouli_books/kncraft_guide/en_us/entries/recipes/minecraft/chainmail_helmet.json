@@ -1,0 +1,22 @@
+{
+  "name": "Chainmail Helmet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:chainmail_helmet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_chainmail_helmet_repairing",
+      "input": "minecraft:chainmail_helmet",
+      "output": "minecraft:chainmail_helmet",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:chainmail_helmet_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:chainmail_helmet": 0
+  }
+}

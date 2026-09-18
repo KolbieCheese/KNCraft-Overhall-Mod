@@ -1,0 +1,18 @@
+{
+  "name": "Spruce Door",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:spruce_door",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_door",
+      "anchor": "catalog_minecraft_spruce_door",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:spruce_door"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:spruce_door": 0
+  }
+}

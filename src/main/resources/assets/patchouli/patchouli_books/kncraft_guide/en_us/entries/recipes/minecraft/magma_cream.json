@@ -1,0 +1,18 @@
+{
+  "name": "Magma Cream",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:magma_cream",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magma_cream",
+      "anchor": "catalog_minecraft_magma_cream",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:magma_cream"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:magma_cream": 0
+  }
+}

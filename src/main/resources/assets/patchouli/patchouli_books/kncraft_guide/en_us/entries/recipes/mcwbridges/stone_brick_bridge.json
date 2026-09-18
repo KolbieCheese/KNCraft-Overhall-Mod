@@ -1,0 +1,32 @@
+{
+  "name": "Stone Brick Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:stone_brick_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:stone_brick_bridge",
+      "anchor": "catalog_mcwbridges_stone_brick_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stone_brick_bridge"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:stone_brick_bridge_stair_recycle",
+      "anchor": "catalog_mcwbridges_stone_brick_bridge_stair_recycle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stone_brick_bridge_stair_recycle"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_stone_brick_bridge",
+      "anchor": "catalog_mcwbridges_stonecutter_stone_brick_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_stone_brick_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:stone_brick_bridge": 0
+  }
+}

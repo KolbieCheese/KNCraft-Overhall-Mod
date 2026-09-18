@@ -1,0 +1,18 @@
+{
+  "name": "Tiny Indlu",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:tiny_indlu",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:tiny_indlu",
+      "anchor": "catalog_nomadictents_tiny_indlu",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:tiny_indlu"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:tiny_indlu": 0
+  }
+}

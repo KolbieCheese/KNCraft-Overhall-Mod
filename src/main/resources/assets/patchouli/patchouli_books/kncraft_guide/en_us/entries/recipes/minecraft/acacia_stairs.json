@@ -1,0 +1,18 @@
+{
+  "name": "Acacia Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:acacia_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:acacia_stairs",
+      "anchor": "catalog_minecraft_acacia_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:acacia_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:acacia_stairs": 0
+  }
+}

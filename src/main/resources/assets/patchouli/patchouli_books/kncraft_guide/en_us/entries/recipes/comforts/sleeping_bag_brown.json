@@ -1,0 +1,25 @@
+{
+  "name": "Brown Sleeping Bag",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:sleeping_bag_brown",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_brown",
+      "anchor": "catalog_comforts_sleeping_bag_brown",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_brown"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_to_brown",
+      "anchor": "catalog_comforts_sleeping_bag_to_brown",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_to_brown"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:sleeping_bag_brown": 0
+  }
+}

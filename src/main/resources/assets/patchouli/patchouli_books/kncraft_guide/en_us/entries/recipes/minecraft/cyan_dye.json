@@ -1,0 +1,32 @@
+{
+  "name": "Cyan Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cyan_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:cyan_dye_from_glowflower",
+      "anchor": "catalog_biomesoplenty_cyan_dye_from_glowflower",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:cyan_dye_from_glowflower"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cyan_dye",
+      "anchor": "catalog_minecraft_cyan_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cyan_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cyan_dye_from_pitcher_plant",
+      "anchor": "catalog_minecraft_cyan_dye_from_pitcher_plant",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cyan_dye_from_pitcher_plant"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cyan_dye": 0
+  }
+}

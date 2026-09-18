@@ -1,0 +1,29 @@
+{
+  "name": "Netherite Hoe",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:netherite_hoe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_netherite_hoe_repairing",
+      "input": "minecraft:netherite_hoe",
+      "output": "minecraft:netherite_hoe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:netherite_hoe_repairing"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "minecraft:netherite_hoe_smithing",
+      "anchor": "catalog_minecraft_netherite_hoe_smithing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:netherite_hoe_smithing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:netherite_hoe": 0
+  }
+}

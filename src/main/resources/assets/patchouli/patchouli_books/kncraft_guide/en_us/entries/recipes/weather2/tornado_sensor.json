@@ -1,0 +1,18 @@
+{
+  "name": "Tornado Sensor",
+  "category": "patchouli:recipes/weather2",
+  "icon": "weather2:tornado_sensor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "weather2:tornado_sensor",
+      "anchor": "catalog_weather2_tornado_sensor",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "weather2:tornado_sensor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "weather2:tornado_sensor": 0
+  }
+}

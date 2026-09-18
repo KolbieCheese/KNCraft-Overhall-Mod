@@ -1,0 +1,32 @@
+{
+  "name": "Nether Bricks Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:nether_bricks_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:nether_bricks_bridge",
+      "anchor": "catalog_mcwbridges_nether_bricks_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:nether_bricks_bridge"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:nether_bricks_bridge_stair_recycle",
+      "anchor": "catalog_mcwbridges_nether_bricks_bridge_stair_recycle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:nether_bricks_bridge_stair_recycle"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_nether_bricks_bridge",
+      "anchor": "catalog_mcwbridges_stonecutter_nether_bricks_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_nether_bricks_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:nether_bricks_bridge": 0
+  }
+}

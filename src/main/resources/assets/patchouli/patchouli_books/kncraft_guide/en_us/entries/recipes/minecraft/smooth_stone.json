@@ -1,0 +1,18 @@
+{
+  "name": "Smooth Stone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:smooth_stone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:smooth_stone",
+      "anchor": "catalog_minecraft_smooth_stone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:smooth_stone"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:smooth_stone": 0
+  }
+}

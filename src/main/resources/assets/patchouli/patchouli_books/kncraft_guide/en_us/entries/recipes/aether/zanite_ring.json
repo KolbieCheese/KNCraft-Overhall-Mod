@@ -1,0 +1,29 @@
+{
+  "name": "Zanite Ring",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:zanite_ring",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:zanite_ring",
+      "anchor": "catalog_aether_zanite_ring",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_ring"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_zanite_ring_repairing",
+      "input": "aether:zanite_ring",
+      "output": "aether:zanite_ring",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_ring_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:zanite_ring": 0
+  }
+}

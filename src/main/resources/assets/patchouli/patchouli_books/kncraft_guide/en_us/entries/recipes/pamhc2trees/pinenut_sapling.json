@@ -1,0 +1,18 @@
+{
+  "name": "Pinenut Sapling",
+  "category": "patchouli:recipes/pamhc2trees",
+  "icon": "pamhc2trees:pinenut_sapling",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2trees:pinenut_sapling",
+      "anchor": "catalog_pamhc2trees_pinenut_sapling",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2trees:pinenut_sapling"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2trees:pinenut_sapling": 0
+  }
+}

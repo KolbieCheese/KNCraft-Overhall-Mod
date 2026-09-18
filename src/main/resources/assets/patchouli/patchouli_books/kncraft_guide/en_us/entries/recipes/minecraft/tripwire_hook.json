@@ -1,0 +1,25 @@
+{
+  "name": "Tripwire Hook",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:tripwire_hook",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_tripwire_hook",
+      "anchor": "catalog_aether_skyroot_tripwire_hook",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_tripwire_hook"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:tripwire_hook",
+      "anchor": "catalog_minecraft_tripwire_hook",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:tripwire_hook"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:tripwire_hook": 0
+  }
+}

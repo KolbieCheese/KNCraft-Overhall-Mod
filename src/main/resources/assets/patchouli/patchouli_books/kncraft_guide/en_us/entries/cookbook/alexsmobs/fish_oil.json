@@ -1,0 +1,18 @@
+{
+  "name": "Fish Oil",
+  "category": "patchouli:cookbook",
+  "icon": "alexsmobs:fish_oil",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:fish_oil",
+      "anchor": "catalog_alexsmobs_fish_oil",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:fish_oil"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:fish_oil": 0
+  }
+}

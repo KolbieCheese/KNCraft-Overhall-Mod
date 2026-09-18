@@ -1,0 +1,29 @@
+{
+  "name": "Diamond Boots",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:diamond_boots",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_diamond_boots_repairing",
+      "input": "minecraft:diamond_boots",
+      "output": "minecraft:diamond_boots",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:diamond_boots_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond_boots",
+      "anchor": "catalog_minecraft_diamond_boots",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diamond_boots"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:diamond_boots": 0
+  }
+}

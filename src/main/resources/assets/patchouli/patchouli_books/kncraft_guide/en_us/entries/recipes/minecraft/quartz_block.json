@@ -1,0 +1,18 @@
+{
+  "name": "Quartz Block",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:quartz_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:quartz_block",
+      "anchor": "catalog_minecraft_quartz_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:quartz_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:quartz_block": 0
+  }
+}

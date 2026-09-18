@@ -1,6 +1,6 @@
 {
   "name": "Goat Fur Cap",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/cold_sweat",
   "icon": "cold_sweat:goat_fur_helmet",
   "priority": false,
   "sortnum": 0,
@@ -26,6 +26,17 @@
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/aether)Chapter$(/l)",
       "reference": "recipe/kncraft:goat_fur_helmet_altar_repair",
       "fallback": "35 seconds with normal machine fuel. Use JEI for the current ingredients and result."
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_kncraft_goat_fur_helmet_altar_repair",
+      "input": "cold_sweat:goat_fur_helmet",
+      "output": "cold_sweat:goat_fur_helmet",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "kncraft:goat_fur_helmet_altar_repair"
     }
   ],
   "extra_recipe_mappings": {}

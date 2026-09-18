@@ -1,0 +1,18 @@
+{
+  "name": "Jack O Lantern",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:jack_o_lantern",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jack_o_lantern",
+      "anchor": "catalog_minecraft_jack_o_lantern",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:jack_o_lantern"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:jack_o_lantern": 0
+  }
+}

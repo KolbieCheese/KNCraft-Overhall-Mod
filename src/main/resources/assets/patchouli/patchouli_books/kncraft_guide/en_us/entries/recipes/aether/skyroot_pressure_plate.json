@@ -1,0 +1,18 @@
+{
+  "name": "Skyroot Pressure Plate",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:skyroot_pressure_plate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_pressure_plate",
+      "anchor": "catalog_aether_skyroot_pressure_plate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_pressure_plate"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:skyroot_pressure_plate": 0
+  }
+}

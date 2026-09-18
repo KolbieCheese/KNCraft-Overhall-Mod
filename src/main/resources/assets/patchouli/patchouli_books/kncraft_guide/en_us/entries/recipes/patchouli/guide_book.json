@@ -1,0 +1,18 @@
+{
+  "name": "Guide Book",
+  "category": "patchouli:recipes/patchouli",
+  "icon": "patchouli:guide_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "kncraft:field_guide",
+      "anchor": "catalog_kncraft_field_guide",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "kncraft:field_guide"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "patchouli:guide_book": 0
+  }
+}

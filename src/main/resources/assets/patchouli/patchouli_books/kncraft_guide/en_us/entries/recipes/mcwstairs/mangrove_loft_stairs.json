@@ -1,0 +1,18 @@
+{
+  "name": "Mangrove Loft Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:mangrove_loft_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:mangrove_loft_stairs",
+      "anchor": "catalog_mcwstairs_mangrove_loft_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:mangrove_loft_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:mangrove_loft_stairs": 0
+  }
+}

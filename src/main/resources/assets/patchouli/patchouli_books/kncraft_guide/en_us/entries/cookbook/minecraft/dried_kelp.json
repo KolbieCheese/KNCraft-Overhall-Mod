@@ -1,0 +1,39 @@
+{
+  "name": "Dried Kelp",
+  "category": "patchouli:cookbook",
+  "icon": "minecraft:dried_kelp",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dried_kelp",
+      "anchor": "catalog_minecraft_dried_kelp",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:dried_kelp"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "minecraft:dried_kelp_from_campfire_cooking",
+      "anchor": "catalog_minecraft_dried_kelp_from_campfire_cooking",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:dried_kelp_from_campfire_cooking"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:dried_kelp_from_smelting",
+      "anchor": "catalog_minecraft_dried_kelp_from_smelting",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:dried_kelp_from_smelting"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "minecraft:dried_kelp_from_smoking",
+      "anchor": "catalog_minecraft_dried_kelp_from_smoking",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:dried_kelp_from_smoking"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:dried_kelp": 0
+  }
+}

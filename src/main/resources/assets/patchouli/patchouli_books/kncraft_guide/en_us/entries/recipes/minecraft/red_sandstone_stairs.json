@@ -1,0 +1,25 @@
+{
+  "name": "Red Sandstone Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:red_sandstone_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_sandstone_stairs",
+      "anchor": "catalog_minecraft_red_sandstone_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_sandstone_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:red_sandstone_stairs_from_red_sandstone_stonecutting",
+      "anchor": "catalog_minecraft_red_sandstone_stairs_from_red_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_sandstone_stairs_from_red_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:red_sandstone_stairs": 0
+  }
+}

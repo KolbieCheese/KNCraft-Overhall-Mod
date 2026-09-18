@@ -1,0 +1,25 @@
+{
+  "name": "Green Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_green",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_green",
+      "anchor": "catalog_comforts_hammock_green",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_green"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_green",
+      "anchor": "catalog_comforts_hammock_to_green",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_green"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_green": 0
+  }
+}

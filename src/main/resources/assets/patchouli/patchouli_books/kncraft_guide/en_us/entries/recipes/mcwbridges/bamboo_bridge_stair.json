@@ -1,0 +1,18 @@
+{
+  "name": "Bamboo Bridge Stair",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:bamboo_bridge_stair",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:bamboo_bridge_stair",
+      "anchor": "catalog_mcwbridges_bamboo_bridge_stair",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:bamboo_bridge_stair"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:bamboo_bridge_stair": 0
+  }
+}

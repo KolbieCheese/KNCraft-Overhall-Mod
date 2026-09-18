@@ -1,0 +1,18 @@
+{
+  "name": "Cherry Hanging Sign",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cherry_hanging_sign",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cherry_hanging_sign",
+      "anchor": "catalog_minecraft_cherry_hanging_sign",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cherry_hanging_sign"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cherry_hanging_sign": 0
+  }
+}

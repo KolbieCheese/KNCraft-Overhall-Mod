@@ -1,0 +1,25 @@
+{
+  "name": "Cut Copper",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cut_copper",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cut_copper",
+      "anchor": "catalog_minecraft_cut_copper",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cut_copper"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:cut_copper_from_copper_block_stonecutting",
+      "anchor": "catalog_minecraft_cut_copper_from_copper_block_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cut_copper_from_copper_block_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cut_copper": 0
+  }
+}

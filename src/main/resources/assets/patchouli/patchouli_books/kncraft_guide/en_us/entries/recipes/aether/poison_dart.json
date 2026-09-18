@@ -1,0 +1,18 @@
+{
+  "name": "Poison Dart",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:poison_dart",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:poison_dart",
+      "anchor": "catalog_aether_poison_dart",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:poison_dart"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:poison_dart": 0
+  }
+}

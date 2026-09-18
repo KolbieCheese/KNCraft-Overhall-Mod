@@ -1,0 +1,32 @@
+{
+  "name": "Deepslate Brick Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:deepslate_brick_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:deepslate_brick_bridge",
+      "anchor": "catalog_mcwbridges_deepslate_brick_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:deepslate_brick_bridge"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:deepslate_brick_bridge_stair_recycle",
+      "anchor": "catalog_mcwbridges_deepslate_brick_bridge_stair_recycle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:deepslate_brick_bridge_stair_recycle"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_deepslate_brick_bridge",
+      "anchor": "catalog_mcwbridges_stonecutter_deepslate_brick_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_deepslate_brick_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:deepslate_brick_bridge": 0
+  }
+}

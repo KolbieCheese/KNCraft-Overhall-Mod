@@ -1,0 +1,18 @@
+{
+  "name": "Obsidian Crossbeams",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:obsidian_crossbeams",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:obsidian_crossbeams",
+      "anchor": "catalog_nomadictents_obsidian_crossbeams",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:obsidian_crossbeams"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:obsidian_crossbeams": 0
+  }
+}

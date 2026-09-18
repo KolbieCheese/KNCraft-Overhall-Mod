@@ -1,0 +1,29 @@
+{
+  "name": "Gravitite Axe",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:gravitite_axe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:gravitite_axe",
+      "anchor": "catalog_aether_gravitite_axe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_axe"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_gravitite_axe_repairing",
+      "input": "aether:gravitite_axe",
+      "output": "aether:gravitite_axe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_axe_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:gravitite_axe": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Gravitite Chestplate",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:gravitite_chestplate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:gravitite_chestplate",
+      "anchor": "catalog_aether_gravitite_chestplate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_chestplate"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_gravitite_chestplate_repairing",
+      "input": "aether:gravitite_chestplate",
+      "output": "aether:gravitite_chestplate",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_chestplate_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:gravitite_chestplate": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Yellow Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:yellow_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_yellow_bed",
+      "anchor": "catalog_minecraft_dye_yellow_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_yellow_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:yellow_bed",
+      "anchor": "catalog_minecraft_yellow_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:yellow_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:yellow_bed": 0
+  }
+}

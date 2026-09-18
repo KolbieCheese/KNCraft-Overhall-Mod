@@ -1,0 +1,18 @@
+{
+  "name": "Cobblestone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cobblestone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terralith:cobblestone_from_stone_slab",
+      "anchor": "catalog_terralith_cobblestone_from_stone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "terralith:cobblestone_from_stone_slab"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cobblestone": 0
+  }
+}

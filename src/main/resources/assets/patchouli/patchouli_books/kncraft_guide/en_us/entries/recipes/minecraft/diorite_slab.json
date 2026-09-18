@@ -1,0 +1,25 @@
+{
+  "name": "Diorite Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:diorite_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diorite_slab",
+      "anchor": "catalog_minecraft_diorite_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diorite_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:diorite_slab_from_diorite_stonecutting",
+      "anchor": "catalog_minecraft_diorite_slab_from_diorite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diorite_slab_from_diorite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:diorite_slab": 0
+  }
+}

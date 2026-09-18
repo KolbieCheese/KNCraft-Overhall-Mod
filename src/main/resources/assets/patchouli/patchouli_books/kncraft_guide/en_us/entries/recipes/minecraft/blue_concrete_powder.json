@@ -1,0 +1,18 @@
+{
+  "name": "Blue Concrete Powder",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:blue_concrete_powder",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blue_concrete_powder",
+      "anchor": "catalog_minecraft_blue_concrete_powder",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:blue_concrete_powder"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:blue_concrete_powder": 0
+  }
+}

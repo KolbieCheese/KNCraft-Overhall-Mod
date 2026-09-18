@@ -1,0 +1,18 @@
+{
+  "name": "Stone Command Block Sword",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:stone_command_block_sword",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "witherstormmod:stone_command_block_sword",
+      "anchor": "catalog_witherstormmod_stone_command_block_sword_anvil",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "witherstormmod:stone_command_block_sword_anvil"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:stone_command_block_sword": 0
+  }
+}

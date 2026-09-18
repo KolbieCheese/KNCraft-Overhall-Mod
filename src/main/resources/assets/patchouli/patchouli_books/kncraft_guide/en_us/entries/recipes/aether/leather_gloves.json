@@ -1,0 +1,29 @@
+{
+  "name": "Leather Gloves",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:leather_gloves",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:leather_gloves",
+      "anchor": "catalog_aether_leather_gloves",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:leather_gloves"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_leather_gloves_repairing",
+      "input": "aether:leather_gloves",
+      "output": "aether:leather_gloves",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:leather_gloves_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:leather_gloves": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Compacting Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:compacting_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:compacting_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_compacting_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:compacting_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:compacting_upgrade": 0
+  }
+}

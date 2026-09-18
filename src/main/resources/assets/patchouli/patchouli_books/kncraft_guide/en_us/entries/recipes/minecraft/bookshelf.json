@@ -1,0 +1,18 @@
+{
+  "name": "Bookshelf",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:bookshelf",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bookshelf",
+      "anchor": "catalog_minecraft_bookshelf",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:bookshelf"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:bookshelf": 0
+  }
+}

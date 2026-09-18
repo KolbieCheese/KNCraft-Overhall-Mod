@@ -1,0 +1,25 @@
+{
+  "name": "Granite Bridge Stair",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:granite_bridge_stair",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:granite_bridge_stair",
+      "anchor": "catalog_mcwbridges_granite_bridge_stair",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:granite_bridge_stair"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_granite_bridge_stair",
+      "anchor": "catalog_mcwbridges_stonecutter_granite_bridge_stair",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_granite_bridge_stair"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:granite_bridge_stair": 0
+  }
+}

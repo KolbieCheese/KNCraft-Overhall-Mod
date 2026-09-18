@@ -1,0 +1,18 @@
+{
+  "name": "Spruce Platform",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:spruce_platform",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:spruce_platform",
+      "anchor": "catalog_mcwstairs_spruce_platform",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:spruce_platform"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:spruce_platform": 0
+  }
+}

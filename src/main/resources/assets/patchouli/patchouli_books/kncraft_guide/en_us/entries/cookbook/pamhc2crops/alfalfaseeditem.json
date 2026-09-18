@@ -1,0 +1,18 @@
+{
+  "name": "Alfalfa Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:alfalfaseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:alfalfaseeditem",
+      "anchor": "catalog_pamhc2crops_alfalfaseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:alfalfaseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:alfalfaseeditem": 0
+  }
+}

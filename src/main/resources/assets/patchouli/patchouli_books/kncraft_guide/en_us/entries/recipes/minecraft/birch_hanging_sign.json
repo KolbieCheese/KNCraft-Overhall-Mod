@@ -1,0 +1,18 @@
+{
+  "name": "Birch Hanging Sign",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:birch_hanging_sign",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_hanging_sign",
+      "anchor": "catalog_minecraft_birch_hanging_sign",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:birch_hanging_sign"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:birch_hanging_sign": 0
+  }
+}

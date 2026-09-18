@@ -1,0 +1,25 @@
+{
+  "name": "Brown Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:brown_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_carpet",
+      "anchor": "catalog_minecraft_brown_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:brown_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_brown_carpet",
+      "anchor": "catalog_minecraft_dye_brown_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_brown_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:brown_carpet": 0
+  }
+}

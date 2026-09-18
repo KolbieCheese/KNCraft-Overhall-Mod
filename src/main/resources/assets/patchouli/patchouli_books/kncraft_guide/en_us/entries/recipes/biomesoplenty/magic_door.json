@@ -1,0 +1,18 @@
+{
+  "name": "Magic Door",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:magic_door",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:magic_door",
+      "anchor": "catalog_biomesoplenty_magic_door",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:magic_door"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:magic_door": 0
+  }
+}

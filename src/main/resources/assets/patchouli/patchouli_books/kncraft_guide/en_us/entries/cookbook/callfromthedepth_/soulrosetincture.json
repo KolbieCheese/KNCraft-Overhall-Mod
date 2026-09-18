@@ -1,0 +1,18 @@
+{
+  "name": "Soul rose tincture",
+  "category": "patchouli:cookbook",
+  "icon": "callfromthedepth_:soulrosetincture",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:soulrosetintecturecraft",
+      "anchor": "catalog_callfromthedepth__soulrosetintecturecraft",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:soulrosetintecturecraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:soulrosetincture": 0
+  }
+}

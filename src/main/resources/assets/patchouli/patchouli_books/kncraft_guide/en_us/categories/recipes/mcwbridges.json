@@ -1,0 +1,7 @@
+{
+  "name": "Macaw's Bridges",
+  "parent": "patchouli:recipes",
+  "description": "Macaw's Bridges equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "mcwbridges:acacia_bridge_pier",
+  "sortnum": 0
+}

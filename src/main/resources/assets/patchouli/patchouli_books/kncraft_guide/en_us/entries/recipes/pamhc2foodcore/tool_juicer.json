@@ -1,6 +1,6 @@
 {
   "name": "Juicer",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/pamhc2foodcore",
   "icon": "pamhc2foodcore:juiceritem",
   "priority": false,
   "sortnum": 0,

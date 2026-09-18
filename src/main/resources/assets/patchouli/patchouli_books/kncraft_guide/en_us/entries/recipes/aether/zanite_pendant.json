@@ -1,0 +1,29 @@
+{
+  "name": "Zanite Pendant",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:zanite_pendant",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:zanite_pendant",
+      "anchor": "catalog_aether_zanite_pendant",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_pendant"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_zanite_pendant_repairing",
+      "input": "aether:zanite_pendant",
+      "output": "aether:zanite_pendant",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_pendant_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:zanite_pendant": 0
+  }
+}

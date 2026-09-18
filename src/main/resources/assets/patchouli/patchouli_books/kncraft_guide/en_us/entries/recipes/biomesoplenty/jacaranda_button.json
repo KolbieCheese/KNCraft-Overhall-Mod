@@ -1,0 +1,18 @@
+{
+  "name": "Jacaranda Button",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:jacaranda_button",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:jacaranda_button",
+      "anchor": "catalog_biomesoplenty_jacaranda_button",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:jacaranda_button"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:jacaranda_button": 0
+  }
+}

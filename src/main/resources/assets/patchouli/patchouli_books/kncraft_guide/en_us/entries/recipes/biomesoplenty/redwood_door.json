@@ -1,0 +1,18 @@
+{
+  "name": "Redwood Door",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:redwood_door",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:redwood_door",
+      "anchor": "catalog_biomesoplenty_redwood_door",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:redwood_door"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:redwood_door": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Skyroot Wood",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:skyroot_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_wood",
+      "anchor": "catalog_aether_skyroot_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:skyroot_wood": 0
+  }
+}

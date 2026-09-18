@@ -1,0 +1,18 @@
+{
+  "name": "Cyan Stained Glass",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cyan_stained_glass",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cyan_stained_glass",
+      "anchor": "catalog_minecraft_cyan_stained_glass",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cyan_stained_glass"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cyan_stained_glass": 0
+  }
+}

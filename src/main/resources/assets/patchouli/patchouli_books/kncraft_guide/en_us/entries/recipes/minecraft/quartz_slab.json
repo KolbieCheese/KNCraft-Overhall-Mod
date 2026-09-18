@@ -1,0 +1,25 @@
+{
+  "name": "Quartz Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:quartz_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:quartz_slab",
+      "anchor": "catalog_minecraft_quartz_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:quartz_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:quartz_slab_from_stonecutting",
+      "anchor": "catalog_minecraft_quartz_slab_from_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:quartz_slab_from_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:quartz_slab": 0
+  }
+}

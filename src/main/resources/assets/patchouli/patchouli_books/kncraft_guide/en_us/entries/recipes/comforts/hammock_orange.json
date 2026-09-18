@@ -1,0 +1,25 @@
+{
+  "name": "Orange Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_orange",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_orange",
+      "anchor": "catalog_comforts_hammock_orange",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_orange"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_orange",
+      "anchor": "catalog_comforts_hammock_to_orange",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_orange"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_orange": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Mango Sapling",
+  "category": "patchouli:recipes/pamhc2trees",
+  "icon": "pamhc2trees:mango_sapling",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2trees:mango_sapling",
+      "anchor": "catalog_pamhc2trees_mango_sapling",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2trees:mango_sapling"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2trees:mango_sapling": 0
+  }
+}

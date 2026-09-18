@@ -1,0 +1,18 @@
+{
+  "name": "End Crystal",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:end_crystal",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:end_crystal",
+      "anchor": "catalog_minecraft_end_crystal",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:end_crystal"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:end_crystal": 0
+  }
+}

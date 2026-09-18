@@ -1,0 +1,18 @@
+{
+  "name": "Bucket",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:bucket",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bucket",
+      "anchor": "catalog_minecraft_bucket",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:bucket"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:bucket": 0
+  }
+}

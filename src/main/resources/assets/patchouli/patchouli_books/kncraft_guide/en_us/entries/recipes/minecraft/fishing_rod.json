@@ -1,0 +1,29 @@
+{
+  "name": "Fishing Rod",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:fishing_rod",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_fishing_rod_repairing",
+      "input": "minecraft:fishing_rod",
+      "output": "minecraft:fishing_rod",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:fishing_rod_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fishing_rod",
+      "anchor": "catalog_minecraft_fishing_rod",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:fishing_rod"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:fishing_rod": 0
+  }
+}

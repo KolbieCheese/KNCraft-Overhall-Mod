@@ -1,0 +1,18 @@
+{
+  "name": "Nether Wart Block",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:nether_wart_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:nether_wart_block",
+      "anchor": "catalog_minecraft_nether_wart_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:nether_wart_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:nether_wart_block": 0
+  }
+}

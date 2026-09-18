@@ -1,0 +1,29 @@
+{
+  "name": "Golden Boots",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:golden_boots",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_golden_boots_repairing",
+      "input": "minecraft:golden_boots",
+      "output": "minecraft:golden_boots",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:golden_boots_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_boots",
+      "anchor": "catalog_minecraft_golden_boots",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:golden_boots"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:golden_boots": 0
+  }
+}

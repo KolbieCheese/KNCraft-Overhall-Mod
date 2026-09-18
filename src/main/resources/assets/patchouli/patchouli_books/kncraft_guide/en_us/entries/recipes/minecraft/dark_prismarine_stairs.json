@@ -1,0 +1,25 @@
+{
+  "name": "Dark Prismarine Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:dark_prismarine_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_prismarine_stairs",
+      "anchor": "catalog_minecraft_dark_prismarine_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dark_prismarine_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:dark_prismarine_stairs_from_dark_prismarine_stonecutting",
+      "anchor": "catalog_minecraft_dark_prismarine_stairs_from_dark_prismarine_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dark_prismarine_stairs_from_dark_prismarine_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:dark_prismarine_stairs": 0
+  }
+}

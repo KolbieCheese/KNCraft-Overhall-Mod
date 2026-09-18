@@ -1,0 +1,18 @@
+{
+  "name": "Writable Book",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:writable_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:writable_book",
+      "anchor": "catalog_minecraft_writable_book",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:writable_book"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:writable_book": 0
+  }
+}

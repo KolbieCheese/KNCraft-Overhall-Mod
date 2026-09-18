@@ -1,0 +1,18 @@
+{
+  "name": "Cobblestone Loft Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:cobblestone_loft_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:cobblestone_loft_stairs",
+      "anchor": "catalog_mcwstairs_cobblestone_loft_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:cobblestone_loft_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:cobblestone_loft_stairs": 0
+  }
+}

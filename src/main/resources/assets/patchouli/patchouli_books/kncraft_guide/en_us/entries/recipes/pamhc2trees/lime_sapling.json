@@ -1,0 +1,18 @@
+{
+  "name": "Lime Sapling",
+  "category": "patchouli:recipes/pamhc2trees",
+  "icon": "pamhc2trees:lime_sapling",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2trees:lime_sapling",
+      "anchor": "catalog_pamhc2trees_lime_sapling",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2trees:lime_sapling"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2trees:lime_sapling": 0
+  }
+}

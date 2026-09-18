@@ -1,0 +1,25 @@
+{
+  "name": "Chiseled Quartz Block",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:chiseled_quartz_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chiseled_quartz_block",
+      "anchor": "catalog_minecraft_chiseled_quartz_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:chiseled_quartz_block"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:chiseled_quartz_block_from_quartz_block_stonecutting",
+      "anchor": "catalog_minecraft_chiseled_quartz_block_from_quartz_block_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:chiseled_quartz_block_from_quartz_block_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:chiseled_quartz_block": 0
+  }
+}

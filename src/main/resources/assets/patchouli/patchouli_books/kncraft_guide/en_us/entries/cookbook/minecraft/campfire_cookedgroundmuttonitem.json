@@ -30,6 +30,20 @@
       "input": "pamhc2foodcore:groundmuttonitem",
       "station": "minecraft:smoker",
       "output": "pamhc2foodcore:cookedgroundmuttonitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "minecraft:campfire_cookedgroundmuttonitem",
+      "anchor": "catalog_minecraft_campfire_cookedgroundmuttonitem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:campfire_cookedgroundmuttonitem"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "minecraft:smoking_cookedgroundmuttonitem",
+      "anchor": "catalog_minecraft_smoking_cookedgroundmuttonitem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:smoking_cookedgroundmuttonitem"
     }
   ],
   "extra_recipe_mappings": {

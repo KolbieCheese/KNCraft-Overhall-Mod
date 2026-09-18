@@ -1,0 +1,18 @@
+{
+  "name": "Melon Seeds",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:melon_seeds",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:melon_seeds",
+      "anchor": "catalog_minecraft_melon_seeds",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:melon_seeds"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:melon_seeds": 0
+  }
+}

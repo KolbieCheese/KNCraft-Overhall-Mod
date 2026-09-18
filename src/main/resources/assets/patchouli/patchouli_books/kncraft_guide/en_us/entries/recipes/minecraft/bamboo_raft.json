@@ -1,0 +1,18 @@
+{
+  "name": "Bamboo Raft",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:bamboo_raft",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bamboo_raft",
+      "anchor": "catalog_minecraft_bamboo_raft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:bamboo_raft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:bamboo_raft": 0
+  }
+}

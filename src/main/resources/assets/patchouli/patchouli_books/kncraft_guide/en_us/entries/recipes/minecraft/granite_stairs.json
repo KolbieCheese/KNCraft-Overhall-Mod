@@ -1,0 +1,25 @@
+{
+  "name": "Granite Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:granite_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:granite_stairs",
+      "anchor": "catalog_minecraft_granite_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:granite_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:granite_stairs_from_granite_stonecutting",
+      "anchor": "catalog_minecraft_granite_stairs_from_granite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:granite_stairs_from_granite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:granite_stairs": 0
+  }
+}

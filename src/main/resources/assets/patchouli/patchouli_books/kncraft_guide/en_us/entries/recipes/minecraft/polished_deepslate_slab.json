@@ -1,0 +1,32 @@
+{
+  "name": "Polished Deepslate Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_deepslate_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_deepslate_slab",
+      "anchor": "catalog_minecraft_polished_deepslate_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_deepslate_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_deepslate_slab_from_cobbled_deepslate_stonecutting",
+      "anchor": "catalog_minecraft_polished_deepslate_slab_from_cobbled_deepslate_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_deepslate_slab_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_deepslate_slab_from_polished_deepslate_stonecutting",
+      "anchor": "catalog_minecraft_polished_deepslate_slab_from_polished_deepslate_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_deepslate_slab_from_polished_deepslate_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_deepslate_slab": 0
+  }
+}

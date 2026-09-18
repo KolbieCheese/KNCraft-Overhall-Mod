@@ -1,6 +1,6 @@
 {
   "name": "Depths key",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/callfromthedepth_",
   "icon": "callfromthedepth_:depth",
   "priority": false,
   "sortnum": 0,

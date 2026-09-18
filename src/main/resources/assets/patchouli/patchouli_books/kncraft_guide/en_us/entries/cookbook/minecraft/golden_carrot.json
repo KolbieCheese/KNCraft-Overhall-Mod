@@ -1,0 +1,18 @@
+{
+  "name": "Golden Carrot",
+  "category": "patchouli:cookbook",
+  "icon": "minecraft:golden_carrot",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_carrot",
+      "anchor": "catalog_minecraft_golden_carrot",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:golden_carrot"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:golden_carrot": 0
+  }
+}

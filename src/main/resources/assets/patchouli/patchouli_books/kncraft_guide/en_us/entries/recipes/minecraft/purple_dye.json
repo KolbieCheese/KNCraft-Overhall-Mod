@@ -1,0 +1,46 @@
+{
+  "name": "Purple Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:purple_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:flower_to_purple_dye",
+      "anchor": "catalog_aether_flower_to_purple_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:flower_to_purple_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:purple_dye_from_lavender",
+      "anchor": "catalog_biomesoplenty_purple_dye_from_lavender",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:purple_dye_from_lavender"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:purple_dye_from_tall_lavender",
+      "anchor": "catalog_biomesoplenty_purple_dye_from_tall_lavender",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:purple_dye_from_tall_lavender"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:purple_dye_from_violet",
+      "anchor": "catalog_biomesoplenty_purple_dye_from_violet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:purple_dye_from_violet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_dye",
+      "anchor": "catalog_minecraft_purple_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:purple_dye"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:purple_dye": 0
+  }
+}

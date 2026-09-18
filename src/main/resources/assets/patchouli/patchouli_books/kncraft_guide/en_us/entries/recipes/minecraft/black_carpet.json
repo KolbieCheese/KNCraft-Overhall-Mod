@@ -1,0 +1,25 @@
+{
+  "name": "Black Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:black_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_carpet",
+      "anchor": "catalog_minecraft_black_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:black_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_black_carpet",
+      "anchor": "catalog_minecraft_dye_black_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_black_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:black_carpet": 0
+  }
+}

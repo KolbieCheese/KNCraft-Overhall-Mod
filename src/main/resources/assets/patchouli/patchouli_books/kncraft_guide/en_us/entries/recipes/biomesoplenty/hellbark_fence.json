@@ -1,0 +1,18 @@
+{
+  "name": "Hellbark Fence",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:hellbark_fence",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:hellbark_fence",
+      "anchor": "catalog_biomesoplenty_hellbark_fence",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:hellbark_fence"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:hellbark_fence": 0
+  }
+}

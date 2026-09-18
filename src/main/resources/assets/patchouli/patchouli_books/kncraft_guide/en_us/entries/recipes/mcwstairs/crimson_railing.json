@@ -1,0 +1,18 @@
+{
+  "name": "Crimson Railing",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:crimson_railing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:crimson_railing",
+      "anchor": "catalog_mcwstairs_crimson_railing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:crimson_railing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:crimson_railing": 0
+  }
+}

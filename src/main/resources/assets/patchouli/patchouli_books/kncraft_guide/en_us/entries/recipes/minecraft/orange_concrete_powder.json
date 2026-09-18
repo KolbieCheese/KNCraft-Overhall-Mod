@@ -1,0 +1,18 @@
+{
+  "name": "Orange Concrete Powder",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:orange_concrete_powder",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_concrete_powder",
+      "anchor": "catalog_minecraft_orange_concrete_powder",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:orange_concrete_powder"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:orange_concrete_powder": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Stone Tent Shovel",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:stone_tent_shovel",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:stone_tent_shovel",
+      "anchor": "catalog_nomadictents_stone_tent_shovel",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:stone_tent_shovel"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:stone_tent_shovel": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Cut White Sandstone Slab",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:cut_white_sandstone_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:cut_white_sandstone_slab",
+      "anchor": "catalog_biomesoplenty_cut_white_sandstone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:cut_white_sandstone_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:cut_white_sandstone_slab_from_cut_white_sandstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_cut_white_sandstone_slab_from_cut_white_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:cut_white_sandstone_slab_from_cut_white_sandstone_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:cut_white_sandstone_slab_from_white_sandstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_cut_white_sandstone_slab_from_white_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:cut_white_sandstone_slab_from_white_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:cut_white_sandstone_slab": 0
+  }
+}

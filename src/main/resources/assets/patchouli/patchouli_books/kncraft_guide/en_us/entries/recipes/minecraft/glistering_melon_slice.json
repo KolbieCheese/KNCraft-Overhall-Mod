@@ -1,0 +1,18 @@
+{
+  "name": "Glistering Melon Slice",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:glistering_melon_slice",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glistering_melon_slice",
+      "anchor": "catalog_minecraft_glistering_melon_slice",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:glistering_melon_slice"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:glistering_melon_slice": 0
+  }
+}

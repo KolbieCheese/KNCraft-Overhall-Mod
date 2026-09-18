@@ -1,0 +1,18 @@
+{
+  "name": "Tendon Whip",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:tendon_whip",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:tendon_whip",
+      "anchor": "catalog_alexsmobs_tendon_whip",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:tendon_whip"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:tendon_whip": 0
+  }
+}

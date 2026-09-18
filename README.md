@@ -24,8 +24,10 @@ exploration, equipment, and transport support one another.
   sewn insulation. Enchantment attributes cooperate with other equipment bonuses,
   and backpack magnets give nearby wildlife time to collect deliberate offerings.
 - **A guide to the whole pack:** The KNCraft Guide Book for Patchouli explains these
-  connections within its original chapters, with thermal effects on individual Cook Book
-  pages. The FTB accomplishment journal records bosses, landmarks, and mod advancements
+  connections within its original chapters. Recipes groups non-food crafting by mod;
+  Cook Book covers food and drinks, with temperature effects printed below affected
+  recipes. Smoothies, soups, hot drinks and other selected hot/chilled foods connect
+  the kitchen to Cold Sweat. The FTB accomplishment journal records bosses, landmarks, and mod advancements
   without recipe locks, required quest chains, item turn-ins, or rewards.
   Each chapter includes relevant controls that display the player's current bindings.
   Journal records open the relevant guide chapter. Food, insulation and machine-time

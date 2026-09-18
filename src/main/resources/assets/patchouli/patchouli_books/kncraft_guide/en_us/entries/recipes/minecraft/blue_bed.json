@@ -1,0 +1,25 @@
+{
+  "name": "Blue Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:blue_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blue_bed",
+      "anchor": "catalog_minecraft_blue_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:blue_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_blue_bed",
+      "anchor": "catalog_minecraft_dye_blue_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_blue_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:blue_bed": 0
+  }
+}

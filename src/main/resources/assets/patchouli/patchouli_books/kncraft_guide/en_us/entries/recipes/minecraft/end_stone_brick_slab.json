@@ -1,0 +1,32 @@
+{
+  "name": "End Stone Brick Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:end_stone_brick_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:end_stone_brick_slab",
+      "anchor": "catalog_minecraft_end_stone_brick_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:end_stone_brick_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:end_stone_brick_slab_from_end_stone_brick_stonecutting",
+      "anchor": "catalog_minecraft_end_stone_brick_slab_from_end_stone_brick_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:end_stone_brick_slab_from_end_stone_brick_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:end_stone_brick_slab_from_end_stone_stonecutting",
+      "anchor": "catalog_minecraft_end_stone_brick_slab_from_end_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:end_stone_brick_slab_from_end_stone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:end_stone_brick_slab": 0
+  }
+}

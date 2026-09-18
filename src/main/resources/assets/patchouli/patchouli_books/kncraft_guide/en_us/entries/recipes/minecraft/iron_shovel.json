@@ -1,0 +1,29 @@
+{
+  "name": "Iron Shovel",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_shovel",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_iron_shovel_repairing",
+      "input": "minecraft:iron_shovel",
+      "output": "minecraft:iron_shovel",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:iron_shovel_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_shovel",
+      "anchor": "catalog_minecraft_iron_shovel",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_shovel"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_shovel": 0
+  }
+}

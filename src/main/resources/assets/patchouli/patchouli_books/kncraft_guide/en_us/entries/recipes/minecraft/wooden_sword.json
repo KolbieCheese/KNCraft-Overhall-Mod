@@ -1,0 +1,29 @@
+{
+  "name": "Wooden Sword",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:wooden_sword",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_wooden_sword_repairing",
+      "input": "minecraft:wooden_sword",
+      "output": "minecraft:wooden_sword",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:wooden_sword_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wooden_sword",
+      "anchor": "catalog_minecraft_wooden_sword",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:wooden_sword"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:wooden_sword": 0
+  }
+}

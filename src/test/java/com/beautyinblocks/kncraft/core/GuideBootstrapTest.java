@@ -20,7 +20,7 @@ class GuideBootstrapTest {
         var expected = JsonParser.parseString(Files.readString(file)).getAsJsonObject();
         expected.addProperty("name", "KNCraft Guide Book");
         expected.addProperty("subtitle", "KNCraft Guide Book");
-        expected.addProperty("version", 14);
+        expected.addProperty("version", 15);
         assertTrue(GuideBootstrap.renameLegacyDeclaration(file));
         assertEquals(expected, JsonParser.parseString(Files.readString(file)));
         byte[] renamed = Files.readAllBytes(file);
@@ -39,6 +39,14 @@ class GuideBootstrapTest {
         var renamed = JsonParser.parseString(Files.readString(file)).getAsJsonObject();
         assertEquals("Custom", renamed.get("subtitle").getAsString());
         assertEquals(20, renamed.get("version").getAsInt());
+    }
+
+    @Test void migratedAlreadyRenamedBookAdvancesWithoutAnotherRename() throws Exception {
+        Path file = directory.resolve("book.json");
+        Files.writeString(file, "{\"name\":\"KNCraft Guide Book\",\"version\":10,\"use_resource_pack\":true}");
+        assertTrue(GuideBootstrap.renameLegacyDeclaration(file));
+        assertEquals(15, JsonParser.parseString(Files.readString(file)).getAsJsonObject().get("version").getAsInt());
+        assertFalse(GuideBootstrap.renameLegacyDeclaration(file));
     }
 
     @Test void renamingLegacyBookDoesNotEnableBundledContentOrChangeItsVersion() throws Exception {

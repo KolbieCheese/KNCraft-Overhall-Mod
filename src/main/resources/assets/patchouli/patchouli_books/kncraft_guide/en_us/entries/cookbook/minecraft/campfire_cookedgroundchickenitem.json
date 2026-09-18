@@ -30,6 +30,20 @@
       "input": "pamhc2foodcore:groundchickenitem",
       "station": "minecraft:smoker",
       "output": "pamhc2foodcore:cookedgroundchickenitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "minecraft:campfire_cookedgroundchickenitem",
+      "anchor": "catalog_minecraft_campfire_cookedgroundchickenitem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:campfire_cookedgroundchickenitem"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "minecraft:smoking_cookedgroundchickenitem",
+      "anchor": "catalog_minecraft_smoking_cookedgroundchickenitem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:smoking_cookedgroundchickenitem"
     }
   ],
   "extra_recipe_mappings": {

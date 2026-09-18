@@ -1,0 +1,22 @@
+{
+  "name": "Obsidian",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:obsidian",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Freezer",
+      "anchor": "catalog_aether_obsidian_from_bucket_freezing",
+      "input": "minecraft:lava_bucket",
+      "output": "minecraft:obsidian",
+      "station": "aether:freezer",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:obsidian_from_bucket_freezing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:obsidian": 0
+  }
+}

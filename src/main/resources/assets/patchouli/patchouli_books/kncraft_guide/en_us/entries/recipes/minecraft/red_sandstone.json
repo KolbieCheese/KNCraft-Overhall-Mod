@@ -1,0 +1,18 @@
+{
+  "name": "Red Sandstone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:red_sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_sandstone",
+      "anchor": "catalog_minecraft_red_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_sandstone"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:red_sandstone": 0
+  }
+}

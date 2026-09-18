@@ -1,0 +1,29 @@
+{
+  "name": "Golden Gloves",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:golden_gloves",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:golden_gloves",
+      "anchor": "catalog_aether_golden_gloves",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:golden_gloves"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_golden_gloves_repairing",
+      "input": "aether:golden_gloves",
+      "output": "aether:golden_gloves",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:golden_gloves_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:golden_gloves": 0
+  }
+}

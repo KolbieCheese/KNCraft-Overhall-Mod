@@ -1,0 +1,18 @@
+{
+  "name": "Calabash Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:calabashseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:calabashseeditem",
+      "anchor": "catalog_pamhc2crops_calabashseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:calabashseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:calabashseeditem": 0
+  }
+}

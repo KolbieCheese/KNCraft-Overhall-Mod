@@ -1,0 +1,18 @@
+{
+  "name": "Jungle Terrace Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:jungle_terrace_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:jungle_terrace_stairs",
+      "anchor": "catalog_mcwstairs_jungle_terrace_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:jungle_terrace_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:jungle_terrace_stairs": 0
+  }
+}

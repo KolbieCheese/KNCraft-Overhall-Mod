@@ -1,0 +1,18 @@
+{
+  "name": "Falconry Glove",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:falconry_glove",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:falconry_glove",
+      "anchor": "catalog_alexsmobs_falconry_glove",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:falconry_glove"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:falconry_glove": 0
+  }
+}

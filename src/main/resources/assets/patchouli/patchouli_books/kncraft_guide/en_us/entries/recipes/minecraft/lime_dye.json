@@ -1,0 +1,25 @@
+{
+  "name": "Lime Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:lime_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_dye",
+      "anchor": "catalog_minecraft_lime_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lime_dye"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:lime_dye_from_smelting",
+      "anchor": "catalog_minecraft_lime_dye_from_smelting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lime_dye_from_smelting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:lime_dye": 0
+  }
+}

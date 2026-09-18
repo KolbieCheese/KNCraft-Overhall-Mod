@@ -1,0 +1,25 @@
+{
+  "name": "Rope",
+  "category": "patchouli:recipes/ropebridge",
+  "icon": "ropebridge:rope",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "kncraft:cotton_rope",
+      "anchor": "catalog_kncraft_cotton_rope",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "kncraft:cotton_rope"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ropebridge:rope",
+      "anchor": "catalog_ropebridge_rope",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ropebridge:rope"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ropebridge:rope": 0
+  }
+}

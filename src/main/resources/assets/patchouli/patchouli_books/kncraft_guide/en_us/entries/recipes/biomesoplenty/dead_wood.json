@@ -1,0 +1,18 @@
+{
+  "name": "Dead Wood",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:dead_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:dead_wood",
+      "anchor": "catalog_biomesoplenty_dead_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:dead_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:dead_wood": 0
+  }
+}

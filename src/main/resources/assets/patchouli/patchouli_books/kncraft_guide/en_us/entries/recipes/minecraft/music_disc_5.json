@@ -1,0 +1,18 @@
+{
+  "name": "Music Disc 5",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:music_disc_5",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:music_disc_5",
+      "anchor": "catalog_minecraft_music_disc_5",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:music_disc_5"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:music_disc_5": 0
+  }
+}

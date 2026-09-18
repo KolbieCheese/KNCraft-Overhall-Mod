@@ -1,0 +1,18 @@
+{
+  "name": "Andesite Platform",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:andesite_platform",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:andesite_platform",
+      "anchor": "catalog_mcwstairs_andesite_platform",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:andesite_platform"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:andesite_platform": 0
+  }
+}

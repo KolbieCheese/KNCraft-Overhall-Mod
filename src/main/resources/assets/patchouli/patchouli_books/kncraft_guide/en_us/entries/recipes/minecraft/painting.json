@@ -1,0 +1,18 @@
+{
+  "name": "Painting",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:painting",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:painting",
+      "anchor": "catalog_minecraft_painting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:painting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:painting": 0
+  }
+}

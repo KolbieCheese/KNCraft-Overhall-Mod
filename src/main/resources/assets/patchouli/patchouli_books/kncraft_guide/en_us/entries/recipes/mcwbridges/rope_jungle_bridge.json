@@ -1,0 +1,25 @@
+{
+  "name": "Rope Jungle Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:rope_jungle_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:jungle_rope_bridge_stair_recycle",
+      "anchor": "catalog_mcwbridges_jungle_rope_bridge_stair_recycle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:jungle_rope_bridge_stair_recycle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:rope_jungle_bridge",
+      "anchor": "catalog_mcwbridges_rope_jungle_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:rope_jungle_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:rope_jungle_bridge": 0
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "Phasometer",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/witherstormmod",
   "icon": "witherstormmod:phasometer",
   "priority": false,
   "sortnum": 0,
@@ -10,6 +10,13 @@
       "recipe": "witherstormmod:phasometer",
       "anchor": "lookup_recipe_witherstormmod_phasometer",
       "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/wither#recipe_witherstormmod_phasometer)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:upgraded_phasometer",
+      "anchor": "catalog_witherstormmod_upgraded_phasometer",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:upgraded_phasometer"
     }
   ],
   "extra_recipe_mappings": {}

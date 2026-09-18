@@ -1,0 +1,18 @@
+{
+  "name": "Acacia Platform",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:acacia_platform",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:acacia_platform",
+      "anchor": "catalog_mcwstairs_acacia_platform",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:acacia_platform"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:acacia_platform": 0
+  }
+}

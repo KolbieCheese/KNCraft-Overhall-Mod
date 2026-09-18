@@ -52,3 +52,20 @@ and `kncraftclimatetest`, plus `kncraftclimatepersist` after restarting their sa
 `kncraftreferencetest` exercises guide delivery, feeding reserves, persisted preferences,
 server definition overrides, recipe replacement, packet data and native FTB guide routes.
 Real multiplayer login and seamless rendering/traversal require a physical client afterward.
+
+## Recipe guide authoring
+
+The recipe catalog is checked in; a normal build does not need the owner's modpack.
+To refresh it, stage every installed recipe-bearing mod in the marked test fixture
+(including Macaw's Bridges/Stairs, JRFTL and Elytra Crafting), run `kncraftguidecatalog`,
+then run `python tools/update_recipe_catalog.py --registry run-isolated/guide-recipe-registry.json --instance PATH`.
+Run this generator after any older guide-authoring helpers. It references actual
+loaded recipe IDs, groups non-food entries under Recipes, and retains existing entry IDs.
+`docs/Guide-Recipe-Index.json` records the resolved recipe audit used by CI; the new
+coverage validator checks every standard recipe and the food/non-food split.
+
+`thermal-foods.json` is the explicit serving-temperature catalog, generated from reviewed
+food families and the runtime food-item registry. Runtime code performs no name matching
+or world scans. `kncraftthermaltest` verifies every catalog food and exercises replacement,
+reloads, module switches, exclusions, explicit KNCraft rows and native Cold Sweat overrides.
+`kncraftreferencetest` also checks that selected guide queries return only allowlisted keys.

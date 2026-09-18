@@ -1,0 +1,18 @@
+{
+  "name": "Redstone Block",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:redstone_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_block",
+      "anchor": "catalog_minecraft_redstone_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:redstone_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:redstone_block": 0
+  }
+}

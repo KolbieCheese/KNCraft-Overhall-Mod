@@ -1,0 +1,18 @@
+{
+  "name": "Rock Shell Chestplate",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:rocky_chestplate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:rocky_chestplate",
+      "anchor": "catalog_alexsmobs_rocky_chestplate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:rocky_chestplate"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:rocky_chestplate": 0
+  }
+}

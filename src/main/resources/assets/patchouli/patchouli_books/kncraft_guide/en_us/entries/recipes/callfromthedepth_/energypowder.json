@@ -1,0 +1,18 @@
+{
+  "name": "Energy powder",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:energypowder",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:energypowdercraft",
+      "anchor": "catalog_callfromthedepth__energypowdercraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:energypowdercraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:energypowder": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Chiseled White Sandstone",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:chiseled_white_sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:chiseled_white_sandstone",
+      "anchor": "catalog_biomesoplenty_chiseled_white_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:chiseled_white_sandstone"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:chiseled_white_sandstone_from_white_sandstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_chiseled_white_sandstone_from_white_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:chiseled_white_sandstone_from_white_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:chiseled_white_sandstone": 0
+  }
+}

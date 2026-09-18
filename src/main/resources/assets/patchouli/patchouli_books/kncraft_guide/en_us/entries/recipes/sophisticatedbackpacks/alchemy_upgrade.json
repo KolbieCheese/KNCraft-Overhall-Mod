@@ -1,0 +1,18 @@
+{
+  "name": "Alchemy Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:alchemy_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:alchemy_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_alchemy_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:alchemy_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:alchemy_upgrade": 0
+  }
+}

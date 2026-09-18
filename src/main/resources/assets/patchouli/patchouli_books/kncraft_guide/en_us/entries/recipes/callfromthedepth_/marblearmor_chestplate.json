@@ -1,0 +1,18 @@
+{
+  "name": "Marble chestplate",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:marblearmor_chestplate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:marblechestcraft",
+      "anchor": "catalog_callfromthedepth__marblechestcraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:marblechestcraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:marblearmor_chestplate": 0
+  }
+}

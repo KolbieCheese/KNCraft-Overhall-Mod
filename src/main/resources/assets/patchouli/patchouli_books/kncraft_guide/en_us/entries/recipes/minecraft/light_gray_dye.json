@@ -1,0 +1,46 @@
+{
+  "name": "Light Gray Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:light_gray_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_gray_dye_from_azure_bluet",
+      "anchor": "catalog_minecraft_light_gray_dye_from_azure_bluet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_gray_dye_from_azure_bluet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_gray_dye_from_black_white_dye",
+      "anchor": "catalog_minecraft_light_gray_dye_from_black_white_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_gray_dye_from_black_white_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_gray_dye_from_gray_white_dye",
+      "anchor": "catalog_minecraft_light_gray_dye_from_gray_white_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_gray_dye_from_gray_white_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_gray_dye_from_oxeye_daisy",
+      "anchor": "catalog_minecraft_light_gray_dye_from_oxeye_daisy",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_gray_dye_from_oxeye_daisy"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_gray_dye_from_white_tulip",
+      "anchor": "catalog_minecraft_light_gray_dye_from_white_tulip",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_gray_dye_from_white_tulip"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:light_gray_dye": 0
+  }
+}

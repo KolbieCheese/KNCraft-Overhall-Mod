@@ -1,0 +1,18 @@
+{
+  "name": "Sculk Boomer",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:sculk_boomer",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:sculk_boomer",
+      "anchor": "catalog_alexsmobs_sculk_boomer",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:sculk_boomer"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:sculk_boomer": 0
+  }
+}

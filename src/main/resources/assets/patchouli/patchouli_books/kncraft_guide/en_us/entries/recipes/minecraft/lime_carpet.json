@@ -1,0 +1,25 @@
+{
+  "name": "Lime Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:lime_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_lime_carpet",
+      "anchor": "catalog_minecraft_dye_lime_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_lime_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_carpet",
+      "anchor": "catalog_minecraft_lime_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lime_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:lime_carpet": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Guarana Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:guaranaseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:guaranaseeditem",
+      "anchor": "catalog_pamhc2crops_guaranaseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:guaranaseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:guaranaseeditem": 0
+  }
+}

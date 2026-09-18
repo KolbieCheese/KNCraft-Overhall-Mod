@@ -1,6 +1,6 @@
 {
   "name": "Trail Mix",
-  "category": "patchouli:recipes",
+  "category": "patchouli:cookbook",
   "icon": "pamhc2foodcore:trailmixitem",
   "priority": false,
   "sortnum": 0,
@@ -9,7 +9,7 @@
       "type": "patchouli:crafting",
       "recipe": "pamhc2foodcore:trailmixitem",
       "anchor": "lookup_recipe_pamhc2foodcore_trailmixitem",
-      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/food#recipe_pamhc2foodcore_trailmixitem)Guide$(/l)"
+      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#recipe_pamhc2foodcore_trailmixitem)Guide$(/l)"
     }
   ],
   "extra_recipe_mappings": {}

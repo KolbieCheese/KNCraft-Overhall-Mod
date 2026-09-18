@@ -1,0 +1,18 @@
+{
+  "name": "Block of Zanite",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:zanite_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:zanite_block",
+      "anchor": "catalog_aether_zanite_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:zanite_block": 0
+  }
+}

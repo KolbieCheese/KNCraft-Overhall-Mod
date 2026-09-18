@@ -1,0 +1,25 @@
+{
+  "name": "Red Sandstone Bridge Support",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:red_sandstone_bridge_pier",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:red_sandstone_bridge_pier",
+      "anchor": "catalog_mcwbridges_red_sandstone_bridge_pier",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:red_sandstone_bridge_pier"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_red_sandstone_bridge_pier",
+      "anchor": "catalog_mcwbridges_stonecutter_red_sandstone_bridge_pier",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_red_sandstone_bridge_pier"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:red_sandstone_bridge_pier": 0
+  }
+}

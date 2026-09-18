@@ -1,0 +1,18 @@
+{
+  "name": "Red Stained Glass",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:red_stained_glass",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_stained_glass",
+      "anchor": "catalog_minecraft_red_stained_glass",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_stained_glass"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:red_stained_glass": 0
+  }
+}

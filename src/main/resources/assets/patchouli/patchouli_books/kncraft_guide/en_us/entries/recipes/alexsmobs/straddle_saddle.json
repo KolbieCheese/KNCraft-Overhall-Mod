@@ -1,0 +1,18 @@
+{
+  "name": "Straddlite Saddle",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:straddle_saddle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:straddle_saddle",
+      "anchor": "catalog_alexsmobs_straddle_saddle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:straddle_saddle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:straddle_saddle": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Stripped Magic Wood",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:stripped_magic_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:stripped_magic_wood",
+      "anchor": "catalog_biomesoplenty_stripped_magic_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:stripped_magic_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:stripped_magic_wood": 0
+  }
+}

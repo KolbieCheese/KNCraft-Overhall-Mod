@@ -1,0 +1,29 @@
+{
+  "name": "Zanite Pickaxe",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:zanite_pickaxe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:zanite_pickaxe",
+      "anchor": "catalog_aether_zanite_pickaxe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_pickaxe"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_zanite_pickaxe_repairing",
+      "input": "aether:zanite_pickaxe",
+      "output": "aether:zanite_pickaxe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_pickaxe_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:zanite_pickaxe": 0
+  }
+}

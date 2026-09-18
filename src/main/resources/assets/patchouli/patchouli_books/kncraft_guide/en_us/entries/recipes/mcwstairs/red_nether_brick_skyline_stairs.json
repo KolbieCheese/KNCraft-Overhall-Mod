@@ -1,0 +1,18 @@
+{
+  "name": "Red Nether Brick Skyline Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:red_nether_brick_skyline_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:red_nether_brick_skyline_stairs",
+      "anchor": "catalog_mcwstairs_red_nether_brick_skyline_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:red_nether_brick_skyline_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:red_nether_brick_skyline_stairs": 0
+  }
+}

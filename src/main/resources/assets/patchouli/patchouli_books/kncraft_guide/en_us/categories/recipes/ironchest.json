@@ -1,0 +1,7 @@
+{
+  "name": "Iron Chests",
+  "parent": "patchouli:recipes",
+  "description": "Iron Chests equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "ironchest:copper_chest",
+  "sortnum": 0
+}

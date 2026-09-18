@@ -1,0 +1,18 @@
+{
+  "name": "Spiked Turtle Shell",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:spiked_turtle_shell",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:spiked_turtle_shell",
+      "anchor": "catalog_alexsmobs_spiked_turtle_shell",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:spiked_turtle_shell"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:spiked_turtle_shell": 0
+  }
+}

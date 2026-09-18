@@ -1,0 +1,29 @@
+{
+  "name": "Holystone Shovel",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:holystone_shovel",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:holystone_shovel",
+      "anchor": "catalog_aether_holystone_shovel",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:holystone_shovel"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_holystone_shovel_repairing",
+      "input": "aether:holystone_shovel",
+      "output": "aether:holystone_shovel",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:holystone_shovel_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:holystone_shovel": 0
+  }
+}

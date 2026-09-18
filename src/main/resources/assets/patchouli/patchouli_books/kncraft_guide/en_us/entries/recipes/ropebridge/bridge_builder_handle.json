@@ -1,0 +1,18 @@
+{
+  "name": "Gun Stock",
+  "category": "patchouli:recipes/ropebridge",
+  "icon": "ropebridge:bridge_builder_handle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ropebridge:bridge_builder_handle",
+      "anchor": "catalog_ropebridge_bridge_builder_handle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ropebridge:bridge_builder_handle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ropebridge:bridge_builder_handle": 0
+  }
+}

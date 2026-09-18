@@ -1,0 +1,18 @@
+{
+  "name": "Endolocator",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:endolocator",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:endolocator",
+      "anchor": "catalog_alexsmobs_endolocator",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:endolocator"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:endolocator": 0
+  }
+}

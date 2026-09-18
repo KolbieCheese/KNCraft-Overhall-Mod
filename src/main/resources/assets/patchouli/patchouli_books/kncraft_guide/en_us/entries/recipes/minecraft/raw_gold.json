@@ -1,0 +1,18 @@
+{
+  "name": "Raw Gold",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:raw_gold",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:raw_gold",
+      "anchor": "catalog_minecraft_raw_gold",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:raw_gold"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:raw_gold": 0
+  }
+}

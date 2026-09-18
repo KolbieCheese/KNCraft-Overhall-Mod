@@ -1,0 +1,22 @@
+{
+  "name": "Ice Ring",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:ice_ring",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Freezer",
+      "anchor": "catalog_aether_ice_ring_from_freezing",
+      "input": "aether:iron_ring",
+      "output": "aether:ice_ring",
+      "station": "aether:freezer",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:ice_ring_from_freezing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:ice_ring": 0
+  }
+}

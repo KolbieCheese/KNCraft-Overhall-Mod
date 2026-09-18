@@ -1,0 +1,18 @@
+{
+  "name": "Silent tree slab",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:silenttreeslab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:st_2",
+      "anchor": "catalog_callfromthedepth__st_2",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:st_2"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:silenttreeslab": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Light Blue Wool",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:light_blue_wool",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_light_blue_wool",
+      "anchor": "catalog_minecraft_dye_light_blue_wool",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_light_blue_wool"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:light_blue_wool": 0
+  }
+}

@@ -204,7 +204,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Food for the climate",
-      "body": "Some meals help Cold Sweat as well as hunger. Hot drinks and soups warm you; selected chilled foods cool you. Each affected Cook Book entry lists its strength and duration. These are changes to base temperature, not instant body-temperature points.",
+      "body": "Smoothies, frozen desserts, juices and chilled foods cool you. Soups, stews, hot drinks and selected cooked meals warm you. Each affected recipe prints its default strength and duration; turn pages for current server values. These change base temperature, not instant body temperature.",
       "anchor": "kncraft_thermal_meals",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)"
     },

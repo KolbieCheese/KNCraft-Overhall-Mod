@@ -30,6 +30,20 @@
       "input": "pamhc2foodcore:sunflowerseedsitem",
       "station": "minecraft:smoker",
       "output": "pamhc2foodcore:roastedsunflowerseedsitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "minecraft:campfire_roastedsunflowerseedsitem",
+      "anchor": "catalog_minecraft_campfire_roastedsunflowerseedsitem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:campfire_roastedsunflowerseedsitem"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "minecraft:smoking_roastedsunflowerseedsitem",
+      "anchor": "catalog_minecraft_smoking_roastedsunflowerseedsitem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:smoking_roastedsunflowerseedsitem"
     }
   ],
   "extra_recipe_mappings": {

@@ -1,0 +1,18 @@
+{
+  "name": "Dead Stairs",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:dead_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:dead_stairs",
+      "anchor": "catalog_biomesoplenty_dead_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:dead_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:dead_stairs": 0
+  }
+}

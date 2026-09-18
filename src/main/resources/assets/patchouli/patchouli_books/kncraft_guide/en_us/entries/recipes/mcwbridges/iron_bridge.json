@@ -1,0 +1,25 @@
+{
+  "name": "Iron Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:iron_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:iron_bridge_middle",
+      "anchor": "catalog_mcwbridges_iron_bridge_middle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:iron_bridge_middle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:iron_bridge_stair_recycle",
+      "anchor": "catalog_mcwbridges_iron_bridge_stair_recycle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:iron_bridge_stair_recycle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:iron_bridge": 0
+  }
+}

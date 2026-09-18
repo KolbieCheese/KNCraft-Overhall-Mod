@@ -1,0 +1,39 @@
+{
+  "name": "White Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:white_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:flower_to_white_dye",
+      "anchor": "catalog_aether_flower_to_white_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:flower_to_white_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:white_dye_from_white_petals",
+      "anchor": "catalog_biomesoplenty_white_dye_from_white_petals",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:white_dye_from_white_petals"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_dye",
+      "anchor": "catalog_minecraft_white_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:white_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_dye_from_lily_of_the_valley",
+      "anchor": "catalog_minecraft_white_dye_from_lily_of_the_valley",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:white_dye_from_lily_of_the_valley"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:white_dye": 0
+  }
+}

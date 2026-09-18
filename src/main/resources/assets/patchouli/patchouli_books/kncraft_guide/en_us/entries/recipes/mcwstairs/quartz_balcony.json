@@ -1,0 +1,18 @@
+{
+  "name": "Quartz Balcony",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:quartz_balcony",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:quartz_balcony",
+      "anchor": "catalog_mcwstairs_quartz_balcony",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:quartz_balcony"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:quartz_balcony": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Jungle Trapdoor",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:jungle_trapdoor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_trapdoor",
+      "anchor": "catalog_minecraft_jungle_trapdoor",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:jungle_trapdoor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:jungle_trapdoor": 0
+  }
+}

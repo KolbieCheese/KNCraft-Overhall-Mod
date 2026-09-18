@@ -1,0 +1,18 @@
+{
+  "name": "Warped Sign",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:warped_sign",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:warped_sign",
+      "anchor": "catalog_minecraft_warped_sign",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:warped_sign"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:warped_sign": 0
+  }
+}

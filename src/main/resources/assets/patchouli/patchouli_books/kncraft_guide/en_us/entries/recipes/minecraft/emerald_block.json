@@ -1,0 +1,18 @@
+{
+  "name": "Emerald Block",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:emerald_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:emerald_block",
+      "anchor": "catalog_minecraft_emerald_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:emerald_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:emerald_block": 0
+  }
+}

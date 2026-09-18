@@ -1,0 +1,25 @@
+{
+  "name": "Nether Bricks Bridge Pier",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:nether_bricks_bridge_pier",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:nether_bricks_bridge_pier",
+      "anchor": "catalog_mcwbridges_nether_bricks_bridge_pier",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:nether_bricks_bridge_pier"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_nether_bricks_bridge_pier",
+      "anchor": "catalog_mcwbridges_stonecutter_nether_bricks_bridge_pier",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_nether_bricks_bridge_pier"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:nether_bricks_bridge_pier": 0
+  }
+}

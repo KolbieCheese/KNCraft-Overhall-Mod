@@ -1,0 +1,18 @@
+{
+  "name": "Cracked Deepslate Tiles",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cracked_deepslate_tiles",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:cracked_deepslate_tiles",
+      "anchor": "catalog_minecraft_cracked_deepslate_tiles",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cracked_deepslate_tiles"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cracked_deepslate_tiles": 0
+  }
+}

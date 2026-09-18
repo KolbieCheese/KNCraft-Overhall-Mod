@@ -1,0 +1,25 @@
+{
+  "name": "Icestone Stairs",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:icestone_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:icestone_stairs",
+      "anchor": "catalog_aether_icestone_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:icestone_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:icestone_stairs_from_icestone_stonecutting",
+      "anchor": "catalog_aether_icestone_stairs_from_icestone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:icestone_stairs_from_icestone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:icestone_stairs": 0
+  }
+}

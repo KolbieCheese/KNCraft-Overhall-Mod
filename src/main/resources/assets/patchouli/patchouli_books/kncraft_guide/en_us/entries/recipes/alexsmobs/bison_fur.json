@@ -1,0 +1,18 @@
+{
+  "name": "Bison Fur",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:bison_fur",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:bison_fur_from_block",
+      "anchor": "catalog_alexsmobs_bison_fur_from_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:bison_fur_from_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:bison_fur": 0
+  }
+}

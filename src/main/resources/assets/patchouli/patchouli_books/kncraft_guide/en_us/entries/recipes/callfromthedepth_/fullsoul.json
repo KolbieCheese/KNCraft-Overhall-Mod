@@ -1,0 +1,18 @@
+{
+  "name": "Soul gem ",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:fullsoul",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:soulcraft",
+      "anchor": "catalog_callfromthedepth__soulcraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:soulcraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:fullsoul": 0
+  }
+}

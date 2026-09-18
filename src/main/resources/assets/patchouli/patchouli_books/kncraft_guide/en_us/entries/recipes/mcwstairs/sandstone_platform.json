@@ -1,0 +1,18 @@
+{
+  "name": "Sandstone Platform",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:sandstone_platform",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:sandstone_platform",
+      "anchor": "catalog_mcwstairs_sandstone_platform",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:sandstone_platform"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:sandstone_platform": 0
+  }
+}

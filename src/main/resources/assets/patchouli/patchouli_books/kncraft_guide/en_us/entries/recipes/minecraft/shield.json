@@ -1,0 +1,50 @@
+{
+  "name": "Shield",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:shield",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_shield_repairing",
+      "input": "minecraft:shield",
+      "output": "minecraft:shield",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:shield_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_iron_vanilla_shield",
+      "anchor": "catalog_aether_skyroot_iron_vanilla_shield",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_iron_vanilla_shield"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_zanite_vanilla_shield",
+      "anchor": "catalog_aether_skyroot_zanite_vanilla_shield",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_zanite_vanilla_shield"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:wood_zanite_vanilla_shield",
+      "anchor": "catalog_aether_wood_zanite_vanilla_shield",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:wood_zanite_vanilla_shield"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shield",
+      "anchor": "catalog_minecraft_shield",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:shield"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:shield": 0
+  }
+}

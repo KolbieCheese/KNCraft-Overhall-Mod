@@ -1,0 +1,18 @@
+{
+  "name": "Pliers",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:pliers",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:pliers",
+      "anchor": "catalog_mcwbridges_pliers",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:pliers"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:pliers": 0
+  }
+}

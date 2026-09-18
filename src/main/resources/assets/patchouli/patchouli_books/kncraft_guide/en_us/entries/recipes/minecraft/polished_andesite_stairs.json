@@ -1,0 +1,32 @@
+{
+  "name": "Polished Andesite Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_andesite_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_andesite_stairs",
+      "anchor": "catalog_minecraft_polished_andesite_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_andesite_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_andesite_stairs_from_andesite_stonecutting",
+      "anchor": "catalog_minecraft_polished_andesite_stairs_from_andesite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_andesite_stairs_from_andesite_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_andesite_stairs_from_polished_andesite_stonecutting",
+      "anchor": "catalog_minecraft_polished_andesite_stairs_from_polished_andesite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_andesite_stairs_from_polished_andesite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_andesite_stairs": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Map",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:map",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:map",
+      "anchor": "catalog_minecraft_map",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:map"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:map",
+      "anchor": "catalog_minecraft_map_extending",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "minecraft:map_extending"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:map": 0
+  }
+}

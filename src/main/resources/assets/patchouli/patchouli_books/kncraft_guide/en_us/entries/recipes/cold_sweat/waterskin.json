@@ -1,6 +1,6 @@
 {
   "name": "Waterskin",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/cold_sweat",
   "icon": "cold_sweat:waterskin",
   "priority": false,
   "sortnum": 0,

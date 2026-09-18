@@ -1,0 +1,18 @@
+{
+  "name": "Magic Button",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:magic_button",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:magic_button",
+      "anchor": "catalog_biomesoplenty_magic_button",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:magic_button"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:magic_button": 0
+  }
+}

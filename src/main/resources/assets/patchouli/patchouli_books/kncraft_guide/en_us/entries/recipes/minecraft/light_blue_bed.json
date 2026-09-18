@@ -1,0 +1,25 @@
+{
+  "name": "Light Blue Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:light_blue_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_light_blue_bed",
+      "anchor": "catalog_minecraft_dye_light_blue_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_light_blue_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_bed",
+      "anchor": "catalog_minecraft_light_blue_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_blue_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:light_blue_bed": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Sandstone Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:sandstone_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:sandstone_stairs",
+      "anchor": "catalog_minecraft_sandstone_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:sandstone_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:sandstone_stairs_from_sandstone_stonecutting",
+      "anchor": "catalog_minecraft_sandstone_stairs_from_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:sandstone_stairs_from_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:sandstone_stairs": 0
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Diamond",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:diamond",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond",
+      "anchor": "catalog_minecraft_diamond",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diamond"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:diamond_from_blasting_deepslate_diamond_ore",
+      "anchor": "catalog_minecraft_diamond_from_blasting_deepslate_diamond_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diamond_from_blasting_deepslate_diamond_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:diamond_from_blasting_diamond_ore",
+      "anchor": "catalog_minecraft_diamond_from_blasting_diamond_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diamond_from_blasting_diamond_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:diamond_from_smelting_deepslate_diamond_ore",
+      "anchor": "catalog_minecraft_diamond_from_smelting_deepslate_diamond_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diamond_from_smelting_deepslate_diamond_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:diamond_from_smelting_diamond_ore",
+      "anchor": "catalog_minecraft_diamond_from_smelting_diamond_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diamond_from_smelting_diamond_ore"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:diamond": 0
+  }
+}

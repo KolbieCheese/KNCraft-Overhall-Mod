@@ -1,0 +1,18 @@
+{
+  "name": "Warped Platform",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:warped_platform",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:warped_platform",
+      "anchor": "catalog_mcwstairs_warped_platform",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:warped_platform"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:warped_platform": 0
+  }
+}

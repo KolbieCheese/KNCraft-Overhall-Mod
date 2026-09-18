@@ -1,0 +1,25 @@
+{
+  "name": "Polished Basalt",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_basalt",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_basalt",
+      "anchor": "catalog_minecraft_polished_basalt",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_basalt"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_basalt_from_basalt_stonecutting",
+      "anchor": "catalog_minecraft_polished_basalt_from_basalt_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_basalt_from_basalt_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_basalt": 0
+  }
+}

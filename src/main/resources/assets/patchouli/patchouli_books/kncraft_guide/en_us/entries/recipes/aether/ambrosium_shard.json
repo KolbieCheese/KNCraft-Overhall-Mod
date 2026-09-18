@@ -1,0 +1,32 @@
+{
+  "name": "Ambrosium Shard",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:ambrosium_shard",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:ambrosium_shard_from_ambrosium_block",
+      "anchor": "catalog_aether_ambrosium_shard_from_ambrosium_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:ambrosium_shard_from_ambrosium_block"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "aether:ambrosium_shard_from_blasting",
+      "anchor": "catalog_aether_ambrosium_shard_from_blasting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:ambrosium_shard_from_blasting"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "aether:ambrosium_shard_from_smelting",
+      "anchor": "catalog_aether_ambrosium_shard_from_smelting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:ambrosium_shard_from_smelting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:ambrosium_shard": 0
+  }
+}

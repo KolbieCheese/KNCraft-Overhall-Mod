@@ -1,0 +1,25 @@
+{
+  "name": "Tainted Stone Stairs",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_stone_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:tainted_stone_stairs",
+      "anchor": "catalog_witherstormmod_tainted_stone_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_stone_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "witherstormmod:tainted_stone_stairs_stonecutting",
+      "anchor": "catalog_witherstormmod_tainted_stone_stairs_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_stone_stairs_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_stone_stairs": 0
+  }
+}

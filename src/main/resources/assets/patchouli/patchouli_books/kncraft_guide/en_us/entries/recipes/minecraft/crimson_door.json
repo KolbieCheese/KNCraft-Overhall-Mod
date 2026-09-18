@@ -1,0 +1,18 @@
+{
+  "name": "Crimson Door",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:crimson_door",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_door",
+      "anchor": "catalog_minecraft_crimson_door",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:crimson_door"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:crimson_door": 0
+  }
+}

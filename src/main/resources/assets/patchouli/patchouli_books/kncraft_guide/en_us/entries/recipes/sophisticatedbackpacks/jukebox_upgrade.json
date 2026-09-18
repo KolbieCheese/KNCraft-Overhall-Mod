@@ -1,0 +1,18 @@
+{
+  "name": "Jukebox Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:jukebox_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:jukebox_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_jukebox_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:jukebox_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:jukebox_upgrade": 0
+  }
+}

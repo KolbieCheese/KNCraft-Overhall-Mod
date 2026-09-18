@@ -1,0 +1,29 @@
+{
+  "name": "Packed Ice",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:packed_ice",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Freezer",
+      "anchor": "catalog_aether_packed_ice_freezing",
+      "input": "minecraft:ice",
+      "output": "minecraft:packed_ice",
+      "station": "aether:freezer",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:packed_ice_freezing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:packed_ice",
+      "anchor": "catalog_minecraft_packed_ice",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:packed_ice"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:packed_ice": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Polished Diorite",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_diorite",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_diorite",
+      "anchor": "catalog_minecraft_polished_diorite",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_diorite"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_diorite_from_diorite_stonecutting",
+      "anchor": "catalog_minecraft_polished_diorite_from_diorite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_diorite_from_diorite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_diorite": 0
+  }
+}

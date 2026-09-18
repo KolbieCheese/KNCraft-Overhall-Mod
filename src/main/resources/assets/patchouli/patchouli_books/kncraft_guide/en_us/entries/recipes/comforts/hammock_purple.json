@@ -1,0 +1,25 @@
+{
+  "name": "Purple Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_purple",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_purple",
+      "anchor": "catalog_comforts_hammock_purple",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_purple"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_purple",
+      "anchor": "catalog_comforts_hammock_to_purple",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_purple"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_purple": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Hellbark Boat",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:hellbark_boat",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:hellbark_boat",
+      "anchor": "catalog_biomesoplenty_hellbark_boat",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:hellbark_boat"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:hellbark_boat": 0
+  }
+}

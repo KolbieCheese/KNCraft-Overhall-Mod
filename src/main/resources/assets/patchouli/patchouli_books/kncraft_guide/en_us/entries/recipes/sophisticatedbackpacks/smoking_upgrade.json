@@ -1,0 +1,25 @@
+{
+  "name": "Smoking Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:smoking_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:smoking_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_smoking_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:smoking_upgrade"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:smoking_upgrade_from_smelting_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_smoking_upgrade_from_smelting_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:smoking_upgrade_from_smelting_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:smoking_upgrade": 0
+  }
+}

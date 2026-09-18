@@ -1,0 +1,18 @@
+{
+  "name": "Tainted Slab",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:tainted_slab",
+      "anchor": "catalog_witherstormmod_tainted_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_slab"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_slab": 0
+  }
+}

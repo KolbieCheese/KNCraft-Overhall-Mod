@@ -1,0 +1,18 @@
+{
+  "name": "Blackstone Compact Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:blackstone_compact_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:blackstone_compact_stairs",
+      "anchor": "catalog_mcwstairs_blackstone_compact_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:blackstone_compact_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:blackstone_compact_stairs": 0
+  }
+}

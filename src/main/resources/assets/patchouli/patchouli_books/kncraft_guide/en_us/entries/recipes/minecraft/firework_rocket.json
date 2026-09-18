@@ -1,0 +1,25 @@
+{
+  "name": "Firework Rocket",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:firework_rocket",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:firework_rocket",
+      "anchor": "catalog_minecraft_firework_rocket",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "minecraft:firework_rocket"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:firework_rocket_simple",
+      "anchor": "catalog_minecraft_firework_rocket_simple",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:firework_rocket_simple"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:firework_rocket": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Tainted Chiseled Sandstone",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_chiseled_sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:tainted_chiseled_sandstone",
+      "anchor": "catalog_witherstormmod_tainted_chiseled_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_chiseled_sandstone"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "witherstormmod:tainted_chiseled_sandstone_stonecutting",
+      "anchor": "catalog_witherstormmod_tainted_chiseled_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_chiseled_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_chiseled_sandstone": 0
+  }
+}

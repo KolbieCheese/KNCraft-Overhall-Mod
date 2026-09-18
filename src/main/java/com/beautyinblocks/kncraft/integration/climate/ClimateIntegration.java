@@ -57,7 +57,16 @@ public final class ClimateIntegration {
                 diagnostics.add("Insulation active: " + setting.item() + " " + setting.cold() + "/" + setting.heat());
             } catch (RuntimeException ex) { diagnostics.add("Rejected insulation: " + row + " (" + ex.getMessage() + ")"); }
         }
-        if (ArchitectureConfig.MEALS.get()) for (String row : ArchitectureConfig.FOODS.get()) {
+        var foods = new ArrayList<String>(ArchitectureConfig.FOODS.get());
+        if (ArchitectureConfig.EXPANDED_MEALS.get()) {
+            var explicitItems = new HashSet<String>();
+            foods.forEach(row -> explicitItems.add(row.split("\\|", -1)[0]));
+            for (String row : ThermalFoodCatalog.additions(explicitItems, new HashSet<>(ArchitectureConfig.FOOD_EXCLUSIONS.get()))) {
+                // Optional mods can be absent; the curated catalog must not generate missing-item errors.
+                if (ForgeRegistries.ITEMS.containsKey(new ResourceLocation(row.split("\\|", -1)[0]))) foods.add(row);
+            }
+        }
+        if (ArchitectureConfig.MEALS.get()) for (String row : foods) {
             try {
                 var setting = CohesionSettings.meal(row); var stack = item(setting.item());
                 if (!seen.add("food/" + setting.item())) throw new IllegalArgumentException("Duplicate meal row " + setting.item());

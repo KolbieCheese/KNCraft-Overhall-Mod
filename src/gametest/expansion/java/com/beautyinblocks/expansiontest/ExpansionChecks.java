@@ -45,6 +45,14 @@ public final class ExpansionChecks {
     }
     static boolean tag(String item, String tag) { return item(item).is(TagKey.create(Registries.ITEM, new ResourceLocation(tag))); }
     @SubscribeEvent public void commands(RegisterCommandsEvent event) {
+        event.getDispatcher().register(Commands.literal("kncraftthermaltest").requires(s -> s.getEntity() == null && !s.getServer().usesAuthentication()).executes(ctx -> {
+            try { ThermalFoodChecks.run(ctx.getSource().getServer()); return 1; }
+            catch (Throwable ex) { ex.printStackTrace(); ctx.getSource().sendFailure(Component.literal("THERMAL CATALOG FAILED: " + ex)); return 0; }
+        }));
+        event.getDispatcher().register(Commands.literal("kncraftguidecatalog").requires(s -> s.getEntity() == null && !s.getServer().usesAuthentication()).executes(ctx -> {
+            try { GuideCatalogChecks.export(ctx.getSource().getServer()); return 1; }
+            catch (Throwable ex) { ex.printStackTrace(); ctx.getSource().sendFailure(Component.literal("GUIDE CATALOG FAILED: " + ex)); return 0; }
+        }));
         event.getDispatcher().register(Commands.literal("kncraftreferencetest").requires(s -> s.getEntity() == null && !s.getServer().usesAuthentication()).executes(ctx -> {
             try { ReferenceChecks.run(ctx.getSource().getServer()); ctx.getSource().sendSuccess(() -> Component.literal("REFERENCE CHECKS PASSED"), false); return 1; }
             catch (Throwable ex) { ex.printStackTrace(); ctx.getSource().sendFailure(Component.literal("REFERENCE CHECKS FAILED: " + ex)); return 0; }

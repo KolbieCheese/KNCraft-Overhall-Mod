@@ -1,0 +1,18 @@
+{
+  "name": "Grape Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:grapeseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:grapeseeditem",
+      "anchor": "catalog_pamhc2crops_grapeseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:grapeseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:grapeseeditem": 0
+  }
+}

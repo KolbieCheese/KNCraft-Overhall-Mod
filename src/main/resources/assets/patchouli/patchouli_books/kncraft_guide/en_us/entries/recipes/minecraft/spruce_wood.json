@@ -1,0 +1,18 @@
+{
+  "name": "Spruce Wood",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:spruce_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_wood",
+      "anchor": "catalog_minecraft_spruce_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:spruce_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:spruce_wood": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Mossy Cobblestone Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mossy_cobblestone_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mossy_cobblestone_stairs",
+      "anchor": "catalog_minecraft_mossy_cobblestone_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mossy_cobblestone_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting",
+      "anchor": "catalog_minecraft_mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mossy_cobblestone_stairs": 0
+  }
+}

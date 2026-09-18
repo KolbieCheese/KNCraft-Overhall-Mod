@@ -1,0 +1,18 @@
+{
+  "name": "Poison Dart Shooter",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:poison_dart_shooter",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:poison_dart_shooter",
+      "anchor": "catalog_aether_poison_dart_shooter",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:poison_dart_shooter"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:poison_dart_shooter": 0
+  }
+}

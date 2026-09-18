@@ -1,0 +1,18 @@
+{
+  "name": "Sandstone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:sandstone",
+      "anchor": "catalog_minecraft_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:sandstone"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:sandstone": 0
+  }
+}

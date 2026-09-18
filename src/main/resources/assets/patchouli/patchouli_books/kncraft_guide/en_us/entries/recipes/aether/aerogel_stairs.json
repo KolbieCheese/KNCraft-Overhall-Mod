@@ -1,0 +1,25 @@
+{
+  "name": "Aerogel Stairs",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:aerogel_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:aerogel_stairs",
+      "anchor": "catalog_aether_aerogel_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:aerogel_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:aerogel_stairs_from_aerogel_stonecutting",
+      "anchor": "catalog_aether_aerogel_stairs_from_aerogel_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:aerogel_stairs_from_aerogel_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:aerogel_stairs": 0
+  }
+}

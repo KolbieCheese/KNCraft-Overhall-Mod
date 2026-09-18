@@ -1,0 +1,25 @@
+{
+  "name": "Brick Bridge Support",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:brick_bridge_pier",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:brick_bridge_pier",
+      "anchor": "catalog_mcwbridges_brick_bridge_pier",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:brick_bridge_pier"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_brick_bridge_pier",
+      "anchor": "catalog_mcwbridges_stonecutter_brick_bridge_pier",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_brick_bridge_pier"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:brick_bridge_pier": 0
+  }
+}

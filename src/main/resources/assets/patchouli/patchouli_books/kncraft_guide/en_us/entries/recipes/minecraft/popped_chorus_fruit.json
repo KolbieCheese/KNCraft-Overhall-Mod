@@ -1,0 +1,18 @@
+{
+  "name": "Popped Chorus Fruit",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:popped_chorus_fruit",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:popped_chorus_fruit",
+      "anchor": "catalog_minecraft_popped_chorus_fruit",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:popped_chorus_fruit"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:popped_chorus_fruit": 0
+  }
+}

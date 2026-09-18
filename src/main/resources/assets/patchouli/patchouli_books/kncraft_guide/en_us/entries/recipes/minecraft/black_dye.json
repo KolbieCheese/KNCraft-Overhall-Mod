@@ -1,0 +1,25 @@
+{
+  "name": "Black Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:black_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_dye",
+      "anchor": "catalog_minecraft_black_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:black_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_dye_from_wither_rose",
+      "anchor": "catalog_minecraft_black_dye_from_wither_rose",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:black_dye_from_wither_rose"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:black_dye": 0
+  }
+}

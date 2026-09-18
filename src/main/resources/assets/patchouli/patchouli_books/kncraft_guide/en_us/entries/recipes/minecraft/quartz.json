@@ -1,0 +1,25 @@
+{
+  "name": "Quartz",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:quartz",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:quartz",
+      "anchor": "catalog_minecraft_quartz",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:quartz"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:quartz_from_blasting",
+      "anchor": "catalog_minecraft_quartz_from_blasting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:quartz_from_blasting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:quartz": 0
+  }
+}

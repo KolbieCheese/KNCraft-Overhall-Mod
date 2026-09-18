@@ -1,0 +1,18 @@
+{
+  "name": "Lime Wool",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:lime_wool",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_lime_wool",
+      "anchor": "catalog_minecraft_dye_lime_wool",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_lime_wool"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:lime_wool": 0
+  }
+}

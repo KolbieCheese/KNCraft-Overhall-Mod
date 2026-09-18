@@ -1,0 +1,18 @@
+{
+  "name": "Willow Planks",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:willow_planks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:willow_planks",
+      "anchor": "catalog_biomesoplenty_willow_planks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:willow_planks"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:willow_planks": 0
+  }
+}

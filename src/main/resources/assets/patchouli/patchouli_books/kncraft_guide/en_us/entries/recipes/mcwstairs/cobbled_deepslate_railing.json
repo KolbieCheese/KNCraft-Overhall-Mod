@@ -1,0 +1,18 @@
+{
+  "name": "Cobbled Deepslate Railing",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:cobbled_deepslate_railing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:cobbled_deepslate_railing",
+      "anchor": "catalog_mcwstairs_cobbled_deepslate_railing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:cobbled_deepslate_railing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:cobbled_deepslate_railing": 0
+  }
+}

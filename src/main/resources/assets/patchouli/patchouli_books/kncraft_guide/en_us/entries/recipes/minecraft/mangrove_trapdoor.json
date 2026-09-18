@@ -1,0 +1,18 @@
+{
+  "name": "Mangrove Trapdoor",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mangrove_trapdoor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mangrove_trapdoor",
+      "anchor": "catalog_minecraft_mangrove_trapdoor",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mangrove_trapdoor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mangrove_trapdoor": 0
+  }
+}

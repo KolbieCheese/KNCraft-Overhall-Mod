@@ -1,0 +1,25 @@
+{
+  "name": "Sandstone Wall",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:sandstone_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:sandstone_wall",
+      "anchor": "catalog_minecraft_sandstone_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:sandstone_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:sandstone_wall_from_sandstone_stonecutting",
+      "anchor": "catalog_minecraft_sandstone_wall_from_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:sandstone_wall_from_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:sandstone_wall": 0
+  }
+}

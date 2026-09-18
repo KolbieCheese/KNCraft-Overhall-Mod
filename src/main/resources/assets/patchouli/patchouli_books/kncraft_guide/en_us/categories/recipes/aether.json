@@ -1,0 +1,7 @@
+{
+  "name": "The Aether",
+  "parent": "patchouli:recipes",
+  "description": "The Aether equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "aether:altar",
+  "sortnum": 0
+}

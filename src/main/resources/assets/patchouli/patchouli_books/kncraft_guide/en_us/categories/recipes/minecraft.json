@@ -1,0 +1,7 @@
+{
+  "name": "Minecraft",
+  "parent": "patchouli:recipes",
+  "description": "Minecraft equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "minecraft:crafting_table",
+  "sortnum": 0
+}

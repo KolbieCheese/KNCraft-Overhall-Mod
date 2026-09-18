@@ -1,0 +1,18 @@
+{
+  "name": "Magic Slab",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:magic_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:magic_slab",
+      "anchor": "catalog_biomesoplenty_magic_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:magic_slab"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:magic_slab": 0
+  }
+}

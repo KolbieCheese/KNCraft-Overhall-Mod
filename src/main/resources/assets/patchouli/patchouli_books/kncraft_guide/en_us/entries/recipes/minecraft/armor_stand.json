@@ -1,0 +1,18 @@
+{
+  "name": "Armor Stand",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:armor_stand",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:armor_stand",
+      "anchor": "catalog_minecraft_armor_stand",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:armor_stand"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:armor_stand": 0
+  }
+}

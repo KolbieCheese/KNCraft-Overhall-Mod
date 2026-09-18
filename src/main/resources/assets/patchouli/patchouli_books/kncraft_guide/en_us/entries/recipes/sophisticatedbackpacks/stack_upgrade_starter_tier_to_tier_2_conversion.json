@@ -1,0 +1,18 @@
+{
+  "name": "Stack Upgrade Conversion: Starter Tier to Tier 2",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_2_conversion",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_2_conversion",
+      "anchor": "catalog_sophisticatedbackpacks_stack_upgrade_starter_tier_to_tier_2_conversion",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_2_conversion"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_2_conversion": 0
+  }
+}

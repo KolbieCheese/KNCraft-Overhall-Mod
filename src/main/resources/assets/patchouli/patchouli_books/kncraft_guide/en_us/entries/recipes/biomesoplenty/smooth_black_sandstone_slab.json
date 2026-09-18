@@ -1,0 +1,25 @@
+{
+  "name": "Smooth Black Sandstone Slab",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:smooth_black_sandstone_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:smooth_black_sandstone_slab",
+      "anchor": "catalog_biomesoplenty_smooth_black_sandstone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:smooth_black_sandstone_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:smooth_black_sandstone_slab_from_smooth_black_sandstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_smooth_black_sandstone_slab_from_smooth_black_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:smooth_black_sandstone_slab_from_smooth_black_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:smooth_black_sandstone_slab": 0
+  }
+}

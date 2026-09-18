@@ -1,0 +1,25 @@
+{
+  "name": "Yellow Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:yellow_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_yellow_carpet",
+      "anchor": "catalog_minecraft_dye_yellow_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_yellow_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:yellow_carpet",
+      "anchor": "catalog_minecraft_yellow_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:yellow_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:yellow_carpet": 0
+  }
+}

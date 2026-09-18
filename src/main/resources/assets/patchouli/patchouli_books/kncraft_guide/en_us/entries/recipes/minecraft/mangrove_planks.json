@@ -1,0 +1,18 @@
+{
+  "name": "Mangrove Planks",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mangrove_planks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mangrove_planks",
+      "anchor": "catalog_minecraft_mangrove_planks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mangrove_planks"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mangrove_planks": 0
+  }
+}

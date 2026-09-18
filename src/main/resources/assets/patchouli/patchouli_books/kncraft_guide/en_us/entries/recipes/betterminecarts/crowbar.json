@@ -1,0 +1,18 @@
+{
+  "name": "Crowbar",
+  "category": "patchouli:recipes/betterminecarts",
+  "icon": "betterminecarts:crowbar",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "betterminecarts:crowbar",
+      "anchor": "catalog_betterminecarts_crowbar",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "betterminecarts:crowbar"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "betterminecarts:crowbar": 0
+  }
+}

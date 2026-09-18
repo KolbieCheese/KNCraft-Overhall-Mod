@@ -1,0 +1,25 @@
+{
+  "name": "Lime Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:lime_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_lime_bed",
+      "anchor": "catalog_minecraft_dye_lime_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_lime_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_bed",
+      "anchor": "catalog_minecraft_lime_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lime_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:lime_bed": 0
+  }
+}

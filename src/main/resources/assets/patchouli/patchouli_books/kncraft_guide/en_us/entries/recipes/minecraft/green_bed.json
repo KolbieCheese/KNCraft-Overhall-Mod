@@ -1,0 +1,25 @@
+{
+  "name": "Green Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:green_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_green_bed",
+      "anchor": "catalog_minecraft_dye_green_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_green_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:green_bed",
+      "anchor": "catalog_minecraft_green_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:green_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:green_bed": 0
+  }
+}

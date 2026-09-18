@@ -1,0 +1,18 @@
+{
+  "name": "Placeable Sand Layer",
+  "category": "patchouli:recipes/weather2",
+  "icon": "weather2:sand_layer",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "weather2:sand_layer",
+      "anchor": "catalog_weather2_sand_layer",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "weather2:sand_layer"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "weather2:sand_layer": 0
+  }
+}

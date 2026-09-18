@@ -1,0 +1,18 @@
+{
+  "name": "Willow Wood",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:willow_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:willow_wood",
+      "anchor": "catalog_biomesoplenty_willow_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:willow_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:willow_wood": 0
+  }
+}

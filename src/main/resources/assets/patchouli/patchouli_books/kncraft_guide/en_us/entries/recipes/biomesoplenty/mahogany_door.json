@@ -1,0 +1,18 @@
+{
+  "name": "Mahogany Door",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:mahogany_door",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:mahogany_door",
+      "anchor": "catalog_biomesoplenty_mahogany_door",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:mahogany_door"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:mahogany_door": 0
+  }
+}

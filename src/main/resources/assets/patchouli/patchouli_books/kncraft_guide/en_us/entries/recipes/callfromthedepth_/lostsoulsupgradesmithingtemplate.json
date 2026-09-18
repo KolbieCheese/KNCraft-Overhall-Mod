@@ -1,0 +1,18 @@
+{
+  "name": "Lost souls upgrade smithing template",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:lostsoulsupgradesmithingtemplate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:soulupgradecraft",
+      "anchor": "catalog_callfromthedepth__soulupgradecraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:soulupgradecraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:lostsoulsupgradesmithingtemplate": 0
+  }
+}

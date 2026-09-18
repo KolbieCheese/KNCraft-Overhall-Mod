@@ -1,0 +1,32 @@
+{
+  "name": "Polished Deepslate Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_deepslate_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_deepslate_stairs",
+      "anchor": "catalog_minecraft_polished_deepslate_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_deepslate_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_deepslate_stairs_from_cobbled_deepslate_stonecutting",
+      "anchor": "catalog_minecraft_polished_deepslate_stairs_from_cobbled_deepslate_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_deepslate_stairs_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_deepslate_stairs_from_polished_deepslate_stonecutting",
+      "anchor": "catalog_minecraft_polished_deepslate_stairs_from_polished_deepslate_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_deepslate_stairs_from_polished_deepslate_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_deepslate_stairs": 0
+  }
+}

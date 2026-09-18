@@ -1,0 +1,18 @@
+{
+  "name": "Pecan Sapling",
+  "category": "patchouli:recipes/pamhc2trees",
+  "icon": "pamhc2trees:pecan_sapling",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2trees:pecan_sapling",
+      "anchor": "catalog_pamhc2trees_pecan_sapling",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2trees:pecan_sapling"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2trees:pecan_sapling": 0
+  }
+}

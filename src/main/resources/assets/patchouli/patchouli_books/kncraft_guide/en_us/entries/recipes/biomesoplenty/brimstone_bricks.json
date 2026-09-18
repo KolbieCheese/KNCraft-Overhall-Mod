@@ -1,0 +1,25 @@
+{
+  "name": "Brimstone Bricks",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:brimstone_bricks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:brimstone_bricks",
+      "anchor": "catalog_biomesoplenty_brimstone_bricks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:brimstone_bricks"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:brimstone_bricks_from_brimstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_brimstone_bricks_from_brimstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:brimstone_bricks_from_brimstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:brimstone_bricks": 0
+  }
+}

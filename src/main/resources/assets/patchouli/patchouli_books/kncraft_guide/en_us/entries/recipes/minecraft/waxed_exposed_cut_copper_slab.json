@@ -1,0 +1,39 @@
+{
+  "name": "Waxed Exposed Cut Copper Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:waxed_exposed_cut_copper_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_exposed_cut_copper_slab",
+      "anchor": "catalog_minecraft_waxed_exposed_cut_copper_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:waxed_exposed_cut_copper_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_exposed_cut_copper_slab_from_honeycomb",
+      "anchor": "catalog_minecraft_waxed_exposed_cut_copper_slab_from_honeycomb",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:waxed_exposed_cut_copper_slab_from_honeycomb"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting",
+      "anchor": "catalog_minecraft_waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting",
+      "anchor": "catalog_minecraft_waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:waxed_exposed_cut_copper_slab": 0
+  }
+}

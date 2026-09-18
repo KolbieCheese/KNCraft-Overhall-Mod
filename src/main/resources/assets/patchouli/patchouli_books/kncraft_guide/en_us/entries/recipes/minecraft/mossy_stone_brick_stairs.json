@@ -1,0 +1,25 @@
+{
+  "name": "Mossy Stone Brick Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mossy_stone_brick_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mossy_stone_brick_stairs",
+      "anchor": "catalog_minecraft_mossy_stone_brick_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mossy_stone_brick_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting",
+      "anchor": "catalog_minecraft_mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mossy_stone_brick_stairs": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Quartz Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:quartz_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:quartz_stairs",
+      "anchor": "catalog_minecraft_quartz_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:quartz_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:quartz_stairs_from_quartz_block_stonecutting",
+      "anchor": "catalog_minecraft_quartz_stairs_from_quartz_block_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:quartz_stairs_from_quartz_block_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:quartz_stairs": 0
+  }
+}

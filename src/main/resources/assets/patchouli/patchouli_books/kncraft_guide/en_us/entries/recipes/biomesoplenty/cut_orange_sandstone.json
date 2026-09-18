@@ -1,0 +1,25 @@
+{
+  "name": "Cut Orange Sandstone",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:cut_orange_sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:cut_orange_sandstone",
+      "anchor": "catalog_biomesoplenty_cut_orange_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:cut_orange_sandstone"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:cut_orange_sandstone_from_orange_sandstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_cut_orange_sandstone_from_orange_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:cut_orange_sandstone_from_orange_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:cut_orange_sandstone": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Magma mushroom stew",
+  "category": "patchouli:cookbook",
+  "icon": "callfromthedepth_:magmamushroomstew",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:magmamushroomstewcraft",
+      "anchor": "catalog_callfromthedepth__magmamushroomstewcraft",
+      "text": "Cold Sweat: warms +0.2 base temperature for 90s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:magmamushroomstewcraft"
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: +0.2 base temperature for 90 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "fallback": "Pack default: +0.2 base temperature for 90 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "reference": "food/callfromthedepth_:magmamushroomstew",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:magmamushroomstew": 0
+  }
+}

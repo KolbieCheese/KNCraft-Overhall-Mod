@@ -1,0 +1,25 @@
+{
+  "name": "Blue Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:blue_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blue_dye",
+      "anchor": "catalog_minecraft_blue_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:blue_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blue_dye_from_cornflower",
+      "anchor": "catalog_minecraft_blue_dye_from_cornflower",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:blue_dye_from_cornflower"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:blue_dye": 0
+  }
+}

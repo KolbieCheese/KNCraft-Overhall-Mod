@@ -1,0 +1,18 @@
+{
+  "name": "Oak Pressure Plate",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:oak_pressure_plate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_pressure_plate",
+      "anchor": "catalog_minecraft_oak_pressure_plate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:oak_pressure_plate"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:oak_pressure_plate": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Mangrove Wood",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mangrove_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mangrove_wood",
+      "anchor": "catalog_minecraft_mangrove_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mangrove_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mangrove_wood": 0
+  }
+}

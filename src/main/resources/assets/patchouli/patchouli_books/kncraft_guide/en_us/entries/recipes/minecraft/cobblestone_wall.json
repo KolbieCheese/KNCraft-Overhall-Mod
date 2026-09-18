@@ -1,0 +1,25 @@
+{
+  "name": "Cobblestone Wall",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cobblestone_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cobblestone_wall",
+      "anchor": "catalog_minecraft_cobblestone_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cobblestone_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:cobblestone_wall_from_cobblestone_stonecutting",
+      "anchor": "catalog_minecraft_cobblestone_wall_from_cobblestone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cobblestone_wall_from_cobblestone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cobblestone_wall": 0
+  }
+}

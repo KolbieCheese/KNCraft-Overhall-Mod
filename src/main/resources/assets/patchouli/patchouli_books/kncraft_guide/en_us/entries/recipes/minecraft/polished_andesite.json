@@ -1,0 +1,25 @@
+{
+  "name": "Polished Andesite",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_andesite",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_andesite",
+      "anchor": "catalog_minecraft_polished_andesite",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_andesite"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_andesite_from_andesite_stonecutting",
+      "anchor": "catalog_minecraft_polished_andesite_from_andesite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_andesite_from_andesite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_andesite": 0
+  }
+}

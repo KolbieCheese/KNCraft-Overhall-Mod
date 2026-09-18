@@ -1,0 +1,18 @@
+{
+  "name": "Tainted Glass",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_glass",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "witherstormmod:tainted_glass",
+      "anchor": "catalog_witherstormmod_tainted_glass",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_glass"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_glass": 0
+  }
+}

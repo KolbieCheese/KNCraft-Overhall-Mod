@@ -1,0 +1,18 @@
+{
+  "name": "Arrow",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:arrow",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:arrow",
+      "anchor": "catalog_minecraft_arrow",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:arrow"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:arrow": 0
+  }
+}

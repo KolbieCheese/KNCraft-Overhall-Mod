@@ -1,0 +1,53 @@
+{
+  "name": "Pink Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:pink_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:pink_dye_from_pink_daffodil",
+      "anchor": "catalog_biomesoplenty_pink_dye_from_pink_daffodil",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:pink_dye_from_pink_daffodil"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:pink_dye_from_pink_hibiscus",
+      "anchor": "catalog_biomesoplenty_pink_dye_from_pink_hibiscus",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:pink_dye_from_pink_hibiscus"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:pink_dye_from_peony",
+      "anchor": "catalog_minecraft_pink_dye_from_peony",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:pink_dye_from_peony"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:pink_dye_from_pink_petals",
+      "anchor": "catalog_minecraft_pink_dye_from_pink_petals",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:pink_dye_from_pink_petals"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:pink_dye_from_pink_tulip",
+      "anchor": "catalog_minecraft_pink_dye_from_pink_tulip",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:pink_dye_from_pink_tulip"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:pink_dye_from_red_white_dye",
+      "anchor": "catalog_minecraft_pink_dye_from_red_white_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:pink_dye_from_red_white_dye"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:pink_dye": 0
+  }
+}

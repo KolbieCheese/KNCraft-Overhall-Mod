@@ -1,0 +1,39 @@
+{
+  "name": "Polished Blackstone Brick Wall",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_blackstone_brick_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_blackstone_brick_wall",
+      "anchor": "catalog_minecraft_polished_blackstone_brick_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_blackstone_brick_wall_from_blackstone_stonecutting",
+      "anchor": "catalog_minecraft_polished_blackstone_brick_wall_from_blackstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_blackstone_brick_wall_from_blackstone_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting",
+      "anchor": "catalog_minecraft_polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_blackstone_brick_wall_from_polished_blackstone_stonecutting",
+      "anchor": "catalog_minecraft_polished_blackstone_brick_wall_from_polished_blackstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_blackstone_brick_wall_from_polished_blackstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_blackstone_brick_wall": 0
+  }
+}

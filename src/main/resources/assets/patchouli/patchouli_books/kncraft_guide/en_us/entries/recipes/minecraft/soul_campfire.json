@@ -1,0 +1,18 @@
+{
+  "name": "Soul Campfire",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:soul_campfire",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:soul_campfire",
+      "anchor": "catalog_minecraft_soul_campfire",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:soul_campfire"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:soul_campfire": 0
+  }
+}

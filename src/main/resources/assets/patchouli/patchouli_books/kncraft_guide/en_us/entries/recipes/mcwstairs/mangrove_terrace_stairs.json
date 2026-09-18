@@ -1,0 +1,18 @@
+{
+  "name": "Mangrove Terrace Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:mangrove_terrace_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:mangrove_terrace_stairs",
+      "anchor": "catalog_mcwstairs_mangrove_terrace_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:mangrove_terrace_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:mangrove_terrace_stairs": 0
+  }
+}

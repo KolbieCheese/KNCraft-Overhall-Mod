@@ -1,0 +1,29 @@
+{
+  "name": "Golden Leggings",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:golden_leggings",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_golden_leggings_repairing",
+      "input": "minecraft:golden_leggings",
+      "output": "minecraft:golden_leggings",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:golden_leggings_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_leggings",
+      "anchor": "catalog_minecraft_golden_leggings",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:golden_leggings"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:golden_leggings": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Cobbled Deepslate Wall",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cobbled_deepslate_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cobbled_deepslate_wall",
+      "anchor": "catalog_minecraft_cobbled_deepslate_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cobbled_deepslate_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting",
+      "anchor": "catalog_minecraft_cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cobbled_deepslate_wall": 0
+  }
+}

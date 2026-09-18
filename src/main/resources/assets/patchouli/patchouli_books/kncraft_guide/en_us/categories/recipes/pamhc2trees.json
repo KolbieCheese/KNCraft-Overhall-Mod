@@ -1,0 +1,7 @@
+{
+  "name": "Pam's Trees",
+  "parent": "patchouli:recipes",
+  "description": "Pam's Trees equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "pamhc2trees:acorn_sapling",
+  "sortnum": 0
+}

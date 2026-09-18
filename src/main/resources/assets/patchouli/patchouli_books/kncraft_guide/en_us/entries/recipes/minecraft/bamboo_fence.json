@@ -1,0 +1,18 @@
+{
+  "name": "Bamboo Fence",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:bamboo_fence",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bamboo_fence",
+      "anchor": "catalog_minecraft_bamboo_fence",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:bamboo_fence"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:bamboo_fence": 0
+  }
+}

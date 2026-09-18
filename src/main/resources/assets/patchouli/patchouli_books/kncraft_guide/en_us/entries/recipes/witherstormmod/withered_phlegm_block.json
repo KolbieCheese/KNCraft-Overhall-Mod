@@ -1,0 +1,18 @@
+{
+  "name": "Withered Phlegm Block",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:withered_phlegm_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:withered_phlegm_block",
+      "anchor": "catalog_witherstormmod_withered_phlegm_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:withered_phlegm_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:withered_phlegm_block": 0
+  }
+}

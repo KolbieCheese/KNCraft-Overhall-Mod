@@ -1,0 +1,7 @@
+{
+  "name": "FTB Quests",
+  "parent": "patchouli:recipes",
+  "description": "FTB Quests equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "ftbquests:book",
+  "sortnum": 0
+}

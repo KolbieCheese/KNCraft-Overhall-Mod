@@ -1,0 +1,25 @@
+{
+  "name": "Cobbled Deepslate Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cobbled_deepslate_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cobbled_deepslate_stairs",
+      "anchor": "catalog_minecraft_cobbled_deepslate_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cobbled_deepslate_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting",
+      "anchor": "catalog_minecraft_cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cobbled_deepslate_stairs": 0
+  }
+}

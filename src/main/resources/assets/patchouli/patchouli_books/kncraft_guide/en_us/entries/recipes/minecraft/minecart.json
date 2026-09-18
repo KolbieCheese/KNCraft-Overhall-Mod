@@ -1,0 +1,18 @@
+{
+  "name": "Minecart",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:minecart",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:minecart",
+      "anchor": "catalog_minecraft_minecart",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:minecart"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:minecart": 0
+  }
+}

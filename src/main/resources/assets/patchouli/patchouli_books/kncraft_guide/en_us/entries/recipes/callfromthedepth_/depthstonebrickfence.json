@@ -1,0 +1,18 @@
+{
+  "name": "Depth stone tiles fence",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:depthstonebrickfence",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:dsth",
+      "anchor": "catalog_callfromthedepth__dsth",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:dsth"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:depthstonebrickfence": 0
+  }
+}

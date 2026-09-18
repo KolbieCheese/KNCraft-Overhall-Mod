@@ -1,0 +1,18 @@
+{
+  "name": "Heated stone bricks stairs",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:heatdestonebricksstairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:heatedstonebricksstairscraft",
+      "anchor": "catalog_callfromthedepth__heatedstonebricksstairscraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:heatedstonebricksstairscraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:heatdestonebricksstairs": 0
+  }
+}

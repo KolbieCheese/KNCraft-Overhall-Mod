@@ -1,0 +1,25 @@
+{
+  "name": "Brown Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:brown_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:brown_dye_from_cattail",
+      "anchor": "catalog_biomesoplenty_brown_dye_from_cattail",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:brown_dye_from_cattail"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_dye",
+      "anchor": "catalog_minecraft_brown_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:brown_dye"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:brown_dye": 0
+  }
+}

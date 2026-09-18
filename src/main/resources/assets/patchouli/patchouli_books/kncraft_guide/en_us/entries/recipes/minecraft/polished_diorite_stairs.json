@@ -1,0 +1,32 @@
+{
+  "name": "Polished Diorite Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_diorite_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_diorite_stairs",
+      "anchor": "catalog_minecraft_polished_diorite_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_diorite_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_diorite_stairs_from_diorite_stonecutting",
+      "anchor": "catalog_minecraft_polished_diorite_stairs_from_diorite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_diorite_stairs_from_diorite_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_diorite_stairs_from_polished_diorite_stonecutting",
+      "anchor": "catalog_minecraft_polished_diorite_stairs_from_polished_diorite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_diorite_stairs_from_polished_diorite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_diorite_stairs": 0
+  }
+}

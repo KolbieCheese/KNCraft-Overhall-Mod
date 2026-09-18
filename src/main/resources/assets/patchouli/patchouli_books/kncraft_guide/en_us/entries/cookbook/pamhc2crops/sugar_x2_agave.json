@@ -22,6 +22,20 @@
       "recipe": "pamhc2foodcore:sugar_x8_honey",
       "anchor": "lookup_recipe_pamhc2foodcore_sugar_x8_honey",
       "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:sugar_from_honey_bottle",
+      "anchor": "catalog_minecraft_sugar_from_honey_bottle",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:sugar_from_honey_bottle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:sugar_from_sugar_cane",
+      "anchor": "catalog_minecraft_sugar_from_sugar_cane",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:sugar_from_sugar_cane"
     }
   ],
   "extra_recipe_mappings": {}

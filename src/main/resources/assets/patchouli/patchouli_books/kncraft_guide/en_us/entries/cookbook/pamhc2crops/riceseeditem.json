@@ -1,0 +1,18 @@
+{
+  "name": "Rice Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:riceseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:riceseeditem",
+      "anchor": "catalog_pamhc2crops_riceseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:riceseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:riceseeditem": 0
+  }
+}

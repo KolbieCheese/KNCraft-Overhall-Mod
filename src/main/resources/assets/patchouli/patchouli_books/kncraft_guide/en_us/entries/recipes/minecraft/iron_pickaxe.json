@@ -1,0 +1,29 @@
+{
+  "name": "Iron Pickaxe",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_pickaxe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_iron_pickaxe_repairing",
+      "input": "minecraft:iron_pickaxe",
+      "output": "minecraft:iron_pickaxe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:iron_pickaxe_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_pickaxe",
+      "anchor": "catalog_minecraft_iron_pickaxe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_pickaxe"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_pickaxe": 0
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Call from the Depth",
+  "parent": "patchouli:recipes",
+  "description": "Call from the Depth equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "callfromthedepth_:carved_marble_block",
+  "sortnum": 0
+}

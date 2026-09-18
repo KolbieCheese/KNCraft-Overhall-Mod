@@ -1,0 +1,18 @@
+{
+  "name": "Cracked Polished Blackstone Bricks",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cracked_polished_blackstone_bricks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:cracked_polished_blackstone_bricks",
+      "anchor": "catalog_minecraft_cracked_polished_blackstone_bricks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cracked_polished_blackstone_bricks"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cracked_polished_blackstone_bricks": 0
+  }
+}

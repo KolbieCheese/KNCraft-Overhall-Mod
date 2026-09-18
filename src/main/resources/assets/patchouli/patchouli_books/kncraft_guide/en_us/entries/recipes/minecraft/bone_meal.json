@@ -1,0 +1,32 @@
+{
+  "name": "Bone Meal",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:bone_meal",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:bonemeal_from_fish_bones",
+      "anchor": "catalog_alexsmobs_bonemeal_from_fish_bones",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:bonemeal_from_fish_bones"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bone_meal",
+      "anchor": "catalog_minecraft_bone_meal",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:bone_meal"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bone_meal_from_bone_block",
+      "anchor": "catalog_minecraft_bone_meal_from_bone_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:bone_meal_from_bone_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:bone_meal": 0
+  }
+}

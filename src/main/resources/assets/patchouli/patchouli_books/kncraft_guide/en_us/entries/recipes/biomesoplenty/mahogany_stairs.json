@@ -1,0 +1,18 @@
+{
+  "name": "Mahogany Stairs",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:mahogany_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:mahogany_stairs",
+      "anchor": "catalog_biomesoplenty_mahogany_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:mahogany_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:mahogany_stairs": 0
+  }
+}

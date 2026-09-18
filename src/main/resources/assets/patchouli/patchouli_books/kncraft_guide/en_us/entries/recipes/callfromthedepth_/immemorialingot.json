@@ -1,0 +1,18 @@
+{
+  "name": "Immemorial ingot",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:immemorialingot",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:immemorial_ingot_craft",
+      "anchor": "catalog_callfromthedepth__immemorial_ingot_craft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:immemorial_ingot_craft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:immemorialingot": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Clock",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:clock",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:clock",
+      "anchor": "catalog_minecraft_clock",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:clock"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:clock": 0
+  }
+}

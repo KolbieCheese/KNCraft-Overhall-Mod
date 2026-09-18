@@ -1,0 +1,18 @@
+{
+  "name": "Spruce Rail Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:spruce_rail_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:spruce_rail_bridge",
+      "anchor": "catalog_mcwbridges_spruce_rail_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:spruce_rail_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:spruce_rail_bridge": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Stripped Mangrove Wood",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stripped_mangrove_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stripped_mangrove_wood",
+      "anchor": "catalog_minecraft_stripped_mangrove_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stripped_mangrove_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stripped_mangrove_wood": 0
+  }
+}

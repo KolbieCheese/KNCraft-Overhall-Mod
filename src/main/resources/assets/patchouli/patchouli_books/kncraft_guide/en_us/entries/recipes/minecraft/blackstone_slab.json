@@ -1,0 +1,25 @@
+{
+  "name": "Blackstone Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:blackstone_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blackstone_slab",
+      "anchor": "catalog_minecraft_blackstone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:blackstone_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:blackstone_slab_from_blackstone_stonecutting",
+      "anchor": "catalog_minecraft_blackstone_slab_from_blackstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:blackstone_slab_from_blackstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:blackstone_slab": 0
+  }
+}

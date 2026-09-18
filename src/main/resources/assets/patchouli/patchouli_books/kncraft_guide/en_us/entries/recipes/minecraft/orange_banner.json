@@ -1,0 +1,18 @@
+{
+  "name": "Orange Banner",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:orange_banner",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_banner",
+      "anchor": "catalog_minecraft_orange_banner",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:orange_banner"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:orange_banner": 0
+  }
+}

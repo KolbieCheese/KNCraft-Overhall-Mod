@@ -1,0 +1,18 @@
+{
+  "name": "Umbran Wood",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:umbran_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:umbran_wood",
+      "anchor": "catalog_biomesoplenty_umbran_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:umbran_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:umbran_wood": 0
+  }
+}

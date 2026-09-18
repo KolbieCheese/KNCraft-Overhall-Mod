@@ -1,0 +1,25 @@
+{
+  "name": "Red Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_red",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_red",
+      "anchor": "catalog_comforts_hammock_red",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_red"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_red",
+      "anchor": "catalog_comforts_hammock_to_red",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_red"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_red": 0
+  }
+}

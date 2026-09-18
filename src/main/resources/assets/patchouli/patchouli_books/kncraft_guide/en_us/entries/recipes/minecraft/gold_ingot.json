@@ -1,0 +1,81 @@
+{
+  "name": "Gold Ingot",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:gold_ingot",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:gold_ingot_from_blasting_deepslate_gold_ore",
+      "anchor": "catalog_minecraft_gold_ingot_from_blasting_deepslate_gold_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:gold_ingot_from_blasting_deepslate_gold_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:gold_ingot_from_blasting_gold_ore",
+      "anchor": "catalog_minecraft_gold_ingot_from_blasting_gold_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:gold_ingot_from_blasting_gold_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:gold_ingot_from_blasting_nether_gold_ore",
+      "anchor": "catalog_minecraft_gold_ingot_from_blasting_nether_gold_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:gold_ingot_from_blasting_nether_gold_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:gold_ingot_from_blasting_raw_gold",
+      "anchor": "catalog_minecraft_gold_ingot_from_blasting_raw_gold",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:gold_ingot_from_blasting_raw_gold"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gold_ingot_from_gold_block",
+      "anchor": "catalog_minecraft_gold_ingot_from_gold_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:gold_ingot_from_gold_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gold_ingot_from_nuggets",
+      "anchor": "catalog_minecraft_gold_ingot_from_nuggets",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:gold_ingot_from_nuggets"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:gold_ingot_from_smelting_deepslate_gold_ore",
+      "anchor": "catalog_minecraft_gold_ingot_from_smelting_deepslate_gold_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:gold_ingot_from_smelting_deepslate_gold_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:gold_ingot_from_smelting_gold_ore",
+      "anchor": "catalog_minecraft_gold_ingot_from_smelting_gold_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:gold_ingot_from_smelting_gold_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:gold_ingot_from_smelting_nether_gold_ore",
+      "anchor": "catalog_minecraft_gold_ingot_from_smelting_nether_gold_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:gold_ingot_from_smelting_nether_gold_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:gold_ingot_from_smelting_raw_gold",
+      "anchor": "catalog_minecraft_gold_ingot_from_smelting_raw_gold",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:gold_ingot_from_smelting_raw_gold"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:gold_ingot": 0
+  }
+}

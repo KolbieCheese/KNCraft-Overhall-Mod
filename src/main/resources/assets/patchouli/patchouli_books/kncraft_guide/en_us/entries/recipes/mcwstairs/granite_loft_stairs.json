@@ -1,0 +1,18 @@
+{
+  "name": "Granite Loft Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:granite_loft_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:granite_loft_stairs",
+      "anchor": "catalog_mcwstairs_granite_loft_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:granite_loft_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:granite_loft_stairs": 0
+  }
+}

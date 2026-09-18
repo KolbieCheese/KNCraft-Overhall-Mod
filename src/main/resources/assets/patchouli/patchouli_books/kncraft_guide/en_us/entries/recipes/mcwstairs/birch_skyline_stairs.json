@@ -1,0 +1,18 @@
+{
+  "name": "Birch Skyline Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:birch_skyline_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:birch_skyline_stairs",
+      "anchor": "catalog_mcwstairs_birch_skyline_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:birch_skyline_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:birch_skyline_stairs": 0
+  }
+}

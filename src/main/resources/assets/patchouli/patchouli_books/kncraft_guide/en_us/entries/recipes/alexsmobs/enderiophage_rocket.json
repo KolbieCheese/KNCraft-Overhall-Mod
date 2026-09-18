@@ -1,0 +1,18 @@
+{
+  "name": "Enderiophage Rocket",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:enderiophage_rocket",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:enderiophage_rocket",
+      "anchor": "catalog_alexsmobs_enderiophage_rocket",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:enderiophage_rocket"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:enderiophage_rocket": 0
+  }
+}

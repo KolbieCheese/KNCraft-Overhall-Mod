@@ -1,0 +1,18 @@
+{
+  "name": "Banner Pattern",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:banner_pattern_bear",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:banner_pattern_bear",
+      "anchor": "catalog_alexsmobs_banner_pattern_bear",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:banner_pattern_bear"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:banner_pattern_bear": 0
+  }
+}

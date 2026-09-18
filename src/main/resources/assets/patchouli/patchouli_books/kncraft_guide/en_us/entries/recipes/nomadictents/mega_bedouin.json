@@ -1,0 +1,53 @@
+{
+  "name": "Mega Bedouin",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:mega_bedouin",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_bedouin",
+      "anchor": "catalog_nomadictents_mega_bedouin",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_bedouin"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_bedouin",
+      "anchor": "catalog_nomadictents_mega_bedouin_layer1",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_bedouin_layer1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_bedouin",
+      "anchor": "catalog_nomadictents_mega_bedouin_layer2",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_bedouin_layer2"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_bedouin",
+      "anchor": "catalog_nomadictents_mega_bedouin_layer3",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_bedouin_layer3"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_bedouin",
+      "anchor": "catalog_nomadictents_mega_bedouin_layer4",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_bedouin_layer4"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_bedouin",
+      "anchor": "catalog_nomadictents_mega_bedouin_layer5",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_bedouin_layer5"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:mega_bedouin": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Skyroot Trapdoor",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:skyroot_trapdoor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_trapdoor",
+      "anchor": "catalog_aether_skyroot_trapdoor",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_trapdoor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:skyroot_trapdoor": 0
+  }
+}

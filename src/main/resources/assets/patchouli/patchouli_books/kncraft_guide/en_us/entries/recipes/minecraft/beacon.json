@@ -1,0 +1,18 @@
+{
+  "name": "Beacon",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:beacon",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:beacon",
+      "anchor": "catalog_minecraft_beacon",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:beacon"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:beacon": 0
+  }
+}

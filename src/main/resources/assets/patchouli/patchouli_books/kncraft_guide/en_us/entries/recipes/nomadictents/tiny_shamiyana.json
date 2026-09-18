@@ -1,0 +1,130 @@
+{
+  "name": "Tiny Shamiyana",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:tiny_shamiyana",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_black_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:black_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_blue_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:blue_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_brown_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:brown_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_cyan_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:cyan_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_gray_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:gray_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_green_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:green_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_light_blue_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:light_blue_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_light_gray_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:light_gray_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_lime_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:lime_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_magenta_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:magenta_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_orange_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:orange_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_pink_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:pink_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_purple_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:purple_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_red_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:red_shamiyana"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_tiny_shamiyana",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:tiny_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_white_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:white_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:tiny_shamiyana",
+      "anchor": "catalog_nomadictents_yellow_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:yellow_shamiyana"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:tiny_shamiyana": 0
+  }
+}

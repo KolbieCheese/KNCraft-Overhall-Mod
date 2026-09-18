@@ -1,0 +1,7 @@
+{
+  "name": "Elytra Crafting Forge",
+  "parent": "patchouli:recipes",
+  "description": "Elytra Crafting Forge equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "elytra_crafting_forge:elytrawing",
+  "sortnum": 0
+}

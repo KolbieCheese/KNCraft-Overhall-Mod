@@ -1,0 +1,25 @@
+{
+  "name": "Pink Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:pink_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_pink_bed",
+      "anchor": "catalog_minecraft_dye_pink_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_pink_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:pink_bed",
+      "anchor": "catalog_minecraft_pink_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:pink_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:pink_bed": 0
+  }
+}

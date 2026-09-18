@@ -1,0 +1,18 @@
+{
+  "name": "Iron Trapdoor",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_trapdoor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_trapdoor",
+      "anchor": "catalog_minecraft_iron_trapdoor",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_trapdoor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_trapdoor": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Immemorial leggins",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:immemorialarmor_leggings",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smithing",
+      "recipe": "callfromthedepth_:immemoriallegginscraft",
+      "anchor": "catalog_callfromthedepth__immemoriallegginscraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:immemoriallegginscraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:immemorialarmor_leggings": 0
+  }
+}

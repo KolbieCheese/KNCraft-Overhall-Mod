@@ -1,0 +1,18 @@
+{
+  "name": "Quest Book",
+  "category": "patchouli:recipes/ftbquests",
+  "icon": "ftbquests:book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ftbquests:book",
+      "anchor": "catalog_ftbquests_book",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ftbquests:book"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ftbquests:book": 0
+  }
+}

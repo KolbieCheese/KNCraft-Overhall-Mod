@@ -1,0 +1,25 @@
+{
+  "name": "Cut Sandstone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cut_sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cut_sandstone",
+      "anchor": "catalog_minecraft_cut_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cut_sandstone"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:cut_sandstone_from_sandstone_stonecutting",
+      "anchor": "catalog_minecraft_cut_sandstone_from_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cut_sandstone_from_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cut_sandstone": 0
+  }
+}

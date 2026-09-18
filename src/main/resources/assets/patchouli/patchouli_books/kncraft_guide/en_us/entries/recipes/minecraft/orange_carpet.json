@@ -1,0 +1,25 @@
+{
+  "name": "Orange Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:orange_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_orange_carpet",
+      "anchor": "catalog_minecraft_dye_orange_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_orange_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_carpet",
+      "anchor": "catalog_minecraft_orange_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:orange_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:orange_carpet": 0
+  }
+}

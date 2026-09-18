@@ -1,0 +1,32 @@
+{
+  "name": "Brimstone Brick Stairs",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:brimstone_brick_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:brimstone_brick_stairs",
+      "anchor": "catalog_biomesoplenty_brimstone_brick_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:brimstone_brick_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:brimstone_brick_stairs_from_brimstone_bricks_stonecutting",
+      "anchor": "catalog_biomesoplenty_brimstone_brick_stairs_from_brimstone_bricks_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:brimstone_brick_stairs_from_brimstone_bricks_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:brimstone_brick_stairs_from_brimstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_brimstone_brick_stairs_from_brimstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:brimstone_brick_stairs_from_brimstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:brimstone_brick_stairs": 0
+  }
+}

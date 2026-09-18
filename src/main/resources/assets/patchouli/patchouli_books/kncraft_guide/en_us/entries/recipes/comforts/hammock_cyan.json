@@ -1,0 +1,25 @@
+{
+  "name": "Cyan Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_cyan",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_cyan",
+      "anchor": "catalog_comforts_hammock_cyan",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_cyan"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_cyan",
+      "anchor": "catalog_comforts_hammock_to_cyan",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_cyan"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_cyan": 0
+  }
+}

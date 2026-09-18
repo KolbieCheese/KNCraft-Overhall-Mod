@@ -1,0 +1,18 @@
+{
+  "name": "Purple Banner",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:purple_banner",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_banner",
+      "anchor": "catalog_minecraft_purple_banner",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:purple_banner"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:purple_banner": 0
+  }
+}

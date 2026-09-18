@@ -1,0 +1,18 @@
+{
+  "name": "Smooth Basalt",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:smooth_basalt",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:smooth_basalt",
+      "anchor": "catalog_minecraft_smooth_basalt",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:smooth_basalt"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:smooth_basalt": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Secret music disc",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:ctf_8_l_2_n_11_sdisc",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:secretmdc",
+      "anchor": "catalog_callfromthedepth__secretmdc",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:secretmdc"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:ctf_8_l_2_n_11_sdisc": 0
+  }
+}

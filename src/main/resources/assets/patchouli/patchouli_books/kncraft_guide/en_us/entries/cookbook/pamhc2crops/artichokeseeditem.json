@@ -1,0 +1,18 @@
+{
+  "name": "Artichoke Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:artichokeseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:artichokeseeditem",
+      "anchor": "catalog_pamhc2crops_artichokeseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:artichokeseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:artichokeseeditem": 0
+  }
+}

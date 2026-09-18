@@ -1,0 +1,7 @@
+{
+  "name": "Rope Bridge",
+  "parent": "patchouli:recipes",
+  "description": "Rope Bridge equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "ropebridge:bridge_builder",
+  "sortnum": 0
+}

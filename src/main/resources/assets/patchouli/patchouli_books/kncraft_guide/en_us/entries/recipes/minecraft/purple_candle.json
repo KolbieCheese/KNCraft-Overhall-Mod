@@ -1,0 +1,18 @@
+{
+  "name": "Purple Candle",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:purple_candle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_candle",
+      "anchor": "catalog_minecraft_purple_candle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:purple_candle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:purple_candle": 0
+  }
+}

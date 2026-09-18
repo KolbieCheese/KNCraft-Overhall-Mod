@@ -1,0 +1,25 @@
+{
+  "name": "Observer",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:observer",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:observer",
+      "anchor": "catalog_minecraft_observer",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:observer"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terralith:observer_alt",
+      "anchor": "catalog_terralith_observer_alt",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "terralith:observer_alt"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:observer": 0
+  }
+}

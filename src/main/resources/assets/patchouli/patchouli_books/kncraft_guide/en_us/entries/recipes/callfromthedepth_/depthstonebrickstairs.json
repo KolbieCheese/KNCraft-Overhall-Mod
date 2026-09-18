@@ -1,0 +1,18 @@
+{
+  "name": "Depth stone brick stairs",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:depthstonebrickstairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:dsbs",
+      "anchor": "catalog_callfromthedepth__dsbs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:dsbs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:depthstonebrickstairs": 0
+  }
+}

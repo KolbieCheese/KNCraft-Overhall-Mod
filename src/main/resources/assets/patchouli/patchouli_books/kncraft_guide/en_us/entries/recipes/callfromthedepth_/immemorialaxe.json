@@ -1,0 +1,18 @@
+{
+  "name": "Immemorial axe",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:immemorialaxe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smithing",
+      "recipe": "callfromthedepth_:axecraft",
+      "anchor": "catalog_callfromthedepth__axecraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:axecraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:immemorialaxe": 0
+  }
+}

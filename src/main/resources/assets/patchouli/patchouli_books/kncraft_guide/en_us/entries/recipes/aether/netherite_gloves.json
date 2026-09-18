@@ -1,0 +1,29 @@
+{
+  "name": "Netherite Gloves",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:netherite_gloves",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_netherite_gloves_repairing",
+      "input": "aether:netherite_gloves",
+      "output": "aether:netherite_gloves",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:netherite_gloves_repairing"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "aether:netherite_gloves_smithing",
+      "anchor": "catalog_aether_netherite_gloves_smithing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:netherite_gloves_smithing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:netherite_gloves": 0
+  }
+}

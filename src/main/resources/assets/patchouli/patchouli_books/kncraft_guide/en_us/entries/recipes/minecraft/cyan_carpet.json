@@ -1,0 +1,25 @@
+{
+  "name": "Cyan Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cyan_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cyan_carpet",
+      "anchor": "catalog_minecraft_cyan_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cyan_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_cyan_carpet",
+      "anchor": "catalog_minecraft_dye_cyan_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_cyan_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cyan_carpet": 0
+  }
+}

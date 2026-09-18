@@ -1,0 +1,25 @@
+{
+  "name": "Bio Diesel Fuel",
+  "category": "patchouli:recipes/betterminecarts",
+  "icon": "betterminecarts:bio_diesel_fuel",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "betterminecarts:bio_diesel_fuel",
+      "anchor": "catalog_betterminecarts_bio_diesel_fuel",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "betterminecarts:bio_diesel_fuel"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "kncraft:cooking_oil_diesel",
+      "anchor": "catalog_kncraft_cooking_oil_diesel",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "kncraft:cooking_oil_diesel"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "betterminecarts:bio_diesel_fuel": 0
+  }
+}

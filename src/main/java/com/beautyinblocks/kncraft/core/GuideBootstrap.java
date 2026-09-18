@@ -35,19 +35,23 @@ public final class GuideBootstrap {
         }
     }
 
-    /** Change only the original title; retain operator settings and the external book identity. */
+    /** Retain operator titles/settings while advancing resource-backed books after migration. */
     static boolean renameLegacyDeclaration(Path file) throws IOException {
         byte[] original = Files.readAllBytes(file);
         var book = JsonParser.parseString(new String(original, StandardCharsets.UTF_8)).getAsJsonObject();
-        if (!book.has("name") || !"KNCraft Field Guide".equals(book.get("name").getAsString())) return false;
-        book.addProperty("name", "KNCraft Guide Book");
-        if (book.has("subtitle")) {
+        boolean changed = false;
+        boolean legacyName = book.has("name") && "KNCraft Field Guide".equals(book.get("name").getAsString());
+        if (legacyName) { book.addProperty("name", "KNCraft Guide Book"); changed = true; }
+        if (legacyName && book.has("subtitle")) {
             String subtitle = book.get("subtitle").getAsString();
             if (subtitle.equals("KNCraft | Field Guide") || subtitle.equals("KNCraft | Draft 0.8"))
                 book.addProperty("subtitle", "KNCraft Guide Book");
         }
-        if (book.has("use_resource_pack") && book.get("use_resource_pack").getAsBoolean())
-            book.addProperty("version", Math.max(14, book.has("version") ? book.get("version").getAsInt() : 0));
+        if (book.has("use_resource_pack") && book.get("use_resource_pack").getAsBoolean()
+            && (!book.has("version") || book.get("version").getAsInt() < 15)) {
+            book.addProperty("version", 15); changed = true;
+        }
+        if (!changed) return false;
         String updated = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create().toJson(book) + "\n";
         return ManagedFile.install(file, updated.getBytes(StandardCharsets.UTF_8), ManagedFile.hash(original));
     }

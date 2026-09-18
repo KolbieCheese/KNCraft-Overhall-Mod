@@ -1,0 +1,25 @@
+{
+  "name": "Rope Crimson Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:rope_crimson_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:crimson_rope_bridge_stair_recycle",
+      "anchor": "catalog_mcwbridges_crimson_rope_bridge_stair_recycle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:crimson_rope_bridge_stair_recycle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:rope_crimson_bridge",
+      "anchor": "catalog_mcwbridges_rope_crimson_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:rope_crimson_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:rope_crimson_bridge": 0
+  }
+}

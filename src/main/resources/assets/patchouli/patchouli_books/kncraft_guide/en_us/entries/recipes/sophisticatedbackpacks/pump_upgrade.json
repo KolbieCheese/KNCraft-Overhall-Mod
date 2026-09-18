@@ -1,0 +1,18 @@
+{
+  "name": "Pump Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:pump_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sophisticatedbackpacks:pump_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_pump_upgrade",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "sophisticatedbackpacks:pump_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:pump_upgrade": 0
+  }
+}

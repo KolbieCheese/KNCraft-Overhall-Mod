@@ -1,0 +1,18 @@
+{
+  "name": "Trapped DirtChest 9000!",
+  "category": "patchouli:recipes/ironchest",
+  "icon": "ironchest:trapped_dirt_chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ironchest:chests/trapped_dirt_chest",
+      "anchor": "catalog_ironchest_chests_trapped_dirt_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ironchest:chests/trapped_dirt_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ironchest:trapped_dirt_chest": 0
+  }
+}

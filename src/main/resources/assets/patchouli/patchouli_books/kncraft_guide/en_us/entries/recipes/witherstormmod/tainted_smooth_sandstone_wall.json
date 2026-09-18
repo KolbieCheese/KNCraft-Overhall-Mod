@@ -1,0 +1,25 @@
+{
+  "name": "Tainted Smooth Sandstone Wall",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_smooth_sandstone_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:tainted_smooth_sandstone_wall",
+      "anchor": "catalog_witherstormmod_tainted_smooth_sandstone_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_smooth_sandstone_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "witherstormmod:tainted_smooth_sandstone_wall_stonecutting",
+      "anchor": "catalog_witherstormmod_tainted_smooth_sandstone_wall_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_smooth_sandstone_wall_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_smooth_sandstone_wall": 0
+  }
+}

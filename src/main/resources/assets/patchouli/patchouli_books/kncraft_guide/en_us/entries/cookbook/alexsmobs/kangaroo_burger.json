@@ -1,0 +1,18 @@
+{
+  "name": "Kangaroo Burger",
+  "category": "patchouli:cookbook",
+  "icon": "alexsmobs:kangaroo_burger",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:kangaroo_burger",
+      "anchor": "catalog_alexsmobs_kangaroo_burger",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:kangaroo_burger"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:kangaroo_burger": 0
+  }
+}

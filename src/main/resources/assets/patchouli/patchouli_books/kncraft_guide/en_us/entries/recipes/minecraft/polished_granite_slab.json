@@ -1,0 +1,32 @@
+{
+  "name": "Polished Granite Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_granite_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_granite_slab",
+      "anchor": "catalog_minecraft_polished_granite_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_granite_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_granite_slab_from_granite_stonecutting",
+      "anchor": "catalog_minecraft_polished_granite_slab_from_granite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_granite_slab_from_granite_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_granite_slab_from_polished_granite_stonecutting",
+      "anchor": "catalog_minecraft_polished_granite_slab_from_polished_granite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_granite_slab_from_polished_granite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_granite_slab": 0
+  }
+}

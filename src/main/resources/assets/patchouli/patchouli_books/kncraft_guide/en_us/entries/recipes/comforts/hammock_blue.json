@@ -1,0 +1,25 @@
+{
+  "name": "Blue Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_blue",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_blue",
+      "anchor": "catalog_comforts_hammock_blue",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_blue"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_blue",
+      "anchor": "catalog_comforts_hammock_to_blue",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_blue"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_blue": 0
+  }
+}

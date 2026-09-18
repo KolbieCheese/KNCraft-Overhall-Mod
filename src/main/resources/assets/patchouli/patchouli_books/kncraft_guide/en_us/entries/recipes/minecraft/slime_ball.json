@@ -1,0 +1,32 @@
+{
+  "name": "Slime Ball",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:slime_ball",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:komodo_spit_to_slime",
+      "anchor": "catalog_alexsmobs_komodo_spit_to_slime",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:komodo_spit_to_slime"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:slime_ball",
+      "anchor": "catalog_minecraft_slime_ball",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:slime_ball"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:slimeball_aloe",
+      "anchor": "catalog_pamhc2crops_slimeball_aloe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:slimeball_aloe"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:slime_ball": 0
+  }
+}

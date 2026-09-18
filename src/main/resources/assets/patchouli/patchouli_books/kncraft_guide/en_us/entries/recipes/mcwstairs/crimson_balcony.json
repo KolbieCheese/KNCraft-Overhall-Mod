@@ -1,0 +1,18 @@
+{
+  "name": "Crimson Balcony",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:crimson_balcony",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:crimson_balcony",
+      "anchor": "catalog_mcwstairs_crimson_balcony",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:crimson_balcony"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:crimson_balcony": 0
+  }
+}

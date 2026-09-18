@@ -1,0 +1,25 @@
+{
+  "name": "Prismarine Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:prismarine_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:prismarine_slab",
+      "anchor": "catalog_minecraft_prismarine_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:prismarine_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:prismarine_slab_from_prismarine_stonecutting",
+      "anchor": "catalog_minecraft_prismarine_slab_from_prismarine_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:prismarine_slab_from_prismarine_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:prismarine_slab": 0
+  }
+}

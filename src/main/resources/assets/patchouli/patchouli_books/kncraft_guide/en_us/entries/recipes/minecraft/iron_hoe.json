@@ -1,0 +1,29 @@
+{
+  "name": "Iron Hoe",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_hoe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_iron_hoe_repairing",
+      "input": "minecraft:iron_hoe",
+      "output": "minecraft:iron_hoe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:iron_hoe_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_hoe",
+      "anchor": "catalog_minecraft_iron_hoe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_hoe"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_hoe": 0
+  }
+}

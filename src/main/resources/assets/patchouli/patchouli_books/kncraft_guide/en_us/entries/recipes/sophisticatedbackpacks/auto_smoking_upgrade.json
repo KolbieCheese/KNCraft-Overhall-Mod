@@ -1,0 +1,25 @@
+{
+  "name": "Auto-smoking Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:auto_smoking_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sophisticatedbackpacks:auto_smoking_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_auto_smoking_upgrade",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "sophisticatedbackpacks:auto_smoking_upgrade"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:auto_smoking_upgrade_from_auto_smelting_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_auto_smoking_upgrade_from_auto_smelting_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:auto_smoking_upgrade_from_auto_smelting_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:auto_smoking_upgrade": 0
+  }
+}

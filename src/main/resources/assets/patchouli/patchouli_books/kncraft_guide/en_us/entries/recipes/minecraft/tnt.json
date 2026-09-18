@@ -1,0 +1,18 @@
+{
+  "name": "Tnt",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:tnt",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:tnt",
+      "anchor": "catalog_minecraft_tnt",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:tnt"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:tnt": 0
+  }
+}

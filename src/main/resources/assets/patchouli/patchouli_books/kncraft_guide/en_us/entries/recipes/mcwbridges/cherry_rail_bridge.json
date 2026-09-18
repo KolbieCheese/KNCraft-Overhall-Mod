@@ -1,0 +1,18 @@
+{
+  "name": "Cherry Rail Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:cherry_rail_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:cherry_rail_bridge",
+      "anchor": "catalog_mcwbridges_cherry_rail_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:cherry_rail_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:cherry_rail_bridge": 0
+  }
+}

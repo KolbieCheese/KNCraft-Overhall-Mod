@@ -1,0 +1,18 @@
+{
+  "name": "Willow Fence",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:willow_fence",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:willow_fence",
+      "anchor": "catalog_biomesoplenty_willow_fence",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:willow_fence"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:willow_fence": 0
+  }
+}

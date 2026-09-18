@@ -1,0 +1,25 @@
+{
+  "name": "Red Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:red_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_red_bed",
+      "anchor": "catalog_minecraft_dye_red_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_red_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_bed",
+      "anchor": "catalog_minecraft_red_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:red_bed": 0
+  }
+}

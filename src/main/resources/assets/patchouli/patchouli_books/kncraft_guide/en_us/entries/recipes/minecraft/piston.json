@@ -1,0 +1,32 @@
+{
+  "name": "Piston",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:piston",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_piston",
+      "anchor": "catalog_aether_skyroot_piston",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_piston"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:piston",
+      "anchor": "catalog_minecraft_piston",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:piston"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terralith:piston_alt",
+      "anchor": "catalog_terralith_piston_alt",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "terralith:piston_alt"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:piston": 0
+  }
+}

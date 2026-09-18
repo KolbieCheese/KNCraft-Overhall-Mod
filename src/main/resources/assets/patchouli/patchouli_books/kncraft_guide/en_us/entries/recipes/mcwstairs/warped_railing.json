@@ -1,0 +1,18 @@
+{
+  "name": "Warped Railing",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:warped_railing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:warped_railing",
+      "anchor": "catalog_mcwstairs_warped_railing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:warped_railing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:warped_railing": 0
+  }
+}

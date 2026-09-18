@@ -1,0 +1,18 @@
+{
+  "name": "Animal Dictionary",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:animal_dictionary",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:animal_dictionary",
+      "anchor": "catalog_alexsmobs_animal_dictionary",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:animal_dictionary"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:animal_dictionary": 0
+  }
+}

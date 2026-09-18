@@ -1,0 +1,25 @@
+{
+  "name": "Smooth Quartz Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:smooth_quartz_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smooth_quartz_slab",
+      "anchor": "catalog_minecraft_smooth_quartz_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:smooth_quartz_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:smooth_quartz_slab_from_smooth_quartz_stonecutting",
+      "anchor": "catalog_minecraft_smooth_quartz_slab_from_smooth_quartz_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:smooth_quartz_slab_from_smooth_quartz_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:smooth_quartz_slab": 0
+  }
+}

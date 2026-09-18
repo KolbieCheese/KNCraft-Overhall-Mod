@@ -1,0 +1,18 @@
+{
+  "name": "Holystone Pressure Plate",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:holystone_pressure_plate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:holystone_pressure_plate",
+      "anchor": "catalog_aether_holystone_pressure_plate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:holystone_pressure_plate"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:holystone_pressure_plate": 0
+  }
+}

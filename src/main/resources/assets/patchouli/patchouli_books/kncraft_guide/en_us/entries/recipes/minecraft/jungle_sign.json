@@ -1,0 +1,18 @@
+{
+  "name": "Jungle Sign",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:jungle_sign",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_sign",
+      "anchor": "catalog_minecraft_jungle_sign",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:jungle_sign"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:jungle_sign": 0
+  }
+}

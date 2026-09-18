@@ -1,0 +1,18 @@
+{
+  "name": "Jungle Loft Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:jungle_loft_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:jungle_loft_stairs",
+      "anchor": "catalog_mcwstairs_jungle_loft_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:jungle_loft_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:jungle_loft_stairs": 0
+  }
+}

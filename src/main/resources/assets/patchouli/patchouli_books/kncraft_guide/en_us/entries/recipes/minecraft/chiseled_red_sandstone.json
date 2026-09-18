@@ -1,0 +1,25 @@
+{
+  "name": "Chiseled Red Sandstone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:chiseled_red_sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chiseled_red_sandstone",
+      "anchor": "catalog_minecraft_chiseled_red_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:chiseled_red_sandstone"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:chiseled_red_sandstone_from_red_sandstone_stonecutting",
+      "anchor": "catalog_minecraft_chiseled_red_sandstone_from_red_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:chiseled_red_sandstone_from_red_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:chiseled_red_sandstone": 0
+  }
+}

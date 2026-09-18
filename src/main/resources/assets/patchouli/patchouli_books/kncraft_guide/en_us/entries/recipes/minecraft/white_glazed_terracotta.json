@@ -1,0 +1,18 @@
+{
+  "name": "White Glazed Terracotta",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:white_glazed_terracotta",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:white_glazed_terracotta",
+      "anchor": "catalog_minecraft_white_glazed_terracotta",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:white_glazed_terracotta"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:white_glazed_terracotta": 0
+  }
+}

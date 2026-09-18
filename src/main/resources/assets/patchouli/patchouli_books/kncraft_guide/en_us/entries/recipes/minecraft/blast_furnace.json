@@ -1,0 +1,18 @@
+{
+  "name": "Blast Furnace",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:blast_furnace",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blast_furnace",
+      "anchor": "catalog_minecraft_blast_furnace",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:blast_furnace"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:blast_furnace": 0
+  }
+}

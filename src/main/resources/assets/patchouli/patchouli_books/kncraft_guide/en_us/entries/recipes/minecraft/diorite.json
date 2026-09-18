@@ -1,0 +1,18 @@
+{
+  "name": "Diorite",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:diorite",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diorite",
+      "anchor": "catalog_minecraft_diorite",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diorite"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:diorite": 0
+  }
+}

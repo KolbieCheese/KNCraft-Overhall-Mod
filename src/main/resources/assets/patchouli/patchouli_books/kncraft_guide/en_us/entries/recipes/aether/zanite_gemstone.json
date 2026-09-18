@@ -1,0 +1,32 @@
+{
+  "name": "Zanite Gemstone",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:zanite_gemstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:blasting",
+      "recipe": "aether:zanite_gemstone_from_blasting",
+      "anchor": "catalog_aether_zanite_gemstone_from_blasting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_gemstone_from_blasting"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "aether:zanite_gemstone_from_smelting",
+      "anchor": "catalog_aether_zanite_gemstone_from_smelting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_gemstone_from_smelting"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:zanite_gemstone_from_zanite_block",
+      "anchor": "catalog_aether_zanite_gemstone_from_zanite_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_gemstone_from_zanite_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:zanite_gemstone": 0
+  }
+}

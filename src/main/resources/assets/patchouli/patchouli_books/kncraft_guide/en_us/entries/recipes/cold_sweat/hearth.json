@@ -1,6 +1,6 @@
 {
   "name": "Hearth",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/cold_sweat",
   "icon": "cold_sweat:hearth",
   "priority": false,
   "sortnum": 0,

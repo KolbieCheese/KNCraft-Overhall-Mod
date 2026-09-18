@@ -1,0 +1,18 @@
+{
+  "name": "Elytra wing",
+  "category": "patchouli:recipes/elytra_crafting_forge",
+  "icon": "elytra_crafting_forge:elytrawing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "elytra_crafting_forge:elytra_wing_crafting",
+      "anchor": "catalog_elytra_crafting_forge_elytra_wing_crafting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "elytra_crafting_forge:elytra_wing_crafting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "elytra_crafting_forge:elytrawing": 0
+  }
+}

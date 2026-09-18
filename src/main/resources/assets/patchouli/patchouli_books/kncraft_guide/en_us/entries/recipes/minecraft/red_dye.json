@@ -1,0 +1,53 @@
+{
+  "name": "Red Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:red_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:red_dye_from_rose",
+      "anchor": "catalog_biomesoplenty_red_dye_from_rose",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:red_dye_from_rose"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:red_dye_from_waterlily",
+      "anchor": "catalog_biomesoplenty_red_dye_from_waterlily",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:red_dye_from_waterlily"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_dye_from_beetroot",
+      "anchor": "catalog_minecraft_red_dye_from_beetroot",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_dye_from_beetroot"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_dye_from_poppy",
+      "anchor": "catalog_minecraft_red_dye_from_poppy",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_dye_from_poppy"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_dye_from_rose_bush",
+      "anchor": "catalog_minecraft_red_dye_from_rose_bush",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_dye_from_rose_bush"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_dye_from_tulip",
+      "anchor": "catalog_minecraft_red_dye_from_tulip",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_dye_from_tulip"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:red_dye": 0
+  }
+}

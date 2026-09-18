@@ -1,0 +1,29 @@
+{
+  "name": "Gravitite Helmet",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:gravitite_helmet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:gravitite_helmet",
+      "anchor": "catalog_aether_gravitite_helmet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_helmet"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_gravitite_helmet_repairing",
+      "input": "aether:gravitite_helmet",
+      "output": "aether:gravitite_helmet",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_helmet_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:gravitite_helmet": 0
+  }
+}

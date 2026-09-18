@@ -1,0 +1,29 @@
+{
+  "name": "Diamond Gloves",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:diamond_gloves",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:diamond_gloves",
+      "anchor": "catalog_aether_diamond_gloves",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:diamond_gloves"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_diamond_gloves_repairing",
+      "input": "aether:diamond_gloves",
+      "output": "aether:diamond_gloves",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:diamond_gloves_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:diamond_gloves": 0
+  }
+}

@@ -30,6 +30,20 @@
       "input": "pamhc2foodextended:rawtofeakitem",
       "station": "minecraft:smoker",
       "output": "pamhc2foodextended:cookedtofeakitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2foodextended:cookedtofeakitem_campfire",
+      "anchor": "catalog_pamhc2foodextended_cookedtofeakitem_campfire",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2foodextended:cookedtofeakitem_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2foodextended:cookedtofeakitem_smoker",
+      "anchor": "catalog_pamhc2foodextended_cookedtofeakitem_smoker",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2foodextended:cookedtofeakitem_smoker"
     }
   ],
   "extra_recipe_mappings": {

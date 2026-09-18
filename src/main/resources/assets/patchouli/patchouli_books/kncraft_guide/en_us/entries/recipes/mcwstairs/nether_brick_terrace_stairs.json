@@ -1,0 +1,18 @@
+{
+  "name": "Nether Brick Terrace Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:nether_brick_terrace_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:nether_brick_terrace_stairs",
+      "anchor": "catalog_mcwstairs_nether_brick_terrace_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:nether_brick_terrace_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:nether_brick_terrace_stairs": 0
+  }
+}

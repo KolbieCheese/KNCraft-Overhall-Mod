@@ -1,0 +1,18 @@
+{
+  "name": "Oak Boat",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:oak_boat",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_boat",
+      "anchor": "catalog_minecraft_oak_boat",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:oak_boat"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:oak_boat": 0
+  }
+}

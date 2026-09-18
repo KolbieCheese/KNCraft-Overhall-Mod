@@ -1,0 +1,46 @@
+{
+  "name": "Iron Nugget",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_nugget",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:blasting",
+      "recipe": "aether:aether_iron_nugget_from_blasting",
+      "anchor": "catalog_aether_aether_iron_nugget_from_blasting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:aether_iron_nugget_from_blasting"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "aether:aether_iron_nugget_from_smelting",
+      "anchor": "catalog_aether_aether_iron_nugget_from_smelting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:aether_iron_nugget_from_smelting"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_nugget",
+      "anchor": "catalog_minecraft_iron_nugget",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_nugget"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:iron_nugget_from_blasting",
+      "anchor": "catalog_minecraft_iron_nugget_from_blasting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_nugget_from_blasting"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:iron_nugget_from_smelting",
+      "anchor": "catalog_minecraft_iron_nugget_from_smelting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_nugget_from_smelting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_nugget": 0
+  }
+}

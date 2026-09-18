@@ -1,0 +1,18 @@
+{
+  "name": "Task Screen (7x7)",
+  "category": "patchouli:recipes/ftbquests",
+  "icon": "ftbquests:screen_7",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ftbquests:screen_7",
+      "anchor": "catalog_ftbquests_screen_7",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ftbquests:screen_7"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ftbquests:screen_7": 0
+  }
+}

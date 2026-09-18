@@ -1,0 +1,18 @@
+{
+  "name": "Garlic Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:garlicseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:garlicseeditem",
+      "anchor": "catalog_pamhc2crops_garlicseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:garlicseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:garlicseeditem": 0
+  }
+}

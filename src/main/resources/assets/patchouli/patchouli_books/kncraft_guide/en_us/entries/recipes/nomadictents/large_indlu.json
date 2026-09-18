@@ -1,0 +1,39 @@
+{
+  "name": "Large Indlu",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:large_indlu",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:large_indlu",
+      "anchor": "catalog_nomadictents_large_indlu",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:large_indlu"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:large_indlu",
+      "anchor": "catalog_nomadictents_large_indlu_layer1",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:large_indlu_layer1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:large_indlu",
+      "anchor": "catalog_nomadictents_large_indlu_layer2",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:large_indlu_layer2"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:large_indlu",
+      "anchor": "catalog_nomadictents_large_indlu_layer3",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:large_indlu_layer3"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:large_indlu": 0
+  }
+}

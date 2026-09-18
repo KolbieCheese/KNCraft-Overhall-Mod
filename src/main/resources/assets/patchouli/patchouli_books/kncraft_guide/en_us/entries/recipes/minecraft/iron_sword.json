@@ -1,0 +1,29 @@
+{
+  "name": "Iron Sword",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_sword",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_iron_sword_repairing",
+      "input": "minecraft:iron_sword",
+      "output": "minecraft:iron_sword",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:iron_sword_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_sword",
+      "anchor": "catalog_minecraft_iron_sword",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_sword"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_sword": 0
+  }
+}

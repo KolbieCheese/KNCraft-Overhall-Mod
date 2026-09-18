@@ -1,0 +1,18 @@
+{
+  "name": "Quicksoil Glass Pane",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:quicksoil_glass_pane",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:quicksoil_glass_pane",
+      "anchor": "catalog_aether_quicksoil_glass_pane",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:quicksoil_glass_pane"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:quicksoil_glass_pane": 0
+  }
+}

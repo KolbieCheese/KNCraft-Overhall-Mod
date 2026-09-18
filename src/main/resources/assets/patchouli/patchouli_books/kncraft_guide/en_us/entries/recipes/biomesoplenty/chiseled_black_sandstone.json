@@ -1,0 +1,25 @@
+{
+  "name": "Chiseled Black Sandstone",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:chiseled_black_sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:chiseled_black_sandstone",
+      "anchor": "catalog_biomesoplenty_chiseled_black_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:chiseled_black_sandstone"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:chiseled_black_sandstone_from_black_sandstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_chiseled_black_sandstone_from_black_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:chiseled_black_sandstone_from_black_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:chiseled_black_sandstone": 0
+  }
+}

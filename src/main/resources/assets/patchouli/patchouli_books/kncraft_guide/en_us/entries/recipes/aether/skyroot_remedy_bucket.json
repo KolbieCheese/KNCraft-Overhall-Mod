@@ -1,0 +1,22 @@
+{
+  "name": "Skyroot Remedy Bucket",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:skyroot_remedy_bucket",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_remedy_bucket_enchanting",
+      "input": "aether:skyroot_poison_bucket",
+      "output": "aether:skyroot_remedy_bucket",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:remedy_bucket_enchanting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:skyroot_remedy_bucket": 0
+  }
+}

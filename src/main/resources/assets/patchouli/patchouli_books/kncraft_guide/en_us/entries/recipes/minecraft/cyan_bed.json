@@ -1,0 +1,25 @@
+{
+  "name": "Cyan Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cyan_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cyan_bed",
+      "anchor": "catalog_minecraft_cyan_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cyan_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_cyan_bed",
+      "anchor": "catalog_minecraft_dye_cyan_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_cyan_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cyan_bed": 0
+  }
+}

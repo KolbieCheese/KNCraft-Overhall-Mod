@@ -1,0 +1,22 @@
+{
+  "name": "Ice",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:ice",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Freezer",
+      "anchor": "catalog_aether_ice_from_bucket_freezing",
+      "input": "minecraft:water_bucket",
+      "output": "minecraft:ice",
+      "station": "aether:freezer",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:ice_from_bucket_freezing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:ice": 0
+  }
+}

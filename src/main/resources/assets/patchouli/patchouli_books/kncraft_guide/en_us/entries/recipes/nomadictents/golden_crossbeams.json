@@ -1,0 +1,18 @@
+{
+  "name": "Golden Crossbeams",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:golden_crossbeams",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:golden_crossbeams",
+      "anchor": "catalog_nomadictents_golden_crossbeams",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:golden_crossbeams"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:golden_crossbeams": 0
+  }
+}

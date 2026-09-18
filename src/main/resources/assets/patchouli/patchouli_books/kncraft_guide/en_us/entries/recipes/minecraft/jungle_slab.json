@@ -1,0 +1,18 @@
+{
+  "name": "Jungle Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:jungle_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_slab",
+      "anchor": "catalog_minecraft_jungle_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:jungle_slab"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:jungle_slab": 0
+  }
+}

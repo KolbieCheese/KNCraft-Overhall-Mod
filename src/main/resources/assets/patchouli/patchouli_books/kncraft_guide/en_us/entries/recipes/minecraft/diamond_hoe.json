@@ -1,0 +1,29 @@
+{
+  "name": "Diamond Hoe",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:diamond_hoe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_diamond_hoe_repairing",
+      "input": "minecraft:diamond_hoe",
+      "output": "minecraft:diamond_hoe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:diamond_hoe_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond_hoe",
+      "anchor": "catalog_minecraft_diamond_hoe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diamond_hoe"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:diamond_hoe": 0
+  }
+}

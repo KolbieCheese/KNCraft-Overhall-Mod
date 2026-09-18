@@ -1,0 +1,25 @@
+{
+  "name": "Icestone Wall",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:icestone_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:icestone_wall",
+      "anchor": "catalog_aether_icestone_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:icestone_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:icestone_wall_from_icestone_stonecutting",
+      "anchor": "catalog_aether_icestone_wall_from_icestone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:icestone_wall_from_icestone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:icestone_wall": 0
+  }
+}

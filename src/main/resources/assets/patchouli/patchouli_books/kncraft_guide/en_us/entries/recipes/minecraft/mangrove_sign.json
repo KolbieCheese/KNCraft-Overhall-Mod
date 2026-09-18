@@ -1,0 +1,18 @@
+{
+  "name": "Mangrove Sign",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mangrove_sign",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mangrove_sign",
+      "anchor": "catalog_minecraft_mangrove_sign",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mangrove_sign"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mangrove_sign": 0
+  }
+}

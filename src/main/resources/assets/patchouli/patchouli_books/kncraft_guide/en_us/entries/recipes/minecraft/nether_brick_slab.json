@@ -1,0 +1,25 @@
+{
+  "name": "Nether Brick Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:nether_brick_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:nether_brick_slab",
+      "anchor": "catalog_minecraft_nether_brick_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:nether_brick_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:nether_brick_slab_from_nether_bricks_stonecutting",
+      "anchor": "catalog_minecraft_nether_brick_slab_from_nether_bricks_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:nether_brick_slab_from_nether_bricks_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:nether_brick_slab": 0
+  }
+}

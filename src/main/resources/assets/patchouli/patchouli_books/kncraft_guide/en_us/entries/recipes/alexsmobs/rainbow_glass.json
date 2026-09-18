@@ -1,0 +1,18 @@
+{
+  "name": "Rainbow Glass",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:rainbow_glass",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:rainbow_glass",
+      "anchor": "catalog_alexsmobs_rainbow_glass",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:rainbow_glass"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:rainbow_glass": 0
+  }
+}

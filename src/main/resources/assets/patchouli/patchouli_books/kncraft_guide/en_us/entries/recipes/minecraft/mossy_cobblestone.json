@@ -1,0 +1,32 @@
+{
+  "name": "Mossy Cobblestone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mossy_cobblestone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:mossy_cobblestone_from_willow_vine",
+      "anchor": "catalog_biomesoplenty_mossy_cobblestone_from_willow_vine",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:mossy_cobblestone_from_willow_vine"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mossy_cobblestone_from_moss_block",
+      "anchor": "catalog_minecraft_mossy_cobblestone_from_moss_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mossy_cobblestone_from_moss_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mossy_cobblestone_from_vine",
+      "anchor": "catalog_minecraft_mossy_cobblestone_from_vine",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mossy_cobblestone_from_vine"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mossy_cobblestone": 0
+  }
+}

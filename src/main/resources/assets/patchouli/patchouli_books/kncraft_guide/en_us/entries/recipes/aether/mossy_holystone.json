@@ -1,0 +1,25 @@
+{
+  "name": "Mossy Holystone",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:mossy_holystone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:mossy_holystone_with_moss",
+      "anchor": "catalog_aether_mossy_holystone_with_moss",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:mossy_holystone_with_moss"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:mossy_holystone_with_vine",
+      "anchor": "catalog_aether_mossy_holystone_with_vine",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:mossy_holystone_with_vine"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:mossy_holystone": 0
+  }
+}

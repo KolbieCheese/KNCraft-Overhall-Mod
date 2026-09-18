@@ -1,0 +1,25 @@
+{
+  "name": "Black Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_black",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_black",
+      "anchor": "catalog_comforts_hammock_black",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_black"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_black",
+      "anchor": "catalog_comforts_hammock_to_black",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_black"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_black": 0
+  }
+}

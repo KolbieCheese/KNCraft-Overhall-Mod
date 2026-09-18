@@ -1,0 +1,18 @@
+{
+  "name": "Crimson Trapdoor",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:crimson_trapdoor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_trapdoor",
+      "anchor": "catalog_minecraft_crimson_trapdoor",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:crimson_trapdoor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:crimson_trapdoor": 0
+  }
+}

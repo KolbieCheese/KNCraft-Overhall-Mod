@@ -1,0 +1,18 @@
+{
+  "name": "Tainted Trapdoor",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_trapdoor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:tainted_trapdoor",
+      "anchor": "catalog_witherstormmod_tainted_trapdoor",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_trapdoor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_trapdoor": 0
+  }
+}

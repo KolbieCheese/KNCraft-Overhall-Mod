@@ -1,0 +1,18 @@
+{
+  "name": "Skyroot Bookshelf",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:skyroot_bookshelf",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_bookshelf",
+      "anchor": "catalog_aether_skyroot_bookshelf",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_bookshelf"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:skyroot_bookshelf": 0
+  }
+}

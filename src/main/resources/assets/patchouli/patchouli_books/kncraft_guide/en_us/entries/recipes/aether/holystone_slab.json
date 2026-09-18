@@ -1,0 +1,25 @@
+{
+  "name": "Holystone Slab",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:holystone_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:holystone_slab",
+      "anchor": "catalog_aether_holystone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:holystone_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:holystone_slab_from_holystone_stonecutting",
+      "anchor": "catalog_aether_holystone_slab_from_holystone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:holystone_slab_from_holystone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:holystone_slab": 0
+  }
+}

@@ -30,6 +30,20 @@
       "input": "tag:forge:crops/jicama",
       "station": "minecraft:smoker",
       "output": "pamhc2crops:bakedjicamaitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2crops:bakedjicamaitem_campfire",
+      "anchor": "catalog_pamhc2crops_bakedjicamaitem_campfire",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:bakedjicamaitem_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2crops:bakedjicamaitem_smoker",
+      "anchor": "catalog_pamhc2crops_bakedjicamaitem_smoker",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:bakedjicamaitem_smoker"
     }
   ],
   "extra_recipe_mappings": {

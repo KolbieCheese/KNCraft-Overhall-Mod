@@ -1,0 +1,18 @@
+{
+  "name": "Bamboo Planks",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:bamboo_planks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bamboo_planks",
+      "anchor": "catalog_minecraft_bamboo_planks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:bamboo_planks"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:bamboo_planks": 0
+  }
+}

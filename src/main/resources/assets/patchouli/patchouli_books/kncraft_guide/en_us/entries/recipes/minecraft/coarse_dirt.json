@@ -1,0 +1,18 @@
+{
+  "name": "Coarse Dirt",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:coarse_dirt",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:coarse_dirt",
+      "anchor": "catalog_minecraft_coarse_dirt",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:coarse_dirt"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:coarse_dirt": 0
+  }
+}

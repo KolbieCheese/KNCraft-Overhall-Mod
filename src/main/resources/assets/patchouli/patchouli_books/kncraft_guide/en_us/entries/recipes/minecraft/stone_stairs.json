@@ -1,0 +1,25 @@
+{
+  "name": "Stone Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stone_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_stairs",
+      "anchor": "catalog_minecraft_stone_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stone_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:stone_stairs_from_stone_stonecutting",
+      "anchor": "catalog_minecraft_stone_stairs_from_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stone_stairs_from_stone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stone_stairs": 0
+  }
+}

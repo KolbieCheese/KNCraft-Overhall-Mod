@@ -1,0 +1,18 @@
+{
+  "name": "Diorite Compact Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:diorite_compact_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:diorite_compact_stairs",
+      "anchor": "catalog_mcwstairs_diorite_compact_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:diorite_compact_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:diorite_compact_stairs": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Green Stained Glass Pane",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:green_stained_glass_pane",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:green_stained_glass_pane",
+      "anchor": "catalog_minecraft_green_stained_glass_pane",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:green_stained_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:green_stained_glass_pane_from_glass_pane",
+      "anchor": "catalog_minecraft_green_stained_glass_pane_from_glass_pane",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:green_stained_glass_pane_from_glass_pane"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:green_stained_glass_pane": 0
+  }
+}

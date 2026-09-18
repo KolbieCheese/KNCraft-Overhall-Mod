@@ -1,0 +1,25 @@
+{
+  "name": "Smooth Quartz Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:smooth_quartz_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smooth_quartz_stairs",
+      "anchor": "catalog_minecraft_smooth_quartz_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:smooth_quartz_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:smooth_quartz_stairs_from_smooth_quartz_stonecutting",
+      "anchor": "catalog_minecraft_smooth_quartz_stairs_from_smooth_quartz_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:smooth_quartz_stairs_from_smooth_quartz_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:smooth_quartz_stairs": 0
+  }
+}

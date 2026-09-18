@@ -1,0 +1,25 @@
+{
+  "name": "Light Gray Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:light_gray_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_light_gray_bed",
+      "anchor": "catalog_minecraft_dye_light_gray_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_light_gray_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_gray_bed",
+      "anchor": "catalog_minecraft_light_gray_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_gray_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:light_gray_bed": 0
+  }
+}

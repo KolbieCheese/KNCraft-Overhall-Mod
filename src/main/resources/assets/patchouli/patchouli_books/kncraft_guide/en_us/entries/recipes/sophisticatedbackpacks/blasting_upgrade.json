@@ -1,0 +1,25 @@
+{
+  "name": "Blasting Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:blasting_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:blasting_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_blasting_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:blasting_upgrade"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:blasting_upgrade_from_smelting_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_blasting_upgrade_from_smelting_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:blasting_upgrade_from_smelting_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:blasting_upgrade": 0
+  }
+}

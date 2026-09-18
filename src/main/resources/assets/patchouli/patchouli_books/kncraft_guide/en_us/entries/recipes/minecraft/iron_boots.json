@@ -1,0 +1,29 @@
+{
+  "name": "Iron Boots",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_boots",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_iron_boots_repairing",
+      "input": "minecraft:iron_boots",
+      "output": "minecraft:iron_boots",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:iron_boots_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_boots",
+      "anchor": "catalog_minecraft_iron_boots",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_boots"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_boots": 0
+  }
+}

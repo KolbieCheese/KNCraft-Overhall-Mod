@@ -1,0 +1,18 @@
+{
+  "name": "Mossy Stone Brick Railing",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:mossy_stone_brick_railing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:mossy_stone_brick_railing",
+      "anchor": "catalog_mcwstairs_mossy_stone_brick_railing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:mossy_stone_brick_railing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:mossy_stone_brick_railing": 0
+  }
+}

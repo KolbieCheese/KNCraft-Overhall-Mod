@@ -19,8 +19,13 @@ public final class GuideValues {
         } catch (Exception ex) { throw new IllegalStateException("Missing guide reference index", ex); }
     }
     public static CompoundTag snapshot(ServerPlayer player) {
+        return snapshot(player, KEYS.keySet());
+    }
+    public static CompoundTag snapshot(ServerPlayer player, java.util.Collection<String> requested) {
         var result = new CompoundTag();
-        KEYS.forEach((key, item) -> {
+        requested.forEach(key -> {
+            String item = KEYS.get(key);
+            if (item == null) return;
             String text;
             if (key.startsWith("recipe/")) {
                 var recipe = player.server.getRecipeManager().byKey(new net.minecraft.resources.ResourceLocation(item));

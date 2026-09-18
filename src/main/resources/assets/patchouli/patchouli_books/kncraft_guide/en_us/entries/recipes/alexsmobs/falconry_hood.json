@@ -1,0 +1,25 @@
+{
+  "name": "Falconry Hood",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:falconry_hood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:falconry_hood",
+      "anchor": "catalog_alexsmobs_falconry_hood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:falconry_hood"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:falconry_hood_alt",
+      "anchor": "catalog_alexsmobs_falconry_hood_alt",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:falconry_hood_alt"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:falconry_hood": 0
+  }
+}

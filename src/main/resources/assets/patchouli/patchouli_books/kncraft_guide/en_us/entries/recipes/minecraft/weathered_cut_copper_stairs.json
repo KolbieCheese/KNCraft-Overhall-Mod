@@ -1,0 +1,32 @@
+{
+  "name": "Weathered Cut Copper Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:weathered_cut_copper_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:weathered_cut_copper_stairs",
+      "anchor": "catalog_minecraft_weathered_cut_copper_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:weathered_cut_copper_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:weathered_cut_copper_stairs_from_weathered_copper_stonecutting",
+      "anchor": "catalog_minecraft_weathered_cut_copper_stairs_from_weathered_copper_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:weathered_cut_copper_stairs_from_weathered_copper_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting",
+      "anchor": "catalog_minecraft_weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:weathered_cut_copper_stairs": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Yellow Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_yellow",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_yellow",
+      "anchor": "catalog_comforts_hammock_to_yellow",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_yellow"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_yellow",
+      "anchor": "catalog_comforts_hammock_yellow",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_yellow"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_yellow": 0
+  }
+}

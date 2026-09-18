@@ -1,0 +1,18 @@
+{
+  "name": "Gustmaker",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:gustmaker",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:gustmaker",
+      "anchor": "catalog_alexsmobs_gustmaker",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:gustmaker"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:gustmaker": 0
+  }
+}

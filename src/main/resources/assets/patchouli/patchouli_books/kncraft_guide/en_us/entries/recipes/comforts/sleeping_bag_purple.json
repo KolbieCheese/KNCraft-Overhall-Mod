@@ -1,0 +1,25 @@
+{
+  "name": "Purple Sleeping Bag",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:sleeping_bag_purple",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_purple",
+      "anchor": "catalog_comforts_sleeping_bag_purple",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_purple"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_to_purple",
+      "anchor": "catalog_comforts_sleeping_bag_to_purple",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_to_purple"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:sleeping_bag_purple": 0
+  }
+}

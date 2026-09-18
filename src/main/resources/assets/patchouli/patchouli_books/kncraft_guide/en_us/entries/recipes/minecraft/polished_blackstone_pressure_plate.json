@@ -1,0 +1,18 @@
+{
+  "name": "Polished Blackstone Pressure Plate",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_blackstone_pressure_plate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_blackstone_pressure_plate",
+      "anchor": "catalog_minecraft_polished_blackstone_pressure_plate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_blackstone_pressure_plate"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_blackstone_pressure_plate": 0
+  }
+}

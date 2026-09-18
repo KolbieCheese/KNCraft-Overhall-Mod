@@ -1,0 +1,18 @@
+{
+  "name": "Acacia Railing",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:acacia_railing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:acacia_railing",
+      "anchor": "catalog_mcwstairs_acacia_railing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:acacia_railing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:acacia_railing": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Medium Tepee",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:medium_tepee",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:medium_tepee",
+      "anchor": "catalog_nomadictents_medium_tepee",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:medium_tepee"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:medium_tepee",
+      "anchor": "catalog_nomadictents_medium_tepee_layer1",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:medium_tepee_layer1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:medium_tepee",
+      "anchor": "catalog_nomadictents_medium_tepee_layer2",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:medium_tepee_layer2"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:medium_tepee": 0
+  }
+}

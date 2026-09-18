@@ -1,0 +1,25 @@
+{
+  "name": "Light Blue Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:light_blue_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_light_blue_carpet",
+      "anchor": "catalog_minecraft_dye_light_blue_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_light_blue_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_carpet",
+      "anchor": "catalog_minecraft_light_blue_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_blue_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:light_blue_carpet": 0
+  }
+}

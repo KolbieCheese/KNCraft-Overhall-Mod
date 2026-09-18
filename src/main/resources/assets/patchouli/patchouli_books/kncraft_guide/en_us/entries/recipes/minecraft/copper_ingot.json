@@ -1,0 +1,67 @@
+{
+  "name": "Copper Ingot",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:copper_ingot",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:copper_ingot",
+      "anchor": "catalog_minecraft_copper_ingot",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:copper_ingot"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:copper_ingot_from_blasting_copper_ore",
+      "anchor": "catalog_minecraft_copper_ingot_from_blasting_copper_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:copper_ingot_from_blasting_copper_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:copper_ingot_from_blasting_deepslate_copper_ore",
+      "anchor": "catalog_minecraft_copper_ingot_from_blasting_deepslate_copper_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:copper_ingot_from_blasting_deepslate_copper_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:copper_ingot_from_blasting_raw_copper",
+      "anchor": "catalog_minecraft_copper_ingot_from_blasting_raw_copper",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:copper_ingot_from_blasting_raw_copper"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:copper_ingot_from_smelting_copper_ore",
+      "anchor": "catalog_minecraft_copper_ingot_from_smelting_copper_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:copper_ingot_from_smelting_copper_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:copper_ingot_from_smelting_deepslate_copper_ore",
+      "anchor": "catalog_minecraft_copper_ingot_from_smelting_deepslate_copper_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:copper_ingot_from_smelting_deepslate_copper_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:copper_ingot_from_smelting_raw_copper",
+      "anchor": "catalog_minecraft_copper_ingot_from_smelting_raw_copper",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:copper_ingot_from_smelting_raw_copper"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:copper_ingot_from_waxed_copper_block",
+      "anchor": "catalog_minecraft_copper_ingot_from_waxed_copper_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:copper_ingot_from_waxed_copper_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:copper_ingot": 0
+  }
+}

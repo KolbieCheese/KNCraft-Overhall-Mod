@@ -1,0 +1,25 @@
+{
+  "name": "White Sandstone Stairs",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:white_sandstone_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:white_sandstone_stairs",
+      "anchor": "catalog_biomesoplenty_white_sandstone_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:white_sandstone_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:white_sandstone_stairs_from_white_sandstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_white_sandstone_stairs_from_white_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:white_sandstone_stairs_from_white_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:white_sandstone_stairs": 0
+  }
+}

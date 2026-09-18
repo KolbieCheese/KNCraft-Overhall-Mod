@@ -1,0 +1,18 @@
+{
+  "name": "Sandstone Bulk Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:sandstone_bulk_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:sandstone_bulk_stairs",
+      "anchor": "catalog_mcwstairs_sandstone_bulk_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:sandstone_bulk_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:sandstone_bulk_stairs": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Mossy Cobblestone Bridge Pier",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:mossy_cobblestone_bridge_pier",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:mossy_cobblestone_bridge_pier",
+      "anchor": "catalog_mcwbridges_mossy_cobblestone_bridge_pier",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:mossy_cobblestone_bridge_pier"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_mossy_cobblestone_bridge_pier",
+      "anchor": "catalog_mcwbridges_stonecutter_mossy_cobblestone_bridge_pier",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_mossy_cobblestone_bridge_pier"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:mossy_cobblestone_bridge_pier": 0
+  }
+}

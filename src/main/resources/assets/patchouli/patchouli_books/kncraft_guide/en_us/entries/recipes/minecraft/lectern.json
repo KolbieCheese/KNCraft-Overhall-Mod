@@ -1,0 +1,25 @@
+{
+  "name": "Lectern",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:lectern",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_lectern",
+      "anchor": "catalog_aether_skyroot_lectern",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_lectern"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lectern",
+      "anchor": "catalog_minecraft_lectern",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lectern"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:lectern": 0
+  }
+}

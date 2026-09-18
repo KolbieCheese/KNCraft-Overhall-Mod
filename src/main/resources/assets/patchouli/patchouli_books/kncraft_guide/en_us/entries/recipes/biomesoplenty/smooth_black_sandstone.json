@@ -1,0 +1,18 @@
+{
+  "name": "Smooth Black Sandstone",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:smooth_black_sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "biomesoplenty:smooth_black_sandstone",
+      "anchor": "catalog_biomesoplenty_smooth_black_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:smooth_black_sandstone"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:smooth_black_sandstone": 0
+  }
+}

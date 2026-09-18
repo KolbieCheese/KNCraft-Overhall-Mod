@@ -1,0 +1,18 @@
+{
+  "name": "Trapped Crystal Chest",
+  "category": "patchouli:recipes/ironchest",
+  "icon": "ironchest:trapped_crystal_chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ironchest:chests/trapped_crystal_chest",
+      "anchor": "catalog_ironchest_chests_trapped_crystal_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ironchest:chests/trapped_crystal_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ironchest:trapped_crystal_chest": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Mob Catcher Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:mob_catcher_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:mob_catcher_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_mob_catcher_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:mob_catcher_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:mob_catcher_upgrade": 0
+  }
+}

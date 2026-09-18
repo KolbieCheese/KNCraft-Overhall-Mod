@@ -1,0 +1,18 @@
+{
+  "name": "Tainted Button",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_button",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:tainted_button",
+      "anchor": "catalog_witherstormmod_tainted_button",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_button"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_button": 0
+  }
+}

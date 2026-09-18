@@ -1,0 +1,18 @@
+{
+  "name": "Bricks",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:bricks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bricks",
+      "anchor": "catalog_minecraft_bricks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:bricks"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:bricks": 0
+  }
+}

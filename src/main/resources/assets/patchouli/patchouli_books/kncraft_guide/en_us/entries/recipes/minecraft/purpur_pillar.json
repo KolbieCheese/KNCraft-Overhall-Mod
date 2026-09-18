@@ -1,0 +1,25 @@
+{
+  "name": "Purpur Pillar",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:purpur_pillar",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purpur_pillar",
+      "anchor": "catalog_minecraft_purpur_pillar",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:purpur_pillar"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:purpur_pillar_from_purpur_block_stonecutting",
+      "anchor": "catalog_minecraft_purpur_pillar_from_purpur_block_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:purpur_pillar_from_purpur_block_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:purpur_pillar": 0
+  }
+}

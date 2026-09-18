@@ -1,0 +1,25 @@
+{
+  "name": "Iron Backpack",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:iron_backpack",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sophisticatedbackpacks:iron_backpack",
+      "anchor": "catalog_sophisticatedbackpacks_iron_backpack",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "sophisticatedbackpacks:iron_backpack"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sophisticatedbackpacks:iron_backpack",
+      "anchor": "catalog_sophisticatedbackpacks_iron_backpack_from_copper",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "sophisticatedbackpacks:iron_backpack_from_copper"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:iron_backpack": 0
+  }
+}

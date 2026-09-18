@@ -1,0 +1,32 @@
+{
+  "name": "Torch",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:torch",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:bridge_torch_undo",
+      "anchor": "catalog_mcwbridges_bridge_torch_undo",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:bridge_torch_undo"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:torch",
+      "anchor": "catalog_minecraft_torch",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:torch"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:torch_cattail",
+      "anchor": "catalog_pamhc2crops_torch_cattail",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:torch_cattail"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:torch": 0
+  }
+}

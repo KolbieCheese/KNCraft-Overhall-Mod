@@ -30,6 +30,20 @@
       "input": "tag:forge:crops/radish",
       "station": "minecraft:smoker",
       "output": "pamhc2crops:roastedradishitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2crops:roastedradishitem_campfire",
+      "anchor": "catalog_pamhc2crops_roastedradishitem_campfire",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:roastedradishitem_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2crops:roastedradishitem_smoker",
+      "anchor": "catalog_pamhc2crops_roastedradishitem_smoker",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:roastedradishitem_smoker"
     }
   ],
   "extra_recipe_mappings": {

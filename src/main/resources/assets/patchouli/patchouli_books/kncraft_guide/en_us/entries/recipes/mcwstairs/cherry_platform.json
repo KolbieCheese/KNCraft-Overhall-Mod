@@ -1,0 +1,18 @@
+{
+  "name": "Cherry Platform",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:cherry_platform",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:cherry_platform",
+      "anchor": "catalog_mcwstairs_cherry_platform",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:cherry_platform"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:cherry_platform": 0
+  }
+}

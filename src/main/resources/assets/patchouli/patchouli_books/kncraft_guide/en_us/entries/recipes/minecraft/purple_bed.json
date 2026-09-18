@@ -1,0 +1,25 @@
+{
+  "name": "Purple Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:purple_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_purple_bed",
+      "anchor": "catalog_minecraft_dye_purple_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_purple_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_bed",
+      "anchor": "catalog_minecraft_purple_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:purple_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:purple_bed": 0
+  }
+}

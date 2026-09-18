@@ -1,0 +1,18 @@
+{
+  "name": "Dried Kelp Block",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:dried_kelp_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dried_kelp_block",
+      "anchor": "catalog_minecraft_dried_kelp_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dried_kelp_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:dried_kelp_block": 0
+  }
+}

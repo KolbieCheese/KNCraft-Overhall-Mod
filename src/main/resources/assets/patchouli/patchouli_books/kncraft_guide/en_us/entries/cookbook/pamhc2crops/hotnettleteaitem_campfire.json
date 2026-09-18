@@ -8,7 +8,7 @@
     {
       "type": "patchouli:kn_cooking",
       "heading": "Hot Nettle Tea",
-      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "body": "Cold Sweat: warms +0.2 base temperature for 60s (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_pamhc2crops_hotnettleteaitem_campfire",
       "input": "tag:forge:crops/nettles",
@@ -19,12 +19,12 @@
       "type": "patchouli:smelting",
       "recipe": "pamhc2crops:hotnettleteaitem_forge",
       "anchor": "lookup_recipe_pamhc2crops_hotnettleteaitem_forge",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "text": "Cold Sweat: warms +0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)"
     },
     {
       "type": "patchouli:kn_cooking",
       "heading": "Hot Nettle Tea",
-      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "body": "Cold Sweat: warms +0.2 base temperature for 60s (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_pamhc2crops_hotnettleteaitem_smoker",
       "input": "tag:forge:crops/nettles",
@@ -34,11 +34,25 @@
     {
       "type": "patchouli:kn_value",
       "heading": "Cold Sweat effect",
-      "body": "Pack default: +0.2 base temperature for 60 seconds. Warms while the effect lasts. The latest KNCraft thermal meal replaces the previous effect. Normal hunger rules apply. Server settings and tooltips take precedence.",
+      "body": "Pack default: +0.2 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
       "anchor": "kncraft_thermal_effect",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)",
       "reference": "food/pamhc2crops:hotnettleteaitem",
-      "fallback": "Pack default: +0.2 base temperature for 60 seconds. Warms while the effect lasts. The latest KNCraft thermal meal replaces the previous effect. Normal hunger rules apply. Server settings and tooltips take precedence."
+      "fallback": "Pack default: +0.2 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence."
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2crops:hotnettleteaitem_campfire",
+      "anchor": "catalog_pamhc2crops_hotnettleteaitem_campfire",
+      "text": "Cold Sweat: warms +0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:hotnettleteaitem_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2crops:hotnettleteaitem_smoker",
+      "anchor": "catalog_pamhc2crops_hotnettleteaitem_smoker",
+      "text": "Cold Sweat: warms +0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:hotnettleteaitem_smoker"
     }
   ],
   "extra_recipe_mappings": {

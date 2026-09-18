@@ -1,0 +1,18 @@
+{
+  "name": "Smooth marble stairs",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:smooth_marble_stair",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:smooth_marbleecraftstairs",
+      "anchor": "catalog_callfromthedepth__smooth_marbleecraftstairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:smooth_marbleecraftstairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:smooth_marble_stair": 0
+  }
+}

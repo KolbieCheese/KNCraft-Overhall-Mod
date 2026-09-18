@@ -1,0 +1,18 @@
+{
+  "name": "Strange Fish Finder",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:pupfish_locator",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:pupfish_locator",
+      "anchor": "catalog_alexsmobs_pupfish_locator",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:pupfish_locator"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:pupfish_locator": 0
+  }
+}

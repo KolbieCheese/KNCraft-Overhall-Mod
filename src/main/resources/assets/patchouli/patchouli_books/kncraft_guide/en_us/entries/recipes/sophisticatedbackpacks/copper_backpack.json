@@ -1,0 +1,18 @@
+{
+  "name": "Copper Backpack",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:copper_backpack",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sophisticatedbackpacks:copper_backpack",
+      "anchor": "catalog_sophisticatedbackpacks_copper_backpack",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "sophisticatedbackpacks:copper_backpack"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:copper_backpack": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Black Sleeping Bag",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:sleeping_bag_black",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_black",
+      "anchor": "catalog_comforts_sleeping_bag_black",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_black"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_to_black",
+      "anchor": "catalog_comforts_sleeping_bag_to_black",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_to_black"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:sleeping_bag_black": 0
+  }
+}

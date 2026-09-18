@@ -1,0 +1,18 @@
+{
+  "name": "Mangrove Fence Gate",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mangrove_fence_gate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mangrove_fence_gate",
+      "anchor": "catalog_minecraft_mangrove_fence_gate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mangrove_fence_gate"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mangrove_fence_gate": 0
+  }
+}

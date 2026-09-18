@@ -1,0 +1,18 @@
+{
+  "name": "Dark Oak Rail Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:dark_oak_rail_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:dark_oak_rail_bridge",
+      "anchor": "catalog_mcwbridges_dark_oak_rail_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:dark_oak_rail_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:dark_oak_rail_bridge": 0
+  }
+}

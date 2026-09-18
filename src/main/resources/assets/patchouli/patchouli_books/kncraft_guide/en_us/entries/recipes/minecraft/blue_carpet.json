@@ -1,0 +1,25 @@
+{
+  "name": "Blue Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:blue_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blue_carpet",
+      "anchor": "catalog_minecraft_blue_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:blue_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_blue_carpet",
+      "anchor": "catalog_minecraft_dye_blue_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_blue_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:blue_carpet": 0
+  }
+}

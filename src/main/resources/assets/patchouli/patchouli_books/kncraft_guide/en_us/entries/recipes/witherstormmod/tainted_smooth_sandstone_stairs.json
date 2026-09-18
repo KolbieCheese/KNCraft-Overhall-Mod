@@ -1,0 +1,25 @@
+{
+  "name": "Tainted Smooth Sandstone Stairs",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_smooth_sandstone_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:tainted_smooth_sandstone_stairs",
+      "anchor": "catalog_witherstormmod_tainted_smooth_sandstone_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_smooth_sandstone_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "witherstormmod:tainted_smooth_sandstone_stairs_stonecutting",
+      "anchor": "catalog_witherstormmod_tainted_smooth_sandstone_stairs_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_smooth_sandstone_stairs_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_smooth_sandstone_stairs": 0
+  }
+}

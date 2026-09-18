@@ -1,0 +1,18 @@
+{
+  "name": "Cherry Chest Boat",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cherry_chest_boat",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cherry_chest_boat",
+      "anchor": "catalog_minecraft_cherry_chest_boat",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cherry_chest_boat"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cherry_chest_boat": 0
+  }
+}

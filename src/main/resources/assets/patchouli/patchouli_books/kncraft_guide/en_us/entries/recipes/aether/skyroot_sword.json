@@ -1,0 +1,29 @@
+{
+  "name": "Skyroot Sword",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:skyroot_sword",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_sword",
+      "anchor": "catalog_aether_skyroot_sword",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_sword"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_skyroot_sword_repairing",
+      "input": "aether:skyroot_sword",
+      "output": "aether:skyroot_sword",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_sword_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:skyroot_sword": 0
+  }
+}

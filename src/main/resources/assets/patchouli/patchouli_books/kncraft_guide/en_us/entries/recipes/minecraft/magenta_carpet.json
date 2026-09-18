@@ -1,0 +1,25 @@
+{
+  "name": "Magenta Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:magenta_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_magenta_carpet",
+      "anchor": "catalog_minecraft_dye_magenta_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_magenta_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magenta_carpet",
+      "anchor": "catalog_minecraft_magenta_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:magenta_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:magenta_carpet": 0
+  }
+}

@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.0.6 - complete recipe guide and thermal foods
+
+- Fill the guide's recipe catalog from the resolved installed-pack recipes, including
+  Aether, storage, tents, building mods and vanilla. Group non-food entries by mod
+  under Recipes; put food and drink results in Cook Book. Preserve existing entry links.
+- Print temperature strength and duration directly below every affected recipe;
+  retain separate pages showing current server values. Advance the guide to version 15.
+- Expand thermal food defaults to 278 foods, including every installed smoothie and
+  soup, stews, hot drinks, frozen desserts, juices, yogurt and selected cooked meals.
+  Preserve the original settings and native Cold Sweat overrides; provide a separate
+  expanded-food switch and exclusion list. Thermal meals still replace one another.
+- Fetch live guide values only for visible reference pages, with bounded requests
+  and independent cache expiration, instead of transferring the expanded catalog.
+
 ## 1.0.5 - setup audit
 
 - Document the installed-pack audit, coordinated installation requirements, local

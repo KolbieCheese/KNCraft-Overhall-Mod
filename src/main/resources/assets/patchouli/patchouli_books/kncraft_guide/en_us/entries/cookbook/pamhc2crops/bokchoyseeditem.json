@@ -1,0 +1,18 @@
+{
+  "name": "Bok Choy Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:bokchoyseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:bokchoyseeditem",
+      "anchor": "catalog_pamhc2crops_bokchoyseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:bokchoyseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:bokchoyseeditem": 0
+  }
+}

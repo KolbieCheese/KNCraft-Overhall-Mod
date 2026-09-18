@@ -1,0 +1,18 @@
+{
+  "name": "Fire Charge",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:fire_charge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fire_charge",
+      "anchor": "catalog_minecraft_fire_charge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:fire_charge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:fire_charge": 0
+  }
+}

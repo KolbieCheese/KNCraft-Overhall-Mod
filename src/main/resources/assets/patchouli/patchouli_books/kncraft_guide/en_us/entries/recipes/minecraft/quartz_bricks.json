@@ -1,0 +1,25 @@
+{
+  "name": "Quartz Bricks",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:quartz_bricks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:quartz_bricks",
+      "anchor": "catalog_minecraft_quartz_bricks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:quartz_bricks"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:quartz_bricks_from_quartz_block_stonecutting",
+      "anchor": "catalog_minecraft_quartz_bricks_from_quartz_block_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:quartz_bricks_from_quartz_block_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:quartz_bricks": 0
+  }
+}

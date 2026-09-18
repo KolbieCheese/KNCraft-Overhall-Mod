@@ -1,0 +1,18 @@
+{
+  "name": "Oak Wood",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:oak_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_wood",
+      "anchor": "catalog_minecraft_oak_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:oak_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:oak_wood": 0
+  }
+}

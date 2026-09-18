@@ -1,0 +1,29 @@
+{
+  "name": "Golden Hoe",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:golden_hoe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_golden_hoe_repairing",
+      "input": "minecraft:golden_hoe",
+      "output": "minecraft:golden_hoe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:golden_hoe_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_hoe",
+      "anchor": "catalog_minecraft_golden_hoe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:golden_hoe"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:golden_hoe": 0
+  }
+}

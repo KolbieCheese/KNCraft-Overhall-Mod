@@ -1,0 +1,7 @@
+{
+  "name": "Wither Storm",
+  "parent": "patchouli:recipes",
+  "description": "Wither Storm equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "witherstormmod:amulet",
+  "sortnum": 0
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Melon",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:melon",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:melon",
+      "anchor": "catalog_minecraft_melon",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:melon"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:melon": 0
+  }
+}

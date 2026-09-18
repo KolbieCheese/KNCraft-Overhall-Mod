@@ -30,6 +30,20 @@
       "input": "tag:forge:crops/leek",
       "station": "minecraft:smoker",
       "output": "pamhc2crops:roastedleekitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2crops:roastedleekitem_campfire",
+      "anchor": "catalog_pamhc2crops_roastedleekitem_campfire",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:roastedleekitem_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2crops:roastedleekitem_smoker",
+      "anchor": "catalog_pamhc2crops_roastedleekitem_smoker",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:roastedleekitem_smoker"
     }
   ],
   "extra_recipe_mappings": {

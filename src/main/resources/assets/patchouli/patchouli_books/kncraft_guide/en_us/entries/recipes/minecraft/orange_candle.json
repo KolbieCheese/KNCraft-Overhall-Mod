@@ -1,0 +1,18 @@
+{
+  "name": "Orange Candle",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:orange_candle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_candle",
+      "anchor": "catalog_minecraft_orange_candle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:orange_candle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:orange_candle": 0
+  }
+}

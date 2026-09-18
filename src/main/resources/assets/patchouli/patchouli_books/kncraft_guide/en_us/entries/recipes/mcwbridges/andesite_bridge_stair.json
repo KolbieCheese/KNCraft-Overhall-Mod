@@ -1,0 +1,25 @@
+{
+  "name": "Andesite Bridge Stair",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:andesite_bridge_stair",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:andesite_bridge_stair",
+      "anchor": "catalog_mcwbridges_andesite_bridge_stair",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:andesite_bridge_stair"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_andesite_bridge_stair",
+      "anchor": "catalog_mcwbridges_stonecutter_andesite_bridge_stair",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_andesite_bridge_stair"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:andesite_bridge_stair": 0
+  }
+}

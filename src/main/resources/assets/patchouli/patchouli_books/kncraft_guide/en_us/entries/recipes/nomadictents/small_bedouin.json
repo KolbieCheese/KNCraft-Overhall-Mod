@@ -1,0 +1,25 @@
+{
+  "name": "Small Bedouin",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:small_bedouin",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:small_bedouin",
+      "anchor": "catalog_nomadictents_small_bedouin",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:small_bedouin"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:small_bedouin",
+      "anchor": "catalog_nomadictents_small_bedouin_layer1",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:small_bedouin_layer1"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:small_bedouin": 0
+  }
+}

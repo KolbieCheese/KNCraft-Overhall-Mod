@@ -1,0 +1,29 @@
+{
+  "name": "Iron Helmet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_helmet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_iron_helmet_repairing",
+      "input": "minecraft:iron_helmet",
+      "output": "minecraft:iron_helmet",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:iron_helmet_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_helmet",
+      "anchor": "catalog_minecraft_iron_helmet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_helmet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_helmet": 0
+  }
+}

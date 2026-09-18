@@ -1,0 +1,25 @@
+{
+  "name": "Fletching Table",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:fletching_table",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_fletching_table",
+      "anchor": "catalog_aether_skyroot_fletching_table",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_fletching_table"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fletching_table",
+      "anchor": "catalog_minecraft_fletching_table",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:fletching_table"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:fletching_table": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Light Gray Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:light_gray_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_light_gray_carpet",
+      "anchor": "catalog_minecraft_dye_light_gray_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_light_gray_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_gray_carpet",
+      "anchor": "catalog_minecraft_light_gray_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_gray_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:light_gray_carpet": 0
+  }
+}

@@ -40,6 +40,27 @@
       "input": "pamhc2foodextended:rawtofabbititem",
       "station": "minecraft:campfire",
       "output": "pamhc2foodextended:cookedtofabbititem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2foodextended:cookedtofabbititem_campfire",
+      "anchor": "catalog_pamhc2foodextended_cookedtofabbititem_campfire",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2foodextended:cookedtofabbititem_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2foodextended:cookedtofabbititem_smoker",
+      "anchor": "catalog_pamhc2foodextended_cookedtofabbititem_smoker",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2foodextended:cookedtofabbititem_smoker"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2foodextended:cookedtofaconitem_campfire",
+      "anchor": "catalog_pamhc2foodextended_cookedtofaconitem_campfire",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2foodextended:cookedtofaconitem_campfire"
     }
   ],
   "extra_recipe_mappings": {

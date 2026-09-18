@@ -1,0 +1,25 @@
+{
+  "name": "Red Sandstone Bridge Stair",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:red_sandstone_bridge_stair",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:red_sandstone_bridge_stair",
+      "anchor": "catalog_mcwbridges_red_sandstone_bridge_stair",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:red_sandstone_bridge_stair"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_red_sandstone_bridge_stair",
+      "anchor": "catalog_mcwbridges_stonecutter_red_sandstone_bridge_stair",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_red_sandstone_bridge_stair"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:red_sandstone_bridge_stair": 0
+  }
+}

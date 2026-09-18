@@ -1,0 +1,25 @@
+{
+  "name": "Rope Birch Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:rope_birch_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:birch_rope_bridge_stair_recycle",
+      "anchor": "catalog_mcwbridges_birch_rope_bridge_stair_recycle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:birch_rope_bridge_stair_recycle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:rope_birch_bridge",
+      "anchor": "catalog_mcwbridges_rope_birch_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:rope_birch_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:rope_birch_bridge": 0
+  }
+}

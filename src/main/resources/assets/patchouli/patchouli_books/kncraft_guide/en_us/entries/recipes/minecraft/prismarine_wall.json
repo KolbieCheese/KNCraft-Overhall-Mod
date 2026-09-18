@@ -1,0 +1,25 @@
+{
+  "name": "Prismarine Wall",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:prismarine_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:prismarine_wall",
+      "anchor": "catalog_minecraft_prismarine_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:prismarine_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:prismarine_wall_from_prismarine_stonecutting",
+      "anchor": "catalog_minecraft_prismarine_wall_from_prismarine_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:prismarine_wall_from_prismarine_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:prismarine_wall": 0
+  }
+}

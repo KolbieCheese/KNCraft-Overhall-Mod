@@ -1,0 +1,25 @@
+{
+  "name": "Magenta Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_magenta",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_magenta",
+      "anchor": "catalog_comforts_hammock_magenta",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_magenta"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_magenta",
+      "anchor": "catalog_comforts_hammock_to_magenta",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_magenta"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_magenta": 0
+  }
+}

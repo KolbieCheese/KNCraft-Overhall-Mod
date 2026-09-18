@@ -1,0 +1,25 @@
+{
+  "name": "Hellfire Wall",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:hellfire_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:hellfire_wall",
+      "anchor": "catalog_aether_hellfire_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:hellfire_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:hellfire_wall_from_hellfire_stone_stonecutting",
+      "anchor": "catalog_aether_hellfire_wall_from_hellfire_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:hellfire_wall_from_hellfire_stone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:hellfire_wall": 0
+  }
+}

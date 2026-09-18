@@ -1,0 +1,18 @@
+{
+  "name": "Warped Loft Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:warped_loft_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:warped_loft_stairs",
+      "anchor": "catalog_mcwstairs_warped_loft_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:warped_loft_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:warped_loft_stairs": 0
+  }
+}

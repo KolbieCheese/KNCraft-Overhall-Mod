@@ -1,0 +1,18 @@
+{
+  "name": "Stripped Acacia Wood",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stripped_acacia_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stripped_acacia_wood",
+      "anchor": "catalog_minecraft_stripped_acacia_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stripped_acacia_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stripped_acacia_wood": 0
+  }
+}

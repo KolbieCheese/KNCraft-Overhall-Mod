@@ -1,0 +1,25 @@
+{
+  "name": "White Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:white_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_white_carpet",
+      "anchor": "catalog_minecraft_dye_white_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_white_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_carpet",
+      "anchor": "catalog_minecraft_white_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:white_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:white_carpet": 0
+  }
+}

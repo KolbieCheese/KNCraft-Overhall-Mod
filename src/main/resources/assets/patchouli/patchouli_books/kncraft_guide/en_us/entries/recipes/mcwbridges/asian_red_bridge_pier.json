@@ -1,0 +1,18 @@
+{
+  "name": "Asian Red Bridge Pier",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:asian_red_bridge_pier",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:asian_red_bridge_pier",
+      "anchor": "catalog_mcwbridges_asian_red_bridge_pier",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:asian_red_bridge_pier"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:asian_red_bridge_pier": 0
+  }
+}

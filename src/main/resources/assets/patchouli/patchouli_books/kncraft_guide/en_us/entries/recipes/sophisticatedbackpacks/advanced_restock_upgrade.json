@@ -1,0 +1,18 @@
+{
+  "name": "Advanced Restock Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:advanced_restock_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sophisticatedbackpacks:advanced_restock_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_advanced_restock_upgrade",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "sophisticatedbackpacks:advanced_restock_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:advanced_restock_upgrade": 0
+  }
+}

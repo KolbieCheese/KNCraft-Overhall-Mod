@@ -1,0 +1,18 @@
+{
+  "name": "Komodo Dragon Spit Bottle",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:komodo_spit_bottle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:komodo_spit_bottle",
+      "anchor": "catalog_alexsmobs_komodo_spit_bottle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:komodo_spit_bottle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:komodo_spit_bottle": 0
+  }
+}

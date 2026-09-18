@@ -1,0 +1,46 @@
+{
+  "name": "Lapis Lazuli",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:lapis_lazuli",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lapis_lazuli",
+      "anchor": "catalog_minecraft_lapis_lazuli",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lapis_lazuli"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore",
+      "anchor": "catalog_minecraft_lapis_lazuli_from_blasting_deepslate_lapis_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:lapis_lazuli_from_blasting_lapis_ore",
+      "anchor": "catalog_minecraft_lapis_lazuli_from_blasting_lapis_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lapis_lazuli_from_blasting_lapis_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore",
+      "anchor": "catalog_minecraft_lapis_lazuli_from_smelting_deepslate_lapis_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:lapis_lazuli_from_smelting_lapis_ore",
+      "anchor": "catalog_minecraft_lapis_lazuli_from_smelting_lapis_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lapis_lazuli_from_smelting_lapis_ore"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:lapis_lazuli": 0
+  }
+}

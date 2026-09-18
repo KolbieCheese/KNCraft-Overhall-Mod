@@ -1,0 +1,32 @@
+{
+  "name": "Grindstone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:grindstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_grindstone",
+      "anchor": "catalog_aether_skyroot_grindstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_grindstone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_grindstone_holystone_slab",
+      "anchor": "catalog_aether_skyroot_grindstone_holystone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_grindstone_holystone_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:grindstone",
+      "anchor": "catalog_minecraft_grindstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:grindstone"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:grindstone": 0
+  }
+}

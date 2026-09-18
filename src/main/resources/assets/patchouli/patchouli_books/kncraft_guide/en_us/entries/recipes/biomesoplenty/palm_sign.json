@@ -1,0 +1,18 @@
+{
+  "name": "Palm Sign",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:palm_sign",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:palm_sign",
+      "anchor": "catalog_biomesoplenty_palm_sign",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:palm_sign"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:palm_sign": 0
+  }
+}

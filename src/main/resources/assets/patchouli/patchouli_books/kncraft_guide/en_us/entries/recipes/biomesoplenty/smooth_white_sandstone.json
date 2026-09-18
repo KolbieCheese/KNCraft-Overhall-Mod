@@ -1,0 +1,18 @@
+{
+  "name": "Smooth White Sandstone",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:smooth_white_sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "biomesoplenty:smooth_white_sandstone",
+      "anchor": "catalog_biomesoplenty_smooth_white_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:smooth_white_sandstone"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:smooth_white_sandstone": 0
+  }
+}

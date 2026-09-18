@@ -1,0 +1,29 @@
+{
+  "name": "Leather Boots",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:leather_boots",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_leather_boots_repairing",
+      "input": "minecraft:leather_boots",
+      "output": "minecraft:leather_boots",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:leather_boots_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:leather_boots",
+      "anchor": "catalog_minecraft_leather_boots",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:leather_boots"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:leather_boots": 0
+  }
+}

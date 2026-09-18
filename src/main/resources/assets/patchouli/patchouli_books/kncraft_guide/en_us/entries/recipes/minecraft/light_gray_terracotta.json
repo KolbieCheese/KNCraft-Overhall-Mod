@@ -1,0 +1,18 @@
+{
+  "name": "Light Gray Terracotta",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:light_gray_terracotta",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_gray_terracotta",
+      "anchor": "catalog_minecraft_light_gray_terracotta",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_gray_terracotta"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:light_gray_terracotta": 0
+  }
+}

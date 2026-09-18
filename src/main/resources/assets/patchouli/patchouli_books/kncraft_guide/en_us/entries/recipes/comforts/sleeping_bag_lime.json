@@ -1,0 +1,25 @@
+{
+  "name": "Lime Sleeping Bag",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:sleeping_bag_lime",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_lime",
+      "anchor": "catalog_comforts_sleeping_bag_lime",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_lime"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_to_lime",
+      "anchor": "catalog_comforts_sleeping_bag_to_lime",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_to_lime"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:sleeping_bag_lime": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Cookie",
+  "category": "patchouli:cookbook",
+  "icon": "minecraft:cookie",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cookie",
+      "anchor": "catalog_minecraft_cookie",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:cookie"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cookie": 0
+  }
+}

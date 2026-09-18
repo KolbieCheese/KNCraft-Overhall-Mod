@@ -1,0 +1,18 @@
+{
+  "name": "Heated stone bricks slab",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:heatdestonebricksslab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:heatedstonebricksslabcraft",
+      "anchor": "catalog_callfromthedepth__heatedstonebricksslabcraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:heatedstonebricksslabcraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:heatdestonebricksslab": 0
+  }
+}

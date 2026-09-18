@@ -1,0 +1,25 @@
+{
+  "name": "Lever",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:lever",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lever",
+      "anchor": "catalog_minecraft_lever",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lever"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terralith:lever_alt",
+      "anchor": "catalog_terralith_lever_alt",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "terralith:lever_alt"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:lever": 0
+  }
+}

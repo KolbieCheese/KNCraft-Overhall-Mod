@@ -1,0 +1,18 @@
+{
+  "name": "Crimson Hyphae",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:crimson_hyphae",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_hyphae",
+      "anchor": "catalog_minecraft_crimson_hyphae",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:crimson_hyphae"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:crimson_hyphae": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Crystal Leaves",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:crystal_leaves",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Freezer",
+      "anchor": "catalog_aether_crystal_leaves_freezing",
+      "input": "aether:skyroot_leaves",
+      "output": "aether:crystal_leaves",
+      "station": "aether:freezer",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:crystal_leaves_freezing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:crystal_leaves": 0
+  }
+}

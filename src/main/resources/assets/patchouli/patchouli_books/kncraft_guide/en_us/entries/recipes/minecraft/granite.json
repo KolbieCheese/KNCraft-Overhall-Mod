@@ -1,0 +1,18 @@
+{
+  "name": "Granite",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:granite",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:granite",
+      "anchor": "catalog_minecraft_granite",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:granite"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:granite": 0
+  }
+}

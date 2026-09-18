@@ -1,0 +1,25 @@
+{
+  "name": "Beehive",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:beehive",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_beehive",
+      "anchor": "catalog_aether_skyroot_beehive",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_beehive"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:beehive",
+      "anchor": "catalog_minecraft_beehive",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:beehive"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:beehive": 0
+  }
+}

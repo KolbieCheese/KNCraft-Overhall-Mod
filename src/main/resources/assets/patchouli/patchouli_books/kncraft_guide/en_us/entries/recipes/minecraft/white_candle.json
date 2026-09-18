@@ -1,0 +1,18 @@
+{
+  "name": "White Candle",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:white_candle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_candle",
+      "anchor": "catalog_minecraft_white_candle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:white_candle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:white_candle": 0
+  }
+}

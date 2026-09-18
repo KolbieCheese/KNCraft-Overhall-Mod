@@ -1,0 +1,25 @@
+{
+  "name": "Gray Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:gray_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:gray_dye_from_wilted_lily",
+      "anchor": "catalog_biomesoplenty_gray_dye_from_wilted_lily",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:gray_dye_from_wilted_lily"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gray_dye",
+      "anchor": "catalog_minecraft_gray_dye",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:gray_dye"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:gray_dye": 0
+  }
+}

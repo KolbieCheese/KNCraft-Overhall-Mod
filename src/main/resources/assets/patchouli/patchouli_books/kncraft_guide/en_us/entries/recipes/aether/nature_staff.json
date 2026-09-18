@@ -1,0 +1,18 @@
+{
+  "name": "Nature Staff",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:nature_staff",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:nature_staff",
+      "anchor": "catalog_aether_nature_staff",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:nature_staff"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:nature_staff": 0
+  }
+}

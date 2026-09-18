@@ -1,0 +1,18 @@
+{
+  "name": "Block of Ambrosium",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:ambrosium_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:ambrosium_block",
+      "anchor": "catalog_aether_ambrosium_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:ambrosium_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:ambrosium_block": 0
+  }
+}

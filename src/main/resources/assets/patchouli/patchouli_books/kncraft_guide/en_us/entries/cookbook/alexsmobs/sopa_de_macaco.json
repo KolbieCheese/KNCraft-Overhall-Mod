@@ -1,0 +1,18 @@
+{
+  "name": "Sopa De Macaco",
+  "category": "patchouli:cookbook",
+  "icon": "alexsmobs:sopa_de_macaco",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:sopa_de_macaco",
+      "anchor": "catalog_alexsmobs_sopa_de_macaco",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:sopa_de_macaco"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:sopa_de_macaco": 0
+  }
+}

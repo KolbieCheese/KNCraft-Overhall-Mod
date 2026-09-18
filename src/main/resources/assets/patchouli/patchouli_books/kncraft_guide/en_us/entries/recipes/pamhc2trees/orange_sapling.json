@@ -1,0 +1,18 @@
+{
+  "name": "Orange Sapling",
+  "category": "patchouli:recipes/pamhc2trees",
+  "icon": "pamhc2trees:orange_sapling",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2trees:orange_sapling",
+      "anchor": "catalog_pamhc2trees_orange_sapling",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2trees:orange_sapling"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2trees:orange_sapling": 0
+  }
+}

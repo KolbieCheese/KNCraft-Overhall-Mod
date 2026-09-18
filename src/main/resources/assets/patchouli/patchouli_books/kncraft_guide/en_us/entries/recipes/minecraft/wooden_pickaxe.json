@@ -1,0 +1,29 @@
+{
+  "name": "Wooden Pickaxe",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:wooden_pickaxe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_wooden_pickaxe_repairing",
+      "input": "minecraft:wooden_pickaxe",
+      "output": "minecraft:wooden_pickaxe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:wooden_pickaxe_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wooden_pickaxe",
+      "anchor": "catalog_minecraft_wooden_pickaxe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:wooden_pickaxe"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:wooden_pickaxe": 0
+  }
+}

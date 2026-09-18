@@ -1,0 +1,29 @@
+{
+  "name": "Iron Leggings",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_leggings",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_iron_leggings_repairing",
+      "input": "minecraft:iron_leggings",
+      "output": "minecraft:iron_leggings",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:iron_leggings_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_leggings",
+      "anchor": "catalog_minecraft_iron_leggings",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_leggings"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_leggings": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Pumpkin Seeds",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:pumpkin_seeds",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:pumpkin_seeds",
+      "anchor": "catalog_minecraft_pumpkin_seeds",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:pumpkin_seeds"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:pumpkin_seeds": 0
+  }
+}

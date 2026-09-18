@@ -1,0 +1,29 @@
+{
+  "name": "Stone Shovel",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stone_shovel",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_stone_shovel_repairing",
+      "input": "minecraft:stone_shovel",
+      "output": "minecraft:stone_shovel",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:stone_shovel_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_shovel",
+      "anchor": "catalog_minecraft_stone_shovel",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stone_shovel"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stone_shovel": 0
+  }
+}

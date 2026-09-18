@@ -1,6 +1,6 @@
 {
   "name": "Sewing Table",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/cold_sweat",
   "icon": "cold_sweat:sewing_table",
   "priority": false,
   "sortnum": 0,

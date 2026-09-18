@@ -1,0 +1,18 @@
+{
+  "name": "Comparator",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:comparator",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:comparator",
+      "anchor": "catalog_minecraft_comparator",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:comparator"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:comparator": 0
+  }
+}

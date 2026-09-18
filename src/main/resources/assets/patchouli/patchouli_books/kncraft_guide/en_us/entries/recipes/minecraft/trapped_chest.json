@@ -1,0 +1,18 @@
+{
+  "name": "Trapped Chest",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:trapped_chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:trapped_chest",
+      "anchor": "catalog_minecraft_trapped_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:trapped_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:trapped_chest": 0
+  }
+}

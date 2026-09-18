@@ -1,0 +1,25 @@
+{
+  "name": "Hellfire Slab",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:hellfire_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:hellfire_slab",
+      "anchor": "catalog_aether_hellfire_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:hellfire_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:hellfire_slab_from_hellfire_stone_stonecutting",
+      "anchor": "catalog_aether_hellfire_slab_from_hellfire_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:hellfire_slab_from_hellfire_stone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:hellfire_slab": 0
+  }
+}

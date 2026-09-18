@@ -30,6 +30,20 @@
       "input": "pamhc2foodcore:groundbeefitem",
       "station": "minecraft:smoker",
       "output": "pamhc2foodcore:cookedgroundbeefitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "minecraft:campfire_cookedgroundbeefitem",
+      "anchor": "catalog_minecraft_campfire_cookedgroundbeefitem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:campfire_cookedgroundbeefitem"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "minecraft:smoking_cookedgroundbeefitem",
+      "anchor": "catalog_minecraft_smoking_cookedgroundbeefitem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:smoking_cookedgroundbeefitem"
     }
   ],
   "extra_recipe_mappings": {

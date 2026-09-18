@@ -1,0 +1,18 @@
+{
+  "name": "Muddy Mangrove Roots",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:muddy_mangrove_roots",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:muddy_mangrove_roots",
+      "anchor": "catalog_minecraft_muddy_mangrove_roots",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:muddy_mangrove_roots"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:muddy_mangrove_roots": 0
+  }
+}

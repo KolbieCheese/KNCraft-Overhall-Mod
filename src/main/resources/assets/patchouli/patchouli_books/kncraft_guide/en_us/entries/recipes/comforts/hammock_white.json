@@ -1,0 +1,25 @@
+{
+  "name": "White Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_white",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_white",
+      "anchor": "catalog_comforts_hammock_to_white",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_white"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_white",
+      "anchor": "catalog_comforts_hammock_white",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_white"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_white": 0
+  }
+}

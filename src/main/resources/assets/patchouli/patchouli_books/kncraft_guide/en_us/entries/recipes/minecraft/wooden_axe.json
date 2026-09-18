@@ -1,0 +1,29 @@
+{
+  "name": "Wooden Axe",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:wooden_axe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_wooden_axe_repairing",
+      "input": "minecraft:wooden_axe",
+      "output": "minecraft:wooden_axe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:wooden_axe_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wooden_axe",
+      "anchor": "catalog_minecraft_wooden_axe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:wooden_axe"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:wooden_axe": 0
+  }
+}

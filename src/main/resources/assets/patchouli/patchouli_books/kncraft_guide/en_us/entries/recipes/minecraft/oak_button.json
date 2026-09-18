@@ -1,0 +1,18 @@
+{
+  "name": "Oak Button",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:oak_button",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_button",
+      "anchor": "catalog_minecraft_oak_button",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:oak_button"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:oak_button": 0
+  }
+}

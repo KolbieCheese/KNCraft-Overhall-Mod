@@ -1,0 +1,25 @@
+{
+  "name": "Carved Wall",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:carved_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:carved_wall",
+      "anchor": "catalog_aether_carved_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:carved_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:carved_wall_from_carved_stone_stonecutting",
+      "anchor": "catalog_aether_carved_wall_from_carved_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:carved_wall_from_carved_stone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:carved_wall": 0
+  }
+}

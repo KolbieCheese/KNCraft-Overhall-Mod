@@ -1,0 +1,25 @@
+{
+  "name": "Glass Bottle",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:glass_bottle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glass_bottle",
+      "anchor": "catalog_minecraft_glass_bottle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:glass_bottle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:bottle_x2_calabash_x2",
+      "anchor": "catalog_pamhc2crops_bottle_x2_calabash_x2",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:bottle_x2_calabash_x2"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:glass_bottle": 0
+  }
+}

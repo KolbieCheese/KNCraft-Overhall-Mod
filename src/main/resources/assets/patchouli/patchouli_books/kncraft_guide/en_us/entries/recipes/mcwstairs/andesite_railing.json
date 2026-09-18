@@ -1,0 +1,18 @@
+{
+  "name": "Andesite Railing",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:andesite_railing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:andesite_railing",
+      "anchor": "catalog_mcwstairs_andesite_railing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:andesite_railing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:andesite_railing": 0
+  }
+}

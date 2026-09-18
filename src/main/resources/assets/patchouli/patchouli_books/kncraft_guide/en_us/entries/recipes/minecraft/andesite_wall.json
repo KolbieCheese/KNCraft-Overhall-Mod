@@ -1,0 +1,25 @@
+{
+  "name": "Andesite Wall",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:andesite_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:andesite_wall",
+      "anchor": "catalog_minecraft_andesite_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:andesite_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:andesite_wall_from_andesite_stonecutting",
+      "anchor": "catalog_minecraft_andesite_wall_from_andesite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:andesite_wall_from_andesite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:andesite_wall": 0
+  }
+}

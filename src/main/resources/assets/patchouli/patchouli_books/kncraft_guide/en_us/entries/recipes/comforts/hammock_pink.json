@@ -1,0 +1,25 @@
+{
+  "name": "Pink Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_pink",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_pink",
+      "anchor": "catalog_comforts_hammock_pink",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_pink"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_pink",
+      "anchor": "catalog_comforts_hammock_to_pink",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_pink"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_pink": 0
+  }
+}

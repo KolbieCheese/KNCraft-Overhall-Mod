@@ -1,0 +1,18 @@
+{
+  "name": "Weather Siren",
+  "category": "patchouli:recipes/weather2",
+  "icon": "weather2:tornado_siren",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "weather2:tornado_siren",
+      "anchor": "catalog_weather2_tornado_siren",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "weather2:tornado_siren"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "weather2:tornado_siren": 0
+  }
+}

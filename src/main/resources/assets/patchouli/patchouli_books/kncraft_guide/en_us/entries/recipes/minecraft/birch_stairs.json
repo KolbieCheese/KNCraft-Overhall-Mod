@@ -1,0 +1,18 @@
+{
+  "name": "Birch Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:birch_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_stairs",
+      "anchor": "catalog_minecraft_birch_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:birch_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:birch_stairs": 0
+  }
+}

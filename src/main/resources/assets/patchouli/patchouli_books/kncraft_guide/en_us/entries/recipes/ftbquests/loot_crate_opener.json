@@ -1,0 +1,18 @@
+{
+  "name": "Loot Crate Opener",
+  "category": "patchouli:recipes/ftbquests",
+  "icon": "ftbquests:loot_crate_opener",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ftbquests:loot_crate_opener",
+      "anchor": "catalog_ftbquests_loot_crate_opener",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ftbquests:loot_crate_opener"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ftbquests:loot_crate_opener": 0
+  }
+}

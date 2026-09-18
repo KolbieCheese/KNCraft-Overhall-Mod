@@ -1,0 +1,18 @@
+{
+  "name": "Cherry Trapdoor",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cherry_trapdoor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cherry_trapdoor",
+      "anchor": "catalog_minecraft_cherry_trapdoor",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cherry_trapdoor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cherry_trapdoor": 0
+  }
+}

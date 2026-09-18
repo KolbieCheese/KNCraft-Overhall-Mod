@@ -1,0 +1,18 @@
+{
+  "name": "Heated stone carved bricks",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:heatdestonecarvedbricks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:heatedstonecarvedbrickscraft",
+      "anchor": "catalog_callfromthedepth__heatedstonecarvedbrickscraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:heatedstonecarvedbrickscraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:heatdestonecarvedbricks": 0
+  }
+}

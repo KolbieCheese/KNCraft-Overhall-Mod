@@ -1,0 +1,18 @@
+{
+  "name": "Cracked Deepslate Bricks",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cracked_deepslate_bricks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:cracked_deepslate_bricks",
+      "anchor": "catalog_minecraft_cracked_deepslate_bricks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cracked_deepslate_bricks"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cracked_deepslate_bricks": 0
+  }
+}

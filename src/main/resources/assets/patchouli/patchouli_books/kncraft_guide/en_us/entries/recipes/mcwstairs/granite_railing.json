@@ -1,0 +1,18 @@
+{
+  "name": "Granite Railing",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:granite_railing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:granite_railing",
+      "anchor": "catalog_mcwstairs_granite_railing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:granite_railing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:granite_railing": 0
+  }
+}

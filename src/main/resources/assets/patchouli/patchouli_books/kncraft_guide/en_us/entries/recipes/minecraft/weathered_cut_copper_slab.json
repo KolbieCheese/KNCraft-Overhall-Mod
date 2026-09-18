@@ -1,0 +1,32 @@
+{
+  "name": "Weathered Cut Copper Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:weathered_cut_copper_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:weathered_cut_copper_slab",
+      "anchor": "catalog_minecraft_weathered_cut_copper_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:weathered_cut_copper_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:weathered_cut_copper_slab_from_weathered_copper_stonecutting",
+      "anchor": "catalog_minecraft_weathered_cut_copper_slab_from_weathered_copper_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:weathered_cut_copper_slab_from_weathered_copper_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting",
+      "anchor": "catalog_minecraft_weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:weathered_cut_copper_slab": 0
+  }
+}

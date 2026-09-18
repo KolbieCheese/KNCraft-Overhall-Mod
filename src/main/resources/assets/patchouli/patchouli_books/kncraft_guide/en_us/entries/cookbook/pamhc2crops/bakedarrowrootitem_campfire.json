@@ -30,6 +30,20 @@
       "input": "tag:forge:crops/arrowroot",
       "station": "minecraft:smoker",
       "output": "pamhc2crops:bakedarrowrootitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2crops:bakedarrowrootitem_campfire",
+      "anchor": "catalog_pamhc2crops_bakedarrowrootitem_campfire",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:bakedarrowrootitem_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2crops:bakedarrowrootitem_smoker",
+      "anchor": "catalog_pamhc2crops_bakedarrowrootitem_smoker",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:bakedarrowrootitem_smoker"
     }
   ],
   "extra_recipe_mappings": {

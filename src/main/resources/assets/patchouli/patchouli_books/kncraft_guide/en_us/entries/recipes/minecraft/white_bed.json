@@ -1,0 +1,25 @@
+{
+  "name": "White Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:white_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_white_bed",
+      "anchor": "catalog_minecraft_dye_white_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_white_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_bed",
+      "anchor": "catalog_minecraft_white_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:white_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:white_bed": 0
+  }
+}

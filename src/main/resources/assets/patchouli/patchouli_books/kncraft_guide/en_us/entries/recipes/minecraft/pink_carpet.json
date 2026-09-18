@@ -1,0 +1,25 @@
+{
+  "name": "Pink Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:pink_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_pink_carpet",
+      "anchor": "catalog_minecraft_dye_pink_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_pink_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:pink_carpet",
+      "anchor": "catalog_minecraft_pink_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:pink_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:pink_carpet": 0
+  }
+}

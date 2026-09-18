@@ -1,0 +1,18 @@
+{
+  "name": "DirtChest 9000!",
+  "category": "patchouli:recipes/ironchest",
+  "icon": "ironchest:dirt_chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ironchest:chests/vanilla_dirt_chest",
+      "anchor": "catalog_ironchest_chests_vanilla_dirt_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ironchest:chests/vanilla_dirt_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ironchest:dirt_chest": 0
+  }
+}

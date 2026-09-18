@@ -1,0 +1,18 @@
+{
+  "name": "Guava Sapling",
+  "category": "patchouli:recipes/pamhc2trees",
+  "icon": "pamhc2trees:guava_sapling",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2trees:guava_sapling",
+      "anchor": "catalog_pamhc2trees_guava_sapling",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2trees:guava_sapling"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2trees:guava_sapling": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Diorite Wall",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:diorite_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diorite_wall",
+      "anchor": "catalog_minecraft_diorite_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diorite_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:diorite_wall_from_diorite_stonecutting",
+      "anchor": "catalog_minecraft_diorite_wall_from_diorite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:diorite_wall_from_diorite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:diorite_wall": 0
+  }
+}

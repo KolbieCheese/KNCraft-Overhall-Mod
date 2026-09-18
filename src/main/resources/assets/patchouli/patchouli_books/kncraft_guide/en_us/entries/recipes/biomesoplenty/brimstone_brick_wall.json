@@ -1,0 +1,32 @@
+{
+  "name": "Brimstone Brick Wall",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:brimstone_brick_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:brimstone_brick_wall",
+      "anchor": "catalog_biomesoplenty_brimstone_brick_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:brimstone_brick_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:brimstone_brick_wall_from_brimstone_bricks_stonecutting",
+      "anchor": "catalog_biomesoplenty_brimstone_brick_wall_from_brimstone_bricks_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:brimstone_brick_wall_from_brimstone_bricks_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:brimstone_brick_wall_from_brimstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_brimstone_brick_wall_from_brimstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:brimstone_brick_wall_from_brimstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:brimstone_brick_wall": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Small Shamiyana",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:small_shamiyana",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:small_shamiyana",
+      "anchor": "catalog_nomadictents_small_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:small_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:small_shamiyana",
+      "anchor": "catalog_nomadictents_small_shamiyana_layer1",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:small_shamiyana_layer1"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:small_shamiyana": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Oak Fence",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:oak_fence",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_fence",
+      "anchor": "catalog_minecraft_oak_fence",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:oak_fence"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:oak_fence": 0
+  }
+}

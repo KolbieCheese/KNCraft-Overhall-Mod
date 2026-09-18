@@ -1,0 +1,18 @@
+{
+  "name": "Immemorial pickaxe",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:immemorialpickaxe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smithing",
+      "recipe": "callfromthedepth_:pickeaxecraft",
+      "anchor": "catalog_callfromthedepth__pickeaxecraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:pickeaxecraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:immemorialpickaxe": 0
+  }
+}

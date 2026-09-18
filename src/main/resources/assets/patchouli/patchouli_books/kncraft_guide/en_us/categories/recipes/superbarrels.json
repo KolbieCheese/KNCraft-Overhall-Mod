@@ -1,0 +1,7 @@
+{
+  "name": "Super Barrels",
+  "parent": "patchouli:recipes",
+  "description": "Super Barrels equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "superbarrels:copper_chest",
+  "sortnum": 0
+}

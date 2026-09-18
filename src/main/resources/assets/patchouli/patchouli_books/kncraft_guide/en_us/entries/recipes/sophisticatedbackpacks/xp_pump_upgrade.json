@@ -1,0 +1,18 @@
+{
+  "name": "Experience Pump Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:xp_pump_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:xp_pump_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_xp_pump_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:xp_pump_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:xp_pump_upgrade": 0
+  }
+}

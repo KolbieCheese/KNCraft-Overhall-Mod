@@ -1,0 +1,25 @@
+{
+  "name": "Tent Canvas",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:tent_canvas",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "kncraft:cotton_canvas",
+      "anchor": "catalog_kncraft_cotton_canvas",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "kncraft:cotton_canvas"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:tent_canvas",
+      "anchor": "catalog_nomadictents_tent_canvas",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:tent_canvas"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:tent_canvas": 0
+  }
+}

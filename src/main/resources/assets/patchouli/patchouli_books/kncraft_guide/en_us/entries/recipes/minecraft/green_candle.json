@@ -1,0 +1,18 @@
+{
+  "name": "Green Candle",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:green_candle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:green_candle",
+      "anchor": "catalog_minecraft_green_candle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:green_candle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:green_candle": 0
+  }
+}

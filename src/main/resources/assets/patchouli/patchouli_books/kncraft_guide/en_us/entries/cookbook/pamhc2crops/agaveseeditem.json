@@ -1,0 +1,18 @@
+{
+  "name": "Agave Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:agaveseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:agaveseeditem",
+      "anchor": "catalog_pamhc2crops_agaveseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:agaveseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:agaveseeditem": 0
+  }
+}

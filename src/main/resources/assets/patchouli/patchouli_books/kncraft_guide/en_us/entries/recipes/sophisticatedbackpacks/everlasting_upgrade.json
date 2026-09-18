@@ -1,0 +1,18 @@
+{
+  "name": "Everlasting Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:everlasting_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sophisticatedbackpacks:everlasting_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_everlasting_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "sophisticatedbackpacks:everlasting_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:everlasting_upgrade": 0
+  }
+}

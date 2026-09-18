@@ -30,6 +30,20 @@
       "input": "tag:forge:crops/pistachio",
       "station": "minecraft:smoker",
       "output": "pamhc2trees:roastedpistachioitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2trees:roastedpistachioitem_campfire",
+      "anchor": "catalog_pamhc2trees_roastedpistachioitem_campfire",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2trees:roastedpistachioitem_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2trees:roastedpistachiotitem_smoker",
+      "anchor": "catalog_pamhc2trees_roastedpistachiotitem_smoker",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2trees:roastedpistachiotitem_smoker"
     }
   ],
   "extra_recipe_mappings": {

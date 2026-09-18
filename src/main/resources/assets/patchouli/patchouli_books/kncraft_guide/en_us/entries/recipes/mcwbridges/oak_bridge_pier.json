@@ -1,0 +1,18 @@
+{
+  "name": "Oak Bridge Support",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:oak_bridge_pier",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:oak_bridge_pier",
+      "anchor": "catalog_mcwbridges_oak_bridge_pier",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:oak_bridge_pier"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:oak_bridge_pier": 0
+  }
+}

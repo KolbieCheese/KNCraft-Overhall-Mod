@@ -1,0 +1,18 @@
+{
+  "name": "Rope Acacia Bridge Stair",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:acacia_rope_bridge_stair",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:acacia_rope_bridge_stair",
+      "anchor": "catalog_mcwbridges_acacia_rope_bridge_stair",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:acacia_rope_bridge_stair"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:acacia_rope_bridge_stair": 0
+  }
+}

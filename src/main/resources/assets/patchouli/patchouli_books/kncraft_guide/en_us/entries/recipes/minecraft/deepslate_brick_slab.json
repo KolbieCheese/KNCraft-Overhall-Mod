@@ -1,0 +1,39 @@
+{
+  "name": "Deepslate Brick Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:deepslate_brick_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:deepslate_brick_slab",
+      "anchor": "catalog_minecraft_deepslate_brick_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:deepslate_brick_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:deepslate_brick_slab_from_cobbled_deepslate_stonecutting",
+      "anchor": "catalog_minecraft_deepslate_brick_slab_from_cobbled_deepslate_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:deepslate_brick_slab_from_cobbled_deepslate_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:deepslate_brick_slab_from_deepslate_bricks_stonecutting",
+      "anchor": "catalog_minecraft_deepslate_brick_slab_from_deepslate_bricks_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:deepslate_brick_slab_from_deepslate_bricks_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:deepslate_brick_slab_from_polished_deepslate_stonecutting",
+      "anchor": "catalog_minecraft_deepslate_brick_slab_from_polished_deepslate_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:deepslate_brick_slab_from_polished_deepslate_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:deepslate_brick_slab": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Crafting Minecart",
+  "category": "patchouli:recipes/betterminecarts",
+  "icon": "betterminecarts:crafting_minecart_item",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "betterminecarts:crafting_minecart",
+      "anchor": "catalog_betterminecarts_crafting_minecart",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "betterminecarts:crafting_minecart"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "betterminecarts:crafting_minecart_item": 0
+  }
+}

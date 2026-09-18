@@ -1,0 +1,25 @@
+{
+  "name": "Mossy Cobblestone Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mossy_cobblestone_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mossy_cobblestone_slab",
+      "anchor": "catalog_minecraft_mossy_cobblestone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mossy_cobblestone_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting",
+      "anchor": "catalog_minecraft_mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mossy_cobblestone_slab": 0
+  }
+}

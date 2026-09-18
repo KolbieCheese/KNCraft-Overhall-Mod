@@ -1,0 +1,18 @@
+{
+  "name": "Black Stained Glass",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:black_stained_glass",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_stained_glass",
+      "anchor": "catalog_minecraft_black_stained_glass",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:black_stained_glass"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:black_stained_glass": 0
+  }
+}

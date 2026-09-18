@@ -1,0 +1,18 @@
+{
+  "name": "Vine Lasso",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:vine_lasso",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:vine_lasso",
+      "anchor": "catalog_alexsmobs_vine_lasso",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:vine_lasso"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:vine_lasso": 0
+  }
+}

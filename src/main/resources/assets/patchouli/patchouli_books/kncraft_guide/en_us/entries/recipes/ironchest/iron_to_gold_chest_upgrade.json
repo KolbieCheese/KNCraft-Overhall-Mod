@@ -1,0 +1,18 @@
+{
+  "name": "Iron to Gold Chest Upgrade",
+  "category": "patchouli:recipes/ironchest",
+  "icon": "ironchest:iron_to_gold_chest_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ironchest:upgrades/iron_to_gold_chest_upgrade",
+      "anchor": "catalog_ironchest_upgrades_iron_to_gold_chest_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ironchest:upgrades/iron_to_gold_chest_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ironchest:iron_to_gold_chest_upgrade": 0
+  }
+}

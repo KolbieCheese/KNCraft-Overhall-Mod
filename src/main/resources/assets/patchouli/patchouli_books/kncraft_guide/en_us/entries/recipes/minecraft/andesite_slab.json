@@ -1,0 +1,25 @@
+{
+  "name": "Andesite Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:andesite_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:andesite_slab",
+      "anchor": "catalog_minecraft_andesite_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:andesite_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:andesite_slab_from_andesite_stonecutting",
+      "anchor": "catalog_minecraft_andesite_slab_from_andesite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:andesite_slab_from_andesite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:andesite_slab": 0
+  }
+}

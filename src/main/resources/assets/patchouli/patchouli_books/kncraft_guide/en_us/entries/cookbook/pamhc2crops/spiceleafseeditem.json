@@ -1,0 +1,18 @@
+{
+  "name": "Spiceleaf Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:spiceleafseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:spiceleafseeditem",
+      "anchor": "catalog_pamhc2crops_spiceleafseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:spiceleafseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:spiceleafseeditem": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Depth stone carved brick",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:chiseleddepthstonebricks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:chdsb",
+      "anchor": "catalog_callfromthedepth__chdsb",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:chdsb"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:chiseleddepthstonebricks": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Oak Skyline Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:oak_skyline_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:oak_skyline_stairs",
+      "anchor": "catalog_mcwstairs_oak_skyline_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:oak_skyline_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:oak_skyline_stairs": 0
+  }
+}

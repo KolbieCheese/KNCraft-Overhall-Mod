@@ -16,6 +16,13 @@
       "recipe": "pamhc2foodcore:bread_dough",
       "anchor": "lookup_recipe_pamhc2foodcore_bread_dough",
       "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bread",
+      "anchor": "catalog_minecraft_bread",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:bread"
     }
   ],
   "extra_recipe_mappings": {}

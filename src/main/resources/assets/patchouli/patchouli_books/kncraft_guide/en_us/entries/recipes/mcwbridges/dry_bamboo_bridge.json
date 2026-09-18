@@ -1,0 +1,25 @@
+{
+  "name": "Dry Bamboo Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:dry_bamboo_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:dry_bamboo_bridge",
+      "anchor": "catalog_mcwbridges_dry_bamboo_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:dry_bamboo_bridge"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:dry_bamboo_bridge_stair_recycle",
+      "anchor": "catalog_mcwbridges_dry_bamboo_bridge_stair_recycle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:dry_bamboo_bridge_stair_recycle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:dry_bamboo_bridge": 0
+  }
+}

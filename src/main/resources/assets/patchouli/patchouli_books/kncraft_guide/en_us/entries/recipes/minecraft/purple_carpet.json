@@ -1,0 +1,25 @@
+{
+  "name": "Purple Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:purple_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_purple_carpet",
+      "anchor": "catalog_minecraft_dye_purple_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_purple_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_carpet",
+      "anchor": "catalog_minecraft_purple_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:purple_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:purple_carpet": 0
+  }
+}

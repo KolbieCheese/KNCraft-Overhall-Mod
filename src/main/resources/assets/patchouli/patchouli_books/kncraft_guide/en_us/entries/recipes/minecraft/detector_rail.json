@@ -1,0 +1,18 @@
+{
+  "name": "Detector Rail",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:detector_rail",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:detector_rail",
+      "anchor": "catalog_minecraft_detector_rail",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:detector_rail"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:detector_rail": 0
+  }
+}

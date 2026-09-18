@@ -1,0 +1,25 @@
+{
+  "name": "Lantern",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:lantern",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:bridge_lantern_undo",
+      "anchor": "catalog_mcwbridges_bridge_lantern_undo",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:bridge_lantern_undo"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lantern",
+      "anchor": "catalog_minecraft_lantern",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:lantern"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:lantern": 0
+  }
+}

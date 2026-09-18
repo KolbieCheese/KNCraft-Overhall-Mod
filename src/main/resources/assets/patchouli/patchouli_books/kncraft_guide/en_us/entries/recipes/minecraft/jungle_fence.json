@@ -1,0 +1,18 @@
+{
+  "name": "Jungle Fence",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:jungle_fence",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_fence",
+      "anchor": "catalog_minecraft_jungle_fence",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:jungle_fence"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:jungle_fence": 0
+  }
+}

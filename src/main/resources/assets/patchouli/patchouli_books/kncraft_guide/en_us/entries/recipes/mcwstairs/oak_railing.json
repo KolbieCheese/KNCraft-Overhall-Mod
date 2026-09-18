@@ -1,0 +1,18 @@
+{
+  "name": "Oak Stair Railing",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:oak_railing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:oak_railing",
+      "anchor": "catalog_mcwstairs_oak_railing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:oak_railing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:oak_railing": 0
+  }
+}

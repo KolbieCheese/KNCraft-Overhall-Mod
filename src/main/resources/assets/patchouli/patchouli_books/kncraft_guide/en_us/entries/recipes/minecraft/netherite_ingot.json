@@ -1,0 +1,25 @@
+{
+  "name": "Netherite Ingot",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:netherite_ingot",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:netherite_ingot",
+      "anchor": "catalog_minecraft_netherite_ingot",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:netherite_ingot"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:netherite_ingot_from_netherite_block",
+      "anchor": "catalog_minecraft_netherite_ingot_from_netherite_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:netherite_ingot_from_netherite_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:netherite_ingot": 0
+  }
+}

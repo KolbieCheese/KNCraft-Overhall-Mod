@@ -1,0 +1,18 @@
+{
+  "name": "Depth stone tiles slab",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:depthsstonebricksslabs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:dstw",
+      "anchor": "catalog_callfromthedepth__dstw",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:dstw"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:depthsstonebricksslabs": 0
+  }
+}

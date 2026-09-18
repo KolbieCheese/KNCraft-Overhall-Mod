@@ -1,0 +1,25 @@
+{
+  "name": "String",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:string",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:string_fiber",
+      "anchor": "catalog_pamhc2crops_string_fiber",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:string_fiber"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ropebridge:string",
+      "anchor": "catalog_ropebridge_string",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ropebridge:string"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:string": 0
+  }
+}

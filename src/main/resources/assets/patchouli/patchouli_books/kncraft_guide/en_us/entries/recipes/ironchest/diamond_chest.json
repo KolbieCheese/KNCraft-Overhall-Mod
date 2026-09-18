@@ -1,0 +1,18 @@
+{
+  "name": "Diamond Chest",
+  "category": "patchouli:recipes/ironchest",
+  "icon": "ironchest:diamond_chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ironchest:chests/gold_diamond_chest",
+      "anchor": "catalog_ironchest_chests_gold_diamond_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ironchest:chests/gold_diamond_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ironchest:diamond_chest": 0
+  }
+}

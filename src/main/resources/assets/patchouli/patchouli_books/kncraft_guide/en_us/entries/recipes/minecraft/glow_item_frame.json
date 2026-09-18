@@ -1,0 +1,18 @@
+{
+  "name": "Glow Item Frame",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:glow_item_frame",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glow_item_frame",
+      "anchor": "catalog_minecraft_glow_item_frame",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:glow_item_frame"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:glow_item_frame": 0
+  }
+}

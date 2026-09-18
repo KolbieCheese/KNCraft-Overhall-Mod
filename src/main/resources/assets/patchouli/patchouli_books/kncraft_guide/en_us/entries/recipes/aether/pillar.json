@@ -1,0 +1,25 @@
+{
+  "name": "Pillar",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:pillar",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:pillar_from_angelic_stone_stonecutting",
+      "anchor": "catalog_aether_pillar_from_angelic_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:pillar_from_angelic_stone_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:pillar_from_pillar_top_stonecutting",
+      "anchor": "catalog_aether_pillar_from_pillar_top_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:pillar_from_pillar_top_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:pillar": 0
+  }
+}

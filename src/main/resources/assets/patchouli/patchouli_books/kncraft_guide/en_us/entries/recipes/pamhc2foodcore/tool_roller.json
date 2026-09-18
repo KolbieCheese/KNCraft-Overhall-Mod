@@ -1,6 +1,6 @@
 {
   "name": "Roller",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/pamhc2foodcore",
   "icon": "pamhc2foodcore:rolleritem",
   "priority": false,
   "sortnum": 0,

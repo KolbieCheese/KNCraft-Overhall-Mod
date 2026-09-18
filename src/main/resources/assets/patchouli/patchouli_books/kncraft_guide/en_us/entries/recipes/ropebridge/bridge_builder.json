@@ -1,0 +1,18 @@
+{
+  "name": "Bridge Building Gun",
+  "category": "patchouli:recipes/ropebridge",
+  "icon": "ropebridge:bridge_builder",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ropebridge:bridge_builder",
+      "anchor": "catalog_ropebridge_bridge_builder",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ropebridge:bridge_builder"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ropebridge:bridge_builder": 0
+  }
+}

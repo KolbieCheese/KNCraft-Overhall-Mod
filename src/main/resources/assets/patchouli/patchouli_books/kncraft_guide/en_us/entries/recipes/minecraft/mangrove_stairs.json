@@ -1,0 +1,18 @@
+{
+  "name": "Mangrove Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mangrove_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mangrove_stairs",
+      "anchor": "catalog_minecraft_mangrove_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mangrove_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mangrove_stairs": 0
+  }
+}

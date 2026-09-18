@@ -1,0 +1,25 @@
+{
+  "name": "Orange Sandstone Slab",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:orange_sandstone_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:orange_sandstone_orange_from_orange_sandstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_orange_sandstone_orange_from_orange_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:orange_sandstone_orange_from_orange_sandstone_stonecutting"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:orange_sandstone_slab",
+      "anchor": "catalog_biomesoplenty_orange_sandstone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:orange_sandstone_slab"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:orange_sandstone_slab": 0
+  }
+}

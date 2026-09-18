@@ -30,6 +30,20 @@
       "input": "pamhc2foodcore:groundrabbititem",
       "station": "minecraft:smoker",
       "output": "pamhc2foodcore:cookedgroundrabbititem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "minecraft:campfire_cookedgroundrabbititem",
+      "anchor": "catalog_minecraft_campfire_cookedgroundrabbititem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:campfire_cookedgroundrabbititem"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "minecraft:smoking_cookedgroundrabbititem",
+      "anchor": "catalog_minecraft_smoking_cookedgroundrabbititem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:smoking_cookedgroundrabbititem"
     }
   ],
   "extra_recipe_mappings": {

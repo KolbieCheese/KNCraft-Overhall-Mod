@@ -1,0 +1,25 @@
+{
+  "name": "Brown Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_brown",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_brown",
+      "anchor": "catalog_comforts_hammock_brown",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_brown"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_brown",
+      "anchor": "catalog_comforts_hammock_to_brown",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_brown"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_brown": 0
+  }
+}

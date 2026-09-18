@@ -1,0 +1,18 @@
+{
+  "name": "Silent planks",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:silentreeplanks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:deepplanks",
+      "anchor": "catalog_callfromthedepth__deepplanks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:deepplanks"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:silentreeplanks": 0
+  }
+}

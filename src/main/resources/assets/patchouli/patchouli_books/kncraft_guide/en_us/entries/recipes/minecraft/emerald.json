@@ -1,0 +1,46 @@
+{
+  "name": "Emerald",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:emerald",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:emerald",
+      "anchor": "catalog_minecraft_emerald",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:emerald"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:emerald_from_blasting_deepslate_emerald_ore",
+      "anchor": "catalog_minecraft_emerald_from_blasting_deepslate_emerald_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:emerald_from_blasting_deepslate_emerald_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:emerald_from_blasting_emerald_ore",
+      "anchor": "catalog_minecraft_emerald_from_blasting_emerald_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:emerald_from_blasting_emerald_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:emerald_from_smelting_deepslate_emerald_ore",
+      "anchor": "catalog_minecraft_emerald_from_smelting_deepslate_emerald_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:emerald_from_smelting_deepslate_emerald_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:emerald_from_smelting_emerald_ore",
+      "anchor": "catalog_minecraft_emerald_from_smelting_emerald_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:emerald_from_smelting_emerald_ore"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:emerald": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Weather Item",
+  "category": "patchouli:recipes/weather2",
+  "icon": "weather2:weather_item",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "weather2:weather_item",
+      "anchor": "catalog_weather2_weather_item",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "weather2:weather_item"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "weather2:weather_item": 0
+  }
+}

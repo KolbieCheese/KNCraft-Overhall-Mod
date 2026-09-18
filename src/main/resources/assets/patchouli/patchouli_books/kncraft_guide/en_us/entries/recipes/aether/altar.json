@@ -1,0 +1,18 @@
+{
+  "name": "Altar",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:altar",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:altar",
+      "anchor": "catalog_aether_altar",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:altar"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:altar": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Iron Ingot",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_ingot",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:iron_ingot_from_blasting_deepslate_iron_ore",
+      "anchor": "catalog_minecraft_iron_ingot_from_blasting_deepslate_iron_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_ingot_from_blasting_deepslate_iron_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:iron_ingot_from_blasting_iron_ore",
+      "anchor": "catalog_minecraft_iron_ingot_from_blasting_iron_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_ingot_from_blasting_iron_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:iron_ingot_from_blasting_raw_iron",
+      "anchor": "catalog_minecraft_iron_ingot_from_blasting_raw_iron",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_ingot_from_blasting_raw_iron"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_ingot_from_iron_block",
+      "anchor": "catalog_minecraft_iron_ingot_from_iron_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_ingot_from_iron_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_ingot_from_nuggets",
+      "anchor": "catalog_minecraft_iron_ingot_from_nuggets",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_ingot_from_nuggets"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:iron_ingot_from_smelting_deepslate_iron_ore",
+      "anchor": "catalog_minecraft_iron_ingot_from_smelting_deepslate_iron_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_ingot_from_smelting_deepslate_iron_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:iron_ingot_from_smelting_iron_ore",
+      "anchor": "catalog_minecraft_iron_ingot_from_smelting_iron_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_ingot_from_smelting_iron_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:iron_ingot_from_smelting_raw_iron",
+      "anchor": "catalog_minecraft_iron_ingot_from_smelting_raw_iron",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_ingot_from_smelting_raw_iron"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_ingot": 0
+  }
+}

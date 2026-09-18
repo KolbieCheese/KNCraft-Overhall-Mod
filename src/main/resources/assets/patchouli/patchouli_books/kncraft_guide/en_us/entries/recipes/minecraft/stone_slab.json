@@ -1,0 +1,25 @@
+{
+  "name": "Stone Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stone_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_slab",
+      "anchor": "catalog_minecraft_stone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stone_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:stone_slab_from_stone_stonecutting",
+      "anchor": "catalog_minecraft_stone_slab_from_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stone_slab_from_stone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stone_slab": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Shark Tooth Arrow",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:shark_tooth_arrow",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:shark_tooth_arrow",
+      "anchor": "catalog_alexsmobs_shark_tooth_arrow",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:shark_tooth_arrow"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:shark_tooth_arrow": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Smoker",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:smoker",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smoker",
+      "anchor": "catalog_minecraft_smoker",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:smoker"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:smoker": 0
+  }
+}

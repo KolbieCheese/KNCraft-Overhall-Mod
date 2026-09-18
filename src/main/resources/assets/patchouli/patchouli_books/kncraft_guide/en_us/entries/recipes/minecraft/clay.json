@@ -1,0 +1,18 @@
+{
+  "name": "Clay",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:clay",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:clay",
+      "anchor": "catalog_minecraft_clay",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:clay"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:clay": 0
+  }
+}

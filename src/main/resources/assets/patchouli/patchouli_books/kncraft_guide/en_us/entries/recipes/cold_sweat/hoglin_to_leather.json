@@ -1,6 +1,6 @@
 {
   "name": "Leather",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/minecraft",
   "icon": "minecraft:leather",
   "priority": false,
   "sortnum": 0,
@@ -10,6 +10,34 @@
       "recipe": "cold_sweat:hoglin_to_leather",
       "anchor": "lookup_recipe_cold_sweat_hoglin_to_leather",
       "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/cold#recipe_cold_sweat_hoglin_to_leather)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:kangaroo_hide_to_leather",
+      "anchor": "catalog_alexsmobs_kangaroo_hide_to_leather",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:kangaroo_hide_to_leather"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "jrftl:rotten_flesh_smelting",
+      "anchor": "catalog_jrftl_rotten_flesh_smelting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "jrftl:rotten_flesh_smelting"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "jrftl:rotten_flesh_smoking",
+      "anchor": "catalog_jrftl_rotten_flesh_smoking",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "jrftl:rotten_flesh_smoking"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:leather",
+      "anchor": "catalog_minecraft_leather",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:leather"
     }
   ],
   "extra_recipe_mappings": {}

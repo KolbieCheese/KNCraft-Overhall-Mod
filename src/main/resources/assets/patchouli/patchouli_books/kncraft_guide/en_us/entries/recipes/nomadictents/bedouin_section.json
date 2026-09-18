@@ -1,0 +1,18 @@
+{
+  "name": "Bedouin Wall Section",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:bedouin_section",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:bedouin_section",
+      "anchor": "catalog_nomadictents_bedouin_section",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:bedouin_section"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:bedouin_section": 0
+  }
+}

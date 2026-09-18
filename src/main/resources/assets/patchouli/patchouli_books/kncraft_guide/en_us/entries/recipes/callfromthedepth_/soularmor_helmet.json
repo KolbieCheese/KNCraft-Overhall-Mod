@@ -1,0 +1,18 @@
+{
+  "name": "Soul helmet",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:soularmor_helmet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smithing",
+      "recipe": "callfromthedepth_:soulhelmetcraft",
+      "anchor": "catalog_callfromthedepth__soulhelmetcraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:soulhelmetcraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:soularmor_helmet": 0
+  }
+}

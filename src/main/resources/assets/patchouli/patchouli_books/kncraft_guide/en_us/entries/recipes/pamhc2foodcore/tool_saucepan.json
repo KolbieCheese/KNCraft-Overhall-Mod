@@ -1,6 +1,6 @@
 {
   "name": "Saucepan",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/pamhc2foodcore",
   "icon": "pamhc2foodcore:saucepanitem",
   "priority": false,
   "sortnum": 0,

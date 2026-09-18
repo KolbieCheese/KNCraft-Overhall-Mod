@@ -1,0 +1,7 @@
+{
+  "name": "Sophisticated Core",
+  "parent": "patchouli:recipes",
+  "description": "Sophisticated Core equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "sophisticatedcore:ender_linker",
+  "sortnum": 0
+}

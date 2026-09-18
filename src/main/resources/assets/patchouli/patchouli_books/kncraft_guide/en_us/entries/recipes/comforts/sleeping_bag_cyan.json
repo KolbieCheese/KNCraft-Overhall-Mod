@@ -1,0 +1,25 @@
+{
+  "name": "Cyan Sleeping Bag",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:sleeping_bag_cyan",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_cyan",
+      "anchor": "catalog_comforts_sleeping_bag_cyan",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_cyan"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_to_cyan",
+      "anchor": "catalog_comforts_sleeping_bag_to_cyan",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_to_cyan"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:sleeping_bag_cyan": 0
+  }
+}

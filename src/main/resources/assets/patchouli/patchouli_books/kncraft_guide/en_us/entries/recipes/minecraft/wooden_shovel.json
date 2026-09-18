@@ -1,0 +1,29 @@
+{
+  "name": "Wooden Shovel",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:wooden_shovel",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_wooden_shovel_repairing",
+      "input": "minecraft:wooden_shovel",
+      "output": "minecraft:wooden_shovel",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:wooden_shovel_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wooden_shovel",
+      "anchor": "catalog_minecraft_wooden_shovel",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:wooden_shovel"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:wooden_shovel": 0
+  }
+}

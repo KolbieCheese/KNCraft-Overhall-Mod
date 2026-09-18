@@ -1,0 +1,18 @@
+{
+  "name": "Sandstone Terrace Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:sandstone_terrace_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:sandstone_terrace_stairs",
+      "anchor": "catalog_mcwstairs_sandstone_terrace_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:sandstone_terrace_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:sandstone_terrace_stairs": 0
+  }
+}

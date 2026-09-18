@@ -1,0 +1,18 @@
+{
+  "name": "Crimson Fence",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:crimson_fence",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_fence",
+      "anchor": "catalog_minecraft_crimson_fence",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:crimson_fence"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:crimson_fence": 0
+  }
+}

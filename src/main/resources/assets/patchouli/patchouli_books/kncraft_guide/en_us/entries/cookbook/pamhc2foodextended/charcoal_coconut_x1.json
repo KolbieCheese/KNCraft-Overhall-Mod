@@ -1,6 +1,6 @@
 {
   "name": "Charcoal",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:recipes/minecraft",
   "icon": "minecraft:charcoal",
   "priority": false,
   "sortnum": 0,
@@ -9,7 +9,21 @@
       "type": "patchouli:crafting",
       "recipe": "pamhc2foodextended:charcoal_coconut_x1",
       "anchor": "lookup_recipe_pamhc2foodextended_charcoal_coconut_x1",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "callfromthedepth_:deepthreecoal",
+      "anchor": "catalog_callfromthedepth__deepthreecoal",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:deepthreecoal"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:charcoal",
+      "anchor": "catalog_minecraft_charcoal",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:charcoal"
     }
   ],
   "extra_recipe_mappings": {}

@@ -1,0 +1,18 @@
+{
+  "name": "Spruce Hanging Sign",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:spruce_hanging_sign",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_hanging_sign",
+      "anchor": "catalog_minecraft_spruce_hanging_sign",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:spruce_hanging_sign"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:spruce_hanging_sign": 0
+  }
+}

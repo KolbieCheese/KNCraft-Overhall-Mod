@@ -1,0 +1,18 @@
+{
+  "name": "Tainted Planks",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_planks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:tainted_planks",
+      "anchor": "catalog_witherstormmod_tainted_planks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_planks"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_planks": 0
+  }
+}

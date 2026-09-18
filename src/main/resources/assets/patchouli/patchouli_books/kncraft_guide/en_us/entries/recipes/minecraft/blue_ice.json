@@ -1,0 +1,29 @@
+{
+  "name": "Blue Ice",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:blue_ice",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Freezer",
+      "anchor": "catalog_aether_blue_ice_freezing",
+      "input": "minecraft:packed_ice",
+      "output": "minecraft:blue_ice",
+      "station": "aether:freezer",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:blue_ice_freezing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blue_ice",
+      "anchor": "catalog_minecraft_blue_ice",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:blue_ice"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:blue_ice": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Sentry Stone",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:sentry_stone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:sentry_stone_from_carved_stone_stonecutting",
+      "anchor": "catalog_aether_sentry_stone_from_carved_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:sentry_stone_from_carved_stone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:sentry_stone": 0
+  }
+}

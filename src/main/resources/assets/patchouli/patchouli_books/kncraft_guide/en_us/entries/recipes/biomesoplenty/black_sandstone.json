@@ -1,0 +1,18 @@
+{
+  "name": "Black Sandstone",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:black_sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:black_sandstone",
+      "anchor": "catalog_biomesoplenty_black_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:black_sandstone"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:black_sandstone": 0
+  }
+}

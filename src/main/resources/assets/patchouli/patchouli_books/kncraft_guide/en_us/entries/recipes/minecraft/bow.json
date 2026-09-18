@@ -1,0 +1,29 @@
+{
+  "name": "Bow",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:bow",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_bow_repairing",
+      "input": "minecraft:bow",
+      "output": "minecraft:bow",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:bow_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bow",
+      "anchor": "catalog_minecraft_bow",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:bow"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:bow": 0
+  }
+}

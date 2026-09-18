@@ -1,0 +1,18 @@
+{
+  "name": "Willow Sign",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:willow_sign",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:willow_sign",
+      "anchor": "catalog_biomesoplenty_willow_sign",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:willow_sign"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:willow_sign": 0
+  }
+}

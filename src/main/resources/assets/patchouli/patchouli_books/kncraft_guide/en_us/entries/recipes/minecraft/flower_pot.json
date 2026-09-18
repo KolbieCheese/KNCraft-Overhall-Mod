@@ -1,0 +1,18 @@
+{
+  "name": "Flower Pot",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:flower_pot",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:flower_pot",
+      "anchor": "catalog_minecraft_flower_pot",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:flower_pot"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:flower_pot": 0
+  }
+}

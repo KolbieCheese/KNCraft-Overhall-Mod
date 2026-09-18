@@ -1,0 +1,32 @@
+{
+  "name": "Polished Granite Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_granite_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_granite_stairs",
+      "anchor": "catalog_minecraft_polished_granite_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_granite_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_granite_stairs_from_granite_stonecutting",
+      "anchor": "catalog_minecraft_polished_granite_stairs_from_granite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_granite_stairs_from_granite_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_granite_stairs_from_polished_granite_stonecutting",
+      "anchor": "catalog_minecraft_polished_granite_stairs_from_polished_granite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_granite_stairs_from_polished_granite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_granite_stairs": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Crafting Table",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:crafting_table",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_crafting_table",
+      "anchor": "catalog_aether_skyroot_crafting_table",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_crafting_table"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:crafttable",
+      "anchor": "catalog_callfromthedepth__crafttable",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:crafttable"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crafting_table",
+      "anchor": "catalog_minecraft_crafting_table",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:crafting_table"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:crafting_table": 0
+  }
+}

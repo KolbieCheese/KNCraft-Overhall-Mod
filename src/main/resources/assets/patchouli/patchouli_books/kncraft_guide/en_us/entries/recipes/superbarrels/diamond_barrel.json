@@ -1,0 +1,18 @@
+{
+  "name": "Diamond Barrel",
+  "category": "patchouli:recipes/superbarrels",
+  "icon": "superbarrels:diamond_barrel",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "superbarrels:craft_diamond_barrel",
+      "anchor": "catalog_superbarrels_craft_diamond_barrel",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "superbarrels:craft_diamond_barrel"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "superbarrels:diamond_barrel": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Fir Button",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:fir_button",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:fir_button",
+      "anchor": "catalog_biomesoplenty_fir_button",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:fir_button"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:fir_button": 0
+  }
+}

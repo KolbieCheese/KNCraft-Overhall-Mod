@@ -1,0 +1,18 @@
+{
+  "name": "Marble bricks",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:marble_bricks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:bricks_marbleecraft",
+      "anchor": "catalog_callfromthedepth__bricks_marbleecraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:bricks_marbleecraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:marble_bricks": 0
+  }
+}

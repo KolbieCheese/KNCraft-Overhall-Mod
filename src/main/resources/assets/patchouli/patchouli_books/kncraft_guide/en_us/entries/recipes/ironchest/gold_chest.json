@@ -1,0 +1,18 @@
+{
+  "name": "Gold Chest",
+  "category": "patchouli:recipes/ironchest",
+  "icon": "ironchest:gold_chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ironchest:chests/iron_gold_chest",
+      "anchor": "catalog_ironchest_chests_iron_gold_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ironchest:chests/iron_gold_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ironchest:gold_chest": 0
+  }
+}

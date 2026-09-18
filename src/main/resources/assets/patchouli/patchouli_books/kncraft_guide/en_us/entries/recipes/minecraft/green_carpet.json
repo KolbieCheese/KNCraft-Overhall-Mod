@@ -1,0 +1,25 @@
+{
+  "name": "Green Carpet",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:green_carpet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_green_carpet",
+      "anchor": "catalog_minecraft_dye_green_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_green_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:green_carpet",
+      "anchor": "catalog_minecraft_green_carpet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:green_carpet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:green_carpet": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Andesite Skyline Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:andesite_skyline_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:andesite_skyline_stairs",
+      "anchor": "catalog_mcwstairs_andesite_skyline_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:andesite_skyline_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:andesite_skyline_stairs": 0
+  }
+}

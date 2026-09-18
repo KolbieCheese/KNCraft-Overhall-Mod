@@ -1,0 +1,18 @@
+{
+  "name": "Jacaranda Planks",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:jacaranda_planks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:jacaranda_planks",
+      "anchor": "catalog_biomesoplenty_jacaranda_planks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:jacaranda_planks"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:jacaranda_planks": 0
+  }
+}

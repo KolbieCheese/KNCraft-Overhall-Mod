@@ -1,0 +1,18 @@
+{
+  "name": "Furnace Minecart",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:furnace_minecart",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:furnace_minecart",
+      "anchor": "catalog_minecraft_furnace_minecart",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:furnace_minecart"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:furnace_minecart": 0
+  }
+}

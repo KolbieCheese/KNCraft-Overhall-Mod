@@ -1,0 +1,29 @@
+{
+  "name": "Skyroot Hoe",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:skyroot_hoe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_hoe",
+      "anchor": "catalog_aether_skyroot_hoe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_hoe"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_skyroot_hoe_repairing",
+      "input": "aether:skyroot_hoe",
+      "output": "aether:skyroot_hoe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_hoe_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:skyroot_hoe": 0
+  }
+}

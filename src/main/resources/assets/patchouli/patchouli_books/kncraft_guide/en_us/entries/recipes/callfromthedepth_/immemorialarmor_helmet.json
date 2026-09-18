@@ -1,0 +1,18 @@
+{
+  "name": "Immemorial helmet",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:immemorialarmor_helmet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smithing",
+      "recipe": "callfromthedepth_:immemorialhelmetcraft",
+      "anchor": "catalog_callfromthedepth__immemorialhelmetcraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:immemorialhelmetcraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:immemorialarmor_helmet": 0
+  }
+}

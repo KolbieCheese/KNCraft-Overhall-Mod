@@ -1,0 +1,25 @@
+{
+  "name": "Carved Slab",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:carved_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:carved_slab",
+      "anchor": "catalog_aether_carved_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:carved_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:carved_slab_from_carved_stone_stonecutting",
+      "anchor": "catalog_aether_carved_slab_from_carved_stone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:carved_slab_from_carved_stone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:carved_slab": 0
+  }
+}

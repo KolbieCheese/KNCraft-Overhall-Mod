@@ -1,0 +1,18 @@
+{
+  "name": "Heated stone bricks fence",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:heatdestonebricksfence",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:heatedstonebricksfencecraft",
+      "anchor": "catalog_callfromthedepth__heatedstonebricksfencecraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:heatedstonebricksfencecraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:heatdestonebricksfence": 0
+  }
+}

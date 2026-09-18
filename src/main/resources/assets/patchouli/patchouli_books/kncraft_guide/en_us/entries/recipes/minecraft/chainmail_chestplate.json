@@ -1,0 +1,22 @@
+{
+  "name": "Chainmail Chestplate",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:chainmail_chestplate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_chainmail_chestplate_repairing",
+      "input": "minecraft:chainmail_chestplate",
+      "output": "minecraft:chainmail_chestplate",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:chainmail_chestplate_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:chainmail_chestplate": 0
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "Recipes",
-  "description": "The original guide recipes. The expanded HarvestCraft cooking reference is in Cook Book.",
+  "description": "Equipment, tools, machines, building materials and other non-food recipes from the pack. Food and drinks are in Cook Book.",
   "icon": "minecraft:crafting_table",
   "sortnum": 2
 }

@@ -1,0 +1,18 @@
+{
+  "name": "Mojang Banner Pattern",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mojang_banner_pattern",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mojang_banner_pattern",
+      "anchor": "catalog_minecraft_mojang_banner_pattern",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mojang_banner_pattern"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mojang_banner_pattern": 0
+  }
+}

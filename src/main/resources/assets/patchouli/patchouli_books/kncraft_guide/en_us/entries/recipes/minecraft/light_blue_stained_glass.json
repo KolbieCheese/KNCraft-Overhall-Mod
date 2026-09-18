@@ -1,0 +1,18 @@
+{
+  "name": "Light Blue Stained Glass",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:light_blue_stained_glass",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_stained_glass",
+      "anchor": "catalog_minecraft_light_blue_stained_glass",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:light_blue_stained_glass"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:light_blue_stained_glass": 0
+  }
+}

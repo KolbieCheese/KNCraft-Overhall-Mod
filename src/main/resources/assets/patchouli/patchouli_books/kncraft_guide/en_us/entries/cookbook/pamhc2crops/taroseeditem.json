@@ -1,0 +1,18 @@
+{
+  "name": "Taro Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:taroseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:taroseeditem",
+      "anchor": "catalog_pamhc2crops_taroseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:taroseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:taroseeditem": 0
+  }
+}

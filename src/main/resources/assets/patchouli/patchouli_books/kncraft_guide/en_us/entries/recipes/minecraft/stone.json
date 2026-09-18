@@ -1,0 +1,18 @@
+{
+  "name": "Stone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:stone",
+      "anchor": "catalog_minecraft_stone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stone"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stone": 0
+  }
+}

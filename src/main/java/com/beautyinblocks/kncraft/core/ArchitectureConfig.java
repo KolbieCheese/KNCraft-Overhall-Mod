@@ -8,6 +8,8 @@ public final class ArchitectureConfig {
     public static final ForgeConfigSpec.BooleanValue NATIVE_PORTALS, TENTS, PORTAL_SEARCH, ITEM_SELECTION, TORNADO_QUERY;
     public static final ForgeConfigSpec.BooleanValue WAYSTONES, ENCOUNTERS;
     public static final ForgeConfigSpec.BooleanValue COTTON, WILDLIFE, MEALS, FIBERS;
+    public static final ForgeConfigSpec.BooleanValue EXPANDED_MEALS;
+    public static final ForgeConfigSpec.ConfigValue<java.util.List<? extends String>> FOOD_EXCLUSIONS;
     public static final ForgeConfigSpec.ConfigValue<java.util.List<? extends String>> INSULATORS;
     public static final ForgeConfigSpec.ConfigValue<java.util.List<? extends String>> FOODS;
     static {
@@ -26,6 +28,10 @@ public final class ArchitectureConfig {
         COTTON = b.define("cottonInsulation", true);
         WILDLIFE = b.define("wildlifeInsulation", true);
         MEALS = b.define("thermalMeals", true);
+        EXPANDED_MEALS = b.comment("Add the curated smoothie, soup, hot/chilled food catalog. Explicit foods rows and Cold Sweat definitions take precedence. Requires thermalMeals.")
+            .define("expandedThermalFoods", true);
+        FOOD_EXCLUSIONS = b.comment("Item IDs excluded from the expanded catalog. The original foods list is preserved and remains independently configurable.")
+            .defineListAllowEmpty(java.util.List.of("expandedThermalFoodExclusions"), java.util.List.<String>of(), value -> value instanceof String);
         FIBERS = b.define("fiberRecipes", true);
         INSULATORS = b.comment("group|item_id|item or armor|cold|heat. Invalid rows are rejected in the status report. Existing Cold Sweat entries take precedence.")
             .defineListAllowEmpty(java.util.List.of("insulators"), java.util.List.of(

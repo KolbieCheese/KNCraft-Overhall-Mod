@@ -56,6 +56,34 @@
       "input": "tag:forge:crops/sweetpotato",
       "station": "minecraft:smoker",
       "output": "pamhc2crops:bakedsweetpotatoitem"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2crops:bakedsweet_potatoitem_campfire",
+      "anchor": "catalog_pamhc2crops_bakedsweet_potatoitem_campfire",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:bakedsweet_potatoitem_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2crops:bakedsweet_potatoitem_smoker",
+      "anchor": "catalog_pamhc2crops_bakedsweet_potatoitem_smoker",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:bakedsweet_potatoitem_smoker"
+    },
+    {
+      "type": "patchouli:campfire",
+      "recipe": "pamhc2crops:bakedsweetpotatoitem_campfire",
+      "anchor": "catalog_pamhc2crops_bakedsweetpotatoitem_campfire",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:bakedsweetpotatoitem_campfire"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2crops:bakedsweetpotatoitem_smoker",
+      "anchor": "catalog_pamhc2crops_bakedsweetpotatoitem_smoker",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:bakedsweetpotatoitem_smoker"
     }
   ],
   "extra_recipe_mappings": {

@@ -1,0 +1,32 @@
+{
+  "name": "Blue Cape",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:blue_cape",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:blue_cape_blue_wool",
+      "anchor": "catalog_aether_blue_cape_blue_wool",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:blue_cape_blue_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:blue_cape_cyan_wool",
+      "anchor": "catalog_aether_blue_cape_cyan_wool",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:blue_cape_cyan_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:blue_cape_light_blue_wool",
+      "anchor": "catalog_aether_blue_cape_light_blue_wool",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:blue_cape_light_blue_wool"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:blue_cape": 0
+  }
+}

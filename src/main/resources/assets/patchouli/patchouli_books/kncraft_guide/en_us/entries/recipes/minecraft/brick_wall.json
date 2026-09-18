@@ -1,0 +1,25 @@
+{
+  "name": "Brick Wall",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:brick_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brick_wall",
+      "anchor": "catalog_minecraft_brick_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:brick_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:brick_wall_from_bricks_stonecutting",
+      "anchor": "catalog_minecraft_brick_wall_from_bricks_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:brick_wall_from_bricks_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:brick_wall": 0
+  }
+}

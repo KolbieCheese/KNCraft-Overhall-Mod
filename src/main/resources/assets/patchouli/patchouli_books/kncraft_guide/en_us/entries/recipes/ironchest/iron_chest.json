@@ -1,0 +1,25 @@
+{
+  "name": "Iron Chest",
+  "category": "patchouli:recipes/ironchest",
+  "icon": "ironchest:iron_chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ironchest:chests/copper_iron_chest",
+      "anchor": "catalog_ironchest_chests_copper_iron_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ironchest:chests/copper_iron_chest"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ironchest:chests/vanilla_iron_chest",
+      "anchor": "catalog_ironchest_chests_vanilla_iron_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ironchest:chests/vanilla_iron_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ironchest:iron_chest": 0
+  }
+}

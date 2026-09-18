@@ -1,0 +1,32 @@
+{
+  "name": "Blackstone Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:blackstone_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:blackstone_bridge",
+      "anchor": "catalog_mcwbridges_blackstone_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:blackstone_bridge"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:blackstone_bridge_stair_recycle",
+      "anchor": "catalog_mcwbridges_blackstone_bridge_stair_recycle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:blackstone_bridge_stair_recycle"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_blackstone_bridge",
+      "anchor": "catalog_mcwbridges_stonecutter_blackstone_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_blackstone_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:blackstone_bridge": 0
+  }
+}

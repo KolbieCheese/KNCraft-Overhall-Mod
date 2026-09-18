@@ -1,0 +1,25 @@
+{
+  "name": "Black Sandstone Wall",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:black_sandstone_wall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:black_sandstone_wall",
+      "anchor": "catalog_biomesoplenty_black_sandstone_wall",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:black_sandstone_wall"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "biomesoplenty:black_sandstone_wall_from_black_sandstone_stonecutting",
+      "anchor": "catalog_biomesoplenty_black_sandstone_wall_from_black_sandstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:black_sandstone_wall_from_black_sandstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:black_sandstone_wall": 0
+  }
+}

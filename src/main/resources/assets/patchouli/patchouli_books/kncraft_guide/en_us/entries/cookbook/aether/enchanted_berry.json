@@ -1,0 +1,22 @@
+{
+  "name": "Enchanted Berry",
+  "category": "patchouli:cookbook",
+  "icon": "aether:enchanted_berry",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_enchanted_berry_enchanting",
+      "input": "aether:blue_berry",
+      "output": "aether:enchanted_berry",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "aether:enchanted_berry_enchanting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:enchanted_berry": 0
+  }
+}

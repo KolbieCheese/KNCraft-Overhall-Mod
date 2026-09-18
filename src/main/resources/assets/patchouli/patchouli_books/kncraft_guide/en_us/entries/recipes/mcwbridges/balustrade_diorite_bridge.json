@@ -1,0 +1,25 @@
+{
+  "name": "Balustrade Diorite Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:balustrade_diorite_bridge",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:balustrade_diorite_bridge",
+      "anchor": "catalog_mcwbridges_balustrade_diorite_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:balustrade_diorite_bridge"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwbridges:stonecutter_balustrade_diorite_bridge",
+      "anchor": "catalog_mcwbridges_stonecutter_balustrade_diorite_bridge",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:stonecutter_balustrade_diorite_bridge"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:balustrade_diorite_bridge": 0
+  }
+}

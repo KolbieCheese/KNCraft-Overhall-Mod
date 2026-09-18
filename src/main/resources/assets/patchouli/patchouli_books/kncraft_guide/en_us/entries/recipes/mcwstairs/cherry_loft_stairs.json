@@ -1,0 +1,18 @@
+{
+  "name": "Cherry Loft Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:cherry_loft_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:cherry_loft_stairs",
+      "anchor": "catalog_mcwstairs_cherry_loft_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:cherry_loft_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:cherry_loft_stairs": 0
+  }
+}

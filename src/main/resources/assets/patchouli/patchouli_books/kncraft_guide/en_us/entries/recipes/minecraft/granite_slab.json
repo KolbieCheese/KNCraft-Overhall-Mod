@@ -1,0 +1,25 @@
+{
+  "name": "Granite Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:granite_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:granite_slab",
+      "anchor": "catalog_minecraft_granite_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:granite_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:granite_slab_from_granite_stonecutting",
+      "anchor": "catalog_minecraft_granite_slab_from_granite_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:granite_slab_from_granite_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:granite_slab": 0
+  }
+}

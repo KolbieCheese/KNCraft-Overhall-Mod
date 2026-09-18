@@ -1,0 +1,18 @@
+{
+  "name": "Antler Headdress",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:moose_headgear",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:moose_headgear",
+      "anchor": "catalog_alexsmobs_moose_headgear",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:moose_headgear"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:moose_headgear": 0
+  }
+}

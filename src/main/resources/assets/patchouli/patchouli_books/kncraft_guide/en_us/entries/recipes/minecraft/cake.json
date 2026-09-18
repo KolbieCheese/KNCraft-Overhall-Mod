@@ -1,0 +1,39 @@
+{
+  "name": "Cake",
+  "category": "patchouli:cookbook",
+  "icon": "minecraft:cake",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:moa_egg_cake",
+      "anchor": "catalog_aether_moa_egg_cake",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "aether:moa_egg_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_milk_bucket_cake",
+      "anchor": "catalog_aether_skyroot_milk_bucket_cake",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_milk_bucket_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_milk_bucket_moa_egg_cake",
+      "anchor": "catalog_aether_skyroot_milk_bucket_moa_egg_cake",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_milk_bucket_moa_egg_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cake",
+      "anchor": "catalog_minecraft_cake",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:cake"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cake": 0
+  }
+}

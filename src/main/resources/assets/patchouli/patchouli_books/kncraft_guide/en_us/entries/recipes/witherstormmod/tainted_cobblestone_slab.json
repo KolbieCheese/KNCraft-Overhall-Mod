@@ -1,0 +1,25 @@
+{
+  "name": "Tainted Cobblestone Slab",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_cobblestone_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:tainted_cobblestone_slab",
+      "anchor": "catalog_witherstormmod_tainted_cobblestone_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_cobblestone_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "witherstormmod:tainted_cobblestone_slab_stonecutting",
+      "anchor": "catalog_witherstormmod_tainted_cobblestone_slab_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_cobblestone_slab_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_cobblestone_slab": 0
+  }
+}

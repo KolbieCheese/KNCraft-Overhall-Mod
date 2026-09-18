@@ -1,0 +1,53 @@
+{
+  "name": "Mega Shamiyana",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:mega_shamiyana",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_shamiyana",
+      "anchor": "catalog_nomadictents_mega_shamiyana",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_shamiyana"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_shamiyana",
+      "anchor": "catalog_nomadictents_mega_shamiyana_layer1",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_shamiyana_layer1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_shamiyana",
+      "anchor": "catalog_nomadictents_mega_shamiyana_layer2",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_shamiyana_layer2"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_shamiyana",
+      "anchor": "catalog_nomadictents_mega_shamiyana_layer3",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_shamiyana_layer3"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_shamiyana",
+      "anchor": "catalog_nomadictents_mega_shamiyana_layer4",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_shamiyana_layer4"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:mega_shamiyana",
+      "anchor": "catalog_nomadictents_mega_shamiyana_layer5",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:mega_shamiyana_layer5"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:mega_shamiyana": 0
+  }
+}

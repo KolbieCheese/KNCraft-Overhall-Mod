@@ -1,0 +1,25 @@
+{
+  "name": "Rope and Nail",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:rope_and_nail",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:rope_and_nail",
+      "anchor": "catalog_comforts_rope_and_nail",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:rope_and_nail"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:rope_and_nail_shapeless",
+      "anchor": "catalog_comforts_rope_and_nail_shapeless",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:rope_and_nail_shapeless"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:rope_and_nail": 0
+  }
+}

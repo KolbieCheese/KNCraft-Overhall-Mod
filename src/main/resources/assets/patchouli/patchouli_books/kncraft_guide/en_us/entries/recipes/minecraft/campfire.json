@@ -1,0 +1,18 @@
+{
+  "name": "Campfire",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:campfire",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:campfire",
+      "anchor": "catalog_minecraft_campfire",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:campfire"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:campfire": 0
+  }
+}

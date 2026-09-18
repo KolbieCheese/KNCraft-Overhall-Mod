@@ -1,0 +1,18 @@
+{
+  "name": "Diamond Crossbeams",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:diamond_crossbeams",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:diamond_crossbeams",
+      "anchor": "catalog_nomadictents_diamond_crossbeams",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:diamond_crossbeams"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:diamond_crossbeams": 0
+  }
+}

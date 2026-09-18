@@ -1,0 +1,18 @@
+{
+  "name": "Red Candle",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:red_candle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_candle",
+      "anchor": "catalog_minecraft_red_candle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:red_candle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:red_candle": 0
+  }
+}

@@ -13,20 +13,23 @@ import net.minecraftforge.network.PacketDistributor;
 import net.minecraftforge.network.simple.SimpleChannel;
 
 public final class GuideNetwork {
-    public static final SimpleChannel CHANNEL = NetworkRegistry.newSimpleChannel(new ResourceLocation("kncraft", "guide"), () -> "1", "1"::equals, "1"::equals);
-    private static final Map<ServerPlayer, Long> LAST = new WeakHashMap<>();
-    public record Request() {}
+    public static final SimpleChannel CHANNEL = NetworkRegistry.newSimpleChannel(new ResourceLocation("kncraft", "guide"), () -> "2", "2"::equals, "2"::equals);
+    private static final Map<ServerPlayer, Budget> LAST = new WeakHashMap<>();
+    private record Budget(long tick, int count) {}
+    public record Request(String key) {}
     public record Values(CompoundTag data) {}
     public static void register() {
         CHANNEL.messageBuilder(Request.class, 0, NetworkDirection.PLAY_TO_SERVER)
-            .encoder((message, buffer) -> {}).decoder(buffer -> new Request())
+            .encoder((message, buffer) -> buffer.writeUtf(message.key(), 256)).decoder(buffer -> new Request(buffer.readUtf(256)))
             .consumerMainThread((message, context) -> {
                 var player = context.get().getSender();
-                if (player == null) return;
+                if (player == null || !GuideValues.KEYS.containsKey(message.key())) return;
                 long now = player.serverLevel().getGameTime();
-                if (now - LAST.getOrDefault(player, Long.MIN_VALUE / 2) < 40) return;
-                LAST.put(player, now);
-                CHANNEL.send(PacketDistributor.PLAYER.with(() -> player), new Values(GuideValues.snapshot(player)));
+                var budget = LAST.get(player);
+                if (budget == null || now < budget.tick() || now - budget.tick() >= 20) budget = new Budget(now, 0);
+                if (budget.count() >= 8) return;
+                LAST.put(player, new Budget(budget.tick(), budget.count() + 1));
+                CHANNEL.send(PacketDistributor.PLAYER.with(() -> player), new Values(GuideValues.snapshot(player, java.util.List.of(message.key()))));
             }).add();
         CHANNEL.messageBuilder(Values.class, 1, NetworkDirection.PLAY_TO_CLIENT)
             .encoder((message, buffer) -> buffer.writeNbt(message.data()))

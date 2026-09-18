@@ -1,0 +1,25 @@
+{
+  "name": "Shamiyana Wall Section",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:shamiyana_section",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:shamiyana_section",
+      "anchor": "catalog_nomadictents_shamiyana_section",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:shamiyana_section"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:shamiyana_section2",
+      "anchor": "catalog_nomadictents_shamiyana_section2",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:shamiyana_section2"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:shamiyana_section": 0
+  }
+}

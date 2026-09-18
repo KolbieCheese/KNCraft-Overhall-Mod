@@ -1,0 +1,18 @@
+{
+  "name": "Ladder Gun Hook",
+  "category": "patchouli:recipes/ropebridge",
+  "icon": "ropebridge:ladder_hook",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ropebridge:ladder_hook",
+      "anchor": "catalog_ropebridge_ladder_hook",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ropebridge:ladder_hook"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ropebridge:ladder_hook": 0
+  }
+}

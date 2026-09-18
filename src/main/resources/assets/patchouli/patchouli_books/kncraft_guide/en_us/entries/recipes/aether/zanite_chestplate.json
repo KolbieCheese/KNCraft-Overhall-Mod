@@ -1,0 +1,29 @@
+{
+  "name": "Zanite Chestplate",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:zanite_chestplate",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:zanite_chestplate",
+      "anchor": "catalog_aether_zanite_chestplate",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_chestplate"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_zanite_chestplate_repairing",
+      "input": "aether:zanite_chestplate",
+      "output": "aether:zanite_chestplate",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:zanite_chestplate_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:zanite_chestplate": 0
+  }
+}

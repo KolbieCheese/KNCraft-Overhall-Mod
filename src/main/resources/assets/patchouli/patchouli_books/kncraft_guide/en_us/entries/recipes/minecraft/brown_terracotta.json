@@ -1,0 +1,18 @@
+{
+  "name": "Brown Terracotta",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:brown_terracotta",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_terracotta",
+      "anchor": "catalog_minecraft_brown_terracotta",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:brown_terracotta"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:brown_terracotta": 0
+  }
+}

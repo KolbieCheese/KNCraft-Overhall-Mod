@@ -1,0 +1,25 @@
+{
+  "name": "Dispenser",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:dispenser",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dispenser",
+      "anchor": "catalog_minecraft_dispenser",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dispenser"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "terralith:dispenser_alt",
+      "anchor": "catalog_terralith_dispenser_alt",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "terralith:dispenser_alt"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:dispenser": 0
+  }
+}

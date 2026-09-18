@@ -1,0 +1,18 @@
+{
+  "name": "Acacia Bulk Stairs",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:acacia_bulk_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:acacia_bulk_stairs",
+      "anchor": "catalog_mcwstairs_acacia_bulk_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:acacia_bulk_stairs"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:acacia_bulk_stairs": 0
+  }
+}

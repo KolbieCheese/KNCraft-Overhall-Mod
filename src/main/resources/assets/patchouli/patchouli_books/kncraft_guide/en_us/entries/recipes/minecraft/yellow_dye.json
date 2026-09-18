@@ -1,0 +1,39 @@
+{
+  "name": "Yellow Dye",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:yellow_dye",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:yellow_dye_from_goldenrod",
+      "anchor": "catalog_biomesoplenty_yellow_dye_from_goldenrod",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:yellow_dye_from_goldenrod"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:df",
+      "anchor": "catalog_callfromthedepth__df",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:df"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:yellow_dye_from_dandelion",
+      "anchor": "catalog_minecraft_yellow_dye_from_dandelion",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:yellow_dye_from_dandelion"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:yellow_dye_from_sunflower",
+      "anchor": "catalog_minecraft_yellow_dye_from_sunflower",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:yellow_dye_from_sunflower"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:yellow_dye": 0
+  }
+}

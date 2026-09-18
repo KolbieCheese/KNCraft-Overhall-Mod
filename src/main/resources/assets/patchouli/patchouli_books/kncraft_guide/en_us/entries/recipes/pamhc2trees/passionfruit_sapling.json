@@ -1,0 +1,18 @@
+{
+  "name": "Passionfruit Sapling",
+  "category": "patchouli:recipes/pamhc2trees",
+  "icon": "pamhc2trees:passionfruit_sapling",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2trees:passionfruit_sapling",
+      "anchor": "catalog_pamhc2trees_passionfruit_sapling",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2trees:passionfruit_sapling"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2trees:passionfruit_sapling": 0
+  }
+}

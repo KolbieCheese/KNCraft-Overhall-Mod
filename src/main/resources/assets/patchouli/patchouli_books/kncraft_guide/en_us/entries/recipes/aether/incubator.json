@@ -1,0 +1,18 @@
+{
+  "name": "Incubator",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:incubator",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:incubator",
+      "anchor": "catalog_aether_incubator",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:incubator"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:incubator": 0
+  }
+}

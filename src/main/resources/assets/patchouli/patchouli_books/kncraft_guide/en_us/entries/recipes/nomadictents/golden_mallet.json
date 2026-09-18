@@ -1,0 +1,18 @@
+{
+  "name": "Golden Tent Mallet",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:golden_mallet",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "nomadictents:golden_mallet",
+      "anchor": "catalog_nomadictents_golden_mallet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "nomadictents:golden_mallet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:golden_mallet": 0
+  }
+}

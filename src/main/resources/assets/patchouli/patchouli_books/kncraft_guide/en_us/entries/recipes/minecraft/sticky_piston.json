@@ -1,0 +1,25 @@
+{
+  "name": "Sticky Piston",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:sticky_piston",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:swet_sticky_piston",
+      "anchor": "catalog_aether_swet_sticky_piston",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:swet_sticky_piston"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:sticky_piston",
+      "anchor": "catalog_minecraft_sticky_piston",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:sticky_piston"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:sticky_piston": 0
+  }
+}

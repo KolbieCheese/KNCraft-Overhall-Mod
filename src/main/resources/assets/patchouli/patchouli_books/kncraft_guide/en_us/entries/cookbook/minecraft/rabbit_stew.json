@@ -1,0 +1,41 @@
+{
+  "name": "Rabbit Stew",
+  "category": "patchouli:cookbook",
+  "icon": "minecraft:rabbit_stew",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:rabbit_stew_from_toadstool",
+      "anchor": "catalog_biomesoplenty_rabbit_stew_from_toadstool",
+      "text": "Cold Sweat: warms +0.2 base temperature for 90s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:rabbit_stew_from_toadstool"
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: +0.2 base temperature for 90 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "fallback": "Pack default: +0.2 base temperature for 90 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "reference": "food/minecraft:rabbit_stew",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:rabbit_stew_from_brown_mushroom",
+      "anchor": "catalog_minecraft_rabbit_stew_from_brown_mushroom",
+      "text": "Cold Sweat: warms +0.2 base temperature for 90s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:rabbit_stew_from_brown_mushroom"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:rabbit_stew_from_red_mushroom",
+      "anchor": "catalog_minecraft_rabbit_stew_from_red_mushroom",
+      "text": "Cold Sweat: warms +0.2 base temperature for 90s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:rabbit_stew_from_red_mushroom"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:rabbit_stew": 0
+  }
+}

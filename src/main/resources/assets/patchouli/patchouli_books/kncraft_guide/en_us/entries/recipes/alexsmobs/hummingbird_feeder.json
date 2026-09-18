@@ -1,0 +1,18 @@
+{
+  "name": "Hummingbird Feeder",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:hummingbird_feeder",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:hummingbird_feeder",
+      "anchor": "catalog_alexsmobs_hummingbird_feeder",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:hummingbird_feeder"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:hummingbird_feeder": 0
+  }
+}

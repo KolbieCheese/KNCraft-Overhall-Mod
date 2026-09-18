@@ -1,6 +1,6 @@
 {
   "name": "Caramelcupcakeitem",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:recipes/minecraft",
   "icon": "minecraft:wheat",
   "priority": false,
   "sortnum": 0,
@@ -11,6 +11,13 @@
       "body": "This Food Core recipe names an item that is absent from the installed version. It has been disabled. Choose another recipe from the Cook Book or JEI; no replacement ingredient or result is required.",
       "anchor": "kncraft_recipe_note",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wheat",
+      "anchor": "catalog_minecraft_wheat",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:wheat"
     }
   ],
   "extra_recipe_mappings": {}

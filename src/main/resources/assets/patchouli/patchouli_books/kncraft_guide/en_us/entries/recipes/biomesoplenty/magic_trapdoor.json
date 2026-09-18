@@ -1,0 +1,18 @@
+{
+  "name": "Magic Trapdoor",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:magic_trapdoor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:magic_trapdoor",
+      "anchor": "catalog_biomesoplenty_magic_trapdoor",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:magic_trapdoor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:magic_trapdoor": 0
+  }
+}

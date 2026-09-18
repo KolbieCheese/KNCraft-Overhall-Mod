@@ -1,0 +1,25 @@
+{
+  "name": "Advanced Magnet Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:advanced_magnet_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sophisticatedbackpacks:advanced_magnet_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_advanced_magnet_upgrade",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "sophisticatedbackpacks:advanced_magnet_upgrade"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sophisticatedbackpacks:advanced_magnet_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_advanced_magnet_upgrade_from_basic",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "sophisticatedbackpacks:advanced_magnet_upgrade_from_basic"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:advanced_magnet_upgrade": 0
+  }
+}

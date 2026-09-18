@@ -1,0 +1,18 @@
+{
+  "name": "Silent tree door",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:silenttreedoor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:std",
+      "anchor": "catalog_callfromthedepth__std",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:std"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:silenttreedoor": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Carrot On A Stick",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:carrot_on_a_stick",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:carrot_on_a_stick",
+      "anchor": "catalog_minecraft_carrot_on_a_stick",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:carrot_on_a_stick"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:carrot_on_a_stick": 0
+  }
+}

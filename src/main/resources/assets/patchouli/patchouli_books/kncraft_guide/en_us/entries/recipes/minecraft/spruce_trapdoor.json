@@ -1,0 +1,18 @@
+{
+  "name": "Spruce Trapdoor",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:spruce_trapdoor",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_trapdoor",
+      "anchor": "catalog_minecraft_spruce_trapdoor",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:spruce_trapdoor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:spruce_trapdoor": 0
+  }
+}

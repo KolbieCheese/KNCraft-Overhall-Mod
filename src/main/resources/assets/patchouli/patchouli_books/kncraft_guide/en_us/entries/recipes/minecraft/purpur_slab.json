@@ -1,0 +1,25 @@
+{
+  "name": "Purpur Slab",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:purpur_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purpur_slab",
+      "anchor": "catalog_minecraft_purpur_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:purpur_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:purpur_slab_from_purpur_block_stonecutting",
+      "anchor": "catalog_minecraft_purpur_slab_from_purpur_block_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:purpur_slab_from_purpur_block_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:purpur_slab": 0
+  }
+}

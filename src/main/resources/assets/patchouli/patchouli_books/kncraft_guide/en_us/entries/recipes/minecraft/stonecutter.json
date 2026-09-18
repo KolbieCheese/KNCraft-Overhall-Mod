@@ -1,0 +1,25 @@
+{
+  "name": "Stonecutter",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stonecutter",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:holystone_stonecutter",
+      "anchor": "catalog_aether_holystone_stonecutter",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:holystone_stonecutter"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stonecutter",
+      "anchor": "catalog_minecraft_stonecutter",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stonecutter"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stonecutter": 0
+  }
+}

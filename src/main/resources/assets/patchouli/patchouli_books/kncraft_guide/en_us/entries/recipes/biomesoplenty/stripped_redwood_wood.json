@@ -1,0 +1,18 @@
+{
+  "name": "Stripped Redwood Wood",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:stripped_redwood_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:stripped_redwood_wood",
+      "anchor": "catalog_biomesoplenty_stripped_redwood_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:stripped_redwood_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:stripped_redwood_wood": 0
+  }
+}

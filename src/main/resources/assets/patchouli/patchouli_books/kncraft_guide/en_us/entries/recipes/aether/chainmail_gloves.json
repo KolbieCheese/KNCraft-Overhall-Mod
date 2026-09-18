@@ -1,0 +1,22 @@
+{
+  "name": "Chainmail Gloves",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:chainmail_gloves",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_chainmail_gloves_repairing",
+      "input": "aether:chainmail_gloves",
+      "output": "aether:chainmail_gloves",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:chainmail_gloves_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:chainmail_gloves": 0
+  }
+}

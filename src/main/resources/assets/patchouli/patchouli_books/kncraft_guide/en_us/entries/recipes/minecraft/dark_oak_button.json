@@ -1,0 +1,18 @@
+{
+  "name": "Dark Oak Button",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:dark_oak_button",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_oak_button",
+      "anchor": "catalog_minecraft_dark_oak_button",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dark_oak_button"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:dark_oak_button": 0
+  }
+}

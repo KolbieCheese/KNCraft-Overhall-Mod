@@ -1,0 +1,18 @@
+{
+  "name": "Mangrove Boat",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mangrove_boat",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mangrove_boat",
+      "anchor": "catalog_minecraft_mangrove_boat",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mangrove_boat"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mangrove_boat": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Exposed Cut Copper Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:exposed_cut_copper_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:exposed_cut_copper_stairs",
+      "anchor": "catalog_minecraft_exposed_cut_copper_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:exposed_cut_copper_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:exposed_cut_copper_stairs_from_exposed_copper_stonecutting",
+      "anchor": "catalog_minecraft_exposed_cut_copper_stairs_from_exposed_copper_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:exposed_cut_copper_stairs_from_exposed_copper_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting",
+      "anchor": "catalog_minecraft_exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:exposed_cut_copper_stairs": 0
+  }
+}

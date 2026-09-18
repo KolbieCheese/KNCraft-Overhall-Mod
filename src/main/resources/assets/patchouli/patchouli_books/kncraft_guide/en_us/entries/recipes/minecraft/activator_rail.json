@@ -1,0 +1,18 @@
+{
+  "name": "Activator Rail",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:activator_rail",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:activator_rail",
+      "anchor": "catalog_minecraft_activator_rail",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:activator_rail"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:activator_rail": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Cartography Table",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cartography_table",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_cartography_table",
+      "anchor": "catalog_aether_skyroot_cartography_table",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_cartography_table"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cartography_table",
+      "anchor": "catalog_minecraft_cartography_table",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cartography_table"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cartography_table": 0
+  }
+}

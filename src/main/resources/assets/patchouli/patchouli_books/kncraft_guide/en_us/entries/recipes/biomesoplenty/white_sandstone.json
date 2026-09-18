@@ -1,0 +1,18 @@
+{
+  "name": "White Sandstone",
+  "category": "patchouli:recipes/biomesoplenty",
+  "icon": "biomesoplenty:white_sandstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "biomesoplenty:white_sandstone",
+      "anchor": "catalog_biomesoplenty_white_sandstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "biomesoplenty:white_sandstone"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "biomesoplenty:white_sandstone": 0
+  }
+}

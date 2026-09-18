@@ -1,0 +1,22 @@
+{
+  "name": "Blue Music Disc",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:music_disc_aether_tune",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_aether_tune_enchanting",
+      "input": "minecraft:music_disc_11",
+      "output": "aether:music_disc_aether_tune",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:aether_tune_enchanting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:music_disc_aether_tune": 0
+  }
+}

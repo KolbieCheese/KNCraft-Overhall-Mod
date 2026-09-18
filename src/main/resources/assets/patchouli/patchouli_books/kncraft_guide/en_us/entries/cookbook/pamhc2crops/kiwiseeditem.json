@@ -1,0 +1,18 @@
+{
+  "name": "Kiwi Seed",
+  "category": "patchouli:cookbook",
+  "icon": "pamhc2crops:kiwiseeditem",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:kiwiseeditem",
+      "anchor": "catalog_pamhc2crops_kiwiseeditem",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:kiwiseeditem"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "pamhc2crops:kiwiseeditem": 0
+  }
+}

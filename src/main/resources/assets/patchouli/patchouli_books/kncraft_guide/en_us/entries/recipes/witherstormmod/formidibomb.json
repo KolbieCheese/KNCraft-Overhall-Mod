@@ -1,6 +1,6 @@
 {
   "name": "Formidibomb",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/witherstormmod",
   "icon": "witherstormmod:formidibomb",
   "priority": false,
   "sortnum": 0,

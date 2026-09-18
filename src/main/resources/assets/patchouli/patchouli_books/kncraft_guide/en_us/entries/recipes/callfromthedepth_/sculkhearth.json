@@ -1,0 +1,18 @@
+{
+  "name": "Sculk heart",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:sculkhearth",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:sculkheartcraft",
+      "anchor": "catalog_callfromthedepth__sculkheartcraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:sculkheartcraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:sculkhearth": 0
+  }
+}

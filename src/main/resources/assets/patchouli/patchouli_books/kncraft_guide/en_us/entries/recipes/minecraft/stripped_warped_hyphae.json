@@ -1,0 +1,18 @@
+{
+  "name": "Stripped Warped Hyphae",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stripped_warped_hyphae",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stripped_warped_hyphae",
+      "anchor": "catalog_minecraft_stripped_warped_hyphae",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stripped_warped_hyphae"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stripped_warped_hyphae": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Pumpkin Pie",
+  "category": "patchouli:cookbook",
+  "icon": "minecraft:pumpkin_pie",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:moa_egg_pumpkin_pie",
+      "anchor": "catalog_aether_moa_egg_pumpkin_pie",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "aether:moa_egg_pumpkin_pie"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:pumpkin_pie",
+      "anchor": "catalog_minecraft_pumpkin_pie",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "minecraft:pumpkin_pie"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:pumpkin_pie": 0
+  }
+}

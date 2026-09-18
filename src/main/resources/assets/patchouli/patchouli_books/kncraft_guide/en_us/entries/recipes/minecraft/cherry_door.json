@@ -1,0 +1,18 @@
+{
+  "name": "Cherry Door",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cherry_door",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cherry_door",
+      "anchor": "catalog_minecraft_cherry_door",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cherry_door"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cherry_door": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Tarantula Hawk Wing",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:tarantula_hawk_wing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:tarantula_hawk_wing",
+      "anchor": "catalog_alexsmobs_tarantula_hawk_wing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:tarantula_hawk_wing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:tarantula_hawk_wing": 0
+  }
+}

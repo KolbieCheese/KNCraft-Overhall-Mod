@@ -1,0 +1,25 @@
+{
+  "name": "Holystone Stairs",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:holystone_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:holystone_stairs",
+      "anchor": "catalog_aether_holystone_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:holystone_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:holystone_stairs_from_holystone_stonecutting",
+      "anchor": "catalog_aether_holystone_stairs_from_holystone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:holystone_stairs_from_holystone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:holystone_stairs": 0
+  }
+}

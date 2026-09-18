@@ -1,0 +1,18 @@
+{
+  "name": "Firework Star",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:firework_star",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:firework_star",
+      "anchor": "catalog_minecraft_firework_star",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "minecraft:firework_star"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:firework_star": 0
+  }
+}

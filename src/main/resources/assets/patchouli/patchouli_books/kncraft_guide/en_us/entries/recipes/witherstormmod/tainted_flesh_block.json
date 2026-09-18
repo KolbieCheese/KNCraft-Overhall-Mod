@@ -1,0 +1,18 @@
+{
+  "name": "Tainted Flesh Block",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:tainted_flesh_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:tainted_flesh_block",
+      "anchor": "catalog_witherstormmod_tainted_flesh_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:tainted_flesh_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:tainted_flesh_block": 0
+  }
+}

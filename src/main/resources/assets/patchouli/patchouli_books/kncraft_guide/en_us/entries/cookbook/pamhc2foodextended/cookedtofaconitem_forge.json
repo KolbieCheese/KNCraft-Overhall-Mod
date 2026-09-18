@@ -20,6 +20,13 @@
       "input": "pamhc2foodextended:rawtofaconitem",
       "station": "minecraft:smoker",
       "output": "pamhc2foodextended:cookedtofaconitem"
+    },
+    {
+      "type": "patchouli:smoking",
+      "recipe": "pamhc2foodextended:cookedtofaconitem_smoker",
+      "anchor": "catalog_pamhc2foodextended_cookedtofaconitem_smoker",
+      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "kncraft_recipe": "pamhc2foodextended:cookedtofaconitem_smoker"
     }
   ],
   "extra_recipe_mappings": {

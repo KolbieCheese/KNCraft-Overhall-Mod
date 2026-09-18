@@ -1,0 +1,25 @@
+{
+  "name": "Chest",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_chest",
+      "anchor": "catalog_aether_skyroot_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_chest"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chest",
+      "anchor": "catalog_minecraft_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:chest": 0
+  }
+}

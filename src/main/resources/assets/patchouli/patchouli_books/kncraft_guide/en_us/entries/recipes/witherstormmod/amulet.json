@@ -1,6 +1,6 @@
 {
   "name": "Amulet",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/witherstormmod",
   "icon": "witherstormmod:amulet",
   "priority": false,
   "sortnum": 0,
@@ -10,6 +10,13 @@
       "recipe": "witherstormmod:amulet",
       "anchor": "lookup_recipe_witherstormmod_amulet",
       "text": "$(l:patchouli:recipes)Recipes$(/l) $(l:patchouli:chapters/wither#recipe_witherstormmod_amulet)Guide$(/l)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:type_tracking_amulet",
+      "anchor": "catalog_witherstormmod_type_tracking_amulet",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:type_tracking_amulet"
     }
   ],
   "extra_recipe_mappings": {}

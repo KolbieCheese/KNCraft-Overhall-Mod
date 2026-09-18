@@ -1,0 +1,18 @@
+{
+  "name": "Soul lamp",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:soullight",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:soullampcraft",
+      "anchor": "catalog_callfromthedepth__soullampcraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:soullampcraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:soullight": 0
+  }
+}

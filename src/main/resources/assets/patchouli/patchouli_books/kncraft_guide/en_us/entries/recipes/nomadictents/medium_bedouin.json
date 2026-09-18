@@ -1,0 +1,32 @@
+{
+  "name": "Medium Bedouin",
+  "category": "patchouli:recipes/nomadictents",
+  "icon": "nomadictents:medium_bedouin",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:medium_bedouin",
+      "anchor": "catalog_nomadictents_medium_bedouin",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:medium_bedouin"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:medium_bedouin",
+      "anchor": "catalog_nomadictents_medium_bedouin_layer1",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:medium_bedouin_layer1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "nomadictents:medium_bedouin",
+      "anchor": "catalog_nomadictents_medium_bedouin_layer2",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "nomadictents:medium_bedouin_layer2"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "nomadictents:medium_bedouin": 0
+  }
+}

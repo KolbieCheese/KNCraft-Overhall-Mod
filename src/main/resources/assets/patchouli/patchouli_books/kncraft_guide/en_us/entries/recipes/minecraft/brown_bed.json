@@ -1,0 +1,25 @@
+{
+  "name": "Brown Bed",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:brown_bed",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_bed",
+      "anchor": "catalog_minecraft_brown_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:brown_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_brown_bed",
+      "anchor": "catalog_minecraft_dye_brown_bed",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dye_brown_bed"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:brown_bed": 0
+  }
+}

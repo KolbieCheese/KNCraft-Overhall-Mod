@@ -1,0 +1,18 @@
+{
+  "name": "Grappling Squok",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:squid_grapple",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:squid_grapple",
+      "anchor": "catalog_alexsmobs_squid_grapple",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:squid_grapple"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:squid_grapple": 0
+  }
+}

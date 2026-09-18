@@ -1,0 +1,25 @@
+{
+  "name": "Gray Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_gray",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_gray",
+      "anchor": "catalog_comforts_hammock_gray",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_gray"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_gray",
+      "anchor": "catalog_comforts_hammock_to_gray",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_gray"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_gray": 0
+  }
+}

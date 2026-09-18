@@ -1,0 +1,25 @@
+{
+  "name": "Magenta Sleeping Bag",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:sleeping_bag_magenta",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_magenta",
+      "anchor": "catalog_comforts_sleeping_bag_magenta",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_magenta"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_to_magenta",
+      "anchor": "catalog_comforts_sleeping_bag_to_magenta",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:sleeping_bag_to_magenta"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:sleeping_bag_magenta": 0
+  }
+}

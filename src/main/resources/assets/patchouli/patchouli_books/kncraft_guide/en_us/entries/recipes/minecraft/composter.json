@@ -1,0 +1,18 @@
+{
+  "name": "Composter",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:composter",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:composter",
+      "anchor": "catalog_minecraft_composter",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:composter"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:composter": 0
+  }
+}

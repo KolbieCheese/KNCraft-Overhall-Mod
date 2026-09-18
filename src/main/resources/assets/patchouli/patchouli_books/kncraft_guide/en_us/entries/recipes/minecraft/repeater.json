@@ -1,0 +1,18 @@
+{
+  "name": "Repeater",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:repeater",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:repeater",
+      "anchor": "catalog_minecraft_repeater",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:repeater"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:repeater": 0
+  }
+}

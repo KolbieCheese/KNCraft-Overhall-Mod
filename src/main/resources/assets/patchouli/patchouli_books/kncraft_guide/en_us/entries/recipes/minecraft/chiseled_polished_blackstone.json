@@ -1,0 +1,32 @@
+{
+  "name": "Chiseled Polished Blackstone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:chiseled_polished_blackstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chiseled_polished_blackstone",
+      "anchor": "catalog_minecraft_chiseled_polished_blackstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:chiseled_polished_blackstone"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:chiseled_polished_blackstone_from_blackstone_stonecutting",
+      "anchor": "catalog_minecraft_chiseled_polished_blackstone_from_blackstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:chiseled_polished_blackstone_from_blackstone_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:chiseled_polished_blackstone_from_polished_blackstone_stonecutting",
+      "anchor": "catalog_minecraft_chiseled_polished_blackstone_from_polished_blackstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:chiseled_polished_blackstone_from_polished_blackstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:chiseled_polished_blackstone": 0
+  }
+}

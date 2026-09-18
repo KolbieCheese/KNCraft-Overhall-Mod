@@ -1,0 +1,18 @@
+{
+  "name": "Oak Planks",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:oak_planks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_planks",
+      "anchor": "catalog_minecraft_oak_planks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:oak_planks"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:oak_planks": 0
+  }
+}

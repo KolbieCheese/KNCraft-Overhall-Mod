@@ -1,0 +1,22 @@
+{
+  "name": "Enchanted Gravitite",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:enchanted_gravitite",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_enchanted_gravitite_enchanting",
+      "input": "aether:gravitite_ore",
+      "output": "aether:enchanted_gravitite",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:enchanted_gravitite_enchanting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:enchanted_gravitite": 0
+  }
+}

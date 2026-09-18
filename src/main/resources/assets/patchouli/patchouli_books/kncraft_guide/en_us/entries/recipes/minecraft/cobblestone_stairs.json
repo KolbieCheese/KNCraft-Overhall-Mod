@@ -1,0 +1,25 @@
+{
+  "name": "Cobblestone Stairs",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:cobblestone_stairs",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cobblestone_stairs",
+      "anchor": "catalog_minecraft_cobblestone_stairs",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cobblestone_stairs"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:cobblestone_stairs_from_cobblestone_stonecutting",
+      "anchor": "catalog_minecraft_cobblestone_stairs_from_cobblestone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:cobblestone_stairs_from_cobblestone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:cobblestone_stairs": 0
+  }
+}

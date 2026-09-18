@@ -1,0 +1,18 @@
+{
+  "name": "Obsidian Chest",
+  "category": "patchouli:recipes/ironchest",
+  "icon": "ironchest:obsidian_chest",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ironchest:chests/diamond_obsidian_chest",
+      "anchor": "catalog_ironchest_chests_diamond_obsidian_chest",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ironchest:chests/diamond_obsidian_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ironchest:obsidian_chest": 0
+  }
+}

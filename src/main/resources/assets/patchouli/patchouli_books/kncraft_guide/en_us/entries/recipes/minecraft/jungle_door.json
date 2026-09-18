@@ -1,0 +1,18 @@
+{
+  "name": "Jungle Door",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:jungle_door",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_door",
+      "anchor": "catalog_minecraft_jungle_door",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:jungle_door"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:jungle_door": 0
+  }
+}

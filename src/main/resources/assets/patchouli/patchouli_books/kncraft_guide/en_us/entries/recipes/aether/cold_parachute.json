@@ -1,0 +1,18 @@
+{
+  "name": "Cold Parachute",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:cold_parachute",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:cold_parachute",
+      "anchor": "catalog_aether_cold_parachute",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:cold_parachute"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:cold_parachute": 0
+  }
+}

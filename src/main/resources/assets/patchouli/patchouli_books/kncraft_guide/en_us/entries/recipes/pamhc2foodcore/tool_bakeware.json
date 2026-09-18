@@ -1,6 +1,6 @@
 {
   "name": "Bakeware",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/pamhc2foodcore",
   "icon": "pamhc2foodcore:bakewareitem",
   "priority": false,
   "sortnum": 0,

@@ -1,0 +1,7 @@
+{
+  "name": "Comforts",
+  "parent": "patchouli:recipes",
+  "description": "Comforts equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "comforts:hammock_black",
+  "sortnum": 0
+}

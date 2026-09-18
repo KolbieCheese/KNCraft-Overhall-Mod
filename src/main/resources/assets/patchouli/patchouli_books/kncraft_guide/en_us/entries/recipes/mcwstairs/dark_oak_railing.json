@@ -1,0 +1,18 @@
+{
+  "name": "Dark Oak Railing",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:dark_oak_railing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwstairs:dark_oak_railing",
+      "anchor": "catalog_mcwstairs_dark_oak_railing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:dark_oak_railing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:dark_oak_railing": 0
+  }
+}

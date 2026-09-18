@@ -1,0 +1,18 @@
+{
+  "name": "Mangrove Button",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:mangrove_button",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mangrove_button",
+      "anchor": "catalog_minecraft_mangrove_button",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:mangrove_button"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:mangrove_button": 0
+  }
+}

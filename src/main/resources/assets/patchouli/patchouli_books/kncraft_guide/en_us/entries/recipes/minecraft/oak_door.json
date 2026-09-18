@@ -1,0 +1,18 @@
+{
+  "name": "Oak Door",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:oak_door",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_door",
+      "anchor": "catalog_minecraft_oak_door",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:oak_door"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:oak_door": 0
+  }
+}

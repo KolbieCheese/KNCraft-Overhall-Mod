@@ -1,0 +1,25 @@
+{
+  "name": "Energy inferno powder",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:energyinfernopowder",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:crystallinfernocraft",
+      "anchor": "catalog_callfromthedepth__crystallinfernocraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:crystallinfernocraft"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:infernopowdercraft",
+      "anchor": "catalog_callfromthedepth__infernopowdercraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:infernopowdercraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:energyinfernopowder": 0
+  }
+}

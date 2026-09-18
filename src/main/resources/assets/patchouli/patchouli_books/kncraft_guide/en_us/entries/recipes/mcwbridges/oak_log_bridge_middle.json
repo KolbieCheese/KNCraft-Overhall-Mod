@@ -1,0 +1,25 @@
+{
+  "name": "Oak Bridge",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:oak_log_bridge_middle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:oak_log_bridge_middle",
+      "anchor": "catalog_mcwbridges_oak_log_bridge_middle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:oak_log_bridge_middle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:oak_log_bridge_stair_recycle",
+      "anchor": "catalog_mcwbridges_oak_log_bridge_stair_recycle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:oak_log_bridge_stair_recycle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:oak_log_bridge_middle": 0
+  }
+}

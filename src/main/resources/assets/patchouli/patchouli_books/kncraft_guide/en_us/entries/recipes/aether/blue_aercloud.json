@@ -1,0 +1,22 @@
+{
+  "name": "Blue Aercloud",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:blue_aercloud",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Freezer",
+      "anchor": "catalog_aether_blue_aercloud_freezing",
+      "input": "aether:cold_aercloud",
+      "output": "aether:blue_aercloud",
+      "station": "aether:freezer",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:blue_aercloud_freezing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:blue_aercloud": 0
+  }
+}

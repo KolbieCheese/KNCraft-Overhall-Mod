@@ -1,6 +1,6 @@
 {
   "name": "Pot",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/pamhc2foodcore",
   "icon": "pamhc2foodcore:potitem",
   "priority": false,
   "sortnum": 0,

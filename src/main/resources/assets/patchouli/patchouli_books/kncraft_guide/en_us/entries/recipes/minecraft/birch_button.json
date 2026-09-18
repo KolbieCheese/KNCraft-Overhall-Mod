@@ -1,0 +1,18 @@
+{
+  "name": "Birch Button",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:birch_button",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_button",
+      "anchor": "catalog_minecraft_birch_button",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:birch_button"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:birch_button": 0
+  }
+}

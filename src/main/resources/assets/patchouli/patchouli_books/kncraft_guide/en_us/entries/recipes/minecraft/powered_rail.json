@@ -1,0 +1,18 @@
+{
+  "name": "Powered Rail",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:powered_rail",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:powered_rail",
+      "anchor": "catalog_minecraft_powered_rail",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:powered_rail"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:powered_rail": 0
+  }
+}

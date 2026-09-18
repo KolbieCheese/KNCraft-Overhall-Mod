@@ -1,0 +1,22 @@
+{
+  "name": "Super Music Disc",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:music_disc_high",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Freezer",
+      "anchor": "catalog_aether_high_freezing",
+      "input": "aether:music_disc_chinchilla",
+      "output": "aether:music_disc_high",
+      "station": "aether:freezer",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:high_freezing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:music_disc_high": 0
+  }
+}

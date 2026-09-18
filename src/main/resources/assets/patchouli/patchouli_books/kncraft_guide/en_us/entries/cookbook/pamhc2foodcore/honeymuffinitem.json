@@ -1,6 +1,6 @@
 {
   "name": "Honey Muffin",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:recipes/minecraft",
   "icon": "minecraft:wheat",
   "priority": false,
   "sortnum": 0,

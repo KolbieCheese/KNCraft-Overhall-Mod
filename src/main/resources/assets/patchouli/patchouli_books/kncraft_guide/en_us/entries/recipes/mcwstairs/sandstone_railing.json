@@ -1,0 +1,18 @@
+{
+  "name": "Sandstone Railing",
+  "category": "patchouli:recipes/mcwstairs",
+  "icon": "mcwstairs:sandstone_railing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "mcwstairs:sandstone_railing",
+      "anchor": "catalog_mcwstairs_sandstone_railing",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwstairs:sandstone_railing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwstairs:sandstone_railing": 0
+  }
+}

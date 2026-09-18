@@ -1,0 +1,29 @@
+{
+  "name": "Gravitite Leggings",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:gravitite_leggings",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:gravitite_leggings",
+      "anchor": "catalog_aether_gravitite_leggings",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_leggings"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_gravitite_leggings_repairing",
+      "input": "aether:gravitite_leggings",
+      "output": "aether:gravitite_leggings",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_leggings_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:gravitite_leggings": 0
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "Minecart Insulation",
-  "category": "patchouli:recipes",
+  "category": "patchouli:recipes/cold_sweat",
   "icon": "cold_sweat:minecart_insulation",
   "priority": false,
   "sortnum": 0,

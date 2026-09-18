@@ -1,0 +1,25 @@
+{
+  "name": "Paper",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:paper",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:paper",
+      "anchor": "catalog_minecraft_paper",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:paper"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pamhc2crops:paper_x2_paper_plants",
+      "anchor": "catalog_pamhc2crops_paper_x2_paper_plants",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "pamhc2crops:paper_x2_paper_plants"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:paper": 0
+  }
+}

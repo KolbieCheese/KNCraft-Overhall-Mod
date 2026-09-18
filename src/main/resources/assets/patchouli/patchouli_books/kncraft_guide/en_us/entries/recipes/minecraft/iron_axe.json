@@ -1,0 +1,29 @@
+{
+  "name": "Iron Axe",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:iron_axe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_iron_axe_repairing",
+      "input": "minecraft:iron_axe",
+      "output": "minecraft:iron_axe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:iron_axe_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_axe",
+      "anchor": "catalog_minecraft_iron_axe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:iron_axe"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:iron_axe": 0
+  }
+}

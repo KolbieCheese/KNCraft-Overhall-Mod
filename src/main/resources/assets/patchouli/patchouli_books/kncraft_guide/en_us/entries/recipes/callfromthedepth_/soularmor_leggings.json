@@ -1,0 +1,18 @@
+{
+  "name": "Soul leggins",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:soularmor_leggings",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:smithing",
+      "recipe": "callfromthedepth_:soullegginscraft",
+      "anchor": "catalog_callfromthedepth__soullegginscraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:soullegginscraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:soularmor_leggings": 0
+  }
+}

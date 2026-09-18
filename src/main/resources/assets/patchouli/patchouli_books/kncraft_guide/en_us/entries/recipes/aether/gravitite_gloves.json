@@ -1,0 +1,29 @@
+{
+  "name": "Gravitite Gloves",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:gravitite_gloves",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:gravitite_gloves",
+      "anchor": "catalog_aether_gravitite_gloves",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_gloves"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_gravitite_gloves_repairing",
+      "input": "aether:gravitite_gloves",
+      "output": "aether:gravitite_gloves",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:gravitite_gloves_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:gravitite_gloves": 0
+  }
+}

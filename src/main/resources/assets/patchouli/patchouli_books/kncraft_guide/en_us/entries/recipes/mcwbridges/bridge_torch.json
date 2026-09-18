@@ -1,0 +1,18 @@
+{
+  "name": "Bridge Torch",
+  "category": "patchouli:recipes/mcwbridges",
+  "icon": "mcwbridges:bridge_torch",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mcwbridges:bridge_torch",
+      "anchor": "catalog_mcwbridges_bridge_torch",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "mcwbridges:bridge_torch"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "mcwbridges:bridge_torch": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Lime Hammock Cloth",
+  "category": "patchouli:recipes/comforts",
+  "icon": "comforts:hammock_lime",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_lime",
+      "anchor": "catalog_comforts_hammock_lime",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_lime"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_to_lime",
+      "anchor": "catalog_comforts_hammock_to_lime",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "comforts:hammock_to_lime"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "comforts:hammock_lime": 0
+  }
+}

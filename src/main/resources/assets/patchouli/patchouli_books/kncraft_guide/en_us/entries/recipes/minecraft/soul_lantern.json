@@ -1,0 +1,18 @@
+{
+  "name": "Soul Lantern",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:soul_lantern",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:soul_lantern",
+      "anchor": "catalog_minecraft_soul_lantern",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:soul_lantern"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:soul_lantern": 0
+  }
+}

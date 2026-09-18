@@ -1,0 +1,18 @@
+{
+  "name": "Steam Locomotive",
+  "category": "patchouli:recipes/betterminecarts",
+  "icon": "betterminecarts:steam_locomotive",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "betterminecarts:steam_locomotive",
+      "anchor": "catalog_betterminecarts_steam_locomotive",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "betterminecarts:steam_locomotive"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "betterminecarts:steam_locomotive": 0
+  }
+}

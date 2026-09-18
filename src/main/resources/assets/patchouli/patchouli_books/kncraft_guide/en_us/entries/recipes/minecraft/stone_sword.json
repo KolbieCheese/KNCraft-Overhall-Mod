@@ -1,0 +1,29 @@
+{
+  "name": "Stone Sword",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:stone_sword",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_stone_sword_repairing",
+      "input": "minecraft:stone_sword",
+      "output": "minecraft:stone_sword",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:stone_sword_repairing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_sword",
+      "anchor": "catalog_minecraft_stone_sword",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:stone_sword"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:stone_sword": 0
+  }
+}

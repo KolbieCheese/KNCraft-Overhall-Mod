@@ -1,0 +1,18 @@
+{
+  "name": "Spectral Arrow",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:spectral_arrow",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spectral_arrow",
+      "anchor": "catalog_minecraft_spectral_arrow",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:spectral_arrow"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:spectral_arrow": 0
+  }
+}

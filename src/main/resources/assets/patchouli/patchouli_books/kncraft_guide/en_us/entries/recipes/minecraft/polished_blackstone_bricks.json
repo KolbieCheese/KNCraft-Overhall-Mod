@@ -1,0 +1,32 @@
+{
+  "name": "Polished Blackstone Bricks",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:polished_blackstone_bricks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_blackstone_bricks",
+      "anchor": "catalog_minecraft_polished_blackstone_bricks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_blackstone_bricks_from_blackstone_stonecutting",
+      "anchor": "catalog_minecraft_polished_blackstone_bricks_from_blackstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_blackstone_bricks_from_blackstone_stonecutting"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:polished_blackstone_bricks_from_polished_blackstone_stonecutting",
+      "anchor": "catalog_minecraft_polished_blackstone_bricks_from_polished_blackstone_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:polished_blackstone_bricks_from_polished_blackstone_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:polished_blackstone_bricks": 0
+  }
+}

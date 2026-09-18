@@ -1,0 +1,18 @@
+{
+  "name": "Firework Bundle",
+  "category": "patchouli:recipes/witherstormmod",
+  "icon": "witherstormmod:firework_bundle",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "witherstormmod:firework_bundle",
+      "anchor": "catalog_witherstormmod_firework_bundle",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "witherstormmod:firework_bundle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "witherstormmod:firework_bundle": 0
+  }
+}

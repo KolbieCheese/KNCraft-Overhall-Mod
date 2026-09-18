@@ -1,0 +1,18 @@
+{
+  "name": "Heated stone bricks wall",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:heatdestonebrickswall",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:heatedstonebrickswallcraft",
+      "anchor": "catalog_callfromthedepth__heatedstonebrickswallcraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:heatedstonebrickswallcraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:heatdestonebrickswall": 0
+  }
+}

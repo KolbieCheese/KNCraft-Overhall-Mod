@@ -1,0 +1,18 @@
+{
+  "name": "Diamond to Crystal Chest Upgrade",
+  "category": "patchouli:recipes/ironchest",
+  "icon": "ironchest:diamond_to_crystal_chest_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ironchest:upgrades/diamond_to_crystal_chest_upgrade",
+      "anchor": "catalog_ironchest_upgrades_diamond_to_crystal_chest_upgrade",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "ironchest:upgrades/diamond_to_crystal_chest_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "ironchest:diamond_to_crystal_chest_upgrade": 0
+  }
+}

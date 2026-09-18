@@ -1,0 +1,25 @@
+{
+  "name": "Slime Block",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:slime_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:swet_slime_block",
+      "anchor": "catalog_aether_swet_slime_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:swet_slime_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:slime_block",
+      "anchor": "catalog_minecraft_slime_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:slime_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:slime_block": 0
+  }
+}

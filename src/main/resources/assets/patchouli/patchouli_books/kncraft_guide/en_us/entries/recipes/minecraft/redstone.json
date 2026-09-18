@@ -1,0 +1,46 @@
+{
+  "name": "Redstone",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:redstone",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone",
+      "anchor": "catalog_minecraft_redstone",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:redstone"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:redstone_from_blasting_deepslate_redstone_ore",
+      "anchor": "catalog_minecraft_redstone_from_blasting_deepslate_redstone_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:redstone_from_blasting_deepslate_redstone_ore"
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "minecraft:redstone_from_blasting_redstone_ore",
+      "anchor": "catalog_minecraft_redstone_from_blasting_redstone_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:redstone_from_blasting_redstone_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:redstone_from_smelting_deepslate_redstone_ore",
+      "anchor": "catalog_minecraft_redstone_from_smelting_deepslate_redstone_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:redstone_from_smelting_deepslate_redstone_ore"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:redstone_from_smelting_redstone_ore",
+      "anchor": "catalog_minecraft_redstone_from_smelting_redstone_ore",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:redstone_from_smelting_redstone_ore"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:redstone": 0
+  }
+}

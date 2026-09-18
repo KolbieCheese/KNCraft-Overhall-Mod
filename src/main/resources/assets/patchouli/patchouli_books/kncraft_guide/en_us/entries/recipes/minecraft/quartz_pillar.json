@@ -1,0 +1,25 @@
+{
+  "name": "Quartz Pillar",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:quartz_pillar",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:quartz_pillar",
+      "anchor": "catalog_minecraft_quartz_pillar",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:quartz_pillar"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:quartz_pillar_from_quartz_block_stonecutting",
+      "anchor": "catalog_minecraft_quartz_pillar_from_quartz_block_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:quartz_pillar_from_quartz_block_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:quartz_pillar": 0
+  }
+}

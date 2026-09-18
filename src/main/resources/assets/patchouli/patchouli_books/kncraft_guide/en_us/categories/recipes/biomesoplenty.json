@@ -1,0 +1,7 @@
+{
+  "name": "Biomes O Plenty",
+  "parent": "patchouli:recipes",
+  "description": "Biomes O Plenty equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "icon": "biomesoplenty:black_sandstone",
+  "sortnum": 0
+}

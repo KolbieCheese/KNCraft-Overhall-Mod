@@ -1,0 +1,18 @@
+{
+  "name": "Dark Oak Wood",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:dark_oak_wood",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_oak_wood",
+      "anchor": "catalog_minecraft_dark_oak_wood",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:dark_oak_wood"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:dark_oak_wood": 0
+  }
+}

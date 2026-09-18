@@ -1,0 +1,18 @@
+{
+  "name": "Tnt Minecart",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:tnt_minecart",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:tnt_minecart",
+      "anchor": "catalog_minecraft_tnt_minecart",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:tnt_minecart"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:tnt_minecart": 0
+  }
+}

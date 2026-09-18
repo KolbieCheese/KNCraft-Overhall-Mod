@@ -1,0 +1,18 @@
+{
+  "name": "Acacia Planks",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:acacia_planks",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:acacia_planks",
+      "anchor": "catalog_minecraft_acacia_planks",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:acacia_planks"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:acacia_planks": 0
+  }
+}

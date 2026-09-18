@@ -113,7 +113,9 @@ final class ReferenceChecks {
             foods.removeAll(tea); foods.put(tea, FoodData.fromToml(List.of("pamhc2crops:hotteaitem", .35, "{}", 200, 1)));
             insulation.removeAll(cotton); insulation.put(cotton, InsulatorData.fromToml(List.of("pamhc2crops:cottonitem", 3.0, 2.0, "static", "", true), Insulation.Slot.ITEM));
             var values = GuideValues.snapshot(p);
-            check(values.getAllKeys().size() == 26, "Incomplete guide snapshot");
+            check(values.getAllKeys().size() == GuideValues.KEYS.size(), "Incomplete guide snapshot");
+            var selected = GuideValues.snapshot(p, List.of("food/pamhc2crops:hotteaitem", "food/invalid:unknown"));
+            check(selected.getAllKeys().equals(java.util.Set.of("food/pamhc2crops:hotteaitem")), "Guide query leaked unrelated values or accepted an unknown key");
             check(values.getString("food/pamhc2crops:hotteaitem").contains("+0.350 base temperature; 10.0 seconds"), "Guide uses a stale food default");
             check(values.getString("item/pamhc2crops:cottonitem").contains("3.00 cold / 2.00 heat"), "Guide uses a stale material default");
             var bytes = new FriendlyByteBuf(io.netty.buffer.Unpooled.buffer());

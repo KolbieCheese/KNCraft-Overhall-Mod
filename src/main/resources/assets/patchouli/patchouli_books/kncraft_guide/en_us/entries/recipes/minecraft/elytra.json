@@ -1,0 +1,18 @@
+{
+  "name": "Elytra",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:elytra",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "elytra_crafting_forge:elytracrafting",
+      "anchor": "catalog_elytra_crafting_forge_elytracrafting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "elytra_crafting_forge:elytracrafting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:elytra": 0
+  }
+}

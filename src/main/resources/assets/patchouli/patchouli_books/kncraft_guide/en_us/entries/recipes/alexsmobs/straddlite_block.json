@@ -1,0 +1,18 @@
+{
+  "name": "Block of Straddlite",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:straddlite_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:straddlite_block",
+      "anchor": "catalog_alexsmobs_straddlite_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:straddlite_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:straddlite_block": 0
+  }
+}

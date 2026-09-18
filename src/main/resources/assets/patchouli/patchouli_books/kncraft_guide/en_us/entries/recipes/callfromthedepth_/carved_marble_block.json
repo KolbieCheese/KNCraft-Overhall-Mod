@@ -1,0 +1,18 @@
+{
+  "name": "Carved marble block",
+  "category": "patchouli:recipes/callfromthedepth_",
+  "icon": "callfromthedepth_:carved_marble_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "callfromthedepth_:carved_marbleecraft",
+      "anchor": "catalog_callfromthedepth__carved_marbleecraft",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "callfromthedepth_:carved_marbleecraft"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "callfromthedepth_:carved_marble_block": 0
+  }
+}

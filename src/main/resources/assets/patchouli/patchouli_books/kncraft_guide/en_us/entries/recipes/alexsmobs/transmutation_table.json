@@ -1,0 +1,18 @@
+{
+  "name": "Transmutation Table",
+  "category": "patchouli:recipes/alexsmobs",
+  "icon": "alexsmobs:transmutation_table",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alexsmobs:transmutation_table",
+      "anchor": "catalog_alexsmobs_transmutation_table",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "alexsmobs:transmutation_table"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "alexsmobs:transmutation_table": 0
+  }
+}

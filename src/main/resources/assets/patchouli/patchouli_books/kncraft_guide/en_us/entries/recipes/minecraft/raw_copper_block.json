@@ -1,0 +1,18 @@
+{
+  "name": "Raw Copper Block",
+  "category": "patchouli:recipes/minecraft",
+  "icon": "minecraft:raw_copper_block",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:raw_copper_block",
+      "anchor": "catalog_minecraft_raw_copper_block",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "minecraft:raw_copper_block"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "minecraft:raw_copper_block": 0
+  }
+}

@@ -13,11 +13,14 @@ class GuideSnapshotCacheTest {
         assertEquals("server override", cache.text("food", "default", 2, true));
         assertTrue(cache.text("food", "default", 16_000_000_001L, true).contains("awaiting server"));
     }
-    @Test void reloadReplacesRemovedDefinitions() {
+    @Test void partialRepliesKeepOtherPagesButDoNotRefreshTheirExpiry() {
         var cache = new GuideSnapshotCache(); cache.accept(Map.of("food", "old"), 1);
-        cache.accept(Map.of("other", "new"), 2);
-        assertTrue(cache.text("food", "default", 3, true).contains("awaiting server"));
-        assertEquals("new", cache.text("other", "default", 3, true));
+        cache.accept(Map.of("other", "new"), 10_000_000_000L);
+        assertEquals("old", cache.text("food", "default", 10_000_000_001L, true));
+        assertTrue(cache.text("food", "default", 16_000_000_001L, true).contains("awaiting server"));
+        assertEquals("new", cache.text("other", "default", 16_000_000_001L, true));
+        cache.accept(Map.of("food", "Server: no matching effect"), 16_000_000_002L);
+        assertEquals("Server: no matching effect", cache.text("food", "default", 16_000_000_003L, true));
     }
     @Test void disconnectNeverReusesAnotherServersValues() {
         var cache = new GuideSnapshotCache(); cache.accept(Map.of("food", "first server"), 1);

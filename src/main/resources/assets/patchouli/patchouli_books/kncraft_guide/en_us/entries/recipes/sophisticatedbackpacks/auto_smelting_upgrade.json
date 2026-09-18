@@ -1,0 +1,18 @@
+{
+  "name": "Auto-smelting Upgrade",
+  "category": "patchouli:recipes/sophisticatedbackpacks",
+  "icon": "sophisticatedbackpacks:auto_smelting_upgrade",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sophisticatedbackpacks:auto_smelting_upgrade",
+      "anchor": "catalog_sophisticatedbackpacks_auto_smelting_upgrade",
+      "text": "This recipe uses a special crafting or upgrade operation. Hover this item and press $(k:key.jei.showRecipe) for its current ingredients and instructions. Existing item data follows the original mod rules.",
+      "kncraft_recipe": "sophisticatedbackpacks:auto_smelting_upgrade"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "sophisticatedbackpacks:auto_smelting_upgrade": 0
+  }
+}

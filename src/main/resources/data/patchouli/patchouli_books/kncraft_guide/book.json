@@ -1,7 +1,7 @@
 {
   "name": "KNCraft Guide Book",
   "landing_text": "$(l:patchouli:chapters/intro#welcome)Begin reading$(/l)$(br)$(br)Survival, travel and exploration on KNCraft.$(br)$(br)Choose a chapter from the Entry Index. Turn pages for the full chapter, or use its opening shortcuts.",
-  "version": 14,
+  "version": 15,
   "subtitle": "KNCraft Guide Book",
   "model": "patchouli:book_cyan",
   "book_texture": "kncraft:textures/guide/book_teal.png",

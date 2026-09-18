@@ -1,0 +1,29 @@
+{
+  "name": "Skyroot Pickaxe",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:skyroot_pickaxe",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:skyroot_pickaxe",
+      "anchor": "catalog_aether_skyroot_pickaxe",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_pickaxe"
+    },
+    {
+      "type": "patchouli:kn_cooking",
+      "heading": "Aether Altar",
+      "anchor": "catalog_aether_skyroot_pickaxe_repairing",
+      "input": "aether:skyroot_pickaxe",
+      "output": "aether:skyroot_pickaxe",
+      "station": "aether:altar",
+      "body": "Process the shown ingredient with normal machine fuel. Hover the result and use the JEI recipe key for current time, quantity and accepted alternatives.",
+      "navigation": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:skyroot_pickaxe_repairing"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:skyroot_pickaxe": 0
+  }
+}

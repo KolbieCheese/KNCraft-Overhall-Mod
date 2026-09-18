@@ -1,0 +1,25 @@
+{
+  "name": "Aerogel Slab",
+  "category": "patchouli:recipes/aether",
+  "icon": "aether:aerogel_slab",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "aether:aerogel_slab",
+      "anchor": "catalog_aether_aerogel_slab",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:aerogel_slab"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "aether:aerogel_slab_from_aerogel_stonecutting",
+      "anchor": "catalog_aether_aerogel_slab_from_aerogel_stonecutting",
+      "text": "$(l:patchouli:recipes)Index$(/l)",
+      "kncraft_recipe": "aether:aerogel_slab_from_aerogel_stonecutting"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "aether:aerogel_slab": 0
+  }
+}
