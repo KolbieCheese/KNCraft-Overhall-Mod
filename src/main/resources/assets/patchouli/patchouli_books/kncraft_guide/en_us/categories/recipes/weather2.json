@@ -1,7 +1,7 @@
 {
   "name": "Weather2",
   "parent": "patchouli:recipes",
-  "description": "Weather2 equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "description": "Weather2 equipment, materials and crafting. Food and drinks are in Cook Book.$(br2)Type an item name to search this list. Backspace clears your search.",
   "icon": "weather2:anemometer",
   "sortnum": 0
 }

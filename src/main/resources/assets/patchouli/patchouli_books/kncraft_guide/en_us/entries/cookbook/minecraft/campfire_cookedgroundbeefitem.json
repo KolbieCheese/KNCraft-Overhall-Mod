@@ -1,6 +1,6 @@
 {
   "name": "Cooked Ground Beef",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/neutral",
   "icon": "pamhc2foodcore:cookedgroundbeefitem",
   "priority": false,
   "sortnum": 0,
@@ -8,7 +8,7 @@
     {
       "type": "patchouli:kn_cooking",
       "heading": "Cooked Ground Beef",
-      "body": "Campfire. Cook for 5 seconds. Makes 1.",
+      "body": "Cold Sweat: no temperature effect (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_minecraft_campfire_cookedgroundbeefitem",
       "input": "pamhc2foodcore:groundbeefitem",
@@ -16,15 +16,24 @@
       "output": "pamhc2foodcore:cookedgroundbeefitem"
     },
     {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "fallback": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "reference": "food/pamhc2foodcore:cookedgroundbeefitem",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
+    },
+    {
       "type": "patchouli:smelting",
       "recipe": "minecraft:smelting_cookedgroundbeefitem",
       "anchor": "lookup_recipe_minecraft_smelting_cookedgroundbeefitem",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)"
     },
     {
       "type": "patchouli:kn_cooking",
       "heading": "Cooked Ground Beef",
-      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "body": "Cold Sweat: no temperature effect (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_minecraft_smoking_cookedgroundbeefitem",
       "input": "pamhc2foodcore:groundbeefitem",
@@ -35,14 +44,14 @@
       "type": "patchouli:campfire",
       "recipe": "minecraft:campfire_cookedgroundbeefitem",
       "anchor": "catalog_minecraft_campfire_cookedgroundbeefitem",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "minecraft:campfire_cookedgroundbeefitem"
     },
     {
       "type": "patchouli:smoking",
       "recipe": "minecraft:smoking_cookedgroundbeefitem",
       "anchor": "catalog_minecraft_smoking_cookedgroundbeefitem",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "minecraft:smoking_cookedgroundbeefitem"
     }
   ],

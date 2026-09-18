@@ -1,7 +1,8 @@
 # Installation, migration and rollback
 
-This candidate has not passed physical-client acceptance. Test a copy first. Do not put any
-`ISOLATED-TESTS` artifact on a play server. No live installation was changed during this work.
+Validation scope and representative client checks are recorded in `Guide-Recipe-Validation.md`.
+Do not put any `ISOLATED-TESTS` artifact on a play server. Client verification uses a separate
+local test world; existing play worlds and the live multiplayer server are not test fixtures.
 
 ## Exact replacement
 
@@ -51,12 +52,22 @@ unrecognized content edits so they can first be ported to a resource-pack overri
 cookbook entry, artwork or player book is deleted. Existing guide textures can remain installed.
 The new book recipe is one book plus one paper. The old external chapters remain for rollback.
 
-### Recipe and thermal-food update (1.0.6)
+### Recipe and thermal-food update (1.0.7)
 
 An already migrated guide needs only the matching new JAR and a complete restart.
-Its resource-backed declaration advances to book version 15 even if its title was
+Its resource-backed declaration advances to book version 16 even if its title was
 already renamed. Recipes now contains mod subcategories; all food/drink recipes
 belong to Cook Book. Existing entry IDs and carried books remain valid.
+
+Cook Book keeps its original top-level identity and gains Warm, Cold and Neutral Food
+subcategories. Categories reflect pack defaults; every food page shows live server
+effects, including native overrides or disabled integrations. The 278 thermal defaults
+use simple, prepared and elaborate recipe tiers. Prepared adds 0.05 magnitude/15 seconds;
+elaborate adds 0.10/30 seconds, capped at 120 seconds. The original nine configurable
+foods remain simple and unchanged. Other explicit food rows still override catalog values.
+Neutral food remains neutral regardless of recipe complexity and does not clear an active
+thermal meal. Tiers are generated from the audited recipes at build authoring time, not
+recomputed per server tick or item consumption. See `Thermal-Food-Tiers.md` for the policy.
 
 `cohesion.expandedThermalFoods` defaults to true in `kncraft-common.toml` and adds the
 curated food catalog without replacing the existing `foods` list. An explicit row
@@ -64,7 +75,15 @@ for an added item overrides that item's new default. `expandedThermalFoodExclusi
 removes selected item IDs from the expanded catalog. `thermalMeals=false` disables
 all managed thermal meals; `expandedThermalFoods=false` retains only the original
 administrator-owned `foods` rows. Cold Sweat's own definitions retain precedence.
-Install 1.0.6 on both sides: the guide's smaller per-page network protocol has changed.
+Install 1.0.7 on both sides: the guide's smaller per-page network protocol has changed.
+
+Versions through 1.0.6 incorrectly assumed Patchouli 85 honors `use_resource_pack`
+for declarations in `patchouli_books/`. It still selected the external content loader,
+so an updated title/version could appear above stale recipes. Version 1.0.7 corrects
+the loader only for `patchouli:kncraft_guide` when that flag is true. Existing loose
+pages remain untouched for rollback. Already migrated profiles need no additional
+migration command, just the matching JAR and a full restart. Other external books
+and KNCraft declarations with the flag false retain their original loading behavior.
 
 ## Config and parity first
 

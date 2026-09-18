@@ -3,1668 +3,3614 @@
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "alexsmobs:cooked_catfish",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "alexsmobs:cooked_kangaroo_meat": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "alexsmobs:cooked_kangaroo_meat",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "alexsmobs:cooked_lobster_tail": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "alexsmobs:cooked_lobster_tail",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "alexsmobs:cooked_moose_ribs": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "alexsmobs:cooked_moose_ribs",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "alexsmobs:mosquito_repellent_stew": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "alexsmobs:mosquito_repellent_stew",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "callfromthedepth_:magmamushroomstew": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "callfromthedepth_:magmamushroomstewcraft",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "minecraft:baked_potato": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "minecraft:baked_potato",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "minecraft:beetroot_soup": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "minecraft:beetroot_soup",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "minecraft:cooked_beef": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "minecraft:cooked_beef",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "minecraft:cooked_chicken": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "minecraft:cooked_chicken",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "minecraft:cooked_cod": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "minecraft:cooked_cod",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "minecraft:cooked_mutton": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "minecraft:cooked_mutton",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "minecraft:cooked_porkchop": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "minecraft:cooked_porkchop",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "minecraft:cooked_rabbit": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "minecraft:cooked_rabbit",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "minecraft:cooked_salmon": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "minecraft:cooked_salmon",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "minecraft:mushroom_stew": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "minecraft:mushroom_stew",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "minecraft:rabbit_stew": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "biomesoplenty:rabbit_stew_from_toadstool",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "minecraft:suspicious_stew": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 0,
+    "recipe": null,
+    "ingredients": 0,
+    "prepared_components": 0
   },
   "pamhc2crops:hotcoffeeitem": {
     "amount": 0.2,
     "duration": 1200,
     "group": "hot_drink",
-    "legacy": true
+    "legacy": true,
+    "base_amount": 0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2crops:hotcoffeeitem_campfire",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2crops:hotnettleteaitem": {
     "amount": 0.2,
     "duration": 1200,
     "group": "hot_drink",
-    "legacy": true
+    "legacy": true,
+    "base_amount": 0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2crops:hotnettleteaitem_campfire",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2crops:hotteaitem": {
     "amount": 0.2,
     "duration": 1200,
     "group": "hot_drink",
-    "legacy": true
+    "legacy": true,
+    "base_amount": 0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2crops:hotteaitem_campfire",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:applejuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": true
+    "legacy": true,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:applejuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:applepopsicleitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:applepopsicleitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:applesmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "kncraft:apple_smoothie_freezing",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:appleyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodcore:appleyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodcore:beefpotpieitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodcore:beefpotpieitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodcore:butteredbakedpotatoitem": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodcore:butteredbakedpotatoitem",
+    "ingredients": 3,
+    "prepared_components": 0
   },
   "pamhc2foodcore:caramelicecreamitem": {
-    "amount": -0.2,
-    "duration": 1200,
+    "amount": -0.25,
+    "duration": 1500,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodcore:caramelicecreamitem",
+    "ingredients": 2,
+    "prepared_components": 2
   },
   "pamhc2foodcore:caramelyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodcore:caramelyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 1
   },
   "pamhc2foodcore:carrotjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:carrotjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:carrotsoupitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": true
+    "legacy": true,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodcore:carrotsoupitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodcore:chickenpotpieitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodcore:chickenpotpieitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodcore:chocolateicecreamitem": {
-    "amount": -0.2,
-    "duration": 1200,
+    "amount": -0.25,
+    "duration": 1500,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodcore:chocolateicecreamitem",
+    "ingredients": 2,
+    "prepared_components": 2
   },
   "pamhc2foodcore:chocolateyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodcore:chocolateyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 1
   },
   "pamhc2foodcore:chorusjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:chorusjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:choruspopsicleitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:choruspopsicleitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:chorussmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:chorussmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:chorusyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodcore:chorusyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodcore:fishpotpieitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodcore:fishpotpieitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodcore:fruitsaladitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:fruitsaladitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:glowberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:glowberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:glowberrypopsicleitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:glowberrypopsicleitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:glowberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:glowberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:glowberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodcore:glowberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodcore:hotchocolateitem": {
-    "amount": 0.2,
-    "duration": 1200,
+    "amount": 0.25,
+    "duration": 1500,
     "group": "hot_drink",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodcore:hotchocolateitem",
+    "ingredients": 3,
+    "prepared_components": 1
   },
   "pamhc2foodcore:icecreamitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": true
+    "legacy": true,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodcore:icecreamitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodcore:mashedpotatoesitem": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodcore:mashedpotatoesitem",
+    "ingredients": 3,
+    "prepared_components": 0
   },
   "pamhc2foodcore:melonjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:melonjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:melonpopsicleitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:melonpopsicleitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:melonsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": true
+    "legacy": true,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "kncraft:melon_smoothie_freezing",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:melonyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodcore:melonyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodcore:muttonpotpieitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodcore:muttonpotpieitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodcore:noodlesoupitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodcore:noodlesoupitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodcore:p8juiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:p8juiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:porkpotpieitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodcore:porkpotpieitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodcore:potatosoupitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": true
+    "legacy": true,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodcore:potatosoupitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodcore:pumpkinsoupitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodcore:pumpkinsoupitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodcore:pumpkinyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodcore:pumpkinyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodcore:rabbitpotpieitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodcore:rabbitpotpieitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodcore:stewitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": true
+    "legacy": true,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodcore:stewitem",
+    "ingredients": 3,
+    "prepared_components": 0
   },
   "pamhc2foodcore:sweetberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:sweetberryjuiceitemitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:sweetberrypopsicleitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:sweetberrypopsicleitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:sweetberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "kncraft:sweetberry_smoothie_freezing",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodcore:sweetberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodcore:sweetberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodcore:yogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodcore:yogurtitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:anchovypepperonipizzaitem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.2,
+    "duration": 1800,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "elaborate",
+    "score": 6,
+    "recipe": "pamhc2foodextended:anchovypepperonipizzaitem",
+    "ingredients": 5,
+    "prepared_components": 1
   },
   "pamhc2foodextended:apricotjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:apricotjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:apricotsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:apricotsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:apricotyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:apricotyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:bamboosteamedriceitem": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodextended:bamboosteamedriceitem",
+    "ingredients": 3,
+    "prepared_components": 0
   },
   "pamhc2foodextended:bananajuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:bananajuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:bananasmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:bananasmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:bananayogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:bananayogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:bbqchickenpizzaitem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.2,
+    "duration": 1800,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "elaborate",
+    "score": 6,
+    "recipe": "pamhc2foodextended:bbqchickenpizzaitem",
+    "ingredients": 5,
+    "prepared_components": 1
   },
   "pamhc2foodextended:berryvinaigrettesaladitem": {
-    "amount": -0.1,
-    "duration": 600,
+    "amount": -0.15,
+    "duration": 900,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:berryvinaigrettesaladitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodextended:blackberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:blackberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:blackberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:blackberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:blackberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:blackberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:blueberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:blueberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:blueberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:blueberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:blueberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:blueberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:breadfruitjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:breadfruitjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:breadfruitsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:breadfruitsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:breadfruityogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:breadfruityogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:cactusfruitjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:cactusfruitjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:cactusfruitsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:cactusfruitsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:cactusfruityogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:cactusfruityogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:cactussoupitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:cactussoupitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:candleberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:candleberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:candleberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:candleberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:candleberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:candleberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:cantaloupejuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:cantaloupejuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:cantaloupesmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:cantaloupesmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:cantaloupeyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:cantaloupeyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:capresesaladitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodextended:capresesaladitem",
+    "ingredients": 3,
+    "prepared_components": 0
   },
   "pamhc2foodextended:carrotjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:carrotjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:ceasarsaladitem": {
-    "amount": -0.1,
-    "duration": 600,
+    "amount": -0.2,
+    "duration": 1200,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "elaborate",
+    "score": 8,
+    "recipe": "pamhc2foodextended:ceasarsaladitem",
+    "ingredients": 6,
+    "prepared_components": 2
   },
   "pamhc2foodextended:chaiteaitem": {
-    "amount": 0.2,
-    "duration": 1200,
+    "amount": 0.25,
+    "duration": 1500,
     "group": "hot_drink",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:chaiteaitem",
+    "ingredients": 3,
+    "prepared_components": 2
   },
   "pamhc2foodextended:cherryicecreamitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodextended:cherryicecreamitem",
+    "ingredients": 2,
+    "prepared_components": 1
   },
   "pamhc2foodextended:cherryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:cherryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:cherrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:cherrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:cherryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:cherryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:chickencelerycasseroleitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:chickencelerycasseroleitem",
+    "ingredients": 5,
+    "prepared_components": 0
   },
   "pamhc2foodextended:chickencurryitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 7,
+    "recipe": "pamhc2foodextended:chickencurryitem",
+    "ingredients": 6,
+    "prepared_components": 1
   },
   "pamhc2foodextended:chickennoodlesoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:chickennoodlesoupitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodextended:chiliitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 6,
+    "recipe": "pamhc2foodextended:chiliitem",
+    "ingredients": 6,
+    "prepared_components": 0
   },
   "pamhc2foodextended:chocolatemilkshakeitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodextended:chocolatemilkshakeitem",
+    "ingredients": 2,
+    "prepared_components": 1
   },
   "pamhc2foodextended:citrussaladitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:citrussaladitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:coffeeconlecheitem": {
-    "amount": 0.2,
-    "duration": 1200,
+    "amount": 0.25,
+    "duration": 1500,
     "group": "hot_drink",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:coffeeconlecheitem",
+    "ingredients": 3,
+    "prepared_components": 2
   },
   "pamhc2foodextended:cottagepieitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 6,
+    "recipe": "pamhc2foodextended:cottagepieitem",
+    "ingredients": 5,
+    "prepared_components": 1
   },
   "pamhc2foodextended:cranberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:cranberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:cranberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:cranberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:cranberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:cranberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:creamedbroccolisoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 6,
+    "recipe": "pamhc2foodextended:creamedbroccolisoupitem",
+    "ingredients": 5,
+    "prepared_components": 1
   },
   "pamhc2foodextended:creamofavocadosoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:creamofavocadosoupitem",
+    "ingredients": 5,
+    "prepared_components": 0
   },
   "pamhc2foodextended:curryitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 7,
+    "recipe": "pamhc2foodextended:curryitem",
+    "ingredients": 5,
+    "prepared_components": 2
   },
   "pamhc2foodextended:dandelionteaitem": {
     "amount": 0.2,
     "duration": 1200,
     "group": "hot_drink",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:dandelionteaitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:datejuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:datejuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:datesmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:datesmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:dateyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:dateyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:deluxechickencurryitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 6,
+    "recipe": "pamhc2foodextended:deluxechickencurryitem",
+    "ingredients": 4,
+    "prepared_components": 2
   },
   "pamhc2foodextended:dragonfruitjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:dragonfruitjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:dragonfruitsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:dragonfruitsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:dragonfruityogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:dragonfruityogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:driedsoupitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:driedsoupitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:durianjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:durianjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:duriansmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:duriansmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:durianyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:durianyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:earlgreyteaitem": {
     "amount": 0.2,
     "duration": 1200,
     "group": "hot_drink",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:earlgreyteaitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:eggsaladitem": {
-    "amount": -0.1,
-    "duration": 600,
+    "amount": -0.15,
+    "duration": 900,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:eggsaladitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodextended:elderberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:elderberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:elderberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:elderberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:elderberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:elderberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:fiestacornsaladitem": {
-    "amount": -0.1,
-    "duration": 600,
+    "amount": -0.2,
+    "duration": 1200,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "elaborate",
+    "score": 7,
+    "recipe": "pamhc2foodextended:fiestacornsaladitem",
+    "ingredients": 7,
+    "prepared_components": 0
   },
   "pamhc2foodextended:figjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:figjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:figsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:figsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:figyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:figyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:friedriceitem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.15,
+    "duration": 1500,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:friedriceitem",
+    "ingredients": 5,
+    "prepared_components": 0
   },
   "pamhc2foodextended:gardensoupitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:gardensoupitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:garlicmashedpotatoesitem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.15,
+    "duration": 1500,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:garlicmashedpotatoesitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodextended:gooseberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:gooseberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:gooseberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:gooseberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:gooseberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:gooseberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:grandmasmacaronicasseroleitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 7,
+    "recipe": "pamhc2foodextended:grandmasmacaronicasseroleitem",
+    "ingredients": 5,
+    "prepared_components": 2
   },
   "pamhc2foodextended:grapefruitjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:grapefruitjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:grapefruitsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:grapefruitsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:grapefruityogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:grapefruityogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:grapejuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:grapejuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:grapesmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:grapesmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:grapeyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:grapeyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:greenbeancasseroleitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodextended:greenbeancasseroleitem",
+    "ingredients": 3,
+    "prepared_components": 0
   },
   "pamhc2foodextended:greengrapejuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:greengrapejuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:greengrapesmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:greengrapesmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:greengrapeyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:greengrapeyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:guavajuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:guavajuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:guavasmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:guavasmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:guavayogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:guavayogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:hamandpineapplepizzaitem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.15,
+    "duration": 1500,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:hamandpineapplepizzaitem",
+    "ingredients": 5,
+    "prepared_components": 0
   },
   "pamhc2foodextended:hotandsoursoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 8,
+    "recipe": "pamhc2foodextended:hotandsoursoupitem",
+    "ingredients": 7,
+    "prepared_components": 1
   },
   "pamhc2foodextended:hotdishcasseroleitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:hotdishcasseroleitem",
+    "ingredients": 4,
+    "prepared_components": 1
   },
   "pamhc2foodextended:huckleberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:huckleberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:huckleberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:huckleberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:huckleberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:huckleberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:jackfruitjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:jackfruitjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:jackfruitsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:jackfruitsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:jackfruityogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:jackfruityogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:juniperberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:juniperberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:juniperberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:juniperberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:juniperberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:juniperberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:kiwijuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:kiwijuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:kiwismoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:kiwismoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:kiwiyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:kiwiyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:lambbarleysoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:lambbarleysoupitem",
+    "ingredients": 5,
+    "prepared_components": 0
   },
   "pamhc2foodextended:lasagnaitem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.15,
+    "duration": 1500,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:lasagnaitem",
+    "ingredients": 5,
+    "prepared_components": 0
   },
   "pamhc2foodextended:leekbaconsoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:leekbaconsoupitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodextended:lemonjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:lemonjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:lemonsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:lemonsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:lemonyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:lemonyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:limejuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:limejuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:limesmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:limesmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:limeyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:limeyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:loadedbakedpotatoitem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.15,
+    "duration": 1500,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:loadedbakedpotatoitem",
+    "ingredients": 5,
+    "prepared_components": 0
   },
   "pamhc2foodextended:lycheejuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:lycheejuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:lycheesmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:lycheesmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:lycheeyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:lycheeyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:mangojuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:mangojuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:mangosmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:mangosmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:mangoyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:mangoyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:mashedpotatoeschickenbiscuititem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.15,
+    "duration": 1500,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:mashedpotatoeschickenbiscuititem",
+    "ingredients": 3,
+    "prepared_components": 2
   },
   "pamhc2foodextended:meatfeastpizzaitem": {
-    "amount": 0.1,
-    "duration": 1200,
-    "group": "warm_savory_food",
-    "legacy": false
-  },
-  "pamhc2foodextended:mintchocolatechipicecreamitem": {
-    "amount": -0.2,
-    "duration": 1200,
-    "group": "frozen_or_blended",
-    "legacy": false
-  },
-  "pamhc2foodextended:misosoupitem": {
     "amount": 0.2,
     "duration": 1800,
+    "group": "warm_savory_food",
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "elaborate",
+    "score": 9,
+    "recipe": "pamhc2foodextended:meatfeastpizzaitem",
+    "ingredients": 7,
+    "prepared_components": 2
+  },
+  "pamhc2foodextended:mintchocolatechipicecreamitem": {
+    "amount": -0.25,
+    "duration": 1500,
+    "group": "frozen_or_blended",
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:mintchocolatechipicecreamitem",
+    "ingredients": 3,
+    "prepared_components": 1
+  },
+  "pamhc2foodextended:misosoupitem": {
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:misosoupitem",
+    "ingredients": 3,
+    "prepared_components": 1
   },
   "pamhc2foodextended:mixedflowerssaladitem": {
-    "amount": -0.1,
-    "duration": 600,
+    "amount": -0.15,
+    "duration": 900,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:mixedflowerssaladitem",
+    "ingredients": 3,
+    "prepared_components": 1
   },
   "pamhc2foodextended:mixedsaladitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodextended:mixedsaladitem",
+    "ingredients": 2,
+    "prepared_components": 1
   },
   "pamhc2foodextended:mochaicecreamitem": {
-    "amount": -0.2,
-    "duration": 1200,
+    "amount": -0.25,
+    "duration": 1500,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:mochaicecreamitem",
+    "ingredients": 3,
+    "prepared_components": 2
   },
   "pamhc2foodextended:mulberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:mulberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:mulberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:mulberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:mulberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:mulberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:mushroomlasagnaitem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.2,
+    "duration": 1800,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "elaborate",
+    "score": 6,
+    "recipe": "pamhc2foodextended:mushroomlasagnaitem",
+    "ingredients": 6,
+    "prepared_components": 0
   },
   "pamhc2foodextended:mushroomrisottoitem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.15,
+    "duration": 1500,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:mushroomrisottoitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodextended:neapolitanicecreamitem": {
-    "amount": -0.2,
-    "duration": 1200,
+    "amount": -0.25,
+    "duration": 1500,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:neapolitanicecreamitem",
+    "ingredients": 3,
+    "prepared_components": 1
   },
   "pamhc2foodextended:nopalessaladitem": {
-    "amount": -0.1,
-    "duration": 600,
+    "amount": -0.2,
+    "duration": 1200,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "elaborate",
+    "score": 6,
+    "recipe": "pamhc2foodextended:nopalessaladitem",
+    "ingredients": 6,
+    "prepared_components": 0
   },
   "pamhc2foodextended:nuttoppedicecreamitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodextended:nuttoppedicecreamitem",
+    "ingredients": 2,
+    "prepared_components": 1
   },
   "pamhc2foodextended:oldworldveggiesoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:oldworldveggiesoupitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodextended:orangejuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:orangejuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:orangesmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:orangesmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:orangeyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:orangeyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:papayajuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:papayajuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:papayasmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:papayasmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:papayayogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:papayayogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:passionfruitjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:passionfruitjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:passionfruitsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:passionfruitsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:passionfruityogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:passionfruityogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pawpawjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:pawpawjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pawpawsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:pawpawsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pawpawyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:pawpawyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:peaandhamsoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 7,
+    "recipe": "pamhc2foodextended:peaandhamsoupitem",
+    "ingredients": 6,
+    "prepared_components": 1
   },
   "pamhc2foodextended:peachjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:peachjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:peachsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:peachsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:peachyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:peachyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pearjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:pearjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pearsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:pearsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pearyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:pearyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pepperonipizzaitem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.15,
+    "duration": 1500,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:pepperonipizzaitem",
+    "ingredients": 4,
+    "prepared_components": 1
   },
   "pamhc2foodextended:persimmonjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:persimmonjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:persimmonsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:persimmonsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:persimmonyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:persimmonyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:phoitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 6,
+    "recipe": "pamhc2foodextended:phoitem",
+    "ingredients": 5,
+    "prepared_components": 1
   },
   "pamhc2foodextended:pineapplejuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:pineapplejuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pineapplesmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:pineapplesmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pineappleyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:pineappleyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pizzasliceitem": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:pizzasliceitem_anchovypepperonipizzaitem",
+    "ingredients": 1,
+    "prepared_components": 1
   },
   "pamhc2foodextended:pizzasoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 7,
+    "recipe": "pamhc2foodextended:pizzasoupitem",
+    "ingredients": 6,
+    "prepared_components": 1
   },
   "pamhc2foodextended:plumjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:plumjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:plumsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:plumsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:plumyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:plumyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pomegranatejuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:pomegranatejuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pomegranatesmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:pomegranatesmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:pomegranateyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:pomegranateyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:potatoandleeksoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 7,
+    "recipe": "pamhc2foodextended:potatoandleeksoupitem",
+    "ingredients": 6,
+    "prepared_components": 1
   },
   "pamhc2foodextended:potatosaladitem": {
-    "amount": -0.1,
-    "duration": 600,
+    "amount": -0.2,
+    "duration": 1200,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "elaborate",
+    "score": 6,
+    "recipe": "pamhc2foodextended:potatosaladitem",
+    "ingredients": 6,
+    "prepared_components": 0
   },
   "pamhc2foodextended:rainbowcurryitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.3,
+    "duration": 2400,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "elaborate",
+    "score": 7,
+    "recipe": "pamhc2foodextended:rainbowcurryitem",
+    "ingredients": 7,
+    "prepared_components": 0
   },
   "pamhc2foodextended:rambutanjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:rambutanjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:rambutansmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:rambutansmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:rambutanyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:rambutanyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:ramenitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodextended:ramenitem",
+    "ingredients": 3,
+    "prepared_components": 0
   },
   "pamhc2foodextended:raspberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:raspberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:raspberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:raspberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:raspberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:raspberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:rosepetalteaitem": {
     "amount": 0.2,
     "duration": 1200,
     "group": "hot_drink",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:rosepetalteaitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:scallionbakedpotatoitem": {
     "amount": 0.1,
     "duration": 1200,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodextended:scallionbakedpotatoitem",
+    "ingredients": 3,
+    "prepared_components": 0
   },
   "pamhc2foodextended:seedsoupitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:seedsoupitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:shepardspieitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:shepardspieitem",
+    "ingredients": 5,
+    "prepared_components": 0
   },
   "pamhc2foodextended:sorbetitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:sorbetitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:soursopjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:soursopjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:soursopsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:soursopsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:soursopyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:soursopyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:spaghettidinneritem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.15,
+    "duration": 1500,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:spaghettidinneritem",
+    "ingredients": 3,
+    "prepared_components": 2
   },
   "pamhc2foodextended:splitpeasoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:splitpeasoupitem",
+    "ingredients": 4,
+    "prepared_components": 1
   },
   "pamhc2foodextended:springsaladitem": {
-    "amount": -0.1,
-    "duration": 600,
+    "amount": -0.15,
+    "duration": 900,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:springsaladitem",
+    "ingredients": 3,
+    "prepared_components": 1
   },
   "pamhc2foodextended:starfruitjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:starfruitjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:starfruitsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:starfruitsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:starfruityogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:starfruityogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:strawberryjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:strawberryjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:strawberrysmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:strawberrysmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:strawberryyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:strawberryyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:sunflowerbroccolisaladitem": {
-    "amount": -0.1,
-    "duration": 600,
+    "amount": -0.15,
+    "duration": 900,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:sunflowerbroccolisaladitem",
+    "ingredients": 5,
+    "prepared_components": 0
   },
   "pamhc2foodextended:supremepizzaitem": {
-    "amount": 0.1,
-    "duration": 1200,
+    "amount": 0.2,
+    "duration": 1800,
     "group": "warm_savory_food",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.1,
+    "base_duration": 1200,
+    "tier": "elaborate",
+    "score": 8,
+    "recipe": "pamhc2foodextended:supremepizzaitem",
+    "ingredients": 7,
+    "prepared_components": 1
   },
   "pamhc2foodextended:sweetteaitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodextended:sweetteaitem",
+    "ingredients": 3,
+    "prepared_components": 0
   },
   "pamhc2foodextended:tamarindjuiceitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:tamarindjuiceitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:tamarindsmoothieitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 1,
+    "recipe": "pamhc2foodextended:tamarindsmoothieitem",
+    "ingredients": 1,
+    "prepared_components": 0
   },
   "pamhc2foodextended:tamarindyogurtitem": {
     "amount": -0.1,
     "duration": 600,
     "group": "chilled_drink_or_yogurt",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:tamarindyogurtitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:threebeansaladitem": {
-    "amount": -0.1,
-    "duration": 600,
+    "amount": -0.2,
+    "duration": 1200,
     "group": "chilled_salad",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.1,
+    "base_duration": 600,
+    "tier": "elaborate",
+    "score": 7,
+    "recipe": "pamhc2foodextended:threebeansaladitem",
+    "ingredients": 6,
+    "prepared_components": 1
   },
   "pamhc2foodextended:tomatosoupitem": {
     "amount": 0.2,
     "duration": 1800,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "simple",
+    "score": 2,
+    "recipe": "pamhc2foodextended:tomatosoupitem",
+    "ingredients": 2,
+    "prepared_components": 0
   },
   "pamhc2foodextended:vanillaicecreamitem": {
     "amount": -0.2,
     "duration": 1200,
     "group": "frozen_or_blended",
-    "legacy": false
+    "legacy": false,
+    "base_amount": -0.2,
+    "base_duration": 1200,
+    "tier": "simple",
+    "score": 3,
+    "recipe": "pamhc2foodextended:vanillaicecreamitem",
+    "ingredients": 2,
+    "prepared_components": 1
   },
   "pamhc2foodextended:vegetablesoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 4,
+    "recipe": "pamhc2foodextended:vegetablesoupitem",
+    "ingredients": 4,
+    "prepared_components": 0
   },
   "pamhc2foodextended:wontonsoupitem": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "pamhc2foodextended:wontonsoupitem",
+    "ingredients": 5,
+    "prepared_components": 0
   },
   "witherstormmod:golden_apple_stew": {
-    "amount": 0.2,
-    "duration": 1800,
+    "amount": 0.25,
+    "duration": 2100,
     "group": "hot_meal",
-    "legacy": false
+    "legacy": false,
+    "base_amount": 0.2,
+    "base_duration": 1800,
+    "tier": "prepared",
+    "score": 5,
+    "recipe": "witherstormmod:golden_apple_stew",
+    "ingredients": 4,
+    "prepared_components": 1
   }
 }

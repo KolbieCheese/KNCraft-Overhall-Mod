@@ -48,8 +48,8 @@ public final class GuideBootstrap {
                 book.addProperty("subtitle", "KNCraft Guide Book");
         }
         if (book.has("use_resource_pack") && book.get("use_resource_pack").getAsBoolean()
-            && (!book.has("version") || book.get("version").getAsInt() < 15)) {
-            book.addProperty("version", 15); changed = true;
+            && (!book.has("version") || book.get("version").getAsInt() < 16)) {
+            book.addProperty("version", 16); changed = true;
         }
         if (!changed) return false;
         String updated = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create().toJson(book) + "\n";

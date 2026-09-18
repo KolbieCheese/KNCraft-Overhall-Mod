@@ -25,8 +25,9 @@ exploration, equipment, and transport support one another.
   and backpack magnets give nearby wildlife time to collect deliberate offerings.
 - **A guide to the whole pack:** The KNCraft Guide Book for Patchouli explains these
   connections within its original chapters. Recipes groups non-food crafting by mod;
-  Cook Book covers food and drinks, with temperature effects printed below affected
-  recipes. Smoothies, soups, hot drinks and other selected hot/chilled foods connect
+  Cook Book groups Warm, Cold and Neutral Food, with temperature effects printed below
+  recipes. More involved thermal dishes earn modest bonuses. Smoothies, soups,
+  hot drinks and other selected hot/chilled foods connect
   the kitchen to Cold Sweat. The FTB accomplishment journal records bosses, landmarks, and mod advancements
   without recipe locks, required quest chains, item turn-ins, or rewards.
   Each chapter includes relevant controls that display the player's current bindings.
@@ -47,8 +48,7 @@ Download **`KNCraftCompatibilityMod-<version>.jar`** from
 [GitHub Releases](https://github.com/KolbieCheese/KNCraft-Overhall-Mod/releases).
 Install the same version on the **server and every client**, alongside the pack's
 upstream mods. Patchouli supplies the guide UI; FTB Quests supplies the journal UI.
-Third-party mods are not bundled in this JAR. The repository is currently private, so
-GitHub downloads require repository access.
+Third-party mods are not bundled in this JAR. Releases are publicly downloadable.
 
 Read [migration and rollback](docs/Migration.md) before replacing earlier helpers or
 datapacks. Existing guide books keep the ID `patchouli:kncraft_guide`; a legacy external
@@ -93,7 +93,7 @@ Set `JAVA_HOME` to a Java 17 JDK and use Python 3.11 or newer:
 ```powershell
 python tools/bootstrap_dependencies.py --download
 .\gradlew.bat build releaseBundle --console=plain
-python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.5.jar
+python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.7.jar
 ```
 
 Alternatively, bootstrap from the installed pack with `--instance "C:\path\to\KNCraft"`.

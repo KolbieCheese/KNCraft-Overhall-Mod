@@ -1,7 +1,7 @@
 {
   "name": "Sophisticated Backpacks",
-  "parent": "patchouli:recipes",
-  "description": "Sophisticated Backpacks equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "parent": "patchouli:recipes/group_storage",
+  "description": "Sophisticated Backpacks equipment, materials and crafting. Food and drinks are in Cook Book.$(br2)Type an item name to search this list. Backspace clears your search.",
   "icon": "sophisticatedbackpacks:advanced_alchemy_upgrade",
   "sortnum": 0
 }

@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 import re
 import zipfile
+from thermal_complexity import complexity_catalog, scale_effect
 
 ROOT = Path(__file__).resolve().parents[1]
 RES = ROOT / 'src/main/resources'
@@ -58,6 +59,7 @@ def main():
     parser.add_argument('--instance', type=Path, required=True)
     args = parser.parse_args()
     registry = read(args.registry)
+    complexity = complexity_catalog(registry)
     lang = {}
     # The vanilla language file lives in the development runtime, not the mod directory.
     vanilla = Path.home() / '.gradle/caches/forge_gradle/minecraft_repo/versions/1.20.1/client-extra.jar'
@@ -85,7 +87,12 @@ def main():
             group = (group[0] if group else 'legacy', amount, ticks)
         if group:
             family, amount, ticks = group
-            foods[item] = {'amount': amount, 'duration': ticks, 'group': family, 'legacy': item in legacy}
+            preparation = complexity.get(item, {'tier': 'simple', 'score': 0, 'recipe': None,
+                                                'ingredients': 0, 'prepared_components': 0})
+            scaled_amount, scaled_ticks = scale_effect(amount, ticks, preparation['tier'])
+            foods[item] = {'amount': scaled_amount, 'duration': scaled_ticks, 'group': family,
+                          'legacy': item in legacy, 'base_amount': amount, 'base_duration': ticks,
+                          **preparation}
     write(RES / 'thermal-foods.json', foods)
 
     manifest = read(ROOT / 'docs/Guide-Integration-Edits.json')
@@ -105,6 +112,10 @@ def main():
             'pamhc2foodextended:sesameoilitem', 'pamhc2foodextended:soysauceitem'}
         edible = registry['items'].get(item, {}).get('food', False) or item in cooking_ingredients
         return 'cookbook' if edible else 'recipes'
+
+    def food_category(item):
+        amount = foods.get(item, {}).get('amount', 0)
+        return 'cookbook/' + ('warm' if amount > 0 else 'cold' if amount < 0 else 'neutral')
 
     entries = {}
     existing = defaultdict(list)
@@ -178,6 +189,8 @@ def main():
         data['category'] = 'patchouli:' + target
         if target == 'recipes':
             data['category'] += '/' + item.split(':')[0]
+        else:
+            data['category'] = 'patchouli:' + food_category(item)
         if target == 'recipes':
             for page in data['pages']:
                 for field in ('text', 'navigation'):
@@ -190,12 +203,15 @@ def main():
                         page[field] = page[field].replace('$(l:patchouli:recipes)Recipes$(/l)', '$(l:patchouli:cookbook)Cook Book$(/l)')
                         page[field] = page[field].replace('$(l:patchouli:recipes)Index$(/l)', '$(l:patchouli:cookbook)Index$(/l)')
         # Keep entry paths and anchors stable so old chapter links still resolve.
-        if item in foods:
-            food = foods[item]
+        if target == 'cookbook':
+            food = foods.get(item, {'amount': 0, 'duration': 0, 'tier': 'neutral'})
             amount, seconds = food['amount'], food['duration'] // 20
             direction = 'Warms' if amount > 0 else 'Cools'
             short = f'Cold Sweat: {direction.lower()} {amount:+g} base temperature for {seconds}s (pack default).'
-            detail = f'Pack default: {amount:+g} base temperature for {seconds} seconds. {direction} while active. The latest thermal meal replaces the previous effect. Server settings take precedence.'
+            detail = f"Pack default: {amount:+g} base temperature for {seconds} seconds. {food['tier'].capitalize()} recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence."
+            if not amount:
+                short = 'Cold Sweat: no temperature effect (pack default).'
+                detail = 'Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.'
             found = False
             for page in data['pages']:
                 if page.get('anchor') == 'kncraft_thermal_effect':
@@ -203,10 +219,13 @@ def main():
                     found = True
                 if page['type'] in {'patchouli:' + v for v in NATIVE.values()}:
                     # One recipe per page leaves room for a short native text summary.
-                    nav = '$(l:patchouli:' + target + ')Index$(/l)'
+                    nav = '$(l:patchouli:' + food_category(item) + ')Food index$(/l)'
                     page['text'] = short + '$(br)Turn pages for server values.$(br)' + nav
                 if page['type'] == 'patchouli:kn_cooking':
                     page['body'] = short + ' Use JEI for current machine ingredients and time.'
+                if page['type'] == 'patchouli:spotlight' and item in foods:
+                    # Dynamic consumables have no native diagram to hold their updated default.
+                    page['text'] = detail + '$(br)Use $(k:key.jei.showRecipe) over the item for available recipes.'
             if not found:
                 data['pages'].insert(1 if data['pages'] else 0, {'type': 'patchouli:kn_value', 'heading': 'Cold Sweat effect',
                     'body': detail, 'fallback': detail, 'reference': 'food/' + item, 'anchor': 'kncraft_thermal_effect',
@@ -220,7 +239,7 @@ def main():
             continue
         detail = f"Pack default: {food['amount']:+g} base temperature for {food['duration']//20} seconds. The latest thermal meal replaces the previous effect. Server settings take precedence."
         path = BOOK / 'entries/cookbook' / (item.replace(':', '/') + '.json')
-        data = {'name': label(item), 'category': 'patchouli:cookbook', 'icon': item, 'pages': [
+        data = {'name': label(item), 'category': 'patchouli:' + food_category(item), 'icon': item, 'pages': [
             {'type': 'patchouli:spotlight', 'item': item, 'text': detail + '$(br)Use $(k:key.jei.showRecipe) over the item for available recipes.'},
             {'type': 'patchouli:kn_value', 'heading': 'Cold Sweat effect', 'anchor': 'kncraft_thermal_effect',
              'reference': 'food/' + item, 'body': detail, 'fallback': detail, 'navigation': '$(l:patchouli:cookbook)Cook Book$(/l)'}]}
@@ -229,6 +248,14 @@ def main():
         existing[item].append(path)
         keys['food/' + item] = item
     write(RES / 'guide-values.json', keys)
+    for order, (kind, name, icon, description) in enumerate([
+        ('warm', 'Warm Food', 'pamhc2foodcore:carrotsoupitem', 'Food and drinks that add warmth.'),
+        ('cold', 'Cold Food', 'pamhc2foodcore:melonsmoothieitem', 'Food and drinks that cool you.'),
+        ('neutral', 'Neutral Food', 'minecraft:bread', 'Food, drinks and cooking ingredients with no temperature effect.'),
+    ]):
+        save(BOOK / 'categories/cookbook' / (kind + '.json'), {'name': name, 'parent': 'patchouli:cookbook',
+            'description': description + ' Categories reflect pack defaults; item pages show current server effects.$(br2)Type an item name to search this list. Backspace clears your search.',
+            'icon': icon, 'sortnum': order}, 'Group Cook Book by default warming, cooling or neutral effect')
     mod_names = {'minecraft': 'Minecraft', 'aether': 'The Aether', 'alexsmobs': "Alex's Mobs", 'biomesoplenty': 'Biomes O Plenty',
         'callfromthedepth_': 'Call from the Depth', 'cold_sweat': 'Cold Sweat', 'mcwbridges': "Macaw's Bridges", 'mcwstairs': "Macaw's Stairs",
         'nomadictents': 'Nomadic Tents', 'sophisticatedbackpacks': 'Sophisticated Backpacks', 'sophisticatedcore': 'Sophisticated Core',
@@ -241,6 +268,21 @@ def main():
         if data['category'].startswith('patchouli:recipes/'):
             nonfood[data['icon'].split(':')[0]].append(data['icon'])
     category_icons = {'minecraft': 'minecraft:crafting_table', 'aether': 'aether:altar', 'cold_sweat': 'cold_sweat:hearth'}
+    # Patchouli 85 lays category icons out without pagination; keep each grid within four rows.
+    groups = {
+        'building': ('Building & Materials', 'minecraft:bricks', {'biomesoplenty', 'mcwbridges', 'mcwstairs', 'ropebridge', 'pamhc2trees'}),
+        'storage': ('Storage & Transport', 'minecraft:chest', {'ironchest', 'sophisticatedbackpacks', 'sophisticatedcore', 'superbarrels', 'betterminecarts'}),
+        'books': ('Books & Journal', 'minecraft:book', {'patchouli', 'ftbquests'}),
+    }
+    parents = {}
+    for group, (title, icon, mods) in groups.items():
+        if not mods.intersection(nonfood):
+            continue
+        group_id = 'patchouli:recipes/group_' + group
+        parents.update({mod: group_id for mod in mods})
+        save(BOOK / 'categories/recipes' / ('group_' + group + '.json'),
+            {'name': title, 'parent': 'patchouli:recipes', 'description': 'Choose a mod to view its recipes. Food and drink recipes are in Cook Book.', 'icon': icon, 'sortnum': 0},
+            'Keep recipe category grids within the visible Patchouli page')
     for path in (BOOK / 'categories/recipes').glob('*.json'):
         relative = path.relative_to(BOOK).as_posix()
         if path.stem not in nonfood and manifest['files'].get(relative) == 'Group non-food recipes by mod under Recipes':
@@ -248,12 +290,12 @@ def main():
             del manifest['files'][relative]
     for mod, icons in sorted(nonfood.items()):
         title = mod_names.get(mod, mod.replace('_', ' ').title())
-        save(BOOK / 'categories/recipes' / (mod + '.json'), {'name': title, 'parent': 'patchouli:recipes',
-            'description': title + ' equipment, materials and crafting. Food and drink recipes are in Cook Book.', 'icon': category_icons.get(mod, sorted(icons)[0]), 'sortnum': 0},
+        save(BOOK / 'categories/recipes' / (mod + '.json'), {'name': title, 'parent': parents.get(mod, 'patchouli:recipes'),
+            'description': title + ' equipment, materials and crafting. Food and drinks are in Cook Book.$(br2)Type an item name to search this list. Backspace clears your search.', 'icon': category_icons.get(mod, sorted(icons)[0]), 'sortnum': 0},
             'Group non-food recipes by mod under Recipes')
     for chapter, anchor, body in [
-        ('food', 'kncraft_thermal_meals', 'Smoothies, frozen desserts, juices and chilled foods cool you. Soups, stews, hot drinks and selected cooked meals warm you. Each affected recipe prints its default strength and duration; turn pages for current server values. These change base temperature, not instant body temperature.'),
-        ('cold', 'kncraft_meals', 'Pack defaults: soups and stews warm for 90 seconds; hot drinks for 60. Smoothies and frozen desserts cool for 60; juices, yogurt and salads for 30. Selected cooked meals warm gently for 60. Read each Cook Book recipe for strength and current server values.'),
+        ('food', 'kncraft_thermal_meals', 'Cook Book groups Warm, Cold and Neutral Food. Simple recipes keep their base effect. Prepared recipes add 0.05 strength and 15 seconds; elaborate recipes add 0.10 and 30 seconds, capped at 120 seconds. Neutral food stays neutral. Item pages show defaults and server values.'),
+        ('cold', 'kncraft_meals', 'Thermal food changes base temperature. Varied ingredients and prepared components earn modest bonuses; tools, containers and repeats do not count. Only one KNCraft meal effect is active: the newest replaces it. Neutral food does not cancel it. See Cook Book for exact values.'),
         ('intro', 'kncraft_server_values', 'Recipes groups non-food crafting by mod. Cook Book holds food and drinks. Thermal recipes print pack defaults below the diagram; turn pages for current server values. Server settings, special item data and conditions can change the effect.'),
     ]:
         path = BOOK / 'entries/chapters' / (chapter + '.json')
@@ -263,19 +305,20 @@ def main():
                 page['body'] = body
         save(path, data, 'Expanded thermal meals and clear recipe navigation in existing chapters')
     for name, description in [('recipes', 'Equipment, tools, machines, building materials and other non-food recipes from the pack. Food and drinks are in Cook Book.'),
-                              ('cookbook', 'Food, drinks and edible ingredients from across the pack. Affected recipes show Cold Sweat temperature effects; turn pages for alternatives and server values.')]:
+                              ('cookbook', 'Choose Warm, Cold or Neutral Food by its pack-default temperature effect. More involved thermal recipes earn modest bonuses.$(br2)Each item lists its recipes and current server effects. Within a category, type an item name to search.')]:
         path = BOOK / 'categories' / (name + '.json')
         data = read(path); data['description'] = description
         save(path, data, 'Food and non-food category scope')
     write(ROOT / 'docs/Guide-Integration-Edits.json', manifest)
     declaration = RES / 'data/patchouli/patchouli_books/kncraft_guide/book.json'
-    data = read(declaration); data['version'] = 15; write(declaration, data)
+    data = read(declaration); data['version'] = 16; write(declaration, data)
     # Coverage is validated independently against this resolved reference, including pre-existing entries.
     write(ROOT / 'docs/Guide-Recipe-Index.json', {'source': 'Isolated Forge 1.20.1 registry with every installed recipe-bearing mod',
         'items': {item: {'food': category(item) == 'cookbook'} for item in sorted(existing)},
         'recipes': [{k: r[k] for k in ('id', 'type', 'result') if k in r} for r in registry['recipes']],
         'special_recipe_notes': index, 'not_a_fixed_player_recipe': dict(sorted(skipped.items()))})
     print('Thermal foods:', len(foods), dict(Counter(f['group'] for f in foods.values())))
+    print('Recipe tiers:', dict(Counter(f['tier'] for f in foods.values())))
     print('Added recipe references:', len(index), 'catalog entries:', len(entries), 'live keys:', len(keys))
 
 

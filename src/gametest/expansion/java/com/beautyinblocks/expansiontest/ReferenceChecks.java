@@ -23,8 +23,23 @@ import net.minecraftforge.registries.ForgeRegistries;
 final class ReferenceChecks {
     static ServerPlayer player(MinecraftServer server) { return FakePlayerFactory.get(server.overworld(), new GameProfile(UUID.randomUUID(), "GuideCheck")); }
     static void run(MinecraftServer server) throws Exception {
-        gift(server); guideCommand(server); feeding(server); values(server); links();
+        bookResources(); gift(server); guideCommand(server); feeding(server); values(server); links();
         System.out.println("REFERENCE: one-time guide delivery, full inventory retry, native feeding reserves, player opt-out persistence, authoritative overrides, packet data and 344 guide routes verified");
+    }
+    static void bookResources() throws Exception {
+        var registered = vazkii.patchouli.common.book.BookRegistry.INSTANCE.books.get(GuideDelivery.BOOK);
+        check(registered != null && !registered.isExternal, "Migrated guide still uses external files instead of bundled assets");
+        try (var stream = GuideDelivery.class.getResourceAsStream("/data/patchouli/patchouli_books/kncraft_guide/book.json")) {
+            var root = com.google.gson.JsonParser.parseReader(new java.io.InputStreamReader(stream)).getAsJsonObject();
+            check(!new vazkii.patchouli.common.book.Book(root, registered.owner, GuideDelivery.BOOK, true).isExternal,
+                "Resource-backed KNCraft declaration did not select the resource loader");
+            check(new vazkii.patchouli.common.book.Book(root, registered.owner, new ResourceLocation("patchouli:other_external"), true).isExternal,
+                "Guide fix changed an unrelated external book");
+            root.addProperty("use_resource_pack", false);
+            check(new vazkii.patchouli.common.book.Book(root, registered.owner, GuideDelivery.BOOK, true).isExternal,
+                "Guide fix opted an unmigrated legacy book into bundled updates");
+        }
+        System.out.println("GUIDE RESOURCES PASSED: migrated registry, resource-backed constructor, unrelated external book and legacy opt-out");
     }
     static void gift(MinecraftServer server) {
         var p = player(server);

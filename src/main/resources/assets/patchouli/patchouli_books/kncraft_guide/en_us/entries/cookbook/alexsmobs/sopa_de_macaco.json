@@ -1,6 +1,6 @@
 {
   "name": "Sopa De Macaco",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/neutral",
   "icon": "alexsmobs:sopa_de_macaco",
   "sortnum": 0,
   "pages": [
@@ -8,8 +8,17 @@
       "type": "patchouli:crafting",
       "recipe": "alexsmobs:sopa_de_macaco",
       "anchor": "catalog_alexsmobs_sopa_de_macaco",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "alexsmobs:sopa_de_macaco"
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "fallback": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "reference": "food/alexsmobs:sopa_de_macaco",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
     }
   ],
   "extra_recipe_mappings": {

@@ -1,6 +1,6 @@
 {
   "name": "Cooked Kangaroo Meat",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/warm",
   "icon": "alexsmobs:cooked_kangaroo_meat",
   "sortnum": 0,
   "pages": [
@@ -8,14 +8,14 @@
       "type": "patchouli:smelting",
       "recipe": "alexsmobs:cooked_kangaroo_meat",
       "anchor": "catalog_alexsmobs_cooked_kangaroo_meat",
-      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)",
       "kncraft_recipe": "alexsmobs:cooked_kangaroo_meat"
     },
     {
       "type": "patchouli:kn_value",
       "heading": "Cold Sweat effect",
-      "body": "Pack default: +0.1 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
-      "fallback": "Pack default: +0.1 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "body": "Pack default: +0.1 base temperature for 60 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "fallback": "Pack default: +0.1 base temperature for 60 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
       "reference": "food/alexsmobs:cooked_kangaroo_meat",
       "anchor": "kncraft_thermal_effect",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
@@ -24,14 +24,14 @@
       "type": "patchouli:campfire",
       "recipe": "alexsmobs:cooked_kangaroo_meat_campfire",
       "anchor": "catalog_alexsmobs_cooked_kangaroo_meat_campfire",
-      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)",
       "kncraft_recipe": "alexsmobs:cooked_kangaroo_meat_campfire"
     },
     {
       "type": "patchouli:smoking",
       "recipe": "alexsmobs:cooked_kangaroo_meat_smoke",
       "anchor": "catalog_alexsmobs_cooked_kangaroo_meat_smoke",
-      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)",
       "kncraft_recipe": "alexsmobs:cooked_kangaroo_meat_smoke"
     }
   ],

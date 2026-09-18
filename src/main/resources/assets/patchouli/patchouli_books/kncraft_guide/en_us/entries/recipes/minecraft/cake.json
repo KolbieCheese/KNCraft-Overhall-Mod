@@ -1,6 +1,6 @@
 {
   "name": "Cake",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/neutral",
   "icon": "minecraft:cake",
   "sortnum": 0,
   "pages": [
@@ -8,28 +8,37 @@
       "type": "patchouli:crafting",
       "recipe": "aether:moa_egg_cake",
       "anchor": "catalog_aether_moa_egg_cake",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "aether:moa_egg_cake"
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "fallback": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "reference": "food/minecraft:cake",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "aether:skyroot_milk_bucket_cake",
       "anchor": "catalog_aether_skyroot_milk_bucket_cake",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "aether:skyroot_milk_bucket_cake"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "aether:skyroot_milk_bucket_moa_egg_cake",
       "anchor": "catalog_aether_skyroot_milk_bucket_moa_egg_cake",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "aether:skyroot_milk_bucket_moa_egg_cake"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:cake",
       "anchor": "catalog_minecraft_cake",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "minecraft:cake"
     }
   ],

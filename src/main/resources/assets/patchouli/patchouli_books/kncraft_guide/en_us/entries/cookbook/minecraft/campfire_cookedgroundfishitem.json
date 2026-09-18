@@ -1,6 +1,6 @@
 {
   "name": "Cooked Ground Fish",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/neutral",
   "icon": "pamhc2foodcore:cookedgroundfishitem",
   "priority": false,
   "sortnum": 0,
@@ -8,7 +8,7 @@
     {
       "type": "patchouli:kn_cooking",
       "heading": "Cooked Ground Fish",
-      "body": "Campfire. Cook for 5 seconds. Makes 1.",
+      "body": "Cold Sweat: no temperature effect (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_minecraft_campfire_cookedgroundfishitem",
       "input": "pamhc2foodcore:groundfishitem",
@@ -16,15 +16,24 @@
       "output": "pamhc2foodcore:cookedgroundfishitem"
     },
     {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "fallback": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "reference": "food/pamhc2foodcore:cookedgroundfishitem",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
+    },
+    {
       "type": "patchouli:smelting",
       "recipe": "minecraft:smelting_cookedgroundfishitem",
       "anchor": "lookup_recipe_minecraft_smelting_cookedgroundfishitem",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)"
     },
     {
       "type": "patchouli:kn_cooking",
       "heading": "Cooked Ground Fish",
-      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "body": "Cold Sweat: no temperature effect (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_minecraft_smoking_cookedgroundfishitem",
       "input": "pamhc2foodcore:groundfishitem",
@@ -35,14 +44,14 @@
       "type": "patchouli:campfire",
       "recipe": "minecraft:campfire_cookedgroundfishitem",
       "anchor": "catalog_minecraft_campfire_cookedgroundfishitem",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "minecraft:campfire_cookedgroundfishitem"
     },
     {
       "type": "patchouli:smoking",
       "recipe": "minecraft:smoking_cookedgroundfishitem",
       "anchor": "catalog_minecraft_smoking_cookedgroundfishitem",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "minecraft:smoking_cookedgroundfishitem"
     }
   ],

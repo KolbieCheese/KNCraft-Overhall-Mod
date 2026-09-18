@@ -1,6 +1,6 @@
 {
   "name": "Roasted Chestnut",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/neutral",
   "icon": "pamhc2trees:roastedchestnutitem",
   "priority": false,
   "sortnum": 0,
@@ -8,7 +8,7 @@
     {
       "type": "patchouli:kn_cooking",
       "heading": "Roasted Chestnut",
-      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "body": "Cold Sweat: no temperature effect (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_pamhc2trees_roastedchestnutitem_campfire",
       "input": "tag:forge:crops/chestnut",
@@ -16,15 +16,24 @@
       "output": "pamhc2trees:roastedchestnutitem"
     },
     {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "fallback": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "reference": "food/pamhc2trees:roastedchestnutitem",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
+    },
+    {
       "type": "patchouli:smelting",
       "recipe": "pamhc2trees:roastedchestnutitem_forge",
       "anchor": "lookup_recipe_pamhc2trees_roastedchestnutitem_forge",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)"
     },
     {
       "type": "patchouli:kn_cooking",
       "heading": "Roasted Chestnut",
-      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "body": "Cold Sweat: no temperature effect (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_pamhc2trees_roastedchestnutitem_smoker",
       "input": "tag:forge:crops/chestnut",
@@ -35,14 +44,14 @@
       "type": "patchouli:campfire",
       "recipe": "pamhc2trees:roastedchestnutitem_campfire",
       "anchor": "catalog_pamhc2trees_roastedchestnutitem_campfire",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "pamhc2trees:roastedchestnutitem_campfire"
     },
     {
       "type": "patchouli:smoking",
       "recipe": "pamhc2trees:roastedchestnutitem_smoker",
       "anchor": "catalog_pamhc2trees_roastedchestnutitem_smoker",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "pamhc2trees:roastedchestnutitem_smoker"
     }
   ],

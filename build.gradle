@@ -36,7 +36,12 @@ jar {
 }
 test { useJUnitPlatform() }
 tasks.register('validateResources', Exec) {
+    dependsOn 'testRecipeTiers'
     commandLine 'python', 'tools/validate_artifact.py'
+}
+
+tasks.register('testRecipeTiers', Exec) {
+    commandLine 'python', 'tools/test_thermal_complexity.py'
 }
 tasks.named('check') { dependsOn 'validateResources' }
 ['depth', 'tents', 'performance', 'cohesion', 'expansion'].each { module ->

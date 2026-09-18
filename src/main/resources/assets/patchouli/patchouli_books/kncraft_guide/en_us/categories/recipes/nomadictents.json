@@ -1,7 +1,7 @@
 {
   "name": "Nomadic Tents",
   "parent": "patchouli:recipes",
-  "description": "Nomadic Tents equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "description": "Nomadic Tents equipment, materials and crafting. Food and drinks are in Cook Book.$(br2)Type an item name to search this list. Backspace clears your search.",
   "icon": "nomadictents:bedouin_section",
   "sortnum": 0
 }

@@ -1,0 +1,7 @@
+{
+  "name": "Books & Journal",
+  "parent": "patchouli:recipes",
+  "description": "Choose a mod to view its recipes. Food and drink recipes are in Cook Book.",
+  "icon": "minecraft:book",
+  "sortnum": 0
+}

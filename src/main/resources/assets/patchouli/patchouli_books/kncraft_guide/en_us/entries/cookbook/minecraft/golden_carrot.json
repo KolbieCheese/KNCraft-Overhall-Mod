@@ -1,6 +1,6 @@
 {
   "name": "Golden Carrot",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/neutral",
   "icon": "minecraft:golden_carrot",
   "sortnum": 0,
   "pages": [
@@ -8,8 +8,17 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:golden_carrot",
       "anchor": "catalog_minecraft_golden_carrot",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "minecraft:golden_carrot"
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "fallback": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "reference": "food/minecraft:golden_carrot",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
     }
   ],
   "extra_recipe_mappings": {

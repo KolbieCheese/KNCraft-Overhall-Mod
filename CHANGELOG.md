@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.0.7 - verified bundled guide loading
+
+- Keep the original Cook Book category and divide it into Warm Food, Cold Food and
+  Neutral Food. Show defaults and live server effects on all 1,202 food/ingredient pages.
+- Give 65 more involved thermal recipes modest strength/duration bonuses using
+  distinct ingredients and prepared components. Preserve simple recipes, original
+  food settings and server overrides; perform no recipe graph work during gameplay.
+- Correct Patchouli 85's external-book loading path for the migrated KNCraft guide.
+  The existing book now reads the mod's updated recipes, chapters and live temperature
+  pages; its identity and the retained loose files are preserved.
+- Group related building, storage/transport and book mods so the expanded Recipes
+  category fits the page. Add type-to-search instructions to recipe indexes.
+- Add an isolated runtime regression for migrated, legacy and unrelated books, and
+  a category-grid overflow check. Verify representative hot/cold and Aether pages
+  in the installed Minecraft client before publication.
+
 ## 1.0.6 - complete recipe guide and thermal foods
 
 - Fill the guide's recipe catalog from the resolved installed-pack recipes, including

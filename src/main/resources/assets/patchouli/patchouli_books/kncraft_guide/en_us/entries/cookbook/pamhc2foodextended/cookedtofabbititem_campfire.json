@@ -1,6 +1,6 @@
 {
   "name": "Cooked Tofabbit",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/neutral",
   "icon": "pamhc2foodextended:cookedtofabbititem",
   "priority": false,
   "sortnum": 0,
@@ -8,7 +8,7 @@
     {
       "type": "patchouli:kn_cooking",
       "heading": "Cooked Tofabbit",
-      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "body": "Cold Sweat: no temperature effect (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_pamhc2foodextended_cookedtofabbititem_campfire",
       "input": "pamhc2foodextended:rawtofabbititem",
@@ -16,15 +16,24 @@
       "output": "pamhc2foodextended:cookedtofabbititem"
     },
     {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "fallback": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "reference": "food/pamhc2foodextended:cookedtofabbititem",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
+    },
+    {
       "type": "patchouli:smelting",
       "recipe": "pamhc2foodextended:cookedtofabbititem_forge",
       "anchor": "lookup_recipe_pamhc2foodextended_cookedtofabbititem_forge",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)"
     },
     {
       "type": "patchouli:kn_cooking",
       "heading": "Cooked Tofabbit",
-      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "body": "Cold Sweat: no temperature effect (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_pamhc2foodextended_cookedtofabbititem_smoker",
       "input": "pamhc2foodextended:rawtofabbititem",
@@ -34,7 +43,7 @@
     {
       "type": "patchouli:kn_cooking",
       "heading": "Cooked Tofabbit",
-      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "body": "Cold Sweat: no temperature effect (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_pamhc2foodextended_cookedtofaconitem_campfire",
       "input": "pamhc2foodextended:rawtofabbititem",
@@ -45,21 +54,21 @@
       "type": "patchouli:campfire",
       "recipe": "pamhc2foodextended:cookedtofabbititem_campfire",
       "anchor": "catalog_pamhc2foodextended_cookedtofabbititem_campfire",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "pamhc2foodextended:cookedtofabbititem_campfire"
     },
     {
       "type": "patchouli:smoking",
       "recipe": "pamhc2foodextended:cookedtofabbititem_smoker",
       "anchor": "catalog_pamhc2foodextended_cookedtofabbititem_smoker",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "pamhc2foodextended:cookedtofabbititem_smoker"
     },
     {
       "type": "patchouli:campfire",
       "recipe": "pamhc2foodextended:cookedtofaconitem_campfire",
       "anchor": "catalog_pamhc2foodextended_cookedtofaconitem_campfire",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "pamhc2foodextended:cookedtofaconitem_campfire"
     }
   ],

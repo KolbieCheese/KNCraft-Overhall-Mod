@@ -1,7 +1,7 @@
 {
   "name": "Macaw's Stairs",
-  "parent": "patchouli:recipes",
-  "description": "Macaw's Stairs equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "parent": "patchouli:recipes/group_building",
+  "description": "Macaw's Stairs equipment, materials and crafting. Food and drinks are in Cook Book.$(br2)Type an item name to search this list. Backspace clears your search.",
   "icon": "mcwstairs:acacia_balcony",
   "sortnum": 0
 }

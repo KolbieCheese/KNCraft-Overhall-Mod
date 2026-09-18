@@ -1,6 +1,6 @@
 {
   "name": "Hot Tea",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/warm",
   "icon": "pamhc2crops:hotteaitem",
   "priority": false,
   "sortnum": 0,
@@ -19,7 +19,7 @@
       "type": "patchouli:smelting",
       "recipe": "pamhc2crops:hotteaitem_forge",
       "anchor": "lookup_recipe_pamhc2crops_hotteaitem_forge",
-      "text": "Cold Sweat: warms +0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)"
+      "text": "Cold Sweat: warms +0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)"
     },
     {
       "type": "patchouli:kn_cooking",
@@ -34,24 +34,24 @@
     {
       "type": "patchouli:kn_value",
       "heading": "Cold Sweat effect",
-      "body": "Pack default: +0.2 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "body": "Pack default: +0.2 base temperature for 60 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
       "anchor": "kncraft_thermal_effect",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)",
       "reference": "food/pamhc2crops:hotteaitem",
-      "fallback": "Pack default: +0.2 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence."
+      "fallback": "Pack default: +0.2 base temperature for 60 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence."
     },
     {
       "type": "patchouli:campfire",
       "recipe": "pamhc2crops:hotteaitem_campfire",
       "anchor": "catalog_pamhc2crops_hotteaitem_campfire",
-      "text": "Cold Sweat: warms +0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: warms +0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)",
       "kncraft_recipe": "pamhc2crops:hotteaitem_campfire"
     },
     {
       "type": "patchouli:smoking",
       "recipe": "pamhc2crops:hotteaitem_smoker",
       "anchor": "catalog_pamhc2crops_hotteaitem_smoker",
-      "text": "Cold Sweat: warms +0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: warms +0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)",
       "kncraft_recipe": "pamhc2crops:hotteaitem_smoker"
     }
   ],

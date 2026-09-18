@@ -1,0 +1,7 @@
+{
+  "name": "Building & Materials",
+  "parent": "patchouli:recipes",
+  "description": "Choose a mod to view its recipes. Food and drink recipes are in Cook Book.",
+  "icon": "minecraft:bricks",
+  "sortnum": 0
+}

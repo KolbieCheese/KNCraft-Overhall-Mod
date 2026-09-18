@@ -231,7 +231,7 @@
     {
       "type": "patchouli:kn_text",
       "heading": "Carry climate provisions",
-      "body": "Pack defaults: soups and stews warm for 90 seconds; hot drinks for 60. Smoothies and frozen desserts cool for 60; juices, yogurt and salads for 30. Selected cooked meals warm gently for 60. Read each Cook Book recipe for strength and current server values.",
+      "body": "Thermal food changes base temperature. Varied ingredients and prepared components earn modest bonuses; tools, containers and repeats do not count. Only one KNCraft meal effect is active: the newest replaces it. Neutral food does not cancel it. See Cook Book for exact values.",
       "anchor": "kncraft_meals",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
     },

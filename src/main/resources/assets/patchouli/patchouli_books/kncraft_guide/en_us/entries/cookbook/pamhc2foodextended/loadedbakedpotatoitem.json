@@ -1,6 +1,6 @@
 {
   "name": "Loaded Baked Potato",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/warm",
   "icon": "pamhc2foodextended:loadedbakedpotatoitem",
   "priority": false,
   "sortnum": 0,
@@ -9,13 +9,13 @@
       "type": "patchouli:crafting",
       "recipe": "pamhc2foodextended:loadedbakedpotatoitem",
       "anchor": "lookup_recipe_pamhc2foodextended_loadedbakedpotatoitem",
-      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)"
+      "text": "Cold Sweat: warms +0.15 base temperature for 75s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)"
     },
     {
       "type": "patchouli:kn_value",
       "heading": "Cold Sweat effect",
-      "body": "Pack default: +0.1 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
-      "fallback": "Pack default: +0.1 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "body": "Pack default: +0.15 base temperature for 75 seconds. Prepared recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "fallback": "Pack default: +0.15 base temperature for 75 seconds. Prepared recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
       "reference": "food/pamhc2foodextended:loadedbakedpotatoitem",
       "anchor": "kncraft_thermal_effect",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"

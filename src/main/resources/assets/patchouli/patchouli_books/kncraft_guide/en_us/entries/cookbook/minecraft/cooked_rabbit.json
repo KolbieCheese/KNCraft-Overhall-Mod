@@ -1,6 +1,6 @@
 {
   "name": "Cooked Rabbit",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/warm",
   "icon": "minecraft:cooked_rabbit",
   "sortnum": 0,
   "pages": [
@@ -8,14 +8,14 @@
       "type": "patchouli:smelting",
       "recipe": "minecraft:cooked_rabbit",
       "anchor": "catalog_minecraft_cooked_rabbit",
-      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)",
       "kncraft_recipe": "minecraft:cooked_rabbit"
     },
     {
       "type": "patchouli:kn_value",
       "heading": "Cold Sweat effect",
-      "body": "Pack default: +0.1 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
-      "fallback": "Pack default: +0.1 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "body": "Pack default: +0.1 base temperature for 60 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "fallback": "Pack default: +0.1 base temperature for 60 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
       "reference": "food/minecraft:cooked_rabbit",
       "anchor": "kncraft_thermal_effect",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
@@ -24,14 +24,14 @@
       "type": "patchouli:campfire",
       "recipe": "minecraft:cooked_rabbit_from_campfire_cooking",
       "anchor": "catalog_minecraft_cooked_rabbit_from_campfire_cooking",
-      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)",
       "kncraft_recipe": "minecraft:cooked_rabbit_from_campfire_cooking"
     },
     {
       "type": "patchouli:smoking",
       "recipe": "minecraft:cooked_rabbit_from_smoking",
       "anchor": "catalog_minecraft_cooked_rabbit_from_smoking",
-      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: warms +0.1 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)",
       "kncraft_recipe": "minecraft:cooked_rabbit_from_smoking"
     }
   ],

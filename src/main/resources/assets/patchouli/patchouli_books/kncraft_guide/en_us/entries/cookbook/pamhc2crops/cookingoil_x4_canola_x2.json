@@ -1,6 +1,6 @@
 {
   "name": "Cooking Oil",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/neutral",
   "icon": "pamhc2foodcore:cookingoilitem",
   "priority": false,
   "sortnum": 0,
@@ -9,19 +9,28 @@
       "type": "patchouli:crafting",
       "recipe": "pamhc2crops:cookingoil_x4_canola_x2",
       "anchor": "lookup_recipe_pamhc2crops_cookingoil_x4_canola_x2",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)"
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "fallback": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "reference": "food/pamhc2foodcore:cookingoilitem",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "pamhc2foodcore:cookingoilitem_x2_nuts",
       "anchor": "lookup_recipe_pamhc2foodcore_cookingoilitem_x2_nuts",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "pamhc2foodcore:cookingoilitem_x2_vegetables",
       "anchor": "lookup_recipe_pamhc2foodcore_cookingoilitem_x2_vegetables",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)"
     }
   ],
   "extra_recipe_mappings": {}

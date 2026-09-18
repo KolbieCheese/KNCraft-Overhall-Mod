@@ -1,6 +1,6 @@
 {
   "name": "Jackfruit Juice",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/cold",
   "icon": "pamhc2foodextended:jackfruitjuiceitem",
   "priority": false,
   "sortnum": 0,
@@ -9,13 +9,13 @@
       "type": "patchouli:crafting",
       "recipe": "pamhc2foodextended:jackfruitjuiceitem",
       "anchor": "lookup_recipe_pamhc2foodextended_jackfruitjuiceitem",
-      "text": "Cold Sweat: cools -0.1 base temperature for 30s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)"
+      "text": "Cold Sweat: cools -0.1 base temperature for 30s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/cold)Food index$(/l)"
     },
     {
       "type": "patchouli:kn_value",
       "heading": "Cold Sweat effect",
-      "body": "Pack default: -0.1 base temperature for 30 seconds. Cools while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
-      "fallback": "Pack default: -0.1 base temperature for 30 seconds. Cools while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "body": "Pack default: -0.1 base temperature for 30 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "fallback": "Pack default: -0.1 base temperature for 30 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
       "reference": "food/pamhc2foodextended:jackfruitjuiceitem",
       "anchor": "kncraft_thermal_effect",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"

@@ -1,6 +1,7 @@
-Forge 47.4.0 / Java 17 / marked isolated fixture / 2026-09-17
-[21:35:01] [Server thread/INFO] [STDOUT/]: [com.beautyinblocks.expansiontest.ThermalFoodChecks:run:71]: THERMAL CATALOG PASSED: 278 foods; shared effect, reload, switches, exclusions, explicit and native overrides
-[21:35:02] [Server thread/INFO] [STDOUT/]: [com.beautyinblocks.expansiontest.ReferenceChecks:guideCommand:105]: GUIDE COMMAND PASSED: permission zero, received/lost guide, empty-slot placement, repeated and offhand copies, full inventory, retry, alias, disabled automatic gift, other book and console rejection
-[21:35:02] [Server thread/INFO] [minecraft/MinecraftServer]: REFERENCE CHECKS PASSED
-[21:35:03] [Server thread/INFO] [minecraft/MinecraftServer]: COHESION CHECKS PASSED
-[21:35:04] [Server thread/INFO] [minecraft/MinecraftServer]: EXPANSION CHECKS PASSED
+Forge 47.4.0 / Java 17 / marked isolated fixture / 1.0.7 / 2026-09-17
+[22:21:24] [Server thread/INFO] [STDOUT/]: [com.beautyinblocks.expansiontest.ThermalFoodChecks:run:76]: THERMAL CATALOG PASSED: 278 foods; recipe-tier strength/duration, neutral food, shared effect, reload, switches, exclusions, explicit and native overrides
+[22:21:25] [Server thread/INFO] [STDOUT/]: [com.beautyinblocks.expansiontest.ReferenceChecks:bookResources:42]: GUIDE RESOURCES PASSED: migrated registry, resource-backed constructor, unrelated external book and legacy opt-out
+[22:21:25] [Server thread/INFO] [STDOUT/]: [com.beautyinblocks.expansiontest.ReferenceChecks:guideCommand:120]: GUIDE COMMAND PASSED: permission zero, received/lost guide, empty-slot placement, repeated and offhand copies, full inventory, retry, alias, disabled automatic gift, other book and console rejection
+[22:21:25] [Server thread/INFO] [minecraft/MinecraftServer]: REFERENCE CHECKS PASSED
+[22:21:26] [Server thread/INFO] [minecraft/MinecraftServer]: COHESION CHECKS PASSED
+[22:21:27] [Server thread/INFO] [minecraft/MinecraftServer]: EXPANSION CHECKS PASSED

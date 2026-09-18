@@ -1,6 +1,6 @@
 {
   "name": "Chai Tea",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/warm",
   "icon": "pamhc2foodextended:chaiteaitem",
   "priority": false,
   "sortnum": 0,
@@ -9,13 +9,13 @@
       "type": "patchouli:crafting",
       "recipe": "pamhc2foodextended:chaiteaitem",
       "anchor": "lookup_recipe_pamhc2foodextended_chaiteaitem",
-      "text": "Cold Sweat: warms +0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)"
+      "text": "Cold Sweat: warms +0.25 base temperature for 75s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)"
     },
     {
       "type": "patchouli:kn_value",
       "heading": "Cold Sweat effect",
-      "body": "Pack default: +0.2 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
-      "fallback": "Pack default: +0.2 base temperature for 60 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "body": "Pack default: +0.25 base temperature for 75 seconds. Prepared recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "fallback": "Pack default: +0.25 base temperature for 75 seconds. Prepared recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
       "reference": "food/pamhc2foodextended:chaiteaitem",
       "anchor": "kncraft_thermal_effect",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"

@@ -1,6 +1,6 @@
 {
   "name": "Cook Book",
-  "description": "Food, drinks and edible ingredients from across the pack. Affected recipes show Cold Sweat temperature effects; turn pages for alternatives and server values.",
+  "description": "Choose Warm, Cold or Neutral Food by its pack-default temperature effect. More involved thermal recipes earn modest bonuses.$(br2)Each item lists its recipes and current server effects. Within a category, type an item name to search.",
   "icon": "minecraft:bowl",
   "sortnum": 3
 }

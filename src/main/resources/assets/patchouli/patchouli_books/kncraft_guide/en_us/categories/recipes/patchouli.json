@@ -1,7 +1,7 @@
 {
   "name": "Guide Books",
-  "parent": "patchouli:recipes",
-  "description": "Guide Books equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "parent": "patchouli:recipes/group_books",
+  "description": "Guide Books equipment, materials and crafting. Food and drinks are in Cook Book.$(br2)Type an item name to search this list. Backspace clears your search.",
   "icon": "patchouli:guide_book",
   "sortnum": 0
 }

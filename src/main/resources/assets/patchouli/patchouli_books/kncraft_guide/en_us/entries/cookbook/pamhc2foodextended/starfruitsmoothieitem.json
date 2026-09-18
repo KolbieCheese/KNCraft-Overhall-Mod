@@ -1,6 +1,6 @@
 {
   "name": "Starfruit Smoothie",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/cold",
   "icon": "pamhc2foodextended:starfruitsmoothieitem",
   "priority": false,
   "sortnum": 0,
@@ -9,13 +9,13 @@
       "type": "patchouli:crafting",
       "recipe": "pamhc2foodextended:starfruitsmoothieitem",
       "anchor": "lookup_recipe_pamhc2foodextended_starfruitsmoothieitem",
-      "text": "Cold Sweat: cools -0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)"
+      "text": "Cold Sweat: cools -0.2 base temperature for 60s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/cold)Food index$(/l)"
     },
     {
       "type": "patchouli:kn_value",
       "heading": "Cold Sweat effect",
-      "body": "Pack default: -0.2 base temperature for 60 seconds. Cools while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
-      "fallback": "Pack default: -0.2 base temperature for 60 seconds. Cools while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "body": "Pack default: -0.2 base temperature for 60 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "fallback": "Pack default: -0.2 base temperature for 60 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
       "reference": "food/pamhc2foodextended:starfruitsmoothieitem",
       "anchor": "kncraft_thermal_effect",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"

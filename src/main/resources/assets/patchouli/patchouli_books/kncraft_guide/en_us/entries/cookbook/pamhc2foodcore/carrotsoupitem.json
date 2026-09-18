@@ -1,6 +1,6 @@
 {
   "name": "Carrot Soup",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/warm",
   "icon": "pamhc2foodcore:carrotsoupitem",
   "priority": false,
   "sortnum": 0,
@@ -9,16 +9,16 @@
       "type": "patchouli:crafting",
       "recipe": "pamhc2foodcore:carrotsoupitem",
       "anchor": "lookup_recipe_pamhc2foodcore_carrotsoupitem",
-      "text": "Cold Sweat: warms +0.2 base temperature for 90s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook)Index$(/l)"
+      "text": "Cold Sweat: warms +0.2 base temperature for 90s (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/warm)Food index$(/l)"
     },
     {
       "type": "patchouli:kn_value",
       "heading": "Cold Sweat effect",
-      "body": "Pack default: +0.2 base temperature for 90 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence.",
+      "body": "Pack default: +0.2 base temperature for 90 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence.",
       "anchor": "kncraft_thermal_effect",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/food)Chapter$(/l)",
       "reference": "food/pamhc2foodcore:carrotsoupitem",
-      "fallback": "Pack default: +0.2 base temperature for 90 seconds. Warms while active. The latest thermal meal replaces the previous effect. Server settings take precedence."
+      "fallback": "Pack default: +0.2 base temperature for 90 seconds. Simple recipe tier. The latest thermal meal replaces the previous effect. Server settings take precedence."
     }
   ],
   "extra_recipe_mappings": {}

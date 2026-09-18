@@ -1,6 +1,6 @@
 {
   "name": "Roasted Mushroom",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/neutral",
   "icon": "pamhc2crops:roastedmushroomitem",
   "priority": false,
   "sortnum": 0,
@@ -8,7 +8,7 @@
     {
       "type": "patchouli:kn_cooking",
       "heading": "Roasted Mushroom",
-      "body": "Campfire. Cook for 30 seconds. Makes 1.",
+      "body": "Cold Sweat: no temperature effect (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_pamhc2crops_roastedmushroomitem_campfire",
       "input": "tag:forge:mushrooms",
@@ -16,15 +16,24 @@
       "output": "pamhc2crops:roastedmushroomitem"
     },
     {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "fallback": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "reference": "food/pamhc2crops:roastedmushroomitem",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
+    },
+    {
       "type": "patchouli:smelting",
       "recipe": "pamhc2crops:roastedmushroomitem_forge",
       "anchor": "lookup_recipe_pamhc2crops_roastedmushroomitem_forge",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)"
     },
     {
       "type": "patchouli:kn_cooking",
       "heading": "Roasted Mushroom",
-      "body": "Smoker. Cook for 5 seconds. Makes 1.",
+      "body": "Cold Sweat: no temperature effect (pack default). Use JEI for current machine ingredients and time.",
       "navigation": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)",
       "anchor": "lookup_recipe_pamhc2crops_roastedmushroomitem_smoker",
       "input": "tag:forge:mushrooms",
@@ -35,14 +44,14 @@
       "type": "patchouli:campfire",
       "recipe": "pamhc2crops:roastedmushroomitem_campfire",
       "anchor": "catalog_pamhc2crops_roastedmushroomitem_campfire",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "pamhc2crops:roastedmushroomitem_campfire"
     },
     {
       "type": "patchouli:smoking",
       "recipe": "pamhc2crops:roastedmushroomitem_smoker",
       "anchor": "catalog_pamhc2crops_roastedmushroomitem_smoker",
-      "text": "$(l:patchouli:cookbook)Index$(/l)",
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)",
       "kncraft_recipe": "pamhc2crops:roastedmushroomitem_smoker"
     }
   ],

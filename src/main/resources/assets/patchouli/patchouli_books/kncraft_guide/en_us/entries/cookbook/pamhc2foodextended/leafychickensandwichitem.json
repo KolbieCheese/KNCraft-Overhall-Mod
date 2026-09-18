@@ -1,6 +1,6 @@
 {
   "name": "Leafy Chicken Sandwich",
-  "category": "patchouli:cookbook",
+  "category": "patchouli:cookbook/neutral",
   "icon": "pamhc2foodextended:leafychickensandwichitem",
   "priority": false,
   "sortnum": 0,
@@ -9,7 +9,16 @@
       "type": "patchouli:crafting",
       "recipe": "pamhc2foodextended:leafychickensandwichitem",
       "anchor": "lookup_recipe_pamhc2foodextended_leafychickensandwichitem",
-      "text": "$(l:patchouli:cookbook)Cook Book$(/l) $(l:patchouli:chapters/food#kitchen)Guide$(/l)"
+      "text": "Cold Sweat: no temperature effect (pack default).$(br)Turn pages for server values.$(br)$(l:patchouli:cookbook/neutral)Food index$(/l)"
+    },
+    {
+      "type": "patchouli:kn_value",
+      "heading": "Cold Sweat effect",
+      "body": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "fallback": "Pack default: no temperature effect. Eating this does not cancel an active thermal meal. Server settings can add or change effects; current values are shown below.",
+      "reference": "food/pamhc2foodextended:leafychickensandwichitem",
+      "anchor": "kncraft_thermal_effect",
+      "navigation": "$(l:patchouli:cookbook)Cook Book$(/l)"
     }
   ],
   "extra_recipe_mappings": {}

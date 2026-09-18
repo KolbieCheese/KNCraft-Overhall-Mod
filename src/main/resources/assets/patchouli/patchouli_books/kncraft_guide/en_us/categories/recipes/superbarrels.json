@@ -1,7 +1,7 @@
 {
   "name": "Super Barrels",
-  "parent": "patchouli:recipes",
-  "description": "Super Barrels equipment, materials and crafting. Food and drink recipes are in Cook Book.",
+  "parent": "patchouli:recipes/group_storage",
+  "description": "Super Barrels equipment, materials and crafting. Food and drinks are in Cook Book.$(br2)Type an item name to search this list. Backspace clears your search.",
   "icon": "superbarrels:copper_chest",
   "sortnum": 0
 }
