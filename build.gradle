@@ -44,7 +44,7 @@ tasks.register('testRecipeTiers', Exec) {
     commandLine 'python', 'tools/test_thermal_complexity.py'
 }
 tasks.named('check') { dependsOn 'validateResources' }
-['depth', 'tents', 'performance', 'cohesion', 'expansion'].each { module ->
+['depth', 'tents', 'performance', 'cohesion', 'expansion', 'guideclient'].each { module ->
     def source = sourceSets.create(module + 'Harness') {
         java.srcDir "src/gametest/${module}/java"
         resources.srcDir "src/gametest/${module}/resources"

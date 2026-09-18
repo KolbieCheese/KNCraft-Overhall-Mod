@@ -8,6 +8,16 @@ in Reference-Validation.md. No expedition equipment profiles will be supplied.
 
 ## What is actually missing
 
+Updated 18 September 2026: five tent photographs now illustrate both campsites,
+the furnished interior and the hearth off/on comparison. Native HUD close-ups make
+the cold-versus-conditioned example readable. The Symbiont weak point and Bowels
+entrance are complete as written instructions at the user's request; no encounter
+photographs are still required. The remaining checklist has **four groups / seven
+captures**: packed Tent ID (1), Deflector (1), Depths (2), and kitchen/recipes (3).
+The tent photographs also complete the optional tent-climate sequence.
+
+The following paragraph records the earlier 17 September inventory:
+
 The original guide had seven screenshot-request sections. The supplied BlueMap
 photo now fills its request, showing **three Wither Storm markers**. Its original JPEG
 is preserved with a native overview and closer view. The six remaining groups need
@@ -28,28 +38,27 @@ Guide anchor: `chapters/intro#shot_map`.
 - [x] Supplied **Photo 1.jpg**: the three-storm BlueMap example is integrated.
   No retake is required for this checklist. It is an example rather than a live count.
 
-### Wither Storm: Symbiont opening — 2 captures
+### Wither Storm: Symbiont opening — completed as text
 
 Guide anchor: `chapters/wither#shot_symbiont`.
 
-- [ ] `symbiont_exposed_back.png`: The weakened posture from behind, with the purple
+- Cancelled by user, 18 September: `symbiont_exposed_back.png`. Original request: the weakened posture from behind, with the purple
   weak point large and unobstructed. Prefer a clean scene without chat.
-- [ ] `symbiont_encounter_hud.png`: The same encounter with the boss bar visible.
+- Cancelled by user, 18 September: `symbiont_encounter_hud.png`. Original request: the same encounter with the boss bar visible.
   Record the nearby player count and, if available, the actual maximum-health value
   separately. A normal percentage bar alone does not establish maximum-health
   scaling, so the eventual caption must not claim that it does.
 
-Keep these images in the Wither Storm section; they should not introduce spoilers
-to the Aether or Depths travel pages. A separate test world is suitable for staging
-the boss images without disrupting a normal survival session.
+The finished Wither Storm chapter explains the weakened posture, moving behind the
+Symbiont, striking the exposed purple back and resuming evasive play when it recovers.
 
-### Wither Storm: Find the entrance — 2 captures
+### Wither Storm: Find the entrance — completed as text
 
 Guide anchor: `chapters/wither#shot_bowels`.
 
-- [ ] `storm_entrance_overview.png`: Show the complete open entrance above the main
+- Cancelled by user, 18 September: `storm_entrance_overview.png`. Original request: show the complete open entrance above the main
   head at a useful distance, with enough of the head to establish its location.
-- [ ] `storm_entrance_approach.png`: Show a clear approach/aiming position. Keep the
+- Cancelled by user, 18 September: `storm_entrance_approach.png`. Original request: show a clear approach/aiming position. Keep the
   opening identifiable, chat hidden and motion blur off. Include the crosshair if
   it helps explain the aim; the caption should describe the demonstrated position
   without promising immunity to the encounter's attacks.
@@ -73,16 +82,17 @@ Guide anchor: `chapters/depths#shot_depths`.
   recognizable footing and a route forward. Keep bosses and major story reveals
   out of frame. No temperature HUD is needed for this page.
 
-### Shelter, storage and travel: One camp, two locations — 3 captures
+### Shelter, storage and travel: One camp, two locations — 1 capture left
 
 Guide anchor: `chapters/travel#shot_tent`.
 
-- [ ] `tent_interior_before_move.png`: A furnished interior with storage, a compact
+- [x] `TentLocation1Interior.png`, with `TentLocation1Exterior.png`: A furnished interior with storage, a compact
   kitchen, temperature supplies, and a clear door. Use a layout with recognizable
   landmarks so the second interior picture can be compared easily.
 - [ ] `tent_packed_id.png`: Hover the packed tent item with its Tent ID visible.
   Keep the tooltip and relevant inventory area readable.
-- [ ] `tent_interior_after_move.png`: Pitch that same tent elsewhere and photograph
+- [x] `TentLocation2InteriorHearthOff.png` and `TentLocation2InteriorHearthOn.png`,
+  with `TentLocation2Exterior.png`. Original request: pitch that same tent elsewhere and photograph
   the same interior from approximately the same viewpoint. Retain the arrangement
   so readers can see what survived packing and moving. Note the new campsite
   separately; an optional exterior picture can establish the new location.
@@ -108,7 +118,8 @@ meal's active temperature effect can also serve the optional list below.
 These are new suggestions, not additional old placeholders. Prioritize the tent
 climate comparison because it explains the update's most distinctive behavior.
 
-- [ ] **Tent climate:** Outside temperature and then the interior temperature before
+- [x] **Tent climate:** The supplied second-campsite exterior, hearth-off and hearth-on
+  photos are integrated. Original request: outside temperature and then the interior temperature before
   conditioning, followed by the powered hearth warming the occupant. Keep the
   temperature HUD visible and conditions close together in time. Record
   `/kncraft camp` output separately for the caption; a clean picture and a diagnostic
@@ -136,7 +147,7 @@ still goes to the magnet. This is optional and not required to finish the book.
    tooltip, and optional climate/waterskin/sewing sequence during the same session.
 2. Capture the Deflector. The BlueMap image is already received.
 3. Capture the inactive Depths gateway and arrival landscape.
-4. Leave the four encounter images for a prepared Wither Storm session.
+4. No Wither Storm encounter photographs are needed; those instructions are complete as text.
 
 The installed screenshot binding is **F2**. Originals are saved under
 `C:\Users\maste\curseforge\minecraft\Instances\KNCraft\screenshots`.

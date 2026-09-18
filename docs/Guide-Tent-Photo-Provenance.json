@@ -1,0 +1,43 @@
+{
+  "received": "2026-09-18",
+  "source_directory": "C:\\Users\\maste\\curseforge\\minecraft\\Instances\\KNCraft\\screenshots",
+  "treatment": "Original PNG bytes preserved. Patchouli scales the full frame and uses native UVs for the HUD detail; no retouching or invented imagery.",
+  "caption_scope": "User-labelled campsite and hearth sequence; visible readings are examples, not fixed biome values or proof of a packed Tent ID.",
+  "photos": [
+    {
+      "source": "TentLocation1Exterior.png",
+      "resource": "assets/kncraft/textures/guide/capture_tent_location_1_exterior.png",
+      "sha256": "70c317844ac53a95d614a713f4f8706be5739e558c3ec1955ac9deb25e5e3598",
+      "width": 3840,
+      "height": 2054
+    },
+    {
+      "source": "TentLocation1Interior.png",
+      "resource": "assets/kncraft/textures/guide/capture_tent_location_1_interior.png",
+      "sha256": "5f1aa56b1204283bc0041089b3557bdf6acabca50ac5649453cdbdce2006cb76",
+      "width": 3840,
+      "height": 2054
+    },
+    {
+      "source": "TentLocation2Exterior.png",
+      "resource": "assets/kncraft/textures/guide/capture_tent_location_2_exterior.png",
+      "sha256": "1021fd6bb82a601b30fb52ce5708674cb08bdb9c3b40cce2b6ba9b49b8bed3f3",
+      "width": 3840,
+      "height": 2054
+    },
+    {
+      "source": "TentLocation2InteriorHearthOff.png",
+      "resource": "assets/kncraft/textures/guide/capture_tent_location_2_hearth_off.png",
+      "sha256": "9574f185bf367a0b72239ce2f517beeebb574c85d4b4951b72d603c5e4093927",
+      "width": 3840,
+      "height": 2054
+    },
+    {
+      "source": "TentLocation2InteriorHearthOn.png",
+      "resource": "assets/kncraft/textures/guide/capture_tent_location_2_hearth_on.png",
+      "sha256": "257db85b4141513fedcb5858734d74be2c25555f0cf9885f964cb51193710b46",
+      "width": 3840,
+      "height": 2054
+    }
+  ]
+}

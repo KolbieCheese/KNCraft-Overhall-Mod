@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
 
 public final class IntegrationMixinPlugin implements IMixinConfigPlugin {
     public boolean shouldApplyMixin(String target, String mixin) {
-        if (mixin.endsWith("GuideBookResourcesMixin")) return Compatibility.exact("patchouli");
+        if (mixin.endsWith("GuideBookResourcesMixin") || mixin.endsWith("GuideEntryListMixin")) return Compatibility.exact("patchouli");
         if (mixin.endsWith("ReservedFoodMixin")) return Compatibility.exact("sophisticatedcore");
         if (mixin.endsWith("AltarRepairMixin")) return Compatibility.exact("aether");
         if (mixin.endsWith("EnchantmentAttributesMixin")) return Compatibility.exact("more_enchantments");

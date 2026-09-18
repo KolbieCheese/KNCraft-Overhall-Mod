@@ -124,9 +124,72 @@
     {
       "type": "patchouli:kn_text",
       "heading": "One camp, two locations",
-      "body": "A tent keeps its interior when packed and pitched again. Check the packed item's Tent ID so you move the same camp. Keep the door clear and inspect the new campsite climate after moving; furniture persistence does not guarantee a comfortable temperature.",
+      "body": "Pack through the tent door with a Tent Mallet, then pitch it at the next campsite. Check the packed item's Tent ID to keep the same interior. Your furniture stays with the tent, but its ambient climate follows the new outdoor entrance.",
       "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
       "anchor": "shot_tent"
+    },
+    {
+      "type": "patchouli:kn_tent_image",
+      "heading": "First campsite",
+      "body": "The first tent stands in open grassland. Its doorway leads to the furnished interior shown next.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "kncraft_tent_location_1_exterior",
+      "picture": "kncraft:textures/guide/capture_tent_location_1_exterior.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_tent_image",
+      "heading": "Inside the first camp",
+      "body": "Storage, workstations and a central hearth make a portable camp. Leave a clear path to the door.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "kncraft_tent_location_1_interior",
+      "picture": "kncraft:textures/guide/capture_tent_location_1_interior.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_tent_image",
+      "heading": "A colder campsite",
+      "body": "At the snowy second campsite, frost covers the screen. Moving a tent also changes its source climate.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "kncraft_tent_location_2_exterior",
+      "picture": "kncraft:textures/guide/capture_tent_location_2_exterior.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_tent_image",
+      "heading": "Inside, hearth off",
+      "body": "The furnishings remain, but the cold persists inside. The tent shell alone does not provide a moderate climate.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "kncraft_tent_location_2_hearth_off",
+      "picture": "kncraft:textures/guide/capture_tent_location_2_hearth_off.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_tent_image",
+      "heading": "Inside, hearth on",
+      "body": "The active hearth warms this camp. Fuel, warm-up time and a clear path for its effect still matter.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "kncraft_tent_location_2_hearth_on",
+      "picture": "kncraft:textures/guide/capture_tent_location_2_hearth_on.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_tent_hud",
+      "heading": "Cold camp: hearth off",
+      "body": "The environment readout at the right shows 22 in this capture; the blue body display and frost show cold stress. These are different readings. Your temperatures depend on the campsite and conditions.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "kncraft_tent_hud_off",
+      "picture": "kncraft:textures/guide/capture_tent_location_2_hearth_off.png",
+      "credit": "KNCraft"
+    },
+    {
+      "type": "patchouli:kn_tent_hud",
+      "heading": "Cold camp: hearth on",
+      "body": "After the hearth runs, the environment readout shows 61 and the central body display returns to 0 in this example. Give the hearth time to work. These readings are examples, not a guaranteed target temperature.",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+      "anchor": "kncraft_tent_hud_on",
+      "picture": "kncraft:textures/guide/capture_tent_location_2_hearth_on.png",
+      "credit": "KNCraft"
     },
     {
       "type": "patchouli:kn_text",

@@ -77,7 +77,7 @@ def main():
     if args.jar:
         with zipfile.ZipFile(args.jar) as jar:
             names = jar.namelist()
-            forbidden = ['DepthHeightTests', 'DepthPortalChecks', 'TentTests', 'PerformanceTests', 'CohesionChecks', 'ExpansionChecks', 'TentClimateChecks', 'PolishChecks', 'ReferenceChecks', 'ThermalFoodChecks', 'GuideCatalogChecks', 'reference/', 'libs/']
+            forbidden = ['DepthHeightTests', 'DepthPortalChecks', 'TentTests', 'PerformanceTests', 'CohesionChecks', 'ExpansionChecks', 'TentClimateChecks', 'PolishChecks', 'ReferenceChecks', 'ThermalFoodChecks', 'GuideCatalogChecks', 'GuideLayoutChecks', 'reference/', 'libs/']
             assert not [n for n in names if any(token in n for token in forbidden)], 'Test/dependency payload in release'
             meta = jar.read('META-INF/mods.toml').decode()
             assert meta.count('[[mods]]') == 1 and 'modId="kncraft"' in meta

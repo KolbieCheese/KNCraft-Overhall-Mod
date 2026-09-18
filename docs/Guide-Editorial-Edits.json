@@ -511,6 +511,132 @@
           "anchor": "shot_bowels"
         }
       ]
+    },
+    {
+      "chapter": "travel",
+      "before": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "One camp, two locations",
+          "body": "A tent keeps its interior when packed and pitched again. Check the packed item's Tent ID so you move the same camp. Keep the door clear and inspect the new campsite climate after moving; furniture persistence does not guarantee a comfortable temperature.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+          "anchor": "shot_tent"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "One camp, two locations",
+          "body": "Pack through the tent door with a Tent Mallet, then pitch it at the next campsite. Check the packed item's Tent ID to keep the same interior. Your furniture stays with the tent, but its ambient climate follows the new outdoor entrance.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+          "anchor": "shot_tent"
+        },
+        {
+          "type": "patchouli:kn_tent_image",
+          "heading": "First campsite",
+          "body": "The first tent stands in open grassland. Its doorway leads to the furnished interior shown next.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+          "anchor": "kncraft_tent_location_1_exterior",
+          "picture": "kncraft:textures/guide/capture_tent_location_1_exterior.png",
+          "credit": "KNCraft"
+        },
+        {
+          "type": "patchouli:kn_tent_image",
+          "heading": "Inside the first camp",
+          "body": "Storage, workstations and a central hearth make a portable camp. Leave a clear path to the door.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+          "anchor": "kncraft_tent_location_1_interior",
+          "picture": "kncraft:textures/guide/capture_tent_location_1_interior.png",
+          "credit": "KNCraft"
+        },
+        {
+          "type": "patchouli:kn_tent_image",
+          "heading": "A colder campsite",
+          "body": "At the snowy second campsite, frost covers the screen. Moving a tent also changes its source climate.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+          "anchor": "kncraft_tent_location_2_exterior",
+          "picture": "kncraft:textures/guide/capture_tent_location_2_exterior.png",
+          "credit": "KNCraft"
+        },
+        {
+          "type": "patchouli:kn_tent_image",
+          "heading": "Inside, hearth off",
+          "body": "The furnishings remain, but the cold persists inside. The tent shell alone does not provide a moderate climate.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+          "anchor": "kncraft_tent_location_2_hearth_off",
+          "picture": "kncraft:textures/guide/capture_tent_location_2_hearth_off.png",
+          "credit": "KNCraft"
+        },
+        {
+          "type": "patchouli:kn_tent_image",
+          "heading": "Inside, hearth on",
+          "body": "The active hearth warms this camp. Fuel, warm-up time and a clear path for its effect still matter.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+          "anchor": "kncraft_tent_location_2_hearth_on",
+          "picture": "kncraft:textures/guide/capture_tent_location_2_hearth_on.png",
+          "credit": "KNCraft"
+        },
+        {
+          "type": "patchouli:kn_tent_hud",
+          "heading": "Cold camp: hearth off",
+          "body": "The environment readout at the right shows 22 in this capture; the blue body display and frost show cold stress. These are different readings. Your temperatures depend on the campsite and conditions.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+          "anchor": "kncraft_tent_hud_off",
+          "picture": "kncraft:textures/guide/capture_tent_location_2_hearth_off.png",
+          "credit": "KNCraft"
+        },
+        {
+          "type": "patchouli:kn_tent_hud",
+          "heading": "Cold camp: hearth on",
+          "body": "After the hearth runs, the environment readout shows 61 and the central body display returns to 0 in this example. Give the hearth time to work. These readings are examples, not a guaranteed target temperature.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/travel#travel_contents)Start$(/l)",
+          "anchor": "kncraft_tent_hud_on",
+          "picture": "kncraft:textures/guide/capture_tent_location_2_hearth_on.png",
+          "credit": "KNCraft"
+        }
+      ]
+    },
+    {
+      "chapter": "wither",
+      "before": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Symbiont opening",
+          "body": "Watch for the weakened posture, then look behind the Symbiont for its exposed purple weak point. Coordinate your attack window with nearby players. A boss bar shows remaining health; it does not by itself establish maximum-health scaling.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+          "anchor": "shot_symbiont"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Find the weak point",
+          "body": "Wait for the Symbiont to slump into its weakened posture. Move around behind it and aim at the exposed purple area on its back. Strike during this opening. When it recovers, return to dodging its spells and dealing with summoned enemies.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+          "anchor": "shot_symbiont"
+        }
+      ]
+    },
+    {
+      "chapter": "wither",
+      "before": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Find the entrance",
+          "body": "Look for the open entrance above the main head. Identify the whole opening before committing to an approach. Keep your group informed of its position; reaching the entrance does not make the approach safe from attacks.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+          "anchor": "shot_bowels"
+        }
+      ],
+      "after": [
+        {
+          "type": "patchouli:kn_text",
+          "heading": "Find the Bowels entrance",
+          "body": "Face the largest, central head and look above it for an open hole in the storm body. Wait until the opening is visible. Aim an Ender Pearl into the hole; a crossbow can launch it farther. Bring your Command Block tool and fall protection.",
+          "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/wither#wither_contents)Start$(/l)",
+          "anchor": "shot_bowels"
+        }
+      ]
     }
   ]
 }

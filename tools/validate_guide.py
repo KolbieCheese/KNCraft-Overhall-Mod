@@ -33,6 +33,9 @@ def validate():
     assert references == set(keys), 'Unreachable server reference key'
     photo = json.loads((ROOT / 'docs/Guide-Photo-Provenance.json').read_text())
     assert hashlib.sha256((RES / photo['resource']).read_bytes()).hexdigest() == photo['sha256'], 'Original BlueMap image changed'
+    tent_photos = json.loads((ROOT / 'docs/Guide-Tent-Photo-Provenance.json').read_text())
+    for photo in tent_photos['photos']:
+        assert hashlib.sha256((RES / photo['resource']).read_bytes()).hexdigest() == photo['sha256'], 'Original tent image changed: ' + photo['source']
     backlog = json.loads((ROOT / 'docs/Guide-Capture-Backlog.json').read_text())
     pending = [row for row in backlog['groups'] if row['status'] == 'pending']
     report = {'missing_images': [], 'broken_guide_links': [], 'player_facing_placeholders': [], 'local_texture_references': len(pictures), 'live_reference_keys': len(keys),

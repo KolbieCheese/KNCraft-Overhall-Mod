@@ -2,8 +2,8 @@
   "missing_images": [],
   "broken_guide_links": [],
   "player_facing_placeholders": [],
-  "local_texture_references": 42,
+  "local_texture_references": 47,
   "live_reference_keys": 1219,
-  "pending_photo_groups": 6,
-  "minimum_pending_captures": 13
+  "pending_photo_groups": 4,
+  "minimum_pending_captures": 7
 }

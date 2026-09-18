@@ -12,15 +12,17 @@
       "chapter": "wither",
       "anchor": "shot_symbiont",
       "subject": "Symbiont exposed back and encounter HUD",
-      "status": "pending",
-      "minimum_captures": 2
+      "status": "text_complete",
+      "minimum_captures": 0,
+      "resolution": "User requested written instructions instead of photographs, 2026-09-18."
     },
     {
       "chapter": "wither",
       "anchor": "shot_bowels",
       "subject": "Storm entrance overview and approach",
-      "status": "pending",
-      "minimum_captures": 2
+      "status": "text_complete",
+      "minimum_captures": 0,
+      "resolution": "User requested written instructions instead of photographs, 2026-09-18."
     },
     {
       "chapter": "weather",
@@ -39,9 +41,17 @@
     {
       "chapter": "travel",
       "anchor": "shot_tent",
-      "subject": "Same tent before move, packed Tent ID, after move",
+      "subject": "Packed tent item with Tent ID visible",
       "status": "pending",
-      "minimum_captures": 3
+      "minimum_captures": 1,
+      "received": [
+        "TentLocation1Exterior.png",
+        "TentLocation1Interior.png",
+        "TentLocation2Exterior.png",
+        "TentLocation2InteriorHearthOff.png",
+        "TentLocation2InteriorHearthOn.png"
+      ],
+      "resolution": "Five campsite/interior/hearth photos integrated. Only the packed-item Tent ID detail remains optional to complete this group."
     },
     {
       "chapter": "food",
@@ -50,5 +60,8 @@
       "status": "pending",
       "minimum_captures": 3
     }
+  ],
+  "optional_received": [
+    "Tent climate: outside, inside with hearth off, inside with hearth on"
   ]
 }

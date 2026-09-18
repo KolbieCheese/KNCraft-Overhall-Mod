@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.9 - guide photographs and readable entry lists
+
+- Illustrate tent relocation and hearth operation with five supplied campsite photos.
+- Finish the Symbiont weak-point and Wither Storm entrance instructions as text;
+  these encounters no longer need photographs on the capture checklist.
+- Wrap full names throughout the Entry Index, Rules, recipe/food categories, search
+  results and history. Paginate by actual text height, with matching clickable rows.
+- Keep the KNCraft Guide Book on **1st Edition**.
+
 ## 1.0.8 - first publication edition
 
 - Display **1st Edition** on the KNCraft Guide Book while the modpack is prepared

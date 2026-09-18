@@ -284,6 +284,13 @@
     },
     {
       "type": "patchouli:kn_text",
+      "heading": "A camp in two climates",
+      "body": "See the $(l:patchouli:chapters/travel#shot_tent)tent photo sequence$(/l) for both campsites and the hearth off/on comparison. An enclosed tent allows the hearth to work; it still inherits the outdoor climate and needs conditioning in cold or hot surroundings.",
+      "anchor": "kncraft_tent_photos",
+      "navigation": "$(l:patchouli:guide)Book$(/l) $(l:patchouli:chapters/cold)Chapter$(/l)"
+    },
+    {
+      "type": "patchouli:kn_text",
       "heading": "A distant campsite",
       "body": "When the outside area is unloaded, the tent retains its last sampled outdoor temperature. It updates when that area loads again. Rain is not simulated falling inside the tent. If you entered while wet, your existing wetness still dries normally.",
       "anchor": "kncraft_unloaded_camp",

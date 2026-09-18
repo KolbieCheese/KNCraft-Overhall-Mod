@@ -5,13 +5,13 @@
   "files": {
     "entries/chapters/intro.json": "Expanded thermal meals and clear recipe navigation in existing chapters",
     "entries/chapters/food.json": "Expanded thermal meals and clear recipe navigation in existing chapters",
-    "entries/chapters/cold.json": "Expanded thermal meals and clear recipe navigation in existing chapters",
-    "entries/chapters/travel.json": "Integration pages inserted beside existing topics; original pages retained",
+    "entries/chapters/cold.json": "User-supplied tent photographs and completed written encounter instructions, 2026-09-18",
+    "entries/chapters/travel.json": "User-supplied tent photographs and completed written encounter instructions, 2026-09-18",
     "entries/chapters/explore.json": "Approved editorial finishing; original-page changes recorded in Guide-Editorial-Edits.json",
     "entries/chapters/aether.json": "Integration pages inserted beside existing topics; original pages retained",
     "entries/chapters/depths.json": "Approved editorial finishing; original-page changes recorded in Guide-Editorial-Edits.json",
     "entries/chapters/animals.json": "Approved editorial finishing; original-page changes recorded in Guide-Editorial-Edits.json",
-    "entries/chapters/wither.json": "Approved editorial finishing; original-page changes recorded in Guide-Editorial-Edits.json",
+    "entries/chapters/wither.json": "User-supplied tent photographs and completed written encounter instructions, 2026-09-18",
     "entries/cookbook/pamhc2crops/hotcoffeeitem_campfire.json": "Complete resolved recipe catalog, food category and visible temperature summary",
     "entries/cookbook/pamhc2crops/hotnettleteaitem_campfire.json": "Complete resolved recipe catalog, food category and visible temperature summary",
     "entries/cookbook/pamhc2crops/hotteaitem_campfire.json": "Complete resolved recipe catalog, food category and visible temperature summary",
@@ -3213,6 +3213,8 @@
     "entries/cookbook/pamhc2foodextended/zucchinifriesitem.json": "Complete resolved recipe catalog, food category and visible temperature summary",
     "categories/cookbook/warm.json": "Group Cook Book by default warming, cooling or neutral effect",
     "categories/cookbook/cold.json": "Group Cook Book by default warming, cooling or neutral effect",
-    "categories/cookbook/neutral.json": "Group Cook Book by default warming, cooling or neutral effect"
+    "categories/cookbook/neutral.json": "Group Cook Book by default warming, cooling or neutral effect",
+    "templates/kn_tent_image.json": "User-supplied tent photographs and completed written encounter instructions, 2026-09-18",
+    "templates/kn_tent_hud.json": "User-supplied tent photographs and completed written encounter instructions, 2026-09-18"
   }
 }

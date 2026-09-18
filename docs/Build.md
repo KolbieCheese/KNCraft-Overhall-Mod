@@ -69,3 +69,16 @@ food families and the runtime food-item registry. Runtime code performs no name 
 or world scans. `kncraftthermaltest` verifies every catalog food and exercises replacement,
 reloads, module switches, exclusions, explicit KNCraft rows and native Cold Sweat overrides.
 `kncraftreferencetest` also checks that selected guide queries return only allowlisted keys.
+
+## Client guide layout audit
+
+`gradlew guideclientHarnessJar` builds a separate, temporary client test mod. Install it
+beside the main JAR in a test profile, restart Minecraft, enter a local test world and
+run `/kncraftguidelayouttest`. The command refuses multiplayer sessions. It measures
+every loaded title with the actual client font and walks all index/category spreads,
+checking page bounds, overlap, complete ordered coverage, search results, page clamping,
+resize and the publication edition. It writes `kncraft-guide-layout-report.txt` in the
+profile directory. Inspect representative pages visually afterward, then close Minecraft
+and remove the test JAR. Never distribute the harness with the modpack.
+
+The recorded 1.0.9 result is in [Guide-Layout-Validation.md](Guide-Layout-Validation.md).

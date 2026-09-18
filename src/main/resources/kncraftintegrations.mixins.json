@@ -16,6 +16,9 @@
     "CompanionCleaveMixin",
     "ReservedFoodMixin"
   ],
+  "client": [
+    "GuideEntryListMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   },

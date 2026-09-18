@@ -1,0 +1,8 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="kncraftguideclienttests"
+version="1.0.0"
+displayName="KNCraft Guide Layout Tests - LOCAL TEST CLIENT ONLY"
+displayTest="IGNORE_ALL_VERSION"
