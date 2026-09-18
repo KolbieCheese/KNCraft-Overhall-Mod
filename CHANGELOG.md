@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.8 - first publication edition
+
+- Display **1st Edition** on the KNCraft Guide Book while the modpack is prepared
+  for its first publication. Retain Patchouli's internal content revision so guide
+  updates continue normally; other books keep their own edition labels.
+
 ## 1.0.7 - verified bundled guide loading
 
 - Keep the original Cook Book category and divide it into Warm Food, Cold Food and

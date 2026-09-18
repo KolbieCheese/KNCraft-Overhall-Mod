@@ -5,3 +5,8 @@ Forge 47.4.0 / Java 17 / marked isolated fixture / 1.0.7 / 2026-09-17
 [22:21:25] [Server thread/INFO] [minecraft/MinecraftServer]: REFERENCE CHECKS PASSED
 [22:21:26] [Server thread/INFO] [minecraft/MinecraftServer]: COHESION CHECKS PASSED
 [22:21:27] [Server thread/INFO] [minecraft/MinecraftServer]: EXPANSION CHECKS PASSED
+
+1.0.8 edition-label follow-up / Forge 47.4.0 / Java 17 / 2026-09-17
+[22:53:55] [Server thread/INFO] [STDOUT/]: [com.beautyinblocks.expansiontest.ReferenceChecks:bookResources:47]: GUIDE RESOURCES PASSED: migrated registry, resource-backed constructor, unrelated external book and legacy opt-out
+[22:53:55] [Server thread/INFO] [STDOUT/]: [com.beautyinblocks.expansiontest.ReferenceChecks:bookResources:48]: GUIDE EDITION PASSED: first publication edition, retained content revision and unrelated book subtitle
+[22:53:56] [Server thread/INFO] [minecraft/MinecraftServer]: REFERENCE CHECKS PASSED

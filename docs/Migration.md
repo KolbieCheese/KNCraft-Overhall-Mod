@@ -37,6 +37,11 @@ the KNCraft Guide Book; it is an upstream dependency, not embedded in Architectu
 
 ## Guide migration
 
+The guide's public label remains **1st Edition** in 1.0.8. Its internal content
+revision (currently 16) tracks development updates independently and does not count
+as a published book edition. Existing migrated guides need only the updated mod JAR;
+their declaration and carried books do not need to be replaced.
+
 Fresh installations get the small external declaration automatically. Existing guide content
 is preserved; to switch the old declaration to the bundled updated chapters, close Minecraft
 and run on each relevant server/client profile:

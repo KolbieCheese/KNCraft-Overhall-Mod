@@ -29,17 +29,23 @@ final class ReferenceChecks {
     static void bookResources() throws Exception {
         var registered = vazkii.patchouli.common.book.BookRegistry.INSTANCE.books.get(GuideDelivery.BOOK);
         check(registered != null && !registered.isExternal, "Migrated guide still uses external files instead of bundled assets");
+        var firstEdition = net.minecraft.network.chat.Component.translatable("patchouli.gui.lexicon.edition_str", net.minecraft.network.chat.Component.literal("1st"));
+        check(registered.getSubtitle().equals(firstEdition), "Guide publication edition is not 1st Edition");
+        check(registered.version.equals("16"), "Publication label changed the internal content revision");
         try (var stream = GuideDelivery.class.getResourceAsStream("/data/patchouli/patchouli_books/kncraft_guide/book.json")) {
             var root = com.google.gson.JsonParser.parseReader(new java.io.InputStreamReader(stream)).getAsJsonObject();
             check(!new vazkii.patchouli.common.book.Book(root, registered.owner, GuideDelivery.BOOK, true).isExternal,
                 "Resource-backed KNCraft declaration did not select the resource loader");
-            check(new vazkii.patchouli.common.book.Book(root, registered.owner, new ResourceLocation("patchouli:other_external"), true).isExternal,
+            var other = new vazkii.patchouli.common.book.Book(root, registered.owner, new ResourceLocation("patchouli:other_external"), true);
+            check(other.isExternal,
                 "Guide fix changed an unrelated external book");
+            check(!other.getSubtitle().equals(firstEdition), "Edition label changed an unrelated book");
             root.addProperty("use_resource_pack", false);
             check(new vazkii.patchouli.common.book.Book(root, registered.owner, GuideDelivery.BOOK, true).isExternal,
                 "Guide fix opted an unmigrated legacy book into bundled updates");
         }
         System.out.println("GUIDE RESOURCES PASSED: migrated registry, resource-backed constructor, unrelated external book and legacy opt-out");
+        System.out.println("GUIDE EDITION PASSED: first publication edition, retained content revision and unrelated book subtitle");
     }
     static void gift(MinecraftServer server) {
         var p = player(server);

@@ -74,3 +74,11 @@ reported an existing Euphoria/Complementary shader version mismatch; graphics se
 were left unchanged during guide verification.
 
 Runtime success markers are retained in `Guide-Recipe-Validation-Evidence.txt`.
+
+## Edition-label follow-up (1.0.8)
+
+The installed client displays **1st Edition** on the title page. Patchouli keeps
+content revision 16 internally. The isolated reference check verifies the public
+label, unchanged content revision and untouched unrelated-book subtitles. Build,
+unit/resource checks and the reference runtime harness pass. The existing local
+verification world was used again; no live server or existing play world was opened.
