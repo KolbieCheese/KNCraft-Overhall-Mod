@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.10 - modpack update compatibility
+
+- Support Cold Sweat 2.4.3 and 2.4.3.2, and Sophisticated Core 1.5.1.2335
+  and 1.5.2.2346, using explicit audited versions in startup checks, mixin
+  selection, integration registration, and Forge dependency declarations.
+- Show all supported versions in `/kncraft status` and startup errors. Keep
+  rejecting unreviewed intermediate and future versions.
+- Align Patchouli's Forge dependency declaration with its existing startup check.
+- Retain gameplay behavior and the original build dependencies for older-pack support.
+
 ## 1.0.9 - guide photographs and readable entry lists
 
 - Illustrate tent relocation and hearth operation with five supplied campsite photos.

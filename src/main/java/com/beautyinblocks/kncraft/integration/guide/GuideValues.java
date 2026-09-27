@@ -32,7 +32,7 @@ public final class GuideValues {
                 text = recipe.filter(r -> r instanceof net.minecraft.world.item.crafting.AbstractCookingRecipe)
                     .map(r -> String.format(java.util.Locale.ROOT, "Server recipe:\n%.1f seconds with normal machine fuel.\nInspect the current ingredients and result in JEI.", ((net.minecraft.world.item.crafting.AbstractCookingRecipe) r).getCookingTime() / 20.0))
                     .orElse("This machine recipe is unavailable on this server.");
-            } else text = Compatibility.exact("cold_sweat") ? ClimateGuideValues.describe(key, item, player) : "Cold Sweat is unavailable on this server.";
+            } else text = Compatibility.supported("cold_sweat") ? ClimateGuideValues.describe(key, item, player) : "Cold Sweat is unavailable on this server.";
             result.putString(key, text);
         });
         return result;

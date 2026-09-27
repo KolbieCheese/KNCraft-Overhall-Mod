@@ -1,0 +1,522 @@
+{
+  "review_date": "2026-09-27",
+  "baseline": "Installed-Mod-Audit.json (2026-09-17)",
+  "scope": "Changed installed artifacts: metadata, hashes and KNCraft override overlap. Runtime scope and class inspection are documented in Modpack-Update-Compatibility.md. Unchanged filenames also verified against baseline hashes.",
+  "artifacts": [
+    {
+      "artifact": "balm-forge-1.20.1-7.3.44.jar",
+      "sha256": "ad11d968770bb1ce73377626b6f1dcd4ae6f8be1ef6f37cee9b872b8176aebd3",
+      "mods": [
+        {
+          "id": "balm",
+          "version": "7.3.44"
+        }
+      ],
+      "previous_artifacts": [
+        "balm-forge-1.20.1-7.3.43.jar"
+      ],
+      "dependencies": {
+        "balm": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "ColdSweat-2.4.3.2.jar",
+      "sha256": "229bb3929f4a73eea9ea7988b66f87ff70eea84955725e0df1e22f62d3c2604a",
+      "mods": [
+        {
+          "id": "cold_sweat",
+          "version": "2.4.3.2"
+        }
+      ],
+      "previous_artifacts": [
+        "ColdSweat-2.4.3.jar"
+      ],
+      "dependencies": {
+        "cold_sweat": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1, 1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": [
+        "data/forge/loot_modifiers/global_loot_modifiers.json"
+      ]
+    },
+    {
+      "artifact": "collective-1.20.1-8.40.jar",
+      "sha256": "bb530e601fdd1217cdac24d700ad2888ac3ccc23f255869ab9947e4028267198",
+      "mods": [
+        {
+          "id": "collective",
+          "version": "8.40"
+        }
+      ],
+      "previous_artifacts": [
+        "collective-1.20.1-8.39.jar"
+      ],
+      "dependencies": {
+        "collective": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "type": "required",
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "cupboard-1.20.1-4.2.jar",
+      "sha256": "6a384b880c2429e017f83657438e1fc00d091592cc2860d6d2986094bac5d48f",
+      "mods": [
+        {
+          "id": "cupboard",
+          "version": "1.20.1-4.2"
+        }
+      ],
+      "previous_artifacts": [
+        "cupboard-1.20.1-4.1.jar"
+      ],
+      "dependencies": {
+        "cupboard": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[30,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.19,1.30)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "cwb-forge-3.0.0+mc1.20.jar",
+      "sha256": "97b0827f20b6213c97d2244f7da205d85ffa72e51fa167d69466b49018532478",
+      "mods": [
+        {
+          "id": "cubes_without_borders",
+          "version": "3.0.0+mc1.20"
+        }
+      ],
+      "previous_artifacts": [
+        "BorderlessWindow-1.20-1.6.0.jar"
+      ],
+      "dependencies": {
+        "cubes_without_borders": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "*",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.20.5)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": [],
+      "change": "Window-management replacement with a different mod ID; no KNCraft API integration."
+    },
+    {
+      "artifact": "DistantHorizons-3.3.2-1.20.1-fabric-forge.jar",
+      "sha256": "84d1477e04eacf61142dde72b5fcfa9f4e0e7ea673753d157f3f5b175155a8d8",
+      "mods": [
+        {
+          "id": "distanthorizons",
+          "version": "3.3.2"
+        }
+      ],
+      "previous_artifacts": [
+        "DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar"
+      ],
+      "dependencies": {
+        "distanthorizons": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20],[1.20.1]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "oculus",
+            "mandatory": false,
+            "versionRange": "[1.8.0,)",
+            "ordering": "AFTER",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "entityculling-forge-1.11.2-mc1.20.1.jar",
+      "sha256": "5d5dc228dc18422fd8a81cff63e654abb07ca4507b317db114b220aa3fc67d3b",
+      "mods": [
+        {
+          "id": "entityculling",
+          "version": "1.11.2"
+        }
+      ],
+      "previous_artifacts": [
+        "entityculling-forge-1.10.5-mc1.20.1.jar"
+      ],
+      "dependencies": {
+        "entityculling": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "1.20.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "firstperson-forge-2.7.3-mc1.20.1.jar",
+      "sha256": "94441e7d294a51dc48754b7cd0f8780df38bb5c326feb46c2b88d2052fde42da",
+      "mods": [
+        {
+          "id": "firstperson",
+          "version": "2.7.3"
+        }
+      ],
+      "previous_artifacts": [
+        "firstperson-forge-2.7.2-mc1.20.1.jar"
+      ],
+      "dependencies": {
+        "firstperson": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "1.20.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+      "sha256": "82db19cc65b5c11a444498fb4b8cbcb0393c043e794cb5bf368631a0af765035",
+      "mods": [
+        {
+          "id": "immediatelyfast",
+          "version": "1.5.5+1.20.4"
+        }
+      ],
+      "previous_artifacts": [],
+      "dependencies": {
+        "immediatelyfast": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.20.4]",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "jei-1.20.1-forge-15.62.0.216.jar",
+      "sha256": "80ece8bd42497c94cbcab5d9b82594a53831b249bb33e1ff6dcf568a4b7a637b",
+      "mods": [
+        {
+          "id": "jei",
+          "version": "15.62.0.216"
+        }
+      ],
+      "previous_artifacts": [
+        "jei-1.20.1-forge-15.59.0.212.jar"
+      ],
+      "dependencies": {
+        "jei": [
+          {
+            "modId": "mezz_config",
+            "mandatory": true,
+            "versionRange": "[0.6.3,1.0.0)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "mezz_config_gui",
+            "mandatory": false,
+            "versionRange": "[0.5.1,)",
+            "ordering": "AFTER",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1, 1.20.2)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "Ksyxis-1.4.5.jar",
+      "sha256": "a08ca6d645e500d50edcffaefa5e3c182a86e8128f9f2981eca26f2a8f6e1d02",
+      "mods": [
+        {
+          "id": "ksyxis",
+          "version": "1.4.5"
+        }
+      ],
+      "previous_artifacts": [
+        "Ksyxis-1.4.4.jar"
+      ],
+      "dependencies": {},
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "mezz_config-1.20.1-forge-0.6.5.jar",
+      "sha256": "d06335f4a015b41bc35944460260854b48da651cb496b71b0a89a18c75c1984e",
+      "mods": [
+        {
+          "id": "mezz_config",
+          "version": "0.6.5"
+        }
+      ],
+      "previous_artifacts": [],
+      "dependencies": {
+        "mezz_config": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "noisiumed-forge-3.0.6+mc1.20-1.20.1.jar",
+      "sha256": "09f89355b21c84a653afdc1597c4cd1db66be836b3ef52fc419d28dcbcffb03c",
+      "mods": [
+        {
+          "id": "noisiumed",
+          "version": "3.0.6+mc1.20-1.20.1"
+        }
+      ],
+      "previous_artifacts": [
+        "noisium-forge-2.3.0+mc1.20-1.20.1.jar"
+      ],
+      "dependencies": {
+        "noisiumed": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": ">=1.20 <=1.20.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": ">=47.1.100",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": [],
+      "change": "Replacement with a different mod ID; no KNCraft API integration."
+    },
+    {
+      "artifact": "notenoughanimations-forge-1.12.6-mc1.20.1.jar",
+      "sha256": "66f1f6d61102dd03a4afafe4c9f1d39be9e55dabc8d0821cb46acca1328b525d",
+      "mods": [
+        {
+          "id": "notenoughanimations",
+          "version": "1.12.6"
+        }
+      ],
+      "previous_artifacts": [
+        "notenoughanimations-forge-1.12.4-mc1.20.1.jar"
+      ],
+      "dependencies": {
+        "notenoughanimations": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "1.20.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "skinlayers3d-forge-1.11.3-mc1.20.1.jar",
+      "sha256": "6229ea6e5d77dd1f66d21163bf3187abb899d59f508dae63ab67ecbb0f804cc5",
+      "mods": [
+        {
+          "id": "skinlayers3d",
+          "version": "1.11.3"
+        }
+      ],
+      "previous_artifacts": [
+        "skinlayers3d-forge-1.11.2-mc1.20.1.jar"
+      ],
+      "dependencies": {
+        "skinlayers3d": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "1.20.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    },
+    {
+      "artifact": "sophisticatedbackpacks-1.20.1-3.26.4.2172.jar",
+      "sha256": "57b0c4a20dd11c053d145774abfc308a8fb809e4ef35a1c2927e4792a968697e",
+      "mods": [
+        {
+          "id": "sophisticatedbackpacks",
+          "version": "3.26.4.2172"
+        }
+      ],
+      "previous_artifacts": [
+        "sophisticatedbackpacks-1.20.1-3.26.3.2157.jar"
+      ],
+      "dependencies": {
+        "sophisticatedbackpacks": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "sophisticatedcore",
+            "mandatory": true,
+            "versionRange": "[1.5.1.+,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "shared_data_resources": [
+        "data/carryon/tags/blocks/block_blacklist.json",
+        "data/forge/loot_modifiers/global_loot_modifiers.json"
+      ]
+    },
+    {
+      "artifact": "sophisticatedcore-1.20.1-1.5.2.2346.jar",
+      "sha256": "82e8cfaf8deb3e9e85097003e7ff59a21eb67bc3d06e0906f3f1e94c79e58d14",
+      "mods": [
+        {
+          "id": "sophisticatedcore",
+          "version": "1.5.2.2346"
+        }
+      ],
+      "previous_artifacts": [
+        "sophisticatedcore-1.20.1-1.5.1.2335.jar"
+      ],
+      "dependencies": {
+        "sophisticatedcore": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "jei",
+            "mandatory": false,
+            "versionRange": "[15.20.0.106,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "shared_data_resources": []
+    }
+  ]
+}

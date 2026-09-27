@@ -76,6 +76,8 @@ Restart after changing switches. Existing Cold Sweat definitions take precedence
 the supplied defaults; the mod does not rewrite upstream configuration.
 
 Use `/kncraft status` or `config/kncraft-status.txt` to inspect enabled integrations.
+See the [modpack update audit](docs/Modpack-Update-Compatibility.md) for the old and
+new Cold Sweat/Sophisticated Core versions supported by 1.0.10 and validation scope.
 The [setup audit](docs/Setup-Audit.md) records installation gaps, runtime checks and
 client tuning that still needs measurement before a full-pack sign-off.
 See [features and behavior](docs/Features.md), [guide recovery validation](docs/Guide-Recovery-Validation.md)

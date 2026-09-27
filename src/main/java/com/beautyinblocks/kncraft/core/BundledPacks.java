@@ -11,8 +11,8 @@ import net.minecraftforge.resource.PathPackResources;
 public final class BundledPacks {
     public static void register(AddPackFindersEvent event) {
         if (event.getPackType() != PackType.SERVER_DATA) return;
-        add(event, "aether_portals", Compatibility.exact("immersive_portals") && Compatibility.present("aether"));
-        add(event, "depth_portals", Compatibility.exact("immersive_portals") && Compatibility.exact("callfromthedepth_"));
+        add(event, "aether_portals", Compatibility.supported("immersive_portals") && Compatibility.present("aether"));
+        add(event, "depth_portals", Compatibility.supported("immersive_portals") && Compatibility.supported("callfromthedepth_"));
         add(event, "waystones", ArchitectureConfig.WAYSTONES.get() && Compatibility.present("waystones"));
         add(event, "fiber_recipes", ArchitectureConfig.FIBERS.get());
         add(event, "ingredients", ExpansionConfig.INGREDIENTS.get());
@@ -22,7 +22,7 @@ public final class BundledPacks {
         add(event, "aether_freezer", ExpansionConfig.AETHER_THERMAL.get() && Compatibility.present("aether"));
         add(event, "altar_repairs", PolishConfig.ALTAR.get() && Compatibility.present("aether"));
         add(event, "wildlife_food", ExpansionConfig.WILDLIFE_FOOD.get() && Compatibility.present("alexsmobs"));
-        add(event, "combat", ExpansionConfig.COMBAT.get() && Compatibility.exact("bettercombat") && Compatibility.present("aether"));
+        add(event, "combat", ExpansionConfig.COMBAT.get() && Compatibility.supported("bettercombat") && Compatibility.present("aether"));
         add(event, "exploration", ExpansionConfig.THEMED_LOOT.get());
         add(event, "ecology", ExpansionConfig.ECOLOGY.get() && Compatibility.present("pamhc2crops"));
         if (ExpansionConfig.JOURNAL.get() && Compatibility.present("ftbquests")) {

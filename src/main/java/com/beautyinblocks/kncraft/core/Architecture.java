@@ -36,21 +36,21 @@ public final class Architecture {
         MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.guide.GuideDelivery());
         MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.equipment.ReservedFood());
         MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.supplies.SupplyTrades());
-        if (Compatibility.exact("carryon")) MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.supplies.CarryOnTags());
+        if (Compatibility.supported("carryon")) MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.supplies.CarryOnTags());
         MinecraftForge.EVENT_BUS.register(new Encounters());
         MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.equipment.EnchantmentAttributes());
-        if (Compatibility.exact("alexsmobs") && Compatibility.exact("sophisticatedcore"))
+        if (Compatibility.supported("alexsmobs") && Compatibility.supported("sophisticatedcore"))
             new com.beautyinblocks.kncraft.integration.equipment.WildlifeOfferings();
         // These constructors are only resolved when their entire dependency set is present.
-        if (Compatibility.exact("immersive_portals")) new com.beautyinblocks.portals.NativePortalLighting();
+        if (Compatibility.supported("immersive_portals")) new com.beautyinblocks.portals.NativePortalLighting();
         if (Compatibility.tents()) new com.beautyinblocks.tents.TentPortals();
-        if (Compatibility.exact("cold_sweat")) MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.climate.ClimateIntegration());
-        if (Compatibility.exact("cold_sweat")) MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.climate.RegionalClimate());
-        if (Compatibility.exact("cold_sweat") && Compatibility.present("aether") && Compatibility.present("curios"))
+        if (Compatibility.supported("cold_sweat")) MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.climate.ClimateIntegration());
+        if (Compatibility.supported("cold_sweat")) MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.climate.RegionalClimate());
+        if (Compatibility.supported("cold_sweat") && Compatibility.present("aether") && Compatibility.present("curios"))
             MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.climate.AetherClimate());
-        if (Compatibility.exact("cold_sweat") && Compatibility.exact("nomadictents"))
+        if (Compatibility.supported("cold_sweat") && Compatibility.supported("nomadictents"))
             MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.tentclimate.TentClimate());
-        if (Compatibility.exact("cold_sweat") && Compatibility.exact("nomadictents"))
+        if (Compatibility.supported("cold_sweat") && Compatibility.supported("nomadictents"))
             MinecraftForge.EVENT_BUS.register(new com.beautyinblocks.kncraft.integration.tentclimate.CampsiteStatus());
     }
     @SubscribeEvent public void starting(ServerAboutToStartEvent event) {
@@ -71,22 +71,22 @@ public final class Architecture {
     public static List<String> report() {
         var lines = new ArrayList<String>();
         lines.add("KNCraft Compatibility " + Compatibility.version("kncraft") + " — Java 17 / Minecraft 1.20.1 / Forge 47.4.0");
-        Compatibility.PINS.entrySet().stream().sorted(java.util.Map.Entry.comparingByKey())
-            .forEach(pin -> lines.add(pin.getKey() + ": " + Compatibility.version(pin.getKey()) + " (audited " + pin.getValue() + ")"));
+        Compatibility.SUPPORTED_VERSIONS.entrySet().stream().sorted(java.util.Map.Entry.comparingByKey())
+            .forEach(pin -> lines.add(pin.getKey() + ": " + Compatibility.version(pin.getKey()) + " (audited " + String.join(" or ", pin.getValue()) + ")"));
         lines.add("Config migration: " + LegacyConfigImport.state);
-        lines.add("Native lighting=" + (Compatibility.exact("immersive_portals") && ArchitectureConfig.NATIVE_PORTALS.get()));
+        lines.add("Native lighting=" + (Compatibility.supported("immersive_portals") && ArchitectureConfig.NATIVE_PORTALS.get()));
         lines.add("Tent synchronization=" + Compatibility.tents() + "; entrances=" + (Compatibility.tents() && ArchitectureConfig.TENTS.get()));
-        lines.add("Performance: portal=" + (Compatibility.exact("witherstormmod") && ArchitectureConfig.PORTAL_SEARCH.get())
-            + ", items=" + (Compatibility.exact("alexsmobs") && ArchitectureConfig.ITEM_SELECTION.get())
-            + ", tornado=" + (Compatibility.exact("weather2") && ArchitectureConfig.TORNADO_QUERY.get()));
-        lines.add("Waystone data=" + (Compatibility.present("waystones") && ArchitectureConfig.WAYSTONES.get()) + "; encounter scaling=" + (Compatibility.exact("witherstormmod") && ArchitectureConfig.ENCOUNTERS.get()));
+        lines.add("Performance: portal=" + (Compatibility.supported("witherstormmod") && ArchitectureConfig.PORTAL_SEARCH.get())
+            + ", items=" + (Compatibility.supported("alexsmobs") && ArchitectureConfig.ITEM_SELECTION.get())
+            + ", tornado=" + (Compatibility.supported("weather2") && ArchitectureConfig.TORNADO_QUERY.get()));
+        lines.add("Waystone data=" + (Compatibility.present("waystones") && ArchitectureConfig.WAYSTONES.get()) + "; encounter scaling=" + (Compatibility.supported("witherstormmod") && ArchitectureConfig.ENCOUNTERS.get()));
         if (Compatibility.present("waystones") && ArchitectureConfig.WAYSTONES.get()) lines.add(waystonePolicy());
         lines.add("Cohesion config: cotton=" + ArchitectureConfig.COTTON.get() + ", wildlife=" + ArchitectureConfig.WILDLIFE.get() + ", meals=" + ArchitectureConfig.MEALS.get() + ", fiber=" + ArchitectureConfig.FIBERS.get());
         lines.add("Guide: patchouli:kncraft_guide; " + GuideBootstrap.state + "; matching client installation required.");
         lines.add("Reference guide: first-join gift=" + PolishConfig.STARTER_GUIDE.get() + "; reserved auto-feed protection=" + PolishConfig.RESERVED_FOOD.get()
             + "; live reference keys=" + com.beautyinblocks.kncraft.integration.guide.GuideValues.KEYS.size());
         lines.add("Accomplishment journal: " + com.beautyinblocks.kncraft.integration.journal.JournalBootstrap.state);
-        lines.add("Tent climate=" + (Compatibility.exact("nomadictents") && Compatibility.exact("cold_sweat") && ExpansionConfig.TENT_CLIMATE.get())
+        lines.add("Tent climate=" + (Compatibility.supported("nomadictents") && Compatibility.supported("cold_sweat") && ExpansionConfig.TENT_CLIMATE.get())
             + "; enclosed interiors=" + ExpansionConfig.TENT_ENCLOSURE.get() + "; safe Carry On=" + ExpansionConfig.SAFE_CARRY.get());
         lines.add("Connections: ingredients=" + ExpansionConfig.INGREDIENTS.get() + ", recipe repair=" + ExpansionConfig.RECIPE_REPAIRS.get()
             + ", tag repair=" + ExpansionConfig.KNOWN_TAGS.get() + ", oil fuel=" + ExpansionConfig.RAIL_FUEL.get()
@@ -95,10 +95,10 @@ public final class Architecture {
             + ", companion cleave=" + ExpansionConfig.COMPANIONS.get() + ", climate feeding=" + ExpansionConfig.SMART_FEEDING.get());
         lines.add("Supplies: loot=" + ExpansionConfig.THEMED_LOOT.get() + ", trades=" + ExpansionConfig.TRADES.get()
             + ", wildlife food=" + ExpansionConfig.WILDLIFE_FOOD.get() + ", savanna gardens=" + ExpansionConfig.ECOLOGY.get());
-        if (Compatibility.exact("cold_sweat")) lines.addAll(com.beautyinblocks.kncraft.integration.climate.ClimateIntegration.diagnostics());
+        if (Compatibility.supported("cold_sweat")) lines.addAll(com.beautyinblocks.kncraft.integration.climate.ClimateIntegration.diagnostics());
         lines.add("Polish: enchantment attributes=" + PolishConfig.ATTRIBUTES.get() + ", wildlife offerings=" + PolishConfig.OFFERINGS.get()
             + ", regional climate=" + PolishConfig.REGIONAL_CLIMATE.get() + ", altar repairs=" + PolishConfig.ALTAR.get());
-        if (Compatibility.exact("cold_sweat")) lines.addAll(com.beautyinblocks.kncraft.integration.climate.RegionalClimate.diagnostics());
+        if (Compatibility.supported("cold_sweat")) lines.addAll(com.beautyinblocks.kncraft.integration.climate.RegionalClimate.diagnostics());
         return lines;
     }
     private static String waystonePolicy() {
