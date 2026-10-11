@@ -76,8 +76,9 @@ Restart after changing switches. Existing Cold Sweat definitions take precedence
 the supplied defaults; the mod does not rewrite upstream configuration.
 
 Use `/kncraft status` or `config/kncraft-status.txt` to inspect enabled integrations.
-See the [modpack update audit](docs/Modpack-Update-Compatibility.md) for the old and
-new Cold Sweat/Sophisticated Core versions supported by 1.0.10 and validation scope.
+See the [October modpack update audit](docs/Modpack-Update-Compatibility-2026-10-11.md)
+for the installed versions supported by 1.0.11, including Sophisticated Core
+1.5.6.2383, the retained older versions, and validation scope.
 The [setup audit](docs/Setup-Audit.md) records installation gaps, runtime checks and
 client tuning that still needs measurement before a full-pack sign-off.
 See [features and behavior](docs/Features.md), [guide recovery validation](docs/Guide-Recovery-Validation.md)
@@ -95,7 +96,7 @@ Set `JAVA_HOME` to a Java 17 JDK and use Python 3.11 or newer:
 ```powershell
 python tools/bootstrap_dependencies.py --download
 .\gradlew.bat build releaseBundle --console=plain
-python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.7.jar
+python tools/validate_artifact.py --jar build/libs/KNCraftCompatibilityMod-1.0.11.jar
 ```
 
 Alternatively, bootstrap from the installed pack with `--instance "C:\path\to\KNCraft"`.

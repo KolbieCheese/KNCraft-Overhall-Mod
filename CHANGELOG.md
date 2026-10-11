@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.11 - October modpack update compatibility
+
+- Support the installed Sophisticated Core 1.5.6.2383 in startup checks, mixin
+  selection, integration registration, status reporting and Forge dependency
+  declarations, retaining both previously audited versions.
+- Verify the updated Sophisticated Backpacks 3.26.9.2194 feeding, magnet and
+  waterskin integration surfaces; retain the existing gameplay code and recipes.
+- Enforce exact agreement between the runtime allowlist and closed singleton
+  Forge ranges, rejecting unaudited intermediate and future releases.
+- Update the isolated camping test for Inventory Totem 3.5's renamed package
+  while preserving its 3.4 checks and native consumption assertions.
+- Record all installed mod versions and hashes in the October 11 audit.
+
 ## 1.0.10 - modpack update compatibility
 
 - Support Cold Sweat 2.4.3 and 2.4.3.2, and Sophisticated Core 1.5.1.2335

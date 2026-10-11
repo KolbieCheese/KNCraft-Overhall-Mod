@@ -52,7 +52,13 @@ final class CampingChecks {
             player.serverLevel().removeBlock(pos, false); Temperature.set(player, Temperature.Trait.CORE, 0);
         }
         // Inventory Totem reads the native inventory, not nested backpack storage.
-        var death = Class.forName("com.natamus.inventorytotem_common_forge.events.TotemEvent").getMethod("allowPlayerDeath", net.minecraft.server.level.ServerLevel.class, ServerPlayer.class);
+        Class<?> totemType;
+        try {
+            totemType = Class.forName("com.serilum.inventorytotem_common_forge.events.TotemEvent");
+        } catch (ClassNotFoundException missingCurrentPackage) {
+            totemType = Class.forName("com.natamus.inventorytotem_common_forge.events.TotemEvent");
+        }
+        var death = totemType.getMethod("allowPlayerDeath", net.minecraft.server.level.ServerLevel.class, ServerPlayer.class);
         player.getInventory().clearContent();
         check((boolean)death.invoke(null, player.serverLevel(), player), "Empty inventory unexpectedly revived");
         player.getInventory().setItem(9, new net.minecraft.world.item.ItemStack(Items.TOTEM_OF_UNDYING));

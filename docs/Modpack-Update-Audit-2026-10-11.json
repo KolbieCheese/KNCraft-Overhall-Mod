@@ -1,0 +1,5676 @@
+{
+  "review_date": "2026-10-11",
+  "minecraft": "1.20.1",
+  "forge": "47.4.0",
+  "baseline": "docs/Installed-Mod-Audit.json (2026-09-17), superseded by docs/Modpack-Update-Audit.json (2026-09-27)",
+  "scope": "Full installed KNCraft artifact/metadata audit; targeted API, data and dedicated-server gameplay validation. Physical-client rendering/performance and multiplayer traversal not tested.",
+  "top_level_jar_count": 105,
+  "nested_jar_files_inspected": 220,
+  "artifact_comparison_counts": {
+    "unchanged": 92,
+    "replaced": 12,
+    "custom_mod_not_in_upstream_update_baseline": 1
+  },
+  "version_resolution": "Forge ${file.jarVersion} resolved from main manifest Implementation-Version after joining manifest continuation lines. Dependencies evaluated against Forge-bundled Maven 3.8.5 VersionRange/DefaultArtifactVersion. Nested provider listing is static; actual JarJar selection and runtime loading are not certified.",
+  "metadata_parse_errors": [],
+  "dependency_check_status_counts": {
+    "satisfied": 382,
+    "optional_absent": 11,
+    "unsatisfied_optional_present": 1
+  },
+  "installed_dependency_mismatches": [
+    {
+      "artifact": "KNCraftCompatibilityMod-1.0.10.jar",
+      "parent_artifact": null,
+      "owner": "kncraft",
+      "dependency": "sophisticatedcore",
+      "mandatory": false,
+      "side": "BOTH",
+      "version_range": "[1.5.1.2335],[1.5.2.2346]",
+      "providers": [
+        {
+          "version": "1.5.6.2383",
+          "artifact": "sophisticatedcore-1.20.1-1.5.6.2383.jar",
+          "source": "top_level",
+          "range_satisfied": false,
+          "range_result": "false"
+        }
+      ],
+      "status": "unsatisfied_optional_present"
+    }
+  ],
+  "updated_source_dependency_checks": [
+    {
+      "owner": "kncraft",
+      "dependency": "patchouli",
+      "version_range": "[1.20.1-85-FORGE]",
+      "providers": [
+        {
+          "version": "1.20.1-85-FORGE",
+          "artifact": "Patchouli-1.20.1-85-FORGE.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "aether",
+      "version_range": "[1.20.1-1.5.2-neoforge]",
+      "providers": [
+        {
+          "version": "1.20.1-1.5.2-neoforge",
+          "artifact": "aether-1.20.1-1.5.2-neoforge.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "carryon",
+      "version_range": "[2.1.2.7]",
+      "providers": [
+        {
+          "version": "2.1.2.7",
+          "artifact": "carryon-forge-1.20.1-2.1.2.7.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "forge",
+      "version_range": "[47.4.0]",
+      "providers": [
+        {
+          "version": "47.4.0",
+          "artifact": "minecraftinstance.json",
+          "source": "profile",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "minecraft",
+      "version_range": "[1.20.1]",
+      "providers": [
+        {
+          "version": "1.20.1",
+          "artifact": "minecraftinstance.json",
+          "source": "profile",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "immersive_portals",
+      "version_range": "[3.0.7]",
+      "providers": [
+        {
+          "version": "3.0.7",
+          "artifact": "immersive-portals-3.0.7-all.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "nomadictents",
+      "version_range": "[20.1.1]",
+      "providers": [
+        {
+          "version": "20.1.1",
+          "artifact": "Nomadic-Tents-20.1.1.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "infiniverse",
+      "version_range": "[1.0.0.5]",
+      "providers": [
+        {
+          "version": "1.0.0.5",
+          "artifact": "META-INF/jarjar/infiniverse-1.20.1-1.0.0.5.jar",
+          "parent_artifact": "Nomadic-Tents-20.1.1.jar",
+          "source": "nested",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "witherstormmod",
+      "version_range": "[4.2.1]",
+      "providers": [
+        {
+          "version": "4.2.1",
+          "artifact": "witherstormmod-1.20.1-4.2.1-all.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "alexsmobs",
+      "version_range": "[1.22.9]",
+      "providers": [
+        {
+          "version": "1.22.9",
+          "artifact": "alexsmobs-1.22.9.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "weather2",
+      "version_range": "[1.20.1-2.8.3]",
+      "providers": [
+        {
+          "version": "1.20.1-2.8.3",
+          "artifact": "weather2-1.20.1-2.8.3.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "callfromthedepth_",
+      "version_range": "[1.22.1]",
+      "providers": [
+        {
+          "version": "1.22.1",
+          "artifact": "callfromthedepth_-1.22.1-forge-1.20.1.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "cold_sweat",
+      "version_range": "[2.4.3],[2.4.3.2]",
+      "providers": [
+        {
+          "version": "2.4.3.2",
+          "artifact": "ColdSweat-2.4.3.2.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "more_enchantments",
+      "version_range": "[1.4.3]",
+      "providers": [
+        {
+          "version": "1.4.3",
+          "artifact": "MoreEnchantments_MC_1.20.1_Vers.1.4.3.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "elytraslot",
+      "version_range": "[6.4.4+1.20.1]",
+      "providers": [
+        {
+          "version": "6.4.4+1.20.1",
+          "artifact": "elytraslot-forge-6.4.4+1.20.1.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "bettercombat",
+      "version_range": "[1.9.0+1.20.1]",
+      "providers": [
+        {
+          "version": "1.9.0+1.20.1",
+          "artifact": "bettercombat-forge-1.9.0+1.20.1.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    },
+    {
+      "owner": "kncraft",
+      "dependency": "sophisticatedcore",
+      "version_range": "[1.5.1.2335],[1.5.2.2346],[1.5.6.2383]",
+      "providers": [
+        {
+          "version": "1.5.6.2383",
+          "artifact": "sophisticatedcore-1.20.1-1.5.6.2383.jar",
+          "source": "top_level",
+          "range_satisfied": true,
+          "range_result": "true"
+        }
+      ],
+      "status": "satisfied"
+    }
+  ],
+  "artifacts": [
+    {
+      "artifact": "abridged-2.0.0-forge-1.20.1.jar",
+      "sha256": "d64f9c5d70aa808771770cc7b7f4490f225e646db3c81ae0080cbc6b4a5429af",
+      "size_bytes": 120848,
+      "mods": [
+        {
+          "id": "abridged",
+          "name": "Abridged",
+          "declared_version": "2.0.0",
+          "version": "2.0.0"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "abridged": [
+          {
+            "modId": "forge",
+            "type": "required",
+            "mandatory": true,
+            "versionRange": "[47,)"
+          },
+          {
+            "modId": "lithostitched",
+            "mandatory": true,
+            "type": "required",
+            "versionRange": "[1.4.10,)"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Abridged",
+        "project_id": 948999,
+        "file_id": 6745463,
+        "file_name": "abridged-2.0.0-forge-1.20.1.jar",
+        "file_date": "2025-07-08T18:50:11.003Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/abridged"
+      }
+    },
+    {
+      "artifact": "aether-1.20.1-1.5.2-neoforge.jar",
+      "sha256": "5cb64ab1f27e78e8338fe67f9c766578904aad9bc1f8bcc90f306ea52aea3fc5",
+      "size_bytes": 39746319,
+      "mods": [
+        {
+          "id": "aether",
+          "name": "The Aether",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.20.1-1.5.2-neoforge"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "aether": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "curios",
+            "mandatory": true,
+            "versionRange": "[5.3.1+1.20.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "The Aether",
+        "project_id": 255308,
+        "file_id": 6134920,
+        "file_name": "aether-1.20.1-1.5.2-neoforge.jar",
+        "file_date": "2025-01-28T21:40:42.637Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/aether"
+      }
+    },
+    {
+      "artifact": "AI-Improvements-1.20-0.5.2.jar",
+      "sha256": "575a4a8e00f982c064d54bb3e73e5cda2d14414de054a471a3daf3f58bdf560a",
+      "size_bytes": 29553,
+      "mods": [
+        {
+          "id": "aiimprovements",
+          "name": "AI-Improvements",
+          "declared_version": "${file.jarVersion}",
+          "version": "0.5.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "aiimprovements": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "AI Improvements: Performance Tuning",
+        "project_id": 233019,
+        "file_id": 4578262,
+        "file_name": "AI-Improvements-1.20-0.5.2.jar",
+        "file_date": "2023-06-10T14:32:49.25Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/ai-improvements"
+      }
+    },
+    {
+      "artifact": "alexsmobs-1.22.9.jar",
+      "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c",
+      "size_bytes": 26350793,
+      "mods": [
+        {
+          "id": "alexsmobs",
+          "name": "Alex's Mobs",
+          "declared_version": "1.22.9",
+          "version": "1.22.9"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "alexsmobs": [
+          {
+            "modId": "citadel",
+            "mandatory": true,
+            "versionRange": "[2.6.0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Alex's Mobs",
+        "project_id": 426558,
+        "file_id": 5698791,
+        "file_name": "alexsmobs-1.22.9.jar",
+        "file_date": "2024-09-06T21:38:23.41Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/alexs-mobs"
+      }
+    },
+    {
+      "artifact": "appleskin-forge-mc1.20.1-2.5.1.jar",
+      "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
+      "size_bytes": 47428,
+      "mods": [
+        {
+          "id": "appleskin",
+          "name": "AppleSkin",
+          "declared_version": "${file.jarVersion}",
+          "version": "2.5.1+mc1.20.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "appleskin": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.0.12,)",
+            "ordering": "AFTER",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "AppleSkin",
+        "project_id": 248787,
+        "file_id": 4770828,
+        "file_name": "appleskin-forge-mc1.20.1-2.5.1.jar",
+        "file_date": "2023-09-27T04:39:49.087Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/appleskin"
+      }
+    },
+    {
+      "artifact": "architectury-9.2.14-forge.jar",
+      "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+      "size_bytes": 580602,
+      "mods": [
+        {
+          "id": "architectury",
+          "name": "Architectury",
+          "declared_version": "9.2.14",
+          "version": "9.2.14"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "architectury": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Architectury API",
+        "project_id": 419699,
+        "file_id": 5137938,
+        "file_name": "architectury-9.2.14-forge.jar",
+        "file_date": "2024-02-26T13:18:59.227Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/architectury-api"
+      }
+    },
+    {
+      "artifact": "balm-forge-1.20.1-7.3.44.jar",
+      "sha256": "ad11d968770bb1ce73377626b6f1dcd4ae6f8be1ef6f37cee9b872b8176aebd3",
+      "size_bytes": 561741,
+      "mods": [
+        {
+          "id": "balm",
+          "name": "Balm",
+          "declared_version": "7.3.44",
+          "version": "7.3.44"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "balm": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Balm",
+        "project_id": 531761,
+        "file_id": 8969708,
+        "file_name": "balm-forge-1.20.1-7.3.44.jar",
+        "file_date": "2026-09-25T05:55:43.953Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/balm"
+      }
+    },
+    {
+      "artifact": "bettercombat-forge-1.9.0+1.20.1.jar",
+      "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1",
+      "size_bytes": 1054339,
+      "mods": [
+        {
+          "id": "bettercombat",
+          "name": "Better Combat",
+          "declared_version": "1.9.0+1.20.1",
+          "version": "1.9.0+1.20.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[39,)",
+      "dependencies": {
+        "bettercombat": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "playeranimator",
+            "mandatory": true,
+            "versionRange": "[1,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "cloth_config",
+            "mandatory": true,
+            "versionRange": "[11.0.0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Better Combat [Fabric & Forge]",
+        "project_id": 639842,
+        "file_id": 7287334,
+        "file_name": "bettercombat-forge-1.9.0+1.20.1.jar",
+        "file_date": "2025-12-02T21:48:43.227Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus"
+      }
+    },
+    {
+      "artifact": "betterminecarts-1.20.1-1.9.0-47.3.0.jar",
+      "sha256": "4b5c2e3bc6ce1d43b1afc9449465571617136d94607714d992562e70b39e0279",
+      "size_bytes": 525900,
+      "mods": [
+        {
+          "id": "betterminecarts",
+          "name": "Better Minecarts",
+          "declared_version": "1.9.0",
+          "version": "1.9.0"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "betterminecarts": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.22)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Xannosz's Better Minecarts",
+        "project_id": 832180,
+        "file_id": 6101294,
+        "file_name": "betterminecarts-1.20.1-1.9.0-47.3.0.jar",
+        "file_date": "2025-01-18T23:21:52.927Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/xannoszs-better-minecarts"
+      }
+    },
+    {
+      "artifact": "BiomesOPlenty-1.20.1-18.0.0.592.jar",
+      "sha256": "c587b49931e62f89c2673936a5e7269c6daabb713dbcc30813cb0f76da37e01d",
+      "size_bytes": 21800460,
+      "mods": [
+        {
+          "id": "biomesoplenty",
+          "name": "Biomes O' Plenty",
+          "declared_version": "${file.jarVersion}",
+          "version": "18.0.0.592"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[45,)",
+      "dependencies": {
+        "biomesoplenty": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[45.0.9,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "terrablender",
+            "mandatory": true,
+            "versionRange": "[2.2.0.154,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Biomes O' Plenty",
+        "project_id": 220318,
+        "file_id": 4617259,
+        "file_name": "BiomesOPlenty-1.20.1-18.0.0.592.jar",
+        "file_date": "2023-06-30T06:54:08.503Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty"
+      }
+    },
+    {
+      "artifact": "caelus-forge-3.2.0+1.20.1.jar",
+      "sha256": "37495445e79df8b30a3a038a0051f3c8aa8447f91a9d0aa0d20baef69dda9368",
+      "size_bytes": 40125,
+      "mods": [
+        {
+          "id": "caelus",
+          "name": "Caelus API",
+          "declared_version": "3.2.0+1.20.1",
+          "version": "3.2.0+1.20.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "caelus": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Caelus API",
+        "project_id": 308989,
+        "file_id": 5281700,
+        "file_name": "caelus-forge-3.2.0+1.20.1.jar",
+        "file_date": "2024-04-22T07:58:30.183Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/caelus"
+      }
+    },
+    {
+      "artifact": "callfromthedepth_-1.22.1-forge-1.20.1.jar",
+      "sha256": "2098447c42102d38dd1e1f14cab079661c0ddcb16503f3571199c9775cd1a47e",
+      "size_bytes": 51977406,
+      "mods": [
+        {
+          "id": "callfromthedepth_",
+          "name": "CallFromTheDepth ",
+          "declared_version": "1.22.1",
+          "version": "1.22.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "callfromthedepth_": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "geckolib",
+            "mandatory": false,
+            "versionRange": "[0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Call from the depths - Sculk Dimension",
+        "project_id": 1013658,
+        "file_id": 8608390,
+        "file_name": "callfromthedepth_-1.22.1-forge-1.20.1.jar",
+        "file_date": "2026-08-09T10:53:19.577Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/call-from-the-depths"
+      }
+    },
+    {
+      "artifact": "carryon-forge-1.20.1-2.1.2.7.jar",
+      "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613",
+      "size_bytes": 439457,
+      "mods": [
+        {
+          "id": "carryon",
+          "name": "Carry On",
+          "declared_version": "${file.jarVersion}",
+          "version": "2.1.2.7"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "carryon": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,47.1.3],[47.1.43,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Carry On",
+        "project_id": 274259,
+        "file_id": 4882500,
+        "file_name": "carryon-forge-1.20.1-2.1.2.7.jar",
+        "file_date": "2023-11-19T22:32:08.46Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/carry-on"
+      }
+    },
+    {
+      "artifact": "chestsearchbar-1.20.1-1.5.0.jar",
+      "sha256": "ff7be26872356cd69af440b6a812ae4209de6ff6bc6d73c6014f632c62c75a24",
+      "size_bytes": 45473,
+      "mods": [
+        {
+          "id": "chestsearchbar",
+          "name": "Chest Search Bar",
+          "declared_version": "1.5.0",
+          "version": "1.5.0"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "chestsearchbar": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.21)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Chest Search Bar",
+        "project_id": 1050325,
+        "file_id": 6137586,
+        "file_name": "chestsearchbar-1.20.1-1.5.0.jar",
+        "file_date": "2025-01-29T20:02:31.03Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/chest-search-bar"
+      }
+    },
+    {
+      "artifact": "citadel-2.6.3-1.20.1.jar",
+      "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce",
+      "size_bytes": 3185275,
+      "mods": [
+        {
+          "id": "citadel",
+          "name": "Citadel",
+          "declared_version": "2.6.3",
+          "version": "2.6.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "citadel": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.0.34,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Citadel",
+        "project_id": 331936,
+        "file_id": 7476570,
+        "file_name": "citadel-2.6.3-1.20.1.jar",
+        "file_date": "2026-01-17T18:16:34.157Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/citadel"
+      }
+    },
+    {
+      "artifact": "clientcrafting-1.20.1-2.1.jar",
+      "sha256": "2d2c37816343d390f02235086095a10a9a56949fd4346da39c1fca301d32a51f",
+      "size_bytes": 7726,
+      "mods": [
+        {
+          "id": "clientcrafting",
+          "name": "clientcrafting mod",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.20.1-2.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[36,)",
+      "dependencies": {
+        "clientcrafting": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[30,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.30)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Client Crafting",
+        "project_id": 888790,
+        "file_id": 7920135,
+        "file_name": "clientcrafting-1.20.1-2.1.jar",
+        "file_date": "2026-04-13T09:48:34.017Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/client-crafting"
+      }
+    },
+    {
+      "artifact": "cloth-config-11.1.136-forge.jar",
+      "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+      "size_bytes": 1181413,
+      "mods": [
+        {
+          "id": "cloth_config",
+          "name": "Cloth Config v10 API",
+          "declared_version": "11.1.136",
+          "version": "11.1.136"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[34,)",
+      "dependencies": {
+        "cloth_config": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[45,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Cloth Config API (Fabric/Forge/NeoForge)",
+        "project_id": 348521,
+        "file_id": 5729105,
+        "file_name": "cloth-config-11.1.136-forge.jar",
+        "file_date": "2024-09-16T17:13:48.94Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/cloth-config"
+      }
+    },
+    {
+      "artifact": "Clumps-forge-1.20.1-12.0.0.4.jar",
+      "sha256": "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a",
+      "size_bytes": 20299,
+      "mods": [
+        {
+          "id": "clumps",
+          "name": "Clumps",
+          "declared_version": "${file.jarVersion}",
+          "version": "12.0.0.4"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[41,)",
+      "dependencies": {},
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Clumps",
+        "project_id": 256717,
+        "file_id": 5278538,
+        "file_name": "Clumps-forge-1.20.1-12.0.0.4.jar",
+        "file_date": "2024-04-21T05:04:02.807Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/clumps"
+      }
+    },
+    {
+      "artifact": "ColdSweat-2.4.3.2.jar",
+      "sha256": "229bb3929f4a73eea9ea7988b66f87ff70eea84955725e0df1e22f62d3c2604a",
+      "size_bytes": 2726263,
+      "mods": [
+        {
+          "id": "cold_sweat",
+          "name": "Cold Sweat",
+          "declared_version": "${file.jarVersion}",
+          "version": "2.4.3.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[40,)",
+      "dependencies": {
+        "cold_sweat": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1, 1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Cold Sweat",
+        "project_id": 506194,
+        "file_id": 8907301,
+        "file_name": "ColdSweat-2.4.3.2.jar",
+        "file_date": "2026-09-17T21:59:07.83Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/cold-sweat"
+      }
+    },
+    {
+      "artifact": "collective-1.20.1-8.45.jar",
+      "sha256": "4489bc1be79bedda71aef4b3ef89b5735d66b3197fd44b9757e13535f33a59be",
+      "size_bytes": 746239,
+      "mods": [
+        {
+          "id": "collective",
+          "name": "Collective",
+          "declared_version": "8.45",
+          "version": "8.45"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {
+        "collective": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "type": "required",
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "collective-1.20.1-8.40.jar",
+          "sha256": "bb530e601fdd1217cdac24d700ad2888ac3ccc23f255869ab9947e4028267198",
+          "mods": [
+            {
+              "id": "collective",
+              "version": "8.40"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "Collective",
+        "project_id": 342584,
+        "file_id": 9129054,
+        "file_name": "collective-1.20.1-8.45.jar",
+        "file_date": "2026-10-11T12:05:17.453Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/collective"
+      },
+      "shared_data_resources": [],
+      "shared_resource_semantics": []
+    },
+    {
+      "artifact": "comforts-forge-6.4.0+1.20.1.jar",
+      "sha256": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c",
+      "size_bytes": 382083,
+      "mods": [
+        {
+          "id": "comforts",
+          "name": "Comforts",
+          "declared_version": "6.4.0+1.20.1",
+          "version": "6.4.0+1.20.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "comforts": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.20.2)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Comforts",
+        "project_id": 276951,
+        "file_id": 5503516,
+        "file_name": "comforts-forge-6.4.0+1.20.1.jar",
+        "file_date": "2024-07-05T03:34:48.973Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/comforts"
+      }
+    },
+    {
+      "artifact": "coroutil-forge-1.20.1-1.3.7.jar",
+      "sha256": "11448808a42c17425cf2ea39701841008683d6ad6e2838a34eef0253251a870f",
+      "size_bytes": 64187,
+      "mods": [
+        {
+          "id": "coroutil",
+          "name": "CoroUtil",
+          "declared_version": "1.20.1-1.3.7",
+          "version": "1.20.1-1.3.7"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "coroutil": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "CoroUtil",
+        "project_id": 237749,
+        "file_id": 5096038,
+        "file_name": "coroutil-forge-1.20.1-1.3.7.jar",
+        "file_date": "2024-02-10T13:46:20.167Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/coroutil"
+      }
+    },
+    {
+      "artifact": "cristellib-1.1.6-forge.jar",
+      "sha256": "3856ad565ea45d6189452d813e2f021b365b686d3b1adae5f747c56a1e535d9f",
+      "size_bytes": 431318,
+      "mods": [
+        {
+          "id": "cristellib",
+          "name": "Cristel Lib",
+          "declared_version": "1.1.6",
+          "version": "1.1.6"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "cristellib": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.20.2)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Cristel Lib",
+        "project_id": 856996,
+        "file_id": 5869180,
+        "file_name": "cristellib-1.1.6-forge.jar",
+        "file_date": "2024-11-02T19:41:53.347Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/cristel-lib"
+      }
+    },
+    {
+      "artifact": "cullleaves-forge-4.1.1+1.20.1.jar",
+      "sha256": "eec8f9e98d456bbc0e6b2b82e928fbaedc4fd6c1055bd50311cb35d81802d6fc",
+      "size_bytes": 97480,
+      "mods": [
+        {
+          "id": "cullleaves",
+          "name": "CullLeaves",
+          "declared_version": "4.1.1",
+          "version": "4.1.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[43,)",
+      "dependencies": {
+        "cullleaves": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[43,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20, 1.20.1]",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "midnightlib",
+            "mandatory": true,
+            "versionRange": "[1.0.0,)",
+            "ordering": "BEFORE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Cull Leaves",
+        "project_id": 423254,
+        "file_id": 7324169,
+        "file_name": "cullleaves-forge-4.1.1+1.20.1.jar",
+        "file_date": "2025-12-12T12:36:27.39Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/cull-leaves"
+      }
+    },
+    {
+      "artifact": "cupboard-1.20.1-4.2.jar",
+      "sha256": "6a384b880c2429e017f83657438e1fc00d091592cc2860d6d2986094bac5d48f",
+      "size_bytes": 33422,
+      "mods": [
+        {
+          "id": "cupboard",
+          "name": "Cupboard utilities",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.20.1-4.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[36,)",
+      "dependencies": {
+        "cupboard": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[30,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.19,1.30)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Cupboard",
+        "project_id": 326652,
+        "file_id": 8889041,
+        "file_name": "cupboard-1.20.1-4.2.jar",
+        "file_date": "2026-09-15T19:17:18.607Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/cupboard"
+      }
+    },
+    {
+      "artifact": "curios-forge-5.14.1+1.20.1.jar",
+      "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+      "size_bytes": 398066,
+      "mods": [
+        {
+          "id": "curios",
+          "name": "Curios API",
+          "declared_version": "${file.jarVersion}",
+          "version": "5.14.1+1.20.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[41,)",
+      "dependencies": {
+        "curios": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Curios API",
+        "project_id": 309927,
+        "file_id": 6418456,
+        "file_name": "curios-forge-5.14.1+1.20.1.jar",
+        "file_date": "2025-04-13T13:09:30.85Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/curios"
+      }
+    },
+    {
+      "artifact": "cwb-forge-3.0.0+mc1.20.jar",
+      "sha256": "97b0827f20b6213c97d2244f7da205d85ffa72e51fa167d69466b49018532478",
+      "size_bytes": 258613,
+      "mods": [
+        {
+          "id": "cubes_without_borders",
+          "name": "Cubes Without Borders",
+          "declared_version": "3.0.0+mc1.20",
+          "version": "3.0.0+mc1.20"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {
+        "cubes_without_borders": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "*",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.20.5)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Cubes Without Borders",
+        "project_id": 975120,
+        "file_id": 5855464,
+        "file_name": "cwb-forge-3.0.0+mc1.20.jar",
+        "file_date": "2024-10-29T00:01:03.323Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/cubes-without-borders"
+      }
+    },
+    {
+      "artifact": "DistantHorizons-3.3.3-1.20.1-fabric-forge.jar",
+      "sha256": "a537a71171d935540b56b7598d0de2c106f6f5026336c713d89a1d9ea0ea14e3",
+      "size_bytes": 27700542,
+      "mods": [
+        {
+          "id": "distanthorizons",
+          "name": "Distant Horizons",
+          "declared_version": "3.3.3",
+          "version": "3.3.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {
+        "distanthorizons": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20],[1.20.1]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "oculus",
+            "mandatory": false,
+            "versionRange": "[1.8.0,)",
+            "ordering": "AFTER",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "DistantHorizons-3.3.2-1.20.1-fabric-forge.jar",
+          "sha256": "84d1477e04eacf61142dde72b5fcfa9f4e0e7ea673753d157f3f5b175155a8d8",
+          "mods": [
+            {
+              "id": "distanthorizons",
+              "version": "3.3.2"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "Distant Horizons: A Level of Detail mod",
+        "project_id": 508933,
+        "file_id": 9004753,
+        "file_name": "DistantHorizons-3.3.3-1.20.1-fabric-forge.jar",
+        "file_date": "2026-09-29T00:01:35.397Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/distant-horizons"
+      },
+      "shared_data_resources": [],
+      "shared_resource_semantics": []
+    },
+    {
+      "artifact": "do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
+      "sha256": "71ffc54d3f1fbe9497cf7b398c79a2724c60f7b06809941e9ded0888587347af",
+      "size_bytes": 625488,
+      "mods": [
+        {
+          "id": "do_a_barrel_roll",
+          "name": "Do a Barrel Roll",
+          "declared_version": "3.5.6+1.20.1",
+          "version": "3.5.6+1.20.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "do_a_barrel_roll": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1.3,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Do a Barrel Roll",
+        "project_id": 663658,
+        "file_id": 5326142,
+        "file_name": "do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
+        "file_date": "2024-05-08T08:34:02.753Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/do-a-barrel-roll"
+      }
+    },
+    {
+      "artifact": "dungeons_enhanced-1.20.1-5.4.3.jar",
+      "sha256": "caf6a694cf338d77b71208dcdd4e234e5b87594123a55bfb4f4e0122ae61b9c3",
+      "size_bytes": 1421681,
+      "mods": [
+        {
+          "id": "dungeons_enhanced",
+          "name": "Dungeons Enhanced",
+          "declared_version": "5.4.3",
+          "version": "5.4.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "dungeons_enhanced": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.3.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "structure_gel",
+            "mandatory": true,
+            "versionRange": "[2.16,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Dungeons Enhanced",
+        "project_id": 480715,
+        "file_id": 7069098,
+        "file_name": "dungeons_enhanced-1.20.1-5.4.3.jar",
+        "file_date": "2025-10-05T10:32:54.097Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/dungeonsenhanced"
+      }
+    },
+    {
+      "artifact": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+      "sha256": "a08b641e6cc1d4867e0878826ac4fb9e55b45907d0fa3429172ecad8cd678ce9",
+      "size_bytes": 141744,
+      "mods": [
+        {
+          "id": "easyanvils",
+          "name": "Easy Anvils",
+          "declared_version": "8.0.2",
+          "version": "8.0.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "easyanvils": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "puzzleslib",
+            "mandatory": true,
+            "versionRange": "[8.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Easy Anvils",
+        "project_id": 682567,
+        "file_id": 5156621,
+        "file_name": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+        "file_date": "2024-03-04T09:07:28.933Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/easy-anvils"
+      }
+    },
+    {
+      "artifact": "elytra_crafting_forge-1.0.0-forge-1.20.1.jar",
+      "sha256": "59a4f8bcd5caa15ef433d9d875382b1b7c14b0918782d99154ac307c1f09cbe4",
+      "size_bytes": 11659,
+      "mods": [
+        {
+          "id": "elytra_crafting_forge",
+          "name": "Elytra Crafting",
+          "declared_version": "1.0.0",
+          "version": "1.0.0"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "elytra_crafting_forge": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Easy Elytra Crafting",
+        "project_id": 1124515,
+        "file_id": 5825396,
+        "file_name": "elytra_crafting_forge-1.0.0-forge-1.20.1.jar",
+        "file_date": "2024-10-19T18:35:36.907Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/easy-elytra-crafting"
+      }
+    },
+    {
+      "artifact": "elytraslot-forge-6.4.4+1.20.1.jar",
+      "sha256": "f96c26e7ac9e2dade0aa04f71b9f8708a2b7af92b9cc691103ae32c62764e6ab",
+      "size_bytes": 100660,
+      "mods": [
+        {
+          "id": "elytraslot",
+          "name": "Elytra Slot",
+          "declared_version": "6.4.4+1.20.1",
+          "version": "6.4.4+1.20.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[41,)",
+      "dependencies": {
+        "elytraslot": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "curios",
+            "mandatory": true,
+            "versionRange": "[5.2.0-beta,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "caelus",
+            "mandatory": true,
+            "versionRange": "[3.1.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Elytra Slot",
+        "project_id": 317716,
+        "file_id": 5778734,
+        "file_name": "elytraslot-forge-6.4.4+1.20.1.jar",
+        "file_date": "2024-10-03T05:39:41.99Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/elytra-slot"
+      }
+    },
+    {
+      "artifact": "embeddium-0.3.31+mc1.20.1.jar",
+      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+      "size_bytes": 1320675,
+      "mods": [
+        {
+          "id": "embeddium",
+          "name": "Embeddium",
+          "declared_version": "0.3.31+mc1.20.1",
+          "version": "0.3.31+mc1.20.1"
+        },
+        {
+          "id": "rubidium",
+          "name": "Rubidium (Embeddium)",
+          "declared_version": "0.7.1",
+          "version": "0.7.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "embeddium": [
+          {
+            "modId": "oculus",
+            "mandatory": false,
+            "versionRange": "(1.6.15,)",
+            "ordering": "BEFORE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "textrues_embeddium_options",
+            "mandatory": false,
+            "versionRange": "[0.0.0-NOT-COMPATIBLE]",
+            "ordering": "BEFORE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Embeddium",
+        "project_id": 908741,
+        "file_id": 5681725,
+        "file_name": "embeddium-0.3.31+mc1.20.1.jar",
+        "file_date": "2024-08-31T23:11:49.24Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/embeddium"
+      }
+    },
+    {
+      "artifact": "entityculling-forge-1.11.3-mc1.20.1.jar",
+      "sha256": "86de2a9fc6538bc26e71e5393ae72018eb9bb349a5dbaa0645fd194da5654b66",
+      "size_bytes": 1515076,
+      "mods": [
+        {
+          "id": "entityculling",
+          "name": "EntityCulling",
+          "declared_version": "1.11.3",
+          "version": "1.11.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[28,)",
+      "dependencies": {
+        "entityculling": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "1.20.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "entityculling-forge-1.11.2-mc1.20.1.jar",
+          "sha256": "5d5dc228dc18422fd8a81cff63e654abb07ca4507b317db114b220aa3fc67d3b",
+          "mods": [
+            {
+              "id": "entityculling",
+              "version": "1.11.2"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "Entity Culling Fabric/Forge",
+        "project_id": 448233,
+        "file_id": 9100267,
+        "file_name": "entityculling-forge-1.11.3-mc1.20.1.jar",
+        "file_date": "2026-10-08T16:51:37.617Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/entityculling"
+      },
+      "shared_data_resources": [],
+      "shared_resource_semantics": []
+    },
+    {
+      "artifact": "EuphoriaPatcher-1.10.5-r5.9.3-forge.jar",
+      "sha256": "65f7437bbfc2474f5c3208e5280cd898f0623c451af541d8a5777cfb21d44c78",
+      "size_bytes": 4523023,
+      "mods": [
+        {
+          "id": "euphoria_patcher",
+          "name": "Euphoria Patcher",
+          "declared_version": "1.10.5-r5.9.3-forge",
+          "version": "1.10.5-r5.9.3-forge"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[10,)",
+      "dependencies": {
+        "euphoria_patcher": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[10,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.13,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Euphoria Patches",
+        "project_id": 915902,
+        "file_id": 8884681,
+        "file_name": "EuphoriaPatcher-1.10.5-r5.9.3-forge.jar",
+        "file_date": "2026-09-15T06:49:07.617Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/euphoria-patches"
+      }
+    },
+    {
+      "artifact": "fabric-api-0.92.6+1.11.15+1.20.1.jar",
+      "sha256": "ffb61c81b9025297048fd647902f4c67c016073c0e94da100125e9aa1168c194",
+      "size_bytes": 3065815,
+      "mods": [
+        {
+          "id": "fabric_api",
+          "name": "Forgified Fabric API",
+          "declared_version": "${file.jarVersion}",
+          "version": "0.92.6+1.11.15+1.20.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "fabric_api": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1.3,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Forgified Fabric API",
+        "project_id": 889079,
+        "file_id": 8641553,
+        "file_name": "fabric-api-0.92.6+1.11.15+1.20.1.jar",
+        "file_date": "2026-08-13T17:17:40.56Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+      }
+    },
+    {
+      "artifact": "FallingTree-1.20.1-4.3.4.jar",
+      "sha256": "5fb64717c368c2759e768873424a46ee5c40076600feadaac5403ca197aebe0f",
+      "size_bytes": 420179,
+      "mods": [
+        {
+          "id": "fallingtree",
+          "name": "FallingTree",
+          "declared_version": "4.3.4",
+          "version": "4.3.4"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "fallingtree": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "cloth-config",
+            "mandatory": false,
+            "versionRange": "[11.0.99,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "FallingTree",
+        "project_id": 349559,
+        "file_id": 5010620,
+        "file_name": "FallingTree-1.20.1-4.3.4.jar",
+        "file_date": "2024-01-05T20:33:00.64Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/falling-tree"
+      }
+    },
+    {
+      "artifact": "fastboot-1.20.x-1.2.jar",
+      "sha256": "66c44b0648a3e3d4115c37593208b85668a97ce012355bad3d33f3cd8142a11f",
+      "size_bytes": 24477,
+      "mods": [
+        {
+          "id": "fastboot",
+          "name": "FastBoot",
+          "declared_version": "1.2",
+          "version": "1.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "fastboot": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "FastBoot",
+        "project_id": 1030285,
+        "file_id": 5696829,
+        "file_name": "fastboot-1.20.x-1.2.jar",
+        "file_date": "2024-09-06T08:48:44.887Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/fastboot"
+      }
+    },
+    {
+      "artifact": "FastSuite-1.20.1-5.1.2.jar",
+      "sha256": "5e05cb3ce05785a0061a41b7a83443074a6c26dd7d9db75c453fa2487481d54e",
+      "size_bytes": 26600,
+      "mods": [
+        {
+          "id": "fastsuite",
+          "name": "Fast Suite",
+          "declared_version": "5.1.2",
+          "version": "5.1.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[32,)",
+      "dependencies": {
+        "fastsuite": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "placebo",
+            "mandatory": true,
+            "versionRange": "[8.2.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "FastSuite",
+        "project_id": 475117,
+        "file_id": 7527943,
+        "file_name": "FastSuite-1.20.1-5.1.2.jar",
+        "file_date": "2026-01-26T00:38:18.357Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/fastsuite"
+      }
+    },
+    {
+      "artifact": "ferritecore-6.0.1-forge.jar",
+      "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
+      "size_bytes": 123034,
+      "mods": [
+        {
+          "id": "ferritecore",
+          "name": "Ferrite Core",
+          "declared_version": "${file.jarVersion}",
+          "version": "6.0.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[28,)",
+      "dependencies": {
+        "ferritecore": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46.0.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "FerriteCore ((Neo)Forge)",
+        "project_id": 429235,
+        "file_id": 4810975,
+        "file_name": "ferritecore-6.0.1-forge.jar",
+        "file_date": "2023-10-22T13:35:16.597Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/ferritecore"
+      }
+    },
+    {
+      "artifact": "firstperson-forge-2.7.3-mc1.20.1.jar",
+      "sha256": "94441e7d294a51dc48754b7cd0f8780df38bb5c326feb46c2b88d2052fde42da",
+      "size_bytes": 1726107,
+      "mods": [
+        {
+          "id": "firstperson",
+          "name": "FirstPerson",
+          "declared_version": "2.7.3",
+          "version": "2.7.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[28,)",
+      "dependencies": {
+        "firstperson": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "1.20.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "First-person Model",
+        "project_id": 333287,
+        "file_id": 8990468,
+        "file_name": "firstperson-forge-2.7.3-mc1.20.1.jar",
+        "file_date": "2026-09-27T13:38:21.79Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/first-person-model"
+      }
+    },
+    {
+      "artifact": "ftb-library-forge-2001.2.13.jar",
+      "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7",
+      "size_bytes": 780558,
+      "mods": [
+        {
+          "id": "ftblibrary",
+          "name": "FTB Library",
+          "declared_version": "2001.2.13",
+          "version": "2001.2.13"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "ftblibrary": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.3,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "architectury",
+            "mandatory": true,
+            "versionRange": "[9.0.8,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ftbquests",
+            "mandatory": false,
+            "versionRange": "[2001.4.8,)",
+            "ordering": "BEFORE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "FTB Library (NeoForge)",
+        "project_id": 404465,
+        "file_id": 8226927,
+        "file_name": "ftb-library-forge-2001.2.13.jar",
+        "file_date": "2026-06-10T14:57:06.283Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge"
+      }
+    },
+    {
+      "artifact": "ftb-quests-forge-2001.4.22.jar",
+      "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68",
+      "size_bytes": 1255469,
+      "mods": [
+        {
+          "id": "ftbquests",
+          "name": "FTB Quests",
+          "declared_version": "2001.4.22",
+          "version": "2001.4.22"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[39,)",
+      "dependencies": {
+        "ftbquests": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "architectury",
+            "mandatory": true,
+            "versionRange": "[9.0.8,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ftblibrary",
+            "mandatory": true,
+            "versionRange": "[2001.2.1,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ftbteams",
+            "mandatory": true,
+            "versionRange": "[2001.1.4,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "itemfilters",
+            "mandatory": false,
+            "versionRange": "[2001.1.0-build.55,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "FTB Quests (NeoForge)",
+        "project_id": 289412,
+        "file_id": 8078538,
+        "file_name": "ftb-quests-forge-2001.4.22.jar",
+        "file_date": "2026-05-12T15:59:14.893Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge"
+      }
+    },
+    {
+      "artifact": "ftb-teams-forge-2001.3.2.jar",
+      "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
+      "size_bytes": 252579,
+      "mods": [
+        {
+          "id": "ftbteams",
+          "name": "FTB Teams",
+          "declared_version": "2001.3.2",
+          "version": "2001.3.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "ftbteams": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1.47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "architectury",
+            "mandatory": true,
+            "versionRange": "[9.1.12,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ftblibrary",
+            "mandatory": true,
+            "versionRange": "[2001.2.0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "FTB Teams (NeoForge)",
+        "project_id": 404468,
+        "file_id": 7499810,
+        "file_name": "ftb-teams-forge-2001.3.2.jar",
+        "file_date": "2026-01-21T10:11:35.007Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge"
+      }
+    },
+    {
+      "artifact": "ftb-xmod-compat-forge-2.1.3.jar",
+      "sha256": "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72",
+      "size_bytes": 129725,
+      "mods": [
+        {
+          "id": "ftbxmodcompat",
+          "name": "FTB XMod Compat",
+          "declared_version": "2.1.3",
+          "version": "2.1.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[43,)",
+      "dependencies": {
+        "ftbxmodcompat": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "architectury",
+            "mandatory": true,
+            "versionRange": "[9.0.8,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ftblibrary",
+            "mandatory": true,
+            "versionRange": "[2001.1.3,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ftbquests",
+            "mandatory": false,
+            "versionRange": "[2001.3.0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ftbchunks",
+            "mandatory": false,
+            "versionRange": "[2001.2.0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "jei",
+            "mandatory": false,
+            "versionRange": "[15.2,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ftbranks",
+            "mandatory": false,
+            "versionRange": "[2001.1.3,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "kubejs",
+            "mandatory": false,
+            "versionRange": "[2001.6.3,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "luckperms",
+            "mandatory": false,
+            "versionRange": "[5.4.83,)",
+            "ordering": "AFTER",
+            "side": "SERVER"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "FTB XMod Compat",
+        "project_id": 889915,
+        "file_id": 6402486,
+        "file_name": "ftb-xmod-compat-forge-2.1.3.jar",
+        "file_date": "2025-04-09T10:47:38.837Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat"
+      }
+    },
+    {
+      "artifact": "geckolib-forge-1.20.1-4.8.4.jar",
+      "sha256": "c04abba4fd354dd8c0e8a732f1f05f4dca893d2e1d962b2ab128bbd411478747",
+      "size_bytes": 1038209,
+      "mods": [
+        {
+          "id": "geckolib",
+          "name": "GeckoLib 4",
+          "declared_version": "4.8.4",
+          "version": "4.8.4"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "geckolib": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "geckoanimfix",
+            "mandatory": false,
+            "versionRange": "[9.removeoculusgeckolibcompat,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "GeckoLib",
+        "project_id": 388172,
+        "file_id": 8285794,
+        "file_name": "geckolib-forge-1.20.1-4.8.4.jar",
+        "file_date": "2026-06-20T11:07:46.873Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/geckolib"
+      }
+    },
+    {
+      "artifact": "iChunUtil-1.20.1-Forge-1.0.3.jar",
+      "sha256": "31ee649f34ff9c7a51d4d1b80f438a49a0387bd544b0a5cdc96e039d90f134c5",
+      "size_bytes": 692753,
+      "mods": [
+        {
+          "id": "ichunutil",
+          "name": "iChunUtil",
+          "declared_version": "1.0.3",
+          "version": "1.0.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "ichunutil": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "iChunUtil",
+        "project_id": 229060,
+        "file_id": 6000481,
+        "file_name": "iChunUtil-1.20.1-Forge-1.0.3.jar",
+        "file_date": "2024-12-18T01:06:34.143Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/ichunutil"
+      }
+    },
+    {
+      "artifact": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+      "sha256": "82db19cc65b5c11a444498fb4b8cbcb0393c043e794cb5bf368631a0af765035",
+      "size_bytes": 532063,
+      "mods": [
+        {
+          "id": "immediatelyfast",
+          "name": "ImmediatelyFast",
+          "declared_version": "1.5.5+1.20.4",
+          "version": "1.5.5+1.20.4"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "immediatelyfast": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.20.4]",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "ImmediatelyFast",
+        "project_id": 686911,
+        "file_id": 8348481,
+        "file_name": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+        "file_date": "2026-06-30T21:37:05.073Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/immediatelyfast"
+      }
+    },
+    {
+      "artifact": "immersive-portals-3.0.7-all.jar",
+      "sha256": "deb233d1e530e5e208ba6f3529a3b90ad071a06a2dc8d7ea60f14b0d67912efc",
+      "size_bytes": 2137648,
+      "mods": [
+        {
+          "id": "immersive_portals",
+          "name": "Immersive Portals",
+          "declared_version": "${file.jarVersion}",
+          "version": "3.0.7"
+        },
+        {
+          "id": "imm_ptl_core",
+          "name": "Immersive Portals Core",
+          "declared_version": "${file.jarVersion}",
+          "version": "3.0.7"
+        },
+        {
+          "id": "q_misc_util",
+          "name": "QMiscUtil",
+          "declared_version": "${file.jarVersion}",
+          "version": "3.0.7"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[43,)",
+      "dependencies": {
+        "immersive_portals": [
+          {
+            "modId": "imm_ptl_core",
+            "mandatory": true,
+            "versionRange": "[0.0.0,)"
+          },
+          {
+            "modId": "q_misc_util",
+            "mandatory": true,
+            "versionRange": "[0.0.0,)"
+          }
+        ],
+        "q_misc_util": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)"
+          },
+          {
+            "modId": "cloth_config",
+            "mandatory": true,
+            "versionRange": "[11.1,)"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Immersive Portals (for Forge)",
+        "project_id": 355440,
+        "file_id": 6368524,
+        "file_name": "immersive-portals-3.0.7-all.jar",
+        "file_date": "2025-03-30T21:23:59.42Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/immersive-portals-for-forge"
+      }
+    },
+    {
+      "artifact": "InventoryProfilesNext-forge-1.20-1.10.20.jar",
+      "sha256": "2f664f23ed031f6cfacce01b0461c450e2248435936cb6b7e2e0463c6ec56343",
+      "size_bytes": 1457354,
+      "mods": [
+        {
+          "id": "inventoryprofilesnext",
+          "name": "Inventory Profiles Next",
+          "declared_version": "1.10.20",
+          "version": "1.10.20"
+        }
+      ],
+      "mod_loader": "kotlinforforge",
+      "loader_version": "[4.3,)",
+      "dependencies": {
+        "inventoryprofilesnext": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.20.2)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "libipn",
+            "mandatory": true,
+            "versionRange": "[4.0.2,5)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Inventory Profiles Next",
+        "project_id": 495267,
+        "file_id": 7565992,
+        "file_name": "InventoryProfilesNext-forge-1.20-1.10.20.jar",
+        "file_date": "2026-02-02T13:15:32.663Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next"
+      }
+    },
+    {
+      "artifact": "inventorytotem-1.20.1-3.5.jar",
+      "sha256": "3dee318be7cf348a8298fc3699eff63e84bd61292f276ce00d0ea6c5139e3320",
+      "size_bytes": 18352,
+      "mods": [
+        {
+          "id": "inventorytotem",
+          "name": "Inventory Totem",
+          "declared_version": "3.5",
+          "version": "3.5"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {
+        "inventorytotem": [
+          {
+            "modId": "collective",
+            "type": "required",
+            "mandatory": true,
+            "versionRange": "[8.40,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "inventorytotem-1.20.1-3.4.jar",
+          "sha256": "bde671c0c6a5a71fdf0d56319461dcc30c3f58261cb547963b6b1581eaed9d0a",
+          "mods": [
+            {
+              "mod_id": "inventorytotem",
+              "name": "Inventory Totem",
+              "metadata_version": "3.4"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "Inventory Totem",
+        "project_id": 349071,
+        "file_id": 9033801,
+        "file_name": "inventorytotem-1.20.1-3.5.jar",
+        "file_date": "2026-10-02T02:51:36.803Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/inventory-totem"
+      },
+      "shared_data_resources": [],
+      "shared_resource_semantics": []
+    },
+    {
+      "artifact": "ironchest-1.20.1-14.4.4.jar",
+      "sha256": "6bc75f288d2e8158d2e23c6881a1b341a894c38bab129ca0f20db6abd59d373f",
+      "size_bytes": 311290,
+      "mods": [
+        {
+          "id": "ironchest",
+          "name": "Iron Chests",
+          "declared_version": "1.20.1-14.4.4",
+          "version": "1.20.1-14.4.4"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "ironchest": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Iron Chests",
+        "project_id": 228756,
+        "file_id": 4614852,
+        "file_name": "ironchest-1.20.1-14.4.4.jar",
+        "file_date": "2023-06-28T22:33:11.723Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/iron-chests"
+      }
+    },
+    {
+      "artifact": "jei-1.20.1-forge-15.62.0.219.jar",
+      "sha256": "e05b2427251d26fc6d15d7af65f918d0f00b4cc317ffa22e6d83c65d4ec8ead9",
+      "size_bytes": 2232177,
+      "mods": [
+        {
+          "id": "jei",
+          "name": "Just Enough Items",
+          "declared_version": "15.62.0.219",
+          "version": "15.62.0.219"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "jei": [
+          {
+            "modId": "mezz_config",
+            "mandatory": true,
+            "versionRange": "[0.6.3,1.0.0)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "mezz_config_gui",
+            "mandatory": false,
+            "versionRange": "[0.5.10,)",
+            "ordering": "AFTER",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1, 1.20.2)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "jei-1.20.1-forge-15.62.0.216.jar",
+          "sha256": "80ece8bd42497c94cbcab5d9b82594a53831b249bb33e1ff6dcf568a4b7a637b",
+          "mods": [
+            {
+              "id": "jei",
+              "version": "15.62.0.216"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "Just Enough Items (JEI)",
+        "project_id": 238222,
+        "file_id": 9058038,
+        "file_name": "jei-1.20.1-forge-15.62.0.219.jar",
+        "file_date": "2026-10-04T12:38:50.89Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/jei"
+      },
+      "shared_data_resources": [],
+      "shared_resource_semantics": []
+    },
+    {
+      "artifact": "JRFTL-1.20.1-1.6.0.jar",
+      "sha256": "521258f9b254b2be0205b40db882cbcdc26cf87babc8449939646f75d8e6c3b3",
+      "size_bytes": 14541,
+      "mods": [
+        {
+          "id": "jrftl",
+          "name": "JRFTL",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.6.0"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "jrftl": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Just Another Rotten Flesh to Leather Mod",
+        "project_id": 247136,
+        "file_id": 4594475,
+        "file_name": "JRFTL-1.20.1-1.6.0.jar",
+        "file_date": "2023-06-18T07:56:58.583Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/just-another-rotten-flesh-to-leather-mod"
+      }
+    },
+    {
+      "artifact": "KNCraftCompatibilityMod-1.0.10.jar",
+      "sha256": "d0dd0c0ba129e6d7537c4cda93da1c36675c7e908ddf58b754e9c748e1325719",
+      "size_bytes": 85731596,
+      "mods": [
+        {
+          "id": "kncraft",
+          "name": "KNCraft Compatibility",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.0.10"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "kncraft": [
+          {
+            "modId": "patchouli",
+            "mandatory": false,
+            "versionRange": "[1.20.1-85-FORGE]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "aether",
+            "mandatory": false,
+            "versionRange": "[1.20.1-1.5.2-neoforge]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "carryon",
+            "mandatory": false,
+            "versionRange": "[2.1.2.7]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.4.0]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "immersive_portals",
+            "mandatory": false,
+            "versionRange": "[3.0.7]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "nomadictents",
+            "mandatory": false,
+            "versionRange": "[20.1.1]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "infiniverse",
+            "mandatory": false,
+            "versionRange": "[1.0.0.5]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "witherstormmod",
+            "mandatory": false,
+            "versionRange": "[4.2.1]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "alexsmobs",
+            "mandatory": false,
+            "versionRange": "[1.22.9]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "weather2",
+            "mandatory": false,
+            "versionRange": "[1.20.1-2.8.3]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "callfromthedepth_",
+            "mandatory": false,
+            "versionRange": "[1.22.1]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "cold_sweat",
+            "mandatory": false,
+            "versionRange": "[2.4.3],[2.4.3.2]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "more_enchantments",
+            "mandatory": false,
+            "versionRange": "[1.4.3]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "elytraslot",
+            "mandatory": false,
+            "versionRange": "[6.4.4+1.20.1]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "bettercombat",
+            "mandatory": false,
+            "versionRange": "[1.9.0+1.20.1]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "sophisticatedcore",
+            "mandatory": false,
+            "versionRange": "[1.5.1.2335],[1.5.2.2346]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "custom_mod_not_in_upstream_update_baseline",
+      "previous_artifacts": [],
+      "curseforge": {
+        "name": "KNCraft Integrations",
+        "project_id": 1700174,
+        "file_id": 8994420,
+        "file_name": "KNCraftCompatibilityMod-1.0.10.jar",
+        "file_date": "2026-09-27T21:16:33.427Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/kncraft-integrations"
+      }
+    },
+    {
+      "artifact": "kotlinforforge-4.12.0-all.jar",
+      "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae",
+      "size_bytes": 7442998,
+      "mods": [],
+      "dependencies": {},
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Kotlin for Forge",
+        "project_id": 351264,
+        "file_id": 7291067,
+        "file_name": "kotlinforforge-4.12.0-all.jar",
+        "file_date": "2025-12-03T19:47:08.457Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge"
+      }
+    },
+    {
+      "artifact": "Ksyxis-1.4.6.jar",
+      "sha256": "e044b1b25227ceb49e3fa592543af602034a0a6a85b57edfeb41668f3bedf111",
+      "size_bytes": 23873,
+      "mods": [
+        {
+          "id": "ksyxis",
+          "name": "Ksyxis",
+          "declared_version": "1.4.6",
+          "version": "1.4.6"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {},
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "Ksyxis-1.4.5.jar",
+          "sha256": "a08ca6d645e500d50edcffaefa5e3c182a86e8128f9f2981eca26f2a8f6e1d02",
+          "mods": [
+            {
+              "id": "ksyxis",
+              "version": "1.4.5"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "Ksyxis",
+        "project_id": 537533,
+        "file_id": 9102078,
+        "file_name": "Ksyxis-1.4.6.jar",
+        "file_date": "2026-10-08T21:00:54.103Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/ksyxis"
+      },
+      "shared_data_resources": [],
+      "shared_resource_semantics": []
+    },
+    {
+      "artifact": "libIPN-forge-1.20-4.0.2.jar",
+      "sha256": "cb96fa15eddc74c243677f7f5b6e3ecaa87bb33f4854ae0353646f304058add6",
+      "size_bytes": 693301,
+      "mods": [
+        {
+          "id": "libipn",
+          "name": "libIPN",
+          "declared_version": "4.0.2",
+          "version": "4.0.2"
+        }
+      ],
+      "mod_loader": "kotlinforforge",
+      "loader_version": "[4.3,)",
+      "dependencies": {
+        "libipn": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "libIPN",
+        "project_id": 679177,
+        "file_id": 5208511,
+        "file_name": "libIPN-forge-1.20-4.0.2.jar",
+        "file_date": "2024-03-24T18:17:24.247Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/libipn"
+      }
+    },
+    {
+      "artifact": "lithostitched-forge-1.20.1-1.4.11.jar",
+      "sha256": "c19a5a36c0e6cb3782cf7ca5b9648fb1bce5fc41fd737bed423a1f4971bccf75",
+      "size_bytes": 476347,
+      "mods": [
+        {
+          "id": "lithostitched",
+          "name": "Lithostitched",
+          "declared_version": "1.4.11",
+          "version": "1.4.11"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "lithostitched": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.20.2)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Lithostitched",
+        "project_id": 936015,
+        "file_id": 6742615,
+        "file_name": "lithostitched-forge-1.20.1-1.4.11.jar",
+        "file_date": "2025-07-07T23:21:45.877Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/lithostitched"
+      }
+    },
+    {
+      "artifact": "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "sha256": "95c5aae4e82758d5c0ca2ba61c4cf72e9240e53f68befe8104c68fa9f9b19eed",
+      "size_bytes": 693579,
+      "mods": [
+        {
+          "id": "mcwbridges",
+          "name": "Macaw's Bridges",
+          "declared_version": "3.1.2",
+          "version": "3.1.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[28,)",
+      "dependencies": {},
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Macaw's Bridges",
+        "project_id": 351725,
+        "file_id": 7627954,
+        "file_name": "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+        "file_date": "2026-02-15T10:49:33.667Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/macaws-bridges"
+      }
+    },
+    {
+      "artifact": "mcw-mcwstairs-1.0.2-mc1.20.1forge.jar",
+      "sha256": "c952bf7b9eec89071d05da79f73459565847c65187b2f342fa0933c46605bfea",
+      "size_bytes": 554055,
+      "mods": [
+        {
+          "id": "mcwstairs",
+          "name": "Macaw's Stairs and Balconies",
+          "declared_version": "1.0.2",
+          "version": "1.0.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[28,)",
+      "dependencies": {},
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Macaw's Stairs",
+        "project_id": 1119394,
+        "file_id": 7317580,
+        "file_name": "mcw-mcwstairs-1.0.2-mc1.20.1forge.jar",
+        "file_date": "2025-12-10T20:50:52.823Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/macaws-stairs"
+      }
+    },
+    {
+      "artifact": "memoryleakfix-forge-1.17+-1.1.5.jar",
+      "sha256": "925c3db4e1d085a43c4d2beaa4eec18367c22abc90c2ce8594b8a129fd3f28dd",
+      "size_bytes": 227925,
+      "mods": [
+        {
+          "id": "memoryleakfix",
+          "name": "Memory Leak Fix",
+          "declared_version": "1.1.5",
+          "version": "1.1.5"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {
+        "memoryleakfix": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[37,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.17,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": null
+    },
+    {
+      "artifact": "mezz_config-1.20.1-forge-0.6.8.jar",
+      "sha256": "93d04b64ed5120350aed8a6d25efe5703fdbc720c233d7da3274feafd076c7e1",
+      "size_bytes": 364842,
+      "mods": [
+        {
+          "id": "mezz_config",
+          "name": "MezzConfig",
+          "declared_version": "0.6.8",
+          "version": "0.6.8"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "mezz_config": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "mezz_config-1.20.1-forge-0.6.5.jar",
+          "sha256": "d06335f4a015b41bc35944460260854b48da651cb496b71b0a89a18c75c1984e",
+          "mods": [
+            {
+              "id": "mezz_config",
+              "version": "0.6.5"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "MezzConfig",
+        "project_id": 1689768,
+        "file_id": 9048661,
+        "file_name": "mezz_config-1.20.1-forge-0.6.8.jar",
+        "file_date": "2026-10-03T15:37:48.39Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/mezzconfig"
+      },
+      "shared_data_resources": [],
+      "shared_resource_semantics": []
+    },
+    {
+      "artifact": "midnightlib-forge-1.9.2+1.20.1.jar",
+      "sha256": "19af8e16930380e0669cb457a7f591c9ecac131cf3d879cc77f0fd7afe41b849",
+      "size_bytes": 61987,
+      "mods": [
+        {
+          "id": "midnightlib",
+          "name": "MidnightLib",
+          "declared_version": "1.9.2",
+          "version": "1.9.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[43,)",
+      "dependencies": {
+        "midnightlib": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[43,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20, 1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "MidnightLib",
+        "project_id": 488090,
+        "file_id": 7318663,
+        "file_name": "midnightlib-forge-1.9.2+1.20.1.jar",
+        "file_date": "2025-12-11T00:14:18.203Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/midnightlib"
+      }
+    },
+    {
+      "artifact": "modernfix-forge-5.27.88+mc1.20.1.jar",
+      "sha256": "0f4321aa704c3d7813822065675c33441759dc52b6825fa522b5a36f37e430d5",
+      "size_bytes": 1009661,
+      "mods": [
+        {
+          "id": "modernfix",
+          "name": "ModernFix",
+          "declared_version": "5.27.88+mc1.20.1",
+          "version": "5.27.88+mc1.20.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "modernfix": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46.0.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20, 1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "jei",
+            "mandatory": false,
+            "versionRange": "[15.8.0.11,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "modernfix-forge-5.27.83+mc1.20.1.jar",
+          "sha256": "954ff22f601be8de3978a0d7636a138dc93801c6ac55cfd71ef1cd2895de8e5f",
+          "mods": [
+            {
+              "mod_id": "modernfix",
+              "name": "ModernFix",
+              "metadata_version": "5.27.83+mc1.20.1"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "ModernFix",
+        "project_id": 790626,
+        "file_id": 9124107,
+        "file_name": "modernfix-forge-5.27.88+mc1.20.1.jar",
+        "file_date": "2026-10-11T00:10:23.227Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/modernfix"
+      },
+      "shared_data_resources": [],
+      "shared_resource_semantics": []
+    },
+    {
+      "artifact": "MoreEnchantments_MC_1.20.1_Vers.1.4.3.jar",
+      "sha256": "cd539b098563afe518d74f92e6f06c98e23b4cc65d45ab6c0b4c039587b6d49a",
+      "size_bytes": 113779,
+      "mods": [
+        {
+          "id": "more_enchantments",
+          "name": "More Enchantments",
+          "declared_version": "1.4.3",
+          "version": "1.4.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "more_enchantments": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "More Enchantments",
+        "project_id": 447835,
+        "file_id": 4799591,
+        "file_name": "MoreEnchantments_MC_1.20.1_Vers.1.4.3.jar",
+        "file_date": "2023-10-15T09:59:23.497Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/more-enchantments_"
+      }
+    },
+    {
+      "artifact": "MultiplayerServerPause-1.20.1-Forge-1.3.3.jar",
+      "sha256": "950a4220c833c3b450d3728bf817ba5be7085b3e6dae0c8b4e3e6591863fc329",
+      "size_bytes": 70710,
+      "mods": [
+        {
+          "id": "serverpause",
+          "name": "Multiplayer Server Pause",
+          "declared_version": "1.3.3",
+          "version": "1.3.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "serverpause": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ichunutil",
+            "mandatory": true,
+            "versionRange": "[1.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Multiplayer Server Pause (Forge)",
+        "project_id": 556491,
+        "file_id": 6408880,
+        "file_name": "MultiplayerServerPause-1.20.1-Forge-1.3.3.jar",
+        "file_date": "2025-04-10T23:26:04.157Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/multiplayer-server-pause-forge"
+      }
+    },
+    {
+      "artifact": "noisiumed-forge-3.0.6+mc1.20-1.20.1.jar",
+      "sha256": "09f89355b21c84a653afdc1597c4cd1db66be836b3ef52fc419d28dcbcffb03c",
+      "size_bytes": 218152,
+      "mods": [
+        {
+          "id": "noisiumed",
+          "name": "Noisiumed",
+          "declared_version": "3.0.6+mc1.20-1.20.1",
+          "version": "3.0.6+mc1.20-1.20.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": ">=47.1.100",
+      "dependencies": {
+        "noisiumed": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": ">=1.20 <=1.20.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": ">=47.1.100",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Noisiumed",
+        "project_id": 1430156,
+        "file_id": 8475241,
+        "file_name": "noisiumed-forge-3.0.6+mc1.20-1.20.1.jar",
+        "file_date": "2026-07-21T01:58:16.797Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/noisiumed"
+      }
+    },
+    {
+      "artifact": "Nomadic-Tents-20.1.1.jar",
+      "sha256": "57bf4b44756c5e8d8d4d9403f8da6150764e4872cae020be27af3fba98d35ae6",
+      "size_bytes": 632377,
+      "mods": [
+        {
+          "id": "nomadictents",
+          "name": "Nomadic Tents",
+          "declared_version": "20.1.1",
+          "version": "20.1.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "nomadictents": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.3,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Nomadic Tents",
+        "project_id": 238794,
+        "file_id": 6155502,
+        "file_name": "Nomadic-Tents-20.1.1.jar",
+        "file_date": "2025-02-03T23:13:27.627Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/nomadic-tents"
+      }
+    },
+    {
+      "artifact": "notenoughanimations-forge-1.12.6-mc1.20.1.jar",
+      "sha256": "66f1f6d61102dd03a4afafe4c9f1d39be9e55dabc8d0821cb46acca1328b525d",
+      "size_bytes": 1870649,
+      "mods": [
+        {
+          "id": "notenoughanimations",
+          "name": "NotEnoughAnimations",
+          "declared_version": "1.12.6",
+          "version": "1.12.6"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[28,)",
+      "dependencies": {
+        "notenoughanimations": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "1.20.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Not Enough Animations",
+        "project_id": 433760,
+        "file_id": 8925063,
+        "file_name": "notenoughanimations-forge-1.12.6-mc1.20.1.jar",
+        "file_date": "2026-09-19T21:01:05.827Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/not-enough-animations"
+      }
+    },
+    {
+      "artifact": "oculus-mc1.20.1-1.8.0.jar",
+      "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
+      "size_bytes": 2851119,
+      "mods": [
+        {
+          "id": "oculus",
+          "name": "Oculus",
+          "declared_version": "1.8.0",
+          "version": "1.8.0"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {
+        "oculus": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "embeddium",
+            "mandatory": false,
+            "versionRange": "[0.3.1,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Oculus",
+        "project_id": 581495,
+        "file_id": 6020952,
+        "file_name": "oculus-mc1.20.1-1.8.0.jar",
+        "file_date": "2024-12-24T23:33:51.04Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/oculus"
+      }
+    },
+    {
+      "artifact": "pamhc2crops-1.20-1.0.3.jar",
+      "sha256": "81f743457e1cdd9a3061e23be094920562fd1c57cf29e78cf77a71c1f27da4f0",
+      "size_bytes": 1050402,
+      "mods": [
+        {
+          "id": "pamhc2crops",
+          "name": "Pam's HarvestCraft 2 - Crops",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.0.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[40,)",
+      "dependencies": {
+        "pamhc2crops": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[40,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Pam's HarvestCraft 2 - Crops",
+        "project_id": 361385,
+        "file_id": 4687624,
+        "file_name": "pamhc2crops-1.20-1.0.3.jar",
+        "file_date": "2023-08-07T21:13:53.157Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-crops"
+      }
+    },
+    {
+      "artifact": "pamhc2foodcore-1.20.4-1.0.5.jar",
+      "sha256": "1f18655d5eeea99eeccf0d9d458dbf88d6b59c1a9f00c17e322db8d55a54ed5b",
+      "size_bytes": 911489,
+      "mods": [
+        {
+          "id": "pamhc2foodcore",
+          "name": "Pam's HarvestCraft 2 - Food Core",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.0.5"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[40,)",
+      "dependencies": {
+        "pamhc2foodcore": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[40,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Pam's HarvestCraft 2 - Food Core",
+        "project_id": 372534,
+        "file_id": 5097798,
+        "file_name": "pamhc2foodcore-1.20.4-1.0.5.jar",
+        "file_date": "2024-02-11T00:34:25.843Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core"
+      }
+    },
+    {
+      "artifact": "pamhc2foodextended-1.20.4-1.0.1.jar",
+      "sha256": "3cead8bebf7bf4b0d690ee3887da58a1941c92d197826be1f54bbae942e408bd",
+      "size_bytes": 2062882,
+      "mods": [
+        {
+          "id": "pamhc2foodextended",
+          "name": "Pam's HarvestCraft 2 - Food Extended",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.0.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[40,)",
+      "dependencies": {
+        "pamhc2foodextended": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[40,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Pam's HarvestCraft 2 - Food Extended",
+        "project_id": 402231,
+        "file_id": 5147171,
+        "file_name": "pamhc2foodextended-1.20.4-1.0.1.jar",
+        "file_date": "2024-02-29T22:04:49.307Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-extended"
+      }
+    },
+    {
+      "artifact": "pamhc2trees-1.20-1.0.2.jar",
+      "sha256": "69e0c722c786b78aea299e7faf27991e6533a671a66f281fb5ced279eb31b0dd",
+      "size_bytes": 777303,
+      "mods": [
+        {
+          "id": "pamhc2trees",
+          "name": "Pam's HarvestCraft 2 - Trees",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.0.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[40,)",
+      "dependencies": {
+        "pamhc2trees": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[40,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Pam's HarvestCraft 2 - Trees",
+        "project_id": 365460,
+        "file_id": 4625518,
+        "file_name": "pamhc2trees-1.20-1.0.2.jar",
+        "file_date": "2023-07-04T23:12:00.19Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-trees"
+      }
+    },
+    {
+      "artifact": "Patchouli-1.20.1-85-FORGE.jar",
+      "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5",
+      "size_bytes": 642732,
+      "mods": [
+        {
+          "id": "patchouli",
+          "name": "Patchouli",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.20.1-85-FORGE"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "patchouli": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1.3,)"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.21)"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Patchouli",
+        "project_id": 306770,
+        "file_id": 7731017,
+        "file_name": "Patchouli-1.20.1-85-FORGE.jar",
+        "file_date": "2026-03-08T21:08:44.413Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/patchouli"
+      }
+    },
+    {
+      "artifact": "Placebo-1.20.1-8.6.3.jar",
+      "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571",
+      "size_bytes": 282474,
+      "mods": [
+        {
+          "id": "placebo",
+          "name": "Placebo",
+          "declared_version": "8.6.3",
+          "version": "8.6.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[32,)",
+      "dependencies": {
+        "placebo": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Placebo",
+        "project_id": 283644,
+        "file_id": 6274231,
+        "file_name": "Placebo-1.20.1-8.6.3.jar",
+        "file_date": "2025-03-07T09:06:06.367Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/placebo"
+      }
+    },
+    {
+      "artifact": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691",
+      "size_bytes": 181437,
+      "mods": [
+        {
+          "id": "playeranimator",
+          "name": "Player Animator",
+          "declared_version": "1.0.2-rc1+1.20",
+          "version": "1.0.2-rc1+1.20"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46.0.0,)",
+      "dependencies": {
+        "playeranimator": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "playerAnimator",
+        "project_id": 658587,
+        "file_id": 4587214,
+        "file_name": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+        "file_date": "2023-06-14T20:01:58.627Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/playeranimator"
+      }
+    },
+    {
+      "artifact": "Prism-1.20.1-forge-1.0.5.jar",
+      "sha256": "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240",
+      "size_bytes": 52205,
+      "mods": [
+        {
+          "id": "prism",
+          "name": "Prism",
+          "declared_version": "1.0.5",
+          "version": "1.0.5"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "prism": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Prism [Neo/Forge]",
+        "project_id": 638111,
+        "file_id": 4650325,
+        "file_name": "Prism-1.20.1-forge-1.0.5.jar",
+        "file_date": "2023-07-17T22:39:15.03Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/prism-lib"
+      }
+    },
+    {
+      "artifact": "PuzzlesLib-v8.1.36-1.20.1-Forge.jar",
+      "sha256": "103f1d46c16023e346802a9b2024db885cf8dc3a43ee5106bcd5ed8165073efd",
+      "size_bytes": 1790007,
+      "mods": [
+        {
+          "id": "puzzleslib",
+          "name": "Puzzles Lib",
+          "declared_version": "8.1.36",
+          "version": "8.1.36"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "puzzleslib": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "puzzlesaccessapi",
+            "mandatory": true,
+            "versionRange": "*",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+          "sha256": "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f",
+          "mods": [
+            {
+              "mod_id": "puzzleslib",
+              "name": "Puzzles Lib",
+              "metadata_version": "8.1.33"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "Puzzles Lib",
+        "project_id": 495476,
+        "file_id": 9130247,
+        "file_name": "PuzzlesLib-v8.1.36-1.20.1-Forge.jar",
+        "file_date": "2026-10-11T14:10:55.547Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/puzzles-lib"
+      },
+      "shared_data_resources": [],
+      "shared_resource_semantics": []
+    },
+    {
+      "artifact": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+      "sha256": "b42584e2672d6b5329959ec2b0f342395b19389fed0ee4d86ea71072f42f77a0",
+      "size_bytes": 713454,
+      "mods": [
+        {
+          "id": "radium",
+          "name": "Radium",
+          "declared_version": "0.12.4+git.26c9d8e",
+          "version": "0.12.4+git.26c9d8e"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {},
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Radium Reforged",
+        "project_id": 570017,
+        "file_id": 5706069,
+        "file_name": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+        "file_date": "2024-09-09T08:07:43.54Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/radium-reforged"
+      }
+    },
+    {
+      "artifact": "RopeBridge-1.20.1-3.0.3.jar",
+      "sha256": "9cb45241e4eedfb4268452a995a6c7f8032941ec0d7799702615ec22a3c916c6",
+      "size_bytes": 709936,
+      "mods": [
+        {
+          "id": "ropebridge",
+          "name": "Rope Bridge",
+          "declared_version": "3.0.3",
+          "version": "3.0.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "ropebridge": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Rope Bridge",
+        "project_id": 238050,
+        "file_id": 7891254,
+        "file_name": "RopeBridge-1.20.1-3.0.3.jar",
+        "file_date": "2026-04-07T18:28:27.667Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/rope-bridge"
+      }
+    },
+    {
+      "artifact": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+      "sha256": "32c28582040dfab4e167542bf319107296e9eff3cb17f4f576eba036f2d256da",
+      "size_bytes": 568608,
+      "mods": [
+        {
+          "id": "embeddium_extra",
+          "name": "Embeddium Extra",
+          "declared_version": "0.5.4.4+mc1.20.1-build.131",
+          "version": "0.5.4.4+mc1.20.1-build.131"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {
+        "embeddium_extra": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1.3,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "embeddium",
+            "mandatory": true,
+            "versionRange": "*",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Embeddium (Rubidium) Extra",
+        "project_id": 654373,
+        "file_id": 6101745,
+        "file_name": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+        "file_date": "2025-01-19T03:16:15.17Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/rubidium-extra"
+      }
+    },
+    {
+      "artifact": "Scribble-1.5.1+mc1.20.1-forge.jar",
+      "sha256": "75a3e038173d0feb776ee6acb92e401608369f203ca9b5c7f93f14cf83dda4d2",
+      "size_bytes": 270676,
+      "mods": [
+        {
+          "id": "scribble",
+          "name": "Scribble",
+          "declared_version": "1.5.1",
+          "version": "1.5.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[1,)",
+      "dependencies": {
+        "scribble": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20, 1.20.1]"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Scribble",
+        "project_id": 1051344,
+        "file_id": 6240189,
+        "file_name": "Scribble-1.5.1+mc1.20.1-forge.jar",
+        "file_date": "2025-02-26T17:14:56.613Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/scribble"
+      }
+    },
+    {
+      "artifact": "skinlayers3d-forge-1.11.3-mc1.20.1.jar",
+      "sha256": "6229ea6e5d77dd1f66d21163bf3187abb899d59f508dae63ab67ecbb0f804cc5",
+      "size_bytes": 2093560,
+      "mods": [
+        {
+          "id": "skinlayers3d",
+          "name": "3d-Skin-Layers",
+          "declared_version": "1.11.3",
+          "version": "1.11.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[28,)",
+      "dependencies": {
+        "skinlayers3d": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "1.20.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Skin Layers 3D",
+        "project_id": 521480,
+        "file_id": 8906428,
+        "file_name": "skinlayers3d-forge-1.11.3-mc1.20.1.jar",
+        "file_date": "2026-09-17T20:05:18.107Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d"
+      }
+    },
+    {
+      "artifact": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "sha256": "dff5325abb58c0c8526dffb80e764188bde045fd02ca6ed5e2bb76f0897d46f4",
+      "size_bytes": 511601,
+      "mods": [
+        {
+          "id": "sodiumdynamiclights",
+          "name": "Sodium Dynamic Lights",
+          "declared_version": "1.0.9",
+          "version": "1.0.9"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[1,)",
+      "dependencies": {
+        "sodiumdynamiclights": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Sodium/Embeddium Dynamic Lights",
+        "project_id": 551736,
+        "file_id": 6044481,
+        "file_name": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+        "file_date": "2025-01-02T01:22:43.027Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged"
+      }
+    },
+    {
+      "artifact": "sodiumextras-forge-1.0.7-1.20.1.jar",
+      "sha256": "ce9a13c5f07e350f9c0b86af9e096aedb91cbc72996e59646da61ec724f1e4df",
+      "size_bytes": 438540,
+      "mods": [
+        {
+          "id": "sodiumextras",
+          "name": "Sodium Extras",
+          "declared_version": "1.0.6",
+          "version": "1.0.6"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[1,)",
+      "dependencies": {
+        "sodiumextras": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Sodium/Embeddium Extras",
+        "project_id": 558905,
+        "file_id": 6041697,
+        "file_name": "sodiumextras-forge-1.0.7-1.20.1.jar",
+        "file_date": "2025-01-01T04:39:13.763Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/magnesium-extras"
+      }
+    },
+    {
+      "artifact": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "sha256": "37ec0b6248f04e856e6e5ba2066c4ded9981ce128282a9b45cdb10b67b9c8415",
+      "size_bytes": 443978,
+      "mods": [
+        {
+          "id": "sodiumoptionsapi",
+          "name": "Sodium Options API",
+          "declared_version": "1.0.10",
+          "version": "1.0.10"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[1,)",
+      "dependencies": {
+        "sodiumoptionsapi": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Sodium/Embeddium Options API",
+        "project_id": 1103431,
+        "file_id": 6100812,
+        "file_name": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+        "file_date": "2025-01-18T20:48:18.013Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/sodium-options-api"
+      }
+    },
+    {
+      "artifact": "sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar",
+      "sha256": "34e4c3ef79e882cc8d92f72f71e6acc04a1ef0f50ba57784316f6b1f70708ed6",
+      "size_bytes": 181056,
+      "mods": [
+        {
+          "id": "sodiumoptionsmodcompat",
+          "name": "Sodium Options Mod Compat",
+          "declared_version": "1.0.0",
+          "version": "1.0.0"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[1,)",
+      "dependencies": {
+        "sodiumoptionsmodcompat": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "sodiumoptionsapi",
+            "mandatory": true,
+            "versionRange": "*",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Sodium/Embeddium Options Mod Compat",
+        "project_id": 1146393,
+        "file_id": 6929972,
+        "file_name": "sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar",
+        "file_date": "2025-08-26T10:34:02.567Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/sodium-embeddium-options-mod-compat"
+      }
+    },
+    {
+      "artifact": "sophisticatedbackpacks-1.20.1-3.26.9.2194.jar",
+      "sha256": "a597c6ae9442da5903cbfbd080c8503d71c41398fc6a34dd6e378d3d4b6a8136",
+      "size_bytes": 1215726,
+      "mods": [
+        {
+          "id": "sophisticatedbackpacks",
+          "name": "Sophisticated Backpacks",
+          "declared_version": "3.26.9.2194",
+          "version": "3.26.9.2194"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "sophisticatedbackpacks": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "sophisticatedcore",
+            "mandatory": true,
+            "versionRange": "[1.5.5.+,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "sophisticatedbackpacks-1.20.1-3.26.4.2172.jar",
+          "sha256": "57b0c4a20dd11c053d145774abfc308a8fb809e4ef35a1c2927e4792a968697e",
+          "mods": [
+            {
+              "id": "sophisticatedbackpacks",
+              "version": "3.26.4.2172"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "Sophisticated Backpacks",
+        "project_id": 422301,
+        "file_id": 9083935,
+        "file_name": "sophisticatedbackpacks-1.20.1-3.26.9.2194.jar",
+        "file_date": "2026-10-06T20:58:21.347Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks"
+      },
+      "shared_data_resources": [
+        "data/carryon/tags/blocks/block_blacklist.json",
+        "data/forge/loot_modifiers/global_loot_modifiers.json"
+      ],
+      "shared_resource_semantics": [
+        {
+          "path": "data/carryon/tags/blocks/block_blacklist.json",
+          "kncraft_source_path": "src/main/resources/packs/camp_safety/data/carryon/tags/blocks/block_blacklist.json",
+          "upstream_sha256": "6a69432d0d5c3c8ca9b80a57c1d76001aa48f3f7a2b7df80c10c75600f50637f",
+          "kncraft_sha256": "a876d5f3cb8810a09a534c8f0a2970276c11ed09ae34fa12821811f81ac663f8",
+          "same_json": false,
+          "upstream_replace": false,
+          "kncraft_replace": false,
+          "upstream_values": [
+            "sophisticatedbackpacks:backpack",
+            "sophisticatedbackpacks:iron_backpack",
+            "sophisticatedbackpacks:gold_backpack",
+            "sophisticatedbackpacks:diamond_backpack",
+            "sophisticatedbackpacks:netherite_backpack"
+          ],
+          "kncraft_values": [
+            {
+              "id": "nomadictents:tiny_yurt_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:tiny_tepee_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:tiny_bedouin_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:tiny_indlu_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:tiny_shamiyana_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:small_yurt_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:small_tepee_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:small_bedouin_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:small_indlu_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:small_shamiyana_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:medium_yurt_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:medium_tepee_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:medium_bedouin_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:medium_indlu_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:medium_shamiyana_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:large_yurt_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:large_tepee_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:large_bedouin_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:large_indlu_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:large_shamiyana_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:giant_yurt_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:giant_tepee_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:giant_bedouin_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:giant_indlu_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:giant_shamiyana_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:mega_yurt_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:mega_tepee_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:mega_bedouin_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:mega_indlu_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:mega_shamiyana_door",
+              "required": false
+            },
+            {
+              "id": "nomadictents:door_frame",
+              "required": false
+            },
+            {
+              "id": "cold_sweat:hearth_bottom",
+              "required": false
+            },
+            {
+              "id": "cold_sweat:hearth_top",
+              "required": false
+            }
+          ]
+        },
+        {
+          "path": "data/carryon/tags/blocks/block_blacklist.json",
+          "kncraft_source_path": "src/main/resources/packs/waystones/data/carryon/tags/blocks/block_blacklist.json",
+          "upstream_sha256": "6a69432d0d5c3c8ca9b80a57c1d76001aa48f3f7a2b7df80c10c75600f50637f",
+          "kncraft_sha256": "5cd46ed922e8340c07c71360edc69c379f8ca6e0e0b98cdd9a1c05da81dbe47e",
+          "same_json": false,
+          "upstream_replace": false,
+          "kncraft_replace": false,
+          "upstream_values": [
+            "sophisticatedbackpacks:backpack",
+            "sophisticatedbackpacks:iron_backpack",
+            "sophisticatedbackpacks:gold_backpack",
+            "sophisticatedbackpacks:diamond_backpack",
+            "sophisticatedbackpacks:netherite_backpack"
+          ],
+          "kncraft_values": [
+            "#waystones:waystones"
+          ]
+        },
+        {
+          "path": "data/forge/loot_modifiers/global_loot_modifiers.json",
+          "kncraft_source_path": "src/main/resources/packs/exploration/data/forge/loot_modifiers/global_loot_modifiers.json",
+          "upstream_sha256": "0bdcf3e6b5f01cea9963c6080b6ea3195c0551819eb5a2d724fe47abd0265f31",
+          "kncraft_sha256": "c136b9198fb5956a91f46af0c7ee72772c27e6b3a26dacc044b0d99723db17d1",
+          "same_json": false,
+          "upstream_replace": false,
+          "kncraft_replace": false,
+          "upstream_entries": [
+            "sophisticatedbackpacks:chests/end_city_treasure",
+            "sophisticatedbackpacks:chests/abandoned_mineshaft",
+            "sophisticatedbackpacks:chests/shipwreck_treasure",
+            "sophisticatedbackpacks:chests/simple_dungeon",
+            "sophisticatedbackpacks:chests/bastion_treasure",
+            "sophisticatedbackpacks:chests/spawn_bonus_chest",
+            "sophisticatedbackpacks:chests/desert_pyramid",
+            "sophisticatedbackpacks:chests/woodland_mansion",
+            "sophisticatedbackpacks:chests/nether_bridge"
+          ],
+          "kncraft_entries": [
+            "kncraft:pantry",
+            "kncraft:farm",
+            "kncraft:camp",
+            "kncraft:rail"
+          ]
+        }
+      ]
+    },
+    {
+      "artifact": "sophisticatedcore-1.20.1-1.5.6.2383.jar",
+      "sha256": "f8bf822f2a4ad48bca059af3b5e8ad42d716a99ed0ce57b246bbf80c233dae1e",
+      "size_bytes": 1758805,
+      "mods": [
+        {
+          "id": "sophisticatedcore",
+          "name": "Sophisticated Core",
+          "declared_version": "1.5.6.2383",
+          "version": "1.5.6.2383"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "sophisticatedcore": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "jei",
+            "mandatory": false,
+            "versionRange": "[15.20.0.106,)",
+            "ordering": "NONE",
+            "side": "CLIENT"
+          }
+        ]
+      },
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "sophisticatedcore-1.20.1-1.5.2.2346.jar",
+          "sha256": "82e8cfaf8deb3e9e85097003e7ff59a21eb67bc3d06e0906f3f1e94c79e58d14",
+          "mods": [
+            {
+              "id": "sophisticatedcore",
+              "version": "1.5.2.2346"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "Sophisticated Core",
+        "project_id": 618298,
+        "file_id": 9112479,
+        "file_name": "sophisticatedcore-1.20.1-1.5.6.2383.jar",
+        "file_date": "2026-10-09T21:21:37.9Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core"
+      },
+      "shared_data_resources": [],
+      "shared_resource_semantics": []
+    },
+    {
+      "artifact": "sound-physics-remastered-forge-1.20.1-1.4.10.jar",
+      "sha256": "57ce3c7d5abe724d9fb82f3d068b7717a56b94b7d3ea98f90a2f9ca61c8f57b1",
+      "size_bytes": 203819,
+      "mods": [
+        {
+          "id": "sound_physics_remastered",
+          "name": "Sound Physics Remastered",
+          "declared_version": "1.20.1-1.4.10",
+          "version": "1.20.1-1.4.10"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {
+        "sound_physics_remastered": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "cloth_config",
+            "mandatory": false,
+            "versionRange": "[11.0.99,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          },
+          {
+            "modId": "voicechat",
+            "mandatory": false,
+            "versionRange": "[1.20.1-2.3.0,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Sound Physics Remastered",
+        "project_id": 535489,
+        "file_id": 6352920,
+        "file_name": "sound-physics-remastered-forge-1.20.1-1.4.10.jar",
+        "file_date": "2025-03-26T20:47:56.437Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered"
+      }
+    },
+    {
+      "artifact": "Structory_1.20.x_v1.3.5.jar",
+      "sha256": "43f4b4b88bb9caa1114928a93e787335e56171b5233a545bf2f4da1ce9fe943b",
+      "size_bytes": 1286460,
+      "mods": [
+        {
+          "id": "structory",
+          "name": "Structory",
+          "declared_version": "1.3.5",
+          "version": "1.3.5"
+        }
+      ],
+      "mod_loader": "lowcodefml",
+      "loader_version": "[1,)",
+      "dependencies": {
+        "structory": [
+          {
+            "modId": "forge",
+            "mandatory": false,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "neoforge",
+            "mandatory": false,
+            "versionRange": "[20.2,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Structory",
+        "project_id": 636540,
+        "file_id": 5351581,
+        "file_name": "Structory_1.20.x_v1.3.5.jar",
+        "file_date": "2024-05-17T19:44:39.687Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/structory"
+      }
+    },
+    {
+      "artifact": "structure_gel-1.20.1-2.16.2.jar",
+      "sha256": "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e",
+      "size_bytes": 966028,
+      "mods": [
+        {
+          "id": "structure_gel",
+          "name": "Structure Gel API",
+          "declared_version": "${file.jarVersion}",
+          "version": "2.16.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "structure_gel": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "1.20.1",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Structure Gel API",
+        "project_id": 378802,
+        "file_id": 5278429,
+        "file_name": "structure_gel-1.20.1-2.16.2.jar",
+        "file_date": "2024-04-21T03:47:31.577Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/structure-gel-api"
+      }
+    },
+    {
+      "artifact": "SuperBarrels_4.jar",
+      "sha256": "90014232b596d54559d820d1f26fd6be7ea219acb3226412445d5962d38f5244",
+      "size_bytes": 959899,
+      "mods": [
+        {
+          "id": "superbarrels",
+          "name": "SuperBarrels",
+          "declared_version": "119",
+          "version": "119"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "superbarrels": [
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Super Barrels",
+        "project_id": 631789,
+        "file_id": 5655970,
+        "file_name": "SuperBarrels_4.jar",
+        "file_date": "2024-08-23T13:54:02.453Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/super-barrels"
+      }
+    },
+    {
+      "artifact": "tectonic-3.0.17-forge-1.20.1.jar",
+      "sha256": "c6de479b27cf090510de3f029918afc9fe17226981bd703e0002f7a25f4d8969",
+      "size_bytes": 322575,
+      "mods": [
+        {
+          "id": "tectonic",
+          "name": "Tectonic",
+          "declared_version": "3.0.17",
+          "version": "3.0.17"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "tectonic": [
+          {
+            "modId": "forge",
+            "type": "required",
+            "mandatory": true,
+            "versionRange": "[47,)"
+          },
+          {
+            "modId": "lithostitched",
+            "mandatory": true,
+            "type": "required",
+            "versionRange": "[1.4.11,)"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Tectonic",
+        "project_id": 686836,
+        "file_id": 7197834,
+        "file_name": "tectonic-3.0.17-forge-1.20.1.jar",
+        "file_date": "2025-11-08T05:23:39.413Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/tectonic"
+      }
+    },
+    {
+      "artifact": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+      "sha256": "c109016f46ca9bdae69976bf080bbf2e8e5968cb66c0a78845f8ca6af5dbbeb1",
+      "size_bytes": 107532,
+      "mods": [
+        {
+          "id": "terrablender",
+          "name": "TerraBlender",
+          "declared_version": "${file.jarVersion}",
+          "version": "3.0.1.10"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "terrablender": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "TerraBlender (Forge)",
+        "project_id": 563928,
+        "file_id": 6290448,
+        "file_name": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+        "file_date": "2025-03-10T23:40:16.85Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/terrablender"
+      }
+    },
+    {
+      "artifact": "Terralith_1.20.x_v2.5.4.jar",
+      "sha256": "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f",
+      "size_bytes": 3156901,
+      "mods": [
+        {
+          "id": "terralith",
+          "name": "Terralith",
+          "declared_version": "2.5.4",
+          "version": "2.5.4"
+        }
+      ],
+      "mod_loader": "lowcodefml",
+      "loader_version": "[1,)",
+      "dependencies": {
+        "terralith": [
+          {
+            "modId": "forge",
+            "mandatory": false,
+            "versionRange": "[46,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "neoforge",
+            "mandatory": false,
+            "versionRange": "[20.2,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Terralith",
+        "project_id": 513688,
+        "file_id": 5512076,
+        "file_name": "Terralith_1.20.x_v2.5.4.jar",
+        "file_date": "2024-07-07T22:15:52.497Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/terralith"
+      }
+    },
+    {
+      "artifact": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+      "sha256": "9c8115af7109579da990249fdd67b38323a45be70f8a3a962b61da69c7021984",
+      "size_bytes": 2864275,
+      "mods": [
+        {
+          "id": "t_and_t",
+          "name": "Towns and Towers",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.10.2"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[43,)",
+      "dependencies": {
+        "t_and_t": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[43,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.19.3,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "cristellib",
+            "mandatory": true,
+            "versionRange": "[1.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Towns and Towers",
+        "project_id": 626761,
+        "file_id": 4923828,
+        "file_name": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+        "file_date": "2023-12-03T19:12:26.64Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/towns-and-towers"
+      }
+    },
+    {
+      "artifact": "villagernames-1.20.1-8.7.jar",
+      "sha256": "13623d291855ac01d9ec64b6a8977596fafe66b8e2ad5de60249c192664de2b2",
+      "size_bytes": 56124,
+      "mods": [
+        {
+          "id": "villagernames",
+          "name": "Villager Names",
+          "declared_version": "8.7",
+          "version": "8.7"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {
+        "villagernames": [
+          {
+            "modId": "collective",
+            "type": "required",
+            "mandatory": true,
+            "versionRange": "[8.40,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "type": "required",
+            "mandatory": true,
+            "versionRange": "[1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "replaced",
+      "previous_artifacts": [
+        {
+          "artifact": "villagernames-1.20.1-8.5.jar",
+          "sha256": "e941c7d5da09ee16ff1d7a99ac0a2651e6d6b1fa649ea4da19c5866128108e64",
+          "mods": [
+            {
+              "mod_id": "villagernames",
+              "name": "Villager Names",
+              "metadata_version": "8.5"
+            }
+          ]
+        }
+      ],
+      "curseforge": {
+        "name": "Villager Names",
+        "project_id": 345854,
+        "file_id": 9032256,
+        "file_name": "villagernames-1.20.1-8.7.jar",
+        "file_date": "2026-10-01T23:42:27.143Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/villager-names"
+      },
+      "shared_data_resources": [],
+      "shared_resource_semantics": []
+    },
+    {
+      "artifact": "voicechat-forge-1.20.1-2.6.22.jar",
+      "sha256": "f171e99fa99f007ef013af5306f6c490fe79a11be7e1b18940147d75ced045b9",
+      "size_bytes": 4923439,
+      "mods": [
+        {
+          "id": "voicechat",
+          "name": "Simple Voice Chat",
+          "declared_version": "1.20.1-2.6.22",
+          "version": "1.20.1-2.6.22"
+        },
+        {
+          "id": "voicechat_api",
+          "name": "Simple Voice Chat API",
+          "declared_version": "2.6.20",
+          "version": "2.6.20"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "*",
+      "dependencies": {
+        "voicechat": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.0.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.20.1]",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "cloth_config",
+            "mandatory": false,
+            "versionRange": "[11.0.99,)",
+            "ordering": "AFTER",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Simple Voice Chat",
+        "project_id": 416089,
+        "file_id": 8601186,
+        "file_name": "voicechat-forge-1.20.1-2.6.22.jar",
+        "file_date": "2026-08-08T11:44:40.307Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat"
+      }
+    },
+    {
+      "artifact": "waystones-forge-1.20.1-14.1.21.jar",
+      "sha256": "fd6fe3c645328ea7be5bc6723d02c881e34650e0cbd4527ba59e42fa4cbe3c80",
+      "size_bytes": 536782,
+      "mods": [
+        {
+          "id": "waystones",
+          "name": "Waystones",
+          "declared_version": "14.1.21",
+          "version": "14.1.21"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[46,)",
+      "dependencies": {
+        "waystones": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[46.0.0,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "balm",
+            "mandatory": true,
+            "versionRange": "[7.3.28,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Waystones",
+        "project_id": 245755,
+        "file_id": 8849482,
+        "file_name": "waystones-forge-1.20.1-14.1.21.jar",
+        "file_date": "2026-09-10T09:28:11.713Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/waystones"
+      }
+    },
+    {
+      "artifact": "weather2-1.20.1-2.8.3.jar",
+      "sha256": "5eb828f93b2eb370d7f38ad1893739caf7655f32d58dbbdaabae6075ede635db",
+      "size_bytes": 6852245,
+      "mods": [
+        {
+          "id": "weather2",
+          "name": "Weather2",
+          "declared_version": "1.20.1-2.8.3",
+          "version": "1.20.1-2.8.3"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "weather2": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "coroutil",
+            "mandatory": true,
+            "versionRange": "[1.20.1-1.3.7,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Weather, Storms & Tornadoes",
+        "project_id": 237746,
+        "file_id": 5244118,
+        "file_name": "weather2-1.20.1-2.8.3.jar",
+        "file_date": "2024-04-07T19:13:55.953Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/weather-storms-tornadoes"
+      }
+    },
+    {
+      "artifact": "witherstormmod-1.20.1-4.2.1-all.jar",
+      "sha256": "a23c019b1465c87ba506ada49aa815866e5353ebdc2be3284d9087ff080018ac",
+      "size_bytes": 47342265,
+      "mods": [
+        {
+          "id": "witherstormmod",
+          "name": "Cracker's Wither Storm Mod",
+          "declared_version": "4.2.1",
+          "version": "4.2.1"
+        }
+      ],
+      "mod_loader": "javafml",
+      "loader_version": "[47,)",
+      "dependencies": {
+        "witherstormmod": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.1.0,47.1.5),[47.1.40,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "crackerslib",
+            "mandatory": true,
+            "versionRange": "[1.20.1-0.3.2.1,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "comparison": "unchanged",
+      "curseforge": {
+        "name": "Cracker's Wither Storm Mod",
+        "project_id": 621405,
+        "file_id": 5619741,
+        "file_name": "witherstormmod-1.20.1-4.2.1-all.jar",
+        "file_date": "2024-08-11T23:23:56.513Z",
+        "enabled": true,
+        "website": "https://www.curseforge.com/minecraft/mc-mods/crackers-wither-storm-mod"
+      }
+    }
+  ],
+  "nested_direct_integrations": [
+    {
+      "artifact": "META-INF/jarjar/infiniverse-1.20.1-1.0.0.5.jar",
+      "parent_artifact": "Nomadic-Tents-20.1.1.jar",
+      "sha256": "0a9e3ad0bdcee18959c1ecc68e76eca9cf25f0ab02565219db5e35ceaced3c2a",
+      "mods": [
+        {
+          "id": "infiniverse",
+          "name": "Infiniverse",
+          "declared_version": "${file.jarVersion}",
+          "version": "1.0.0.5"
+        }
+      ],
+      "dependencies": {
+        "infiniverse": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47.0.3,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1, 1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      }
+    }
+  ],
+  "integration_surface_review": [
+    {
+      "artifact": "sophisticatedcore-1.20.1-1.5.6.2383.jar",
+      "sha256": "f8bf822f2a4ad48bca059af3b5e8ad42d716a99ed0ce57b246bbf80c233dae1e",
+      "baseline_artifact": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
+      "baseline_sha256": "f4038a2e0d0e3504258fbe315cb27a37f1a769d71985bfa20afb983a3bdfab64",
+      "mod_version": "1.5.6.2383",
+      "data_json_comparison": {
+        "old_count": 6,
+        "new_count": 6,
+        "common_count": 6,
+        "changed_after_json_parsing": [],
+        "added": [],
+        "removed": [],
+        "byte_changed": []
+      },
+      "byte_identical_integrated_classes": [
+        {
+          "class": "net/p3pp3rf1y/sophisticatedcore/upgrades/feeding/FeedingUpgradeWrapper.class",
+          "byte_identical": true,
+          "sha256": "95cf34e205deef0706193300d5afea744dc410ba80defdf0e06ffde9e66ff647"
+        },
+        {
+          "class": "net/p3pp3rf1y/sophisticatedcore/upgrades/magnet/MagnetUpgradeWrapper.class",
+          "byte_identical": true,
+          "sha256": "6db57e07dd7a455ec5a0963174135bc6176f3104b711e551e9af510d2b5d2865"
+        },
+        {
+          "class": "net/p3pp3rf1y/sophisticatedcore/api/IStorageWrapper.class",
+          "byte_identical": true,
+          "sha256": "25814a54172392b7e144077d421b1bfbb01c8f3d5ecc68c932528ae3f707adb5"
+        },
+        {
+          "class": "net/p3pp3rf1y/sophisticatedcore/upgrades/UpgradeHandler.class",
+          "byte_identical": true,
+          "sha256": "94c5d0c0176599e2de32d1fa04769ff6538741d08dfedbf36b731632b33e0cac"
+        },
+        {
+          "class": "net/p3pp3rf1y/sophisticatedcore/upgrades/UpgradeType.class",
+          "byte_identical": true,
+          "sha256": "7bd6e61e3607a6462b68373cc79f5bbb35e42f3c1703a5b73ea0b60d29a1983a"
+        },
+        {
+          "class": "net/p3pp3rf1y/sophisticatedcore/upgrades/UpgradeWrapperBase.class",
+          "byte_identical": true,
+          "sha256": "6d3d899536ddd203111a4aa2e44219c342f7fc4af70b5ebc7d0744584db80662"
+        },
+        {
+          "class": "net/p3pp3rf1y/sophisticatedcore/inventory/InventoryHandler.class",
+          "byte_identical": true,
+          "sha256": "d02d50deef7ba916f3d3f00d13a91ec1e2aea92f7748fd96e3954fa07f000373"
+        },
+        {
+          "class": "net/p3pp3rf1y/sophisticatedcore/upgrades/magnet/IMagnetPreventionChecker.class",
+          "byte_identical": true,
+          "sha256": "8a0917b9067c4b4411c1908672ace949fe447651f10f95a7ad15f7267ce9ffd4"
+        },
+        {
+          "class": "net/p3pp3rf1y/sophisticatedcore/upgrades/magnet/MagnetUpgradeItem.class",
+          "byte_identical": true,
+          "sha256": "2d8bbeb22b8ff6b28a23e8bef310fed86cf5a1f1c251ab28a15f424b743ece13"
+        },
+        {
+          "class": "net/p3pp3rf1y/sophisticatedcore/upgrades/feeding/FeedingUpgradeItem.class",
+          "byte_identical": true,
+          "sha256": "2e79b780abc3557b3f95fa77926167386c5afc310c1c79783f65e11cca5a1b6a"
+        },
+        {
+          "class": "net/p3pp3rf1y/sophisticatedcore/upgrades/tank/TankUpgradeWrapper.class",
+          "byte_identical": true,
+          "sha256": "5deb001b7d4c609b2dfee6befe1669bb24faf3410bca58106c06917d454e7aa0"
+        }
+      ],
+      "byte_identical_recipe_classes": [
+        "net/p3pp3rf1y/sophisticatedcore/crafting/EnderLinkerClearRecipe.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/EnderLinkerEndpointRecipe$1.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/EnderLinkerEndpointRecipe$CraftingDiagnostic$Failure.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/EnderLinkerEndpointRecipe$CraftingDiagnostic.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/EnderLinkerEndpointRecipe$InFlightClaim.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/EnderLinkerEndpointRecipe$Inputs.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/EnderLinkerEndpointRecipe.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/IWrapperRecipe.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/ItemEnabledCondition$Serializer.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/ItemEnabledCondition.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/RecipeWrapperSerializer.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/ShapeBasedRecipeBuilder$Result.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/ShapeBasedRecipeBuilder.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/ShapelessBasedRecipeBuilder$Result.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/ShapelessBasedRecipeBuilder.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/StorageDyeRecipeBase.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/UpgradeClearRecipe.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/UpgradeNextTierRecipe$Serializer.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/UpgradeNextTierRecipe.class",
+        "net/p3pp3rf1y/sophisticatedcore/crafting/package-info.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingItemHandler$1.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingItemHandler.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingUpgradeContainer$1.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingUpgradeContainer$2.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingUpgradeContainer.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingUpgradeItem.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingUpgradeTab$1.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingUpgradeTab$2.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingUpgradeTab$3.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingUpgradeTab.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingUpgradeWrapper$1.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/CraftingUpgradeWrapper.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/ICraftingUIPart$1.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/ICraftingUIPart.class",
+        "net/p3pp3rf1y/sophisticatedcore/upgrades/crafting/package-info.class"
+      ],
+      "byte_identical_item_registry_classes": [
+        "net/p3pp3rf1y/sophisticatedcore/init/ModItems.class"
+      ],
+      "disassembly_assessment": "Only adds notifyBlockEntityUpdate and its synthetic lambda; old synthetic playerMayInteract lambda gets a new index. Existing methods unchanged."
+    },
+    {
+      "artifact": "sophisticatedbackpacks-1.20.1-3.26.9.2194.jar",
+      "sha256": "a597c6ae9442da5903cbfbd080c8503d71c41398fc6a34dd6e378d3d4b6a8136",
+      "baseline_artifact": "sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
+      "baseline_sha256": "6ab4a0cb739a6c11442a73d1b5f42c40c2ae93b31162fa63d81e1b66706e9e31",
+      "mod_version": "3.26.9.2194",
+      "data_json_comparison": {
+        "old_count": 240,
+        "new_count": 240,
+        "common_count": 240,
+        "changed_after_json_parsing": [],
+        "added": [],
+        "removed": [],
+        "byte_changed": []
+      },
+      "byte_identical_recipe_classes": [
+        "net/p3pp3rf1y/sophisticatedbackpacks/crafting/BackpackDyeRecipe.class",
+        "net/p3pp3rf1y/sophisticatedbackpacks/crafting/BackpackUpgradeRecipe$Serializer.class",
+        "net/p3pp3rf1y/sophisticatedbackpacks/crafting/BackpackUpgradeRecipe.class",
+        "net/p3pp3rf1y/sophisticatedbackpacks/crafting/BasicBackpackRecipe$Serializer.class",
+        "net/p3pp3rf1y/sophisticatedbackpacks/crafting/BasicBackpackRecipe.class",
+        "net/p3pp3rf1y/sophisticatedbackpacks/crafting/SmithingBackpackUpgradeRecipe$Serializer.class",
+        "net/p3pp3rf1y/sophisticatedbackpacks/crafting/SmithingBackpackUpgradeRecipe.class",
+        "net/p3pp3rf1y/sophisticatedbackpacks/crafting/package-info.class"
+      ],
+      "byte_identical_item_registry_classes": [
+        "net/p3pp3rf1y/sophisticatedbackpacks/init/ModItems$BackpackCauldronInteraction.class",
+        "net/p3pp3rf1y/sophisticatedbackpacks/init/ModItems$BackpackDispenseBehavior.class",
+        "net/p3pp3rf1y/sophisticatedbackpacks/init/ModItems.class"
+      ],
+      "disassembly_assessment": "Only adds settingsHandler=null inside onContentsNbtUpdated; method descriptors and existing implementation preserved otherwise."
+    }
+  ],
+  "guide_recipe_impact": {
+    "basis": "All Core/Backpacks data JSON filenames and parsed values retained; item registry classes and recipe implementation classes byte-identical. Guide current recipes therefore have no detected resource change requiring regeneration. Runtime resolved recipe catalog and client rendering must be validated separately.",
+    "namespaces": {
+      "sophisticatedcore": {
+        "guide_recipe_entry_count": 1,
+        "guide_referenced_recipe_count": 1,
+        "referenced_recipe_ids": [
+          "sophisticatedcore:ender_linker"
+        ],
+        "references_without_upstream_recipe_json": [],
+        "index_recipe_count": 4,
+        "index_item_count": 1
+      },
+      "sophisticatedbackpacks": {
+        "guide_recipe_entry_count": 69,
+        "guide_referenced_recipe_count": 76,
+        "referenced_recipe_ids": [
+          "sophisticatedbackpacks:advanced_alchemy_upgrade",
+          "sophisticatedbackpacks:advanced_compacting_upgrade",
+          "sophisticatedbackpacks:advanced_deposit_upgrade",
+          "sophisticatedbackpacks:advanced_feeding_upgrade",
+          "sophisticatedbackpacks:advanced_filter_upgrade",
+          "sophisticatedbackpacks:advanced_jukebox_upgrade",
+          "sophisticatedbackpacks:advanced_magnet_upgrade",
+          "sophisticatedbackpacks:advanced_magnet_upgrade_from_basic",
+          "sophisticatedbackpacks:advanced_mob_catcher_upgrade",
+          "sophisticatedbackpacks:advanced_pickup_upgrade",
+          "sophisticatedbackpacks:advanced_pump_upgrade",
+          "sophisticatedbackpacks:advanced_refill_upgrade",
+          "sophisticatedbackpacks:advanced_restock_upgrade",
+          "sophisticatedbackpacks:advanced_tool_swapper_upgrade",
+          "sophisticatedbackpacks:advanced_void_upgrade",
+          "sophisticatedbackpacks:alchemy_upgrade",
+          "sophisticatedbackpacks:anvil_upgrade",
+          "sophisticatedbackpacks:auto_blasting_upgrade",
+          "sophisticatedbackpacks:auto_blasting_upgrade_from_auto_smelting_upgrade",
+          "sophisticatedbackpacks:auto_smelting_upgrade",
+          "sophisticatedbackpacks:auto_smoking_upgrade",
+          "sophisticatedbackpacks:auto_smoking_upgrade_from_auto_smelting_upgrade",
+          "sophisticatedbackpacks:backpack",
+          "sophisticatedbackpacks:battery_upgrade",
+          "sophisticatedbackpacks:blasting_upgrade",
+          "sophisticatedbackpacks:blasting_upgrade_from_smelting_upgrade",
+          "sophisticatedbackpacks:compacting_upgrade",
+          "sophisticatedbackpacks:copper_backpack",
+          "sophisticatedbackpacks:crafting_upgrade",
+          "sophisticatedbackpacks:deposit_upgrade",
+          "sophisticatedbackpacks:diamond_backpack",
+          "sophisticatedbackpacks:everlasting_upgrade",
+          "sophisticatedbackpacks:feeding_upgrade",
+          "sophisticatedbackpacks:filter_upgrade",
+          "sophisticatedbackpacks:gold_backpack",
+          "sophisticatedbackpacks:inception_upgrade",
+          "sophisticatedbackpacks:iron_backpack",
+          "sophisticatedbackpacks:iron_backpack_from_copper",
+          "sophisticatedbackpacks:jukebox_upgrade",
+          "sophisticatedbackpacks:magnet_upgrade",
+          "sophisticatedbackpacks:mob_catcher_upgrade",
+          "sophisticatedbackpacks:netherite_backpack",
+          "sophisticatedbackpacks:pickup_upgrade",
+          "sophisticatedbackpacks:pump_upgrade",
+          "sophisticatedbackpacks:refill_upgrade",
+          "sophisticatedbackpacks:restock_upgrade",
+          "sophisticatedbackpacks:smelting_upgrade",
+          "sophisticatedbackpacks:smithing_upgrade",
+          "sophisticatedbackpacks:smoking_upgrade",
+          "sophisticatedbackpacks:smoking_upgrade_from_smelting_upgrade",
+          "sophisticatedbackpacks:stack_downgrade_tier_1",
+          "sophisticatedbackpacks:stack_downgrade_tier_2",
+          "sophisticatedbackpacks:stack_downgrade_tier_3",
+          "sophisticatedbackpacks:stack_upgrade_omega_tier",
+          "sophisticatedbackpacks:stack_upgrade_starter_tier",
+          "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_1_conversion",
+          "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_2_conversion",
+          "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_3_conversion",
+          "sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_4_conversion",
+          "sophisticatedbackpacks:stack_upgrade_tier_1",
+          "sophisticatedbackpacks:stack_upgrade_tier_1_from_starter",
+          "sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_2_conversion",
+          "sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_3_conversion",
+          "sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_4_conversion",
+          "sophisticatedbackpacks:stack_upgrade_tier_2",
+          "sophisticatedbackpacks:stack_upgrade_tier_2_to_tier_3_conversion",
+          "sophisticatedbackpacks:stack_upgrade_tier_2_to_tier_4_conversion",
+          "sophisticatedbackpacks:stack_upgrade_tier_3",
+          "sophisticatedbackpacks:stack_upgrade_tier_3_to_tier_4_conversion",
+          "sophisticatedbackpacks:stack_upgrade_tier_4",
+          "sophisticatedbackpacks:stonecutter_upgrade",
+          "sophisticatedbackpacks:tank_upgrade",
+          "sophisticatedbackpacks:tool_swapper_upgrade",
+          "sophisticatedbackpacks:upgrade_base",
+          "sophisticatedbackpacks:void_upgrade",
+          "sophisticatedbackpacks:xp_pump_upgrade"
+        ],
+        "references_without_upstream_recipe_json": [],
+        "index_recipe_count": 77,
+        "index_item_count": 69
+      }
+    }
+  },
+  "production_change": "Add only Sophisticated Core 1.5.6.2383 to the runtime allowlist and Forge singleton ranges; preserve older approvals and production gameplay behavior.",
+  "harness_change": "Inventory Totem 3.5 relocated the native callback to com.serilum; prefer that class with ClassNotFoundException-only fallback to the 3.4 com.natamus class. Consumption assertions retained.",
+  "build": {
+    "version": "1.0.11",
+    "java_unit_tests": 22,
+    "java_unit_failures": 0,
+    "recipe_tier_tests": 4,
+    "resource_json_files": 3562,
+    "journal_records": 344,
+    "native_recipes_covered": 3865,
+    "jar": "KNCraftCompatibilityMod-1.0.11.jar",
+    "sha256": "c8cc6c3a5711c02fab245fd0cb0f516f87fbbd77d2a2c5de9348be024e69cc85"
+  },
+  "initial_runtime_results": [
+    {
+      "fixture": "old",
+      "returncode": 0,
+      "failures": [],
+      "jar_sha256": "c8cc6c3a5711c02fab245fd0cb0f516f87fbbd77d2a2c5de9348be024e69cc85"
+    },
+    {
+      "fixture": "current",
+      "returncode": 1,
+      "failures": [
+        "[14:09:38] [Server thread/INFO] [minecraft/MinecraftServer]: EXPANSION CHECKS FAILED: java.lang.ClassNotFoundException: com.natamus.inventorytotem_common_forge.events.TotemEvent"
+      ],
+      "jar_sha256": "c8cc6c3a5711c02fab245fd0cb0f516f87fbbd77d2a2c5de9348be024e69cc85"
+    }
+  ],
+  "initial_failure_disposition": "Updated fixture expansion harness referenced a renamed Inventory Totem class; all other suites passed. Failure evidence retained; the repaired expansion harness passed in both fixtures with the same production JAR.",
+  "validation_evidence_directory": ".cache/compat-update-2026-10-11/",
+  "expansion_recheck_results": [
+    {
+      "fixture": "old",
+      "returncode": 0,
+      "failures": [],
+      "jar_sha256": "c8cc6c3a5711c02fab245fd0cb0f516f87fbbd77d2a2c5de9348be024e69cc85",
+      "harness_sha256": "0c49230451ccb221f78445390762bb36652e10d9b5a4a5f839414be9f0b3f360"
+    },
+    {
+      "fixture": "current",
+      "returncode": 0,
+      "failures": [],
+      "jar_sha256": "c8cc6c3a5711c02fab245fd0cb0f516f87fbbd77d2a2c5de9348be024e69cc85",
+      "harness_sha256": "0c49230451ccb221f78445390762bb36652e10d9b5a4a5f839414be9f0b3f360"
+    }
+  ],
+  "validation_outcome": "All targeted suites passed on original and current gameplay versions; initial test-package relocation failure resolved."
+}

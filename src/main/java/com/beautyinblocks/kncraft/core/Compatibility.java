@@ -15,7 +15,7 @@ public final class Compatibility {
         Map.entry("alexsmobs", List.of("1.22.9")), Map.entry("weather2", List.of("1.20.1-2.8.3")),
         Map.entry("callfromthedepth_", List.of("1.22.1")), Map.entry("cold_sweat", List.of("2.4.3", "2.4.3.2")),
         Map.entry("more_enchantments", List.of("1.4.3")), Map.entry("elytraslot", List.of("6.4.4+1.20.1")),
-        Map.entry("bettercombat", List.of("1.9.0+1.20.1")), Map.entry("sophisticatedcore", List.of("1.5.1.2335", "1.5.2.2346")),
+        Map.entry("bettercombat", List.of("1.9.0+1.20.1")), Map.entry("sophisticatedcore", List.of("1.5.1.2335", "1.5.2.2346", "1.5.6.2383")),
         Map.entry("carryon", List.of("2.1.2.7")));
     public static final Set<String> LEGACY = Set.of("kncraftnativeportals", "kncrafttentportals", "kncraftperformance");
     public static String version(String id) {
